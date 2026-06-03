@@ -4102,7 +4102,7 @@ async function lookupReps() {
 
   try {
     // Server-side proxy via Netlify Function — no CORS issues
-    const repRes = await fetch(`/api/lookup?zip=${zip}`);
+    const repRes = await fetch(`/.netlify/functions/rep-lookup?zip=${zip}`);
     const repData = await repRes.json();
     const reps = repData.results || [];
     if(!reps.length) throw new Error('No results');
@@ -4117,7 +4117,7 @@ async function lookupReps() {
       email: '',
     }));
 
-    const senRes = await fetch(`/api/lookup?state=${state}`);
+    const senRes = await fetch(`/.netlify/functions/rep-lookup?state=${state}`);
     const senData = await senRes.json();
     (senData.results || []).forEach(s => {
       currentReps.push({
