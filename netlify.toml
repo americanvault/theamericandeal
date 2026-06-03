@@ -1,2 +1,7 @@
 [functions]
   directory = "functions"
+
+[[redirects]]
+  from = "/api/lookup"
+  to = "/.netlify/functions/rep-lookup"
+  status = 200

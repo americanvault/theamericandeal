@@ -3985,6 +3985,17 @@ function setCount(n) {
   // Load counter from localStorage on page load
   setCount(parseInt(localStorage.getItem('nsra_sig_count') || '0'));
 
+  // Wire form submission — prevents page reload
+  document.addEventListener('DOMContentLoaded', function() {
+    var form = document.getElementById('nsra-sig-form');
+    if(form) form.addEventListener('submit', handleSigSubmit);
+  });
+  // Fallback if DOMContentLoaded already fired
+  if(document.readyState !== 'loading') {
+    var form = document.getElementById('nsra-sig-form');
+    if(form) form.addEventListener('submit', handleSigSubmit);
+  }
+
   // Show SMS opt-in when phone is entered
   const phoneInput = document.getElementById('sig-phone');
   const smsRow = document.getElementById('sms-opt-in-row');
@@ -4082,7 +4093,6 @@ if(window.location.search.includes('signed=1')) {
 
 // ── REP LOOKUP ──────────────────────────────────────────────────
 let currentReps = [];
-const PROXY = 'https://corsproxy.io/?';
 
 async function lookupReps() {
   const zip = document.getElementById('rep-zip').value.trim();
@@ -4091,8 +4101,8 @@ async function lookupReps() {
   container.innerHTML = '<div style="font-size:12px;color:var(--muted);padding:8px 0">Looking up your legislators…</div>';
 
   try {
-    // Get House rep by ZIP — proxy URL must NOT be encoded
-    const repRes = await fetch(PROXY + `https://whoismyrepresentative.com/getall_mems.php?zip=${zip}&output=json`);
+    // Server-side proxy via Netlify Function — no CORS issues
+    const repRes = await fetch(`/api/lookup?zip=${zip}`);
     const repData = await repRes.json();
     const reps = repData.results || [];
     if(!reps.length) throw new Error('No results');
@@ -4107,8 +4117,7 @@ async function lookupReps() {
       email: '',
     }));
 
-    // Get senators by state
-    const senRes = await fetch(PROXY + `https://whoismyrepresentative.com/getall_sens.php?state=${state}&output=json`);
+    const senRes = await fetch(`/api/lookup?state=${state}`);
     const senData = await senRes.json();
     (senData.results || []).forEach(s => {
       currentReps.push({
