@@ -4182,10 +4182,7 @@ function buildEmail(highlightIdx) {
     return;
   }
 
-  const billLines = checked.map(v => `  • ${BILL_DETAILS[v].name}:
-    ${BILL_DETAILS[v].desc}`).join('
-
-');
+  const billLines = checked.map(v => `  • ${BILL_DETAILS[v].name}:\n    ${BILL_DETAILS[v].desc}`).join('\n\n');
   const billNames = checked.map(v => BILL_DETAILS[v].name).join(', ');
 
   const body =
