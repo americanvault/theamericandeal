@@ -4277,39 +4277,34 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     if (e2) e2.textContent = s;
   }
 
-  // Primary: Netlify Forms count · Secondary Netlify: counterapi.dev edge fn
-  // Direct fallback: counterapi.dev raw · Silent fail preserves default DOM value
+  // Counter: read directly from counterapi.dev (incremented on every real submission)
   async function updateVisitorCounter() {
-    const PRIMARY_API_URL  = '/.netlify/functions/signature-count';
-    const FALLBACK_API_URL = 'https://api.counterapi.dev/v1/theamericandeal/nsra/get';
     try {
-      const response = await fetch(PRIMARY_API_URL);
-      if (!response.ok) throw new Error('Primary function unreachable');
-      const data = await response.json();
-      if (typeof data.count === 'number' && data.count > 0) { renderCounter(data.count); return; }
-      // Primary returned but count invalid — try Netlify edge fn for counterapi read
-      const r2 = await fetch('/.netlify/functions/increment-count');
-      if (!r2.ok) throw new Error('Secondary function unreachable');
-      const d2 = await r2.json();
-      if (typeof d2.count === 'number' && d2.count > 0) { renderCounter(d2.count); return; }
-      throw new Error('No valid count from Netlify functions');
-    } catch (error) {
-      console.warn('Primary counter function failed. Operationalizing direct fallback:', error);
-      try {
-        const fallbackResponse = await fetch(FALLBACK_API_URL);
-        if (!fallbackResponse.ok) throw new Error('Fallback API responded with error');
-        const fallbackData = await fallbackResponse.json();
-        if (typeof fallbackData.count === 'number' && fallbackData.count > 0) {
-          renderCounter(fallbackData.count);
-        }
-        // else: no valid count — leave existing DOM value intact
-      } catch (fallbackError) {
-        // All paths unreachable (e.g. local dev, CORS) — silent fail, keep default DOM value
-        console.warn('Counter unreachable — keeping default display value.', fallbackError);
-      }
+      const r = await fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/get');
+      if (!r.ok) throw new Error('counterapi unreachable');
+      const d = await r.json();
+      if (typeof d.count === 'number' && d.count > 0) { renderCounter(d.count); }
+    } catch (e) {
+      console.warn('Counter unreachable — keeping default display value.', e);
     }
   }
   updateVisitorCounter();
+
+  // ── Duplicate prevention helpers ─────────────────────────────
+  // Store a simple hash of signed emails in localStorage so re-submissions
+  // are blocked instantly on the same device without a server round-trip.
+  function emailKey(email) {
+    // djb2 hash — fast, no crypto dependency needed
+    var h = 5381;
+    for (var i = 0; i < email.length; i++) { h = ((h << 5) + h) ^ email.charCodeAt(i); }
+    return 'nsra_sig_' + (h >>> 0).toString(16);
+  }
+  function hasSignedLocally(email) {
+    try { return !!localStorage.getItem(emailKey(email.toLowerCase())); } catch(e) { return false; }
+  }
+  function markSignedLocally(email) {
+    try { localStorage.setItem(emailKey(email.toLowerCase()), '1'); } catch(e) {}
+  }
 
   // ── Rep / email state ───────────────────────────────────────
   var _reps    = [];
@@ -4329,6 +4324,15 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
     msg.className    = 'wf-msg';
     msg.style.display = 'none';
+
+    // Fast local duplicate check before any server call
+    if (hasSignedLocally(email)) {
+      msg.className    = 'wf-msg error';
+      msg.textContent  = 'This email has already signed the NSRA — thank you for your support.';
+      msg.style.display = 'block';
+      return;
+    }
+
     btn.disabled     = true;
     btn.textContent  = 'Submitting…';
 
@@ -4356,6 +4360,9 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
         btn.textContent  = 'Sign the NSRA →';
         return;
       }
+
+      // Mark locally so same-device re-submit is blocked immediately
+      markSignedLocally(email);
 
       // Update counter
       if (typeof data.count === 'number') renderCounter(data.count);
