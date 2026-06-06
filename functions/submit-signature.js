@@ -8,7 +8,7 @@ exports.handler = async function (event) {
     var netlifyToken  = process.env.NETLIFY_ACCESS_TOKEN;
     var siteId        = process.env.NETLIFY_SITE_ID;
     var formSubmitUrl = 'https://formsubmit.co/ajax/americandealvault@proton.me';
-    var counterUrl    = 'https://api.counterapi.dev/v1/theamericandeal/nsra/up';
+        var counterUrl    = 'https://api.counterapi.dev/v1/theamericandeal/nsra-sigs/up';
 
     try {
           var fields = {};
