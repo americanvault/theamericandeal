@@ -4160,9 +4160,9 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
       <div class="wizard-step-label">Step 2 of 2 &nbsp;&middot;&nbsp; Contact Your Legislators</div>
       <div class="wizard-progress"><div class="wizard-progress-bar" style="width:100%"></div></div>
       <div class="delegation-row" id="delegation-row">
-        <div class="del-card"><div class="del-icon" id="del-rep-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green)">REP</div><div class="del-role">Representative</div><div class="del-name" id="del-rep">[Representative Name]</div></div>
-        <div class="del-card"><div class="del-icon" id="del-sen1-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green)">SEN</div><div class="del-role">Senator</div><div class="del-name" id="del-sen1">[Senator Name 1]</div></div>
-        <div class="del-card"><div class="del-icon" id="del-sen2-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green)">SEN</div><div class="del-role">Senator</div><div class="del-name" id="del-sen2">[Senator Name 2]</div></div>
+        <div class="del-card"><div class="del-icon" id="del-rep-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green);overflow:hidden">REP</div><div class="del-role">Representative</div><div class="del-name" id="del-rep">[Representative Name]</div><a id="del-rep-link" href="#" target="_blank" rel="noopener" style="display:none;font-size:10px;font-weight:600;color:var(--green);text-decoration:none;margin-top:4px;letter-spacing:0.04em">Contact &rarr;</a></div>
+        <div class="del-card"><div class="del-icon" id="del-sen1-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green);overflow:hidden">SEN</div><div class="del-role">Senator</div><div class="del-name" id="del-sen1">[Senator Name 1]</div><a id="del-sen1-link" href="#" target="_blank" rel="noopener" style="display:none;font-size:10px;font-weight:600;color:var(--green);text-decoration:none;margin-top:4px;letter-spacing:0.04em">Contact &rarr;</a></div>
+        <div class="del-card"><div class="del-icon" id="del-sen2-img" style="width:48px;height:48px;border-radius:50%;background:rgba(34,197,94,0.15);border:2px solid rgba(34,197,94,0.3);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--green);overflow:hidden">SEN</div><div class="del-role">Senator</div><div class="del-name" id="del-sen2">[Senator Name 2]</div><a id="del-sen2-link" href="#" target="_blank" rel="noopener" style="display:none;font-size:10px;font-weight:600;color:var(--green);text-decoration:none;margin-top:4px;letter-spacing:0.04em">Contact &rarr;</a></div>
       </div>
       <textarea class="w-email-preview" id="w-email-body" readonly style="resize:none;width:100%;box-sizing:border-box;cursor:text;font-family:'Courier New',monospace"></textarea>
       <!-- Email provider picker -->
@@ -4385,7 +4385,7 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
       btn.textContent = 'Submitting via backup…';
       var _zip = document.getElementById('sig-zip') ? document.getElementById('sig-zip').value : '';
       var _em  = document.getElementById('nsra-sig-form') ? (document.getElementById('nsra-sig-form').querySelector('[name="email"]')||{}).value||'' : '';
-      fetch('https://formsubmit.co/ajax/americandealvault@proton.me', {
+      fetch('https://formsubmit.co/ajax/americanvault@proton.me', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
@@ -4412,25 +4412,102 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
   window.handleSigSubmit = handleSigSubmit;
 
-  // ── Step 2 — rep lookup ──────────────────────────────────────
-  function loadReps(zip) {
-    fetch('/api/lookup?zip=' + encodeURIComponent(zip))
-      .then(function (r) { return r.json(); })
-      .then(function (d) {
-        _reps = d.results || [];
-        var reps = _reps.filter(function (r) { return r.role === 'rep'; });
-        var sens = _reps.filter(function (r) { return r.role === 'sen'; });
-        var repEl  = document.getElementById('del-rep');
-        var sen1El = document.getElementById('del-sen1');
-        var sen2El = document.getElementById('del-sen2');
-        if (reps[0] && repEl)  repEl.textContent  = reps[0].name;
-        if (sens[0] && sen1El) sen1El.textContent = sens[0].name;
-        if (sens[1] && sen2El) sen2El.textContent = sens[1].name;
-        buildEmailBody();
-      })
-      .catch(function () { buildEmailBody(); });
+  // ── Step 2 — rep lookup ────────────────────────────────────────────────────
+  // Primary:  whoismyrepresentative.com (direct, CORS-open)
+  // Fallback: allorigins CORS proxy
+  // Photos:   bioguide.congress.gov (matched via unitedstates/congress-legislators)
+  // Note: congressional email addresses are not publicly available.
+  //       openEmail() pre-fills subject+body; user adds recipient from "Contact →" link.
+
+  var _legislatorsCache = null;
+
+  function loadLegislatorsJson(cb) {
+    if (_legislatorsCache) { cb(_legislatorsCache); return; }
+    fetch('https://cdn.jsdelivr.net/gh/unitedstates/congress-legislators@main/legislators-current.json')
+      .then(function(r) { return r.json(); })
+      .then(function(d) { _legislatorsCache = d; cb(d); })
+      .catch(function() { cb([]); });
   }
 
+  function setBioguidePhoto(imgElId, name, legislators) {
+    var imgEl = document.getElementById(imgElId);
+    if (!imgEl) return;
+    var nameLower = name.toLowerCase().replace(/[^a-z ]/g, '');
+    var match = null;
+    for (var i = 0; i < legislators.length; i++) {
+      var l = legislators[i];
+      var full = ((l.name && l.name.official_full) || '').toLowerCase().replace(/[^a-z ]/g, '');
+      var last = ((l.name && l.name.last) || '').toLowerCase();
+      if (full === nameLower || (last.length > 2 && nameLower.indexOf(last) !== -1)) { match = l; break; }
+    }
+    if (match && match.id && match.id.bioguide) {
+      var bioId = match.id.bioguide;
+      var photoUrl = 'https://bioguide.congress.gov/bioguide/photo/' + bioId[0] + '/' + bioId + '.jpg';
+      var img = document.createElement('img');
+      img.style.cssText = 'width:100%;height:100%;object-fit:cover;border-radius:50%';
+      img.alt = name;
+      img.src = photoUrl;
+      imgEl.innerHTML = '';
+      imgEl.appendChild(img);
+    }
+  }
+
+  function applyRepsToUI(reps, sens) {
+    var repEl      = document.getElementById('del-rep');
+    var sen1El     = document.getElementById('del-sen1');
+    var sen2El     = document.getElementById('del-sen2');
+    var repLinkEl  = document.getElementById('del-rep-link');
+    var sen1LinkEl = document.getElementById('del-sen1-link');
+    var sen2LinkEl = document.getElementById('del-sen2-link');
+
+    if (reps[0]) {
+      if (repEl)  repEl.textContent = reps[0].name;
+      if (repLinkEl && reps[0].url) { repLinkEl.href = reps[0].url; repLinkEl.style.display = 'inline-block'; }
+    }
+    if (sens[0]) {
+      if (sen1El)  sen1El.textContent = sens[0].name;
+      if (sen1LinkEl && sens[0].url) { sen1LinkEl.href = sens[0].url; sen1LinkEl.style.display = 'inline-block'; }
+    }
+    if (sens[1]) {
+      if (sen2El)  sen2El.textContent = sens[1].name;
+      if (sen2LinkEl && sens[1].url) { sen2LinkEl.href = sens[1].url; sen2LinkEl.style.display = 'inline-block'; }
+    }
+
+    buildEmailBody();
+
+    // Load photos async — UI already shows names
+    loadLegislatorsJson(function(legislators) {
+      if (reps[0])  setBioguidePhoto('del-rep-img',  reps[0].name,  legislators);
+      if (sens[0])  setBioguidePhoto('del-sen1-img', sens[0].name, legislators);
+      if (sens[1])  setBioguidePhoto('del-sen2-img', sens[1].name, legislators);
+    });
+  }
+
+  function loadReps(zip) {
+    function parseResults(results) {
+      _reps = (results || []).map(function(r) {
+        var role = (!r.district || r.district === '0' || r.district === '') ? 'sen' : 'rep';
+        return { name: r.name, role: role, state: r.state, url: r.link || null, email: null };
+      });
+      applyRepsToUI(
+        _reps.filter(function(r) { return r.role === 'rep'; }),
+        _reps.filter(function(r) { return r.role === 'sen'; })
+      );
+    }
+
+    var directUrl = 'https://whoismyrepresentative.com/getall_mems.php?zip=' + encodeURIComponent(zip) + '&output=json';
+    var proxyUrl  = 'https://api.allorigins.win/get?url=' + encodeURIComponent(directUrl);
+
+    fetch(directUrl)
+      .then(function(r) { if (!r.ok) throw new Error('blocked'); return r.json(); })
+      .then(function(d) { parseResults(d.results); })
+      .catch(function() {
+        fetch(proxyUrl)
+          .then(function(r) { return r.json(); })
+          .then(function(d) { parseResults(JSON.parse(d.contents || '{}').results); })
+          .catch(function() { buildEmailBody(); });
+      });
+  }
   function buildEmailBody() {
     var names = _reps.length
       ? _reps.map(function (r) { return r.name; }).join(', ')
