@@ -286,6 +286,28 @@ SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FDVMA AS DATA SPI
 (b) FDVMA REFERRAL MECHANISM.—Upon generating a Verified Structural Variance Report, the FDVMA shall automatically transmit the Report to the primary enforcement agency designated in subsection (a) within twenty-four (24) hours. The primary agency's SAE ninety (90) day enforcement clock begins upon receipt of the FDVMA referral. The FDVMA retains concurrent enforcement authority as a backstop if the primary agency fails to act within the SAE window.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
+
+(a) FINDINGS.—Congress finds that the enforcement capacity of federal regulatory agencies is a function of both statutory authority and operational resources, and that executive budget manipulation — including targeted staffing reductions, hiring freezes, and selective non-enforcement directives — has historically been used to functionally nullify statutory mandates without formally repealing them. The NSRA's enforcement architecture depends on the institutional integrity of EPA, the NLRB, the CFPB, the FDA, the NIH, and the FERC as primary enforcement partners. This section insulates those agencies' NSRA-mandated functions from executive budget interference.
+
+(b) SIRF-FUNDED ENFORCEMENT FLOOR.—For each agency designated as a primary enforcement agency under Section 106 of this Title, the SIRF Administrative Operations Reserve shall provide a mandatory annual enforcement floor grant, drawn automatically without appropriation action, sufficient to maintain the following minimum operational capacity for NSRA-mandated functions:
+(1) ENVIRONMENTAL PROTECTION AGENCY.—Not less than five hundred million dollars ($500,000,000) annually, designated exclusively for enforcement of NSRA Title X, Title XI, and the A.B.R.N. mandate, pesticide prohibition enforcement under Title VII, and the scientific integrity functions established in Section 1006 of this Act;
+(2) NATIONAL LABOR RELATIONS BOARD.—Not less than one hundred fifty million dollars ($150,000,000) annually, designated for enforcement of Title XXVIII enhanced labor protections, maintenance of a case processing workforce sufficient to adjudicate unfair labor practice charges within ninety (90) days of filing, and operation of the mandatory interim reinstatement function under Section 2801;
+(3) CONSUMER FINANCIAL PROTECTION BUREAU.—Not less than two hundred fifty million dollars ($250,000,000) annually, designated for enforcement of the predatory lending and medical debt sovereign standards established in Section 2416 of this Act and existing CFPB authority over mortgage servicing, payday lending, and debt collection;
+(4) FOOD AND DRUG ADMINISTRATION.—Not less than three hundred million dollars ($300,000,000) annually, designated for enforcement of NSRA pharmaceutical parity mandates under Title XIII, GRAS review functions under Section 704, essential medicines manufacturing sovereignty under Section 1302, and the curative drug registry under Section 1304;
+(5) NATIONAL INSTITUTES OF HEALTH.—Not less than two hundred million dollars ($200,000,000) annually, designated for administration of the National Curative Drug Registry, march-in rights enforcement under Section 1304, and the research integrity protection functions established in this section; and
+(6) FEDERAL ENERGY REGULATORY COMMISSION.—Not less than one hundred million dollars ($100,000,000) annually, designated for enforcement of grid modernization mandates under Section 905, SMR licensing coordination under Section 902(d), and grid sovereignty standards under Title IX.
+
+(c) STAFFING FLOOR MANDATE.—No executive action, including any order from the Office of Management and Budget, the Office of Personnel Management, or any presidential directive, may reduce the full-time equivalent workforce of any agency receiving an enforcement floor grant under subsection (b) below the workforce level in place at the date of enactment of this Act for the functions funded by that grant. Any reduction in workforce for NSRA-mandated functions shall require explicit statutory authorization.
+
+(d) SCIENTIFIC AND RESEARCH INTEGRITY PROTECTION.—
+(1) PROHIBITION ON POLITICAL SUPPRESSION.—No officer or employee of the executive branch may direct, order, or induce any scientist, researcher, or career official of EPA, NIH, FDA, CDC, or USDA to alter, suppress, delay, or misrepresent any scientific finding, assessment, report, or recommendation for political, commercial, or policy preference reasons.
+(2) MANDATORY PUBLICATION.—Any scientific assessment, environmental impact finding, drug safety determination, or public health recommendation completed by a federal agency scientist shall be published in the agency's public record within ninety (90) days of completion, unless classification under 50 U.S.C. § 3024 is required — in which case an unclassified summary shall be published.
+(3) ENFORCEMENT.—Willful violation of subsection (d)(1) by any executive official shall be subject to civil penalty of not less than two hundred fifty thousand dollars ($250,000) per incident and mandatory referral to the Department of Justice. Any scientist subjected to retaliation for refusing to suppress findings shall have a private right of action for reinstatement, back pay, and compensatory damages in federal district court.
+
+(e) CITIZEN SUIT RIGHTS — NSRA MANDATE ENFORCEMENT.—Any person may bring a civil action in the United States District Court for the district in which the violation occurred against any federal agency that has failed to perform a non-discretionary act or duty required by this Act within the timeframe specified. The court shall have jurisdiction to compel agency action unlawfully withheld and to award reasonable attorney fees and costs to prevailing plaintiffs. This subsection supplements, and does not limit, the remedies available under 5 U.S.C. § 706 (APA arbitrary and capricious review).
+
 TITLE II — THE SOVEREIGN ECONOMIC RESET AND CLOSED-LOOP CAPITALIZATION ENGINE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -297,7 +319,7 @@ SEC. 201. THE SOVEREIGN INFRASTRUCTURE REINVESTMENT FUND — SIRF LOCKBOX.
 
 (1) IN GENERAL.—There is established in the Treasury of the United States a permanent, separate, non-lapsing statutory trust fund to be known as the Sovereign Infrastructure Reinvestment Fund (SIRF).
 
-(2) AUTOMATED SOURCE DEPOSITS.—The Treasury shall ensure that all capital flows generated via strict liability penalty assessments, fraud recoveries, asset forfeitures, equalization levies, and structural clawbacks executed under any Title of this Act are hard-routed automatically at the point of electronic clearance directly into the SIRF.
+(2) AUTOMATED SOURCE DEPOSITS.—The Treasury shall require that all capital flows generated via strict liability penalty assessments, fraud recoveries, asset forfeitures, equalization levies, and structural clawbacks executed under any Title of this Act are hard-routed automatically at the point of electronic clearance directly into the SIRF.
 
 (3) DIVERSIFIED SEED CAPITALIZATION.—In lieu of a single initial general appropriation, the SIRF shall be capitalized through the following diversified revenue streams in the first five (5) fiscal years following enactment:
 
@@ -473,6 +495,29 @@ SEC. 403. ANTI-OFFSHORE WAGE ARBITRAGE PERFORMANCE INDEX.
 (c) STRATEGIC RE-SHORING INCENTIVE.—Any Covered Entity that increases its domestic workforce by not less than ten percent (10%) within any rolling twenty-four (24) month period relative to its offshore workforce growth rate shall qualify for an accelerated depreciation credit of fifteen percent (15%) on domestic capital expenditures in that fiscal year, administered by the Internal Revenue Service.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT ACT.
+
+(a) FINDINGS.—Congress finds that: (1) wage theft — the failure of employers to pay workers wages lawfully owed — costs American workers more than fifty billion dollars ($50,000,000,000) annually, exceeding the combined value of all robberies, burglaries, larcenies, and motor vehicle thefts in the United States; (2) the Occupational Safety and Health Administration is chronically underfunded relative to its mandate, with fewer than two thousand (2,000) inspectors responsible for monitoring eight million workplaces, resulting in an average inspection interval of once every 165 years per establishment; (3) existing civil penalties for OSHA violations are structurally inadequate as deterrents — the average penalty for a serious violation has historically been below fifteen thousand dollars ($15,000), less than the cost of compliance for many employers; and (4) worker safety violations that cause competitive cost advantages to non-compliant employers constitute an unfair trade practice that suppresses wages and conditions across entire industries.
+
+(b) OSHA ENFORCEMENT SOVEREIGNTY FUND.—There is established within the SIRF Administrative Operations Reserve a dedicated OSHA Enforcement Sovereignty Fund, receiving not less than five hundred million dollars ($500,000,000) annually, to be used exclusively for:
+(1) Increasing OSHA inspector workforce by not fewer than five thousand (5,000) additional full-time inspectors within five (5) years of enactment, prioritizing high-hazard industries and industries with documented wage theft patterns;
+(2) Reducing the average establishment inspection interval in high-hazard industries to not more than five (5) years; and
+(3) Technology infrastructure for real-time workplace injury and illness reporting.
+
+(c) PENALTY ESCALATION MANDATE.—The civil penalty schedule for OSHA violations is amended as follows:
+(1) Serious violation: minimum ten thousand dollars ($10,000) per violation, maximum one hundred thousand dollars ($100,000) per violation;
+(2) Willful or repeat violation: minimum fifty thousand dollars ($50,000) per violation, maximum one million dollars ($1,000,000) per violation;
+(3) Failure to abate: five thousand dollars ($5,000) per day; and
+(4) Any violation causing death or serious physical harm: mandatory criminal referral to the Department of Justice, with penalties of up to ten million dollars ($10,000,000) per incident for Covered Entities.
+
+(d) WAGE THEFT ENFORCEMENT MANDATE.—
+(1) PRIVATE RIGHT OF ACTION.—Any worker whose wages have been unlawfully withheld by a Covered Entity may bring a civil action in federal district court for three times (3x) the amount of wages unlawfully withheld, plus attorney fees and costs, without exhausting administrative remedies first.
+(2) MANDATORY FDVMA REFERRAL.—Any Covered Entity identified by the FDVM as having a pattern of wage violations — defined as three (3) or more substantiated complaints within any twenty-four (24) month period — shall be automatically referred to the Department of Labor for a comprehensive wage audit. Audit costs shall be borne by the Covered Entity.
+(3) FEDERAL CONTRACT DEBARMENT.—Any Covered Entity with two (2) or more final OSHA citations for willful violations or two (2) or more final wage theft adjudications within any five (5) year period shall be ineligible for federal contracts, grants, or loans for a period of five (5) years from the date of the most recent final judgment.
+
+(e) EXISTING AGENCY INTEGRATION.—All enforcement under this section shall operate through the existing Department of Labor enforcement infrastructure — the Wage and Hour Division, OSHA, and the Office of the Solicitor of Labor — supplemented by SIRF enforcement floor funding. No new agency or enforcement body is created by this section.
+
 TITLE V — THE UNIVERSAL PROSPERITY AND INTERGENERATIONAL WEALTH ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -496,9 +541,9 @@ SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION
 
 (f) TRANSITIONAL CONTINUITY GUARANTEE.—No individual currently receiving benefits under the programs affected by the reforms in subsections (b) through (d) shall experience any interruption of benefits during the transition period. The Secretary of Health and Human Services shall issue transitional guidance within sixty (60) days of enactment.
 
-SEC. 502. THE AMERICAN PRODUCTIVITY DIVIDEND AND HOUSEHOLD RESILIENCE PROTOCOL.
+SEC. 502. THE HOUSEHOLD STRUCTURAL RELIEF PROTOCOL — SUPERSEDED BY SEC. 3401.
 
-(a) PROGRAM DESIGNATION AND GROUNDING.—There is established the American Productivity Dividend (APD), a monthly capitalization transfer grounded in the economic principle that the productive infrastructure of the United States — publicly funded roads, research, defense, judicial systems, and monetary stability — constitutes a national commons in which every resident has a legitimate economic stake. The APD is established pursuant to the Spending Clause (Art. I, Sec. 8, Cl. 1) and disbursed from the SIRF Household Endowment Node.
+(a) PROGRAM DESIGNATION — NOTE ON SUPERSESSION.—The program formerly designated the American Productivity Dividend (APD) is hereby superseded in full by Section 3401 of Title XXXIV, which retires APD and redirects the associated SIRF node allocation to the Household Structural Relief Node. The provisions of this section are preserved for legislative record purposes only. There is established the American Productivity Dividend (APD) — superseded — a monthly capitalization transfer grounded in the economic principle that the productive infrastructure of the United States — publicly funded roads, research, defense, judicial systems, and monetary stability — constitutes a national commons in which every resident has a legitimate economic stake. The APD is established pursuant to the Spending Clause (Art. I, Sec. 8, Cl. 1) and disbursed from the SIRF Household Endowment Node.
 
 (b) ELIGIBILITY — CONTRIBUTION ACTIVITY REQUIREMENT.—Every United States resident household is eligible for the American Productivity Dividend provided that at least one adult household member has engaged in Contribution Activity within the preceding twelve (12) months. For purposes of this section, "Contribution Activity" means any of the following: (1) paid employment or self-employment of any duration; (2) full-time caregiving for a child under 13, a dependent with a disability, or an adult over 65; (3) enrollment in an accredited educational or vocational training program; (4) registered volunteer service of not less than twenty (20) hours per month with a qualified nonprofit or civic organization; or (5) active military service or veteran status with honorable discharge within the preceding five (5) years.
 
@@ -547,6 +592,26 @@ SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
 (4) Unrestricted access beginning at age thirty (30).
 
 (e) PROJECTED HOUSEHOLD BENEFIT.—Based on actuarial projections, a child born at enactment shall accumulate, with projected SPI-indexed returns, an account value of not less than thirty-two thousand dollars ($32,000) at age eighteen, representing a foundational wealth-building asset available to every American child regardless of family income.
+
+
+
+SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
+
+(a) DECLARATION.—The Congress of the United States hereby formally declares that the elimination of structural poverty is a national imperative of equivalent urgency to national defense. The mechanisms of poverty in the United States are not the product of individual failure but of identifiable, measurable structural conditions — including healthcare cost exposure, educational debt burden, housing cost instability, wage suppression, food system dysfunction, and environmental disease burden — that this Act directly addresses.
+
+(b) STATUTORY POVERTY REDUCTION TARGET.—It is the policy of the United States that the Supplemental Poverty Measure (SPM) rate, as published annually by the U.S. Census Bureau, shall be reduced to not greater than five percent (5%) within ten (10) years of enactment of this Act. The FDVMA shall publish annual progress reports tracking SPM trajectory against this target.
+
+(c) RESTORATION PRINCIPLE.—The anti-poverty framework of this Act is grounded in structural restoration rather than permanent dependency. Federal intervention under this Act is designed to: eliminate the structural cost impositions that make self-sufficiency impossible for working families; invest in the physical and human capital that allows communities to generate sustainable prosperity; and progressively reduce the need for ongoing federal income support as structural conditions improve. Cash transfer and income support mechanisms funded under this Act shall be paired with documented structural cost reductions so that aggregate household economic position improves with or without continued federal income support.
+
+SEC. 505. TANF STRUCTURAL ENHANCEMENT.
+
+(a) FINDINGS.—Congress finds that the Temporary Assistance for Needy Families program, as currently structured, has become a mechanism for work requirements and time limits that reduce access rather than poverty, with federal TANF spending increasingly redirected to administrative purposes rather than direct family support. The NSRA restructures TANF to align with its original statutory purpose of supporting family stability.
+
+(b) TANF STRUCTURAL REFORMS.—The following structural requirements shall govern the Temporary Assistance for Needy Families program and all state TANF programs receiving federal block grant funds:
+(1) A national minimum TANF benefit floor of not less than thirty percent (30%) of the federal poverty level for a family of three, indexed annually to inflation;
+(2) Require that not less than seventy percent (70%) of federal TANF block grant funds be expended on direct cash assistance, child care, and work support — eliminating the current practice of diverting TANF funds to unrelated state budget purposes;
+(3) Prohibit use of TANF funds for abstinence-only education, marriage promotion programs, or any program not directly connected to family economic stability; and
+(4) Repeal the five-year lifetime limit for families where the primary barrier to employment is documented child care unavailability, disability of a household member, or domestic violence.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE VI — SOVEREIGN CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY
@@ -651,7 +716,63 @@ SEC. 704. FOOD CHEMICAL SAFETY AND SOVEREIGN ADDITIVE STANDARDS.
 
 (f) PREEMPTION FLOOR.—Nothing in this section shall be construed to preempt any state law imposing stricter food chemical safety requirements.
 
+SEC. 705. AGRICULTURAL PESTICIDE SOVEREIGNTY AND SOIL PROTECTION.
+
+(a) CONGRESSIONAL FINDINGS.—Congress finds that:
+(1) The United States agricultural system relies on synthetic pesticide inputs that have been formally prohibited or phase-restricted in sixty percent (60%) or more of Organization for Economic Co-operation and Development (OECD) member nations based on documented carcinogenic, endocrine-disrupting, neurotoxic, or ecological toxicity profiles;
+(2) Atrazine, the second most widely applied herbicide in the United States, was banned by the European Union in 2004 and is associated with endocrine disruption, aquifer contamination, and wildlife reproductive harm across peer-reviewed scientific literature;
+(3) Chronic low-dose exposure to glyphosate, chlorpyrifos, and related organophosphates is associated in peer-reviewed literature with elevated rates of non-Hodgkin lymphoma, childhood neurodevelopmental impairment, and Parkinson's disease;
+(4) Elimination of the foregoing exposures is projected, based on CDC, NIH, and independent actuarial modeling, to reduce long-term national healthcare expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years through reduced incidence of diet- and environment-linked chronic disease, independent of any new hospital or coverage infrastructure;
+(5) Costa Rica's national pesticide phase-out program and the European Union's Farm to Fork Strategy demonstrate that productivity-neutral transition to reduced-chemical farming is operationally achievable within a five-to-ten year horizon with adequate government transition support; and
+(6) Soil health degradation from synthetic chemical saturation threatens long-term domestic food sovereignty more acutely than any single-point supply chain risk currently modeled by USDA.
+
+(b) OECD PESTICIDE ALIGNMENT MANDATE.—Any pesticide, herbicide, fungicide, or agricultural chemical input that has been formally prohibited or use-restricted for food-crop application by sixty percent (60%) or more of OECD member nations based on peer-reviewed toxicity evidence shall be prohibited from use in food-crop agriculture in the United States within eighteen (18) months of the effective date of this section. The Environmental Protection Agency shall publish an initial Prohibited Agricultural Chemical List within ninety (90) days of enactment, updated annually by March 1.
+
+(c) PRIORITY PHASE-OUT SCHEDULE.—Notwithstanding the general eighteen-month timeline of subsection (b), the following substances are subject to an accelerated phase-out based on the weight of existing scientific and regulatory consensus:
+(1) ATRAZINE.—All agricultural use of atrazine shall cease within five (5) years of enactment. Atrazine application within two (2) miles of any public drinking water aquifer, municipal water intake, or designated wetland shall cease within twelve (12) months of enactment;
+(2) CHLORPYRIFOS.—All food-crop application of chlorpyrifos shall cease within twenty-four (24) months of enactment, codifying and extending the EPA's prior administrative action;
+(3) GLYPHOSATE.—Glyphosate application shall be restricted to non-food-crop uses only within three (3) years of enactment. Any remaining food-crop application shall cease within thirty-six (36) months. The EPA shall within eighteen (18) months complete a full independent carcinogenicity re-review applying International Agency for Research on Cancer classification criteria; and
+(4) NEONICOTINOIDS.—Neonicotinoid application on flowering crops accessible to pollinators shall cease within twenty-four (24) months of enactment. The EPA shall publish a pollinator impact assessment within twelve (12) months.
+
+(d) AGRICULTURAL TRANSITION SUPPORT FUND.—The SIRF agricultural sovereignty node shall deploy not less than four billion dollars ($4,000,000,000) per year during the first seven (7) years following enactment as direct transition assistance to domestic agricultural producers, including:
+(1) No-interest transition loans for adoption of integrated pest management systems;
+(2) Soil health restoration grants for producers converting from high-chemical to reduced-chemical or certified organic cultivation systems;
+(3) Research and extension service grants through land-grant universities for development of domestic high-yield, low-chemical crop varieties; and
+(4) Market access support for producers during the transition period to offset any short-term yield adjustment costs.
+
+(e) PRECAUTIONARY PRINCIPLE CODIFIED.—In any EPA proceeding for approval of a new agricultural chemical input, the burden of proof shall rest on the applicant to demonstrate, by a preponderance of peer-reviewed scientific evidence, that the proposed input does not present carcinogenic, endocrine-disrupting, neurotoxic, or ecological toxicity risk at projected field application concentrations. Absence of prior regulatory action shall not constitute evidence of safety.
+
+(f) HEALTHCARE COST LINKAGE FINDING.—The FDVMA shall, in coordination with HHS, publish a biennial National Pesticide-to-Healthcare Cost Linkage Report quantifying the projected and realized downstream reduction in federal Medicare, Medicaid, and BMP expenditures attributable to implementation of this section. The report shall be incorporated into the Schedule D benchmark review under Title XIX. See cross-reference: Section 2109 (Title XXI upstream prevention finding) and Section 1004 (Title X biospheric pesticide prohibition cross-anchor).
+
+SEC. 706. REGIONAL FOOD SYSTEM INFRASTRUCTURE AND SOVEREIGNTY FUND.
+
+(a) ESTABLISHMENT.—The SIRF agricultural sovereignty node shall deploy not less than ten billion dollars ($10,000,000,000) per year in sovereign infrastructure investment for domestic regional food system modernization, including:
+(1) Regional food processing and value-added production hubs, with preference for facilities operated by worker cooperatives and community development financial institutions;
+(2) Cold-chain storage and refrigerated distribution infrastructure in food-insecure regions and rural supply corridors;
+(3) Community-scale urban and peri-urban agricultural infrastructure including vertical growing facilities, community food forests, and municipal market hubs; and
+(4) Domestic seed sovereignty reserves and open-source crop variety development programs to reduce dependence on proprietary genetically restricted seed inputs.
+
+(b) FOOD DESERT ELIMINATION MANDATE.—No census tract classified as a food desert under USDA Economic Research Service criteria shall remain so classified six (6) years following enactment. The FDVMA shall report annually on food desert reduction progress as a Schedule D benchmark.
+
+(c) SOIL SOVEREIGNTY RESERVE.—The SIRF agricultural sovereignty node shall maintain a Soil Health Remediation Reserve of not less than two billion dollars ($2,000,000,000), deployed as grants to restore degraded agricultural topsoil through biochar application, cover cropping, and no-till transition programs, with priority for regions with documented chemical saturation from legacy pesticide use. See cross-reference: Section 1005 (Title X biospheric soil sovereignty cross-anchor) and Section 1104 (Title XI A.B.R.N. agricultural chemical remediation mandate).
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 707. FTC SOVEREIGN MERGER ENFORCEMENT MANDATE — PHARMACEUTICAL, HOSPITAL, AND FOOD SECTOR.
+
+(a) FINDINGS.—Congress finds that: (1) pharmaceutical industry consolidation has reduced the number of major drug developers from over sixty (60) in 1990 to fewer than twelve (12) today, with the top ten pharmaceutical companies controlling over fifty percent (50%) of global drug revenue, structurally reducing competitive pressure to lower prices; (2) private equity acquisition of hospital systems has been correlated with increased mortality rates, reduced staffing ratios, and higher patient costs in documented peer-reviewed studies, yet the FTC's historical merger review threshold and healthcare exemptions permitted these acquisitions to proceed without adequate scrutiny; (3) consolidation in the food distribution and grocery sector has produced conditions in which four (4) firms control the majority of U.S. grocery retail, enabling the speculative margin extraction documented in Section 703 of this Act; and (4) the Federal Trade Commission possesses statutory authority to challenge anticompetitive mergers under Section 7 of the Clayton Act (15 U.S.C. § 18) but has lacked the resources and the statutory mandate to exercise that authority systematically in healthcare and food sectors.
+
+(b) MANDATORY MERGER REVIEW TRIGGERS.—Notwithstanding the Hart-Scott-Rodino Antitrust Improvements Act thresholds, the FTC shall conduct a full substantive merger review for:
+(1) Any acquisition by a pharmaceutical Covered Entity of any company holding drug patents, clinical-stage drug compounds, or drug manufacturing assets, regardless of transaction value, where the acquiring entity already holds patents or compounds in the same therapeutic category;
+(2) Any acquisition of a hospital, hospital system, physician practice group, or outpatient surgery center by any private equity firm, REIT, or financial holding company, regardless of transaction value; and
+(3) Any acquisition in the food distribution, grocery retail, or agricultural processing sector that would result in the acquiring entity controlling more than fifteen percent (15%) of any regional market.
+
+(c) PRESUMPTION OF HARM.—In any merger review under subsection (b), the FTC shall apply a rebuttable presumption of competitive harm where the post-merger entity would hold a market share exceeding thirty percent (30%) in any therapeutic category, regional hospital market, or food distribution market. The burden of rebuttal rests on the merging parties.
+
+(d) FTC ENFORCEMENT SOVEREIGNTY FUND.—The SIRF Administrative Operations Reserve shall provide a mandatory annual enforcement grant to the FTC of not less than three hundred million dollars ($300,000,000), designated for: (1) the merger review functions established in this section; (2) pharmaceutical market concentration enforcement under Title XIII; (3) food distribution monopoly enforcement under Title VII; and (4) maintenance of a specialist healthcare and pharmaceutical antitrust division of not fewer than two hundred (200) full-time attorneys and economists.
+
+(e) EXISTING AGENCY PRIMACY.—All enforcement under this section operates through the Federal Trade Commission's existing authority under the FTC Act (15 U.S.C. § 45) and the Clayton Act (15 U.S.C. § 18). No new agency is created. The DOJ Antitrust Division retains concurrent jurisdiction and shall coordinate with the FTC under the existing liaison protocol.
+
 TITLE VIII — SOVEREIGN MOBILITY AND KINETIC INFRASTRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -736,8 +857,73 @@ SEC. 904. RESIDENTIAL ENERGY SOVEREIGNTY DIVIDEND.
 
 (c) PROJECTED HOUSEHOLD SAVINGS.—Based on Congressional Research Service modeling, the combined effect of SMR grid parity injections, residential credits, and energy efficiency upgrades is projected to reduce average residential energy expenditure by not less than eighteen percent (18%) annually for eligible households within ten years of full program deployment.
 
+SEC. 905. INTELLIGENT NATIONAL GRID MODERNIZATION ACT.
+
+(a) CONGRESSIONAL FINDINGS.—Congress finds that:
+(1) The United States electrical transmission and distribution grid was designed for unidirectional, centralized generation and is structurally unprepared for the distributed, bidirectional, and variable-output generation profile of renewable energy, small modular reactor integration, and AI-driven industrial load management;
+(2) Grid failure cascades — including the 2003 Northeast blackout, the 2021 Texas winter failure, and recurring wildfire-related grid shutdowns in the Western Interconnection — have caused cumulative economic losses exceeding two hundred billion dollars ($200,000,000,000) and direct mortality in the hundreds of lives per event;
+(3) China's State Grid Corporation has invested over five hundred billion dollars ($500,000,000,000) in ultra-high-voltage transmission and AI-integrated grid management since 2004, creating a structural energy infrastructure advantage the United States has not matched;
+(4) A quantum-secured, AI-integrated, dynamically routed national transmission infrastructure is a foundational national security asset as critical as the Interstate Highway System; and
+(5) Rural communities bear disproportionate grid reliability deficits, with outage durations averaging three to four times longer than urban counterparts, creating compounding economic disadvantages in regions already experiencing population and investment decline.
+
+(b) INTELLIGENT GRID MODERNIZATION FUND.—The SIRF Energy Sovereignty Node shall deploy not less than twenty-five billion dollars ($25,000,000,000) per year in sovereign infrastructure investment for national electrical grid modernization, with the following mandatory allocation targets:
+(1) QUANTUM-SECURED TRANSMISSION BACKBONE.—Not less than eight billion dollars ($8,000,000,000) per year for construction and deployment of quantum-encrypted fiber-optic transmission control infrastructure along existing high-voltage corridors, eliminating the cybersecurity vulnerabilities of legacy SCADA systems;
+(2) AI-INTEGRATED GRID MANAGEMENT SYSTEMS.—Not less than six billion dollars ($6,000,000,000) per year for deployment of artificial intelligence load-balancing, predictive maintenance, and dynamic fault-isolation systems at regional transmission organization and independent system operator nodes, capable of autonomous grid self-healing within seventy-two (72) hours of any single-region failure event;
+(3) DISTRIBUTED ENERGY RESOURCE INTEGRATION INFRASTRUCTURE.—Not less than seven billion dollars ($7,000,000,000) per year for construction of two-way smart metering, distributed battery storage nodes, and microgrid interconnection infrastructure enabling seamless integration of rooftop solar, community wind, and SMR micro-installations into the regional grid fabric; and
+(4) RURAL GRID RESILIENCE AND HARDENING.—Not less than four billion dollars ($4,000,000,000) per year dedicated to rural transmission hardening, underground distribution conversion in wildfire-prone and flood-vulnerable corridors, and elimination of chronic outage zones in communities with average outage durations exceeding six (6) hours per year.
+
+(c) FOSSIL FUEL INDUSTRY CLEAN ENERGY MIGRATION SUPPORT.—
+(1) DECLARATION OF POLICY.—It is the policy of the United States to support orderly, productivity-positive transition of the domestic fossil fuel industry workforce and infrastructure base into the clean energy economy, rather than to impose abrupt shutdown without structural replacement;
+(2) CLEAN ENERGY MIGRATION FUND.—The SIRF Energy Sovereignty Node shall deploy not less than three billion dollars ($3,000,000,000) per year as a Clean Energy Migration Fund providing:
+(A) Retraining grants of not less than twenty-five thousand dollars ($25,000) per worker for fossil fuel industry employees transitioning to certified clean energy, grid modernization, or SMR construction roles;
+(B) Sovereign capitalization loans at zero interest for fossil fuel extraction companies that commit to a binding fifteen-year clean energy transition plan, with loan forgiveness proportional to verified clean energy output achieved;
+(C) Infrastructure conversion grants for repurposing existing fossil fuel pipeline, storage, and processing infrastructure for hydrogen, carbon capture, geothermal, or electrical transmission use; and
+(D) Community Economic Stabilization Grants for municipalities and counties where fossil fuel sector employment represents more than fifteen percent (15%) of the local labor base, to fund economic diversification planning and execution.
+(3) ACCOUNTABILITY.—No Clean Energy Migration Fund disbursement shall be made to any entity that has lobbied against the grid modernization mandates of this section or Title XIV renewable energy provisions within the preceding twenty-four (24) months.
+
+(d) INTEROPERABILITY MANDATE.—All grid modernization infrastructure funded under this section shall be built to open, non-proprietary technical standards established by the National Institute of Standards and Technology (NIST) and the Federal Energy Regulatory Commission (FERC), ensuring interoperability across all regional grid operators and preventing proprietary vendor lock-in.
+
+(e) SCHEDULE D BENCHMARKS — TITLE IX GRID.—The following benchmarks are added to Schedule D: (1) average U.S. residential electricity outage duration reduced by forty percent (40%) within seven (7) years; (2) quantum-secured transmission control deployed across not less than eighty percent (80%) of interstate high-voltage corridors within ten (10) years; (3) rural outage duration parity with urban average achieved within ten (10) years; (4) not less than one hundred thousand (100,000) documented fossil fuel worker transitions to clean energy employment within five (5) years.
+
+
+
+SEC. 906. FINDINGS — FOSSIL FUEL MIGRATION.
+
+Congress finds that: (1) the fossil fuel industry employs approximately eight hundred thousand (800,000) Americans in direct extraction, refining, and pipeline operations, with an additional two million (2,000,000) in indirect supply chain employment; (2) the energy transition to clean sources is inevitable, and the question is not whether it occurs but whether American workers and communities bear its costs or share its benefits; (3) a managed, federally supported migration of fossil fuel infrastructure and workforce to clean energy production serves both the energy security and economic sovereignty objectives of this Act; and (4) federal subsidies for this transition are appropriate because the fossil fuel industry has historically received substantial federal tax preferences and public infrastructure support, and the transition costs are properly understood as a shared national obligation.
+
+SEC. 907. FOSSIL FUEL CLEAN ENERGY MIGRATION FUND.
+
+(a) ESTABLISHMENT.—There is established in the Treasury the Fossil Fuel Clean Energy Migration Fund (FFCEMF), capitalized at ten billion dollars ($10,000,000,000) from SIRF revenues over five (5) years at two billion dollars ($2,000,000,000) per year, to provide subsidized infrastructure investment, workforce transition support, and technology conversion grants to fossil fuel companies, communities, and workers who voluntarily commit to a certified clean energy migration timeline.
+
+(b) ELIGIBILITY.—To receive FFCEMF support, a fossil fuel company must: (1) submit a Certified Migration Plan to the Department of Energy within two (2) years of enactment, detailing the company's timeline and pathway to reducing fossil fuel extraction or refining operations by not less than fifty percent (50%) within ten (10) years; (2) commit to retaining, retraining, and at equivalent wages all workers displaced by migration activities; and (3) commit to full environmental remediation of decommissioned extraction and refining sites.
+
+(c) ELIGIBLE USES OF FFCEMF GRANTS.—FFCEMF funds may be used for: (1) conversion of existing fossil fuel processing facilities to hydrogen production, carbon capture utilization and storage, geothermal energy, or advanced fission support infrastructure; (2) worker retraining, wage replacement during retraining, and placement support for fossil fuel industry workers transitioning to clean energy roles; (3) community economic transition planning grants for municipalities dependent on fossil fuel sector employment; and (4) environmental remediation of decommissioned extraction sites as a condition of fund eligibility.
+
+(d) COORDINATION WITH SEC. 905(c).—The Fossil Fuel Clean Energy Migration Fund under this section operates as the standalone fund mechanism for voluntary migrators. The mandatory workforce retraining provisions of Section 905(c) of Title IX apply to all entities subject to the grid modernization mandate regardless of FFCEMF participation. FFCEMF provides additional support for companies going beyond the mandatory baseline.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE X — SOVEREIGN BIOSPHERIC COMMONS AND FUNDAMENTAL PUBLIC UTILITIES
+
+SEC. 908. SOVEREIGN DATA CENTER INFRASTRUCTURE — FINDINGS.
+
+Congress finds that: (1) data center infrastructure constitutes the essential physical substrate of the 21st-century economy and democratic information environment; (2) the historical precedent of the Universal Service Act for the internet — which mandated citizen access to broadband as a condition of federal infrastructure support — establishes the correct policy framework for data center infrastructure; (3) federal subsidization of data center construction without corresponding public access and environmental conditions repeats the historic error of allowing infrastructure built with public support to be operated exclusively for private extraction; and (4) data centers consuming in excess of thirty (30) megawatts are already subject to the SMR co-location mandate of Title IX, and subsidy eligibility under this subtitle applies only to facilities that comply with that mandate.
+
+SEC. 909. DATA CENTER SOVEREIGN ACCESS AND ENVIRONMENTAL STANDARDS.
+
+(a) FEDERAL SUBSIDY ELIGIBILITY CONDITIONS.—Any data center facility receiving federal sovereign capitalization, tax incentive, or SIRF infrastructure grant under this Act or any successor appropriation shall be required to:
+(1) CLEAN ENERGY COMPLIANCE.—Operate exclusively on clean energy, satisfied either through the SMR co-location mandate of Section 901 of Title IX or through a verified one hundred percent (100%) renewable energy procurement agreement, from the date of first operation;
+(2) WATER RECLAMATION MANDATE.—Install and operate closed-loop cooling systems with water reclamation technology recovering not less than ninety percent (90%) of process water for reuse or discharge to municipal treatment at no greater than Class A reclaimed water standards. No federally subsidized data center may discharge thermally or chemically contaminated water to any natural waterbody;
+(3) CITIZEN COMPUTE ACCESS.—Make available not less than ten percent (10%) of total compute capacity, measured in GPU-hours per month, at cost-based pricing to qualifying domestic educational institutions, federally recognized tribal governments, nonprofit research institutions, and small businesses with annual revenues below five million dollars ($5,000,000), administered through the National Science Foundation's ACCESS program or its successor;
+(4) WORKFORCE STANDARDS.—Employ not less than eighty percent (80%) of operational staff as direct employees (not contractors) with wages at not less than one hundred fifty percent (150%) of the local living wage, and provide employer-paid health coverage satisfying BMP floor standards; and
+(5) DOMESTIC DATA SOVEREIGNTY.—Store no data subject to federal government contracts or involving United States citizens' personally identifiable information on servers outside the physical United States territory.
+
+(b) ENFORCEMENT.—Failure to maintain any condition of subsection (a) shall result in immediate suspension of all federal subsidy, grant, or tax incentive eligibility and recovery of all federal funds disbursed in the preceding twenty-four (24) months, assessed as a strict liability debt to the SIRF.
+
+(c) UNIVERSAL COMPUTE ACCESS FUND.—The SIRF Knowledge Sovereignty Node shall deploy not less than five hundred million dollars ($500,000,000) per year to subsidize citizen compute access pricing at qualifying federally subsidized data centers, ensuring that the per-GPU-hour cost for eligible users does not exceed twenty percent (20%) of prevailing commercial market rates.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE X — SOVEREIGN BIOSPHERIC COMMONS, ENVIRONMENTAL INFRASTRUCTURE, AND PUBLIC UTILITIES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 1001. OUTLAWING OF PHYSICAL RESOURCE COMMODIFICATION.
@@ -769,9 +955,54 @@ SEC. 1003. MUNICIPAL BROADBAND AND UTILITY CO-OPERATIVE FRAMEWORK.
 
 (b) FEDERAL PREEMPTION OF ANTI-MUNICIPAL BROADBAND STATE LAWS.—Any state law, regulation, or administrative rule that prohibits, penalizes, or materially restricts the ability of any municipality or political subdivision to provide broadband internet service to residents within its jurisdiction is hereby preempted and declared void ab initio.
 
+SEC. 1004. NATIONAL WATER SECURITY AND REDISTRIBUTION INFRASTRUCTURE ACT.
+
+(a) CONGRESSIONAL FINDINGS.—Congress finds that:
+(1) Freshwater stress affects more than forty percent (40%) of the continental United States land area and is projected to intensify under documented climate patterns, with seventeen western states currently withdrawing groundwater at rates exceeding natural aquifer recharge;
+(2) The Colorado River Basin, supplying forty million Americans, has experienced sustained decline in reservoir capacity, with Lake Mead and Lake Powell reaching historic low-water records multiple times in the past decade;
+(3) Lead service line contamination, documented in communities including Flint, Michigan and Newark, New Jersey, demonstrates that the existing municipal water delivery infrastructure poses a systemic public health risk that federally mandated replacement timelines have been chronically underfunded to meet;
+(4) Water insecurity is a primary driver of rural economic decline, agricultural instability, and health outcome disparities; and
+(5) National water infrastructure investment of the scale provided in this section is a prerequisite for long-term food sovereignty, public health, and domestic economic resilience.
+
+(b) NATIONAL WATER SECURITY FUND.—The SIRF environmental remediation node shall deploy not less than fifteen billion dollars ($15,000,000,000) per year in sovereign infrastructure investment for national water security, with the following mandatory allocation targets:
+(1) AQUIFER RECHARGE AND GROUNDWATER SUSTAINABILITY INFRASTRUCTURE.—Not less than four billion dollars ($4,000,000,000) per year for construction of managed aquifer recharge facilities, wetland restoration for natural water retention, and groundwater sustainability infrastructure in regions where current extraction rates exceed natural recharge by more than ten percent (10%);
+(2) INTERSTATE WATER REDISTRIBUTION INFRASTRUCTURE.—Not less than three billion dollars ($3,000,000,000) per year for federally coordinated water redistribution infrastructure connecting water-surplus to water-deficit regions within interstate compacts, with ecological flow guarantees protecting downstream aquatic ecosystems at all transfer nodes;
+(3) MUNICIPAL WATER SYSTEM MODERNIZATION.—Not less than five billion dollars ($5,000,000,000) per year for replacement of lead service lines (accelerating the mandate of Section 1002(c)), removal of PFAS contamination from municipal water supplies, and digital sensor integration for real-time leak detection and pressure monitoring; and
+(4) RURAL WATER ACCESS EXPANSION.—Not less than three billion dollars ($3,000,000,000) per year for construction and improvement of rural water distribution systems in communities currently relying on unregulated private wells or aging infrastructure that fails to meet Safe Drinking Water Act standards.
+
+(c) AGRICULTURAL PESTICIDE RUNOFF PROHIBITION.—In furtherance of the pesticide phase-out mandates of Section 705 of Title VII, the EPA and Army Corps of Engineers shall jointly establish buffer zone requirements of not less than one hundred (100) feet along all navigable waterways, public aquifer recharge zones, and designated wetlands, within which application of any agricultural chemical input listed on the Prohibited Agricultural Chemical List under Section 705(b) is absolutely prohibited from the date of enactment. This subsection shall be enforced as a strict liability provision under Section 705(e). See cross-reference: Section 705 (Title VII primary pesticide mandate) and Section 1104 (Title XI A.B.R.N. agricultural chemical remediation mandate).
+
+(d) WATER AS PUBLIC TRUST CROSS-ANCHOR.—The non-commodification mandate of Section 1001 of this Title is hereby affirmed as applying to all water resources addressed in this section, including managed aquifer recharge facilities, interstate redistribution infrastructure, and any federal water security asset funded under subsection (b). No element of the National Water Security Fund infrastructure shall be transferred to private ownership, management, or operational control.
+
+SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE ACT.
+
+(a) CONGRESSIONAL FINDINGS.—Congress finds that:
+(1) Biodiversity loss in the United States has accelerated to crisis levels, with forty percent (40%) of native bee species, thirty percent (30%) of freshwater fish, and one-third of all assessed bird species experiencing documented population decline over the past fifty years;
+(2) Habitat fragmentation from roadway, industrial, and urban development has severed historic wildlife migration corridors, creating isolated genetic pools that accelerate species decline without requiring active predation or hunting pressure;
+(3) Singapore's 150-kilometer Nature Ways urban rewilding program achieved a thirty percent (30%) increase in urban biodiversity within two years of implementation, demonstrating that integration of wildlife habitat into developed landscapes is operationally feasible and economically net-positive through ecosystem services valuation;
+(4) Intact ecosystems, including pollinator networks, wetland carbon sinks, forest water retention systems, and native grassland soil health systems, provide free infrastructure services valued at not less than two trillion dollars ($2,000,000,000,000) annually to the United States economy based on ecosystem services accounting;
+(5) Rewilding and habitat restoration are demonstrably AI-proof infrastructure — they produce irreplaceable ecological, public health, and food sovereignty outcomes that no computational system can substitute; and
+(6) The downstream health benefits of restored pollinator networks, reduced chemical runoff, and intact watershed ecosystems directly reduce national healthcare expenditure by reducing environmental disease burden, supporting the healthcare cost reduction projections of Sections 705(f) and 2109.
+
+(b) NATIONAL WILDLIFE CORRIDOR AND REWILDING FUND.—The SIRF environmental remediation node shall deploy not less than twenty-two billion dollars ($22,000,000,000) per year in sovereign infrastructure investment for wildlife habitat restoration and rewilding, with the following mandatory allocation targets:
+(1) INTERSTATE WILDLIFE CORRIDOR NETWORK.—Not less than eight billion dollars ($8,000,000,000) per year for design, acquisition, and construction of a National Wildlife Corridor Network connecting existing federal wilderness areas, national parks, national forests, and wildlife refuges through contiguous habitat corridors not less than one mile in width. The Network shall ensure continuous habitat connectivity from the Gulf of Mexico to the Canadian border along at least three longitudinal and two latitudinal corridors within fifteen (15) years of enactment;
+(2) URBAN NATURE INTEGRATION INFRASTRUCTURE.—Not less than six billion dollars ($6,000,000,000) per year for urban rewilding infrastructure including:
+(A) Native plant corridor networks along urban transit rights-of-way and utility easements, modeled on the Singapore Nature Ways framework;
+(B) Green roof, living wall, and urban forest canopy mandates integrated into federal building standards and incentivized through SIRF grants for state and municipal adoption;
+(C) Urban stormwater management through constructed wetland and bioswale systems that simultaneously provide wildlife habitat, water filtration, and flood control; and
+(D) Wildlife crossing infrastructure over and under major roadways at documented migration pinch points identified by USFWS;
+(3) NATIVE PRAIRIE AND GRASSLAND RESTORATION.—Not less than four billion dollars ($4,000,000,000) per year for restoration of native prairie and grassland ecosystems in the Great Plains and Midwest, including conversion of marginal commodity cropland to native perennial grassland under voluntary conservation easements with annual payments to landholders, prioritizing regions where soil carbon sequestration and pollinator network restoration provide the highest co-benefits;
+(4) WETLAND RESTORATION AND COASTAL RESILIENCE.—Not less than four billion dollars ($4,000,000,000) per year for coastal and inland wetland restoration, including reestablishment of mangrove and salt marsh systems that provide combined hurricane surge buffering, carbon sequestration, juvenile fish nursery, and water filtration functions.
+
+(c) FEDERAL LAND DEVELOPMENT ECOLOGICAL BASELINE MANDATE.—All federal agency development approvals on or adjacent to federal land shall require a Biodiversity Impact Assessment as a condition of environmental review. No federal development permit shall be issued where the projected net biodiversity impact is negative unless the applicant posts an irrevocable Ecological Restoration Bond equal to one hundred fifty percent (150%) of the independent cost estimate to restore equivalent ecosystem function, held by the SIRF environmental remediation node pending full restoration certification by USFWS.
+
+(d) REWILDING AND HEALTHCARE COST LINKAGE.—The FDVMA shall incorporate wildlife corridor and rewilding program progress into the biennial National Pesticide-to-Healthcare Cost Linkage Report under Section 705(f), quantifying the projected reduction in allergy, respiratory, and vector-borne disease burden attributable to restored native plant and wetland systems. See cross-reference: Section 1104 (Title XI A.B.R.N. environmental remediation cross-anchor) and Section 2109 (Title XXI upstream prevention demand adjustment).
+
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XI — THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)
+SUBTITLE B — THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 SEC. 1101. THE ONE-FOR-ONE PHYSICAL REMEDIATION MANDATE.
 
@@ -795,7 +1026,39 @@ SEC. 1103. CORPORATE POLLUTER STRICT LIABILITY AND RESTORATION BOND.
 
 (b) BOND ENFORCEMENT.—Upon facility closure, the Restoration Bond shall be immediately available for drawdown by the A.B.R.N. to fund site remediation without waiting for litigation or agency enforcement proceedings. Any bond balance remaining after full remediation shall be returned to the posting entity within twelve (12) months of site closure certification.
 
+SEC. 1104. AGRICULTURAL CHEMICAL REMEDIATION AND SOIL DETOXIFICATION MANDATE.
+
+(a) SCOPE.—The A.B.R.N. jurisdiction established in Section 1101 is hereby extended to include agricultural chemical contamination of soil and groundwater arising from pesticide, herbicide, and synthetic fertilizer application. Atrazine, chlorpyrifos, glyphosate, neonicotinoids, and all substances on the Prohibited Agricultural Chemical List established under Section 705(b) of Title VII shall be treated as regulated chemical inputs subject to the zero-tolerance groundwater contamination threshold of Section 1101(c).
+
+(b) AQUIFER DETOXIFICATION PRIORITY.—The A.B.R.N. shall, within one hundred eighty (180) days of enactment, publish a National Agricultural Chemical Aquifer Contamination Registry identifying all public drinking water aquifers with documented pesticide or herbicide contamination exceeding EPA Maximum Contaminant Level thresholds. The SIRF environmental remediation node shall deploy not less than two billion dollars ($2,000,000,000) per year for active groundwater remediation at Registry-listed sites, prioritized by contamination severity and population served.
+
+(c) AGRICULTURAL CHEMICAL REMEDIATION BOND.—Any Covered Entity that manufactures or distributes any pesticide, herbicide, or agricultural chemical input that is subsequently banned under Section 705 of Title VII shall post, within one hundred eighty (180) days of the ban taking effect, a Legacy Contamination Remediation Bond equal to three hundred percent (300%) of the EPA-estimated cost of full soil and aquifer remediation in all regions where the substance was commercially applied. Bond proceeds shall be held by the SIRF and disbursed directly to the A.B.R.N. for remediation operations. See cross-reference: Section 705 (Title VII primary pesticide phase-out) and Section 1005(d) (Title X rewilding and healthcare cost linkage).
+
+(d) SOIL DETOXIFICATION GRANTS.—The SIRF environmental remediation node shall deploy not less than one billion dollars ($1,000,000,000) per year as direct soil detoxification grants to agricultural producers whose land contains documented legacy chemical contamination from substances now banned under this Act, to fund biological remediation including mycoremediation, biochar application, and phytoremediation.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1006. EPA STATUTORY AUTHORITY REINFORCEMENT, SCIENTIFIC INTEGRITY, AND EMERGING CONTAMINANT MANDATE.
+
+(a) PURPOSE.—This section reinforces the Environmental Protection Agency's statutory authority for NSRA-mandated environmental enforcement, closes the emerging contaminant gap left by the pesticide-specific language of Section 705, and establishes scientific integrity protections that insulate EPA's technical findings from political interference. All authority in this section operates within and through EPA's existing Clean Water Act, CERCLA, TSCA, FIFRA, and Safe Drinking Water Act jurisdictions.
+
+(b) PFAS AND EMERGING CONTAMINANT MANDATE.—
+(1) CLASSIFICATION.—Per- and polyfluoroalkyl substances (PFAS) as a class, microplastics, heavy metals including lead and arsenic in drinking water above EPA Maximum Contaminant Levels, and any synthetic chemical compound detected in human blood, breast milk, or tissue samples at concentrations correlated in peer-reviewed literature with endocrine disruption, carcinogenicity, or neurotoxicity, are hereby classified as Priority Sovereign Health Contaminants subject to the enforcement standards of this section.
+(2) MANDATORY MCL PROMULGATION.—The EPA shall promulgate Maximum Contaminant Level standards for all PFAS compounds within two (2) years of enactment, applying the precautionary principle established in Section 705(e). Failure to promulgate within this timeline shall be subject to citizen suit under Section 107(e) of this Act.
+(3) REMEDIATION FUNDING.—The SIRF Environmental Remediation Node shall deploy not less than three billion dollars ($3,000,000,000) per year for active PFAS remediation at drinking water sources, military installations, and industrial sites, administered through the A.B.R.N. under EPA supervision.
+(4) MANUFACTURER LIABILITY.—Any Covered Entity that manufactured or distributed any PFAS compound shall be strictly liable for the full cost of remediation of drinking water sources contaminated above EPA MCL thresholds, without regard to when the contamination occurred. Liability shall be joint and several among all manufacturers in the relevant supply chain. The EPA shall maintain a public PFAS Contamination Registry and issue mandatory remediation orders within one hundred eighty (180) days of Registry listing.
+
+(c) OECD ALIGNMENT EXTENSION TO EMERGING CONTAMINANTS.—The OECD alignment mandate of Section 705(b) is extended to all Priority Sovereign Health Contaminants. Any substance banned or restricted by sixty percent (60%) or more of OECD member nations based on peer-reviewed toxicity evidence shall be prohibited or restricted in the United States within eighteen (18) months. The EPA shall publish an annual Priority Sovereign Health Contaminant List alongside the Prohibited Agricultural Chemical List required by Section 705(b).
+
+(d) SCIENTIFIC INTEGRITY FIREWALL.—
+(1) EPA's scientific assessments, Integrated Risk Information System (IRIS) evaluations, air quality standards determinations, and water quality criteria shall be conducted exclusively by career scientific staff and independent peer reviewers, free from direction or interference by political appointees regarding scientific conclusions.
+(2) Any political appointee who directs, orders, or induces an EPA scientist to alter a scientific conclusion for non-scientific reasons shall be subject to the penalties established in Section 107(d) of this Act.
+(3) The EPA Office of Inspector General shall conduct an annual audit of any scientific assessment that was modified, delayed, or withdrawn during the review process, with public findings published within sixty (60) days of audit completion.
+
+(e) PRIVATE RIGHT OF ACTION — ENVIRONMENTAL HEALTH.—Any person residing within one mile of a facility on the National Priorities List (Superfund), the PFAS Contamination Registry, or the National Agricultural Chemical Aquifer Contamination Registry established under Section 1104(b) may bring a civil action in federal district court against the responsible party for medical monitoring costs, property value diminution, and demonstrated health impacts, without requiring proof of specific causation beyond statistical correlation established by peer-reviewed epidemiological evidence. This subsection shall not be construed to limit any other cause of action available under federal or state law.
+
+(f) ENVIRONMENTAL JUSTICE ENFORCEMENT PRIORITIZATION.—In deploying remediation resources under this section and under the A.B.R.N., EPA shall apply a mandatory Environmental Justice Priority Index, weighting remediation priority by: (1) proximity to communities with median household income below 80% of the national median; (2) percentage of non-white population in the affected census tract; and (3) documented cumulative pollution burden scores from EPA's existing EJScreen tool. EPA shall publish the Priority Index methodology and annual allocation decisions publicly.
+
 TITLE XII — SOVEREIGN MANUFACTURING AND GLOBAL ARBITRAGE ELIMINATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -831,6 +1094,32 @@ SEC. 1203. CRITICAL SUPPLY CHAIN SOVEREIGNTY RESERVE.
 
 (c) DOMESTIC SOURCING PRIORITY.—The SCSR shall procure materials exclusively from domestic producers, with priority given to Vanguard Entities and SMRZ manufacturers. Foreign sourcing of any reserve material shall be permitted only upon a written determination by the Secretary of Commerce that no adequate domestic supply exists, and only for quantities insufficient to meet the reserve floor.
 
+SEC. 1204. SEMICONDUCTOR AND CRITICAL MATERIALS SOVEREIGNTY ACT.
+
+(a) CONGRESSIONAL FINDINGS.—Congress finds that:
+(1) The United States designed and commercialized the integrated circuit yet currently produces less than thirteen percent (13%) of global semiconductor output, having ceded advanced logic fabrication leadership to Taiwan, South Korea, and increasingly China;
+(2) Taiwan Semiconductor Manufacturing Company produces approximately ninety percent (90%) of the world's most advanced logic chips below ten nanometers, creating a single-point dependency that the Department of Defense has assessed as the most acute strategic vulnerability in the U.S. defense industrial base;
+(3) Japan's Rapidus Corporation has committed nine hundred twenty million dollars ($920,000,000) to domestic two-nanometer chip fabrication scheduled to begin production in 2027, with full government backing — a model directly applicable to the United States;
+(4) Rare earth element processing, critical for advanced semiconductors, EV batteries, defense systems, and AI accelerator chips, is dominated ninety percent (90%) by China, creating a second-order dependency that amplifies the semiconductor fabrication vulnerability;
+(5) The CHIPS and Science Act of 2022 authorized funding insufficient to achieve full-spectrum semiconductor sovereignty, having focused on fabrication incentives without addressing materials processing, equipment manufacturing, or advanced packaging as integrated components of the supply chain; and
+(6) Quantum computing and AI inference hardware will be the foundational infrastructure of the 21st-century economy in the same way that semiconductor fabrication was the foundational infrastructure of the 20th — and the United States must lead in both or cede strategic autonomy.
+
+(b) SEMICONDUCTOR SOVEREIGNTY INVESTMENT FUND.—The SIRF Vanguard Capitalization Node shall deploy not less than fifteen billion dollars ($15,000,000,000) per year in sovereign infrastructure investment for full-spectrum domestic semiconductor and critical materials sovereignty, with the following mandatory allocation targets:
+(1) ADVANCED LOGIC FABRICATION INFRASTRUCTURE.—Not less than six billion dollars ($6,000,000,000) per year for sovereign capitalization of domestic advanced logic semiconductor fabrication facilities capable of producing chips at five nanometers or below, supplementing CHIPS Act incentives with direct sovereign equity participation ensuring domestic public benefit from federal investment;
+(2) RARE EARTH AND CRITICAL MINERALS PROCESSING.—Not less than four billion dollars ($4,000,000,000) per year for construction and operation of domestic rare earth element processing facilities, reducing dependence on Chinese processing capacity for neodymium, dysprosium, terbium, and other materials critical to defense systems, EV motors, wind turbines, and advanced semiconductors;
+(3) SEMICONDUCTOR EQUIPMENT AND ADVANCED PACKAGING SOVEREIGNTY.—Not less than two billion dollars ($2,000,000,000) per year for domestic production capacity in semiconductor manufacturing equipment and advanced packaging, including chiplet integration and heterogeneous integration technologies that the United States currently imports from Taiwan, Japan, and the Netherlands;
+(4) QUANTUM COMPUTING HARDWARE SOVEREIGNTY.—Not less than two billion dollars ($2,000,000,000) per year for sovereign investment in domestic quantum computing hardware development, targeting practical error-corrected quantum computation with applications to drug discovery, materials science, cryptography, and logistics optimization; and
+(5) WORKFORCE PIPELINE AND STEM SOVEREIGNTY.—Not less than one billion dollars ($1,000,000,000) per year for domestic STEM workforce development in semiconductor engineering, materials science, and quantum physics through university partnerships, apprenticeship programs, and sovereign scholarship grants, with a target of fifty thousand (50,000) new credentialed semiconductor professionals within ten (10) years.
+
+(c) DOMESTIC CONTENT ESCALATOR.—All advanced electronic systems procured by the federal government, including defense systems, communications infrastructure, and AI computing infrastructure, shall meet the following domestic semiconductor content thresholds:
+(1) Not less than forty percent (40%) domestic semiconductor content within three (3) years of enactment;
+(2) Not less than sixty-five percent (65%) domestic semiconductor content within seven (7) years; and
+(3) Not less than eighty-five percent (85%) domestic semiconductor content within twelve (12) years.
+
+(d) COORDINATION WITH CRITICAL SUPPLY CHAIN SOVEREIGNTY RESERVE.—All rare earth elements, processed critical minerals, and semiconductor materials designated as systemic vulnerabilities under Section 1203 shall be incorporated into the domestic production scale-up targets of this section. The FDVM shall publish a joint annual Critical Materials Sovereignty Progress Report tracking domestic production share, import dependency reduction, and federal procurement domestic content compliance.
+
+(e) SCHEDULE D BENCHMARKS — TITLE XII SEMICONDUCTOR.—The following benchmarks are added to Schedule D: (1) U.S. share of global advanced logic chip production (below 10nm) reaches not less than twenty percent (20%) within ten (10) years; (2) U.S. rare earth processing capacity sufficient to supply not less than fifty percent (50%) of domestic defense and clean energy demand within seven (7) years; (3) federal procurement domestic semiconductor content benchmarks under subsection (c) met on schedule.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIII — SOVEREIGN BIOSECURITY AND PHARMACEUTICAL PARITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -864,6 +1153,22 @@ SEC. 1303. INSULIN AND ESSENTIAL MEDICINE PRICE CAP.
 (b) ESSENTIAL MEDICINE LIST PRICE CAP.—For any drug appearing on the FDA's Essential Medicines List, the retail out-of-pocket cost shall not exceed one hundred dollars ($100) per month's supply per patient, regardless of insurance status.
 
 (c) MANUFACTURER COMPLIANCE.—Pharmaceutical manufacturers found to be charging prices in excess of the caps established in this section shall be assessed an automated Sovereign Pricing Violation Penalty equal to three hundred percent (300%) of excess revenue collected above the cap, routed to the SIRF biosecurity node and credited back to the affected patients as direct payment refunds within sixty (60) days.
+
+
+
+SEC. 1304. CURATIVE DRUG REGISTRY AND SUPPRESSION PROHIBITION.
+
+(a) FINDINGS.—Congress finds that: (1) the pharmaceutical industry's economic incentive structure favors development of chronic disease management therapeutics over curative treatments, because management drugs generate recurring revenue over a patient's lifetime while cures eliminate future revenue; (2) this incentive misalignment may, in certain documented instances, have delayed or suppressed commercial development of curative or functionally curative treatments for conditions including certain cancers, hepatitis C, and HIV, where curative treatments have subsequently been developed and demonstrated efficacy; (3) publicly funded basic research conducted by NIH, BARDA, and academic institutions — funded by American taxpayers — constitutes the majority of foundational scientific investment underlying both management and curative pharmaceutical development; and (4) a statutory framework mandating transparency in curative drug development and prohibiting commercially motivated suppression of curative research serves the public health and fiscal interests of the United States.
+
+(b) NATIONAL CURATIVE DRUG REGISTRY.—There is established the National Curative Drug Development Registry, maintained by the NIH Director, cataloguing all pharmaceutical development programs that have demonstrated, in peer-reviewed published research, clinical trial data, or NDA submissions, a curative or functionally curative outcome — defined as seventy-five percent (75%) or greater resolution of the underlying disease mechanism rather than symptom management — for any condition with a United States patient population exceeding one hundred thousand (100,000) individuals.
+
+(c) COMMERCIALIZATION MANDATE.—Any pharmaceutical compound listed in the Registry that has demonstrated curative efficacy in Phase II or Phase III clinical trials shall be subject to a mandatory commercialization timeline. The developing entity must submit an NDA within twenty-four (24) months of achieving Phase III efficacy confirmation. Failure to submit within this timeline shall trigger automatic NIH march-in rights under 35 U.S.C. § 203, authorizing NIH to license the compound to one or more domestic generic manufacturers for commercial production.
+
+(d) SUPPRESSION PROHIBITION.—It shall be unlawful for any pharmaceutical company, investor, or corporate officer to: (1) acquire, license, or obtain patent rights to a curative compound with the primary purpose of preventing its commercialization to protect an existing management therapy revenue stream; (2) fund or commission research designed to manufacture doubt about a curative compound's efficacy without scientific basis; or (3) structure any licensing agreement, settlement, or acquisition contract that includes provisions restricting or delaying commercialization of a curative compound. Violations shall be prosecuted as unfair trade practices under 15 U.S.C. §§ 45 and 53, with civil penalties of not less than one billion dollars ($1,000,000,000) per documented suppression incident.
+
+(e) INDEPENDENT AUDIT.—The GAO shall conduct a biennial audit of the National Curative Drug Registry and publish a public report on: (1) the number of curative compounds in development; (2) any instances where commercialization timelines have been extended beyond the statutory mandate without scientific justification; and (3) any merger, acquisition, or licensing activity that has resulted in curative compound development being delayed or terminated following acquisition.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIV — SHELTER SOVEREIGNTY AND ANTI-COMMODIFICATION
@@ -1468,7 +1773,7 @@ SEC. 2103. GOVERNMENT FUNDING OF THE BASIC MINIMUM PLAN.
 
 (C) QUALITY SCORE PUBLICATION.—HHS shall publish carrier quality scores on the public carrier comparison dashboard under Section 2106(a) not later than September 1 of each year, giving enrollees sixty (60) days to factor quality scores into Open Enrollment carrier selection. Quality scores shall never be used to deny a carrier the right to participate in BMP — they affect only the rate adjustment band, not participation eligibility.
 
-(6) COMPETITIVE BID PROHIBITION.—The BMP Premium Rate shall not be determined through competitive carrier bidding. The risk-adjusted rate-setting methodology in this subsection is the exclusive mechanism for BMP premium determination. Competitive bidding is prohibited because it produces accurate price signals only in markets with robust competition, and not less than forty percent (40%) of United States counties currently have one or two BMP carriers, eliminating the conditions necessary for competitive bidding to function as an efficiency mechanism rather than a monopoly rent extraction mechanism.
+(6) COMPETITIVE BID PROHIBITION.—The BMP Premium Rate shall not be determined through competitive carrier bidding. The risk-adjusted rate-setting methodology in this subsection is the exclusive mechanism for BMP premium determination. Competitive bidding is prohibited because it produces accurate price signals only in markets with genuine competition, and not less than forty percent (40%) of United States counties currently have one or two BMP carriers, eliminating the conditions necessary for competitive bidding to function as an efficiency mechanism rather than a monopoly rent extraction mechanism.
 
 (c) RISK CORRIDOR PROTECTION.—For the first five (5) years of BMP operation: if a carrier's BMP claims costs exceed one hundred eight percent (108%) of BMP Premium received, the federal government shall reimburse eighty percent (80%) of the excess from the Health Sovereignty Fund; if a carrier's BMP claims costs fall below ninety-two percent (92%) of BMP Premium received, the carrier shall remit fifty percent (50%) of the shortfall to the Health Sovereignty Fund.
 
@@ -1534,7 +1839,75 @@ SEC. 2108. TRANSITION FROM LEGACY PROGRAMS AND PERFORMANCE BENCHMARKS.
 
 (c) SCHEDULE D BENCHMARKS — TITLE XXI.—The following benchmarks are added to Schedule D for biennial sovereign resilience review: (1) not fewer than ninety-five percent (95%) of previously uninsured United States residents enrolled in BMP within thirty-six (36) months of universal deployment; (2) average primary care appointment wait time not exceeding five (5) business days for ninety percent (90%) of BMP enrollees within five (5) years; (3) national maternal mortality rate reduced by not less than thirty percent (30%) within five (5) years; (4) average annual household out-of-pocket cost for BMP-covered services at zero within twenty-four (24) months; (5) HSF medical loss ratio of not less than ninety-six percent (96%); and (6) not fewer than three (3) competing BMP carriers in ninety percent (90%) of MSAs within five (5) years of universal deployment.
 
+SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL INFRASTRUCTURE.
 
+(a) CONGRESSIONAL FINDINGS — UPSTREAM PREVENTION.—Congress finds that:
+(1) A substantial share of national healthcare expenditure is attributable to chronic disease categories that are directly linked to preventable environmental and dietary exposures, including diet-linked cancers, type 2 diabetes, cardiovascular disease, pediatric neurodevelopmental disorders, respiratory disease, and endocrine disruption;
+(2) CDC and NIH epidemiological modeling estimates that elimination of the food chemical, pesticide, and agricultural chemical exposures addressed in Sections 704, 705, and 706 of Title VII, combined with restoration of intact watershed, wetland, and pollinator ecosystems addressed in Sections 1004 and 1005 of Title X, is projected to reduce the national chronic disease burden by not less than twenty-two percent (22%) within fifteen (15) years — representing a downstream reduction in federal healthcare expenditures of not less than eighty billion dollars ($80,000,000,000) annually at full effect;
+(3) This upstream demand reduction directly affects the long-term cost trajectory of BMP, Medicare, Medicaid, and the Veterans Health Sovereignty Fund, and shall be factored into all ten-year actuarial modeling of NSRA health program costs submitted to the Congressional Budget Office;
+(4) Investment in upstream prevention — food system detoxification, pesticide elimination, environmental remediation, and ecosystem restoration — is therefore not solely an environmental expenditure but a structural healthcare cost reduction measure with measurable fiscal impact on federal health program sustainability; and
+(5) Rural communities experience the highest concentration of environmental disease burden from pesticide exposure, contaminated water, food desert conditions, and industrial pollution, and will realize disproportionate health improvement from upstream prevention investments, reducing the long-term demand for rural health physical infrastructure.
+
+(b) DEMAND-ADJUSTED RURAL HEALTH INFRASTRUCTURE FUND.—
+(1) ESTABLISHMENT.—The SIRF Health Sovereignty Node shall deploy sovereign infrastructure investment for rural health physical infrastructure, scaled to demand projections that account for upstream prevention reforms. The initial investment level shall be three billion dollars ($3,000,000,000) per year for the first five (5) years following enactment. At the conclusion of year five, the Federal Data Veracity Matrix Administration shall conduct a Rural Health Demand Assessment incorporating measured changes in rural chronic disease incidence, emergency department utilization, and environmental disease burden attributable to implementation of Titles VII, X, and XI of this Act.
+(2) PHASE II SCALING.—Based on the Rural Health Demand Assessment, the FDVMA shall recommend to Congress an adjusted annual investment level for years six (6) through ten (10), with a baseline expectation of not less than one billion five hundred million dollars ($1,500,000,000) per year and not more than three billion dollars ($3,000,000,000) per year, scaled to documented remaining infrastructure deficit and adjusted demand. Congress shall act on the FDVMA recommendation within one hundred eighty (180) days of receipt. If Congress fails to act within that period, the FDVMA recommendation shall take effect as the operative funding level.
+(3) MANDATORY ALLOCATION TARGETS.—Rural Health Physical Infrastructure Fund investments shall be allocated as follows:
+(A) Rural hospital stabilization and critical access hospital capital grants — not less than forty percent (40%) of annual deployment;
+(B) Rural primary care and behavioral health clinic construction and equipment — not less than thirty percent (30%) of annual deployment;
+(C) Rural emergency medical services infrastructure, including ambulance fleet modernization and telemedicine-enabled emergency response — not less than twenty percent (20%) of annual deployment; and
+(D) Rural maternal and pediatric health facility upgrades, with priority for counties with maternal mortality rates above the national average — not less than ten percent (10%) of annual deployment.
+(4) HOSPITAL DESERT ELIMINATION MANDATE.—No county shall remain a hospital desert — defined as a county with no acute care hospital within thirty-five (35) miles — six (6) years following enactment. The FDVMA shall publish an annual Hospital Desert Elimination Progress Report as a Schedule D benchmark.
+
+(c) PESTICIDE-TO-HEALTH-COST ACTUARIAL INTEGRATION.—The Secretary of HHS, in coordination with the FDVMA and the Congressional Budget Office, shall publish within eighteen (18) months of enactment, and update every four (4) years thereafter, a National Upstream Prevention Actuarial Assessment quantifying:
+(1) The projected reduction in Medicare, Medicaid, BMP, and Veterans Health Sovereignty Fund expenditures attributable to full implementation of the food chemical, pesticide, and agricultural chemical reforms of Title VII;
+(2) The projected reduction in federal health program expenditures attributable to water system remediation under Title X, environmental remediation under Title XI, and wildlife corridor and rewilding investment under Title X; and
+(3) The net fiscal impact of upstream prevention reforms on the NSRA ten-year budget window, incorporated into all CBO scores of this Act and its successor appropriations.
+
+(d) CROSS-TITLE UPSTREAM PREVENTION NETWORK.—The upstream prevention reforms of this Act form a mutually reinforcing statutory network. Full realization of the healthcare cost reductions projected in this section depends on concurrent implementation of: Section 704 (Title VII food chemical safety); Section 705 (Title VII pesticide phase-out); Section 706 (Title VII regional food infrastructure); Section 1004 (Title X water security); Section 1005 (Title X wildlife corridors and rewilding); Section 1104 (Title XI agricultural chemical remediation); and Section 905(c) (Title IX fossil fuel clean energy migration). Partial enactment of any individual section provides independent public health benefit and proportional healthcare cost reduction. This finding is included to ensure that each section's fiscal and public health rationale is self-contained for purposes of standalone enactment.
+
+
+
+SEC. 2110. BMP ZERO-PREMIUM CO-PAY STRUCTURE.
+
+(a) PREMIUM ELIMINATION.—The Basic Minimum Plan carries zero monthly premium obligation for any enrolled individual. The federal per-capita payment made directly to the carrier of each enrollee's choosing constitutes the sole revenue stream for BMP coverage obligations. No carrier may impose any monthly premium, enrollment fee, or administrative assessment on BMP enrollees.
+
+(b) CO-PAY STRUCTURE.—To preserve utilization discipline and maintain enrollee engagement with the healthcare system while eliminating access barriers, BMP-enrolled individuals shall be subject to the following standardized co-payment schedule:
+
+(1) Primary care visit: fifteen dollars ($15) per visit.
+(2) Specialist visit: thirty dollars ($30) per visit.
+(3) Emergency room visit: seventy-five dollars ($75) per visit, waived if the visit results in inpatient admission.
+(4) Generic prescription: five dollars ($5) per fill.
+(5) Brand-name prescription under Schedule F G7 parity pricing: fifteen dollars ($15) per fill.
+(6) Preventive care, annual wellness visits, vaccinations, and screenings: zero co-pay.
+(7) Mental health and substance use disorder visits: equivalent to primary care co-pay, consistent with the Mental Health Parity and Addiction Equity Act.
+
+(c) CO-PAY WAIVER FOR LOW-INCOME ENROLLEES.—All co-payments under subsection (b) are automatically waived for any enrollee whose household income is at or below one hundred fifty percent (150%) of the federal poverty level. The FDVMA shall maintain a real-time income verification interface with the IRS and Social Security Administration to administer automatic waivers without requiring enrollee action.
+
+(d) CO-PAY ANNUAL CAP.—No BMP enrollee shall pay more than one thousand dollars ($1,000) in aggregate co-payments in any calendar year, after which all covered services carry zero co-pay for the remainder of the calendar year.
+
+(e) SUPPLEMENTAL MARKET PRESERVATION.—Nothing in this Act prohibits any licensed health insurance carrier from offering supplemental coverage products above the BMP floor, including enhanced dental and vision coverage, elective procedure coverage, private accommodation upgrades, concierge access, and enhanced behavioral health benefits. The BMP floor does not cap, restrict, or crowd out the supplemental private insurance market.
+
+SEC. 2111. CARRIER COMPETITION INTEGRITY FRAMEWORK.
+
+(a) COMPETITION MECHANISM.—Carrier competition for BMP enrollees shall be governed by the following principles: carriers compete for enrollees through demonstrated quality, network adequacy, and outcomes performance — not through price discrimination, benefit reduction, or enrollee selection. The federal per-capita payment rate is uniform across carriers for each risk-adjusted enrollee category, removing price competition and focusing competition entirely on service quality.
+
+(b) CARRIER PERFORMANCE METRICS.—The Secretary of Health and Human Services shall publish, on a publicly accessible real-time dashboard, the following performance metrics for each BMP-certified carrier, updated quarterly:
+
+(1) Claims denial rate, broken down by denial reason code.
+(2) Average time from claim submission to payment or denial.
+(3) Network adequacy score: percentage of enrollees within thirty (30) miles of a primary care provider, specialist, and hospital within the carrier's network.
+(4) Enrollee satisfaction score from standardized annual survey.
+(5) Preventive care utilization rate.
+(6) Thirty-day hospital readmission rate.
+(7) Chronic disease management outcomes for diabetes, hypertension, and asthma.
+
+(c) ANTI-CHERRY-PICKING ENFORCEMENT.—It shall be unlawful for any BMP-certified carrier to: (1) design enrollment processes, marketing materials, or network configurations intended to attract healthier enrollees and deter sicker ones; (2) selectively locate enrollment offices or limit outreach in geographic areas with higher-than-average chronic disease prevalence; or (3) design prior authorization protocols that disproportionately delay or deny care for high-cost conditions. The FDVMA shall audit carrier enrollment patterns annually and assess strict liability penalties of five hundred thousand dollars ($500,000) per documented instance of cherry-picking.
+
+(d) AUTOMATIC DECERTIFICATION TRIGGER.—Any carrier whose claims denial rate exceeds the national BMP carrier average by fifteen percent (15%) or more in any two consecutive quarters shall be subject to mandatory corrective action review. If corrective action fails to bring denial rates within fifteen percent (15%) of the national average within ninety (90) days, the carrier's BMP certification shall be suspended for twelve (12) months, during which its enrollees shall be automatically transferred to the next-highest-rated carrier in their region.
+
+(e) ANTI-CORRUPTION ARCHITECTURE.—To prevent regulatory capture of the BMP carrier performance framework: (1) all performance audits shall be conducted by the HHS Inspector General, not by HHS program staff with ongoing carrier relationships; (2) all carrier performance data shall be published raw and unfiltered, with no agency discretion to suppress or delay publication; (3) any HHS employee who moves to employment with a BMP-certified carrier within two (2) years of leaving HHS shall be barred from any role involving BMP regulatory engagement for five (5) years following departure; and (4) carrier performance methodologies shall be set by statute and may only be changed by Congress — not by agency rulemaking.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXII — SOVEREIGN CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY ACT
@@ -1955,6 +2328,28 @@ SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT.
 (e) PROJECTED REVENUE.—Based on current financial sector reported ROE data, the FEPSA is projected at not less than twenty billion dollars ($20,000,000,000) annually, with revenue declining naturally over time as competitive pressures and NSRA structural reforms reduce market concentration — which is the intended outcome.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2416. CFPB SOVEREIGN CONSUMER FINANCIAL PROTECTION — MEDICAL DEBT, PREDATORY LENDING, AND HOUSEHOLD FINANCIAL INTEGRITY STANDARDS.
+
+(a) FINDINGS.—Congress finds that: (1) medical debt is the leading cause of personal bankruptcy in the United States, affecting more than one hundred million (100,000,000) Americans, and functions as a structural tax on health-seeking behavior that is incompatible with the universal coverage mandate of the Basic Minimum Plan; (2) predatory lending instruments — including payday loans with effective annual interest rates exceeding three hundred percent (300%), rent-to-own arrangements that charge three to five times the retail value of consumer goods, and certain credit card penalty rate structures — extract an estimated ninety billion dollars ($90,000,000,000) annually from working households, disproportionately in communities below 150% of the Federal Poverty Level; (3) overdraft fees charged by financial institutions cost American households eleven billion dollars ($11,000,000,000) annually and disproportionately affect the lowest-balance accounts; and (4) the Consumer Financial Protection Bureau has the statutory authority to address these harms under the Consumer Financial Protection Act (12 U.S.C. § 5481 et seq.) but has lacked both the enforcement resources and the specific statutory mandates necessary to act systematically.
+
+(b) MEDICAL DEBT SOVEREIGN STANDARDS.—
+(1) CREDIT REPORTING PROHIBITION.—No medical debt shall be reported to or included in any consumer credit report, credit score, or creditworthiness determination. Any credit reporting agency that includes medical debt in a consumer credit file after the effective date of this section shall be subject to a civil penalty of not less than one thousand dollars ($1,000) per consumer file per day of violation, enforceable by the CFPB.
+(2) COLLECTION STANDARDS.—No hospital, physician practice, or medical facility that receives any federal reimbursement — including Medicare, Medicaid, BMP payments, or Title XXV Veterans Health payments — may engage in debt collection practices that include wage garnishment, bank account levy, or property liens for medical debt against any patient whose household income is at or below two hundred percent (200%) of the Federal Poverty Level.
+(3) CHARITY CARE MANDATE.—Any nonprofit hospital shall provide charity care at zero cost to patients at or below 200% FPL, and at a sliding-scale discount to patients between 200% and 400% FPL, consistent with the hospital's nonprofit tax exemption obligations under 26 U.S.C. § 501(r).
+
+(c) PREDATORY LENDING INTEREST RATE CAP.—
+(1) RATE CAP.—No consumer loan, payday loan, installment loan, rent-to-own arrangement, or credit product offered to a natural person shall carry an annual percentage rate exceeding thirty-six percent (36%), inclusive of all fees, charges, and ancillary costs. This cap applies to all lenders operating within the United States, including state-chartered lenders and online lenders whose customers are located in the United States, without regard to the lender's state of incorporation or choice-of-law provisions.
+(2) ENFORCEMENT.—The CFPB shall enforce this cap as an unfair, deceptive, and abusive act or practice under 12 U.S.C. § 5531. Any loan agreement in violation of this cap shall be void as to the interest component in excess of thirty-six percent (36%), and the principal shall remain due at the capped rate.
+
+(d) OVERDRAFT FEE REFORM.—
+(1) No financial institution may charge an overdraft fee exceeding five dollars ($5.00) per transaction, or charge more than three (3) overdraft fees per calendar month per account, regardless of account type.
+(2) Any financial institution with assets exceeding ten billion dollars ($10,000,000,000) must offer a no-overdraft-fee account option to any customer whose household income is at or below 150% of the Federal Poverty Level, with no minimum balance requirement.
+
+(e) CFPB ENFORCEMENT FLOOR.—In addition to the enforcement floor established in Section 107(b)(3), the CFPB shall deploy not less than two hundred fifty (250) additional examination and enforcement staff within two (2) years of enactment, dedicated to the consumer financial protection mandates of this section.
+
+(f) EXISTING AGENCY PRIMACY.—All enforcement under this section operates through the CFPB's existing authority under the Consumer Financial Protection Act, the Fair Debt Collection Practices Act (15 U.S.C. § 1692 et seq.), and the Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.). No new agency is created.
+
 TITLE XXV — VETERANS HEALTH SOVEREIGNTY AND PACT ACT COMPLETION ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -1986,7 +2381,7 @@ SEC. 2502. VETERANS HEALTH COVERAGE — THREE-TIER ARCHITECTURE.
 
 (2) UNINSURED VETERAN ENROLLMENT.—Within one hundred eighty (180) days of enactment, the VA and HHS shall jointly identify and automatically enroll all currently uninsured veterans in Tier 2 BMP coverage, using data from the VA enrollment system, the IRS, and the Social Security Administration.
 
-(3) COORDINATION OF BENEFITS.—Veterans may seamlessly use Tier 1 VA care for service-connected conditions and Tier 2 BMP care for non-service-connected conditions with no administrative barrier, prior authorization requirement, or coordination-of-benefits delay between the two systems.
+(3) COORDINATION OF BENEFITS.—Veterans shall use Tier 1 VA care for service-connected conditions without disruption and Tier 2 BMP care for non-service-connected conditions with no administrative barrier, prior authorization requirement, or coordination-of-benefits delay between the two systems.
 
 (c) TIER 3 — VOLUNTARY SUPPLEMENTAL COVERAGE.—
 
@@ -2129,6 +2524,168 @@ SEC. F-001. COMPULSORY LICENSING FRAMEWORK.
 
 (e) LICENSE TERM.—A compulsory license issued under this Schedule shall remain in effect until the original patent holder reduces pricing to at or below the G7 parity ceiling and maintains compliant pricing for not less than ninety (90) consecutive calendar days, at which point the compulsory license shall automatically terminate.
 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TITLE XXVII — PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION ACT
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2701. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+
+(1) A free, independent, and adversarial press is not a privilege granted by government but a structural sovereignty mechanism by which citizens exercise informed democratic self-governance. The First Amendment's press clause reflects a constitutional recognition that concentrated power — governmental, corporate, or ideological — is hostile to the public interest unless subject to independent scrutiny.
+
+(2) The systematic erosion of editorial independence through corporate consolidation, politically motivated executive appointments at major news organizations, government advertising leverage, regulatory threats, and retaliatory litigation constitutes a cognizable structural threat to the sovereignty of informed democratic deliberation.
+
+(3) The firing of journalists, editors, and producers in retaliation for editorial independence, adversarial reporting, or refusal to align editorial content with the political or commercial interests of media ownership represents a form of institutional press suppression not adequately addressed by existing statutory protections.
+
+(4) The deployment of Federal Communications Commission license review proceedings, broadcast spectrum allocation decisions, or spectrum fee structures as instruments of editorial coercion against news organizations constitutes a violation of the First Amendment's core prohibition against government-compelled speech and viewpoint discrimination.
+
+(5) The United States lacks a comprehensive federal shield law protecting journalist-source confidentiality, creating a structural asymmetry between the government's investigative power and the press's capacity to report on government misconduct.
+
+(b) PURPOSE.—The purpose of this Title is to establish structural protections for press freedom as a sovereignty infrastructure function, including: anti-retaliatory protections for journalists; a federal journalist shield law; anti-SLAPP protections for press defendants; FCC editorial independence firewalls; and a Federal Press Freedom Monitor within the FDVMA to track and report on press freedom violations.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2702. DEFINITIONS.
+
+For purposes of this Title:
+
+(1) JOURNALIST.—The term "journalist" means any person who regularly gathers, prepares, collects, photographs, records, writes, edits, reports, or publishes news or information of public concern for dissemination to the public, whether in print, broadcast, digital, podcast, documentary, or any other medium, regardless of whether such activity is compensated or conducted through a formal news organization.
+
+(2) NEWS ORGANIZATION.—The term "news organization" means any entity with annual revenue exceeding $10,000,000 that derives not less than thirty percent (30%) of its revenue from the gathering, production, or distribution of news or information of public concern, including broadcast networks, cable news channels, national newspapers, digital news platforms, and streaming news services.
+
+(3) EDITORIAL CONTENT DECISION.—The term "editorial content decision" means any decision affecting the publication, suppression, modification, framing, or cancellation of news content, investigative reporting, or editorial opinion, including hiring, firing, or reassignment of journalists, editors, producers, or on-air talent when such decision is made in connection with specific news coverage or editorial direction.
+
+(4) RETALIATORY TERMINATION.—The term "retaliatory termination" means the termination, demotion, suspension, or material reduction in duties of a journalist that occurs within 365 days of: (A) the journalist's publication or attempted publication of reporting on a matter of substantial public concern; (B) the journalist's internal refusal to alter, suppress, or kill such reporting at the direction of management; or (C) the journalist's public statements regarding the editorial independence of their news organization.
+
+(5) COVERED GOVERNMENT PRESSURE.—The term "covered government pressure" means any communication, act, or omission by a federal official or agency intended to influence, deter, suppress, or retaliate against editorial content decisions at a news organization, including: regulatory threats, advertising withdrawal, access revocation, license proceedings, litigation, public statements targeting specific coverage, and selective enforcement of laws against reporters.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2703. JOURNALIST ANTI-RETALIATION PROTECTION.
+
+(a) PROHIBITED CONDUCT.—No news organization shall terminate, demote, suspend, reassign, or otherwise materially disadvantage a journalist in retaliation for:
+
+(1) The journalist's reporting on any matter of substantial public concern, including reporting critical of the news organization's ownership, advertisers, or corporate affiliates;
+
+(2) The journalist's internal refusal to alter, suppress, spike, or editorially compromise a news story at the direction of management where such direction is motivated by commercial, political, or personal interest rather than legitimate editorial judgment;
+
+(3) The journalist's disclosure, to a congressional committee, federal agency, or the Federal Press Freedom Monitor established under Section 2707, of facts relating to editorial interference by management, ownership, advertisers, or government officials; or
+
+(4) The journalist's public statements regarding threats to the editorial independence of their news organization, provided such statements do not disclose confidential trade secrets unrelated to editorial interference.
+
+(b) PRESUMPTION OF RETALIATION.—A termination or material adverse employment action taken against a journalist within 365 days of conduct described in subsection (a) shall create a rebuttable presumption that the action was retaliatory. The news organization shall bear the burden of demonstrating by clear and convincing evidence that the adverse action was based solely on legitimate, documented, non-retaliatory grounds.
+
+(c) CIVIL ENFORCEMENT.—A journalist subjected to retaliatory termination in violation of this Section may bring a civil action in federal district court for:
+
+(1) Reinstatement with full back pay and benefits;
+
+(2) Compensatory damages, including reputational harm and future lost earnings;
+
+(3) Punitive damages not to exceed five times compensatory damages where retaliation is proven by clear and convincing evidence; and
+
+(4) Attorneys' fees and costs.
+
+(d) ADMINISTRATIVE ENFORCEMENT.—The Federal Press Freedom Monitor shall receive complaints from journalists and may refer substantiated complaints to the Department of Labor for enforcement action under the standards of this Section.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2704. FEDERAL JOURNALIST SHIELD LAW.
+
+(a) PRIVILEGE ESTABLISHED.—A journalist shall not be compelled by any federal court, federal grand jury, federal agency, or any arm of the federal government to:
+
+(1) Identify or disclose the identity of a confidential source of information used in or related to the journalist's reporting on a matter of substantial public concern;
+
+(2) Disclose unpublished notes, recordings, drafts, photographs, or communications that would tend to identify a confidential source; or
+
+(3) Provide testimony, documents, or other evidence that would reveal the journalist's newsgathering process in a manner that would expose confidential sources or chill future source relationships.
+
+(b) SCOPE.—The privilege established by this Section applies to all journalists as defined in Section 2702, regardless of media type, employment status, or organizational affiliation.
+
+(c) EXCEPTIONS.—The privilege under this Section may be overcome only upon a showing by clear and convincing evidence that:
+
+(1) The information sought is directly relevant to the prevention of an imminent act of terrorism, mass violence, or imminent threat to national security that cannot be obtained through any other means;
+
+(2) The journalist was a direct, knowing participant in the criminal activity about which testimony is sought, not merely a reporter of such activity; or
+
+(3) In a civil proceeding, the information is essential to the prevention of a clear, immediate, and irreparable harm to an identified individual that cannot be obtained through any alternative means, and the public interest in disclosure substantially outweighs the public interest in press freedom.
+
+(d) JUDICIAL REVIEW.—Any government attempt to overcome the privilege under this Section shall be subject to de novo review by a federal district court in camera prior to enforcement, with the journalist afforded right to counsel and opportunity to be heard.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2705. FEDERAL ANTI-SLAPP PROTECTION FOR PRESS DEFENDANTS.
+
+(a) ANTI-SLAPP MOTION.—In any civil action filed in federal court in which a claim arises from a journalist's act of reporting, publishing, broadcasting, or communicating information on a matter of public concern, the journalist or news organization may file a special motion to dismiss within 60 days of service of the complaint.
+
+(b) STANDARD.—Upon filing of a motion under subsection (a), the burden shifts to the plaintiff to demonstrate, by clear and convincing evidence, a probability of prevailing on the claim. Absent such showing, the court shall dismiss the action with prejudice.
+
+(c) STAY OF DISCOVERY.—All discovery shall be stayed upon filing of a motion under this Section until the court rules on the motion, except for discovery necessary to oppose the motion.
+
+(d) MANDATORY FEE AWARD.—If the court grants a motion under this Section, the court shall award the journalist or news organization their reasonable attorneys' fees, costs, and an additional sanction against the plaintiff in an amount sufficient to deter future SLAPP litigation, not less than $50,000.
+
+(e) COVERED PLAINTIFFS.—This Section applies to any plaintiff, including government entities, government officials, corporations, and private individuals, who file claims arising from protected press activity.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2706. FCC EDITORIAL INDEPENDENCE FIREWALL.
+
+(a) PROHIBITED FCC ACTIONS.—The Federal Communications Commission shall not:
+
+(1) Initiate, accelerate, or threaten any license review, license revocation proceeding, spectrum reallocation, or regulatory investigation against a broadcast licensee based in whole or in part on the editorial content decisions of such licensee;
+
+(2) Condition the grant, renewal, or transfer of any broadcast license on the editorial practices, content policies, or personnel decisions of the applicant; or
+
+(3) Use any FCC regulatory authority as an instrument to compel, deter, or retaliate against any specific editorial content decision by a news organization.
+
+(b) ENFORCEMENT.—Any FCC action in violation of this Section shall be void ab initio and subject to immediate injunctive relief in federal district court. Any FCC Commissioner who votes in favor of an action found to violate this Section shall be personally subject to civil penalties of not less than $100,000 per violation, enforceable by the Department of Justice.
+
+(c) INDEPENDENT INSPECTOR GENERAL REVIEW.—The FCC Inspector General shall have independent authority to review any license proceeding or regulatory action affecting a news organization and shall publish a public report within 90 days of any such proceeding detailing whether editorial content considerations were a factor in the proceeding.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2707. FEDERAL PRESS FREEDOM MONITOR.
+
+(a) ESTABLISHMENT.—There is established within the Federal Data Veracity Matrix Administration a Federal Press Freedom Monitor (PFPM) as an independent division charged with tracking, reporting on, and referring for enforcement all acts of covered government pressure, retaliatory termination, and FCC editorial interference affecting the press.
+
+(b) ANNUAL REPORT.—The PFPM shall publish an annual Press Freedom Sovereignty Report to Congress, documenting:
+
+(1) All documented instances of covered government pressure against news organizations in the preceding year;
+
+(2) All retaliatory terminations reported to the PFPM, including outcomes of any enforcement proceedings;
+
+(3) An index measuring the structural independence of the ten largest news organizations in the United States, scored on criteria including ownership concentration, government advertising dependency, regulatory exposure, and editorial personnel turnover rates; and
+
+(4) Legislative or regulatory recommendations to strengthen press freedom protections.
+
+(c) WHISTLEBLOWER BOUNTY.—Any journalist or news organization employee who provides documented evidence to the PFPM of covered government pressure or retaliatory editorial interference that results in a civil enforcement judgment shall be entitled to fifteen percent (15%) of any civil penalty collected, consistent with the citizen bounty framework of Section 401 of this Act.
+
+(d) FUNDING.—The PFPM shall be funded from the SIRF Accountability Node at not less than $25,000,000 annually, indexed to the Sovereign Productivity Index.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2708. GOVERNMENT PRESS ACCESS GUARANTEE.
+
+(a) EQUAL ACCESS MANDATE.—Any federal agency, department, or official that holds a press briefing, press conference, or media availability event shall not exclude any credentialed journalist or news organization from such event on the basis of the editorial content, viewpoint, or past reporting of such journalist or news organization.
+
+(b) CREDENTIALING STANDARDS.—Federal press credential standards shall be objective, content-neutral, and publicly posted. Denial of press credentials shall be subject to administrative appeal and de novo judicial review within 30 days.
+
+(c) ENFORCEMENT.—Violation of this Section shall constitute grounds for an immediate injunction in federal district court and personal civil liability for the federal official responsible for the exclusion, in an amount not less than $25,000 per incident.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2709. SCHEDULE D BENCHMARKS — TITLE XXVII.
+
+The FDVMA and PFPM shall report jointly to Congress biennially on: (1) number of journalist anti-retaliation complaints filed, adjudicated, and resolved; (2) number of federal shield law invocations and outcomes; (3) number of Anti-SLAPP motions filed under Section 2705 and outcomes; (4) FCC proceedings reviewed for editorial independence compliance; (5) Press Freedom Sovereignty Index scores and year-over-year trends.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Passed by the Senate and House of Representatives of the United States of America in Congress assembled.
+
+END OF THE NATIONAL SOVEREIGNTY AND RESILIENCE ACT OF 2028
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2495,168 +3052,369 @@ This Title is funded from the SIRF Biosecurity Node and is net-positive on a 10-
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Passed by the Senate and House of Representatives of the United States of America in Congress assembled, as amended by the inclusion of Titles XXII through XXV and Schedules E and F.
+Passed by the Senate and House of Representatives of the United States of America in Congress assembled.
 
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-TITLE XXVII — PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION ACT
-
+TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2701. FINDINGS AND PURPOSE.
+SEC. 3201. FINDINGS AND PURPOSE.
 
 (a) FINDINGS.—Congress finds that:
 
-(1) A free, independent, and adversarial press is not a privilege granted by government but a structural sovereignty mechanism by which citizens exercise informed democratic self-governance. The First Amendment's press clause reflects a constitutional recognition that concentrated power — governmental, corporate, or ideological — is hostile to the public interest unless subject to independent scrutiny.
+(1) The United States dollar's status as the world's primary reserve currency is not a permanent fixture of the global financial order but a geopolitical asset requiring active, deliberate, and legally structured defense.
 
-(2) The systematic erosion of editorial independence through corporate consolidation, politically motivated executive appointments at major news organizations, government advertising leverage, regulatory threats, and retaliatory litigation constitutes a cognizable structural threat to the sovereignty of informed democratic deliberation.
+(2) The dollar's reserve currency status generates an estimated structural benefit to the United States economy of between five hundred billion dollars ($500,000,000,000) and one trillion dollars ($1,000,000,000,000) annually in the form of reduced borrowing costs, seigniorage revenue, and geopolitical leverage — a benefit that has never been formally codified as a national security interest subject to statutory protection.
 
-(3) The firing of journalists, editors, and producers in retaliation for editorial independence, adversarial reporting, or refusal to align editorial content with the political or commercial interests of media ownership represents a form of institutional press suppression not adequately addressed by existing statutory protections.
+(3) The coordinated actions of the BRICS economic bloc, including the development of alternative payment settlement rails, the gradual displacement of USD-denominated commodity trade, and the expansion of the IMF Special Drawing Rights basket, represent a material and escalating threat to the dollar's reserve currency status that the existing statutory framework is structurally unprepared to address.
 
-(4) The deployment of Federal Communications Commission license review proceedings, broadcast spectrum allocation decisions, or spectrum fee structures as instruments of editorial coercion against news organizations constitutes a violation of the First Amendment's core prohibition against government-compelled speech and viewpoint discrimination.
+(4) The erosion of petrodollar settlement arrangements — particularly the acceptance of non-USD currencies for hydrocarbon trade by nations historically committed to USD settlement — represents an ongoing and quantifiable degradation of dollar demand that, if uncorrected, will accelerate Treasury borrowing costs and weaken the United States' capacity to fund its sovereign obligations.
 
-(5) The United States lacks a comprehensive federal shield law protecting journalist-source confidentiality, creating a structural asymmetry between the government's investigative power and the press's capacity to report on government misconduct.
+(5) The proliferation of SWIFT-alternative interbank settlement systems, including the Chinese Cross-Border Interbank Payment System (CIPS) and the multi-central-bank mBridge platform, creates parallel financial infrastructure specifically designed to route international trade outside the jurisdiction of U.S. law, U.S. sanctions enforcement, and dollar-denominated clearing.
 
-(b) PURPOSE.—The purpose of this Title is to establish structural protections for press freedom as a sovereignty infrastructure function, including: anti-retaliatory protections for journalists; a federal journalist shield law; anti-SLAPP protections for press defendants; FCC editorial independence firewalls; and a Federal Press Freedom Monitor within the FDVMA to track and report on press freedom violations.
+(6) The absence of a coherent domestic Digital Dollar sovereign architecture creates a structural vacuum that, if unaddressed, will cede the digital currency reserve instrument space to foreign central bank digital currencies (CBDCs), particularly the digital yuan, thereby undermining dollar dominance in the emerging digital payment layer of the global economy.
+
+(7) The fiscal credibility of the United States Treasury bond market — the foundational instrument of dollar reserve status — is directly dependent on the United States' capacity to demonstrate structural deficit reduction and long-term sovereign solvency, which the revenue and expenditure architecture of this Act directly supports.
+
+(b) PURPOSE.—The purpose of this Title is to establish a comprehensive, legally enforceable architecture for the active defense of the dollar's reserve currency status, through five coordinated mechanisms: the Allied Settlement Compact; the Treasury Bond Credibility Engine; Petrodollar Modernization; SWIFT Sovereign Defense; and Digital Dollar Sovereignty.
+
+SEC. 3202. DEFINITIONS — TITLE XXXII.
+
+As used in this Title:
+
+(1) ALLIED SETTLEMENT COMPACT (ASC).—The network of bilateral and multilateral trade settlement agreements authorized under Section 3203, under which signatory nations commit to denominating specified categories of bilateral trade in United States dollars as a condition of preferred access to U.S. market, security, technology, and financial cooperation.
+
+(2) RESERVE CURRENCY THREAT ACTOR.—Any foreign government, central bank, multilateral institution, or state-owned enterprise that has, within the preceding thirty-six (36) months, (a) established or materially funded a SWIFT-alternative settlement system; (b) denominated hydrocarbon or strategic commodity trade in a non-USD currency; or (c) publicly committed to reducing USD reserve holdings as an explicit policy objective.
+
+(3) SWIFT-ALTERNATIVE NETWORK.—Any interbank financial messaging, clearing, or settlement system operating outside the Society for Worldwide Interbank Financial Telecommunication (SWIFT) network and designed to facilitate cross-border financial transactions without passing through USD-denominated clearing channels subject to U.S. jurisdiction.
+
+(4) DIGITAL DOLLAR SOVEREIGN INSTRUMENT (DDSI).—The United States central bank digital currency authorized under Section 3206, designed to function as the primary digital reserve instrument of the global monetary system while preserving the primacy of the commercial banking system and individual financial privacy.
+
+(5) PETRODOLLAR COMPACT NATION.—Any nation that, pursuant to a formal bilateral or multilateral agreement with the United States, has historically committed to denominating hydrocarbon export revenues in United States dollars and depositing surplus revenues in USD-denominated instruments.
+
+(6) TREASURY CREDIBILITY INDEX (TCI).—The composite metric established by the Secretary of the Treasury under Section 3204, tracking deficit trajectory, debt-to-GDP ratio, SIRF revenue performance, and international demand for USD-denominated Treasury instruments as a unified measure of sovereign fiscal credibility.
+
+SEC. 3203. THE ALLIED SETTLEMENT COMPACT.
+
+(a) ESTABLISHMENT.—The Secretary of State, in coordination with the Secretary of the Treasury and the United States Trade Representative, is authorized and directed to negotiate and enter into Allied Settlement Compact agreements with allied and partner nations. Such agreements shall, at minimum, provide that:
+
+(1) Bilateral trade in the following categories shall be denominated and settled in United States dollars: (A) defense articles and services governed by the Arms Export Control Act; (B) energy and hydrocarbon products where the United States is a material supplier or transit jurisdiction; (C) agricultural commodities covered by existing trade agreements; and (D) pharmaceutical and medical supply chains receiving U.S. regulatory certification.
+
+(2) Signatory nations shall not simultaneously participate in any SWIFT-alternative settlement network for the categories of trade covered by the Allied Settlement Compact without express written waiver from the Secretary of the Treasury.
+
+(3) Signatories receive reciprocal benefits including: preferred access to SIRF co-investment infrastructure funds; expedited U.S. regulatory harmonization; technology transfer cooperation under the Export Administration Regulations; and enhanced intelligence-sharing frameworks.
+
+(b) PRIORITY NATIONS.—The Secretary of State shall initiate ASC negotiations within one hundred eighty (180) days of enactment with the following priority partner categories: (1) all NATO member states; (2) Indo-Pacific allies under existing mutual defense treaties; (3) Gulf Cooperation Council member states with active hydrocarbon trade relationships; (4) G7 members not otherwise covered.
+
+(c) ANNUAL REPORT.—The Secretary of State shall submit to the Committees on Foreign Relations of the Senate and International Relations of the House an annual ASC Status Report detailing: (1) nations that have executed ASC agreements; (2) nations in active negotiation; (3) nations that have declined and the stated reason; (4) estimated dollar demand generated by executed ASC agreements in the preceding fiscal year.
+
+(d) INCENTIVE FUND.—There is established in the Treasury the Allied Settlement Compact Incentive Fund, capitalized at an initial authorized level of two billion dollars ($2,000,000,000) from SIRF revenues, to provide concessional financing, technical assistance, and infrastructure co-investment to ASC signatory nations as consideration for their USD settlement commitments.
+
+SEC. 3204. THE TREASURY BOND CREDIBILITY ENGINE.
+
+(a) STATUTORY DEFICIT REDUCTION FLOOR.—Beginning in fiscal year 2029, the Secretary of the Treasury shall certify to Congress at the commencement of each fiscal year that the projected federal deficit for that fiscal year, as a percentage of GDP, is no greater than the deficit of the preceding fiscal year unless: (1) the President has declared a national emergency; (2) GDP growth has contracted by more than two percent (2%) in the preceding four quarters; or (3) Congress has passed a specific statutory waiver by two-thirds majority of both chambers.
+
+(b) TREASURY CREDIBILITY INDEX.—The Secretary of the Treasury shall publish, on the first business day of each quarter, a Treasury Credibility Index report covering: (1) the rolling 12-month federal deficit as a percentage of GDP; (2) the 10-year trajectory of debt-to-GDP; (3) net international demand for USD-denominated Treasury securities in the prior quarter; (4) SIRF revenue performance against certified projections; and (5) the spread between U.S. 10-year Treasury yields and a weighted average of G7 equivalent sovereign instruments.
+
+(c) NSRA SURPLUS DESIGNATION.—The net annual fiscal surplus generated by the revenue and expenditure architecture of this Act — estimated at four hundred fifty billion dollars ($450,000,000,000) annually in Year 1 after mandatory growth investments — is hereby designated a Sovereign Credibility Reserve and shall be applied, in the following priority order: (1) mandatory debt service on all outstanding Treasury obligations; (2) SIRF infrastructure capitalization up to the annually certified minimum; (3) net deficit reduction, publicly reported as a reduction to the debt-to-GDP ratio; (4) supplemental APD capitalization.
+
+(d) FOREIGN RESERVE DEMAND PROGRAM.—The Secretary of the Treasury, in coordination with the Federal Reserve Board of Governors, shall establish a Foreign Reserve Demand Program under which allied central banks may access designated USD-denominated Treasury instrument tranches at preferred auction terms as an incentive to maintain or increase USD reserve holdings, subject to ASC participation and compliance with Section 3205 SWIFT Sovereign Defense requirements.
+
+(e) CREDIT RATING TRANSPARENCY.—The FDVMA shall monitor and publicly report quarterly on any actions by Nationally Recognized Statistical Rating Organizations that affect the credit rating of U.S. sovereign debt, including the methodological basis for any rating change, and shall refer to the Securities and Exchange Commission for investigation any rating action that cannot be substantiated by the TCI metrics published under subsection (b).
+
+SEC. 3205. PETRODOLLAR MODERNIZATION.
+
+(a) HYDROCARBON TRADE SETTLEMENT POLICY.—It is the policy of the United States that hydrocarbon energy trade conducted by or through U.S.-incorporated entities, U.S. financial institutions, or entities operating under U.S. export licenses shall be denominated and settled in United States dollars, except as provided in subsection (b).
+
+(b) AUTHORIZED EXCEPTIONS.—The Secretary of the Treasury may, upon petition, authorize non-USD settlement for specific hydrocarbon transactions where: (1) the settlement currency is that of a U.S. treaty ally and the transaction does not involve any Reserve Currency Threat Actor; and (2) the Secretary certifies in writing that the exception will not materially reduce global demand for USD-denominated settlement.
+
+(c) SECURITY COOPERATION LINKAGE.—The Secretary of Defense, in coordination with the Secretary of State, shall include USD settlement compliance as an explicit criterion in the annual review of Foreign Military Financing, International Military Education and Training, and security assistance programs. Nations that have materially shifted hydrocarbon settlement away from USD toward SWIFT-alternative or non-allied-currency systems within the preceding twenty-four (24) months shall be subject to a mandatory congressional notification and a ninety (90) day review before any new security assistance commitments are authorized.
+
+(d) PETRODOLLAR MODERNIZATION FUND.—There is established the Petrodollar Modernization Fund, capitalized at five hundred million dollars ($500,000,000) from SIRF revenues, to provide energy infrastructure technical assistance and co-investment to Petrodollar Compact Nations as an affirmative incentive to maintain USD-denominated hydrocarbon trade in the transition to clean energy markets. The Fund shall specifically prioritize nations whose economies are heavily dependent on hydrocarbon export revenues and who face structural pressure to shift to non-USD settlement from Reserve Currency Threat Actors.
+
+(e) CLEAN ENERGY PETRODOLLAR TRANSITION.—Recognizing that the long-term transition to clean energy requires modernizing the petrodollar framework beyond hydrocarbons, the Secretary of the Treasury shall, within two (2) years of enactment, publish a Clean Energy Reserve Currency Strategy identifying the categories of clean energy trade — including rare earth elements, battery materials, solar panel components, and green hydrogen — that should be designated as USD-settlement priority commodities under ASC agreements to ensure that the energy transition reinforces rather than erodes dollar reserve status.
+
+SEC. 3206. SWIFT SOVEREIGN DEFENSE.
+
+(a) PROHIBITION ON UNAUTHORIZED SWIFT-ALTERNATIVE ROUTING.—It shall be unlawful for any U.S.-incorporated financial institution, U.S.-chartered bank, or entity subject to U.S. jurisdiction to route, clear, or settle international financial transactions through any SWIFT-Alternative Network for the benefit of a Reserve Currency Threat Actor without prior written authorization from the Office of Foreign Assets Control (OFAC) and the Secretary of the Treasury.
+
+(b) STRICT LIABILITY PENALTIES.—Any violation of subsection (a) shall subject the responsible entity to: (1) a civil monetary penalty of not less than the greater of one million dollars ($1,000,000) or three times the value of the transaction routed through the unauthorized network; (2) suspension of Federal Reserve discount window access for a period of not less than ninety (90) days; and (3) mandatory referral to the Department of Justice for criminal investigation if the pattern of violations exceeds five (5) transactions within any twelve (12) month period.
+
+(c) AUTHORIZED ALTERNATIVE ROUTING.—The Secretary of the Treasury may authorize specific SWIFT-alternative routing for: (1) humanitarian transactions in sanctioned jurisdictions where SWIFT access has been blocked; (2) transactions with treaty allies where both governments have entered into a mutual recognition agreement governing the alternative network; and (3) pilot transactions under formal regulatory sandbox approvals.
+
+(d) SWIFT MODERNIZATION INVESTMENT.—The Federal Reserve Board of Governors, in coordination with the Secretary of the Treasury and U.S. financial industry representatives, shall develop and publish within one (1) year of enactment a SWIFT Modernization Roadmap identifying the technical, governance, and operational improvements necessary to ensure that the SWIFT network remains the preferred global settlement infrastructure, including: (1) transaction speed improvements to match or exceed SWIFT-alternative network benchmarks; (2) expanded currency and asset class coverage; (3) enhanced cybersecurity architecture consistent with the quantum migration pipeline established in Title XVI; and (4) governance reforms that preserve U.S. influence within the SWIFT cooperative structure.
+
+(e) ALLIED SWIFT DEFENSE COALITION.—The Secretary of State shall pursue the establishment of an Allied SWIFT Defense Coalition among G7 and NATO member states, committing participating nations to: (1) coordinated enforcement against SWIFT-alternative routing by Reserve Currency Threat Actors; (2) shared intelligence on emerging alternative settlement infrastructure; (3) joint investment in SWIFT modernization; and (4) coordinated sanctions responses to any nation that materially coerces allied financial institutions into SWIFT-alternative participation.
+
+SEC. 3207. DIGITAL DOLLAR SOVEREIGNTY.
+
+(a) DIGITAL DOLLAR SOVEREIGN INSTRUMENT AUTHORIZATION.—The Federal Reserve Board of Governors, in coordination with the Secretary of the Treasury, is authorized and directed to develop and deploy a Digital Dollar Sovereign Instrument (DDSI) — a U.S. central bank digital currency — designed to: (1) preserve and extend the dollar's reserve currency status in the digital payment layer of the global economy; (2) operate as a complement to, not a replacement of, the commercial banking system; (3) maintain individual financial privacy consistent with the Fourth Amendment and applicable federal privacy law; and (4) be denominated in United States dollars and fully backed by the full faith and credit of the United States.
+
+(b) DESIGN REQUIREMENTS.—The DDSI shall be designed with the following mandatory architectural constraints:
+
+(1) COMMERCIAL BANK PRESERVATION.—The DDSI shall not accept retail deposits directly from individuals or businesses. All DDSI distribution shall occur through licensed commercial banks and credit unions, preserving the intermediary role of the commercial banking system.
+
+(2) PRIVACY ARCHITECTURE.—Individual DDSI transactions below fifty thousand dollars ($50,000) shall not be subject to individual-level government surveillance. Aggregate transaction monitoring for systemic risk and anti-money laundering purposes is permitted, but shall not constitute a record of individual transactional behavior subject to disclosure to any federal agency without a valid warrant.
+
+(3) OFFLINE CAPABILITY.—The DDSI shall be capable of offline peer-to-peer transaction settlement to ensure functionality in infrastructure-degraded or rural environments, consistent with the rural access objectives of this Act.
+
+(4) INTEROPERABILITY.—The DDSI shall be designed for interoperability with the payment systems of ASC signatory nations, creating a USD-denominated digital settlement layer that allied nations can adopt as a preferred digital reserve instrument in lieu of SWIFT-alternative systems.
+
+(c) INTERNATIONAL RESERVE DDSI.—In parallel with the domestic DDSI, the Federal Reserve, in coordination with the Secretary of State, shall develop an International Reserve DDSI variant — a wholesale CBDC instrument available to allied central banks and sovereign wealth funds — enabling direct USD-denominated digital reserve holding without dependency on existing correspondent banking infrastructure. The International Reserve DDSI shall not be available to any Reserve Currency Threat Actor or entity under active OFAC sanction.
+
+(d) PROHIBITION ON PROGRAMMABLE RESTRICTIONS.—The DDSI shall not be designed with programmable restrictions on the categories of goods, services, or recipients for which it may be used by individual holders, except as required by existing federal law applicable to all payment instruments. Congress explicitly finds that programmable spending restrictions on a sovereign currency instrument are incompatible with the constitutional rights of U.S. persons and inconsistent with the dollar's role as a free-market reserve currency.
+
+(e) TIMELINE.—The Federal Reserve Board of Governors shall publish a DDSI Development Roadmap within one hundred eighty (180) days of enactment, with a target operational date for the domestic DDSI of no later than four (4) years after enactment and the International Reserve DDSI no later than six (6) years after enactment.
+
+(f) CONGRESSIONAL OVERSIGHT.—The Federal Reserve shall submit quarterly progress reports to the Senate Committee on Banking, Housing, and Urban Affairs and the House Committee on Financial Services on DDSI development progress, security architecture, and international adoption metrics.
+
+SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
+
+(a) ANNUAL THREAT ASSESSMENT.—The Secretary of the Treasury, in coordination with the Director of National Intelligence and the Secretary of State, shall publish an unclassified Annual Dollar Sovereignty Threat Assessment identifying: (1) nations, institutions, and networks that have taken material actions to undermine dollar reserve currency status in the preceding twelve (12) months; (2) the estimated quantified impact on dollar demand of each identified action; (3) recommended policy responses within the authorities of this Title; and (4) any legislative changes recommended to strengthen reserve currency defense architecture.
+
+(b) GRADUATED RESPONSE FRAMEWORK.—Upon identification of a Reserve Currency Threat Actor in the Annual Threat Assessment, the following graduated response framework shall apply:
+
+(1) TIER 1 — DIPLOMATIC ENGAGEMENT.—The Secretary of State shall initiate formal bilateral consultations within sixty (60) days of designation, presenting the factual basis for the designation and offering ASC participation as an alternative pathway.
+
+(2) TIER 2 — ECONOMIC MEASURES.—If Tier 1 engagement fails to produce measurable compliance within one hundred eighty (180) days, the Secretary of the Treasury may impose: (A) enhanced due diligence requirements on all USD transactions involving entities from the designated nation; (B) exclusion from the Foreign Reserve Demand Program under Section 3204(d); and (C) suspension of DDSI International Reserve access.
+
+(3) TIER 3 — COORDINATED SANCTIONS.—If Tier 2 measures fail to produce measurable compliance within three hundred sixty-five (365) days, the President, in consultation with G7 allies, may impose coordinated financial sanctions under the International Emergency Economic Powers Act (IEEPA), targeted at the specific institutions and actors responsible for USD displacement activities.
+
+(c) CONGRESSIONAL NOTIFICATION.—Any Tier 2 or Tier 3 response under subsection (b) shall require prior notification to the congressional intelligence and foreign relations committees not less than fifteen (15) days before implementation, with a classified annex available to cleared members.
+
+SEC. 3209. BUDGET IMPACT AND REVENUE CERTIFICATION.
+
+(a) SELF-FUNDING MECHANISM.—This Title is designed to be budget-neutral in direct appropriations. The ASC Incentive Fund and Petrodollar Modernization Fund shall be capitalized exclusively from SIRF revenues generated under Title II of this Act. All DDSI development costs shall be borne by the Federal Reserve from existing operational revenues.
+
+(b) ECONOMIC RETURN CERTIFICATION.—Within one (1) year of enactment, the Congressional Budget Office shall publish a Dollar Reserve Currency Economic Impact Assessment estimating: (1) the annual economic benefit to the United States of maintaining reserve currency status, including reduced Treasury borrowing costs, seigniorage revenue, and financial services sector premium; (2) the estimated cost to the U.S. economy of a twenty-five percent (25%) reduction in dollar reserve share over ten years; and (3) the projected economic return on the investments authorized by this Title.
+
+SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
+
+The FDVMA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) DDSI development milestone completion rate; (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 2702. DEFINITIONS.
-
-For purposes of this Title:
-
-(1) JOURNALIST.—The term "journalist" means any person who regularly gathers, prepares, collects, photographs, records, writes, edits, reports, or publishes news or information of public concern for dissemination to the public, whether in print, broadcast, digital, podcast, documentary, or any other medium, regardless of whether such activity is compensated or conducted through a formal news organization.
-
-(2) NEWS ORGANIZATION.—The term "news organization" means any entity with annual revenue exceeding $10,000,000 that derives not less than thirty percent (30%) of its revenue from the gathering, production, or distribution of news or information of public concern, including broadcast networks, cable news channels, national newspapers, digital news platforms, and streaming news services.
-
-(3) EDITORIAL CONTENT DECISION.—The term "editorial content decision" means any decision affecting the publication, suppression, modification, framing, or cancellation of news content, investigative reporting, or editorial opinion, including hiring, firing, or reassignment of journalists, editors, producers, or on-air talent when such decision is made in connection with specific news coverage or editorial direction.
-
-(4) RETALIATORY TERMINATION.—The term "retaliatory termination" means the termination, demotion, suspension, or material reduction in duties of a journalist that occurs within 365 days of: (A) the journalist's publication or attempted publication of reporting on a matter of substantial public concern; (B) the journalist's internal refusal to alter, suppress, or kill such reporting at the direction of management; or (C) the journalist's public statements regarding the editorial independence of their news organization.
-
-(5) COVERED GOVERNMENT PRESSURE.—The term "covered government pressure" means any communication, act, or omission by a federal official or agency intended to influence, deter, suppress, or retaliate against editorial content decisions at a news organization, including: regulatory threats, advertising withdrawal, access revocation, license proceedings, litigation, public statements targeting specific coverage, and selective enforcement of laws against reporters.
-
+END OF TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2703. JOURNALIST ANTI-RETALIATION PROTECTION.
-
-(a) PROHIBITED CONDUCT.—No news organization shall terminate, demote, suspend, reassign, or otherwise materially disadvantage a journalist in retaliation for:
-
-(1) The journalist's reporting on any matter of substantial public concern, including reporting critical of the news organization's ownership, advertisers, or corporate affiliates;
-
-(2) The journalist's internal refusal to alter, suppress, spike, or editorially compromise a news story at the direction of management where such direction is motivated by commercial, political, or personal interest rather than legitimate editorial judgment;
-
-(3) The journalist's disclosure, to a congressional committee, federal agency, or the Federal Press Freedom Monitor established under Section 2707, of facts relating to editorial interference by management, ownership, advertisers, or government officials; or
-
-(4) The journalist's public statements regarding threats to the editorial independence of their news organization, provided such statements do not disclose confidential trade secrets unrelated to editorial interference.
-
-(b) PRESUMPTION OF RETALIATION.—A termination or material adverse employment action taken against a journalist within 365 days of conduct described in subsection (a) shall create a rebuttable presumption that the action was retaliatory. The news organization shall bear the burden of demonstrating by clear and convincing evidence that the adverse action was based solely on legitimate, documented, non-retaliatory grounds.
-
-(c) CIVIL ENFORCEMENT.—A journalist subjected to retaliatory termination in violation of this Section may bring a civil action in federal district court for:
-
-(1) Reinstatement with full back pay and benefits;
-
-(2) Compensatory damages, including reputational harm and future lost earnings;
-
-(3) Punitive damages not to exceed five times compensatory damages where retaliation is proven by clear and convincing evidence; and
-
-(4) Attorneys' fees and costs.
-
-(d) ADMINISTRATIVE ENFORCEMENT.—The Federal Press Freedom Monitor shall receive complaints from journalists and may refer substantiated complaints to the Department of Labor for enforcement action under the standards of this Section.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 2704. FEDERAL JOURNALIST SHIELD LAW.
-
-(a) PRIVILEGE ESTABLISHED.—A journalist shall not be compelled by any federal court, federal grand jury, federal agency, or any arm of the federal government to:
-
-(1) Identify or disclose the identity of a confidential source of information used in or related to the journalist's reporting on a matter of substantial public concern;
-
-(2) Disclose unpublished notes, recordings, drafts, photographs, or communications that would tend to identify a confidential source; or
-
-(3) Provide testimony, documents, or other evidence that would reveal the journalist's newsgathering process in a manner that would expose confidential sources or chill future source relationships.
-
-(b) SCOPE.—The privilege established by this Section applies to all journalists as defined in Section 2702, regardless of media type, employment status, or organizational affiliation.
-
-(c) EXCEPTIONS.—The privilege under this Section may be overcome only upon a showing by clear and convincing evidence that:
-
-(1) The information sought is directly relevant to the prevention of an imminent act of terrorism, mass violence, or imminent threat to national security that cannot be obtained through any other means;
-
-(2) The journalist was a direct, knowing participant in the criminal activity about which testimony is sought, not merely a reporter of such activity; or
-
-(3) In a civil proceeding, the information is essential to the prevention of a clear, immediate, and irreparable harm to an identified individual that cannot be obtained through any alternative means, and the public interest in disclosure substantially outweighs the public interest in press freedom.
-
-(d) JUDICIAL REVIEW.—Any government attempt to overcome the privilege under this Section shall be subject to de novo review by a federal district court in camera prior to enforcement, with the journalist afforded right to counsel and opportunity to be heard.
-
+TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2705. FEDERAL ANTI-SLAPP PROTECTION FOR PRESS DEFENDANTS.
+SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
 
-(a) ANTI-SLAPP MOTION.—In any civil action filed in federal court in which a claim arises from a journalist's act of reporting, publishing, broadcasting, or communicating information on a matter of public concern, the journalist or news organization may file a special motion to dismiss within 60 days of service of the complaint.
+(a) SUPERSESSION.—The American Prosperity Dividend (APD), previously established as a universal cash distribution mechanism tied to market-dependent SIRF returns, is hereby retired and superseded. No provision of this Act shall be construed to authorize APD cash distributions. The retirement of APD reflects the determination that market-dependent universal cash transfers create employment disincentive effects, are vulnerable to political lobbying by recipients against structural reforms, and are less effective per dollar than direct structural cost elimination in improving aggregate household economic position.
 
-(b) STANDARD.—Upon filing of a motion under subsection (a), the burden shifts to the plaintiff to demonstrate, by clear and convincing evidence, a probability of prevailing on the claim. Absent such showing, the court shall dismiss the action with prejudice.
+(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for APD is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Sovereign Child Prosperity Trust birth deposits (Title V); the Shelter Sovereignty Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FDVMA consistent with the Restoration Principle of Section 504(c).
 
-(c) STAY OF DISCOVERY.—All discovery shall be stayed upon filing of a motion under this Section until the court rules on the motion, except for discovery necessary to oppose the motion.
+(c) SURPLUS IMPROVEMENT.—The retirement of APD as a standing expenditure improves the net annual NSRA surplus from four hundred fifty billion dollars ($450,000,000,000) to five hundred fifty-four billion dollars ($554,000,000,000), reflecting elimination of the approximately one hundred billion dollars ($100,000,000,000) annual APD cash distribution expenditure. This surplus improvement is reflected in the fiscal summary of Section 3406.
 
-(d) MANDATORY FEE AWARD.—If the court grants a motion under this Section, the court shall award the journalist or news organization their reasonable attorneys' fees, costs, and an additional sanction against the plaintiff in an amount sufficient to deter future SLAPP litigation, not less than $50,000.
+SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
 
-(e) COVERED PLAINTIFFS.—This Section applies to any plaintiff, including government entities, government officials, corporations, and private individuals, who file claims arising from protected press activity.
+(a) DECLARATION OF CLOSED-LOOP DESIGN.—The Sovereign Infrastructure and Resilience Fund is designed as a closed-loop, self-capitalizing sovereign fund. Its fiscal sustainability depends on scored, statutory revenue streams — not behavioral enforcement outcomes.
+
+(b) SIRF STATUTORY BASE REVENUE STREAMS.—The following revenue streams are designated Statutory Base Revenue of the SIRF, meaning they are mandatory, self-executing, annually recurring, and not dependent on penalty or enforcement outcomes:
+(1) National Infrastructure Monetization Authority (NIMA) revenues: estimated thirty-nine billion six hundred million dollars ($39,600,000,000) per year;
+(2) Financial Transaction Assessment (FTA) revenues: estimated seven billion dollars ($7,000,000,000) per year;
+(3) Leveraged Buyout Structural Assessment (LBO): estimated eighteen billion dollars ($18,000,000,000) per year;
+(4) Carried Interest Recapture: estimated fourteen billion dollars ($14,000,000,000) per year;
+(5) IRS Enforcement Sovereignty Fund (IESF) net return: estimated sixty to ninety billion dollars ($60,000,000,000 to $90,000,000,000) per year net of enforcement cost, based on Congressional Research Service modeling of enforcement investment returns; and
+(6) Carbon Fee and Border Adjustment: estimated forty billion dollars ($40,000,000,000) per year.
+Total Statutory Base Revenue: one hundred seventy-eight billion dollars ($178,000,000,000) to two hundred forty billion dollars ($240,000,000,000) per year.
+
+(c) SIRF SUPPLEMENTAL REVENUE STREAMS.—The following revenue streams are designated Supplemental Revenue, meaning they enhance SIRF capitalization but are not assumed in base fiscal projections:
+(1) Structural variance penalties and clawbacks under Titles I, IX, XI, XIII, XIV, and XXII;
+(2) Judicial disgorgement orders routed to SIRF nodes under Titles VII, X, and XI;
+(3) Health Profiteering Surplus Assessment (HPSA) revenues; and
+(4) Any other penalty, forfeiture, or enforcement recovery designated by the FDVMA.
+
+(d) STATUTORY BASE REVENUE SUFFICIENCY DECLARATION.—The Statutory Base Revenue streams of subsection (b) are independently sufficient to fund all SIRF node deployment commitments established in this Act at their minimum annual levels without reliance on Supplemental Revenue. Supplemental Revenue shall be treated as surplus capitalization that accelerates deployment or increases node allocations above minimum statutory floors.
+
+(e) SIRF FOUR-TIER PRIORITY WATERFALL.—SIRF funds shall be deployed in the following strict priority order:
+(1) TIER 1 — MANDATORY STRUCTURAL OBLIGATIONS.—Basic Minimum Plan federal per-capita payments; TANF structural floor enhancement; Sovereign Child Prosperity Trust birth deposits; Shelter Sovereignty Fund; Household Structural Relief Node mechanisms. Tier 1 obligations are non-discretionary and shall be funded first in each fiscal quarter before any Tier 2 disbursement.
+(2) TIER 2 — DEBT SOVEREIGNTY AND WAGE FLOOR.—Zero-interest student loan conversion interest subsidy; SPI-WFTC wage floor tax credits; Social Security anti-erosion protections; Veterans Health Sovereignty Fund. Tier 2 obligations shall be funded in full each quarter before any Tier 3 disbursement.
+(3) TIER 3 — DOMESTIC INFRASTRUCTURE AND SOVEREIGNTY INVESTMENT.—All SIRF node infrastructure deployments including energy sovereignty, environmental remediation, agricultural sovereignty, semiconductor sovereignty, water security, wildlife corridor and rewilding, grid modernization, and rural health. Tier 3 is funded from remaining SIRF revenues after Tier 1 and Tier 2 obligations are met.
+(4) TIER 4 — INTERNATIONAL SOVEREIGNTY FUNDS.—The American Mutual Benefit Global Health Sovereignty Fund (Title XXXI) and any international diplomatic infrastructure fund. Tier 4 disbursements are made exclusively from Supplemental Revenue surplus and shall not be funded from Statutory Base Revenue in any quarter where Tier 1 through Tier 3 commitments have not been fully met.
+
+SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
+
+The Household Structural Relief Node (formerly APD allocation) shall fund the following mechanisms in priority order within the Node:
+(1) Zero-interest student loan conversion interest subsidy — priority funding;
+(2) Sovereign Child Prosperity Trust birth deposits — four billion dollars ($4,000,000,000) annually;
+(3) Shelter Sovereignty Fund down payment and rental assistance — one billion five hundred million dollars ($1,500,000,000) annually;
+(4) SPI-WFTC wage floor tax credits — ten billion dollars ($10,000,000,000) annually;
+(5) TANF structural floor enhancement supplement — five billion dollars ($5,000,000,000) annually.
+The FDVMA shall publish an annual Household Structural Relief Node Utilization Report confirming that Node funds have been deployed exclusively to the above mechanisms.
+
+SEC. 3404. APD SUPERSESSION — CROSS-TITLE CLARIFICATION.
+
+Any reference in this Act to the American Prosperity Dividend, APD, or any universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E benchmark reporting obligations are now governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
+
+SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
+
+The SIRF node allocation percentages are revised as follows, effective from the date of enactment of this Title:
+(1) Household Structural Relief Node (formerly APD): 20%;
+(2) Tier 1 Mandatory Structural Obligations reserve: 15%;
+(3) Vanguard Capitalization Node: 15%;
+(4) Environmental Remediation Node: 10%;
+(5) Energy Sovereignty Node: 10%;
+(6) Agricultural Sovereignty Node: 7%;
+(7) Sovereign Deficit Reduction Node: 10%;
+(8) Knowledge Sovereignty Node: 5%;
+(9) Biosecurity and Pharmaceutical Node: 5%;
+(10) Administrative Operations Reserve: 3%.
+
+Total allocation: one hundred percent (100%). Only the designation and use of Node (1) is modified from APD cash distributions to structural mechanism funding. Node (7) Sovereign Deficit Reduction Node replaces the prior Industrial Infrastructure Node, reflecting the consolidation of infrastructure investment into the SIRF Tier 3 waterfall under Section 3402(e)(3).
+
+SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
+
+(a) REVENUE.—Total scored annual revenue from all NSRA revenue streams: seven hundred forty-nine billion dollars ($749,000,000,000).
+
+(b) STRUCTURAL PROGRAM EXPENDITURES.—Total annual expenditures for structural program delivery:
+(1) Basic Minimum Plan — BMP carrier payments: estimated eighty billion dollars ($80,000,000,000), fully offset by consolidation of existing Medicaid, CHIP, and ACA subsidy expenditures;
+(2) Zero-interest student loan conversion: estimated twenty billion dollars ($20,000,000,000) annual interest subsidy cost, partially offset by elimination of existing income-driven repayment administrative costs;
+(3) TANF structural enhancement (25% increase): estimated five billion dollars ($5,000,000,000);
+(4) SPI-WFTC wage floor tax credit: estimated ten billion dollars ($10,000,000,000);
+(5) Housing sovereignty fund and down payment assistance: estimated one billion five hundred million dollars ($1,500,000,000);
+(6) Sovereign Child Prosperity Trust birth deposits: estimated four billion dollars ($4,000,000,000) annually based on approximately 3.6 million births;
+(7) IESF mandatory IRS investment: fifteen billion dollars ($15,000,000,000), generating $75-105B net return;
+(8) Veterans Health Sovereignty Fund: estimated eight billion dollars ($8,000,000,000);
+(9) Social Security anti-erosion protections: estimated thirty billion dollars ($30,000,000,000);
+(10) Rural Health Sovereignty Fund — demand-adjusted: three billion dollars ($3,000,000,000) annually for years one through five, scaling to one billion five hundred million dollars ($1,500,000,000) annually for years six through ten based on FDVMA Rural Health Demand Assessment under Section 2109(b)(2).
+Total structural expenditures: approximately one hundred seventy-four billion dollars ($174,000,000,000), partially offset by existing federal program consolidation producing net new federal expenditure of approximately one hundred billion dollars ($100,000,000,000).
+
+(c) MANDATORY GROWTH REINVESTMENT — $100B/YR SOVEREIGN INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
+(1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
+(2) Urban and Rural Wildlife Corridor and Rewilding Infrastructure (Section 1005, Title X): twenty-two billion dollars ($22,000,000,000) per year;
+(3) National Food System Detoxification and Soil Sovereignty — comprising Regional Food System Infrastructure (Section 706, Title VII) and Agricultural Pesticide Transition Support (Section 705(d), Title VII): twenty billion dollars ($20,000,000,000) per year;
+(4) Semiconductor and Critical Materials Sovereignty (Section 1204, Title XII): fifteen billion dollars ($15,000,000,000) per year;
+(5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year;
+(6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FDVMA assessment.
+Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section.
+
+(d) NET ANNUAL SURPLUS AVAILABLE FOR DEFICIT REDUCTION.—Seven hundred forty-nine billion dollars ($749,000,000,000) revenue minus one hundred billion dollars ($100,000,000,000) net structural expenditures minus ninety-five billion dollars ($95,000,000,000) mandatory growth reinvestment equals five hundred fifty-four billion dollars ($554,000,000,000) available for annual federal deficit reduction.
+
+(e) REVISED SURPLUS DESIGNATION.—The net annual surplus of five hundred fifty-four billion dollars ($554,000,000,000) supersedes the prior estimate of four hundred fifty billion dollars ($450,000,000,000), reflecting the retirement of APD as a standing expenditure. This surplus is designated a Sovereign Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
+
+SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
+
+The FDVMA shall report annually on: (1) SIRF Statutory Base Revenue collected versus projection by stream; (2) Tier 1 waterfall obligation fulfillment rate — whether all Tier 1 obligations were met in full in each quarter; (3) aggregate household structural relief delivered by mechanism; (4) net annual federal deficit reduction attributable to NSRA revenue architecture; (5) debt-to-GDP ratio trend; (6) upstream prevention actuarial savings realized versus Section 2109 projections.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 2706. FCC EDITORIAL INDEPENDENCE FIREWALL.
-
-(a) PROHIBITED FCC ACTIONS.—The Federal Communications Commission shall not:
-
-(1) Initiate, accelerate, or threaten any license review, license revocation proceeding, spectrum reallocation, or regulatory investigation against a broadcast licensee based in whole or in part on the editorial content decisions of such licensee;
-
-(2) Condition the grant, renewal, or transfer of any broadcast license on the editorial practices, content policies, or personnel decisions of the applicant; or
-
-(3) Use any FCC regulatory authority as an instrument to compel, deter, or retaliate against any specific editorial content decision by a news organization.
-
-(b) ENFORCEMENT.—Any FCC action in violation of this Section shall be void ab initio and subject to immediate injunctive relief in federal district court. Any FCC Commissioner who votes in favor of an action found to violate this Section shall be personally subject to civil penalties of not less than $100,000 per violation, enforceable by the Department of Justice.
-
-(c) INDEPENDENT INSPECTOR GENERAL REVIEW.—The FCC Inspector General shall have independent authority to review any license proceeding or regulatory action affecting a news organization and shall publish a public report within 90 days of any such proceeding detailing whether editorial content considerations were a factor in the proceeding.
-
+END OF TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2707. FEDERAL PRESS FREEDOM MONITOR.
+SEC. 3501. FINDINGS AND PURPOSE.
 
-(a) ESTABLISHMENT.—There is established within the Federal Data Veracity Matrix Administration a Federal Press Freedom Monitor (PFPM) as an independent division charged with tracking, reporting on, and referring for enforcement all acts of covered government pressure, retaliatory termination, and FCC editorial interference affecting the press.
+(a) FINDINGS.—Congress finds that:
+(1) The Emoluments Clauses of the Constitution — Article I, Section 9, Clause 8 (Foreign Emoluments) and Article II, Section 1, Clause 7 (Domestic Emoluments) — prohibit the President and other federal officers from receiving personal financial benefits from foreign governments or from sources other than their official compensation, yet no adequate statutory enforcement mechanism with private right of action has existed to compel compliance;
+(2) The practice of senior executive branch officials and their immediate family members maintaining active foreign business partnerships, licensing agreements, and revenue-sharing arrangements with foreign government-linked entities during their tenure in office creates structural conflicts of interest that compromise sovereign decision-making on matters of trade, defense, and diplomatic policy;
+(3) The sale or licensing of the presidential or vice-presidential identity, name, or brand for commercial purposes during a term of office to foreign nationals or foreign government-linked enterprises constitutes a per se violation of the Foreign Emoluments Clause regardless of the transactional form used;
+(4) Current financial disclosure requirements under the Ethics in Government Act permit broad exemptions, delayed reporting, and valuation ranges that obscure the full scope of financial conflicts and do not reach family members' business dealings that create indirect emoluments;
+(5) Strategic assets of the United States — including military positioning decisions, tariff structures, regulatory enforcement priorities, and foreign aid allocations — have documented monetary value to private parties, and decisions affecting those assets by officials with undisclosed financial interests in the outcomes constitute a form of sovereign corruption regardless of whether a quid pro quo is proven;
+(6) The revolving door between senior regulatory positions and the industries those positions regulate undermines the structural independence of federal enforcement and creates a rational expectation among Covered Entities that regulatory capture is achievable through employment offers, thereby suppressing enforcement prior to departure; and
+(7) A comprehensive statutory framework addressing beneficial ownership transparency, foreign business prohibition during tenure, emoluments enforcement with private right of action, and post-service cooling-off periods is necessary to protect the integrity of sovereign decision-making and restore public trust in federal governance.
 
-(b) ANNUAL REPORT.—The PFPM shall publish an annual Press Freedom Sovereignty Report to Congress, documenting:
+(b) PURPOSE.—The purpose of this Title is to establish enforceable statutory standards for the financial conduct of senior federal officials and their immediate family members during and following federal service, to create a private right of action for Emoluments Clause violations, and to eliminate structural conflicts of interest that compromise sovereign policy-making.
 
-(1) All documented instances of covered government pressure against news organizations in the preceding year;
+SEC. 3502. DEFINITIONS — TITLE XXXV.
 
-(2) All retaliatory terminations reported to the PFPM, including outcomes of any enforcement proceedings;
+As used in this Title:
+(1) COVERED OFFICIAL.—The President, Vice President, any Cabinet Secretary, Deputy Secretary, Under Secretary, or Assistant Secretary of any executive department, any member of the White House senior staff, any member of the National Security Council, any independent agency head, and any other executive branch official confirmed by the Senate or serving in a position with a salary at or above the Executive Schedule Level IV rate.
+(2) IMMEDIATE FAMILY MEMBER.—The spouse, domestic partner, child, sibling, or parent of a Covered Official, and any entity in which such a person holds a controlling interest or serves in a management capacity.
+(3) FOREIGN GOVERNMENT-LINKED ENTERPRISE.—Any enterprise in which a foreign government, foreign sovereign wealth fund, foreign state-owned enterprise, or any entity in which a foreign government holds a direct or indirect ownership interest of ten percent (10%) or more, holds an ownership, licensing, revenue-sharing, or advisory interest.
+(4) SOVEREIGN ASSET DECISION.—Any official act, regulatory determination, enforcement decision, tariff action, military positioning decision, or diplomatic communication that has a quantifiable economic effect on a private party or industry sector.
+(5) EMOLUMENT.—Any financial benefit, profit, advantage, gain, or thing of value received by a Covered Official or Immediate Family Member from a foreign government, foreign government-linked enterprise, or domestic source other than official government compensation, whether received directly or through any intermediary, trust, LLC, licensing arrangement, royalty stream, speaking fee, or deferred compensation arrangement.
 
-(3) An index measuring the structural independence of the ten largest news organizations in the United States, scored on criteria including ownership concentration, government advertising dependency, regulatory exposure, and editorial personnel turnover rates; and
+SEC. 3503. PROHIBITION ON FOREIGN BUSINESS DEALINGS DURING TENURE.
 
-(4) Legislative or regulatory recommendations to strengthen press freedom protections.
+(a) MANDATORY DIVESTITURE AND SUSPENSION.—Within sixty (60) days of assuming a Covered Official position, the official and all Immediate Family Members shall:
+(1) Completely divest, place in a qualifying blind trust meeting the standards of 5 C.F.R. § 2634.401, or suspend all active business dealings, licensing agreements, revenue-sharing arrangements, and equity interests in any Foreign Government-Linked Enterprise;
+(2) Terminate or place in inactive status all trademark licensing, brand licensing, and name licensing agreements with any foreign national, foreign corporation, or Foreign Government-Linked Enterprise; and
+(3) File a complete Beneficial Ownership Disclosure with the Office of Government Ethics identifying all entities — domestic or foreign — in which the Covered Official or any Immediate Family Member holds any ownership interest exceeding one percent (1%), any advisory role, or any revenue-sharing arrangement, updated within thirty (30) days of any material change.
 
-(c) WHISTLEBLOWER BOUNTY.—Any journalist or news organization employee who provides documented evidence to the PFPM of covered government pressure or retaliatory editorial interference that results in a civil enforcement judgment shall be entitled to fifteen percent (15%) of any civil penalty collected, consistent with the citizen bounty framework of Section 401 of this Act.
+(b) ONGOING PROHIBITION.—For the duration of the Covered Official's tenure, no Covered Official or Immediate Family Member may:
+(1) Enter into any new business arrangement, licensing agreement, or revenue-sharing agreement with any Foreign Government-Linked Enterprise;
+(2) Accept any payment, speaking fee, gift, or thing of value exceeding two hundred fifty dollars ($250) from any Foreign Government-Linked Enterprise, foreign government, or foreign government official;
+(3) Negotiate, accept, or receive any deferred compensation, post-service employment offer, or future financial benefit from any entity regulated, contracted with, or subject to enforcement action by the Covered Official's agency or office; or
+(4) Permit the use of the Covered Official's name, likeness, or title in any commercial advertisement, licensing arrangement, or promotional material operated by a foreign national, foreign entity, or Foreign Government-Linked Enterprise.
 
-(d) FUNDING.—The PFPM shall be funded from the SIRF Accountability Node at not less than $25,000,000 annually, indexed to the Sovereign Productivity Index.
+(c) STRUCTURAL CONFLICT RECUSAL MANDATE.—Any Covered Official who holds a financial interest — directly or through an Immediate Family Member — in any entity materially affected by a Sovereign Asset Decision within the Covered Official's authority shall recuse from that decision, file a written recusal notice with the Office of Government Ethics within twenty-four (24) hours, and designate an acting official free of the conflict to exercise the decision-making authority. Recusal notices shall be posted publicly on the Office of Government Ethics website within forty-eight (48) hours of filing.
+
+SEC. 3504. BENEFICIAL OWNERSHIP AND FINANCIAL TRANSPARENCY MANDATE.
+
+(a) FULL BENEFICIAL OWNERSHIP DISCLOSURE.—The financial disclosure requirements of the Ethics in Government Act (5 U.S.C. App. §§ 101–111) are supplemented as follows for all Covered Officials:
+(1) Disclosure shall identify the beneficial owner of any trust, LLC, partnership, or corporate entity in which the Covered Official or any Immediate Family Member holds any interest, without exception for blind trusts unless the trust meets the qualifying blind trust standards of 5 C.F.R. § 2634.401 and has been certified as such by the Office of Government Ethics;
+(2) Disclosure shall include all foreign financial accounts, foreign real property holdings, and foreign intellectual property licensing arrangements held by any Immediate Family Member, consistent with FBAR reporting requirements under 31 U.S.C. § 5314;
+(3) Disclosure shall be filed publicly and in full, without the valuation ranges currently permitted under 5 U.S.C. App. § 102(a) — exact values shall be reported for all assets exceeding one hundred thousand dollars ($100,000); and
+(4) Failure to file a complete and accurate disclosure within the statutory deadline shall constitute a strict liability violation subject to civil penalty of not less than fifty thousand dollars ($50,000) per day of non-compliance, enforceable by the Office of Government Ethics through the Department of Justice.
+
+(b) REAL-TIME TRANSACTION REPORTING.—Any Covered Official or Immediate Family Member who engages in any financial transaction exceeding fifty thousand dollars ($50,000) in a single transaction or series of related transactions within a thirty (30) day period shall file a transaction report with the Office of Government Ethics within fifteen (15) calendar days. Transaction reports shall be posted publicly within thirty (30) days of filing.
+
+SEC. 3505. EMOLUMENTS CLAUSE ENFORCEMENT AND PRIVATE RIGHT OF ACTION.
+
+(a) STATUTORY CAUSE OF ACTION.—Any citizen of the United States, any Member of Congress, or any State Attorney General may bring a civil action in the United States District Court for the District of Columbia against any Covered Official for violation of the Foreign Emoluments Clause (Art. I, § 9, Cl. 8) or the Domestic Emoluments Clause (Art. II, § 1, Cl. 7) of the Constitution of the United States.
+
+(b) STANDING.—Plaintiffs under subsection (a) shall have standing upon demonstrating:
+(1) That the Covered Official received an Emolument as defined in Section 3502(5);
+(2) That the Emolument was not authorized by Congress through an explicit, specific statutory appropriation; and
+(3) For citizen plaintiffs: that the plaintiff is a taxpayer or voter whose sovereign interest in constitutional governance is directly implicated by the alleged violation. Competitor standing shall also be established where the plaintiff demonstrates a direct economic harm from the foreign financial relationship.
+
+(c) REMEDIES.—Upon finding a violation, the District Court may order:
+(1) Disgorgement of all Emoluments received, paid into the SIRF Sovereign Deficit Reduction Node;
+(2) Injunctive relief requiring divestiture of the conflicting financial interest;
+(3) Civil monetary penalties of not less than three times the value of the Emolument received;
+(4) In cases of willful and knowing violation: referral to the Department of Justice for criminal prosecution under 18 U.S.C. § 201 (bribery) and 18 U.S.C. § 208 (conflict of interest); and
+(5) For the President or Vice President: the Court shall transmit a certified record of findings to the Speaker of the House and the President pro tempore of the Senate for consideration of any appropriate Congressional action.
+
+(d) EXPEDITED JUDICIAL REVIEW.—Actions under this section shall be placed on an expedited track. The District Court shall hold a preliminary injunction hearing within thirty (30) days of filing, and shall issue a final judgment on the merits within one hundred eighty (180) days of filing, absent extraordinary circumstances documented on the record.
+
+SEC. 3506. REVOLVING DOOR COOLING-OFF PERIOD AND ENFORCEMENT.
+
+(a) SENIOR OFFICIAL COOLING-OFF PERIOD.—No Covered Official who exercised regulatory, enforcement, or procurement authority over a specific industry sector may accept employment, a board seat, a consulting arrangement, or any compensated advisory role with any Covered Entity in that sector for a period of four (4) years following departure from federal service. The existing two-year cooling-off period under 18 U.S.C. § 207 is extended to four (4) years for Covered Officials as defined in this Title.
+
+(b) NEGOTIATION PROHIBITION.—No Covered Official may, while serving in their official capacity, negotiate, solicit, or accept a post-service employment offer from any entity that is subject to a pending regulatory, enforcement, or procurement decision within their authority. Violation shall constitute a per se conflict of interest requiring immediate recusal from any related Sovereign Asset Decision and mandatory referral to the Department of Justice.
+
+(c) ENFORCEMENT.—The Office of Government Ethics shall maintain a public registry of all Covered Officials and their post-service employment for a period of ten (10) years following departure. Any violation of this section shall be subject to civil penalty of not less than two hundred fifty thousand dollars ($250,000) and shall render any post-service agreement void and unenforceable as against public policy. Criminal referral to the Department of Justice shall be mandatory for willful violations.
+
+(d) FOREIGN AGENT PROHIBITION.—No Covered Official may register as a foreign agent under the Foreign Agents Registration Act (22 U.S.C. § 611 et seq.) on behalf of any foreign government or Foreign Government-Linked Enterprise for a period of ten (10) years following departure from federal service. This prohibition is absolute and may not be waived by the Attorney General.
+
+SEC. 3507. SOVEREIGN INTEGRITY OVERSIGHT BOARD.
+
+(a) ESTABLISHMENT.—There is established the Sovereign Integrity Oversight Board (SIOB), an independent body within the legislative branch, composed of:
+(1) Two members appointed by the Speaker of the House;
+(2) Two members appointed by the President pro tempore of the Senate;
+(3) One member appointed by the Chief Justice of the United States;
+(4) All members shall be retired federal judges, former Inspectors General, or former Comptrollers General with no partisan political affiliation within the preceding ten (10) years; and
+(5) Members shall serve staggered six-year terms, removable only for cause by a two-thirds vote of both chambers.
+
+(b) JURISDICTION.—The SIOB shall:
+(1) Receive and investigate complaints alleging violations of this Title;
+(2) Conduct mandatory annual audits of the financial disclosures of all Covered Officials;
+(3) Issue public findings within ninety (90) days of completing any investigation;
+(4) Refer substantiated violations to the Department of Justice and, where appropriate, to the relevant Congressional committee with jurisdiction over impeachment or removal; and
+(5) Publish an annual Sovereign Integrity Report to Congress and the public assessing the state of compliance with this Title.
+
+(c) FUNDING.—The SIOB shall be funded from the SIRF Administrative Operations Reserve at not less than fifty million dollars ($50,000,000) annually, insulating its operations from executive budget manipulation.
+
+(d) WHISTLEBLOWER PROTECTION.—Any federal employee, contractor, or private citizen who provides information to the SIOB regarding a potential violation of this Title shall be protected under the Whistleblower Protection Act (5 U.S.C. §§ 2302, 7701–7703) and shall be entitled to a monetary award of not less than fifteen percent (15%) of any civil penalty collected as a result of a substantiated referral.
+
+SEC. 3508. SIRF FUND PROTECTION FROM EXECUTIVE IMPOUNDMENT.
+
+(a) ANTI-IMPOUNDMENT MANDATE.—No President, Director of the Office of Management and Budget, or any other executive official may impound, defer, or rescind any funds appropriated or mandatorily allocated to the SIRF or any SIRF node. Any attempt to impound SIRF funds shall be null and void ab initio and subject to immediate judicial review under 2 U.S.C. § 684.
+
+(b) AUTOMATIC JUDICIAL ENFORCEMENT.—Upon any executive attempt to impound or redirect SIRF funds, the Comptroller General shall within seven (7) calendar days file an action in the United States District Court for the District of Columbia seeking an order of immediate release. The District Court shall adjudicate the matter on a forty-eight (48) hour track. No executive privilege claim shall delay or stay the judicial proceedings.
+
+(c) CRIMINAL PENALTY.—Any executive official who willfully impounds SIRF funds in violation of this section shall be subject to criminal penalties under 31 U.S.C. § 1350 (Anti-Impoundment Criminal Penalty) as amended by this Act, including fines of not less than five hundred thousand dollars ($500,000) and imprisonment of not more than five (5) years.
+
+SEC. 3509. SCHEDULE D BENCHMARKS — TITLE XXXV.
+
+The FDVMA and the Sovereign Integrity Oversight Board shall jointly report biennially to Congress on: (1) the number of Covered Officials who filed complete and timely beneficial ownership disclosures; (2) the number of recusal notices filed and the Sovereign Asset Decisions affected; (3) the number of Emoluments Clause complaints filed, investigated, and adjudicated; (4) post-service employment compliance rate among departing Covered Officials; and (5) aggregate civil penalties collected and disgorgement amounts recovered under this Title.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 2708. GOVERNMENT PRESS ACCESS GUARANTEE.
-
-(a) EQUAL ACCESS MANDATE.—Any federal agency, department, or official that holds a press briefing, press conference, or media availability event shall not exclude any credentialed journalist or news organization from such event on the basis of the editorial content, viewpoint, or past reporting of such journalist or news organization.
-
-(b) CREDENTIALING STANDARDS.—Federal press credential standards shall be objective, content-neutral, and publicly posted. Denial of press credentials shall be subject to administrative appeal and de novo judicial review within 30 days.
-
-(c) ENFORCEMENT.—Violation of this Section shall constitute grounds for an immediate injunction in federal district court and personal civil liability for the federal official responsible for the exclusion, in an amount not less than $25,000 per incident.
-
+END OF TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 2709. SCHEDULE D BENCHMARKS — TITLE XXVII.
-
-The FDVMA and PFPM shall report jointly to Congress biennially on: (1) number of journalist anti-retaliation complaints filed, adjudicated, and resolved; (2) number of federal shield law invocations and outcomes; (3) number of Anti-SLAPP motions filed under Section 2705 and outcomes; (4) FCC proceedings reviewed for editorial independence compliance; (5) Press Freedom Sovereignty Index scores and year-over-year trends.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Passed by the Senate and House of Representatives of the United States of America in Congress assembled, as amended by the inclusion of Titles XXII through XXXI.
-
-END OF THE NATIONAL SOVEREIGNTY AND RESILIENCE ACT OF 2028 — COMPLETE AS AMENDED
