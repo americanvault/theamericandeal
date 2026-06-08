@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>National Sovereignty and Resilience Act (NSRA) — TheAmericanDeal.org | What America Owes You™</title>
-  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA) is a comprehensive legislative framework to restore American fiscal sovereignty, deliver universal healthcare, eliminate student loan interest, and return an American Productivity Dividend to every household. TheAmericanDeal.org — What America Owes You™." />
-  <meta name="keywords" content="National Sovereignty and Resilience Act, NSRA 2028, TheAmericanDeal, What America Owes You, American Productivity Dividend, universal healthcare, fiscal reform, legislative advocacy, TheAmericanDeal.org" />
+  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA) is a comprehensive legislative framework to restore American fiscal sovereignty, deliver universal healthcare, eliminate student loan interest, and return an Household Structural Relief Node to every household. TheAmericanDeal.org — What America Owes You™." />
+  <meta name="keywords" content="National Sovereignty and Resilience Act, NSRA 2028, TheAmericanDeal, What America Owes You, Household Structural Relief Node, universal healthcare, fiscal reform, legislative advocacy, TheAmericanDeal.org" />
   <link rel="canonical" href="https://theamericandeal.org/" />
   <meta name="robots" content="index, follow" />
 
@@ -229,18 +229,18 @@
     .b-amber  { background: rgba(245,158,11,0.12); color: var(--amber); }
     .b-muted  { background: rgba(100,116,139,0.12);color: var(--muted); }
 
-    /* ── APD PHASES ── */
-    .apd-list { display: flex; flex-direction: column; gap: 6px; }
-    .apd-item {
+    /* ── PHASE GATES ── */
+    .phase-list { display: flex; flex-direction: column; gap: 6px; }
+    .phase-item {
       background: var(--bg-elevated); border-radius: 8px;
       padding: 10px 12px; border-left: 3px solid var(--border);
     }
-    .apd-item.active  { border-left-color: var(--green); }
-    .apd-item.locked  { border-left-color: var(--red); opacity: 0.65; }
-    .apd-item.pending { border-left-color: var(--amber); }
-    .apd-item-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
-    .apd-item-val   { font-size: 18px; font-weight: 800; margin: 2px 0; }
-    .apd-item-note  { font-size: 10px; color: var(--muted); }
+    .phase-item.active  { border-left-color: var(--green); }
+    .phase-item.locked  { border-left-color: var(--red); opacity: 0.65; }
+    .phase-item.pending { border-left-color: var(--amber); }
+    .phase-item-label { font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+    .phase-item-val   { font-size: 18px; font-weight: 800; margin: 2px 0; }
+    .phase-item-note  { font-size: 10px; color: var(--muted); }
 
     /* ── TIER CARDS ── */
     .tier-list { display: flex; flex-direction: column; gap: 6px; }
@@ -510,13 +510,13 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
           <td>Balanced budget mechanism</td>
           <td style="color:#60a5fa">PAYGO rules · Discretionary spending caps · Top income tax rate raised to 39.6% · Economic growth tailwind</td>
           <td style="color:#f87171">None — extends TCJA cuts ($4.5T cost) · Medicaid/SNAP cuts (~$1T) offset only partially · No fiscal balance target</td>
-          <td style="color:var(--green);font-weight:700">Self-executing FDVM triggers · V_abs throttle · 16-stream revenue engine · Phase-gated APD · No new borrowing</td>
+          <td style="color:var(--green);font-weight:700">Self-executing FDVM triggers · V_abs throttle · 16-stream revenue engine · Self-funding · No new borrowing</td>
         </tr>
         <tr>
           <td>Household monthly floor</td>
           <td style="color:#60a5fa">None · EITC expansion · Minimum wage increase · No universal dividend</td>
-          <td style="color:#f87171">None (APD-equivalent) · MAGA Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
-          <td style="color:var(--green);font-weight:700">$300/mo targeted APD at Gate 1 · Full rate universal at Gate 2 · Child Prosperity Trust $5K at birth · MAGA Account complementary</td>
+          <td style="color:#f87171">None · MAGA Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
+          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust $5K at birth · MAGA Account complementary</td>
         </tr>
         <tr>
           <td>Healthcare coverage floor</td>
@@ -640,7 +640,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     </div>
     <div id="map-tooltip" style="position:fixed;display:none;background:rgba(13,15,20,0.95);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:11px;pointer-events:none;z-index:999;min-width:160px"></div>
     <svg id="us-map" style="width:100%;height:auto;display:block;border-radius:6px;background:var(--bg-elevated)"></svg>
-    <p style="font-size:10px;color:var(--muted);margin-top:10px">Impact tier reflects composite NSRA reform score: healthcare coverage, pharma pricing, Private Equity restrictions, housing policy, student debt relief, veterans benefits, and tax reform. All states benefit from pharma price caps, Child Prosperity Trust, and APD regardless of tier. Source: Census ACS 2023 + NSRA 7-Subledger Math Engine™.</p>
+    <p style="font-size:10px;color:var(--muted);margin-top:10px">Impact tier reflects composite NSRA reform score: healthcare coverage, pharma pricing, Private Equity restrictions, housing policy, student debt relief, veterans benefits, and tax reform. All states benefit from pharma price caps, Child Prosperity Trust, and BMP coverage regardless of tier. Source: Census ACS 2023 + NSRA fiscal architecture Math Engine™.</p>
   </div>
   <!-- BRIDGE CALLOUT -->
   <div style="margin-top:12px;background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
@@ -881,7 +881,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
         </div>
         <div id="calc-apd-note" style="font-size:11px;color:var(--amber);max-width:300px;line-height:1.5"></div>
       </div>
-      <p style="font-size:10px;color:var(--muted);margin-top:10px">Estimates based on statutory provisions. APD amounts require Phase Gate conditions to be met. All figures are annual. Not financial advice — consult official CBO scoring upon enactment.</p>
+      <p style="font-size:10px;color:var(--muted);margin-top:10px">Estimates based on statutory provisions. All figures are annual. Not financial advice — consult official CBO scoring upon enactment.</p>
     </div>
   </div>
 
@@ -971,7 +971,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     // Manufacturing — Title XI/XII (jobs protected + reshored)
     const mfgJobs = fmtK(d.mfg_k);
 
-    // APD eligibility
+    // Household poverty check
     const povertyHH = Math.round(d.poverty_pct/100 * d.renters_k * 1.4);
     const apdBeneficiaries = fmtK(povertyHH);
 
@@ -1037,7 +1037,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
         </div>
 
         <div style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #22C55E">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;color:#22C55E;letter-spacing:0.08em;margin-bottom:4px">APD Eligible · Title V</div>
+          
           <div style="font-size:20px;font-weight:800;color:#22C55E">${apdBeneficiaries}</div>
           <div style="font-size:10px;color:var(--muted)">HH at ≤150% FPL — Gate 1 dividend</div>
           <div style="font-size:9px;color:#22C55E;margin-top:2px">\$300–\$500/mo upon Phase Gate</div>
@@ -1091,25 +1091,18 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     if(stateCode) showStateProfile(stateCode);
     if(income===0 && !uninsured && !loans && !insulin && !veteran && !newborn){document.getElementById('calc-results').style.display='none';return;}
     document.getElementById('calc-results').style.display='block';
-    const fpl = FPL[Math.min(size,6)]||41960;
-    const pct150 = fpl*1.5;
     let items=[], total=0;
-    const apdEligible = income>0 && income<=pct150;
-    let apdAnnual=0;
-    if(apdEligible){apdAnnual=300*12;items.push({label:'APD — Phase 2',val:apdAnnual,color:'var(--green)',note:'≤150% FPL · Gate 1 required'});}
-    total+=apdAnnual;
-    if(uninsured){const bmpVal=6000+(size>1?(size-1)*2000:0);items.push({label:'BMP Health Coverage',val:bmpVal,color:'var(--blue)',note:'$0 premium · $0 deductible'});total+=bmpVal;}
-    if(loans){const loanSave=2400;items.push({label:'Student Loan Interest',val:loanSave,color:'var(--blue)',note:'Zero-interest savings est.'});total+=loanSave;}
-    if(insulin){const drugSave=3600;items.push({label:'Prescription Drug Savings',val:drugSave,color:'var(--green)',note:'G7 parity — est. avg savings'});total+=drugSave;}
+    if(uninsured){const bmpVal=6000+(size>1?(size-1)*2000:0);items.push({label:'BMP Health Coverage',val:bmpVal,color:'var(--blue)',note:'$0 premium · $0 deductible · Year 1'});total+=bmpVal;}
+    if(loans){const loanSave=2400;items.push({label:'Student Loan Interest',val:loanSave,color:'var(--blue)',note:'Zero-interest conversion · Year 1'});total+=loanSave;}
+    if(insulin){const drugSave=3600;items.push({label:'Prescription Drug Savings',val:drugSave,color:'var(--green)',note:'G7 parity pricing · est. avg savings'});total+=drugSave;}
     if(veteran && uninsured){items.push({label:'Veteran BMP Coverage',val:0,color:'var(--amber)',note:'Included in BMP above — $0 cost'});}
     else if(veteran && !uninsured){items.push({label:'Veteran PACT Gap Coverage',val:0,color:'var(--amber)',note:'Non-service conditions now covered'});}
-    if(newborn){const cpt=5000;items.push({label:'Child Prosperity Trust',val:cpt,color:'var(--green)',note:'$5,000 at birth · one-time'});total+=cpt;}
-    if(children>0 && apdEligible){const childSupp=children*350*12;items.push({label:'APD Child Supplement',val:childSupp,color:'var(--green)',note:fmt(350*12)+'/child · Gate 1 required'});total+=childSupp;}
+    if(newborn){const cpt=5000;items.push({label:'Child Prosperity Trust',val:cpt,color:'var(--green)',note:'$5,000 at birth · one-time deposit'});total+=cpt;}
+    if(children>0){const childTax=children*2000;items.push({label:'Child Tax Credit Enhancement',val:childTax,color:'var(--green)',note:fmt(2000)+'/child · refundable · Year 1'});total+=childTax;}
     const cards = items.map(i=>`<div style="background:var(--bg-base);border:1px solid var(--border);border-radius:8px;padding:10px 12px"><div style="font-size:10px;color:var(--muted)">${i.label}</div><div style="font-size:18px;font-weight:800;color:${i.color};margin:3px 0">${i.val>0?fmt(i.val):'Covered'}</div><div style="font-size:9px;color:var(--muted)">${i.note}</div></div>`).join('');
     document.getElementById('calc-cards').innerHTML=cards;
     document.getElementById('calc-total').textContent=fmt(total)+'/yr';
-    const note = apdEligible ? 'APD requires Phase Gate 1: deficit &lt; $900B + CBO declining trend + SIRF &gt; $200B. All other benefits begin Year 1.' : income>pct150&&income>0 ? 'Your income exceeds 150% FPL — APD begins in Phase 3 (universal). All other Year 1 benefits apply immediately.' : 'Enter income to check APD eligibility.';
-    document.getElementById('calc-apd-note').innerHTML=note;
+    document.getElementById('calc-apd-note').innerHTML='All benefits shown activate Year 1 upon enactment. No phase gates required.';
   }
   </script>
 
@@ -1152,7 +1145,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
 
     <!-- Year 1 Impact -->
     <div class="panel col-12">
-      <div class="panel-label">Year 1 American Relief — No APD Required</div>
+      <div class="panel-label">Year 1 American Relief</div>
       <div class="panel-title">What Americans Feel Before the Check Arrives</div>
       <div class="impact-cards">
         <div class="impact-card"><div class="impact-group">8.4M insulin-dependent Americans</div><div class="impact-relief" style="color:var(--green)">$2,400–$4,800/yr saved</div></div>
@@ -1177,14 +1170,14 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
           <div class="gate-dot d-amber"></div>
           <div class="gate-body">
             <strong>Phase 1 — Pending Enactment</strong>
-            <p>Bill not yet passed · APD: $0 · Upon passage: fiscal foundation building begins</p>
+            <p>Bill not yet passed · Upon passage: fiscal foundation building begins immediately.</p>
           </div>
         </div>
         <div class="gate">
           <div class="gate-dot d-red"></div>
           <div class="gate-body">
             <strong>Phase 2 — Gate 1 Conditions — Locked</strong>
-            <p>$300/mo targeted APD · Households ≤ 150% poverty line · Unlocks when all 3 conditions below are met</p>
+            <p>Gate 1 conditions: deficit &lt; $900B, CBO declining trend, SIRF &gt; $200B · Unlocks when all 3 conditions below are met</p>
             <div class="chips">
               <span class="chip">Deficit &lt; $900B</span>
               <span class="chip">CBO 10yr Declining</span>
@@ -1196,7 +1189,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
           <div class="gate-dot d-red"></div>
           <div class="gate-body">
             <strong>Phase 3 — Gate 2 Conditions — Locked</strong>
-            <p>Universal APD at full statutory rates · Unlocks when both conditions below are met</p>
+            <p>Full universal relief at statutory rates · Unlocks when both conditions below are met</p>
             <div class="chips">
               <span class="chip">Debt/GDP &lt; 110%</span>
               <span class="chip warn">Now: 101% (CBO 2026)</span>
@@ -1279,7 +1272,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
             <div style="font-weight:700;font-size:13px;color:var(--text)">Domestic Manufacturers</div>
             <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">7/10</div>
           </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">WEA eliminates foreign wage arbitrage advantage. Buy American procurement preferences. Reshoring tax credit (15% accelerated depreciation). SPI Wage Floor Tax Credit (7.5%). $3B semiconductor fund. Corporate rate increase and carbon fee are real costs — offset by stronger domestic demand from APD and BMP.</div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">WEA eliminates foreign wage arbitrage advantage. Buy American procurement preferences. Reshoring tax credit (15% accelerated depreciation). SPI Wage Floor Tax Credit (7.5%). $3B semiconductor fund. Corporate rate increase and carbon fee are real costs — offset by stronger domestic demand from BMP and wage floor provisions.</div>
         </div>
 
         <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
@@ -1295,7 +1288,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
             <div style="font-weight:700;font-size:13px;color:var(--text)">Large Corps (non-financial)</div>
             <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4.5/10</div>
           </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Corporate rate 28% (+7pts). SS payroll cap elimination raises employer labor costs on high-wage employees. NIMA (0.18% of gross revenue). Carbon fee. Offset by stronger consumer demand from APD/BMP and infrastructure investment that reduces operational costs. Companies with genuine domestic value chains face higher taxes but a stronger economy.</div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Corporate rate 28% (+7pts). SS payroll cap elimination raises employer labor costs on high-wage employees. NIMA (0.18% of gross revenue). Carbon fee. Offset by stronger consumer demand from BMP and infrastructure investment that reduces operational costs. Companies with genuine domestic value chains face higher taxes but a stronger economy.</div>
         </div>
 
         <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
@@ -1370,29 +1363,6 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
       </div>
     </div>
 
-    <!-- APD Calculator -->
-    <div class="panel col-6">
-      <div class="panel-label">APD Benefit Calculator</div>
-      <div class="panel-title">American Prosperity Dividend</div>
-      <div class="panel-sub">Household income + size → eligibility + monthly benefit</div>
-      <div class="apd-list">
-        <div class="apd-item pending">
-          <div class="apd-item-label">Phase 1 — Pending Enactment</div>
-          <div class="apd-item-val">$0 / month</div>
-          <div class="apd-item-note">Bill not yet enacted · Upon passage, fiscal foundation building begins · No APD in Phase 1</div>
-        </div>
-        <div class="apd-item locked">
-          <div class="apd-item-label">Phase 2 — Requires Gate 1</div>
-          <div class="apd-item-val">$300 / month</div>
-          <div class="apd-item-note">Households ≤ 150% Federal Poverty Line · APD excluded from SNAP, WIC, Medicaid, SSI, Section 8 calculations</div>
-        </div>
-        <div class="apd-item locked">
-          <div class="apd-item-label">Phase 3 — Requires Gate 2</div>
-          <div class="apd-item-val">Full Rate / month</div>
-          <div class="apd-item-note">Universal eligibility · Rate defined in Schedule E</div>
-        </div>
-      </div>
-    </div>
 
     <!-- SIRF -->
     <div class="panel col-6">
@@ -1418,21 +1388,21 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     <div class="panel col-4">
       <div class="panel-label">Pharmaceutical Architecture</div>
       <div class="panel-title">Three-Layer Pricing System</div>
-      <div class="apd-list">
-        <div class="apd-item active">
-          <div class="apd-item-label">Layer 1 — NIH-Funded G7 Parity</div>
-          <div class="apd-item-val" style="font-size:14px">70% of blockbusters · Bayh-Dole</div>
-          <div class="apd-item-note">FDVM auto cross-ref FDA × NIH grant DB · Zero discretion</div>
+      <div class="phase-list">
+        <div class="phase-item active">
+          <div class="phase-item-label">Layer 1 — NIH-Funded G7 Parity</div>
+          <div class="phase-item-val" style="font-size:14px">70% of blockbusters · Bayh-Dole</div>
+          <div class="phase-item-note">FDVM auto cross-ref FDA × NIH grant DB · Zero discretion</div>
         </div>
-        <div class="apd-item pending">
-          <div class="apd-item-label">Layer 2 — Allied Pricing Compact</div>
-          <div class="apd-item-val" style="font-size:14px">USTR 90-day directive</div>
-          <div class="apd-item-note">2 bilateral agreements within 24 months</div>
+        <div class="phase-item pending">
+          <div class="phase-item-label">Layer 2 — Allied Pricing Compact</div>
+          <div class="phase-item-val" style="font-size:14px">USTR 90-day directive</div>
+          <div class="phase-item-note">2 bilateral agreements within 24 months</div>
         </div>
-        <div class="apd-item locked">
-          <div class="apd-item-label">Layer 3 — Fallback (if Layer 2 fails)</div>
-          <div class="apd-item-val" style="font-size:14px">Innovation Protection Period</div>
-          <div class="apd-item-note">Private R&D drugs only · Binary NIH test · No litigation window</div>
+        <div class="phase-item locked">
+          <div class="phase-item-label">Layer 3 — Fallback (if Layer 2 fails)</div>
+          <div class="phase-item-val" style="font-size:14px">Innovation Protection Period</div>
+          <div class="phase-item-note">Private R&D drugs only · Binary NIH test · No litigation window</div>
         </div>
       </div>
       <hr/>
@@ -1445,34 +1415,34 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     <div class="panel col-4">
       <div class="panel-label">Nutrition Guard</div>
       <div class="panel-title">SNAP & WIC Protection</div>
-      <div class="apd-item active">
-        <div class="apd-item-label">SNAP — Fully Protected</div>
-        <div class="apd-item-val" style="font-size:14px">42M beneficiaries · 1.54× multiplier</div>
-        <div class="apd-item-note">FDVM: retailer fraud only · $1B/yr recovery · Zero beneficiary impact</div>
+      <div class="phase-item active">
+        <div class="phase-item-label">SNAP — Fully Protected</div>
+        <div class="phase-item-val" style="font-size:14px">42M beneficiaries · 1.54× multiplier</div>
+        <div class="phase-item-note">FDVM: retailer fraud only · $1B/yr recovery · Zero beneficiary impact</div>
       </div>
-      <div class="apd-item active" style="margin-top:4px">
-        <div class="apd-item-label">WIC — Preserved + Expanded</div>
-        <div class="apd-item-val" style="font-size:14px">6.7M · Postpartum 12 → 24 months</div>
-        <div class="apd-item-note">Cost $7.3B/yr · Saves $18B Medicaid · ROI: 3.5×</div>
+      <div class="phase-item active" style="margin-top:4px">
+        <div class="phase-item-label">WIC — Preserved + Expanded</div>
+        <div class="phase-item-val" style="font-size:14px">6.7M · Postpartum 12 → 24 months</div>
+        <div class="phase-item-note">Cost $7.3B/yr · Saves $18B Medicaid · ROI: 3.5×</div>
       </div>
       <hr/>
       <div class="panel-sub">Both programs excluded from PRWORA reform language</div>
-      <div class="panel-sub">APD payments excluded from both eligibility calculations</div>
+      <div class="panel-sub">NSRA direct benefits excluded from both eligibility calculations</div>
     </div>
 
     <!-- Health -->
     <div class="panel col-4">
       <div class="panel-label">Health Coverage Stack</div>
       <div class="panel-title">BMP + Medicare</div>
-      <div class="apd-item active">
-        <div class="apd-item-label">Basic Medical Plan</div>
-        <div class="apd-item-val" style="font-size:14px">$0 premium · $0 deductible</div>
-        <div class="apd-item-note">Funded via Medicaid/CHIP/ACA consolidation + pharma savings · Private carrier choice · 28M uninsured covered</div>
+      <div class="phase-item active">
+        <div class="phase-item-label">Basic Medical Plan</div>
+        <div class="phase-item-val" style="font-size:14px">$0 premium · $0 deductible</div>
+        <div class="phase-item-note">Funded via Medicaid/CHIP/ACA consolidation + pharma savings · Private carrier choice · 28M uninsured covered</div>
       </div>
-      <div class="apd-item active" style="margin-top:4px">
-        <div class="apd-item-label">Medicare — Separate + Enhanced</div>
-        <div class="apd-item-val" style="font-size:14px">$400B dedicated payroll revenue</div>
-        <div class="apd-item-note">Not merged into BMP · Risk pools separate</div>
+      <div class="phase-item active" style="margin-top:4px">
+        <div class="phase-item-label">Medicare — Separate + Enhanced</div>
+        <div class="phase-item-val" style="font-size:14px">$400B dedicated payroll revenue</div>
+        <div class="phase-item-note">Not merged into BMP · Risk pools separate</div>
       </div>
       <hr/>
       <div class="chips">
@@ -1603,7 +1573,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     <p style="font-size:13px;color:var(--muted);line-height:1.75;margin-bottom:14px">The NSRA's 25+ titles are organized as <strong style="color:var(--text)">5 coordinated bills</strong> introduced simultaneously in the same Congress. Each bill is self-funding, constitutionally grounded independently, and viable as standalone legislation. Click any bill to expand its titles, then toggle between <strong style="color:var(--text)">Plain Language</strong> and <strong style="color:var(--text)">Statutory Text</strong> for each title.</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:6px;font-size:11px;border-top:1px solid var(--border);padding-top:14px">
       <div><span style="color:var(--green);font-weight:700">SIRF</span> — Sovereign Infrastructure Reinvestment Fund</div>
-      <div><span style="color:var(--green);font-weight:700">APD</span> — American Productivity Dividend</div>
+      <div><span style="color:var(--green);font-weight:700">HSRN</span> — Household Structural Relief Node (retired). Superseded by the Household Structural Relief Node under Title XXXIV. See: SIRF, HSRN.</div>
       <div><span style="color:var(--green);font-weight:700">BMP</span> — Basic Minimum Plan (healthcare floor)</div>
       <div><span style="color:var(--green);font-weight:700">FDVMA</span> — Federal Data Veracity Matrix Administration</div>
       <div><span style="color:var(--green);font-weight:700">MSA</span> — Metropolitan Statistical Area</div>
@@ -1763,7 +1733,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (b) CREDIT RATE.—Covered Entities meeting the SPI wage floor threshold shall receive a tax credit equal to seven and one-half percent (7.5%) of total domestic payroll costs for employees paid at or above the SPI wage floor, applied against corporate income tax liability.
 
-(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the American Productivity Dividend deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
+(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
 
 (d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FDVMA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
@@ -1780,7 +1750,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">The legal backbone. Defines every term used in the bill — 'Covered Entity,' 'SIRF,' 'FDVMA,' 'APD,' and all core parameters. Establishes the tranche-based escalation lock: Year 1 relief activates immediately upon enactment with no revenue gate required. Sets the CBO certification requirement before any major SIRF disbursement goes national.</div>
+            <div class="lt-plain">The legal backbone. Defines every term used in the bill — 'Covered Entity,' 'SIRF,' 'FDVMA,' 'HSRN,' and all core parameters. Establishes the tranche-based escalation lock: Year 1 relief activates immediately upon enactment with no revenue gate required. Sets the CBO certification requirement before any major SIRF disbursement goes national.</div>
             <div class="lt-legal">TITLE 0 — STATUTORY FOUNDATIONS AND CORE DEFINITIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -1838,7 +1808,7 @@ As used in this Act:
 
 (15) HEALTH PROFIT SOVEREIGNTY ASSESSMENT.—The mandatory levy assessed against any licensed health insurance carrier whose medical loss ratio falls below eighty-five percent (85%) in any calendar year, equal to one hundred percent (100%) of premium revenue retained above the fifteen percent (15%) overhead and profit ceiling, collected automatically and routed to the Health Sovereignty Fund.
 
-(16) AMERICAN PRODUCTIVITY DIVIDEND (APD).—The monthly capitalization transfer established under Section 502 of this Act, disbursed from the SIRF Household Endowment Node to every eligible United States resident household at zero premium or means-test condition, calculated by the household composition formula in Section 502(c) and indexed annually to the Sovereign Productivity Index.
+(16) AMERICAN PRODUCTIVITY DIVIDEND (HSRN).—The monthly capitalization transfer established under Section 502 of this Act, disbursed from the SIRF Household Endowment Node to every eligible United States resident household at zero premium or means-test condition, calculated by the household composition formula in Section 502(c) and indexed annually to the Sovereign Productivity Index.
 
 SEC. 004. MANDATORY TRIGGER PARAMETERS — CONGRESSIONAL SPECIFICATION.
 
@@ -1875,7 +1845,7 @@ SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
 
 (b) REVENUE SUFFICIENCY TRIGGER.—If at any point the FDVMA determines, based on verified SIRF cash-flow data, that SIRF balances are insufficient to sustain authorized disbursements for the following twelve (12) months at current deployment rates, the FDVMA shall within thirty (30) calendar days:
 
-(1) Reduce all per-household American Productivity Dividend disbursements on a pro-rata basis to match available SIRF revenue, maintaining equal percentage reductions across all recipient households; and
+(1) Reduce all per-household Household Structural Relief Node disbursements on a pro-rata basis to match available SIRF revenue, maintaining equal percentage reductions across all recipient households; and
 
 (2) Transmit a Revenue Sufficiency Alert to the Bipartisan Commission on NSRA Implementation and to both Budget Committees of Congress, triggering a mandatory sixty (60) day joint legislative review.
 
@@ -1891,7 +1861,7 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 
 (a) CONGRESSIONAL FINDINGS — TRANCHE STRUCTURE.—Congress finds that the most effective method for delivering immediate household economic relief while maintaining fiscal discipline is a structured, sequenced deployment architecture that insulates safety-net disbursements from dependency on unconfirmed revenue streams.
 
-(b) TRANCHE 1 — IMMEDIATE FOUNDATION RELIEF (YEAR 1, NO APD).—The following citizen relief mechanisms shall activate upon enactment without requiring CBO revenue certification, as they are fully funded by confirmed and scored revenue streams under Subledgers SL-1 through SL-5 of the 7-Subledger fiscal architecture:
+(b) TRANCHE 1 — IMMEDIATE FOUNDATION RELIEF (YEAR 1 — IMMEDIATE ACTIVATION).—The following citizen relief mechanisms shall activate upon enactment without requiring CBO revenue certification, as they are fully funded by confirmed and scored revenue streams under Subledgers SL-1 through SL-5 of the 7-Subledger fiscal architecture:
 (1) Basic Minimum Plan deployment for uninsured households (Title XXI);
 (2) G7 pharmaceutical price parity enforcement (Title XIII);
 (3) Federal student loan zero-interest conversion (Title XV);
@@ -1899,15 +1869,15 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 (5) SNAP and WIC statutory protection (Titles I and VII).
 No Tranche 1 disbursement requires a SIRF revenue certification or phase gate condition. These mechanisms are funded from mandatory enforcement revenue that activates automatically upon enactment.
 
-(c) TRANCHE 2 — TARGETED APD (GATE 1 CONDITIONS).—American Productivity Dividend deployment at three hundred dollars ($300) per month to households at or below one hundred fifty percent (150%) of the federal poverty guideline shall activate only when all three Gate 1 conditions of Schedule E are simultaneously certified by the CBO. No Tranche 2 disbursement may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that dollar-one of APD is backed by collected, verified sovereign revenue.
+(c) TRANCHE 2 — TARGETED HSRN (GATE 1 CONDITIONS).—Household Structural Relief Node deployment at three hundred dollars ($300) per month to households at or below one hundred fifty percent (150%) of the federal poverty guideline shall activate only when all three Gate 1 conditions of Schedule E are simultaneously certified by the CBO. No Tranche 2 disbursement may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that dollar-one of HSRN is backed by collected, verified sovereign revenue.
 
-(d) TRANCHE 3 — UNIVERSAL APD (GATE 2 CONDITIONS).—Universal American Productivity Dividend deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal APD deployment occurs when the fiscal foundation is substantially complete, not before.
+(d) TRANCHE 3 — UNIVERSAL HSRN (GATE 2 CONDITIONS).—Universal Household Structural Relief Node deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal HSRN deployment occurs when the fiscal foundation is substantially complete, not before.
 
 (e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E.
 
 (f) MACRO-SHOCK PROTECTION.—To prevent a sudden fiscal shock to the macroeconomic baseline during the multi-year ramp of corporate supply chain migration and enforcement revenue:
 (1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Endowment Node&#x27;s verified quarterly inflow;
-(2) The FDVMA shall publish a quarterly Tranche Capacity Report confirming available deployment headroom before any APD expansion;
+(2) The FDVMA shall publish a quarterly Tranche Capacity Report confirming available deployment headroom before any HSRN expansion;
 (3) If revenue collections underperform CBO projections by more than fifteen percent (15%) over any rolling ninety (90) day period, the V_abs Quarterly Absorption Throttle established in Section 004 shall activate, scaling down corporate procurement premiums and upper-tier infrastructure grants before any reduction in household Tranche disbursements.
 
 SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
@@ -2302,7 +2272,7 @@ END OF THE NATIONAL SOVEREIGNTY AND RESILIENCE ACT OF 2028 — COMPLETE AS AMEND
         <span class="bt-arrow">›</span>
       </div>
       <div class="bill-body">
-        <p class="bill-why">APD is the most politically sensitive — introduced after fiscal credibility (Bill 1) and healthcare relief (Bill 2) are established. PE accountability gains political momentum from healthcare wins. Titles: II + V + XIV + XXII + XV.</p>
+        <p class="bill-why">The Sovereign Child Prosperity Trust establishes a $5,000 SIRF-funded deposit at birth for every American child — no phase gates, no means test. Funded from the SIRF Household Endowment Node upon enactment.</p>
         <div class="bill-titles">
         <div class="bt">
           <div class="bt-hdr" onclick="tog(this)">
@@ -2420,7 +2390,7 @@ SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
         </div>
         <div class="bt">
           <div class="bt-hdr" onclick="tog(this)">
-            <div class="bt-name-row">Title V — APD &amp; Child Prosperity Trust</div>
+            <div class="bt-name-row">Title V — Child Prosperity Trust</div>
             <span class="bt-arrow">›</span>
           </div>
           <div class="bt-body">
@@ -2428,7 +2398,7 @@ SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">The American Productivity Dividend (APD). Phase-gated: $0 in Phase 1, $300/month to households at or below 150% poverty line at Gate 1, full universal rates at Gate 2. Also creates the Sovereign Child Prosperity Trust: every newborn receives a $5,000 SIRF-funded grant at birth. APD is explicitly excluded from SNAP, WIC, Medicaid, SSI, and Section 8 calculations — no benefit cliff.</div>
+            <div class="lt-plain">The Sovereign Child Prosperity Trust. Every child born receives a $5,000 SIRF-funded deposit at birthth to households at or below 150% poverty line at Gate 1, full universal rates at Gate 2. Also creates the Sovereign Child Prosperity Trust: every newborn receives a $5,000 SIRF-funded grant at birth. HSRN is explicitly excluded from SNAP, WIC, Medicaid, SSI, and Section 8 calculations — no benefit cliff.</div>
             <div class="lt-legal">TITLE V — THE UNIVERSAL PROSPERITY AND INTERGENERATIONAL WEALTH ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2454,15 +2424,15 @@ SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION
 
 SEC. 502. THE AMERICAN PRODUCTIVITY DIVIDEND AND HOUSEHOLD RESILIENCE PROTOCOL.
 
-(a) PROGRAM DESIGNATION AND GROUNDING.—There is established the American Productivity Dividend (APD), a monthly capitalization transfer grounded in the economic principle that the productive infrastructure of the United States — publicly funded roads, research, defense, judicial systems, and monetary stability — constitutes a national commons in which every resident has a legitimate economic stake. The APD is established pursuant to the Spending Clause (Art. I, Sec. 8, Cl. 1) and disbursed from the SIRF Household Endowment Node.
+(a) PROGRAM DESIGNATION AND GROUNDING.—There is established the Household Structural Relief Node, a monthly capitalization transfer grounded in the economic principle that the productive infrastructure of the United States — publicly funded roads, research, defense, judicial systems, and monetary stability — constitutes a national commons in which every resident has a legitimate economic stake. The HSRN is established pursuant to the Spending Clause (Art. I, Sec. 8, Cl. 1) and disbursed from the SIRF Household Endowment Node.
 
-(b) ELIGIBILITY — CONTRIBUTION ACTIVITY REQUIREMENT.—Every United States resident household is eligible for the American Productivity Dividend provided that at least one adult household member has engaged in Contribution Activity within the preceding twelve (12) months. For purposes of this section, &quot;Contribution Activity&quot; means any of the following: (1) paid employment or self-employment of any duration; (2) full-time caregiving for a child under 13, a dependent with a disability, or an adult over 65; (3) enrollment in an accredited educational or vocational training program; (4) registered volunteer service of not less than twenty (20) hours per month with a qualified nonprofit or civic organization; or (5) active military service or veteran status with honorable discharge within the preceding five (5) years.
+(b) ELIGIBILITY — CONTRIBUTION ACTIVITY REQUIREMENT.—Every United States resident household is eligible for the Household Structural Relief Node provided that at least one adult household member has engaged in Contribution Activity within the preceding twelve (12) months. For purposes of this section, &quot;Contribution Activity&quot; means any of the following: (1) paid employment or self-employment of any duration; (2) full-time caregiving for a child under 13, a dependent with a disability, or an adult over 65; (3) enrollment in an accredited educational or vocational training program; (4) registered volunteer service of not less than twenty (20) hours per month with a qualified nonprofit or civic organization; or (5) active military service or veteran status with honorable discharge within the preceding five (5) years.
 
-(1) HOUSEHOLDS WITH NO ADULT MEMBER ABLE TO PERFORM CONTRIBUTION ACTIVITY.—Any household in which all adult members are certified by a licensed medical provider as unable to engage in Contribution Activity due to disability, serious illness, or caregiving for a severely disabled dependent shall receive the full APD without the Contribution Activity requirement.
+(1) HOUSEHOLDS WITH NO ADULT MEMBER ABLE TO PERFORM CONTRIBUTION ACTIVITY.—Any household in which all adult members are certified by a licensed medical provider as unable to engage in Contribution Activity due to disability, serious illness, or caregiving for a severely disabled dependent shall receive the full HSRN without the Contribution Activity requirement.
 
 (2) AUTOMATIC CONTRIBUTION ACTIVITY DETERMINATION.—The Social Security Administration shall maintain an automated Contribution Activity Verification System using existing SSA wage records, military service records, educational enrollment data, and disability certification files. No additional paperwork shall be required of households whose Contribution Activity is verifiable through existing federal data systems.
 
-(c) AMERICAN PRODUCTIVITY DIVIDEND RATES.—Eligible households shall receive a monthly APD disbursement calculated as follows:
+(c) AMERICAN PRODUCTIVITY DIVIDEND RATES.—Eligible households shall receive a monthly HSRN disbursement calculated as follows:
 
 (1) BASE HOUSEHOLD RATE.—Six hundred dollars ($600) per month per eligible household, adjusted annually to the Sovereign Productivity Index;
 
@@ -2472,21 +2442,21 @@ SEC. 502. THE AMERICAN PRODUCTIVITY DIVIDEND AND HOUSEHOLD RESILIENCE PROTOCOL.
 
 (4) SENIOR SUPPLEMENT.—Two hundred fifty dollars ($250) per month for each household member age sixty-five (65) or older, coordinated with Social Security so as to supplement rather than replace existing benefits.
 
-(d) DELIVERY MECHANISM — EXISTING FEDERAL INFRASTRUCTURE.—All APD disbursements shall be delivered exclusively through the existing payment infrastructure of the Social Security Administration and the Treasury Department&#x27;s Direct Express and electronic funds transfer systems. No new payment rails, distribution agencies, or benefit administration platforms shall be constructed for APD delivery. The SSA and Treasury shall modify existing systems within twenty-four (24) months of enactment to accommodate APD disbursements.
+(d) DELIVERY MECHANISM — EXISTING FEDERAL INFRASTRUCTURE.—All HSRN disbursements shall be delivered exclusively through the existing payment infrastructure of the Social Security Administration and the Treasury Department&#x27;s Direct Express and electronic funds transfer systems. No new payment rails, distribution agencies, or benefit administration platforms shall be constructed for HSRN delivery. The SSA and Treasury shall modify existing systems within twenty-four (24) months of enactment to accommodate HSRN disbursements.
 
-(e) UNBREAKABLE ASSET PROTECTION.—APD disbursements and the underlying SIRF trust accounts are immune from private debt collection, bankruptcy liquidation, state or federal asset forfeiture, and administrative offsets.
+(e) UNBREAKABLE ASSET PROTECTION.—HSRN disbursements and the underlying SIRF trust accounts are immune from private debt collection, bankruptcy liquidation, state or federal asset forfeiture, and administrative offsets.
 
 (f) PILOT PROGRAM PHASING.—
 
-(1) YEAR 1 PILOT.—APD deployed in the twenty-five (25) lowest-capital-velocity MSAs ranked by FDVM, limited to households already receiving federal assistance, to verify delivery system integration and SIRF revenue sufficiency.
+(1) YEAR 1 PILOT.—HSRN deployed in the twenty-five (25) lowest-capital-velocity MSAs ranked by FDVM, limited to households already receiving federal assistance, to verify delivery system integration and SIRF revenue sufficiency.
 
-(2) YEAR 2 EXPANSION.—Full APD deployment to all eligible households in all MSAs where regional capital velocity is below the national SPI median.
+(2) YEAR 2 EXPANSION.—Full HSRN deployment to all eligible households in all MSAs where regional capital velocity is below the national SPI median.
 
-(3) YEAR 3 UNIVERSAL DEPLOYMENT.—Subject to SIRF revenue sufficiency certification under Section 005, APD deployed to all eligible households nationally.
+(3) YEAR 3 UNIVERSAL DEPLOYMENT.—Subject to SIRF revenue sufficiency certification under Section 005, HSRN deployed to all eligible households nationally.
 
 (g) AUTOMATED LIQUIDITY VELOCITY TRIGGER.—If the regional capital velocity of any zip code or distinct community cohort demonstrates a downward trend exceeding one and one-half percent (1.5%) relative to the Sovereign Productivity Index over a rolling ninety (90) day window, the FDVM shall execute an immediate, automated twenty-five percent (25%) emergency escalation of liquidity injection into the affected cohort trust vehicles, subject to SIRF revenue availability certification.
 
-(h) HOUSEHOLD ECONOMIC IMPACT PROJECTION.—The Congressional Budget Office shall publish, within one hundred twenty (120) days of enactment, a household-level economic impact model projecting the ten-year net fiscal effect of the APD, including projected local GDP multiplier effects, reductions in emergency public expenditure, and net SIRF revenue effects.
+(h) HOUSEHOLD ECONOMIC IMPACT PROJECTION.—The Congressional Budget Office shall publish, within one hundred twenty (120) days of enactment, a household-level economic impact model projecting the ten-year net fiscal effect of the HSRN, including projected local GDP multiplier effects, reductions in emergency public expenditure, and net SIRF revenue effects.
 
 SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
 
@@ -3571,7 +3541,7 @@ SEC. 1901. AMERICAN HOUSEHOLD SOVEREIGNTY DIVIDEND — PROJECTED BENEFITS.
 
 (8) UNIVERSAL HEALTH COVERAGE SAVINGS (TITLE XXI).—The Basic Minimum Plan established under Title XXI eliminates all premiums, deductibles, copayments, and cost-sharing for covered health services for every enrolled United States resident. For the approximately twenty-eight million currently uninsured Americans, the BMP eliminates the average annual uninsured out-of-pocket healthcare exposure of not less than two thousand four hundred dollars ($2,400) per household and eliminates the average individual market annual premium of seven thousand eight hundred dollars ($7,800) for households currently purchasing coverage independently without employer assistance. For all households, the elimination of cost-sharing for primary care, mental health, and chronic disease management services is projected to reduce average annual household healthcare out-of-pocket expenditure by not less than one thousand eight hundred dollars ($1,800) per household within five (5) years of universal BMP deployment.
 
-(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, American Productivity Dividend, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The prior aggregate benefit floor of three thousand seven hundred eighty dollars ($3,780) is hereby superseded by this updated projection incorporating Title XXI healthcare savings.
+(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, Household Structural Relief Node, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The prior aggregate benefit floor of three thousand seven hundred eighty dollars ($3,780) is hereby superseded by this updated projection incorporating Title XXI healthcare savings.
 
 (c) FISCAL SUSTAINABILITY PROJECTION.—The Congressional Budget Office shall compute and publish, within one hundred eighty (180) days of enactment, a comprehensive ten-year fiscal impact model for this Act, including:
 (1) Projected SIRF revenue from all penalty, clawback, assessment, and premium sources;
@@ -3675,7 +3645,7 @@ SEC. 2004. DEFENSE INDUSTRIAL SOVEREIGNTY AND MILITARY SUPPLY CHAIN RESILIENCE.
 
 (c) DEFENSE VANGUARD CAPITALIZATION.—Not less than five hundred million dollars ($500,000,000) from the SIRF Industrial Capitalization Node shall be deployed over five fiscal years as zero-equity grants to domestic small and medium manufacturers qualifying as Vanguard Entities that produce materials on the Department of Defense Critical Materials List.
 
-(d) MILITARY FAMILY AMERICAN PRODUCTIVITY DIVIDEND PREMIUM.—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive an additional monthly APD supplement of one hundred dollars ($100) per qualifying service member or veteran, funded from the SIRF Household Endowment Node, in recognition of the contribution of military service to the national commons.
+(d) MILITARY FAMILY AMERICAN PRODUCTIVITY DIVIDEND PREMIUM.—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive an additional monthly HSRN supplement of one hundred dollars ($100) per qualifying service member or veteran, funded from the SIRF Household Endowment Node, in recognition of the contribution of military service to the national commons.
 
 SEC. 2005. CONSCIENCE AND RELIGIOUS FREEDOM PROTECTION CLAUSE.
 
@@ -3717,7 +3687,7 @@ SCHEDULE B — PARTICULARIZED INJURY SPECIFICATIONS FOR ARTICLE III STANDING
 
 2. TITLE II (SIRF Diversion).—Concrete injury is defined as the calculable economic loss and foregone employment wages suffered by domestic industrial workers due to an unlawful diversion of SIRF capital, calculated as the per-worker share of the unlawfully diverted sum applied to the SIRF Investment Impact Model.
 
-3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the American Productivity Dividend formula in Section 502(c) to the claimant&#x27;s verified household profile.
+3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the Household Structural Relief Node formula in Section 502(c) to the claimant&#x27;s verified household profile.
 
 4. TITLE XIII (Pharmaceutical Parity).—Concrete injury is defined as the exact dollar difference between the price paid by a patient for a covered therapeutic and the G7 median price of the identical therapeutic at the time of purchase.
 
@@ -3815,7 +3785,7 @@ TIER 1 — IMMEDIATE (MONTHS 1-6):
 TIER 2 — SHORT-TERM (MONTHS 7-24):
 (1) BMP Open Enrollment Period #1 — all current Medicaid, CHIP, and ACA enrollees transition to BMP through chosen private carrier (Sec. 2108(a));
 (2) HHS risk-adjusted BMP Premium Rate published and first carrier payments disbursed (Sec. 2103(b));
-(3) American Productivity Dividend pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
+(3) Household Structural Relief Node pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
 (4) Sovereign Child Prosperity Trust account establishment for all eligible births (Sec. 503);
 (5) Automatic BMP enrollment for all newborns (Sec. 2104(b)(3));
 (6) Vanguard Capitalization Protocol operationalization (Sec. 204);
@@ -3826,7 +3796,7 @@ TIER 2 — SHORT-TERM (MONTHS 7-24):
 
 TIER 3 — MEDIUM-TERM (MONTHS 25-48):
 (1) BMP Open Enrollment Period #2 — universal enrollment extended to all previously uninsured United States residents (Sec. 2108(c)(1));
-(2) APD national deployment upon CBO revenue sufficiency certification (Sec. 502(f)(3));
+(2) HSRN national deployment upon CBO revenue sufficiency certification (Sec. 502(f)(3));
 (3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Sec. 2103(e));
 (4) Domestic content floor phase-in escalation (Sec. 402(b));
 (5) SMR compliance safe harbor windows (Sec. 902(a));
@@ -4049,15 +4019,15 @@ No more than six (6) members shall be of the same political party. At least four
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">The phase gate trigger parameters. Defines the exact CBO-certified conditions required to unlock Gate 1 ($300/month targeted APD) and Gate 2 (universal APD at full statutory rates). When CBO certifies the numbers, payments expand within 60 days. No additional Congressional vote required.</div>
+            <div class="lt-plain">The phase gate trigger parameters. Defines the exact CBO-certified conditions required to unlock Gate 1 ($300/month targeted HSRN) and Gate 2 (universal HSRN at full statutory rates). When CBO certifies the numbers, payments expand within 60 days. No additional Congressional vote required.</div>
             <div class="lt-legal">SCHEDULE E — PHASE GATE TRIGGER PARAMETERS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
+SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
-(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the American Productivity Dividend shall be in Phase 1 status. No APD disbursements shall occur to any household that is not already receiving federal assistance under Title V pilot program authority (Sec. 502(f)(1)).
+(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the Household Structural Relief Node shall be in Phase 1 status. No HSRN disbursements shall occur to any household that is not already receiving federal assistance under Title V pilot program authority (Sec. 502(f)(1)).
 
-(b) PHASE 2 — GATE 1 CONDITIONS.—APD shall advance to Phase 2 — targeted deployment at three hundred dollars ($300) per month base rate to households at or below one hundred fifty percent (150%) of the federal poverty guideline — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
+(b) PHASE 2 — GATE 1 CONDITIONS.—HSRN shall advance to Phase 2 — targeted deployment at three hundred dollars ($300) per month base rate to households at or below one hundred fifty percent (150%) of the federal poverty guideline — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
 
 (1) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below nine hundred billion dollars ($900,000,000,000) based on CBO&#x27;s most recent baseline projection;
 
@@ -4065,19 +4035,19 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
 (3) SIRF CONDITION.—The SIRF balance, as certified by the FDVMA, exceeds two hundred billion dollars ($200,000,000,000).
 
-(c) PHASE 3 — GATE 2 CONDITIONS.—APD shall advance to Phase 3 — universal deployment at full statutory rates to all eligible households — when both of the following conditions are simultaneously certified by the CBO:
+(c) PHASE 3 — GATE 2 CONDITIONS.—HSRN shall advance to Phase 3 — universal deployment at full statutory rates to all eligible households — when both of the following conditions are simultaneously certified by the CBO:
 
 (1) DEBT-TO-GDP CONDITION.—The federal debt held by the public as a percentage of GDP is below one hundred ten percent (110%); and
 
 (2) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below four hundred billion dollars ($400,000,000,000).
 
-(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding APD expansion shall activate within sixty (60) days without requiring additional legislative action.
+(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding HSRN expansion shall activate within sixty (60) days without requiring additional legislative action.
 
-(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, APD disbursements shall be adjusted downward on a pro-rata basis per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
+(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, HSRN disbursements shall be adjusted downward on a pro-rata basis per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
 
 (f) REVENUE SUPPRESSION COUNTERFACTUAL ADJUSTMENT.—(1) DETECTION MANDATE.—The FDVMA shall maintain a Revenue Suppression Detection Module (RSDM) that identifies coordinated domestic revenue contraction by Covered Entities exceeding fifteen percent (15%) of the prior 36-month rolling baseline, correlated across two or more entities in the same sector, within twelve (12) months of enactment or any FDVMA enforcement action. (2) CBO COUNTERFACTUAL DEFICIT.—Upon FDVMA certification of a Revenue Suppression Event, the CBO shall compute and publish a Revenue-Adjusted Counterfactual Deficit (RACD) that adds back estimated revenue suppressed by the verified evasion activity. (3) ALTERNATIVE GATE CERTIFICATION.—The Phase Gate 2 Deficit Condition is satisfied if either: (A) the actual projected deficit falls below $900,000,000,000; OR (B) the RACD falls below $900,000,000,000 and the FDVMA has certified a Revenue Suppression Event affecting the standard calculation. (4) SOVEREIGN EVASION ASSESSMENT.—Any Covered Entity engaging in coordinated revenue suppression to prevent Gate 1 certification shall be subject to a Sovereign Evasion Assessment equal to three times (3x) the estimated suppression value, deposited into the SIRF.
 
-(g) MINIMUM FLOOR APD.—Effective upon enactment, without Phase Gate certification, the FDVMA shall disburse from SIRF investment returns a Minimum Floor APD of one hundred dollars ($100) per month to every eligible household at or below one hundred percent (100%) of the federal poverty guideline. Funded exclusively from SIRF investment returns, not SIRF principal; pro-rated if returns are insufficient. Upon Phase Gate 2 certification, the Floor APD is subsumed into the full Phase 2 disbursement.
+(g) MINIMUM FLOOR HSRN.—Effective upon enactment, without Phase Gate certification, the FDVMA shall disburse from SIRF investment returns a Minimum Floor HSRN of one hundred dollars ($100) per month to every eligible household at or below one hundred percent (100%) of the federal poverty guideline. Funded exclusively from SIRF investment returns, not SIRF principal; pro-rated if returns are insufficient. Upon Phase Gate 2 certification, the Floor HSRN is subsumed into the full Phase 2 disbursement.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</div>
           </div>
@@ -4519,7 +4489,7 @@ SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
       '• Restores American fiscal sovereignty through structural deficit reduction\n' +
       '• Delivers universal zero-premium healthcare coverage\n' +
       '• Eliminates student loan interest and expands education access\n' +
-      '• Returns a monthly American Productivity Dividend to households once fiscal gates are met\n' +
+      '• Returns a monthly Household Structural Relief Node to households once fiscal gates are met\n' +
       '• Protects housing markets from institutional speculation (50-unit MSA cap)\n' +
       '• Rebuilds domestic manufacturing and supply chain sovereignty\n\n' +
       'The full legislative text and fiscal architecture are publicly available at TheAmericanDeal.org. The bill was designed to survive rigorous CBO scoring and constitutional review.\n\n' +
