@@ -2451,7 +2451,68 @@ No more than six (6) members shall be of the same political party. At least four
 
 (f) FUNDING.—The NSSSC shall be funded from the SIRF Administrative Operations Reserve at a cost not to exceed twenty-five million dollars ($25,000,000) over its operational period.
 
+
+SEC. 2602. PLATFORM EMPLOYER SOCIAL SECURITY CONTRIBUTION MANDATE.
+
+(a) FINDINGS.—Congress finds that:
+(1) Approximately sixty million (60,000,000) Americans perform work through digital labor platforms as independent contractors, earning income subject to self-employment tax but receiving no employer-side Social Security contribution;
+(2) W-2 employees receive an employer match of six and two-tenths percent (6.2%) of wages toward Social Security, effectively doubling the lifetime contribution rate available to traditionally employed workers;
+(3) Platform companies exercise substantial algorithmic control over worker access, pricing, scheduling, and performance evaluation — control functionally equivalent to that exercised by traditional employers — while avoiding employer payroll obligations;
+(4) This structural asymmetry depresses the lifetime Social Security benefit accrual of gig workers without commensurate reduction in platform company labor costs, constituting an effective public subsidy to platform business models at the expense of worker retirement security.
+
+(b) PLATFORM EMPLOYER DEFINED.—For purposes of this section, "platform employer" means any person or entity that:
+(1) Operates a digital application, website, or algorithm through which workers are matched with customers or tasks;
+(2) Sets or algorithmically determines the pricing, compensation rate, or service fee applicable to worker transactions;
+(3) Controls worker access to the platform through ratings, deactivation authority, or performance-based exclusion; and
+(4) Derives gross revenue of not less than ten million dollars ($10,000,000) annually from platform-mediated transactions in the United States.
+
+(c) MANDATORY EMPLOYER-EQUIVALENT CONTRIBUTION.—
+(1) GENERAL RULE.—Every platform employer shall pay, on behalf of each platform worker performing services through its platform, a Social Security employer-equivalent contribution equal to six and two-tenths percent (6.2%) of the worker's net platform earnings for each calendar quarter, up to the applicable Social Security wage base.
+(2) WORKER CLASSIFICATION UNAFFECTED.—Nothing in this section shall be construed to reclassify any platform worker as an employee for purposes of federal or state labor law, unemployment insurance, workers' compensation, benefits eligibility, or any other legal purpose. The contribution required by this section is a platform employer obligation only, not an employment relationship determination.
+(3) COORDINATION WITH SELF-EMPLOYMENT TAX.—A platform worker whose platform employer has remitted the employer-equivalent contribution under this section may deduct the employer-equivalent amount from the worker's self-employment tax computation under 26 U.S.C. § 1401, such that the worker's net self-employment tax liability reflects only the employee-equivalent share.
+(4) REMITTANCE MECHANISM.—Platform employers shall remit contributions quarterly to the Internal Revenue Service using existing employer payroll tax infrastructure. The IRS shall credit remitted amounts to the individual platform worker's Social Security earnings record proportionally to net platform earnings.
+
+(d) ENFORCEMENT.—
+(1) Failure to remit required contributions shall subject the platform employer to the penalties applicable to employer payroll tax failures under 26 U.S.C. § 6656, applied to the unremitted contribution amount.
+(2) The IRS shall establish a Platform Employer Registry within one hundred eighty (180) days of enactment. Registration is mandatory for all platform employers meeting the threshold in subsection (b)(4).
+(3) Platform workers may file a private right of action in federal district court to recover unremitted contributions, reasonable attorney's fees, and liquidated damages equal to the unremitted amount.
+
+(e) REVENUE EFFECT.—The Congressional Budget Office shall score the net Social Security trust fund revenue effect of this section within ninety (90) days of enactment. The Office of Management and Budget shall certify that contributions collected under this section are deposited directly into the Old-Age and Survivors Insurance Trust Fund and the Disability Insurance Trust Fund in the proportions applicable to employer payroll tax remittances under current law.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 2603. CAREGIVER SOCIAL SECURITY EARNINGS CREDIT.
+
+(a) FINDINGS.—Congress finds that:
+(1) Approximately fifty-three million (53,000,000) Americans provide unpaid care to a child, elderly parent, or family member with a disability — labor with an estimated economic replacement value exceeding four hundred seventy billion dollars ($470,000,000,000) annually;
+(2) Unpaid caregivers accumulate zero Social Security earnings credits during caregiving years, resulting in significantly reduced retirement benefits that disproportionately affect women, who comprise approximately two-thirds of the unpaid caregiver population;
+(3) The existing Social Security benefit formula contains no mechanism to credit economically productive labor that occurs outside formal wage employment, creating a structural penalty for caregiving that undermines retirement security and compounds gender economic inequality;
+(4) Crediting caregiving earnings within the existing Social Security benefit calculation structure — without creating a new cash transfer program — is the most administratively efficient and constitutionally sound mechanism to address this inequity.
+
+(b) CAREGIVER EARNINGS CREDIT ESTABLISHED.—
+(1) GENERAL RULE.—For purposes of computing the Primary Insurance Amount under 42 U.S.C. § 415, an eligible caregiver shall be credited with deemed Social Security wages of up to twenty-five thousand dollars ($25,000) per calendar year for each year in which the caregiver performs qualified caregiving activity, as defined in subsection (c).
+(2) INDEXED AMOUNT.—The twenty-five thousand dollar ($25,000) deemed wage amount shall be adjusted annually by the same index used to adjust the Social Security contribution and benefit base under 42 U.S.C. § 430.
+(3) CAP ON CREDITED YEARS.—A caregiver may receive deemed wage credits under this section for not more than ten (10) calendar years over their lifetime, sufficient to address the median caregiving gap without unlimited actuarial exposure.
+(4) NO DOUBLE COUNTING.—In any calendar year in which a caregiver's actual Social Security-covered earnings equal or exceed twenty-five thousand dollars ($25,000), no deemed wage credit shall be applied for that year.
+
+(c) QUALIFIED CAREGIVING ACTIVITY.—For purposes of this section, "qualified caregiving activity" means unpaid, in-home care provided by an individual to:
+(1) A child under the age of six (6) who is a dependent of the caregiver;
+(2) A family member of any age who has been certified by a licensed medical provider as having a disability or chronic condition requiring substantial assistance with activities of daily living; or
+(3) A parent, grandparent, or spouse aged sixty-five (65) or older who requires regular assistance with activities of daily living.
+
+(d) CERTIFICATION AND ADMINISTRATION.—
+(1) Caregivers shall self-certify qualified caregiving activity annually to the Social Security Administration using a standardized form developed by the SSA within one hundred eighty (180) days of enactment.
+(2) For caregiving under subsection (c)(2), a physician certification of the care recipient's qualifying condition is required at initial application and every three (3) years thereafter.
+(3) The SSA shall establish a Caregiver Earnings Credit Registry and post credited years to each caregiver's earnings record no later than the end of the calendar year following the qualifying year.
+(4) False certification shall subject the caregiver to repayment of any excess benefits received plus interest, and referral to the Inspector General for fraud investigation.
+
+(e) ACTUARIAL SCORING.—The Social Security Administration's Office of the Chief Actuary shall publish a seventy-five (75) year actuarial analysis of the trust fund impact of this section within one hundred twenty (120) days of enactment. The analysis shall model the interaction with Section 2602 platform employer contributions and the wage base cap elimination authority of the NSSSC under Section 2601, and shall certify the net long-term solvency effect.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF TITLE XXVI — NATIONAL SOCIAL SECURITY SOVEREIGNTY COMMISSION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 
 SCHEDULE F — PHARMACEUTICAL COMPULSORY LICENSING ROYALTY SCHEDULE
