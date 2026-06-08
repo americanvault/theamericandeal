@@ -181,6 +181,17 @@
       .kpi-grid { grid-template-columns: 1fr 1fr; }
     }
     .nav-hamburger { display: none; flex-direction: column; gap: 4px; cursor: pointer; padding: 8px; background: none; border: none; }
+    #donate-btn {
+      font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 7px 16px; border-radius: 6px; border: 1px solid #3a3f4a;
+      background: #1e2228; color: #4b5260; cursor: not-allowed;
+      opacity: 0.55; margin-left: 8px; font-family: inherit;
+      transition: none; pointer-events: auto;
+    }
+    #donate-btn.live {
+      background: var(--green); border-color: var(--green); color: #fff;
+      cursor: pointer; opacity: 1;
+    }
 
     /* ── PHASE GATES ── */
     .gate-row { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -351,6 +362,7 @@
     <li><a href="#bill-text" onclick="closeNav()">Full Bill</a></li>
     <li><a href="#support" onclick="closeNav()" style="color:var(--green)">Sign &amp; Contact</a></li>
   </ul>
+  <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Support</button>
   <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
@@ -358,6 +370,16 @@
   </button>
 </nav>
 <script>
+var DONATIONS_LIVE = false; // flip to true when org is formed and payment processor is ready
+(function(){
+  var btn = document.getElementById('donate-btn');
+  if(DONATIONS_LIVE){ btn.classList.add('live'); btn.title = 'Support the campaign'; }
+})();
+function handleDonate(){
+  if(!DONATIONS_LIVE) return; // dormant — do nothing while greyed out
+  // TODO: replace with payment processor URL when live
+  window.open('https://theamericandeal.org/donate','_blank');
+}
 function toggleNav(){document.getElementById('nav-links').classList.toggle('open');}
 function closeNav(){document.getElementById('nav-links').classList.remove('open');}
 </script>
