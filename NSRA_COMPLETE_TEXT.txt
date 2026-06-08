@@ -64,7 +64,7 @@ As used in this Act:
 
 (15) HEALTH PROFIT SOVEREIGNTY ASSESSMENT.—The mandatory levy assessed against any licensed health insurance carrier whose medical loss ratio falls below eighty-five percent (85%) in any calendar year, equal to one hundred percent (100%) of premium revenue retained above the fifteen percent (15%) overhead and profit ceiling, collected automatically and routed to the Health Sovereignty Fund.
 
-(16) AMERICAN PRODUCTIVITY DIVIDEND (APD).—The monthly capitalization transfer established under Section 502 of this Act, disbursed from the SIRF Household Endowment Node to every eligible United States resident household at zero premium or means-test condition, calculated by the household composition formula in Section 502(c) and indexed annually to the Sovereign Productivity Index.
+(16) HOUSEHOLD STRUCTURAL RELIEF NODE (HSRN).—The SIRF sub-node established under Section 3401 of Title XXXIV that funds targeted household relief mechanisms including BMP capitalization, zero-interest student loan conversion, Child Prosperity Trust deposits, and TANF structural enhancement.
 
 SEC. 004. MANDATORY TRIGGER PARAMETERS — CONGRESSIONAL SPECIFICATION.
 
@@ -101,7 +101,7 @@ SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
 
 (b) REVENUE SUFFICIENCY TRIGGER.—If at any point the FDVMA determines, based on verified SIRF cash-flow data, that SIRF balances are insufficient to sustain authorized disbursements for the following twelve (12) months at current deployment rates, the FDVMA shall within thirty (30) calendar days:
 
-(1) Reduce all per-household American Productivity Dividend disbursements on a pro-rata basis to match available SIRF revenue, maintaining equal percentage reductions across all recipient households; and
+(1) Reduce all per-household Household Structural Relief Node disbursements on a pro-rata basis to match available SIRF revenue, maintaining equal percentage reductions across all recipient households; and
 
 (2) Transmit a Revenue Sufficiency Alert to the Bipartisan Commission on NSRA Implementation and to both Budget Committees of Congress, triggering a mandatory sixty (60) day joint legislative review.
 
@@ -117,7 +117,7 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 
 (a) CONGRESSIONAL FINDINGS — TRANCHE STRUCTURE.—Congress finds that the most effective method for delivering immediate household economic relief while maintaining fiscal discipline is a structured, sequenced deployment architecture that insulates safety-net disbursements from dependency on unconfirmed revenue streams.
 
-(b) TRANCHE 1 — IMMEDIATE FOUNDATION RELIEF (YEAR 1, NO APD).—The following citizen relief mechanisms shall activate upon enactment without requiring CBO revenue certification, as they are fully funded by confirmed and scored revenue streams under Subledgers SL-1 through SL-5 of the 7-Subledger fiscal architecture:
+(b) TRANCHE 1 — IMMEDIATE FOUNDATION RELIEF (YEAR 1 — IMMEDIATE ACTIVATION).—The following citizen relief mechanisms shall activate upon enactment without requiring CBO revenue certification, as they are fully funded by confirmed and scored revenue streams under Subledgers SL-1 through SL-5 of the seven-subledger fiscal architecture established under Title XXXIV:
 (1) Basic Minimum Plan deployment for uninsured households (Title XXI);
 (2) G7 pharmaceutical price parity enforcement (Title XIII);
 (3) Federal student loan zero-interest conversion (Title XV);
@@ -125,15 +125,15 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 (5) SNAP and WIC statutory protection (Titles I and VII).
 No Tranche 1 disbursement requires a SIRF revenue certification or phase gate condition. These mechanisms are funded from mandatory enforcement revenue that activates automatically upon enactment.
 
-(c) TRANCHE 2 — TARGETED APD (GATE 1 CONDITIONS).—American Productivity Dividend deployment at three hundred dollars ($300) per month to households at or below one hundred fifty percent (150%) of the federal poverty guideline shall activate only when all three Gate 1 conditions of Schedule E are simultaneously certified by the CBO. No Tranche 2 disbursement may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that dollar-one of APD is backed by collected, verified sovereign revenue.
+(c) TRANCHE 2 — [RESERVED — HSRN RETIRED].—The targeted Household Structural Relief Node program formerly designated under this tranche is retired in full by Section 3401 of Title XXXIV. No disbursement authority, phase gate condition, or budget obligation is established by this subsection.
 
-(d) TRANCHE 3 — UNIVERSAL APD (GATE 2 CONDITIONS).—Universal American Productivity Dividend deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal APD deployment occurs when the fiscal foundation is substantially complete, not before.
+(d) TRANCHE 3 — [RESERVED — HSRN RETIRED].—The universal Household Structural Relief Node program formerly designated under this tranche is retired in full by Section 3401 of Title XXXIV. No disbursement authority, phase gate condition, or budget obligation is established by this subsection.
 
-(e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E.
+(e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E (retired).
 
 (f) MACRO-SHOCK PROTECTION.—To prevent a sudden fiscal shock to the macroeconomic baseline during the multi-year ramp of corporate supply chain migration and enforcement revenue:
 (1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Endowment Node's verified quarterly inflow;
-(2) The FDVMA shall publish a quarterly Tranche Capacity Report confirming available deployment headroom before any APD expansion;
+(2) The FDVMA shall publish a quarterly Tranche Capacity Report confirming available Household Structural Relief Node deployment capacity;
 (3) If revenue collections underperform CBO projections by more than fifteen percent (15%) over any rolling ninety (90) day period, the V_abs Quarterly Absorption Throttle established in Section 004 shall activate, scaling down corporate procurement premiums and upper-tier infrastructure grants before any reduction in household Tranche disbursements.
 
 SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
@@ -518,7 +518,7 @@ SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT ACT.
 
 (e) EXISTING AGENCY INTEGRATION.—All enforcement under this section shall operate through the existing Department of Labor enforcement infrastructure — the Wage and Hour Division, OSHA, and the Office of the Solicitor of Labor — supplemented by SIRF enforcement floor funding. No new agency or enforcement body is created by this section.
 
-TITLE V — THE UNIVERSAL PROSPERITY AND INTERGENERATIONAL WEALTH ACT
+TITLE V — THE SOVEREIGN CHILD PROSPERITY AND POVERTY ELIMINATION ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION OF STATE BLOCK GRANT ARCHITECTURE.
@@ -541,41 +541,11 @@ SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION
 
 (f) TRANSITIONAL CONTINUITY GUARANTEE.—No individual currently receiving benefits under the programs affected by the reforms in subsections (b) through (d) shall experience any interruption of benefits during the transition period. The Secretary of Health and Human Services shall issue transitional guidance within sixty (60) days of enactment.
 
-SEC. 502. THE HOUSEHOLD STRUCTURAL RELIEF PROTOCOL — SUPERSEDED BY SEC. 3401.
+SEC. 502. [RESERVED.]
 
-(a) PROGRAM DESIGNATION — NOTE ON SUPERSESSION.—The program formerly designated the American Productivity Dividend (APD) is hereby superseded in full by Section 3401 of Title XXXIV, which retires APD and redirects the associated SIRF node allocation to the Household Structural Relief Node. The provisions of this section are preserved for legislative record purposes only. There is established the American Productivity Dividend (APD) — superseded — a monthly capitalization transfer grounded in the economic principle that the productive infrastructure of the United States — publicly funded roads, research, defense, judicial systems, and monetary stability — constitutes a national commons in which every resident has a legitimate economic stake. The APD is established pursuant to the Spending Clause (Art. I, Sec. 8, Cl. 1) and disbursed from the SIRF Household Endowment Node.
+This section is reserved. No program, disbursement authority, or fiscal obligation is established herein.
 
-(b) ELIGIBILITY — CONTRIBUTION ACTIVITY REQUIREMENT.—Every United States resident household is eligible for the American Productivity Dividend provided that at least one adult household member has engaged in Contribution Activity within the preceding twelve (12) months. For purposes of this section, "Contribution Activity" means any of the following: (1) paid employment or self-employment of any duration; (2) full-time caregiving for a child under 13, a dependent with a disability, or an adult over 65; (3) enrollment in an accredited educational or vocational training program; (4) registered volunteer service of not less than twenty (20) hours per month with a qualified nonprofit or civic organization; or (5) active military service or veteran status with honorable discharge within the preceding five (5) years.
 
-(1) HOUSEHOLDS WITH NO ADULT MEMBER ABLE TO PERFORM CONTRIBUTION ACTIVITY.—Any household in which all adult members are certified by a licensed medical provider as unable to engage in Contribution Activity due to disability, serious illness, or caregiving for a severely disabled dependent shall receive the full APD without the Contribution Activity requirement.
-
-(2) AUTOMATIC CONTRIBUTION ACTIVITY DETERMINATION.—The Social Security Administration shall maintain an automated Contribution Activity Verification System using existing SSA wage records, military service records, educational enrollment data, and disability certification files. No additional paperwork shall be required of households whose Contribution Activity is verifiable through existing federal data systems.
-
-(c) AMERICAN PRODUCTIVITY DIVIDEND RATES.—Eligible households shall receive a monthly APD disbursement calculated as follows:
-
-(1) BASE HOUSEHOLD RATE.—Six hundred dollars ($600) per month per eligible household, adjusted annually to the Sovereign Productivity Index;
-
-(2) ADDITIONAL ADULT SUPPLEMENT.—One hundred fifty dollars ($150) per month for each additional adult household member above one, adjusted annually to the SPI;
-
-(3) CHILD SUPPLEMENT.—Three hundred fifty dollars ($350) per month per dependent child under age eighteen (18), adjusted annually to the SPI;
-
-(4) SENIOR SUPPLEMENT.—Two hundred fifty dollars ($250) per month for each household member age sixty-five (65) or older, coordinated with Social Security so as to supplement rather than replace existing benefits.
-
-(d) DELIVERY MECHANISM — EXISTING FEDERAL INFRASTRUCTURE.—All APD disbursements shall be delivered exclusively through the existing payment infrastructure of the Social Security Administration and the Treasury Department's Direct Express and electronic funds transfer systems. No new payment rails, distribution agencies, or benefit administration platforms shall be constructed for APD delivery. The SSA and Treasury shall modify existing systems within twenty-four (24) months of enactment to accommodate APD disbursements.
-
-(e) UNBREAKABLE ASSET PROTECTION.—APD disbursements and the underlying SIRF trust accounts are immune from private debt collection, bankruptcy liquidation, state or federal asset forfeiture, and administrative offsets.
-
-(f) PILOT PROGRAM PHASING.—
-
-(1) YEAR 1 PILOT.—APD deployed in the twenty-five (25) lowest-capital-velocity MSAs ranked by FDVM, limited to households already receiving federal assistance, to verify delivery system integration and SIRF revenue sufficiency.
-
-(2) YEAR 2 EXPANSION.—Full APD deployment to all eligible households in all MSAs where regional capital velocity is below the national SPI median.
-
-(3) YEAR 3 UNIVERSAL DEPLOYMENT.—Subject to SIRF revenue sufficiency certification under Section 005, APD deployed to all eligible households nationally.
-
-(g) AUTOMATED LIQUIDITY VELOCITY TRIGGER.—If the regional capital velocity of any zip code or distinct community cohort demonstrates a downward trend exceeding one and one-half percent (1.5%) relative to the Sovereign Productivity Index over a rolling ninety (90) day window, the FDVM shall execute an immediate, automated twenty-five percent (25%) emergency escalation of liquidity injection into the affected cohort trust vehicles, subject to SIRF revenue availability certification.
-
-(h) HOUSEHOLD ECONOMIC IMPACT PROJECTION.—The Congressional Budget Office shall publish, within one hundred twenty (120) days of enactment, a household-level economic impact model projecting the ten-year net fiscal effect of the APD, including projected local GDP multiplier effects, reductions in emergency public expenditure, and net SIRF revenue effects.
 
 SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
 
@@ -997,6 +967,11 @@ SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE ACT.
 (c) FEDERAL LAND DEVELOPMENT ECOLOGICAL BASELINE MANDATE.—All federal agency development approvals on or adjacent to federal land shall require a Biodiversity Impact Assessment as a condition of environmental review. No federal development permit shall be issued where the projected net biodiversity impact is negative unless the applicant posts an irrevocable Ecological Restoration Bond equal to one hundred fifty percent (150%) of the independent cost estimate to restore equivalent ecosystem function, held by the SIRF environmental remediation node pending full restoration certification by USFWS.
 
 (d) REWILDING AND HEALTHCARE COST LINKAGE.—The FDVMA shall incorporate wildlife corridor and rewilding program progress into the biennial National Pesticide-to-Healthcare Cost Linkage Report under Section 705(f), quantifying the projected reduction in allergy, respiratory, and vector-borne disease burden attributable to restored native plant and wetland systems. See cross-reference: Section 1104 (Title XI A.B.R.N. environmental remediation cross-anchor) and Section 2109 (Title XXI upstream prevention demand adjustment).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XI — SOVEREIGN ENVIRONMENTAL REMEDIATION AND TOXIC LEGACY ACCOUNTABILITY ACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1425,7 +1400,7 @@ SEC. 1901. AMERICAN HOUSEHOLD SOVEREIGNTY DIVIDEND — PROJECTED BENEFITS.
 
 (8) UNIVERSAL HEALTH COVERAGE SAVINGS (TITLE XXI).—The Basic Minimum Plan established under Title XXI eliminates all premiums, deductibles, copayments, and cost-sharing for covered health services for every enrolled United States resident. For the approximately twenty-eight million currently uninsured Americans, the BMP eliminates the average annual uninsured out-of-pocket healthcare exposure of not less than two thousand four hundred dollars ($2,400) per household and eliminates the average individual market annual premium of seven thousand eight hundred dollars ($7,800) for households currently purchasing coverage independently without employer assistance. For all households, the elimination of cost-sharing for primary care, mental health, and chronic disease management services is projected to reduce average annual household healthcare out-of-pocket expenditure by not less than one thousand eight hundred dollars ($1,800) per household within five (5) years of universal BMP deployment.
 
-(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, American Productivity Dividend, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The $5,580 floor for a median two-adult household includes the Basic Minimum Plan out-of-pocket elimination ($1,800), energy sovereignty dividend ($380), broadband savings ($240), and three thousand one hundred sixty dollars ($3,160) in Tranche 2 American Productivity Dividend disbursements ($300 per month base rate, annualized) available to income-qualifying households upon Gate 1 certification; households not yet qualifying for APD will realize not less than two thousand four hundred twenty dollars ($2,420) annually in direct cost reductions from BMP, energy, and broadband provisions alone. The prior aggregate benefit floor of three thousand seven hundred eighty dollars ($3,780) is hereby superseded by this updated projection incorporating Title XXI healthcare savings.
+(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, Household Structural Relief Node, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The $5,580 floor for a median two-adult household includes the Basic Minimum Plan out-of-pocket elimination ($1,800), energy sovereignty dividend ($380), broadband savings ($240), and three thousand one hundred sixty dollars ($3,160) in direct cost reductions and structural relief available upon Gate 1 certification; households will realize not less than two thousand four hundred twenty dollars ($2,420) annually in direct cost reductions from BMP, energy, and broadband provisions alone. The prior aggregate benefit floor of three thousand seven hundred eighty dollars ($3,780) is hereby superseded by this updated projection incorporating Title XXI healthcare savings.
 
 (c) FISCAL SUSTAINABILITY PROJECTION.—The Congressional Budget Office shall compute and publish, within one hundred eighty (180) days of enactment, a comprehensive ten-year fiscal impact model for this Act, including:
 (1) Projected SIRF revenue from all penalty, clawback, assessment, and premium sources;
@@ -1516,7 +1491,7 @@ SEC. 2004. DEFENSE INDUSTRIAL SOVEREIGNTY AND MILITARY SUPPLY CHAIN RESILIENCE.
 
 (c) DEFENSE VANGUARD CAPITALIZATION.—Not less than five hundred million dollars ($500,000,000) from the SIRF Industrial Capitalization Node shall be deployed over five fiscal years as zero-equity grants to domestic small and medium manufacturers qualifying as Vanguard Entities that produce materials on the Department of Defense Critical Materials List.
 
-(d) MILITARY FAMILY AMERICAN PRODUCTIVITY DIVIDEND PREMIUM.—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive an additional monthly APD supplement of one hundred dollars ($100) per qualifying service member or veteran, funded from the SIRF Household Endowment Node, in recognition of the contribution of military service to the national commons.
+(d) MILITARY FAMILY AMERICAN PRODUCTIVITY DIVIDEND PREMIUM.—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive an additional monthly Household Structural Relief supplement of one hundred dollars ($100) per qualifying service member or veteran, funded from the SIRF Household Endowment Node, in recognition of the contribution of military service to the national commons.
 
 SEC. 2005. CONSCIENCE AND RELIGIOUS FREEDOM PROTECTION CLAUSE.
 
@@ -1558,7 +1533,7 @@ SCHEDULE B — PARTICULARIZED INJURY SPECIFICATIONS FOR ARTICLE III STANDING
 
 2. TITLE II (SIRF Diversion).—Concrete injury is defined as the calculable economic loss and foregone employment wages suffered by domestic industrial workers due to an unlawful diversion of SIRF capital, calculated as the per-worker share of the unlawfully diverted sum applied to the SIRF Investment Impact Model.
 
-3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the American Productivity Dividend formula in Section 502(c) to the claimant's verified household profile.
+3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the Household Structural Relief Node formula in Section 502(c) to the claimant's verified household profile.
 
 4. TITLE XIII (Pharmaceutical Parity).—Concrete injury is defined as the exact dollar difference between the price paid by a patient for a covered therapeutic and the G7 median price of the identical therapeutic at the time of purchase.
 
@@ -1656,7 +1631,7 @@ TIER 1 — IMMEDIATE (MONTHS 1-6):
 TIER 2 — SHORT-TERM (MONTHS 7-24):
 (1) BMP Open Enrollment Period #1 — all current Medicaid, CHIP, and ACA enrollees transition to BMP through chosen private carrier (Sec. 2108(a));
 (2) HHS risk-adjusted BMP Premium Rate published and first carrier payments disbursed (Sec. 2103(b));
-(3) American Productivity Dividend pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
+(3) Household Structural Relief Node pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
 (4) Sovereign Child Prosperity Trust account establishment for all eligible births (Sec. 503);
 (5) Automatic BMP enrollment for all newborns (Sec. 2104(b)(3));
 (6) Vanguard Capitalization Protocol operationalization (Sec. 204);
@@ -1667,7 +1642,7 @@ TIER 2 — SHORT-TERM (MONTHS 7-24):
 
 TIER 3 — MEDIUM-TERM (MONTHS 25-48):
 (1) BMP Open Enrollment Period #2 — universal enrollment extended to all previously uninsured United States residents (Sec. 2108(c)(1));
-(2) APD national deployment upon CBO revenue sufficiency certification (Sec. 502(f)(3));
+(2) Household Structural Relief Node full deployment upon CBO revenue sufficiency certification (Sec. 3401);
 (3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Sec. 2103(e));
 (4) Domestic content floor phase-in escalation (Sec. 402(b));
 (5) SMR compliance safe harbor windows (Sec. 902(a));
@@ -2167,7 +2142,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (b) CREDIT RATE.—Covered Entities meeting the SPI wage floor threshold shall receive a tax credit equal to seven and one-half percent (7.5%) of total domestic payroll costs for employees paid at or above the SPI wage floor, applied against corporate income tax liability.
 
-(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the American Productivity Dividend deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
+(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E (retired). The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
 
 (d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FDVMA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
@@ -2214,7 +2189,7 @@ SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND ACT.
 (c) UNIVERSAL HOUSEHOLD DIVIDEND — AMERICAN CLIMATE DIVIDEND.—One hundred percent (100%) of Carbon Dividend Fee gross revenue, net of collection and administration costs not to exceed one percent (1%), shall be distributed as an equal per-household monthly dividend to every United States resident household:
 
 (1) The monthly dividend amount shall be calculated by dividing total monthly net Carbon Fee revenue by the total number of eligible resident households as maintained by the Social Security Administration;
-(2) The American Climate Dividend shall be distributed through the same payment infrastructure as the American Productivity Dividend established in Title V;
+(2) The American Climate Dividend shall be distributed through the same payment infrastructure as the Household Structural Relief Node established in Title V;
 (3) The American Climate Dividend is not means-tested, is not taxable income, and is not countable as income for purposes of any federal benefit program eligibility determination.
 
 (d) DISTRIBUTIONAL PROTECTION.—Because lower-income households have smaller average carbon footprints than higher-income households, the equal per-household dividend structure is inherently progressive: the bottom sixty percent (60%) of households by income are projected to receive more in Climate Dividend than they pay in increased energy costs. The FDVMA shall publish an annual Household Carbon Dividend Impact Report verifying this distributional outcome and adjusting dividend mechanics if the bottom sixty percent threshold is not being met.
@@ -2262,7 +2237,7 @@ SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY ACT.
 
 (d) LIQUIDITY PROTECTION — INSTALLMENT ELECTION.—Heirs subject to carryover basis who inherit illiquid assets — including real property, closely held business interests, and agricultural land — may elect a ten (10) year installment payment schedule for any capital gains tax ultimately due upon disposition, with interest at the applicable federal rate under Section 1274 of the IRC.
 
-(e) REVENUE ALLOCATION.—Revenue from carryover basis recognition shall be allocated: fifty percent (50%) to the SIRF Household Endowment Node for APD and BMP capitalization; fifty percent (50%) to the national debt reduction account.
+(e) REVENUE ALLOCATION.—Revenue from carryover basis recognition shall be allocated: fifty percent (50%) to the SIRF Household Endowment Node for Household Structural Relief and BMP capitalization; fifty percent (50%) to the national debt reduction account.
 
 (f) PROJECTED REVENUE.—Carryover basis implementation for estates above five million dollars ($5,000,000) — with the family farm, small business, and residence exclusions — is projected by the Congressional Budget Office at not less than fifty billion dollars ($50,000,000,000) annually.
 
@@ -2323,7 +2298,7 @@ SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT.
 
 (c) LEGAL STRUCTURE.—The FEPSA is structured as an excise tax on excess financial sector returns, consistent with the authority of Congress to impose excise taxes on specific industries under Article I, Section 8, and precedented by the Crude Oil Windfall Profit Tax Act of 1980 (Public Law 96-223) and Section 4960 of the IRC (excise tax on excess executive compensation). The FEPSA does not constitute a penalty within the meaning of Title XVIII of this Act and requires no ALJ warrant for collection.
 
-(d) REVENUE ALLOCATION.—All FEPSA revenue shall be deposited into the SIRF Household Endowment Node, dedicated to direct household economic relief through the American Productivity Dividend and Basic Minimum Plan, closing the loop between excess financial sector extraction and the household economic harm it produces.
+(d) REVENUE ALLOCATION.—All FEPSA revenue shall be deposited into the SIRF Household Endowment Node, dedicated to direct household economic relief through the Household Structural Relief Node and Basic Minimum Plan, closing the loop between excess financial sector extraction and the household economic harm it produces.
 
 (e) PROJECTED REVENUE.—Based on current financial sector reported ROE data, the FEPSA is projected at not less than twenty billion dollars ($20,000,000,000) annually, with revenue declining naturally over time as competitive pressures and NSRA structural reforms reduce market concentration — which is the intended outcome.
 
@@ -2477,32 +2452,8 @@ No more than six (6) members shall be of the same political party. At least four
 (f) FUNDING.—The NSSSC shall be funded from the SIRF Administrative Operations Reserve at a cost not to exceed twenty-five million dollars ($25,000,000) over its operational period.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SCHEDULE E — PHASE GATE TRIGGER PARAMETERS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. E-001. APD PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
-(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the American Productivity Dividend shall be in Phase 1 status. No APD disbursements shall occur to any household that is not already receiving federal assistance under Title V pilot program authority (Sec. 502(f)(1)).
-
-(b) PHASE 2 — GATE 1 CONDITIONS.—APD shall advance to Phase 2 — targeted deployment at three hundred dollars ($300) per month base rate to households at or below one hundred fifty percent (150%) of the federal poverty guideline — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
-
-(1) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below nine hundred billion dollars ($900,000,000,000) based on CBO's most recent baseline projection;
-
-(2) TREND CONDITION.—CBO's ten-year baseline projection shows a declining deficit trajectory, with the projected deficit in Year 10 of the baseline lower than the current fiscal year's projected deficit; and
-
-(3) SIRF CONDITION.—The SIRF balance, as certified by the FDVMA, exceeds two hundred billion dollars ($200,000,000,000).
-
-(c) PHASE 3 — GATE 2 CONDITIONS.—APD shall advance to Phase 3 — universal deployment at full statutory rates to all eligible households — when both of the following conditions are simultaneously certified by the CBO:
-
-(1) DEBT-TO-GDP CONDITION.—The federal debt held by the public as a percentage of GDP is below one hundred ten percent (110%); and
-
-(2) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below four hundred billion dollars ($400,000,000,000).
-
-(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding APD expansion shall activate within sixty (60) days without requiring additional legislative action.
-
-(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, APD disbursements shall be adjusted downward on a pro-rata basis per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE F — PHARMACEUTICAL COMPULSORY LICENSING ROYALTY SCHEDULE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3041,7 +2992,7 @@ SEC. 3105. CHILD SURVIVAL ACCOUNTABILITY.
 
 (5) A comparative analysis of Chinese and Russian medical aid deployments in the same period and their geopolitical consequences for United States interests.
 
-(b) CONGRESSIONAL ACCOUNTABILITY.—The Child Survival Report shall be delivered to the full Congress and made publicly available at TheAmericanDeal.org within 30 days of publication. Any Member of Congress who votes to reduce MGHS Fund appropriations below the mandatory floor shall provide a written public statement of justification within 14 days of such vote.
+(b) CONGRESSIONAL ACCOUNTABILITY.—The Child Survival Report shall be delivered to the full Congress and made publicly available on the FDVMA public website within 30 days of publication. Any Member of Congress who votes to reduce MGHS Fund appropriations below the mandatory floor shall provide a written public statement of justification within 14 days of such vote.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3118,7 +3069,7 @@ SEC. 3204. THE TREASURY BOND CREDIBILITY ENGINE.
 
 (b) TREASURY CREDIBILITY INDEX.—The Secretary of the Treasury shall publish, on the first business day of each quarter, a Treasury Credibility Index report covering: (1) the rolling 12-month federal deficit as a percentage of GDP; (2) the 10-year trajectory of debt-to-GDP; (3) net international demand for USD-denominated Treasury securities in the prior quarter; (4) SIRF revenue performance against certified projections; and (5) the spread between U.S. 10-year Treasury yields and a weighted average of G7 equivalent sovereign instruments.
 
-(c) NSRA SURPLUS DESIGNATION.—The net annual fiscal surplus generated by the revenue and expenditure architecture of this Act — estimated at four hundred fifty billion dollars ($450,000,000,000) annually in Year 1 after mandatory growth investments — is hereby designated a Sovereign Credibility Reserve and shall be applied, in the following priority order: (1) mandatory debt service on all outstanding Treasury obligations; (2) SIRF infrastructure capitalization up to the annually certified minimum; (3) net deficit reduction, publicly reported as a reduction to the debt-to-GDP ratio; (4) supplemental APD capitalization.
+(c) NSRA SURPLUS DESIGNATION.—The net annual fiscal surplus generated by the revenue and expenditure architecture of this Act — estimated at four hundred fifty billion dollars ($450,000,000,000) annually in Year 1 after mandatory growth investments — is hereby designated a Sovereign Credibility Reserve and shall be applied, in the following priority order: (1) mandatory debt service on all outstanding Treasury obligations; (2) SIRF infrastructure capitalization up to the annually certified minimum; (3) net deficit reduction, publicly reported as a reduction to the debt-to-GDP ratio; (4) supplemental Household Structural Relief Node capitalization.
 
 (d) FOREIGN RESERVE DEMAND PROGRAM.—The Secretary of the Treasury, in coordination with the Federal Reserve Board of Governors, shall establish a Foreign Reserve Demand Program under which allied central banks may access designated USD-denominated Treasury instrument tranches at preferred auction terms as an incentive to maintain or increase USD reserve holdings, subject to ASC participation and compliance with Section 3205 SWIFT Sovereign Defense requirements.
 
@@ -3200,16 +3151,27 @@ END OF TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXIII — RESERVED FOR FUTURE STATUTORY ENACTMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3300. RESERVATION.—This Title is reserved for future legislative enactment by Congress. No substantive provisions are established herein. This reservation preserves sequential Title numbering integrity for subsequent amendments and related legislation introduced under the National Sovereignty and Resilience Act.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF TITLE XXXIII — RESERVED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
 
-(a) SUPERSESSION.—The American Prosperity Dividend (APD), previously established as a universal cash distribution mechanism tied to market-dependent SIRF returns, is hereby retired and superseded. No provision of this Act shall be construed to authorize APD cash distributions. The retirement of APD reflects the determination that market-dependent universal cash transfers create employment disincentive effects, are vulnerable to political lobbying by recipients against structural reforms, and are less effective per dollar than direct structural cost elimination in improving aggregate household economic position.
+(a) SUPERSESSION.—The Household Structural Relief Node, previously established as a universal cash distribution mechanism tied to market-dependent SIRF returns, is hereby retired and superseded. No provision of this Act shall be construed to authorize HSRN cash distributions. The retirement of HSRN reflects the determination that market-dependent universal cash transfers create employment disincentive effects, are vulnerable to political lobbying by recipients against structural reforms, and are less effective per dollar than direct structural cost elimination in improving aggregate household economic position.
 
-(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for APD is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Sovereign Child Prosperity Trust birth deposits (Title V); the Shelter Sovereignty Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FDVMA consistent with the Restoration Principle of Section 504(c).
+(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for HSRN is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Sovereign Child Prosperity Trust birth deposits (Title V); the Shelter Sovereignty Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FDVMA consistent with the Restoration Principle of Section 504(c).
 
-(c) SURPLUS IMPROVEMENT.—The retirement of APD as a standing expenditure improves the net annual NSRA surplus from four hundred fifty billion dollars ($450,000,000,000) to five hundred fifty-four billion dollars ($554,000,000,000), reflecting elimination of the approximately one hundred billion dollars ($100,000,000,000) annual APD cash distribution expenditure. This surplus improvement is reflected in the fiscal summary of Section 3406.
+(c) SURPLUS IMPROVEMENT.—The retirement of HSRN as a standing expenditure improves the net annual NSRA surplus from four hundred fifty billion dollars ($450,000,000,000) to five hundred fifty-four billion dollars ($554,000,000,000), reflecting elimination of the approximately one hundred billion dollars ($100,000,000,000) annual HSRN cash distribution expenditure. This surplus improvement is reflected in the fiscal summary of Section 3406.
 
 SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
 
@@ -3240,7 +3202,7 @@ Total Statutory Base Revenue: one hundred seventy-eight billion dollars ($178,00
 
 SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
 
-The Household Structural Relief Node (formerly APD allocation) shall fund the following mechanisms in priority order within the Node:
+The Household Structural Relief Node (formerly HSRN allocation) shall fund the following mechanisms in priority order within the Node:
 (1) Zero-interest student loan conversion interest subsidy — priority funding;
 (2) Sovereign Child Prosperity Trust birth deposits — four billion dollars ($4,000,000,000) annually;
 (3) Shelter Sovereignty Fund down payment and rental assistance — one billion five hundred million dollars ($1,500,000,000) annually;
@@ -3248,14 +3210,14 @@ The Household Structural Relief Node (formerly APD allocation) shall fund the fo
 (5) TANF structural floor enhancement supplement — five billion dollars ($5,000,000,000) annually.
 The FDVMA shall publish an annual Household Structural Relief Node Utilization Report confirming that Node funds have been deployed exclusively to the above mechanisms.
 
-SEC. 3404. APD SUPERSESSION — CROSS-TITLE CLARIFICATION.
+SEC. 3404. HOUSEHOLD STRUCTURAL RELIEF NODE — CROSS-TITLE CLARIFICATION.
 
-Any reference in this Act to the American Prosperity Dividend, APD, or any universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E benchmark reporting obligations are now governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
+Any reference in this Act to the Household Structural Relief Node, HSRN, or any universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E (retired) benchmark reporting obligations are now governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
 
 SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
 
 The SIRF node allocation percentages are revised as follows, effective from the date of enactment of this Title:
-(1) Household Structural Relief Node (formerly APD): 20%;
+(1) Household Structural Relief Node (formerly HSRN): 20%;
 (2) Tier 1 Mandatory Structural Obligations reserve: 15%;
 (3) Vanguard Capitalization Node: 15%;
 (4) Environmental Remediation Node: 10%;
@@ -3266,7 +3228,7 @@ The SIRF node allocation percentages are revised as follows, effective from the 
 (9) Biosecurity and Pharmaceutical Node: 5%;
 (10) Administrative Operations Reserve: 3%.
 
-Total allocation: one hundred percent (100%). Only the designation and use of Node (1) is modified from APD cash distributions to structural mechanism funding. Node (7) Sovereign Deficit Reduction Node replaces the prior Industrial Infrastructure Node, reflecting the consolidation of infrastructure investment into the SIRF Tier 3 waterfall under Section 3402(e)(3).
+Total allocation: one hundred percent (100%). Only the designation and use of Node (1) is modified from HSRN cash distributions to structural mechanism funding. Node (7) Sovereign Deficit Reduction Node replaces the prior Industrial Infrastructure Node, reflecting the consolidation of infrastructure investment into the SIRF Tier 3 waterfall under Section 3402(e)(3).
 
 SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
 
@@ -3296,7 +3258,7 @@ Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,0
 
 (d) NET ANNUAL SURPLUS AVAILABLE FOR DEFICIT REDUCTION.—Seven hundred forty-nine billion dollars ($749,000,000,000) revenue minus one hundred billion dollars ($100,000,000,000) net structural expenditures minus ninety-five billion dollars ($95,000,000,000) mandatory growth reinvestment equals five hundred fifty-four billion dollars ($554,000,000,000) available for annual federal deficit reduction.
 
-(e) REVISED SURPLUS DESIGNATION.—The net annual surplus of five hundred fifty-four billion dollars ($554,000,000,000) supersedes the prior estimate of four hundred fifty billion dollars ($450,000,000,000), reflecting the retirement of APD as a standing expenditure. This surplus is designated a Sovereign Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
+(e) REVISED SURPLUS DESIGNATION.—The net annual surplus of five hundred fifty-four billion dollars ($554,000,000,000) supersedes the prior estimate of four hundred fifty billion dollars ($450,000,000,000), reflecting the retirement of HSRN as a standing expenditure. This surplus is designated a Sovereign Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
 SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
 
