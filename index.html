@@ -588,7 +588,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
   <h2>The American Deal</h2>
   <p>Not borrowed. Earned. Built to last.</p>
   <div class="cta-quote">
-    "Your drug bills are getting cut — by law. Every uninsured American gets real coverage at zero premium. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $5,000 account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down — permanently, from revenue this country was already generating and never collected. No new taxes on working people. No borrowing. No DOGE dividend that never shipped. No $5,000 check that turned into a newsletter. This is structural relief written into the statute itself — not a promise, a provision. It starts the day this bill is signed. That is the American Deal."
+    "Your drug bills are getting cut — by law. Every uninsured American gets real coverage at zero premium. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $5,000 account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down — permanently, from revenue this country was already generating and never collected. No new taxes on working people. No borrowing. No waiting for a check that may never come. This is structural relief, and it starts the day this bill is signed. That is the American Deal."
   </div>
 </div>
 
@@ -1183,7 +1183,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     <!-- Year 1 Impact -->
     <div class="panel col-12">
       <div class="panel-label">Year 1 American Relief</div>
-      <div class="panel-title">What Americans Feel the Day This Bill Is Signed</div>
+      <div class="panel-title">What Americans Feel Before the Check Arrives</div>
       <div class="impact-cards">
         <div class="impact-card"><div class="impact-group">8.4M insulin-dependent Americans</div><div class="impact-relief" style="color:var(--green)">$2,400–$4,800/yr saved</div></div>
         <div class="impact-card"><div class="impact-group">28M uninsured Americans</div><div class="impact-relief" style="color:var(--blue)">$6,000–$9,600/yr BMP coverage value</div></div>
@@ -4334,54 +4334,4 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     try { return !!localStorage.getItem(emailKey(email.toLowerCase())); } catch(e) { return false; }
   }
   function markSignedLocally(email) {
-    try { localStorage.setItem(emailKey(email.toLowerCase()), '1'); } catch(e) {}
-  }
-
-  // ── Rep / email state ───────────────────────────────────────
-  var _reps    = [];
-  var _sigName = '';
-
-  // ── Step 1 — form submit ────────────────────────────────────
-  async function handleSigSubmit(e) {
-    e.preventDefault();
-    var btn   = document.getElementById('sig-submit-btn');
-    var msg   = document.getElementById('sig-msg');
-    var first = (document.getElementById('sig-first').value || '').trim();
-    var last  = (document.getElementById('sig-last').value  || '').trim();
-    _sigName  = (first + ' ' + last).trim();
-    var form  = document.getElementById('nsra-sig-form');
-    var email = (form.querySelector('[name="email"]').value || '').trim();
-    var zip   = (document.getElementById('sig-zip').value  || '').trim();
-
-    msg.className    = 'wf-msg';
-    msg.style.display = 'none';
-
-    // Fast local duplicate check before any server call
-    if (hasSignedLocally(email)) {
-      msg.className    = 'wf-msg error';
-      msg.textContent  = 'This email has already signed the NSRA — thank you for your support.';
-      msg.style.display = 'block';
-      return;
-    }
-
-    btn.disabled     = true;
-    btn.textContent  = 'Submitting…';
-
-    try {
-      var res  = await fetch('/.netlify/functions/submit-signature', {
-        method:  'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body:    JSON.stringify({ name: _sigName, email: email, zip: zip })
-      });
-      var data = await res.json();
-
-      if (data.duplicate) {
-        msg.className    = 'wf-msg error';
-        msg.textContent  = 'This email has already signed the NSRA — thank you for your support.';
-        msg.style.display = 'block';
-        btn.disabled     = false;
-        btn.textContent  = 'Sign the NSRA →';
-        return;
-      }
-      if (!data.success) {
-        msg.className    = 'wf-msg e
+    try { localStorage.setItem(emailKey(
