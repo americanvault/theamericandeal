@@ -1,2 +1,17 @@
+# GitHub Pages configuration for TheAmericanDeal.org
+# Tells Jekyll (GitHub Pages engine) to pass index.html through as-is
+
+# Use the null theme so our custom HTML/CSS renders without modification
 theme: null
-plugins: []
+
+# Exclude non-web files from the Pages build
+exclude:
+  - push_to_github.ps1
+  - push_to_github_bill.ps1
+  - "*.docx"
+  - "*.sol"
+  - "*.go"
+  - README.md
+
+# Encoding
+encoding: utf-8
