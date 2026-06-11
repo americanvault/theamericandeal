@@ -176,12 +176,14 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (1) IN GENERAL.—The FDVMA shall construct, maintain, and operate a centralized, continuous data-ingest platform, to be known as the Federal Data Veracity Matrix (FDVM).
 
-(2) DATA SOURCES.—The FDVM shall possess absolute, unhindered read-access to real-time electronic data pipelines, including:
+(2) DATA SOURCES (PATCH R-01).—The FDVM shall possess authorized read-access, pursuant to the inter-agency data-sharing protocols established under paragraph (3) and in compliance with the Electronic Communications Privacy Act (18 U.S.C. § 2510 et seq.), to real-time electronic data pipelines, including:
 (A) The United States Treasury clearance and settlement feeds;
 (B) Customs and Border Protection import-export manifests;
 (C) Commodity Futures Trading Commission transactional ledgers;
 (D) Department of Energy grid-load and distribution telemetry; and
 (E) Publicly traded corporate logistics, inventory tracking, and supply-chain enterprise systems operating within the United States.
+
+For any data category not covered by an existing inter-agency data-sharing agreement at the time of enactment, the FDVMA shall obtain access through an administrative subpoena issued with thirty (30) days advance notice to the data custodian, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit.
 
 (3) PRIVACY FIREWALL.—No individual personal identifying information, consumer financial records protected under the Gramm-Leach-Bliley Act (15 U.S.C. §§ 6801–6809), or private health information protected under HIPAA (42 U.S.C. § 1320d et seq.) shall be ingested by the FDVM. The FDVMA shall operate exclusively on aggregated, anonymized, entity-level commercial and governmental data streams.
 
@@ -490,7 +492,7 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
-(a) ALGORITHMIC DRIFT MONITORING.—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States.
+(a) ALGORITHMIC DRIFT MONITORING (PATCH R-02).—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States. Such audits shall be conducted exclusively through standardized API interfaces provided by Covered Entities pursuant to FDVMA rulemaking, and shall not require real-time access to live production algorithmic systems. Access to live production systems shall be permissible only upon issuance of a FDVMA administrative subpoena with thirty (30) days advance written notice to the Covered Entity, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit. Nothing herein shall be construed to require any Covered Entity to disclose proprietary source code, model weights, or training data beyond the output-layer behavioral metrics necessary to calculate the drift coefficient established under subsection (b).
 
 (b) COGNITIVE DRIFT VARIANCE THRESHOLD (PATCH R-03/R-04).—
 
