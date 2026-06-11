@@ -303,7 +303,7 @@ SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
 (5) NATIONAL INSTITUTES OF HEALTH.—Not less than two hundred million dollars ($200,000,000) annually, designated for administration of the National Curative Drug Registry, march-in rights enforcement under Section 1304, and the research integrity protection functions established in this section; and
 (6) FEDERAL ENERGY REGULATORY COMMISSION.—Not less than one hundred million dollars ($100,000,000) annually, designated for enforcement of grid modernization mandates under Section 905, SMR licensing coordination under Section 902(d), and grid sovereignty standards under Title IX.
 
-(c) STAFFING FLOOR MANDATE.—No executive action, including any order from the Office of Management and Budget, the Office of Personnel Management, or any presidential directive, may reduce the full-time equivalent workforce of any agency receiving an enforcement floor grant under subsection (b) below the workforce level in place at the date of enactment of this Act for the functions funded by that grant. Any reduction in workforce for NSRA-mandated functions shall require explicit statutory authorization.
+(c) STAFFING FLOOR MANDATE.—No executive action, including any order from the Office of Management and Budget or the Office of Personnel Management, may reduce the full-time equivalent workforce of any agency receiving an enforcement floor grant under subsection (b) below the workforce level in place at the date of enactment of this Act for the functions funded by that grant. Any reduction in workforce for NSRA-mandated functions shall require explicit statutory authorization by an Act of Congress. Nothing in this subsection shall be construed to limit the President's constitutional authority to supervise and direct executive branch personnel pursuant to Article II; this subsection operates as a spending condition on grant recipients, not as a limitation on the President's removal or supervisory authority.
 
 (d) SCIENTIFIC AND RESEARCH INTEGRITY PROTECTION.—
 (1) PROHIBITION ON POLITICAL SUPPRESSION.—No officer or employee of the executive branch may direct, order, or induce any scientist, researcher, or career official of EPA, NIH, FDA, CDC, or USDA to alter, suppress, delay, or misrepresent any scientific finding, assessment, report, or recommendation for political, commercial, or policy preference reasons.
@@ -343,13 +343,32 @@ MINIMUM SIRF CAPITALIZATION FLOOR.—No SIRF disbursement program shall deploy c
 
 (1) IN GENERAL.—Funds deposited into the SIRF shall remain inviolate. No administrative officer, executive order, budget directive, or general rescission act may divert, offset, loan, or appropriate SIRF balances for any purpose other than the explicit infrastructure capitalization mandates enumerated in this Act.
 
-(2) TWO-THIRDS LEGISLATIVE FRICTION SUPERMAJORITY.—No provision of this section or any fund allocation within the SIRF may be modified, repealed, suspended, or re-appropriated by Congress unless such modification is executed through an independent, single-subject Act of Congress explicitly naming the section to be modified and passed by a verified two-thirds (2/3) supermajority of the voting members of both the House of Representatives and the Senate.
+(2) LEGISLATIVE FRICTION — SENSE OF CONGRESS.—It is the sense of Congress that no provision of this section or any fund allocation within the SIRF should be modified, repealed, suspended, or re-appropriated except through an independent, single-subject Act of Congress explicitly naming the section to be modified. Nothing in this paragraph shall be construed to limit the constitutional authority of a future Congress to amend or repeal any provision of this Act by simple majority, consistent with INS v. Chadha, 462 U.S. 919 (1983), and Clinton v. City of New York, 524 U.S. 417 (1998). The durability of the SIRF is secured through the political accountability mechanisms of Section 201(d) and the rapid constituency vesting defense of Section 201(d)(2), not through procedural supermajority constraints on future legislation.
+
+(3) SIRF PRINCIPAL PROTECTION CLAUSE.—Notwithstanding any provision of this Act or any subsequent appropriations legislation, funds deposited into the SIRF shall not be transferred, offset, or loaned to the General Fund of the Treasury except pursuant to an Act of Congress that: (A) is a single-subject bill explicitly referencing this section; (B) has passed both chambers of Congress; and (C) has been enacted into law consistent with the presentment requirements of Article I, Section 7 of the Constitution. This subsection creates a statutory anti-diversion rule, enforceable by citizen suit under Section 401, but does not purport to bind future Congresses beyond ordinary legislative channels.
 
 (d) RAPID CONSTITUENCY VESTING DEFENSE MECHANISM.—
 
 (1) THE SIRF BENEFICIARY REGISTRY.—The FMIA shall maintain a real-time, public registry of every local infrastructure foundry, community land trust, worker cooperative, and household endowment account actively receiving capital distributions from the SIRF.
 
 (2) QUARTERLY DISTRICT IMPACT REPORTING.—The FMIA shall compile and transmit directly to the registered voters of each United States Congressional District, on a rolling quarterly basis, a hyper-localized Economic Velocity Manifest detailing the exact dollar volume of SIRF capital deployed within that specific district, the physical assets constructed, and the verified expansion of regional capital velocity.
+
+(e-1) SIRF INSPECTOR GENERAL.—
+
+(1) ESTABLISHMENT.—There is established the Office of the SIRF Inspector General ("SIRF IG"), headed by an Inspector General appointed by the President, by and with the advice and consent of the Senate, consistent with the Inspector General Act of 1978 (5 U.S.C. App.).
+
+(2) INDEPENDENCE.—The SIRF IG shall report directly to Congress and shall not be subject to the direction, supervision, or control of the FMIA Administrator or any other officer of the executive branch with respect to audits, investigations, and reports. The SIRF IG shall have independent budget authority, with funding allocated from the Administrative Operations Reserve node established in subsection (e)(10) of this section.
+
+(3) AUTHORITY.—The SIRF IG shall have:
+(A) subpoena authority to compel the production of documents, records, electronic data, and testimony from any person or entity in connection with any SIRF audit or investigation;
+(B) authority to refer findings to the Department of Justice, the Securities and Exchange Commission, or any other federal law enforcement agency;
+(C) authority to access all SIRF financial records, subledger data, deployment records, and contractor invoices without prior notice to FMIA program staff; and
+(D) authority to publish findings, reports, and referrals directly in the public record without FMIA review or clearance.
+
+(4) POST-EMPLOYMENT COOLING-OFF PERIOD.—
+(A) No SIRF Governor, FMIA senior officer (defined as any officer at the Senior Executive Service level or above), or SCA Board member may accept employment with, serve as a paid consultant to, or acquire a direct financial interest in any Covered Entity that was subject to SIRF investment decisions or FMIA enforcement actions during the individual's tenure for a period of five (5) years following the conclusion of that individual's tenure.
+(B) Violation of this subsection shall constitute a criminal offense punishable by a fine not to exceed two hundred fifty thousand dollars ($250,000) and imprisonment not to exceed two (2) years, and shall subject the individual to disgorgement of all compensation received in violation of this subsection.
+(C) The SIRF IG shall maintain a public registry of all individuals subject to the cooling-off requirement of this subsection, updated quarterly.
 
 (e) SIRF CAPITAL ALLOCATION NODES.—SIRF capital shall be allocated among the following mandatory nodes, subject to annual rebalancing by the FMIA based on verified utilization rates:
 (1) Household Structural Relief Node: 20%;
@@ -691,7 +710,7 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 (d) MANDATORY DIVESTITURE — EXCESS HOLDINGS.—Any institutional investor exceeding the fifty-unit cap established in subsection (b) upon enactment or thereafter shall divest excess holdings in full within thirty-six (36) months of enactment. Divestiture shall be subject to the following operational constraints:
 
-(1) VOLUME ABSORPTION THROTTLE.—Mandatory divestiture shall be conducted at a rate not to exceed four and one-half percent (4.5%) of the total available single-family housing inventory in the relevant MSA in any single calendar quarter (the "V_abs Quarterly Absorption Throttle"), to prevent forced sale volumes from distorting local property markets.
+(1) VOLUME ABSORPTION THROTTLE.—Mandatory divestiture shall be conducted at a rate not to exceed four and one-half percent (4.5%) of the total available single-family housing inventory in the relevant Metropolitan Statistical Area (MSA) in any single calendar quarter (the "V_abs Quarterly Absorption Throttle"), to prevent forced sale volumes from distorting local property markets. The four and one-half percent (4.5%) base rate is the statutory floor and ceiling for the initial three (3) years following enactment. Beginning in year four (4) of implementation, the FMIA shall annually recalibrate the V_abs rate for each MSA based on published HUD Comprehensive Housing Market Analysis data for that MSA, and shall publish the recalibrated MSA-specific V_abs rates in the Federal Register not later than January 15 of each year. The recalibrated rate for any MSA shall not be set below two percent (2.0%) or above six percent (6.0%), regardless of HUD market data. In the absence of a valid HUD Comprehensive Housing Market Analysis for a specific MSA, the default rate of four and one-half percent (4.5%) shall apply.
 
 (2) PRIORITY SALE CHANNELS.—Divesting institutional investors shall offer excess units, in priority order, to: (A) existing tenants of the unit at fair market value; (B) first-time homebuyers meeting income eligibility under the Shelter Sovereignty Fund (subsection (f)); (C) community land trusts and non-profit housing organizations; and (D) the open market.
 
@@ -824,6 +843,22 @@ SEC. 1804. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
 
 (d) STATE SOVEREIGNTY CONSULTATION PROTOCOL.—Before any FMIA regulation is finalized that imposes new requirements on state governments, the FMIA shall convene a thirty (30) day consultation period with the National Governors Association and the National Conference of State Legislatures. Final regulations shall include a written response to all substantive state concerns raised during consultation.
 
+SEC. 1804A. MANDATORY CONGRESSIONAL REAUTHORIZATION.
+
+(a) SIRF REAUTHORIZATION.—The Sovereign Infrastructure Reinvestment Fund established under Section 201 shall be subject to mandatory Congressional reauthorization not later than ten (10) years after the date of enactment of this Act, and every ten (10) years thereafter. Reauthorization shall be by Act of Congress, and shall include:
+(1) A comprehensive review by the Government Accountability Office of SIRF capitalization levels, investment deployment efficiency, and economic impact on domestic manufacturing, housing, energy, and infrastructure;
+(2) A Congressional Budget Office score of projected SIRF revenues and obligations for the succeeding ten-year period; and
+(3) A public hearing by the relevant committees of jurisdiction in both chambers.
+
+(b) FAILURE TO REAUTHORIZE.—If Congress fails to enact a reauthorization Act prior to the applicable deadline:
+(1) All active SIRF deployment commitments to Vanguard Entities and infrastructure projects under construction shall continue to be honored through their contractual terms;
+(2) No new SIRF investment commitments shall be made after the deadline date until reauthorization is enacted; and
+(3) SIRF revenue deposits shall continue to accumulate in the SIRF lockbox pending reauthorization.
+
+(c) FMIA REAUTHORIZATION.—The Federal Market Integrity Administration established under Title I shall be subject to mandatory Congressional reauthorization not later than seven (7) years after the date of enactment of this Act, and every seven (7) years thereafter. Reauthorization shall include a comprehensive Inspector General audit of FMIA enforcement actions, regulatory capture risk assessment, and performance against all Schedule H benchmarks. The failure of Congress to reauthorize the FMIA shall not affect the validity of any prior FMIA enforcement action or Verified Structural Variance finding.
+
+(d) ADVANCE NOTICE TO CONGRESS.—Not later than two (2) years before each applicable reauthorization deadline, the FMIA Administrator shall transmit to Congress a Reauthorization Readiness Report containing all data necessary for Congress to conduct the required review, including performance metrics, enforcement statistics, constitutional compliance assessments, and the SIRF IG's independent evaluation.
+
 SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 
 (a) EMERGENCY REVIEW TRACK — ESTABLISHMENT.—The Judicial Conference of the United States shall, within one hundred eighty (180) days of enactment, establish an Emergency Sovereign Enforcement Track in each United States District Court and Court of Appeals, providing expedited adjudication of all enforcement actions under this Act that involve asset freezes, operational restrictions, property transfers, or penalties exceeding one million dollars ($1,000,000). Target adjudication timelines shall be:
@@ -851,6 +886,23 @@ SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 (4) The activities regulated under Title XIV (housing markets) involve the interstate flow of capital, mortgage financing, and real estate investment trust securities; and
 (5) All other Titles regulate economic activities that in the aggregate substantially affect interstate commerce, satisfying the standard of Gonzales v. Raich, 545 U.S. 1 (2005).
 
+
+SEC. 1806. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
+
+(a) FINDINGS.—Congress finds that:
+(1) The authority to impose temporary capital flow restrictions on Covered Entities engaged in documented asymmetric capital flight constitutes an exercise of the war and emergency powers of Congress, grounded in the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Necessary and Proper Clause (Art. I, Sec. 8, Cl. 18), and the precedent established by the International Emergency Economic Powers Act (50 U.S.C. §§ 1701–1708) ("IEEPA");
+(2) Capital flight restrictions imposed under this Title target conduct that constitutes an unusual and extraordinary threat to the domestic economy, the stability of the SIRF capitalization framework, and the national interest;
+(3) The procedural protections of this Title — including ALJ warrant requirements, pre-deprivation notice windows, and emergency judicial review — are specifically calibrated to satisfy the substantive due process requirements of Mathews v. Eldridge, 424 U.S. 319 (1976), and to ensure that capital flight restrictions do not constitute an unconstitutional taking under the Fifth Amendment;
+(4) Any capital flow restriction imposed under this Title shall be the minimum necessary to address the documented flight conduct, shall be time-limited, and shall be subject to immediate judicial review under the Emergency Sovereign Enforcement Track of Section 1805.
+
+(b) PRESIDENTIAL EMERGENCY DECLARATION REQUIREMENT.—No capital flow lock, asset freeze, or forced domestic repatriation order affecting a Covered Entity's liquid capital assets in excess of one hundred million dollars ($100,000,000) may take effect under this Act unless:
+(1) The President has issued a written determination, consistent with 50 U.S.C. § 1703(b), that the conduct of the relevant Covered Entity or class of entities constitutes an unusual and extraordinary threat to the domestic economic order;
+(2) The President has transmitted such determination to Congress within forty-eight (48) hours of issuance; and
+(3) An ALJ Judicial Verification Warrant has been issued pursuant to Section 1804(c).
+
+(c) TEMPORAL LIMITATION.—Any capital flow lock imposed under this section shall expire automatically after one hundred eighty (180) calendar days unless renewed by an Act of Congress. The FMIA shall notify the affected entity of the expiration or renewal determination not less than thirty (30) days before the expiration date.
+
+(d) SEVERABILITY.—The authority established in this section is severable from all other enforcement authorities of this Act. A judicial determination that any specific capital flow lock was unconstitutionally imposed shall not affect the validity of any other enforcement action under this Act.
 
 SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
 
@@ -2871,7 +2923,12 @@ SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
 (1) acquire equity stakes in foreign entities without express Congressional authorization by joint resolution;
 (2) invest in cryptocurrencies, digital asset speculation, or non-fungible tokens;
 (3) provide compute access to any entity subject to an active FMIA enforcement action or capital-flight lock under Section 1601;
-(4) CONSUMER AI PROHIBITION.—develop, market, train, or operate consumer artificial intelligence products, services, or models, except as strictly necessary for governmental operations, scientific research, educational access, or national security purposes authorized by the Board and disclosed to Congress. The SCA is an infrastructure provider, not a commercial AI developer. No future Board resolution, executive directive, or appropriations rider shall authorize SCA to compete with domestic commercial AI firms in consumer-facing markets without express statutory authorization by Congress.
+(4) CONSUMER AI AND B2C MARKET EXCLUSION.—develop, market, train, or operate consumer artificial intelligence products, services, or models, and shall not enter any business-to-consumer (B2C) service market in which domestic private commercial providers are operating, except as strictly necessary for governmental operations, scientific research, educational access, or national security purposes authorized by the Board and disclosed to Congress. The SCA is a sovereign infrastructure provider, not a commercial AI developer or consumer services competitor. No future Board resolution, executive directive, or appropriations rider shall authorize SCA to compete with domestic commercial AI firms or any domestic B2C service provider in consumer-facing markets without express statutory authorization by Congress enacted after the procedures of subsection (d-1) have been satisfied.
+
+(d-1) CONGRESSIONAL DISAPPROVAL WINDOW FOR NEW SCA SERVICE CATEGORIES.—
+(A) ADVANCE NOTICE REQUIREMENT.—Before the SCA Board may authorize the SCA to enter any new service category not explicitly authorized by this Title, the SCA Board shall transmit to the relevant committees of jurisdiction in both chambers of Congress a detailed written notice describing: (i) the proposed new service category; (ii) the Board's findings that no domestic private provider is adequately serving the relevant market; (iii) the projected cost and revenue impact; and (iv) the constitutional and statutory basis for Board authority.
+(B) DISAPPROVAL WINDOW.—Congress shall have ninety (90) calendar days following receipt of the Board's written notice to enact a joint resolution of disapproval blocking the proposed new service category. If Congress enacts such a resolution and it is signed into law, or if the President's veto of such resolution is overridden, the SCA Board shall not enter the proposed service category.
+(C) NO AUTOMATIC AUTHORIZATION.—The failure of Congress to enact a joint resolution of disapproval within the ninety (90) day window shall not be construed as Congressional authorization of the proposed service category; it shall only remove the mandatory pre-authorization review constraint. The SCA Board shall retain full fiduciary responsibility for ensuring any new service category is consistent with the SCA's statutory mission.
 
 (c) STATUTORY ACCESS PRIORITY LADDER.—SCA infrastructure capacity shall be allocated among users according to the following priority order, with higher-priority categories served before lower-priority categories in any period of capacity constraint:
 (1) TIER 1 — FEDERAL AGENCIES.—Federal civilian agencies and the Armed Forces requiring compute access for governmental operations, national security, or emergency response;
