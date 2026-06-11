@@ -384,7 +384,7 @@
     <li><a href="#legal-review" onclick="closeNav()">Legal Review</a></li>
     <li><a href="#dashboard" onclick="closeNav()">Dashboard</a></li>
     <li><a href="#bill-text" onclick="closeNav()" style="color:var(--green)">Policy Vault</a></li>
-    <li><a href="NSRA_COMPLETE_TEXT.txt" download="NSRA_Complete_Text.txt" onclick="closeNav()">Full Bill ↓</a></li>
+    <li><a href="NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" onclick="closeNav()">Full Bill ↓</a></li>
     <li><a href="#support" onclick="closeNav()" style="color:var(--green)">Sign &amp; Contact</a></li>
   </ul>
   <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Support</button>
@@ -4443,7 +4443,7 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
         <div style="font-size:11px;color:var(--muted);margin-top:4px">Media inquiries, legislative staff, &amp; general correspondence</div>
       </div>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a href="NSRA_COMPLETE_TEXT.txt" download="NSRA_Complete_Text.txt" style="padding:9px 18px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:600;color:var(--text);text-decoration:none">Download Full Text ↓</a>
+        <a href="NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" style="padding:9px 18px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:600;color:var(--text);text-decoration:none">Download Full Text ↓</a>
         <a href="#bill-text" style="padding:9px 18px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;font-size:12px;font-weight:600;color:var(--green);text-decoration:none">Policy Vault ↗</a>
       </div>
     </div>
@@ -4522,13 +4522,14 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     if (e2) e2.textContent = s;
   }
 
-  // Counter: read directly from counterapi.dev (incremented on every real submission)
+  // Counter: Abacus (CounterAPI v1 was retired — returns 404 as of June 2026)
+  // Read without incrementing: /get — incremented via /hit on real submissions
   async function updateVisitorCounter() {
     try {
-      const r = await fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/get');
-      if (!r.ok) throw new Error('counterapi unreachable');
+      const r = await fetch('https://abacus.jasoncameron.dev/get/theamericandeal/nsra-signatures');
+      if (!r.ok) throw new Error('counter unreachable');
       const d = await r.json();
-      if (typeof d.count === 'number') { renderCounter(d.count); }
+      if (typeof d.value === 'number') { renderCounter(d.value); }
     } catch (e) {
       console.warn('Counter unreachable — keeping default display value.', e);
     }
@@ -4588,10 +4589,13 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     }).then(function(r) {
       if (!r.ok) throw new Error('relay error');
       return r.json();
+    }).then(function(d) {
+      // FormSubmit returns HTTP 200 even on failure — check the JSON success flag
+      if (!d || String(d.success) !== 'true') throw new Error(d && d.message ? d.message : 'relay rejected');
     }).then(function() {
       if (email) markSignedLocally(email);
       // Increment public counter (fire-and-forget), then refresh display
-      fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/up')
+      fetch('https://abacus.jasoncameron.dev/hit/theamericandeal/nsra-signatures')
         .then(function() { updateVisitorCounter(); })
         .catch(function() {});
       if (msg) msg.textContent = '✓ Signature recorded. Welcome aboard.';
