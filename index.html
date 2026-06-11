@@ -822,8 +822,8 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
       fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
         .then(r => r.json())
         .then(us => {
-          // Resolve STATE_DATA — it lives in the adjacent script block (global const)
-          const sd = (typeof STATE_DATA !== 'undefined') ? STATE_DATA : (window.STATE_DATA || {});
+          // Resolve STATE_DATA — declared as var in adjacent script block, accessible via window
+          const sd = window.STATE_DATA || {};
           computeTiers(sd);
 
           const W = svg.parentElement.clientWidth - 40 || 800;
@@ -988,12 +988,13 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
   </div>
 
   <script>
-  const FPL = {1:15060,2:20440,3:25820,4:31200,5:36580,6:41960};
+  var FPL = {1:15060,2:20440,3:25820,4:31200,5:36580,6:41960};
   function fmt(n){return '$'+Math.round(n).toLocaleString();}
   // State-level data — expanded across all NSRA title provisions
   // Fields: uninsured, snap, loans, vets (all in M), income (K),
   //         elderly_pct, renters_k (K HH), mfg_k (K jobs), poverty_pct, births_k
-  const STATE_DATA = {
+  // NOTE: var (not const) so it is accessible as a global across script blocks
+  var STATE_DATA = {
     TX:{name:'Texas',uninsured:5.0,snap:3.6,loans:3.8,vets:1.6,income:67,elderly_pct:13,renters_k:3800,mfg_k:870,poverty_pct:14,births_k:377,hosp:586,uncomp_B:7.2,insurer_mlr:87},
     FL:{name:'Florida',uninsured:2.8,snap:3.1,loans:2.9,vets:1.5,income:63,elderly_pct:21,renters_k:3200,mfg_k:340,poverty_pct:13,births_k:210,hosp:210,uncomp_B:3.8,insurer_mlr:86},
     GA:{name:'Georgia',uninsured:1.2,snap:1.5,loans:1.4,vets:0.7,income:65,elderly_pct:14,renters_k:1500,mfg_k:370,poverty_pct:15,births_k:127,hosp:153,uncomp_B:1.8,insurer_mlr:88},
