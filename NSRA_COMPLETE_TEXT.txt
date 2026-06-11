@@ -80,7 +80,7 @@ SEC. 004. MANDATORY TRIGGER PARAMETERS — CONGRESSIONAL SPECIFICATION.
 
 (c) INTELLIGIBLE PRINCIPLE STATEMENT AND SECTOR ENUMERATION.—Congress hereby declares the intelligible principle governing all NSRA mechanical triggers: Federal policy shall respond to objective, quantifiable deviations from material baseline conditions at the lowest threshold that produces a statistically significant causal relationship between structural variance and systemic harm, as defined in Schedule B of this Act.
 
-(c-1) ENUMERATED SECTOR JURISDICTION.—To satisfy the major-questions doctrine as articulated in West Virginia v. EPA, 597 U.S. 697 (2022), the FDVMA's automatic enforcement authority under this Act is expressly limited to the following enumerated sectors of significant federal interest:
+(c-1) ENUMERATED SECTOR JURISDICTION.—To satisfy the major-questions doctrine as articulated in West Virginia v. EPA, 597 U.S. 697 (2022), the FMIA's automatic enforcement authority under this Act is expressly limited to the following enumerated sectors of significant federal interest:
 (1) Pharmaceutical and biomedical manufacturing entities subject to FDA jurisdiction;
 (2) Food and agricultural distribution entities subject to USDA jurisdiction;
 (3) Financial institutions subject to federal banking, securities, or commodities regulation;
@@ -93,13 +93,13 @@ Enforcement actions affecting economic sectors outside these enumerated categori
 
 (d) BIENNIAL PERFORMANCE REVIEW.—The Congressional Budget Office, in coordination with the Government Accountability Office, shall publish a biennial Sovereign Resilience Impact Report evaluating each Title of this Act against the performance benchmarks established in Schedule D, including quantified household-level economic impacts. If any Title fails to demonstrate measurable improvement in its target domain over two consecutive biennial review cycles, Congress shall convene an automatic Joint Legislative Review Committee within ninety (90) days.
 
-(e) SMALL BUSINESS IMPACT MITIGATION.—Prior to any enforcement action against a domestic business with annual revenues between ten million dollars ($10,000,000) and fifty million dollars ($50,000,000), the FDVMA shall provide a mandatory sixty (60) day technical assistance period, during which the Small Business Administration shall provide no-cost compliance consulting.
+(e) SMALL BUSINESS IMPACT MITIGATION.—Prior to any enforcement action against a domestic business with annual revenues between ten million dollars ($10,000,000) and fifty million dollars ($50,000,000), the FMIA shall provide a mandatory sixty (60) day technical assistance period, during which the Small Business Administration shall provide no-cost compliance consulting.
 
 SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
 
 (a) CBO CERTIFICATION REQUIREMENT.—No Title of this Act that authorizes mandatory SIRF disbursements exceeding five hundred million dollars ($500,000,000) in any single fiscal year shall be deployed nationally until the Congressional Budget Office certifies, in a formal cost estimate published in the Federal Register, that the projected SIRF revenue from the combined penalty, assessment, premium, and clawback mechanisms of this Act is sufficient to fund the disbursement without recourse to new deficit financing. Certification shall be based on a rolling five-year projection window.
 
-(b) REVENUE SUFFICIENCY TRIGGER.—If at any point the FDVMA determines, based on verified SIRF cash-flow data, that SIRF balances are insufficient to sustain authorized disbursements for the following twelve (12) months at current deployment rates, the FDVMA shall within thirty (30) calendar days:
+(b) REVENUE SUFFICIENCY TRIGGER.—If at any point the FMIA determines, based on verified SIRF cash-flow data, that SIRF balances are insufficient to sustain authorized disbursements for the following twelve (12) months at current deployment rates, the FMIA shall within thirty (30) calendar days:
 
 (1) Reduce all per-household Household Structural Relief Node disbursements on a pro-rata basis to match available SIRF revenue, maintaining equal percentage reductions across all recipient households; and
 
@@ -109,7 +109,7 @@ SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
 
 (d) SURPLUS REINVESTMENT REQUIREMENT.—Any SIRF balance exceeding one hundred twenty percent (120%) of the projected twelve-month disbursement obligation shall be automatically transferred to the national debt reduction account of the Treasury of the United States, demonstrating that this Act is a net fiscal tightening instrument, not a deficit expansion mechanism.
 
-(e) NEW PENALTY CATEGORY CERTIFICATION GATE.—For any enforcement penalty category projected by the FDVMA to generate more than ten billion dollars ($10,000,000,000) annually that was not individually enumerated as a SIRF revenue source in this Act at the time of enactment, the automatic SIRF routing established in Section 201(b)(2) shall not take effect for that category until Congress passes an affirmative Revenue Category Certification Resolution within one hundred eighty (180) days of the FDVMA's initial collection report. The Resolution shall require only a simple majority vote in both chambers and shall not be subject to filibuster. If Congress fails to act within the 180-day window, the revenue shall route to the Treasury general fund pending a subsequent Resolution. This gate preserves the Appropriations Clause integrity of the automatic routing mechanism while ensuring congressional accountability for novel revenue categories of significant scale.
+(e) NEW PENALTY CATEGORY CERTIFICATION GATE.—For any enforcement penalty category projected by the FMIA to generate more than ten billion dollars ($10,000,000,000) annually that was not individually enumerated as a SIRF revenue source in this Act at the time of enactment, the automatic SIRF routing established in Section 201(b)(2) shall not take effect for that category until Congress passes an affirmative Revenue Category Certification Resolution within one hundred eighty (180) days of the FMIA's initial collection report. The Resolution shall require only a simple majority vote in both chambers and shall not be subject to filibuster. If Congress fails to act within the 180-day window, the revenue shall route to the Treasury general fund pending a subsequent Resolution. This gate preserves the Appropriations Clause integrity of the automatic routing mechanism while ensuring congressional accountability for novel revenue categories of significant scale.
 
 
 
@@ -125,7 +125,7 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 (5) SNAP and WIC statutory protection (Titles I and VII).
 No Tranche 1 disbursement requires a SIRF revenue certification or phase gate condition. These mechanisms are funded from mandatory enforcement revenue that activates automatically upon enactment.
 
-(c) TRANCHE 2 — TARGETED HSRN (GATE 1 CONDITIONS).—Household Structural Relief Node deployment at three hundred dollars ($300) per month to households at or below one hundred fifty percent (150%) of the federal poverty guideline shall activate only when all three Gate 1 conditions of Schedule E are simultaneously certified by the CBO. No Tranche 2 disbursement may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that dollar-one of HSRN is backed by collected, verified sovereign revenue.
+(c) TRANCHE 2 — HOUSEHOLD ENERGY COST REDUCTION (GATE 1 CONDITIONS).—Upon satisfaction of all three Gate 1 conditions of Schedule E as jointly certified by the Comptroller General, the Federal Reserve Board, and the Congressional Budget Office, the Household Energy Cost Reduction Program (HECRP) shall activate. The HECRP shall target a minimum fifteen percent (15%) reduction in average monthly residential electricity costs in participating utility service territories compared to the pre-enactment baseline, as measured by state public utility commission reported data. HECRP shall be funded from the SIRF Energy Sovereignty Subledger established under Section 2410(c) and administered by the Secretary of Energy in coordination with state public utility commissions. No Tranche 2 activation may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that all HECRP deployments are backed by collected, verified sovereign revenue.
 
 (d) TRANCHE 3 — UNIVERSAL HSRN (GATE 2 CONDITIONS).—Universal Household Structural Relief Node deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal HSRN deployment occurs when the fiscal foundation is substantially complete, not before.
 
@@ -133,7 +133,7 @@ No Tranche 1 disbursement requires a SIRF revenue certification or phase gate co
 
 (f) MACRO-SHOCK PROTECTION.—To prevent a sudden fiscal shock to the macroeconomic baseline during the multi-year ramp of corporate supply chain migration and enforcement revenue:
 (1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Endowment Node's verified quarterly inflow;
-(2) The FDVMA shall publish a quarterly Tranche Capacity Report confirming available Household Structural Relief Node deployment capacity;
+(2) The FMIA shall publish a quarterly Tranche Capacity Report confirming available Household Structural Relief Node deployment capacity;
 (3) If revenue collections underperform CBO projections by more than fifteen percent (15%) over any rolling ninety (90) day period, the V_abs Quarterly Absorption Throttle established in Section 004 shall activate, scaling down corporate procurement premiums and upper-tier infrastructure grants before any reduction in household Tranche disbursements.
 
 SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
@@ -146,7 +146,7 @@ SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
 (2) Transportation and broadband infrastructure: not less than thirty cents ($0.30) per one dollar ($1.00) of SIRF capital;
 (3) Agricultural cooperative and land trust capitalization: not less than fifteen cents ($0.15) per one dollar ($1.00) of SIRF capital.
 
-(c) PRIVATE CAPITAL MOBILIZATION REPORT.—The FDVMA shall publish annually a Private Capital Mobilization Report quantifying the total private investment attracted as a result of NSRA incentive structures, demonstrating the leverage ratio of public-to-private capital deployment. The target leverage ratio is three dollars ($3.00) of private investment per one dollar ($1.00) of SIRF capital deployed in infrastructure categories.
+(c) PRIVATE CAPITAL MOBILIZATION REPORT.—The FMIA shall publish annually a Private Capital Mobilization Report quantifying the total private investment attracted as a result of NSRA incentive structures, demonstrating the leverage ratio of public-to-private capital deployment. The target leverage ratio is three dollars ($3.00) of private investment per one dollar ($1.00) of SIRF capital deployed in infrastructure categories.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE I — SYSTEMIC RESILIENCE AND UNIFIED SOVEREIGNTY ARCHITECTURE
@@ -156,7 +156,7 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (a) PHASE 1: BUREAU WITHIN DEPARTMENT OF COMMERCE (MONTHS 1–48).—
 
-(1) IN GENERAL.—For the first forty-eight (48) months following enactment, the Federal Data Veracity Matrix Administration (FDVMA) shall be established as a bureau within the Department of Commerce, designated the Bureau of Sovereign Data Integrity (BSDI). During this phase, the BSDI shall share DOC's existing information technology infrastructure, human resources systems, procurement vehicles, and physical facilities, eliminating the startup costs and timeline risks of a standalone agency launch.
+(1) IN GENERAL.—For the first forty-eight (48) months following enactment, the Federal Market Integrity Administration (FMIA) shall be established as a bureau within the Department of Commerce, designated the Bureau of Sovereign Data Integrity (BSDI). During this phase, the BSDI shall share DOC's existing information technology infrastructure, human resources systems, procurement vehicles, and physical facilities, eliminating the startup costs and timeline risks of a standalone agency launch.
 
 (2) INITIAL WORKFORCE AUTHORIZATION.—The BSDI shall begin operations with an authorized workforce of not fewer than eight hundred (800) full-time equivalent personnel, recruited in priority order: data scientists and economists from existing DOC bureaus, including the Bureau of Economic Analysis, the Bureau of Labor Statistics, and the National Institute of Standards and Technology; cybersecurity specialists from the Cybersecurity and Infrastructure Security Agency via interagency agreement; and external hires as needed. Total authorized FTE shall expand on a documented capability-driven schedule not to exceed two thousand (2,000) by month 48.
 
@@ -166,15 +166,15 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (1) INDEPENDENCE REVIEW.—Not later than the thirty-sixth (36th) month following enactment, the Government Accountability Office shall conduct an Independence Readiness Assessment evaluating whether the BSDI has achieved the operational maturity, data integration completeness, and staffing stability required for standalone agency status.
 
-(2) TRANSITION AUTHORITY.—If the GAO Independence Readiness Assessment is affirmative, the BSDI shall transition to full independent agency status as the Federal Data Veracity Matrix Administration on the first day of the forty-ninth (49th) month, inheriting all data agreements, personnel, infrastructure, and legal authorities established during Phase 1. If the GAO assessment recommends an extended bureau period, the Secretary of Commerce shall extend the bureau phase by not more than twenty-four (24) additional months, with a mandatory second GAO assessment at month 60.
+(2) TRANSITION AUTHORITY.—If the GAO Independence Readiness Assessment is affirmative, the BSDI shall transition to full independent agency status as the Federal Market Integrity Administration on the first day of the forty-ninth (49th) month, inheriting all data agreements, personnel, infrastructure, and legal authorities established during Phase 1. If the GAO assessment recommends an extended bureau period, the Secretary of Commerce shall extend the bureau phase by not more than twenty-four (24) additional months, with a mandatory second GAO assessment at month 60.
 
-(c) CHIEF STRUCTURAL REALIST — ARTICLE II REMOVAL COMPLIANCE (PATCH R-11).—The FDVMA shall be directed by a single Administrator for Economic Data Integrity, appointed by the President by and with the advice and consent of the Senate. To conform to the separation-of-powers holdings of Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020), and Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010), the Administrator shall be removable by the President at will, without cause. No statutory for-cause removal restriction shall attach to the Administrator. The seven (7) year term is advisory as to continuity of policy and shall not be construed to limit the President's removal power. During Phase 1, the Administrator for Economic Data Integrity shall serve as Deputy Secretary of Commerce for Sovereign Data Integrity, with all authority of a bureau director within the DOC administrative structure.
+(c) CHIEF STRUCTURAL REALIST — ARTICLE II REMOVAL COMPLIANCE (PATCH R-11).—The FMIA shall be directed by a single Administrator for Economic Data Integrity, appointed by the President by and with the advice and consent of the Senate. To conform to the separation-of-powers holdings of Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020), and Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010), the Administrator shall be removable by the President at will, without cause. No statutory for-cause removal restriction shall attach to the Administrator. The seven (7) year term is advisory as to continuity of policy and shall not be construed to limit the President's removal power. During Phase 1, the Administrator for Economic Data Integrity shall serve as Deputy Secretary of Commerce for Sovereign Data Integrity, with all authority of a bureau director within the DOC administrative structure.
 
 (c-1) ALJ APPOINTMENT AND REMOVAL — LUCIA COMPLIANCE.—All Administrative Law Judges and administrative adjudicators acting under this Act are inferior officers within the meaning of Lucia v. SEC, 585 U.S. 237 (2018), appointed directly by the Administrator. Such adjudicators shall not be insulated by more than a single layer of for-cause removal, and their removal protections shall be construed and applied only to the extent permitted by controlling Article II precedent. The validity of any enforcement action shall not depend on the constitutionality of an adjudicator's removal protection, and the severability provisions of Section 205 shall preserve all completed actions in the event any removal restriction is held invalid.
 
 (d) MANDATORY TELEMETRY SYSTEM.—
 
-(1) IN GENERAL.—The FDVMA shall construct, maintain, and operate a centralized, continuous data-ingest platform, to be known as the Federal Data Veracity Matrix (FDVM).
+(1) IN GENERAL.—The FMIA shall construct, maintain, and operate a centralized, continuous data-ingest platform, to be known as the Federal Data Veracity Matrix (FDVM).
 
 (2) DATA SOURCES (PATCH R-01).—The FDVM shall possess authorized read-access, pursuant to the inter-agency data-sharing protocols established under paragraph (3) and in compliance with the Electronic Communications Privacy Act (18 U.S.C. § 2510 et seq.), to real-time electronic data pipelines, including:
 (A) The United States Treasury clearance and settlement feeds;
@@ -183,9 +183,9 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 (D) Department of Energy grid-load and distribution telemetry; and
 (E) Publicly traded corporate logistics, inventory tracking, and supply-chain enterprise systems operating within the United States.
 
-For any data category not covered by an existing inter-agency data-sharing agreement at the time of enactment, the FDVMA shall obtain access through an administrative subpoena issued with thirty (30) days advance notice to the data custodian, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit.
+For any data category not covered by an existing inter-agency data-sharing agreement at the time of enactment, the FMIA shall obtain access through an administrative subpoena issued with thirty (30) days advance notice to the data custodian, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit.
 
-(3) PRIVACY FIREWALL.—No individual personal identifying information, consumer financial records protected under the Gramm-Leach-Bliley Act (15 U.S.C. §§ 6801–6809), or private health information protected under HIPAA (42 U.S.C. § 1320d et seq.) shall be ingested by the FDVM. The FDVMA shall operate exclusively on aggregated, anonymized, entity-level commercial and governmental data streams.
+(3) PRIVACY FIREWALL.—No individual personal identifying information, consumer financial records protected under the Gramm-Leach-Bliley Act (15 U.S.C. §§ 6801–6809), or private health information protected under HIPAA (42 U.S.C. § 1320d et seq.) shall be ingested by the FDVM. The FMIA shall operate exclusively on aggregated, anonymized, entity-level commercial and governmental data streams.
 
 (e) AUTOMATED STRUCTURAL VARIANCE MONITORING AND IDENTIFICATION.—
 
@@ -197,15 +197,15 @@ For any data category not covered by an existing inter-agency data-sharing agree
 
 (1) IN GENERAL.—Notwithstanding any other provision of law, no federal agency, executive department, or administrative officer may issue, grant, or renew any "safe harbor" exemption, regulatory carve-out, compliance waiver, or non-enforcement guidance to shield any Covered Entity from an FDVM variance audit, structural penalty, or clawback proceeding.
 
-(2) INVALIDITY OF ADMINISTRATIVE CURE ACTIONS.—Any administrative rule, advisory opinion, or settlement agreement that purports to exempt a Covered Entity from the strict liability provisions of this Title is subject to mandatory FDVMA review and approval before taking effect. The FDVMA shall have thirty (30) days to review any such agreement and shall approve it only if it (A) does not extinguish the underlying structural variance finding, (B) includes a remediation plan with binding milestones, and (C) is accompanied by a penalty escrow equal to not less than fifty percent (50%) of the assessed penalty amount. Any settlement not submitted for FDVMA review, or not approved within the thirty-day window, is void ab initio. Nothing in this paragraph shall be construed to limit the authority of a federal district court to approve a consent decree pursuant to its equitable jurisdiction, provided the court receives FDVMA review findings as part of the record.
+(2) INVALIDITY OF ADMINISTRATIVE CURE ACTIONS.—Any administrative rule, advisory opinion, or settlement agreement that purports to exempt a Covered Entity from the strict liability provisions of this Title is subject to mandatory FMIA review and approval before taking effect. The FMIA shall have thirty (30) days to review any such agreement and shall approve it only if it (A) does not extinguish the underlying structural variance finding, (B) includes a remediation plan with binding milestones, and (C) is accompanied by a penalty escrow equal to not less than fifty percent (50%) of the assessed penalty amount. Any settlement not submitted for FMIA review, or not approved within the thirty-day window, is void ab initio. Nothing in this paragraph shall be construed to limit the authority of a federal district court to approve a consent decree pursuant to its equitable jurisdiction, provided the court receives FMIA review findings as part of the record.
 
-(e) FDVMA OPERATIONAL CAPACITY.—
+(e) FMIA OPERATIONAL CAPACITY.—
 
-(1) INITIAL STAFFING AUTHORIZATION.—There is authorized to be appropriated, from the SIRF administrative operations node and from general Treasury funds as a one-time capitalization measure, the sum of $850,000,000 for the construction and operationalization of the FDVMA, including procurement of telemetry infrastructure, cybersecurity hardening, and an initial workforce of not fewer than 2,400 full-time equivalent personnel.
+(1) INITIAL STAFFING AUTHORIZATION.—There is authorized to be appropriated, from the SIRF administrative operations node and from general Treasury funds as a one-time capitalization measure, the sum of $850,000,000 for the construction and operationalization of the FMIA, including procurement of telemetry infrastructure, cybersecurity hardening, and an initial workforce of not fewer than 2,400 full-time equivalent personnel.
 
-(2) PHASED DEPLOYMENT MANDATE.—The FDVMA shall achieve operational telemetry coverage of not less than sixty percent (60%) of tracked critical asset layers within twenty-four (24) months of enactment, and full one hundred percent (100%) coverage within forty-eight (48) months.
+(2) PHASED DEPLOYMENT MANDATE.—The FMIA shall achieve operational telemetry coverage of not less than sixty percent (60%) of tracked critical asset layers within twenty-four (24) months of enactment, and full one hundred percent (100%) coverage within forty-eight (48) months.
 
-(3) STATE PARTNERSHIP GRANTS.—The FDVMA shall establish a State Data Sovereignty Partnership Program under which states may receive formula grants of up to $15,000,000 annually to build compatible state-level data monitoring infrastructure, provided such infrastructure adheres to FDVM data standards and privacy firewall requirements.
+(3) STATE PARTNERSHIP GRANTS.—The FMIA shall establish a State Data Sovereignty Partnership Program under which states may receive formula grants of up to $15,000,000 annually to build compatible state-level data monitoring infrastructure, provided such infrastructure adheres to FDVM data standards and privacy firewall requirements.
 
 SEC. 102. PROHIBITION ON PREDATORY DATA EXTRACTION.
 
@@ -214,7 +214,7 @@ SEC. 102. PROHIBITION ON PREDATORY DATA EXTRACTION.
 (a-1) FIRST AMENDMENT SAFE HARBOR.—Nothing in this section shall be construed to:
 (1) Prohibit or restrict purely editorial, journalistic, artistic, or academic use of data or algorithmic models where the output does not directly determine access to a government benefit, financial product, employment opportunity, housing, insurance, or healthcare service;
 (2) Apply to voluntary, opt-in consumer products where the individual user has provided informed, affirmative consent to the specific modeling methodology employed;
-(3) Require disclosure of proprietary trade secrets beyond the structural variable omission identified in subsection (a), provided that independent audit access is granted to the FDVMA under a confidentiality agreement;
+(3) Require disclosure of proprietary trade secrets beyond the structural variable omission identified in subsection (a), provided that independent audit access is granted to the FMIA under a confidentiality agreement;
 (4) Apply to internal research, development, or testing environments where no adverse determination affecting an individual has been made.
 The prohibition in subsection (a) is limited to algorithmic deployments that produce an adverse determination — denial, restriction, or downgrading of a benefit, service, or opportunity — against a specific individual or identifiable community, based on predictive modeling that fails the structural causation variable standard. General market research, aggregate economic analysis, and policy modeling are expressly exempt.
 
@@ -247,14 +247,14 @@ SEC. 103. THE STRUCTURED ACCOUNTABILITY ENGINE.
 
 SEC. 104. WHISTLEBLOWER AND PROTECTED DISCLOSURE FRAMEWORK.
 
-(a) PROTECTED DISCLOSURES.—Any employee, contractor, or officer of a Covered Entity who provides information to the FDVMA, the Department of Justice, or any Congressional committee regarding a Verified Structural Variance shall be protected from retaliation under the provisions of the Whistleblower Protection Act (5 U.S.C. §§ 2302, 7701–7703) and this section.
+(a) PROTECTED DISCLOSURES.—Any employee, contractor, or officer of a Covered Entity who provides information to the FMIA, the Department of Justice, or any Congressional committee regarding a Verified Structural Variance shall be protected from retaliation under the provisions of the Whistleblower Protection Act (5 U.S.C. §§ 2302, 7701–7703) and this section.
 
 (b) ANTI-RETALIATION ENFORCEMENT.—Any Covered Entity that demotes, terminates, harasses, or materially disadvantages an employee for protected disclosures under this section shall be strictly liable for:
 (1) Reinstatement with back pay and restoration of all benefits;
 (2) Double back pay as a penalty multiplier; and
 (3) A structural penalty of not less than $500,000, routed to the SIRF.
 
-(c) CONFIDENTIAL REPORTING CHANNEL.—The FDVMA shall operate a dedicated, encrypted, anonymous digital reporting portal through which any person may submit evidence of potential structural violations. Submissions through this portal shall receive expedited review within thirty (30) calendar days.
+(c) CONFIDENTIAL REPORTING CHANNEL.—The FMIA shall operate a dedicated, encrypted, anonymous digital reporting portal through which any person may submit evidence of potential structural violations. Submissions through this portal shall receive expedited review within thirty (30) calendar days.
 
 SEC. 105. ANTI-HARMONIZATION DECLARATION — PATCH R-05.
 
@@ -267,9 +267,9 @@ SEC. 105. ANTI-HARMONIZATION DECLARATION — PATCH R-05.
 
 (c) CORE PRWORA BLOCK GRANT ARCHITECTURE PRESERVED.—Nothing in this Act repeals or diminishes the Temporary Assistance for Needy Families block grant architecture of PRWORA 1996 as a mechanism for state flexibility in family assistance administration. The block grant funding structure is preserved and enhanced pursuant to Section 501(c).
 
-SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FDVMA AS DATA SPINE.
+SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FMIA AS DATA SPINE.
 
-(a) ENFORCEMENT PRIMACY OF EXISTING AGENCIES.—The FDVMA shall serve as the data intelligence and variance identification layer of this Act. Primary enforcement authority for each Title shall remain with the existing federal agency with established jurisdiction, expertise, and legal authority over that domain:
+(a) ENFORCEMENT PRIMACY OF EXISTING AGENCIES.—The FMIA shall serve as the data intelligence and variance identification layer of this Act. Primary enforcement authority for each Title shall remain with the existing federal agency with established jurisdiction, expertise, and legal authority over that domain:
 
 (1) TITLE III (AI and Personal Data Rights).—The Federal Trade Commission shall be the primary enforcement agency, utilizing its existing authority under Section 5 of the FTC Act (15 U.S.C. § 45) supplemented by the specific NSRA violation standards established herein.
 
@@ -287,7 +287,7 @@ SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FDVMA AS DATA SPI
 
 (8) TITLE XVI (Financial Sovereignty).—The Treasury Department and the Federal Reserve Board of Governors shall be primary enforcement agencies for capital flight and financial compliance.
 
-(b) FDVMA REFERRAL MECHANISM.—Upon generating a Verified Structural Variance Report, the FDVMA shall automatically transmit the Report to the primary enforcement agency designated in subsection (a) within twenty-four (24) hours. The primary agency's SAE ninety (90) day enforcement clock begins upon receipt of the FDVMA referral. The FDVMA retains concurrent enforcement authority as a backstop if the primary agency fails to act within the SAE window.
+(b) FMIA REFERRAL MECHANISM.—Upon generating a Verified Structural Variance Report, the FMIA shall automatically transmit the Report to the primary enforcement agency designated in subsection (a) within twenty-four (24) hours. The primary agency's SAE ninety (90) day enforcement clock begins upon receipt of the FMIA referral. The FMIA retains concurrent enforcement authority as a backstop if the primary agency fails to act within the SAE window.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -347,11 +347,11 @@ MINIMUM SIRF CAPITALIZATION FLOOR.—No SIRF disbursement program shall deploy c
 
 (d) RAPID CONSTITUENCY VESTING DEFENSE MECHANISM.—
 
-(1) THE SIRF BENEFICIARY REGISTRY.—The FDVMA shall maintain a real-time, public registry of every local infrastructure foundry, community land trust, worker cooperative, and household endowment account actively receiving capital distributions from the SIRF.
+(1) THE SIRF BENEFICIARY REGISTRY.—The FMIA shall maintain a real-time, public registry of every local infrastructure foundry, community land trust, worker cooperative, and household endowment account actively receiving capital distributions from the SIRF.
 
-(2) QUARTERLY DISTRICT IMPACT REPORTING.—The FDVMA shall compile and transmit directly to the registered voters of each United States Congressional District, on a rolling quarterly basis, a hyper-localized Economic Velocity Manifest detailing the exact dollar volume of SIRF capital deployed within that specific district, the physical assets constructed, and the verified expansion of regional capital velocity.
+(2) QUARTERLY DISTRICT IMPACT REPORTING.—The FMIA shall compile and transmit directly to the registered voters of each United States Congressional District, on a rolling quarterly basis, a hyper-localized Economic Velocity Manifest detailing the exact dollar volume of SIRF capital deployed within that specific district, the physical assets constructed, and the verified expansion of regional capital velocity.
 
-(e) SIRF CAPITAL ALLOCATION NODES.—SIRF capital shall be allocated among the following mandatory nodes, subject to annual rebalancing by the FDVMA based on verified utilization rates:
+(e) SIRF CAPITAL ALLOCATION NODES.—SIRF capital shall be allocated among the following mandatory nodes, subject to annual rebalancing by the FMIA based on verified utilization rates:
 (1) Household Structural Relief Node: 20%;
 (2) Tier 1 Mandatory Structural Obligations Reserve: 15%;
 (3) Vanguard Capitalization Node: 20%;
@@ -396,7 +396,7 @@ SEC. 204. THE VANGUARD CAPITALIZATION PROTOCOL.
 (b) ELIGIBILITY CRITERIA.—To qualify as a Vanguard Entity eligible for grants under this section, an applicant shall:
 (1) Be a domestic startup, worker cooperative, CDFI, or certified Minority Business Enterprise with annual revenues not exceeding $25,000,000;
 (2) Maintain not less than seventy-five percent (75%) of full-time workforce positions filled by United States residents;
-(3) Operate in a sector designated as critical infrastructure by the FDVMA; and
+(3) Operate in a sector designated as critical infrastructure by the FMIA; and
 (4) Demonstrate a viable five-year business plan submitted to and approved by the SIRF Vanguard Review Panel.
 
 (c) GRANT TERMS.—Grants under this section shall be:
@@ -418,7 +418,7 @@ SEC. 204. THE VANGUARD CAPITALIZATION PROTOCOL.
 
 (2) GRANT CEILING.—Non-repayable, zero-equity grants shall constitute not more than forty percent (40%) of annual Vanguard Capitalization Node deployments, reserved for early-stage Vanguard Entities — as defined in Section 55(10) — that cannot satisfy debt service requirements and for which equity or revenue-sharing is impractical given business stage.
 
-(3) FUND REPLENISHMENT.—All principal, interest, dividends, royalties, and revenue-share payments returned to the Vanguard Capitalization Node from prior deployments shall be retained within the node and redeployed in the following fiscal year, compounding the node's effective investment capacity over time. The FDVMA shall report annually on Vanguard Node compound growth rate.
+(3) FUND REPLENISHMENT.—All principal, interest, dividends, royalties, and revenue-share payments returned to the Vanguard Capitalization Node from prior deployments shall be retained within the node and redeployed in the following fiscal year, compounding the node's effective investment capacity over time. The FMIA shall report annually on Vanguard Node compound growth rate.
 
 (4) PRIORITY INVESTMENT SECTORS.—Within the repayable instrument allocation, priority shall be given to:
 (A) domestic semiconductor and advanced materials manufacturing;
@@ -428,7 +428,7 @@ SEC. 204. THE VANGUARD CAPITALIZATION PROTOCOL.
 (E) domestic compute infrastructure and data center construction;
 (F) advanced manufacturing campuses and industrial parks.
 
-(5) SOVEREIGN WEALTH FUND POSTURE.—The Vanguard Capitalization Node shall be managed as a sovereign investment fund, not a grant program. The FDVMA shall publish annually a Vanguard Portfolio Report detailing active investments, return rates, and net node growth.
+(5) SOVEREIGN WEALTH FUND POSTURE.—The Vanguard Capitalization Node shall be managed as a sovereign investment fund, not a grant program. The FMIA shall publish annually a Vanguard Portfolio Report detailing active investments, return rates, and net node growth.
 
 SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
 
@@ -468,9 +468,9 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 (E) OPEN-SOURCE CODE.—Any software source code distributed under an open-source license recognized by the Open Source Initiative.
 
-(4) REGISTRATION REQUIREMENT.—The FDVMA shall maintain a public registry of Sovereign Data Commons content categories subject to this tariff, updated annually. Only content categories affirmatively registered in the current registry are subject to the tariff. Novel content categories shall be added to the registry only through the rulemaking process under 5 U.S.C. § 553 with a mandatory sixty (60) day public comment period.
+(4) REGISTRATION REQUIREMENT.—The FMIA shall maintain a public registry of Sovereign Data Commons content categories subject to this tariff, updated annually. Only content categories affirmatively registered in the current registry are subject to the tariff. Novel content categories shall be added to the registry only through the rulemaking process under 5 U.S.C. § 553 with a mandatory sixty (60) day public comment period.
 
-(5) MEASUREMENT AND AUDIT.—The FDVMA shall promulgate rules within one hundred eighty (180) days of enactment establishing standardized, technology-neutral gigabyte measurement protocols for tariff computation, ensuring that tariff obligations are calculable with reasonable certainty before the tariff takes effect for any new content category.
+(5) MEASUREMENT AND AUDIT.—The FMIA shall promulgate rules within one hundred eighty (180) days of enactment establishing standardized, technology-neutral gigabyte measurement protocols for tariff computation, ensuring that tariff obligations are calculable with reasonable certainty before the tariff takes effect for any new content category.
 
 (d) SOVEREIGN ENERGY COST OFFSET.—
 
@@ -484,19 +484,19 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 (C) public power authorities organized under state law; and
 (D) any electric utility participating in a federal grid modernization program under Section 905 of this Act.
 
-(4) PASS-THROUGH REQUIREMENT.—Any utility receiving funds under this subsection shall pass through one hundred percent (100%) of received funds to residential customers as a line-item credit on monthly bills. The credit shall be labeled: "NSRA Sovereign Infrastructure Credit." Utilities that fail to pass through funds within sixty (60) days of receipt shall be ineligible for further distributions and shall remit undeployed funds to the FDVMA.
+(4) PASS-THROUGH REQUIREMENT.—Any utility receiving funds under this subsection shall pass through one hundred percent (100%) of received funds to residential customers as a line-item credit on monthly bills. The credit shall be labeled: "NSRA Sovereign Infrastructure Credit." Utilities that fail to pass through funds within sixty (60) days of receipt shall be ineligible for further distributions and shall remit undeployed funds to the FMIA.
 
 (5) POLICY RATIONALE.—AI infrastructure is the primary driver of residential electricity demand growth. The public's proportionate share of AI data extraction value shall therefore offset the residential electricity cost burden generated by AI infrastructure, creating a closed economic loop: AI Extraction → Data Commons Tariff → Energy Sovereignty Node → Lower Household Electricity Bills.
 
-(6) AUDIT REQUIREMENT.—The FDVMA shall publish annually a Sovereign Energy Credit Report documenting, by utility, the amount received, the per-customer credit delivered, and the compliance status of each participating utility.
+(6) AUDIT REQUIREMENT.—The FMIA shall publish annually a Sovereign Energy Credit Report documenting, by utility, the amount received, the per-customer credit delivered, and the compliance status of each participating utility.
 
 SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
-(a) ALGORITHMIC DRIFT MONITORING (PATCH R-02).—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States. Such audits shall be conducted exclusively through standardized API interfaces provided by Covered Entities pursuant to FDVMA rulemaking, and shall not require real-time access to live production algorithmic systems. Access to live production systems shall be permissible only upon issuance of a FDVMA administrative subpoena with thirty (30) days advance written notice to the Covered Entity, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit. Nothing herein shall be construed to require any Covered Entity to disclose proprietary source code, model weights, or training data beyond the output-layer behavioral metrics necessary to calculate the drift coefficient established under subsection (b).
+(a) ALGORITHMIC DRIFT MONITORING (PATCH R-02).—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States. Such audits shall be conducted exclusively through standardized API interfaces provided by Covered Entities pursuant to FMIA rulemaking, and shall not require real-time access to live production algorithmic systems. Access to live production systems shall be permissible only upon issuance of a FMIA administrative subpoena with thirty (30) days advance written notice to the Covered Entity, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit. Nothing herein shall be construed to require any Covered Entity to disclose proprietary source code, model weights, or training data beyond the output-layer behavioral metrics necessary to calculate the drift coefficient established under subsection (b).
 
 (b) COGNITIVE DRIFT VARIANCE THRESHOLD (PATCH R-03/R-04).—
 
-(1) COGNITIVE DRIFT MEASUREMENT METHODOLOGY.—Within one hundred eighty (180) days of enactment, the FDVMA shall promulgate rules establishing a Cognitive Drift Measurement Methodology (CDMM) grounded in peer-reviewed social science and computational literature. The CDMM shall specify: (A) the measurement instrument and standardized data collection protocol; (B) the consumer financial behavior baseline against which drift is measured and the methodology for establishing that baseline; (C) the statistical method for calculating the drift coefficient, including minimum sample size and required confidence interval; (D) the minimum evidentiary threshold for a Verified Cognitive Drift Finding. No enforcement action under this section may occur until the CDMM is finalized and published in the Federal Register.
+(1) COGNITIVE DRIFT MEASUREMENT METHODOLOGY.—Within one hundred eighty (180) days of enactment, the FMIA shall promulgate rules establishing a Cognitive Drift Measurement Methodology (CDMM) grounded in peer-reviewed social science and computational literature. The CDMM shall specify: (A) the measurement instrument and standardized data collection protocol; (B) the consumer financial behavior baseline against which drift is measured and the methodology for establishing that baseline; (C) the statistical method for calculating the drift coefficient, including minimum sample size and required confidence interval; (D) the minimum evidentiary threshold for a Verified Cognitive Drift Finding. No enforcement action under this section may occur until the CDMM is finalized and published in the Federal Register.
 
 (2) ACTIONABLE THRESHOLD.—Upon finalization of the CDMM, any verified algorithmic drift coefficient exceeding two and one-half percent (2.5%)—where such drift produces measurably distorted consumer financial decision-making as demonstrated by the CDMM methodology in a manner that generates adverse economic outcomes for identifiable consumer cohorts, through systematic manipulation of recommendation architecture without explicit, baseline native asset compensation—shall constitute an actionable structural variance. General product recommendation, content personalization, and A/B testing that does not produce the measurable adverse economic outcome specified herein shall not constitute an actionable structural variance under this section.
 
@@ -510,7 +510,7 @@ SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
 (B) DAYS 31 THROUGH 90.—Two million dollars ($2,000,000) per day per affected market for each calendar day of continued non-compliance beyond day thirty;
 
-(C) STRUCTURAL REMEDY FOR EXTENDED NON-COMPLIANCE.—For violations continuing beyond ninety (90) days, the FDVMA may petition the appropriate United States District Court for a structural remedy order. Only upon issuance of such a judicial order may a revenue-based structural remedy, including a remedy calculated as a percentage of gross revenue, be imposed. The court shall make an independent finding that such a remedy is proportionate to the scope and duration of the violation pursuant to the Excessive Fines Clause of the Eighth Amendment. No automated seizure of global gross revenue shall be imposed without a prior judicial order issued under this subparagraph.
+(C) STRUCTURAL REMEDY FOR EXTENDED NON-COMPLIANCE.—For violations continuing beyond ninety (90) days, the FMIA may petition the appropriate United States District Court for a structural remedy order. Only upon issuance of such a judicial order may a revenue-based structural remedy, including a remedy calculated as a percentage of gross revenue, be imposed. The court shall make an independent finding that such a remedy is proportionate to the scope and duration of the violation pursuant to the Excessive Fines Clause of the Eighth Amendment. No automated seizure of global gross revenue shall be imposed without a prior judicial order issued under this subparagraph.
 
 All penalties collected under this paragraph shall be routed to the SIRF to fund open-source municipal computing arrays. The 45-day pre-deprivation notice requirement of Title XVIII applies to all penalties under this paragraph.
 
@@ -522,13 +522,13 @@ SEC. 303. DOMESTIC SEMICONDUCTOR AND AI CHIP SOVEREIGNTY.
 
 (b) SIRF SEMICONDUCTOR CAPITALIZATION.—The SIRF industrial capitalization node shall deploy not less than three billion dollars ($3,000,000,000) over the first five fiscal years following enactment to capitalize domestic advanced semiconductor foundry construction, prioritizing Vanguard Entity partnerships through co-investment agreements with not less than one private capital dollar for every two SIRF dollars deployed.
 
-(c) OPEN-SOURCE COMPUTE ACCESS INITIATIVE.—The FDVMA, in coordination with the National Science Foundation, shall establish a national Open-Source Compute Pool providing federally subsidized cloud computing access to domestic academic institutions, small businesses, and Vanguard Entities at rates not exceeding twenty percent (20%) of commercial market rates, capitalized from the SIRF Vanguard Capitalization Node.
+(c) OPEN-SOURCE COMPUTE ACCESS INITIATIVE.—The FMIA, in coordination with the National Science Foundation, shall establish a national Open-Source Compute Pool providing federally subsidized cloud computing access to domestic academic institutions, small businesses, and Vanguard Entities at rates not exceeding twenty percent (20%) of commercial market rates, capitalized from the SIRF Vanguard Capitalization Node.
 
 SEC. 304. FOREIGN AI SYSTEM REGISTRATION AND SOVEREIGNTY AUDIT.
 
-(a) MANDATORY REGISTRATION.—Any artificial intelligence system, machine learning model, or large language model operated by a Covered Entity within the United States that was trained using data pipelines, compute resources, or research and development facilities located in a foreign country of concern, as designated under 50 U.S.C. § 4872, shall be registered with the FDVMA within one hundred eighty (180) days of enactment or within sixty (60) days of deployment, whichever is later.
+(a) MANDATORY REGISTRATION.—Any artificial intelligence system, machine learning model, or large language model operated by a Covered Entity within the United States that was trained using data pipelines, compute resources, or research and development facilities located in a foreign country of concern, as designated under 50 U.S.C. § 4872, shall be registered with the FMIA within one hundred eighty (180) days of enactment or within sixty (60) days of deployment, whichever is later.
 
-(b) SOVEREIGNTY AUDIT REQUIREMENT.—Registered systems shall be subject to mandatory annual sovereignty audits by the FDVMA to assess data lineage, training data sourcing, and potential national security exposure. Audit findings shall be classified at the appropriate level and transmitted to the National Security Council.
+(b) SOVEREIGNTY AUDIT REQUIREMENT.—Registered systems shall be subject to mandatory annual sovereignty audits by the FMIA to assess data lineage, training data sourcing, and potential national security exposure. Audit findings shall be classified at the appropriate level and transmitted to the National Security Council.
 
 (c) CORRECTIVE ACTION AND PHASE-OUT.—Any system found in a sovereignty audit to present an unmitigable national security risk shall be subject to a mandatory phase-out order with a twelve (12) month transition period, during which the Covered Entity shall transition to a domestically developed alternative, with SIRF transitional assistance available upon application.
 
@@ -570,7 +570,7 @@ SEC. 403. ANTI-OFFSHORE WAGE ARBITRAGE PERFORMANCE INDEX.
 
 (a) PERFORMANCE INDEX.—The Bureau of Labor Statistics shall maintain a quarterly Anti-Offshore Wage Arbitrage Performance Index (AOWAPI) measuring the ratio of domestic to offshore employment across each critical infrastructure sector. The AOWAPI shall be published publicly and transmitted to the Joint Economic Committee of Congress quarterly.
 
-(b) CORPORATE DISCLOSURE MANDATE.—Any Covered Entity receiving a federal tax benefit, subsidy, grant, or preferential trade treatment shall disclose annually to the FDVMA the total number and compensation level of employees based in each foreign jurisdiction and the total domestic workforce equivalent.
+(b) CORPORATE DISCLOSURE MANDATE.—Any Covered Entity receiving a federal tax benefit, subsidy, grant, or preferential trade treatment shall disclose annually to the FMIA the total number and compensation level of employees based in each foreign jurisdiction and the total domestic workforce equivalent.
 
 (c) STRATEGIC RE-SHORING INCENTIVE.—Any Covered Entity that increases its domestic workforce by not less than ten percent (10%) within any rolling twenty-four (24) month period relative to its offshore workforce growth rate shall qualify for an accelerated depreciation credit of fifteen percent (15%) on domestic capital expenditures in that fiscal year, administered by the Internal Revenue Service.
 
@@ -593,7 +593,7 @@ SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT ACT.
 
 (d) WAGE THEFT ENFORCEMENT MANDATE.—
 (1) PRIVATE RIGHT OF ACTION.—Any worker whose wages have been unlawfully withheld by a Covered Entity may bring a civil action in federal district court for three times (3x) the amount of wages unlawfully withheld, plus attorney fees and costs, without exhausting administrative remedies first.
-(2) MANDATORY FDVMA REFERRAL.—Any Covered Entity identified by the FDVM as having a pattern of wage violations — defined as three (3) or more substantiated complaints within any twenty-four (24) month period — shall be automatically referred to the Department of Labor for a comprehensive wage audit. Audit costs shall be borne by the Covered Entity.
+(2) MANDATORY FMIA REFERRAL.—Any Covered Entity identified by the FDVM as having a pattern of wage violations — defined as three (3) or more substantiated complaints within any twenty-four (24) month period — shall be automatically referred to the Department of Labor for a comprehensive wage audit. Audit costs shall be borne by the Covered Entity.
 (3) FEDERAL CONTRACT DEBARMENT.—Any Covered Entity with two (2) or more final OSHA citations for willful violations or two (2) or more final wage theft adjudications within any five (5) year period shall be ineligible for federal contracts, grants, or loans for a period of five (5) years from the date of the most recent final judgment.
 
 (e) EXISTING AGENCY INTEGRATION.—All enforcement under this section shall operate through the existing Department of Labor enforcement infrastructure — the Wage and Hour Division, OSHA, and the Office of the Solicitor of Labor — supplemented by SIRF enforcement floor funding. No new agency or enforcement body is created by this section.
@@ -649,7 +649,7 @@ SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
 
 (a) DECLARATION.—The Congress of the United States hereby formally declares that the elimination of structural poverty is a national imperative of equivalent urgency to national defense. The mechanisms of poverty in the United States are not the product of individual failure but of identifiable, measurable structural conditions — including healthcare cost exposure, educational debt burden, housing cost instability, wage suppression, food system dysfunction, and environmental disease burden — that this Act directly addresses.
 
-(b) STATUTORY POVERTY REDUCTION TARGET.—It is the policy of the United States that the Supplemental Poverty Measure (SPM) rate, as published annually by the U.S. Census Bureau, shall be reduced to not greater than five percent (5%) within ten (10) years of enactment of this Act. The FDVMA shall publish annual progress reports tracking SPM trajectory against this target.
+(b) STATUTORY POVERTY REDUCTION TARGET.—It is the policy of the United States that the Supplemental Poverty Measure (SPM) rate, as published annually by the U.S. Census Bureau, shall be reduced to not greater than five percent (5%) within ten (10) years of enactment of this Act. The FMIA shall publish annual progress reports tracking SPM trajectory against this target.
 
 (c) RESTORATION PRINCIPLE.—The anti-poverty framework of this Act is grounded in structural restoration rather than permanent dependency. Federal intervention under this Act is designed to: eliminate the structural cost impositions that make self-sufficiency impossible for working families; invest in the physical and human capital that allows communities to generate sustainable prosperity; and progressively reduce the need for ongoing federal income support as structural conditions improve. Cash transfer and income support mechanisms funded under this Act shall be paired with documented structural cost reductions so that aggregate household economic position improves with or without continued federal income support.
 
@@ -671,7 +671,7 @@ SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, A
 
 (c) SHELTER AND UTILITY STABILITY FLOORS.—On the same conditional and time-limited basis established in subsection (b), the SIRF Household Endowment Node shall backfill any shortfall below the date-of-enactment baseline in: (1) federal rental and homelessness-prevention assistance for households at or below 130% of the federal poverty guideline; and (2) federal low-income home energy and weatherization assistance for such households, coordinated with the Rural Energy Access Fund under Section 904(b). The combined backfill under subsections (b) and (c) shall not exceed the amount necessary to restore each assistance category to its date-of-enactment baseline.
 
-(d) MECHANICAL, NON-DISCRETIONARY OPERATION.—The backfill under this section is a mandatory, formula-driven disbursement requiring no agency discretion. The FDVMA shall publish a quarterly Household Stability Floor Report confirming, for each assistance category, whether a shortfall below baseline has occurred and the backfill amount disbursed. The guarantee operates only as a floor; it confers no entitlement above the date-of-enactment baseline and creates no new benefit category.
+(d) MECHANICAL, NON-DISCRETIONARY OPERATION.—The backfill under this section is a mandatory, formula-driven disbursement requiring no agency discretion. The FMIA shall publish a quarterly Household Stability Floor Report confirming, for each assistance category, whether a shortfall below baseline has occurred and the backfill amount disbursed. The guarantee operates only as a floor; it confers no entitlement above the date-of-enactment baseline and creates no new benefit category.
 
 (e) SIRF RAMP PERIOD AND SUNSET.—For purposes of this section, the "SIRF Ramp Period" begins on the date of enactment and ends on the earlier of: (1) the first fiscal year in which the Congressional Budget Office certifies, under Section 005(a), that SIRF revenue is sufficient to fund all Tranche 1 mechanisms without recourse to the floor; or (2) the close of the sixth (6th) full fiscal year after enactment. Upon expiration of the SIRF Ramp Period, the guarantee in this section shall sunset automatically, except that any shortfall identified before sunset shall be backfilled to completion.
 
@@ -687,7 +687,7 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 (b) PORTFOLIO CONCENTRATION CAP.—No institutional investor, as defined in subsection (h)(1), may own, directly or through affiliated entities or investment vehicles, more than fifty (50) single-family residential units within any single Metropolitan Statistical Area (MSA), as defined by the Office of Management and Budget. Compliance with this cap shall be achieved within thirty-six (36) months of enactment of this Act.
 
-(c) FDVM MONITORING ACTIVATION.—Effective upon enactment, the FDVMA shall activate institutional housing portfolio monitoring through the Federal Data Veracity Matrix. All institutional investors owning more than twenty-five (25) single-family residential units in any MSA shall register with the FDVMA within ninety (90) days of enactment and report portfolio holdings quarterly.
+(c) FDVM MONITORING ACTIVATION.—Effective upon enactment, the FMIA shall activate institutional housing portfolio monitoring through the Federal Data Veracity Matrix. All institutional investors owning more than twenty-five (25) single-family residential units in any MSA shall register with the FMIA within ninety (90) days of enactment and report portfolio holdings quarterly.
 
 (d) MANDATORY DIVESTITURE — EXCESS HOLDINGS.—Any institutional investor exceeding the fifty-unit cap established in subsection (b) upon enactment or thereafter shall divest excess holdings in full within thirty-six (36) months of enactment. Divestiture shall be subject to the following operational constraints:
 
@@ -695,7 +695,7 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 (2) PRIORITY SALE CHANNELS.—Divesting institutional investors shall offer excess units, in priority order, to: (A) existing tenants of the unit at fair market value; (B) first-time homebuyers meeting income eligibility under the Shelter Sovereignty Fund (subsection (f)); (C) community land trusts and non-profit housing organizations; and (D) the open market.
 
-(3) HOLDING PERIOD EXTENSION.—If the V_abs Quarterly Absorption Throttle prevents completion of divestiture within thirty-six (36) months, the FDVMA may extend the compliance window in six-month increments, not to exceed a total of twenty-four (24) additional months, upon certification that divestiture is proceeding in compliance with the throttle constraint.
+(3) HOLDING PERIOD EXTENSION.—If the V_abs Quarterly Absorption Throttle prevents completion of divestiture within thirty-six (36) months, the FMIA may extend the compliance window in six-month increments, not to exceed a total of twenty-four (24) additional months, upon certification that divestiture is proceeding in compliance with the throttle constraint.
 
 (e) JUST COMPENSATION — CONSTITUTIONAL GUARANTEE.—
 
@@ -715,7 +715,7 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 (3) fund tenant legal assistance programs in overconcentrated MSAs to facilitate tenant right-of-first-refusal purchases under subsection (d)(2)(A).
 
-(g) ENFORCEMENT.—The Department of Housing and Urban Development, the Federal Trade Commission, and the FDVMA shall exercise concurrent enforcement authority over this section. The Department of Justice Antitrust Division shall have concurrent authority to challenge acquisition patterns that violate this section. Civil penalties for violation of the concentration cap or divestiture requirement shall be assessed at ten thousand dollars ($10,000) per unit per month of non-compliance, deposited to the Shelter Sovereignty Fund.
+(g) ENFORCEMENT.—The Department of Housing and Urban Development, the Federal Trade Commission, and the FMIA shall exercise concurrent enforcement authority over this section. The Department of Justice Antitrust Division shall have concurrent authority to challenge acquisition patterns that violate this section. Civil penalties for violation of the concentration cap or divestiture requirement shall be assessed at ten thousand dollars ($10,000) per unit per month of non-compliance, deposited to the Shelter Sovereignty Fund.
 
 (h) DEFINITIONS.—As used in this section:
 
@@ -747,7 +747,7 @@ SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
 
 (b) ANTI-SHRINKFLATION ENFORCEMENT.—It shall be an unlawful trade practice for any consumer goods manufacturer with annual domestic revenues exceeding one hundred million dollars ($100,000,000) to reduce the net weight, volume, or quantity of a consumer product by more than five percent (5%) within any rolling twelve (12) month period without a corresponding price reduction of not less than the same percentage or clear consumer-facing disclosure of the reduction.
 
-(c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FDVMA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
+(c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FMIA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
@@ -798,11 +798,11 @@ SEC. 1802. DUE PROCESS — MANDATORY PRE-DEPRIVATION NOTICE SCHEDULE.
 
 SEC. 1803. ADMINISTRATIVE APPEALS AND JUDICIAL REVIEW.
 
-(a) INTERNAL APPEAL RIGHT.—Every Covered Entity subject to an enforcement action, clawback, or operational restriction under any Title of this Act shall have the right to file an administrative appeal with the FDVMA's Office of Administrative Review within forty-five (45) calendar days of the final enforcement notice. The Office of Administrative Review shall be composed of administrative law judges appointed under 5 U.S.C. § 3105, who are organizationally independent from the FDVMA's enforcement division.
+(a) INTERNAL APPEAL RIGHT.—Every Covered Entity subject to an enforcement action, clawback, or operational restriction under any Title of this Act shall have the right to file an administrative appeal with the FMIA's Office of Administrative Review within forty-five (45) calendar days of the final enforcement notice. The Office of Administrative Review shall be composed of administrative law judges appointed under 5 U.S.C. § 3105, who are organizationally independent from the FMIA's enforcement division.
 
 (b) APPEAL DECISION TIMELINE.—The Office of Administrative Review shall issue a written decision on any appeal within ninety (90) calendar days of appeal filing. During the pendency of any timely filed appeal, all enforcement actions except those involving imminent threat of irreversible harm shall be automatically stayed.
 
-(c) JUDICIAL REVIEW.—Any party adversely affected by a final administrative decision of the FDVMA may seek judicial review in the United States Court of Appeals for the Federal Circuit. The standard of review shall be:
+(c) JUDICIAL REVIEW.—Any party adversely affected by a final administrative decision of the FMIA may seek judicial review in the United States Court of Appeals for the Federal Circuit. The standard of review shall be:
 (1) For findings of fact: substantial evidence on the record as a whole, per 5 U.S.C. § 706(2)(E);
 (2) For legal conclusions: de novo, per 5 U.S.C. § 706(2)(C); and
 (3) For discretionary enforcement decisions: arbitrary and capricious, per 5 U.S.C. § 706(2)(A).
@@ -811,7 +811,7 @@ SEC. 1803. ADMINISTRATIVE APPEALS AND JUDICIAL REVIEW.
 
 SEC. 1804. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
 
-(a) ANNUAL REPORT TO CONGRESS.—The FDVMA shall transmit to Congress, not later than March 1 of each year, a comprehensive Annual Sovereignty Report detailing:
+(a) ANNUAL REPORT TO CONGRESS.—The FMIA shall transmit to Congress, not later than March 1 of each year, a comprehensive Annual Sovereignty Report detailing:
 (1) The number and dollar value of structural variance findings and enforcement actions in the preceding fiscal year;
 (2) SIRF capitalization levels, deployment rates, and beneficiary counts by Title;
 (3) Household economic impact data disaggregated by income quintile, geographic region, and demographic group;
@@ -820,9 +820,9 @@ SEC. 1804. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
 
 (b) SUNSET REVIEW TRIGGER.—Any Title of this Act that fails to demonstrate measurable progress toward its statutory objectives in two consecutive Annual Sovereignty Reports, as verified by the Government Accountability Office, shall be subject to an automatic Congressional Joint Review pursuant to the procedures established by the Legislative Reorganization Act of 1970 (Pub. L. 91-510).
 
-(c) BIPARTISAN OVERSIGHT COMMISSION.—There is established the National Sovereignty Oversight Commission (NSOC), consisting of twelve (12) members: four appointed by the Speaker of the House, four by the House Minority Leader, two by the Senate Majority Leader, and two by the Senate Minority Leader. The NSOC shall conduct quarterly oversight hearings on NSRA implementation and shall have the authority to subpoena records and testimony from the FDVMA and any Covered Entity.
+(c) BIPARTISAN OVERSIGHT COMMISSION.—There is established the National Sovereignty Oversight Commission (NSOC), consisting of twelve (12) members: four appointed by the Speaker of the House, four by the House Minority Leader, two by the Senate Majority Leader, and two by the Senate Minority Leader. The NSOC shall conduct quarterly oversight hearings on NSRA implementation and shall have the authority to subpoena records and testimony from the FMIA and any Covered Entity.
 
-(d) STATE SOVEREIGNTY CONSULTATION PROTOCOL.—Before any FDVMA regulation is finalized that imposes new requirements on state governments, the FDVMA shall convene a thirty (30) day consultation period with the National Governors Association and the National Conference of State Legislatures. Final regulations shall include a written response to all substantive state concerns raised during consultation.
+(d) STATE SOVEREIGNTY CONSULTATION PROTOCOL.—Before any FMIA regulation is finalized that imposes new requirements on state governments, the FMIA shall convene a thirty (30) day consultation period with the National Governors Association and the National Conference of State Legislatures. Final regulations shall include a written response to all substantive state concerns raised during consultation.
 
 SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 
@@ -841,7 +841,7 @@ SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 
 (3) No data center grid operational restriction exceeding twenty-five percent (25%) power reduction shall take effect until a court of competent jurisdiction has issued or declined to issue a stay within the seventy-two (72) hour emergency TRO timeline.
 
-(c) BOND IN LIEU OF AUTOMATIC STAY.—Any Covered Entity seeking an automatic stay of a monetary clawback or penalty assessment may post a bond equal to one hundred ten percent (110%) of the assessed amount with the FDVMA in lieu of immediate payment, which shall toll all enforcement timelines while the appeal is pending. Bond proceeds shall be released to the SIRF upon final adverse judgment, or returned to the posting entity upon final favorable judgment.
+(c) BOND IN LIEU OF AUTOMATIC STAY.—Any Covered Entity seeking an automatic stay of a monetary clawback or penalty assessment may post a bond equal to one hundred ten percent (110%) of the assessed amount with the FMIA in lieu of immediate payment, which shall toll all enforcement timelines while the appeal is pending. Bond proceeds shall be released to the SIRF upon final adverse judgment, or returned to the posting entity upon final favorable judgment.
 
 (d) COMMERCE CLAUSE FINDINGS — PER TITLE.—To support Commerce Clause jurisdiction for each enforcement domain, Congress hereby finds:
 
@@ -857,17 +857,17 @@ SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
 (a) MATHEWS v. ELDRIDGE COMPLIANCE MANDATE.—All enforcement actions under this Act that deprive a Covered Entity or individual of a protected property interest shall satisfy the three-factor balancing test established in Mathews v. Eldridge, 424 U.S. 319 (1976): (1) the private interest affected; (2) the risk of erroneous deprivation and value of additional safeguards; and (3) the government's interest. To structurally satisfy this test, the following hardcoded pre-deprivation notice windows are mandatory:
 
 (b) HARDCODED NOTICE WINDOWS.—
-(1) STANDARD STRUCTURAL VARIANCE ENFORCEMENT.—For any enforcement action imposing civil penalties, asset restrictions, or operational limitations based on an FDVMA Verified Structural Variance Report, the FDVMA shall provide not less than forty-five (45) calendar days advance written notice to the affected entity before any penalty takes legal effect. The notice shall include: the specific variance identified, the statutory basis, the proposed penalty, and the full evidentiary record underlying the determination.
-(2) OPERATIONAL RESTRICTION OR LICENSE SUSPENSION.—For any enforcement action that would suspend, restrict, or condition a license, operating permit, or government contract, the FDVMA shall provide not less than sixty (60) calendar days advance written notice, including an opportunity for an informal conference with FDVMA technical staff within the first thirty (30) days.
-(3) ASSET SEIZURE OR FORCED DIVESTMENT.—For any enforcement action involving asset seizure, forfeiture, forced divestment, or structural clawback exceeding five hundred thousand dollars ($500,000), the FDVMA shall provide not less than one hundred eighty (180) calendar days advance written notice and shall not execute the action without an Administrative Law Judge (ALJ) Judicial Verification Warrant as specified in subsection (c).
+(1) STANDARD STRUCTURAL VARIANCE ENFORCEMENT.—For any enforcement action imposing civil penalties, asset restrictions, or operational limitations based on an FMIA Verified Structural Variance Report, the FMIA shall provide not less than forty-five (45) calendar days advance written notice to the affected entity before any penalty takes legal effect. The notice shall include: the specific variance identified, the statutory basis, the proposed penalty, and the full evidentiary record underlying the determination.
+(2) OPERATIONAL RESTRICTION OR LICENSE SUSPENSION.—For any enforcement action that would suspend, restrict, or condition a license, operating permit, or government contract, the FMIA shall provide not less than sixty (60) calendar days advance written notice, including an opportunity for an informal conference with FMIA technical staff within the first thirty (30) days.
+(3) ASSET SEIZURE OR FORCED DIVESTMENT.—For any enforcement action involving asset seizure, forfeiture, forced divestment, or structural clawback exceeding five hundred thousand dollars ($500,000), the FMIA shall provide not less than one hundred eighty (180) calendar days advance written notice and shall not execute the action without an Administrative Law Judge (ALJ) Judicial Verification Warrant as specified in subsection (c).
 
 (c) ADMINISTRATIVE LAW JUDGE JUDICIAL VERIFICATION WARRANT.—
-(1) REQUIREMENT.—Before any asset seizure, forfeiture, or forced divestment exceeding five hundred thousand dollars ($500,000) may execute, the FDVMA shall obtain a Judicial Verification Warrant issued by an independent Administrative Law Judge (ALJ) appointed pursuant to 5 U.S.C. § 3105.
-(2) ALJ REVIEW STANDARD.—The ALJ shall review: (i) whether the FDVMA's Verified Structural Variance finding is supported by substantial evidence; (ii) whether the proposed remedy is proportionate to the violation; and (iii) whether the pre-deprivation notice requirements of this section were satisfied.
-(3) TIMELINE.—The ALJ shall issue a decision within thirty (30) calendar days of receiving the FDVMA's warrant application. Failure to decide within thirty days shall be deemed a denial without prejudice, permitting the FDVMA to refile with additional evidence.
-(4) ANTI-INJUNCTION SHIELD.—An ALJ Judicial Verification Warrant issued under this section shall constitute a complete defense against any preliminary injunction sought by the target entity in federal district court under the Anti-Injunction Act, 26 U.S.C. § 7421, provided that the FDVMA demonstrates: (i) compliance with all pre-deprivation notice windows; and (ii) ALJ warrant issuance.
+(1) REQUIREMENT.—Before any asset seizure, forfeiture, or forced divestment exceeding five hundred thousand dollars ($500,000) may execute, the FMIA shall obtain a Judicial Verification Warrant issued by an independent Administrative Law Judge (ALJ) appointed pursuant to 5 U.S.C. § 3105.
+(2) ALJ REVIEW STANDARD.—The ALJ shall review: (i) whether the FMIA's Verified Structural Variance finding is supported by substantial evidence; (ii) whether the proposed remedy is proportionate to the violation; and (iii) whether the pre-deprivation notice requirements of this section were satisfied.
+(3) TIMELINE.—The ALJ shall issue a decision within thirty (30) calendar days of receiving the FMIA's warrant application. Failure to decide within thirty days shall be deemed a denial without prejudice, permitting the FMIA to refile with additional evidence.
+(4) ANTI-INJUNCTION SHIELD.—An ALJ Judicial Verification Warrant issued under this section shall constitute a complete defense against any preliminary injunction sought by the target entity in federal district court under the Anti-Injunction Act, 26 U.S.C. § 7421, provided that the FMIA demonstrates: (i) compliance with all pre-deprivation notice windows; and (ii) ALJ warrant issuance.
 
-(d) EMERGENCY BYPASS.—In exigent circumstances where a 45-day notice would create an imminent, irreversible harm to the national interest — including active financial fraud, imminent asset flight, or public health emergency — the FDVMA may apply for an Emergency Enforcement Order from the United States District Court for the District of Columbia on 24-hour notice to the target entity, with a full Mathews hearing scheduled within fourteen (14) days of the emergency order's issuance.
+(d) EMERGENCY BYPASS.—In exigent circumstances where a 45-day notice would create an imminent, irreversible harm to the national interest — including active financial fraud, imminent asset flight, or public health emergency — the FMIA may apply for an Emergency Enforcement Order from the United States District Court for the District of Columbia on 24-hour notice to the target entity, with a full Mathews hearing scheduled within fourteen (14) days of the emergency order's issuance.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIX — RETURN ON INVESTMENT, PERFORMANCE BENCHMARKS, AND AMERICAN HOUSEHOLD BENEFIT ACCOUNTING
@@ -916,9 +916,9 @@ SEC. 1902. RETURN ON INVESTMENT FRAMEWORK.
 
 SEC. 1903. BIPARTISAN ECONOMIC MODELING TRANSPARENCY.
 
-(a) OPEN DATA MANDATE.—All economic modeling, impact projections, and performance data generated by the FDVMA, the Congressional Budget Office, the Government Accountability Office, and the Bureau of Labor Statistics pursuant to this Act shall be published in open, machine-readable formats within thirty (30) days of completion, freely accessible to academic researchers, think tanks, and the public without licensing fees.
+(a) OPEN DATA MANDATE.—All economic modeling, impact projections, and performance data generated by the FMIA, the Congressional Budget Office, the Government Accountability Office, and the Bureau of Labor Statistics pursuant to this Act shall be published in open, machine-readable formats within thirty (30) days of completion, freely accessible to academic researchers, think tanks, and the public without licensing fees.
 
-(b) INDEPENDENT ACADEMIC REVIEW CONSORTIUM.—The FDVMA shall contract with a consortium of not fewer than five (5) economically diverse academic institutions representing a range of economic perspectives to conduct annual independent peer reviews of NSRA performance data. At least two institutions in the consortium shall have demonstrated expertise in market-based economic frameworks.
+(b) INDEPENDENT ACADEMIC REVIEW CONSORTIUM.—The FMIA shall contract with a consortium of not fewer than five (5) economically diverse academic institutions representing a range of economic perspectives to conduct annual independent peer reviews of NSRA performance data. At least two institutions in the consortium shall have demonstrated expertise in market-based economic frameworks.
 
 (c) MINORITY ECONOMIC IMPACT ANALYSIS.—Every biennial CBO Sovereign Resilience Impact Report shall include a dedicated section analyzing differential economic impacts of NSRA provisions on rural versus urban communities, small businesses versus large corporations, and communities with above-median versus below-median household incomes.
 
@@ -939,12 +939,12 @@ SEC. 2001. MARKET COMPETITION PRESERVATION CLAUSE.
 (c) SMALL BUSINESS BILL OF RIGHTS UNDER THIS ACT.—Every small business, as defined under 15 U.S.C. § 632, shall have the following rights in relation to NSRA enforcement:
 (1) The right to sixty (60) days of free SBA technical compliance assistance before any penalty assessment;
 (2) The right to an income-tiered penalty schedule under which penalties are reduced proportionally for businesses with annual revenues below ten million dollars ($10,000,000);
-(3) The right to appeal any FDVMA finding to the Small Business Administration's Office of Advocacy before administrative finalization; and
+(3) The right to appeal any FMIA finding to the Small Business Administration's Office of Advocacy before administrative finalization; and
 (4) The right to apply for SIRF Vanguard Capital grants as an alternative to penalty payment, where the penalty relates to a domestic manufacturing or sourcing deficit.
 
 SEC. 2002. FEDERALISM AND STATE SOVEREIGNTY PROTECTION.
 
-(a) STATE FLEXIBILITY WAIVERS.—Any state may apply to the FDVMA for a State Flexibility Waiver that permits the state to achieve the outcomes mandated by any Title of this Act through alternative mechanisms, provided the state demonstrates that its alternative mechanism will achieve outcomes at least equivalent to the federal mechanism within the same timeframe.
+(a) STATE FLEXIBILITY WAIVERS.—Any state may apply to the FMIA for a State Flexibility Waiver that permits the state to achieve the outcomes mandated by any Title of this Act through alternative mechanisms, provided the state demonstrates that its alternative mechanism will achieve outcomes at least equivalent to the federal mechanism within the same timeframe.
 
 (b) WAIVER CRITERIA.—State Flexibility Waivers shall be approved within one hundred eighty (180) days of application if the state demonstrates:
 (1) An equivalent or superior outcome metric for the Title in question;
@@ -969,7 +969,7 @@ SEC. 2003. BIPARTISAN COMMISSION ON NSRA IMPLEMENTATION.
 (3) Convene public hearings in not fewer than five (5) geographically diverse communities annually to receive direct testimony from affected households, workers, and businesses; and
 (4) Make binding recommendations to Congress, subject to up-down vote under expedited procedures, regarding implementation adjustments required to improve bipartisan functionality.
 
-(c) PILOT EXPANSION AUTHORITY.—The BCNSI shall have the authority to recommend, and the FDVMA shall have the authority to implement, pilot program expansions of any NSRA provision to additional geographic areas, sectors, or population groups before mandatory nationwide deployment, allowing evidence-based refinement of implementation mechanisms.
+(c) PILOT EXPANSION AUTHORITY.—The BCNSI shall have the authority to recommend, and the FMIA shall have the authority to implement, pilot program expansions of any NSRA provision to additional geographic areas, sectors, or population groups before mandatory nationwide deployment, allowing evidence-based refinement of implementation mechanisms.
 
 SEC. 2004. DEFENSE INDUSTRIAL SOVEREIGNTY AND MILITARY SUPPLY CHAIN RESILIENCE.
 
@@ -984,13 +984,13 @@ SEC. 2004. DEFENSE INDUSTRIAL SOVEREIGNTY AND MILITARY SUPPLY CHAIN RESILIENCE.
 
 (c) DEFENSE VANGUARD CAPITALIZATION.—Not less than five hundred million dollars ($500,000,000) from the SIRF Industrial Capitalization Node shall be deployed over five fiscal years as zero-equity grants to domestic small and medium manufacturers qualifying as Vanguard Entities that produce materials on the Department of Defense Critical Materials List.
 
-(d) MILITARY FAMILY AMERICAN PRODUCTIVITY DIVIDEND PREMIUM.—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive an additional monthly Household Structural Relief supplement of one hundred dollars ($100) per qualifying service member or veteran, funded from the SIRF Household Endowment Node, in recognition of the contribution of military service to the national commons.
+(d) VETERANS ENERGY SOVEREIGNTY BENEFIT (VESB).—Any household in which one or more members are on active duty military service, or are veterans with honorable discharge within the preceding ten (10) years, shall receive a monthly Veterans Energy Sovereignty Benefit equivalent in value to one hundred dollars ($100) per qualifying service member or veteran, applied directly as a credit to the household's residential energy utility account. The VESB shall be administered by the Department of Veterans Affairs Benefits Administration in coordination with state public utility commissions and funded from the SIRF Energy Sovereignty Subledger established under Section 2410(c). The VESB is not taxable income, is not countable as income for purposes of any federal benefit program eligibility determination, and shall not be subject to any offset against other VA benefits. The VA Benefits Administration shall establish an automated enrollment process for qualifying veterans within one hundred eighty (180) days of SIRF Energy Sovereignty Subledger activation, in recognition of the contribution of military service to the national commons.
 
 SEC. 2005. CONSCIENCE AND RELIGIOUS FREEDOM PROTECTION CLAUSE.
 
 (a) PROTECTION FROM COMPELLED PARTICIPATION.—Nothing in this Act shall be construed to require any individual, religious organization, faith-based nonprofit, or religiously-affiliated educational institution to participate in, endorse, or facilitate any program, transaction, or service that violates its sincerely held religious beliefs or constitutionally protected conscience rights, except where participation is strictly limited to the administrative receipt of funds disbursed pursuant to this Act for purposes consistent with the organization's mission.
 
-(b) RFRA PRESERVATION.—All provisions of this Act shall be applied in a manner consistent with the Religious Freedom Restoration Act (42 U.S.C. § 2000bb et seq.). No FDVMA enforcement action shall be brought against any entity whose non-compliance with an NSRA provision is required by a sincerely held religious belief or practice, without a prior determination by the Department of Justice that the enforcement action uses the least restrictive means to advance a compelling governmental interest.
+(b) RFRA PRESERVATION.—All provisions of this Act shall be applied in a manner consistent with the Religious Freedom Restoration Act (42 U.S.C. § 2000bb et seq.). No FMIA enforcement action shall be brought against any entity whose non-compliance with an NSRA provision is required by a sincerely held religious belief or practice, without a prior determination by the Department of Justice that the enforcement action uses the least restrictive means to advance a compelling governmental interest.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE A — THE FEDERAL DATA VERACITY MATRIX ALGORITHMIC SPECIFICATION
@@ -1047,9 +1047,9 @@ SCHEDULE C — SIRF INVESTMENT IMPACT MODEL
 
    Where:
    W = the number of affected domestic workers at the designated facility or in the affected community, as recorded in FDVM employment telemetry;
-   M = the FDVMA-published regional employment multiplier for the affected sector (representing indirect and induced employment effects), set at a floor of 1.5 and a ceiling of 3.0.
+   M = the FMIA-published regional employment multiplier for the affected sector (representing indirect and induced employment effects), set at a floor of 1.5 and a ceiling of 3.0.
 
-3. COMMUNITY HARM CALCULATION.—For community-level harm calculations where no specific facility is the locus of diversion, H shall be calculated using the total working-age population of the affected zip code or census tract as W, with M set at the FDVMA-published regional average multiplier.
+3. COMMUNITY HARM CALCULATION.—For community-level harm calculations where no specific facility is the locus of diversion, H shall be calculated using the total working-age population of the affected zip code or census tract as W, with M set at the FMIA-published regional average multiplier.
 
 4. MINIMUM COGNIZABLE HARM.—No enforcement action under Section 1801(a)(2) shall be cognizable unless the calculated per-worker harm H exceeds five hundred dollars ($500) per affected worker. This floor is established to satisfy the concreteness requirement of TransUnion LLC v. Ramirez.
 
@@ -1098,7 +1098,7 @@ SCHEDULE D — PERFORMANCE BENCHMARKS FOR BIENNIAL SOVEREIGN RESILIENCE IMPACT R
    (b) Not fewer than 500,000 income-based forgiveness discharges within 3 years;
    (c) Public university in-state tuition frozen for not less than 90% of eligible institutions within 1 year.
 
-9. OVERALL HOUSEHOLD BENEFIT BENCHMARK.—The aggregate average annual household economic benefit from combined NSRA programs shall reach not less than $2,000 per eligible household within 5 years, rising to not less than $5,580 per year for a median two-adult household (and not less than $9,000 for a two-adult household with two children) within 10 years of full deployment, as measured by the FDVMA's annual household impact survey in coordination with the Census Bureau. The prior floor of $3,780 is superseded by the updated projection in Section 1901(b) incorporating Title XXI healthcare savings.
+9. OVERALL HOUSEHOLD BENEFIT BENCHMARK.—The aggregate average annual household economic benefit from combined NSRA programs shall reach not less than $2,000 per eligible household within 5 years, rising to not less than $5,580 per year for a median two-adult household (and not less than $9,000 for a two-adult household with two children) within 10 years of full deployment, as measured by the FMIA's annual household impact survey in coordination with the Census Bureau. The prior floor of $3,780 is superseded by the updated projection in Section 1901(b) incorporating Title XXI healthcare savings.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EFFECTIVE DATE; IMPLEMENTATION PRIORITY SEQUENCE; PILOT CERTIFICATION
@@ -1111,7 +1111,7 @@ SEC. 9001. EFFECTIVE DATE.
 (b) IMPLEMENTATION PRIORITY SEQUENCE.—The following provisions shall be implemented in the stated priority sequence, to ensure fiscal soundness, operational readiness, and maximum household benefit delivery:
 
 TIER 1 — IMMEDIATE (MONTHS 1-6):
-(1) FDVMA establishment as Bureau of Sovereign Data Integrity within DOC (Sec. 101);
+(1) FMIA establishment as Bureau of Sovereign Data Integrity within DOC (Sec. 101);
 (2) SIRF Lockbox establishment and diversified revenue stream activation (Sec. 201);
 (3) Health Sovereignty Fund establishment; existing Medicaid, CHIP, and ACA enrollees flagged for BMP transition (Sec. 2103(d), Sec. 2108(a));
 (4) Zero-interest conversion on federal student loans (Sec. 1501);
@@ -1283,7 +1283,7 @@ SEC. 2105. SUPPLEMENTAL COVERAGE — PRIVATE MARKET ABOVE THE FLOOR.
 
 SEC. 2106. CARRIER COMPLIANCE AND ANTI-PROFITEERING ENFORCEMENT.
 
-(a) STRICT LIABILITY VIOLATIONS.—The following constitute strict liability violations enforceable by HHS, the FDVMA, and by private right of action: (1) imposing any premium, deductible, copayment, or cost-sharing for any BMP-covered service; (2) imposing prohibited prior authorization requirements; (3) balance billing a BMP enrollee for covered services; (4) retaliating against an enrollee for filing a complaint; (5) conditioning BMP enrollment on supplemental product purchase.
+(a) STRICT LIABILITY VIOLATIONS.—The following constitute strict liability violations enforceable by HHS, the FMIA, and by private right of action: (1) imposing any premium, deductible, copayment, or cost-sharing for any BMP-covered service; (2) imposing prohibited prior authorization requirements; (3) balance billing a BMP enrollee for covered services; (4) retaliating against an enrollee for filing a complaint; (5) conditioning BMP enrollment on supplemental product purchase.
 
 (b) AUTOMATED PENALTIES.—Violations shall trigger: (1) a per-instance civil penalty of not less than twenty-five thousand dollars ($25,000), routed to the HSF; (2) treble damages to the affected enrollee; (3) for carriers accumulating more than two hundred fifty (250) violations in any twelve-month period, mandatory suspension of BMP carrier status pending compliance audit; and (4) for willful systematic violation patterns, permanent revocation of BMP carrier status and disqualification from all federal health programs for ten (10) years.
 
@@ -1317,16 +1317,16 @@ SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL 
 (5) Rural communities experience the highest concentration of environmental disease burden from pesticide exposure, contaminated water, food desert conditions, and industrial pollution, and will realize disproportionate health improvement from upstream prevention investments, reducing the long-term demand for rural health physical infrastructure.
 
 (b) DEMAND-ADJUSTED RURAL HEALTH INFRASTRUCTURE FUND.—
-(1) ESTABLISHMENT.—The SIRF Health Sovereignty Node shall deploy sovereign infrastructure investment for rural health physical infrastructure, scaled to demand projections that account for upstream prevention reforms. The initial investment level shall be three billion dollars ($3,000,000,000) per year for the first five (5) years following enactment. At the conclusion of year five, the Federal Data Veracity Matrix Administration shall conduct a Rural Health Demand Assessment incorporating measured changes in rural chronic disease incidence, emergency department utilization, and environmental disease burden attributable to implementation of Titles VII, X, and XI of this Act.
-(2) PHASE II SCALING.—Based on the Rural Health Demand Assessment, the FDVMA shall recommend to Congress an adjusted annual investment level for years six (6) through ten (10), with a baseline expectation of not less than one billion five hundred million dollars ($1,500,000,000) per year and not more than three billion dollars ($3,000,000,000) per year, scaled to documented remaining infrastructure deficit and adjusted demand. Congress shall act on the FDVMA recommendation within one hundred eighty (180) days of receipt. If Congress fails to act within that period, the FDVMA recommendation shall take effect as the operative funding level.
+(1) ESTABLISHMENT.—The SIRF Health Sovereignty Node shall deploy sovereign infrastructure investment for rural health physical infrastructure, scaled to demand projections that account for upstream prevention reforms. The initial investment level shall be three billion dollars ($3,000,000,000) per year for the first five (5) years following enactment. At the conclusion of year five, the Federal Market Integrity Administration shall conduct a Rural Health Demand Assessment incorporating measured changes in rural chronic disease incidence, emergency department utilization, and environmental disease burden attributable to implementation of Titles VII, X, and XI of this Act.
+(2) PHASE II SCALING.—Based on the Rural Health Demand Assessment, the FMIA shall recommend to Congress an adjusted annual investment level for years six (6) through ten (10), with a baseline expectation of not less than one billion five hundred million dollars ($1,500,000,000) per year and not more than three billion dollars ($3,000,000,000) per year, scaled to documented remaining infrastructure deficit and adjusted demand. Congress shall act on the FMIA recommendation within one hundred eighty (180) days of receipt. If Congress fails to act within that period, the FMIA recommendation shall take effect as the operative funding level.
 (3) MANDATORY ALLOCATION TARGETS.—Rural Health Physical Infrastructure Fund investments shall be allocated as follows:
 (A) Rural hospital stabilization and critical access hospital capital grants — not less than forty percent (40%) of annual deployment;
 (B) Rural primary care and behavioral health clinic construction and equipment — not less than thirty percent (30%) of annual deployment;
 (C) Rural emergency medical services infrastructure, including ambulance fleet modernization and telemedicine-enabled emergency response — not less than twenty percent (20%) of annual deployment; and
 (D) Rural maternal and pediatric health facility upgrades, with priority for counties with maternal mortality rates above the national average — not less than ten percent (10%) of annual deployment.
-(4) HOSPITAL DESERT ELIMINATION MANDATE.—No county shall remain a hospital desert — defined as a county with no acute care hospital within thirty-five (35) miles — six (6) years following enactment. The FDVMA shall publish an annual Hospital Desert Elimination Progress Report as a Schedule D benchmark.
+(4) HOSPITAL DESERT ELIMINATION MANDATE.—No county shall remain a hospital desert — defined as a county with no acute care hospital within thirty-five (35) miles — six (6) years following enactment. The FMIA shall publish an annual Hospital Desert Elimination Progress Report as a Schedule D benchmark.
 
-(c) PESTICIDE-TO-HEALTH-COST ACTUARIAL INTEGRATION.—The Secretary of HHS, in coordination with the FDVMA and the Congressional Budget Office, shall publish within eighteen (18) months of enactment, and update every four (4) years thereafter, a National Upstream Prevention Actuarial Assessment quantifying:
+(c) PESTICIDE-TO-HEALTH-COST ACTUARIAL INTEGRATION.—The Secretary of HHS, in coordination with the FMIA and the Congressional Budget Office, shall publish within eighteen (18) months of enactment, and update every four (4) years thereafter, a National Upstream Prevention Actuarial Assessment quantifying:
 (1) The projected reduction in Medicare, Medicaid, BMP, and Veterans Health Sovereignty Fund expenditures attributable to full implementation of the food chemical, pesticide, and agricultural chemical reforms of Title VII;
 (2) The projected reduction in federal health program expenditures attributable to water system remediation under Title X, environmental remediation under Title XI, and wildlife corridor and rewilding investment under Title X; and
 (3) The net fiscal impact of upstream prevention reforms on the NSRA ten-year budget window, incorporated into all CBO scores of this Act and its successor appropriations.
@@ -1349,7 +1349,7 @@ SEC. 2110. BMP ZERO-PREMIUM CO-PAY STRUCTURE.
 (6) Preventive care, annual wellness visits, vaccinations, and screenings: zero co-pay.
 (7) Mental health and substance use disorder visits: equivalent to primary care co-pay, consistent with the Mental Health Parity and Addiction Equity Act.
 
-(c) CO-PAY WAIVER FOR LOW-INCOME ENROLLEES.—All co-payments under subsection (b) are automatically waived for any enrollee whose household income is at or below one hundred fifty percent (150%) of the federal poverty level. The FDVMA shall maintain a real-time income verification interface with the IRS and Social Security Administration to administer automatic waivers without requiring enrollee action.
+(c) CO-PAY WAIVER FOR LOW-INCOME ENROLLEES.—All co-payments under subsection (b) are automatically waived for any enrollee whose household income is at or below one hundred fifty percent (150%) of the federal poverty level. The FMIA shall maintain a real-time income verification interface with the IRS and Social Security Administration to administer automatic waivers without requiring enrollee action.
 
 (d) CO-PAY ANNUAL CAP.—No BMP enrollee shall pay more than one thousand dollars ($1,000) in aggregate co-payments in any calendar year, after which all covered services carry zero co-pay for the remainder of the calendar year.
 
@@ -1369,7 +1369,7 @@ SEC. 2111. CARRIER COMPETITION INTEGRITY FRAMEWORK.
 (6) Thirty-day hospital readmission rate.
 (7) Chronic disease management outcomes for diabetes, hypertension, and asthma.
 
-(c) ANTI-CHERRY-PICKING ENFORCEMENT.—It shall be unlawful for any BMP-certified carrier to: (1) design enrollment processes, marketing materials, or network configurations intended to attract healthier enrollees and deter sicker ones; (2) selectively locate enrollment offices or limit outreach in geographic areas with higher-than-average chronic disease prevalence; or (3) design prior authorization protocols that disproportionately delay or deny care for high-cost conditions. The FDVMA shall audit carrier enrollment patterns annually and assess strict liability penalties of five hundred thousand dollars ($500,000) per documented instance of cherry-picking.
+(c) ANTI-CHERRY-PICKING ENFORCEMENT.—It shall be unlawful for any BMP-certified carrier to: (1) design enrollment processes, marketing materials, or network configurations intended to attract healthier enrollees and deter sicker ones; (2) selectively locate enrollment offices or limit outreach in geographic areas with higher-than-average chronic disease prevalence; or (3) design prior authorization protocols that disproportionately delay or deny care for high-cost conditions. The FMIA shall audit carrier enrollment patterns annually and assess strict liability penalties of five hundred thousand dollars ($500,000) per documented instance of cherry-picking.
 
 (d) AUTOMATIC DECERTIFICATION TRIGGER.—Any carrier whose claims denial rate exceeds the national BMP carrier average by fifteen percent (15%) or more in any two consecutive quarters shall be subject to mandatory corrective action review. If corrective action fails to bring denial rates within fifteen percent (15%) of the national average within ninety (90) days, the carrier's BMP certification shall be suspended for twelve (12) months, during which its enrollees shall be automatically transferred to the next-highest-rated carrier in their region.
 
@@ -1435,7 +1435,7 @@ SEC. 2204. CONSTITUTIONAL GROUNDING AND ENFORCEMENT AUTHORITY.
 
 (3) CRITICAL INFRASTRUCTURE PRECEDENT.—Congress has established constitutional precedent for ownership restrictions on infrastructure operated in the public interest, including banking, telecommunications, aviation, and nuclear power. Critical Life-Safety Systems constitute an analogous category warranting equivalent ownership standards.
 
-(b) ENFORCEMENT AGENCIES.—The Department of Health and Human Services, the Federal Trade Commission, and the FDVMA shall exercise concurrent enforcement authority over this Title. The Department of Justice Antitrust Division shall have concurrent authority to challenge any acquisition in violation of this Title in federal district court.
+(b) ENFORCEMENT AGENCIES.—The Department of Health and Human Services, the Federal Trade Commission, and the FMIA shall exercise concurrent enforcement authority over this Title. The Department of Justice Antitrust Division shall have concurrent authority to challenge any acquisition in violation of this Title in federal district court.
 
 (c) PRIVATE RIGHT OF ACTION.—Any state attorney general, municipality, or individual adversely affected by a violation of this Title may bring a civil enforcement action in the appropriate United States District Court for injunctive relief, declaratory relief, and damages.
 
@@ -1449,11 +1449,11 @@ SEC. 2206. VITAL SYSTEMS TRANSITION RESERVE.
 
 (a) ESTABLISHMENT.—There is established within the SIRF a dedicated sub-account to be known as the Vital Systems Transition Reserve (VSTR).
 
-(b) MANDATORY PRE-FUNDING.—The VSTR shall be capitalized at not less than one billion dollars ($1,000,000,000) from the SIRF Industrial Infrastructure Node prior to the commencement of any enforcement action or Medicare and Medicaid exclusion under Section 2204(a)(2). No enforcement clock under this Title shall begin until VSTR funding is certified by the FDVMA.
+(b) MANDATORY PRE-FUNDING.—The VSTR shall be capitalized at not less than one billion dollars ($1,000,000,000) from the SIRF Industrial Infrastructure Node prior to the commencement of any enforcement action or Medicare and Medicaid exclusion under Section 2204(a)(2). No enforcement clock under this Title shall begin until VSTR funding is certified by the FMIA.
 
 (c) ELIGIBLE USES.—VSTR funds shall be available exclusively for: (1) zero-equity bridge grants to Critical Life-Safety Systems in financial distress during ownership transition; (2) rural hospital stabilization under Section 2203(a)(6); (3) workforce retention grants to prevent employee layoffs during divestiture periods; and (4) technical infrastructure upgrades necessary to maintain service continuity during ownership transition.
 
-(d) SCHEDULE D BENCHMARKS — TITLE XXII.—The FDVMA shall report biennially on: (1) number of Critical Life-Safety Systems divested from private equity ownership; (2) number of rural hospitals stabilized through VSTR; (3) no patient access disruption attributable to ownership transition.
+(d) SCHEDULE D BENCHMARKS — TITLE XXII.—The FMIA shall report biennially on: (1) number of Critical Life-Safety Systems divested from private equity ownership; (2) number of rural hospitals stabilized through VSTR; (3) no patient access disruption attributable to ownership transition.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXIII — SOVEREIGN TRADE AND ALLIED DIPLOMATIC ARCHITECTURE ACT
@@ -1485,11 +1485,11 @@ SEC. 2303. WAGE EQUALIZATION ASSESSMENT — STRUCTURE AND SAFEGUARDS.
 
 (a) ASSESSMENT MANDATE.—There is established a Wage Equalization Assessment on imports of manufactured goods from nations not designated as Allied Nations under Section 2302(2), calculated as follows:
 
-(1) BASELINE CALCULATION.—The FDVMA shall calculate, for each non-designated trading partner, the effective labor cost differential between the median manufacturing wage in that nation and the median manufacturing wage in the United States, adjusted for productivity, purchasing power parity, and verified compliance with ILO Core Conventions.
+(1) BASELINE CALCULATION.—The FMIA shall calculate, for each non-designated trading partner, the effective labor cost differential between the median manufacturing wage in that nation and the median manufacturing wage in the United States, adjusted for productivity, purchasing power parity, and verified compliance with ILO Core Conventions.
 
 (2) ASSESSMENT RATE.—The WEA rate for each non-designated nation shall equal sixty percent (60%) of the calculated labor cost differential expressed as a percentage of the import value of covered goods, capped at a maximum of twenty-five percent (25%) of import value in any category.
 
-(3) CONSUMER PRICE PROTECTION.—The FDVMA shall publish quarterly a Consumer Price Impact Assessment for each active WEA rate. If the FDVMA determines that a WEA rate is producing a statistically significant increase in consumer prices for essential goods — defined as food, medicine, children's products, and housing materials — the FDVMA shall notify Congress within thirty (30) days and reduce the applicable WEA rate to a consumer-neutral level pending legislative review.
+(3) CONSUMER PRICE PROTECTION.—The FMIA shall publish quarterly a Consumer Price Impact Assessment for each active WEA rate. If the FMIA determines that a WEA rate is producing a statistically significant increase in consumer prices for essential goods — defined as food, medicine, children's products, and housing materials — the FMIA shall notify Congress within thirty (30) days and reduce the applicable WEA rate to a consumer-neutral level pending legislative review.
 
 (b) WTO COMPLIANCE.—No WEA shall activate for any non-designated nation until the USTR has certified in writing to Congress that the assessment is consistent with WTO Article XX(b) (necessary to protect human life or health) or WTO Article XX(e) (relating to prison labor) or that WTO dispute proceedings have been initiated to establish such compliance. The USTR shall file WTO compliance documentation within sixty (60) days of enactment.
 
@@ -1543,7 +1543,7 @@ SEC. 2305. ALLIED PHARMACEUTICAL PRICING COMPACT.
 
 (d) CONGRESSIONAL REPORTING.—The USTR shall report to Congress every six (6) months on the status of Compact negotiations, including obstacles encountered and adjustments to negotiating strategy.
 
-(e) SCHEDULE D BENCHMARKS — TITLE XXIII.—The FDVMA shall report biennially on: (1) number of allied nations participating in the Allied Pharmaceutical Pricing Compact; (2) number of manufacturing jobs in import-affected industries supported by WEA revenue retraining programs; (3) verified annual SDEC efficiency savings.
+(e) SCHEDULE D BENCHMARKS — TITLE XXIII.—The FMIA shall report biennially on: (1) number of allied nations participating in the Allied Pharmaceutical Pricing Compact; (2) number of manufacturing jobs in import-affected industries supported by WEA revenue retraining programs; (3) verified annual SDEC efficiency savings.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXIV — SOVEREIGN TAX CODE REFORM AND FISCAL INTEGRITY ACT
@@ -1577,7 +1577,7 @@ SEC. 2403. LBO INTEREST DEDUCTIBILITY CAP.
 
 (a) AMENDMENT TO IRC § 163(j).—Section 163(j) of the Internal Revenue Code of 1986 is amended to establish that, for any Covered Entity as defined in Section 003 of this Act, the deductibility of interest expense on acquisition indebtedness — defined as any debt incurred in connection with the acquisition of a controlling interest in another entity within the preceding seven (7) years — shall be capped at thirty percent (30%) of the entity's adjusted taxable income as measured by earnings before interest, taxes, depreciation, and amortization (EBITDA).
 
-(b) ANTI-ABUSE PROVISION.—The FDVMA and the Internal Revenue Service shall jointly promulgate regulations within one hundred eighty (180) days of enactment to prevent the circumvention of the cap through debt restructuring, intercompany loan arrangements, or offshore financing structures.
+(b) ANTI-ABUSE PROVISION.—The FMIA and the Internal Revenue Service shall jointly promulgate regulations within one hundred eighty (180) days of enactment to prevent the circumvention of the cap through debt restructuring, intercompany loan arrangements, or offshore financing structures.
 
 (c) EFFECTIVE DATE.—The amendments in this Section shall apply to interest expense on acquisition indebtedness incurred after the date of enactment. Existing acquisition debt shall be subject to a phase-in period during which the cap applies at forty percent (40%) of EBITDA for years one through three following enactment, and thirty percent (30%) thereafter.
 
@@ -1637,7 +1637,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
 
-(d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FDVMA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
+(d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FMIA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
 SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY ACT.
 
@@ -1679,19 +1679,25 @@ SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND ACT.
 (2) Annual escalation: ten dollars ($10) per metric ton per year for the first ten (10) years, reaching one hundred thirty dollars ($130) per metric ton by Year 10;
 (3) Thereafter: indexed annually to the Consumer Price Index.
 
-(c) UNIVERSAL HOUSEHOLD DIVIDEND — AMERICAN CLIMATE DIVIDEND.—One hundred percent (100%) of Carbon Dividend Fee gross revenue, net of collection and administration costs not to exceed one percent (1%), shall be distributed as an equal per-household monthly dividend to every United States resident household:
+(c) SIRF ENERGY SOVEREIGNTY SUBLEDGER.—One hundred percent (100%) of Carbon Dividend Fee gross revenue, net of collection and administration costs not to exceed one percent (1%), shall be deposited into a dedicated subledger of the Sovereign Infrastructure Reinvestment Fund designated as the SIRF Energy Sovereignty Subledger. Proceeds shall be deployed through the following mechanisms in descending priority order:
 
-(1) The monthly dividend amount shall be calculated by dividing total monthly net Carbon Fee revenue by the total number of eligible resident households as maintained by the Social Security Administration;
-(2) The American Climate Dividend shall be distributed through the same payment infrastructure as the Household Structural Relief Node established in Title V;
-(3) The American Climate Dividend is not means-tested, is not taxable income, and is not countable as income for purposes of any federal benefit program eligibility determination.
+(1) GRID MODERNIZATION CAPITAL GRANTS (40%).—Not less than forty percent (40%) of annual SIRF Energy Sovereignty Subledger receipts shall be deployed as capital grants to states, municipalities, and tribal governments for transmission infrastructure modernization, smart grid installation, and distributed generation interconnection. Grants shall be administered by the Secretary of Energy with co-certification by the SIRF Board and shall require a one-to-one match from state, municipal, or private co-investment.
 
-(d) DISTRIBUTIONAL PROTECTION.—Because lower-income households have smaller average carbon footprints than higher-income households, the equal per-household dividend structure is inherently progressive: the bottom sixty percent (60%) of households by income are projected to receive more in Climate Dividend than they pay in increased energy costs. The FDVMA shall publish an annual Household Carbon Dividend Impact Report verifying this distributional outcome and adjusting dividend mechanics if the bottom sixty percent threshold is not being met.
+(2) RURAL ELECTRIC COOPERATIVE CAPITALIZATION (25%).—Not less than twenty-five percent (25%) of annual SIRF Energy Sovereignty Subledger receipts shall be deployed as low-interest capitalization loans to rural electric cooperatives (RECs) organized under the Rural Electrification Act of 1936 (7 U.S.C. 901 et seq.) for renewable generation capacity installation, grid hardening, and rate stabilization. Loan terms shall not exceed thirty (30) years and shall carry an interest rate not to exceed the ten-year Treasury yield. The Secretary of Agriculture shall administer REC loan deployment in coordination with the Rural Utilities Service.
+
+(3) MUNICIPAL PUBLIC POWER AUTHORITY GRANTS (20%).—Not less than twenty percent (20%) of annual SIRF Energy Sovereignty Subledger receipts shall be deployed as competitive grants to municipal utility districts and public power authorities for rate stabilization programs, infrastructure hardening, and renewable energy transition investments. Grant eligibility shall be administered by the Federal Energy Regulatory Commission in coordination with state public utility commissions.
+
+(4) HOUSEHOLD ENERGY AFFORDABILITY CREDITS (15%).—Not less than fifteen percent (15%) of annual SIRF Energy Sovereignty Subledger receipts shall be deployed as utility bill credits to qualifying households administered through state public utility commissions. Eligibility shall be limited to households at or below two hundred percent (200%) of the federal poverty guideline. Credits shall be applied directly to the residential energy utility account of each qualifying household and shall not be paid in cash. Credits are not taxable income and are not countable as income for purposes of any federal benefit program eligibility determination. State public utility commissions shall establish an automated enrollment process for qualifying households within one hundred eighty (180) days of initial SIRF Energy Sovereignty Subledger deployment.
+
+(5) VETERANS ENERGY SOVEREIGNTY BENEFIT (VESB).—The Veterans Energy Sovereignty Benefit established under Section 987(d) shall be funded from the SIRF Energy Sovereignty Subledger as a first-priority obligation senior to all four deployment buckets above, and shall not reduce the percentage allocations in paragraphs (1) through (4) below their statutory minimums. The Secretary of Energy and the Secretary of Veterans Affairs shall establish an annual coordination protocol to ensure VESB obligations are fully funded prior to each fiscal year's subledger deployment cycle.
+
+(d) DISTRIBUTIONAL PROTECTION AND IMPACT REPORTING.—The SIRF Energy Sovereignty Subledger deployment structure is inherently progressive: lower-income households and rural households, which face higher energy cost burdens as a percentage of income, are the primary direct beneficiaries of the Rural Electric Cooperative Capitalization, Municipal Public Power Authority Grant, and Household Energy Affordability Credit mechanisms in subsection (c). The FMIA shall publish an annual Energy Sovereignty Impact Report documenting: (1) average residential electricity cost changes by income quintile and geographic category (rural, suburban, urban) in participating utility service territories; (2) total SIRF Energy Sovereignty Subledger receipts, deployments by category, and year-end balance; (3) number of households receiving Household Energy Affordability Credits and Veterans Energy Sovereignty Benefits; and (4) progress toward the Household Energy Cost Reduction Program (HECRP) benchmark of a fifteen percent (15%) reduction in average residential electricity costs. If the bottom forty percent (40%) of households by income are not experiencing net energy cost reduction from SIRF Energy Sovereignty Subledger programs within three (3) years of initial deployment, the FMIA shall submit a corrective reallocation plan to Congress within sixty (60) days.
 
 (e) BORDER CARBON ADJUSTMENT.—To prevent carbon leakage, the USTR shall implement a Border Carbon Adjustment on imports of carbon-intensive goods from nations without equivalent carbon pricing, calculated as the carbon fee that would have applied had the goods been produced domestically. The Border Carbon Adjustment shall be structured to be WTO-consistent under Article XX(b) and administered by Customs and Border Protection.
 
 (f) DOMESTIC INDUSTRY TRANSITION SUPPORT.—Energy-intensive, trade-exposed domestic industries shall receive transitional Carbon Fee rebates at seventy-five percent (75%) of their assessed fee in Years 1 through 3, declining by fifteen percent (15%) per year thereafter as the Border Carbon Adjustment provides equivalent competitive protection. By Year 8, the Border Carbon Adjustment fully replaces the transitional rebate.
 
-(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, the Carbon Dividend Fee is projected at not less than one hundred twenty billion dollars ($120,000,000,000) in gross annual revenue in Year 1. Net revenue available for household distribution after administration and transitional industry rebates is projected at not less than eighty-five billion dollars ($85,000,000,000) in Year 1, rising to not less than one hundred fifty billion dollars ($150,000,000,000) by Year 5.
+(g) PROJECTED REVENUE AND SIRF SUBLEDGER CAPITALIZATION.—At forty dollars ($40) per metric ton, the Carbon Dividend Fee is projected at not less than one hundred twenty billion dollars ($120,000,000,000) in gross annual revenue in Year 1. Net revenue deposited into the SIRF Energy Sovereignty Subledger after administration costs (not to exceed one percent (1%)) and transitional domestic industry rebates under subsection (f) is projected at not less than eighty-five billion dollars ($85,000,000,000) in Year 1, rising to not less than one hundred fifty billion dollars ($150,000,000,000) by Year 5. Border Carbon Adjustment proceeds collected under subsection (e) shall be deposited directly into the SIRF Energy Sovereignty Subledger as an additional revenue stream senior to but separate from the domestic Carbon Fee deposits.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -1845,7 +1851,7 @@ SEC. 2419. TRADE ENFORCEMENT REVENUE ROUTING -- FISCAL CONSOLIDATION.
 
 (c) CURRENCY COUNTERVAILING DUTY REVENUE.--All revenue collected pursuant to the Currency Countervailing Duty established in Section 3004(b) of this Act (Title XXX) shall be deposited into the SIRF Industrial Infrastructure Node and deployed for domestic manufacturing investment consistent with Section 401(b) of this Act. This section constitutes the exclusive fiscal routing authority for CCD revenue.
 
-(d) UNIFIED REVENUE CERTIFICATION.--The FDVMA shall include WEA revenue, USMCA escalation tariff revenue, and CCD revenue in the unified SIRF Revenue Sufficiency Report transmitted to Congress under Section 005(b) of this Act. The Congressional Budget Office shall score these revenue streams as part of the unified deficit neutrality certification required under Section 005(a).
+(d) UNIFIED REVENUE CERTIFICATION.--The FMIA shall include WEA revenue, USMCA escalation tariff revenue, and CCD revenue in the unified SIRF Revenue Sufficiency Report transmitted to Congress under Section 005(b) of this Act. The Congressional Budget Office shall score these revenue streams as part of the unified deficit neutrality certification required under Section 005(a).
 
 (e) COMMITTEE JURISDICTION DECLARATION.--The revenue routing provisions of this section are within the jurisdiction of the Senate Committee on Finance and the House Committee on Ways and Means. The operational trade enforcement provisions of Titles XXIII and XXX remain within the jurisdiction of the Senate Committee on Finance (tariff authority), the Senate Committee on Foreign Relations (diplomatic architecture), and the Senate Committee on Commerce, Science, and Transportation (supply chain operations). This section resolves any jurisdictional ambiguity by consolidating fiscal routing under Title XXIV.
 
@@ -1894,7 +1900,7 @@ SEC. 2503. PACT ACT GAP CLOSURE — SIX PROVISIONS.
 
 (2) AUTOMATIC INTERIM BENEFITS.—Any PACT Act claim not adjudicated within one hundred twenty-five (125) days shall trigger automatic interim benefit payments to the claimant at a fifty percent (50%) disability rating, effective on day 126. Interim payments shall continue until final adjudication and shall not be recouped if the final rating is lower than fifty percent (50%).
 
-(3) FDVM INTEGRATION.—The FDVMA shall integrate with VA claims processing systems to monitor real-time claims backlog data and publish monthly backlog reports.
+(3) FDVM INTEGRATION.—The FMIA shall integrate with VA claims processing systems to monitor real-time claims backlog data and publish monthly backlog reports.
 
 (b) GAP 2 — DEPENDENT CHILDREN TOXIC EXPOSURE COVERAGE.—
 
@@ -1914,7 +1920,7 @@ SEC. 2503. PACT ACT GAP CLOSURE — SIX PROVISIONS.
 
 (d) GAP 4 — AUTOMATIC TOXIC EXPOSURE REGISTRY ENROLLMENT.—
 
-(1) FDVM AUTO-IDENTIFICATION.—The FDVMA shall integrate with Department of Defense deployment records, DoD environmental hazard databases, and VA enrollment records to automatically identify veterans who served in locations or capacities with documented toxic exposure risks under the PACT Act.
+(1) FDVM AUTO-IDENTIFICATION.—The FMIA shall integrate with Department of Defense deployment records, DoD environmental hazard databases, and VA enrollment records to automatically identify veterans who served in locations or capacities with documented toxic exposure risks under the PACT Act.
 
 (2) AUTOMATIC REGISTRY ENROLLMENT.—Veterans identified through FDVM auto-identification shall be automatically enrolled in the VA Toxic Exposure Registry within thirty (30) days of identification, with written notification to the veteran of their enrollment and associated benefits eligibility.
 
@@ -1926,7 +1932,7 @@ SEC. 2503. PACT ACT GAP CLOSURE — SIX PROVISIONS.
 
 (2) MANDATORY ALLOCATION.—Not less than eight percent (8%) of all SIRF revenue deposits shall be allocated to the VSN on a real-time basis as funds are deposited. This allocation is mandatory and protected by the two-thirds supermajority requirement of Section 201(c)(2).
 
-(3) INDEXED GROWTH.—The VSN allocation percentage shall be reviewed biennially by the FDVMA and adjusted upward in proportion to growth in PACT Act enrollment, ensuring that veterans' SIRF share grows as the veteran population receiving PACT Act benefits expands.
+(3) INDEXED GROWTH.—The VSN allocation percentage shall be reviewed biennially by the FMIA and adjusted upward in proportion to growth in PACT Act enrollment, ensuring that veterans' SIRF share grows as the veteran population receiving PACT Act benefits expands.
 
 (4) ELIGIBLE USES.—VSN funds shall be used exclusively for: (A) Tier 2 BMP premium payments for uninsured veterans; (B) mental health crisis access funding under Section 2503(c); (C) toxic exposure research under Section 2503(f); (D) VA direct care infrastructure modernization; and (E) veteran workforce reintegration programs.
 
@@ -1944,7 +1950,7 @@ SEC. 2504. PACT ACT ALIGNMENT AND NON-SUPERSESSION.
 
 (b) EXISTING CHAPTER 18 COVERAGE PRESERVED.—All veteran toxic exposure coverage established under 38 U.S.C. Chapter 18 is preserved in full and augmented by this Title. In any conflict between this Title and Chapter 18, the provision more favorable to the veteran shall govern.
 
-(c) SCHEDULE D BENCHMARKS — TITLE XXV.—The FDVMA and VA shall report jointly to Congress biennially on: (1) claims processing backlog reduction and compliance with the 125-day standard; (2) number of previously uninsured veterans enrolled in Tier 2 BMP; (3) same-day mental health crisis access rate; (4) number of veterans auto-enrolled in the Toxic Exposure Registry; (5) TERE research publications and findings; (6) VSN balance and deployment rate.
+(c) SCHEDULE D BENCHMARKS — TITLE XXV.—The FMIA and VA shall report jointly to Congress biennially on: (1) claims processing backlog reduction and compliance with the 125-day standard; (2) number of previously uninsured veterans enrolled in Tier 2 BMP; (3) same-day mental health crisis access rate; (4) number of veterans auto-enrolled in the Toxic Exposure Registry; (5) TERE research publications and findings; (6) VSN balance and deployment rate.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2093,7 +2099,7 @@ SEC. 2701. FINDINGS AND PURPOSE.
 
 (5) The United States lacks a comprehensive federal shield law protecting journalist-source confidentiality, creating a structural asymmetry between the government's investigative power and the press's capacity to report on government misconduct.
 
-(b) PURPOSE.—The purpose of this Title is to establish structural protections for press freedom as a sovereignty infrastructure function, including: anti-retaliatory protections for journalists; a federal journalist shield law; anti-SLAPP protections for press defendants; FCC editorial independence firewalls; and a Federal Press Freedom Monitor within the FDVMA to track and report on press freedom violations.
+(b) PURPOSE.—The purpose of this Title is to establish structural protections for press freedom as a sovereignty infrastructure function, including: anti-retaliatory protections for journalists; a federal journalist shield law; anti-SLAPP protections for press defendants; FCC editorial independence firewalls; and a Federal Press Freedom Monitor within the FMIA to track and report on press freedom violations.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2197,7 +2203,7 @@ SEC. 2706. FCC EDITORIAL INDEPENDENCE FIREWALL.
 
 SEC. 2707. FEDERAL PRESS FREEDOM MONITOR.
 
-(a) ESTABLISHMENT.—There is established within the Federal Data Veracity Matrix Administration a Federal Press Freedom Monitor (PFPM) as an independent division charged with tracking, reporting on, and referring for enforcement all acts of covered government pressure, retaliatory termination, and FCC editorial interference affecting the press.
+(a) ESTABLISHMENT.—There is established within the Federal Market Integrity Administration a Federal Press Freedom Monitor (PFPM) as an independent division charged with tracking, reporting on, and referring for enforcement all acts of covered government pressure, retaliatory termination, and FCC editorial interference affecting the press.
 
 (b) ANNUAL REPORT.—The PFPM shall publish an annual Press Freedom Sovereignty Report to Congress, documenting:
 
@@ -2227,7 +2233,7 @@ SEC. 2708. GOVERNMENT PRESS ACCESS GUARANTEE.
 
 SEC. 2709. SCHEDULE D BENCHMARKS — TITLE XXVII.
 
-The FDVMA and PFPM shall report jointly to Congress biennially on: (1) number of journalist anti-retaliation complaints filed, adjudicated, and resolved; (2) number of federal shield law invocations and outcomes; (3) number of Anti-SLAPP motions filed under Section 2705 and outcomes; (4) FCC proceedings reviewed for editorial independence compliance; (5) Press Freedom Sovereignty Index scores and year-over-year trends.
+The FMIA and PFPM shall report jointly to Congress biennially on: (1) number of journalist anti-retaliation complaints filed, adjudicated, and resolved; (2) number of federal shield law invocations and outcomes; (3) number of Anti-SLAPP motions filed under Section 2705 and outcomes; (4) FCC proceedings reviewed for editorial independence compliance; (5) Press Freedom Sovereignty Index scores and year-over-year trends.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2495,7 +2501,7 @@ All revenue collected under this Title is routed to the SIRF in accordance with 
 
 SEC. 3010. SCHEDULE D BENCHMARKS — TITLE XXX.
 
-The FDVMA and USTR shall report jointly to Congress biennially on: (1) status of NAFTA Chapter 11 legacy claim terminations and savings to the Treasury; (2) RRM enforcement actions initiated, resolved, and pending by sector and country; (3) currency misalignment determinations and CCD collections; (4) automotive and steel rules of origin compliance rates; (5) NAFTA Legacy Worker Fund disbursements and outcomes; (6) status of USMCA pharmaceutical data exclusivity renegotiation.
+The FMIA and USTR shall report jointly to Congress biennially on: (1) status of NAFTA Chapter 11 legacy claim terminations and savings to the Treasury; (2) RRM enforcement actions initiated, resolved, and pending by sector and country; (3) currency misalignment determinations and CCD collections; (4) automotive and steel rules of origin compliance rates; (5) NAFTA Legacy Worker Fund disbursements and outcomes; (6) status of USMCA pharmaceutical data exclusivity renegotiation.
 
 
 
@@ -2521,7 +2527,7 @@ SEC. 3101. FINDINGS AND PURPOSE.
 
 (6) Children dying of preventable disease are not a foreign policy abstraction. They are the proximate victims of a global health architecture that the United States built, led, and has now abandoned. The NSRA restores American global health engagement not as charity, but as a sovereign investment in the conditions that make American security, prosperity, and moral leadership possible.
 
-(b) PURPOSE.—This Title establishes the American Mutual Benefit Global Health Sovereignty Framework (MGHS Framework), a structured international health assistance architecture that: prioritizes child survival and pandemic prevention; requires measurable, verified reciprocal commitments from recipient nations; deploys American-made medicines, equipment, and personnel; builds domestic medical training capacity through international service; and funds itself through pandemic risk premium savings, pharmaceutical export revenue, and diplomatic access returns documented by the FDVMA.
+(b) PURPOSE.—This Title establishes the American Mutual Benefit Global Health Sovereignty Framework (MGHS Framework), a structured international health assistance architecture that: prioritizes child survival and pandemic prevention; requires measurable, verified reciprocal commitments from recipient nations; deploys American-made medicines, equipment, and personnel; builds domestic medical training capacity through international service; and funds itself through pandemic risk premium savings, pharmaceutical export revenue, and diplomatic access returns documented by the FMIA.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2539,7 +2545,7 @@ SEC. 3102. AMERICAN MUTUAL BENEFIT GLOBAL HEALTH FUND.
 
 (4) MUTUAL BENEFIT DIPLOMATIC HEALTH COMPACT PROGRAM (15% — $1.2B/yr): Bilateral health assistance conditioned on verifiable reciprocal commitments from recipient nations, including: support for United States positions in World Health Organization governance; adoption of G7-aligned pharmaceutical pricing transparency standards; preferential sourcing agreements for American medical products; and cooperation with United States pandemic intelligence operations.
 
-(c) SELF-FUNDING CERTIFICATION.—The FDVMA shall publish an annual Pandemic Prevention Return on Investment Report calculating the estimated economic value of pandemics prevented or delayed through MGHS Fund activities, based on mortality, morbidity, and economic disruption modeling. The Report shall be submitted to the Congressional Budget Office for incorporation into SIRF revenue scoring. The NSRA declares that a single pandemic of COVID-19 scale justifies the entire 30-year cost of the MGHS Fund.
+(c) SELF-FUNDING CERTIFICATION.—The FMIA shall publish an annual Pandemic Prevention Return on Investment Report calculating the estimated economic value of pandemics prevented or delayed through MGHS Fund activities, based on mortality, morbidity, and economic disruption modeling. The Report shall be submitted to the Congressional Budget Office for incorporation into SIRF revenue scoring. The NSRA declares that a single pandemic of COVID-19 scale justifies the entire 30-year cost of the MGHS Fund.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2553,7 +2559,7 @@ SEC. 3103. RECIPROCITY FRAMEWORK.
 
 (3) TIER 3 — VERIFIED PARTNERSHIP (Export Corps and Diplomatic Compact): Full reciprocity framework applies. Recipient nations must demonstrate measurable progress on: domestic health financing commitments; G7-aligned pharmaceutical pricing transparency; American trade and market access; and alignment with United States positions in relevant international bodies.
 
-(b) RECIPROCITY VERIFICATION.—The Department of State, in coordination with USAID and the FDVMA, shall publish an annual Reciprocity Scorecard for each Tier 3 recipient nation, measuring compliance with each commitment category on a 0-100 scale. Nations scoring below 60 for two consecutive years shall be transitioned to Tier 2 status pending a diplomatic review.
+(b) RECIPROCITY VERIFICATION.—The Department of State, in coordination with USAID and the FMIA, shall publish an annual Reciprocity Scorecard for each Tier 3 recipient nation, measuring compliance with each commitment category on a 0-100 scale. Nations scoring below 60 for two consecutive years shall be transitioned to Tier 2 status pending a diplomatic review.
 
 (c) PROHIBITED CONDITIONALITY.—Reciprocity conditions may not be applied to: emergency famine or disaster relief; pediatric vaccination programs; oral rehydration therapy; clean water access infrastructure; or any intervention with a documented under-5 mortality impact. Political, ideological, or religious conditions on any MGHS Fund disbursement are expressly prohibited.
 
@@ -2577,7 +2583,7 @@ SEC. 3104. AMERICAN GLOBAL HEALTH SERVICE CORPS.
 
 SEC. 3105. CHILD SURVIVAL ACCOUNTABILITY.
 
-(a) ANNUAL CHILD SURVIVAL REPORT.—The FDVMA shall publish an annual Child Survival Accountability Report documenting:
+(a) ANNUAL CHILD SURVIVAL REPORT.—The FMIA shall publish an annual Child Survival Accountability Report documenting:
 
 (1) The number of children under 5 reached by MGHS Fund interventions in the preceding year;
 
@@ -2589,13 +2595,13 @@ SEC. 3105. CHILD SURVIVAL ACCOUNTABILITY.
 
 (5) A comparative analysis of Chinese and Russian medical aid deployments in the same period and their geopolitical consequences for United States interests.
 
-(b) CONGRESSIONAL ACCOUNTABILITY.—The Child Survival Report shall be delivered to the full Congress and made publicly available on the FDVMA public website within 30 days of publication. Any Member of Congress who votes to reduce MGHS Fund appropriations below the mandatory floor shall provide a written public statement of justification within 14 days of such vote.
+(b) CONGRESSIONAL ACCOUNTABILITY.—The Child Survival Report shall be delivered to the full Congress and made publicly available on the FMIA public website within 30 days of publication. Any Member of Congress who votes to reduce MGHS Fund appropriations below the mandatory floor shall provide a written public statement of justification within 14 days of such vote.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3106. BUDGET NEUTRALITY AND REVENUE CERTIFICATION.
 
-This Title is funded from the SIRF Biosecurity Node and is net-positive on a 10-year basis through: (1) pandemic risk premium reduction valued at $200–500B per pandemic-year prevented; (2) American pharmaceutical and medical device export revenue generated through the Medical Export Corps; (3) preferential resource and trade access returns from Tier 3 diplomatic compacts; and (4) domestic medical workforce expansion reducing long-term healthcare delivery costs. The CBO shall incorporate FDVMA pandemic prevention modeling in its scoring of this Title consistent with the risk-adjusted return methodology established in Section 1502 of this Act.
+This Title is funded from the SIRF Biosecurity Node and is net-positive on a 10-year basis through: (1) pandemic risk premium reduction valued at $200–500B per pandemic-year prevented; (2) American pharmaceutical and medical device export revenue generated through the Medical Export Corps; (3) preferential resource and trade access returns from Tier 3 diplomatic compacts; and (4) domestic medical workforce expansion reducing long-term healthcare delivery costs. The CBO shall incorporate FMIA pandemic prevention modeling in its scoring of this Title consistent with the risk-adjusted return methodology established in Section 1502 of this Act.
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2670,7 +2676,7 @@ SEC. 3204. THE TREASURY BOND CREDIBILITY ENGINE.
 
 (d) FOREIGN RESERVE DEMAND PROGRAM.—The Secretary of the Treasury, in coordination with the Federal Reserve Board of Governors, shall establish a Foreign Reserve Demand Program under which allied central banks may access designated USD-denominated Treasury instrument tranches at preferred auction terms as an incentive to maintain or increase USD reserve holdings, subject to ASC participation and compliance with Section 3205 SWIFT Sovereign Defense requirements.
 
-(e) CREDIT RATING TRANSPARENCY.—The FDVMA shall monitor and publicly report quarterly on any actions by Nationally Recognized Statistical Rating Organizations that affect the credit rating of U.S. sovereign debt, including the methodological basis for any rating change, and shall refer to the Securities and Exchange Commission for investigation any rating action that cannot be substantiated by the TCI metrics published under subsection (b).
+(e) CREDIT RATING TRANSPARENCY.—The FMIA shall monitor and publicly report quarterly on any actions by Nationally Recognized Statistical Rating Organizations that affect the credit rating of U.S. sovereign debt, including the methodological basis for any rating change, and shall refer to the Securities and Exchange Commission for investigation any rating action that cannot be substantiated by the TCI metrics published under subsection (b).
 
 SEC. 3205. PETRODOLLAR MODERNIZATION.
 
@@ -2726,7 +2732,7 @@ SEC. 3207. DIGITAL DOLLAR SOVEREIGNTY.
 (B) foreign-currency reserves in G7 currencies;
 (C) a limited allocation of dollar-denominated digital settlement assets not to exceed five percent (5%) of total SIRF reserve assets, for the purpose of monitoring and hedging systemic digital-finance transitions.
 
-(2) NATIONAL DOLLAR SETTLEMENT NETWORK.—There is hereby established the National Dollar Settlement Network (NDSN), administered by the FDVMA in coordination with the Federal Reserve. The NDSN shall:
+(2) NATIONAL DOLLAR SETTLEMENT NETWORK.—There is hereby established the National Dollar Settlement Network (NDSN), administered by the FMIA in coordination with the Federal Reserve. The NDSN shall:
 (A) develop and deploy dollar-backed digital payment settlement rails for domestic and international commerce;
 (B) establish public interoperability standards ensuring that private digital payment systems operating in the United States maintain dollar-denominated settlement capability;
 (C) provide real-time gross settlement infrastructure for federal, state, and municipal government transactions;
@@ -2759,7 +2765,7 @@ SEC. 3209. BUDGET IMPACT AND REVENUE CERTIFICATION.
 
 SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
 
-The FDVMA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) DDSI development milestone completion rate; (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
+The FMIA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) DDSI development milestone completion rate; (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 END OF TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
@@ -2780,11 +2786,11 @@ Congress finds that:
 
 (3) The Sovereign Compute Node established in Section 3408 of this Act provides dedicated funding for public-interest compute infrastructure, but a SIRF funding node alone does not constitute an institution capable of holding title to long-duration productive assets, issuing revenue bonds, entering commercial lease agreements, or operating on a self-sustaining cost-recovery basis;
 
-(4) Existing federal agencies with relevant jurisdiction — including the Department of Commerce, the Department of Energy, and the Federal Data Veracity Matrix Administration — have been evaluated as primary institutional homes for the sovereign compute mission; the FDVMA's enforcement role creates an inherent conflict of interest if it simultaneously holds title to revenue-generating infrastructure assets it is charged with regulating; the Department of Commerce lacks a balance-sheet enterprise structure for long-duration asset ownership; and the Department of Energy's national laboratory compute assets, while complementary, operate under classification and procurement constraints incompatible with the public-access and commercial-lease mandates of this Title;
+(4) Existing federal agencies with relevant jurisdiction — including the Department of Commerce, the Department of Energy, and the Federal Market Integrity Administration — have been evaluated as primary institutional homes for the sovereign compute mission; the FMIA's enforcement role creates an inherent conflict of interest if it simultaneously holds title to revenue-generating infrastructure assets it is charged with regulating; the Department of Commerce lacks a balance-sheet enterprise structure for long-duration asset ownership; and the Department of Energy's national laboratory compute assets, while complementary, operate under classification and procurement constraints incompatible with the public-access and commercial-lease mandates of this Title;
 
 (5) The United States International Development Finance Corporation (DFC) provides the closest structural precedent — a federal enterprise corporation with an independent balance sheet, co-investment mandate, and cost-recovery trajectory — but DFC's statutory jurisdiction is limited to foreign development finance; a domestic equivalent is required;
 
-(6) The most efficient institutional structure is therefore a new federal enterprise corporation — the Sovereign Compute Authority — that consolidates the asset-ownership, commercial-lease, and revenue-bond functions of the Sovereign Compute Node into a single legal entity with an independent balance sheet, while delegating regulatory oversight, data standards, and Open-Source Compute Pool administration to the FDVMA under an interagency agreement.
+(6) The most efficient institutional structure is therefore a new federal enterprise corporation — the Sovereign Compute Authority — that consolidates the asset-ownership, commercial-lease, and revenue-bond functions of the Sovereign Compute Node into a single legal entity with an independent balance sheet, while delegating regulatory oversight, data standards, and Open-Source Compute Pool administration to the FMIA under an interagency agreement.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2805,7 +2811,7 @@ SEC. 3302. ESTABLISHMENT OF THE SOVEREIGN COMPUTE AUTHORITY.
 (B) no single equity position shall represent more than five percent (5%) of SCA's audited net asset value;
 (C) all equity and revenue-sharing agreements shall require Board approval by a two-thirds supermajority vote and shall be disclosed in the SCA's annual report to Congress;
 (D) equity positions shall be managed as a sovereign development portfolio — not as speculative investments — with the purpose of aligning SCA's financial returns with the commercial success of domestic AI and compute enterprises it enables; and
-(E) the FDVMA shall conduct annual conflict-of-interest audits of all SCA equity positions to ensure that no holding creates a regulatory conflict with FDVMA's oversight role.
+(E) the FMIA shall conduct annual conflict-of-interest audits of all SCA equity positions to ensure that no holding creates a regulatory conflict with FMIA's oversight role.
 
 (c) LEGAL STATUS.—The SCA is a body corporate and instrumentality of the United States. It may sue and be sued in its corporate name. It shall not be subject to the Administrative Procedure Act with respect to its commercial contracting and asset management functions, but shall comply with the APA for all regulatory, enforcement, and public-access functions delegated to it by statute.
 
@@ -2817,7 +2823,7 @@ SEC. 3303. GOVERNANCE.
 (1) the Secretary of the Treasury, or a designee at the Deputy Secretary level or above, who shall serve as Chairperson;
 (2) the Secretary of Commerce, or a designee at the Deputy Secretary level or above;
 (3) the Secretary of Defense, or a designee at the Under Secretary level or above, representing national security compute requirements;
-(4) the Administrator for Economic Data Integrity (head of the FDVMA), serving ex officio as the regulatory coordination liaison;
+(4) the Administrator for Economic Data Integrity (head of the FMIA), serving ex officio as the regulatory coordination liaison;
 (5) the Director of the National Science Foundation, or a designee, representing the academic and research compute community;
 (6) three (3) independent directors appointed by the President with the advice and consent of the Senate, serving staggered four (4) year terms, of whom:
 (A) one shall have demonstrated expertise in enterprise infrastructure finance or sovereign wealth fund management;
@@ -2848,7 +2854,7 @@ SEC. 3304. FINANCIAL ARCHITECTURE.
 
 (e) SELF-SUFFICIENCY TRAJECTORY.—
 (1) The SCA shall publish annually a Self-Sufficiency Trajectory Report projecting the year in which commercial lease revenue will be sufficient to cover all SCA operating costs, debt service, and the Public Access Compute Program without any further SCN allocation from the SIRF.
-(2) Upon the FDVMA's certification that the SCA has achieved operational self-sufficiency, the standing five percent (5%) SIRF allocation to the Sovereign Compute Node shall be reduced by one percent (1%) annually until the allocation reaches zero, at which point all SCN lease revenues shall be returned to the SIRF general node pool for reallocation.
+(2) Upon the FMIA's certification that the SCA has achieved operational self-sufficiency, the standing five percent (5%) SIRF allocation to the Sovereign Compute Node shall be reduced by one percent (1%) annually until the allocation reaches zero, at which point all SCN lease revenues shall be returned to the SIRF general node pool for reallocation.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2857,14 +2863,14 @@ SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
 (a) ASSET CLASSES.—The SCA is authorized to invest in, construct, acquire, own, and operate:
 (1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned data center facilities providing compute access to domestic users, co-located where operationally feasible with the Digital Dollar Settlement Network;
 (2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing economically distressed and rural communities;
-(3) QUANTUM-SECURED DATA CENTERS.—Facilities providing quantum-hardened storage and processing for FDVMA operations, SIRF ledger infrastructure, and national security applications under interagency agreement with the National Security Agency and the Department of Defense;
+(3) QUANTUM-SECURED DATA CENTERS.—Facilities providing quantum-hardened storage and processing for FMIA operations, SIRF ledger infrastructure, and national security applications under interagency agreement with the National Security Agency and the Department of Defense;
 (4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
 (5) SEMICONDUCTOR MANUFACTURING CO-INVESTMENTS.—Equity co-investments in domestic advanced semiconductor foundry construction in partnership with Vanguard Entities, consistent with the SIRF co-investment ratios of Section 006.
 
 (b) PROHIBITED INVESTMENTS AND ACTIVITIES.—The SCA shall not:
 (1) acquire equity stakes in foreign entities without express Congressional authorization by joint resolution;
 (2) invest in cryptocurrencies, digital asset speculation, or non-fungible tokens;
-(3) provide compute access to any entity subject to an active FDVMA enforcement action or capital-flight lock under Section 1601;
+(3) provide compute access to any entity subject to an active FMIA enforcement action or capital-flight lock under Section 1601;
 (4) CONSUMER AI PROHIBITION.—develop, market, train, or operate consumer artificial intelligence products, services, or models, except as strictly necessary for governmental operations, scientific research, educational access, or national security purposes authorized by the Board and disclosed to Congress. The SCA is an infrastructure provider, not a commercial AI developer. No future Board resolution, executive directive, or appropriations rider shall authorize SCA to compete with domestic commercial AI firms in consumer-facing markets without express statutory authorization by Congress.
 
 (c) STATUTORY ACCESS PRIORITY LADDER.—SCA infrastructure capacity shall be allocated among users according to the following priority order, with higher-priority categories served before lower-priority categories in any period of capacity constraint:
@@ -2883,9 +2889,9 @@ In no period of capacity constraint shall any Tier 7 allocation reduce available
 
 SEC. 3306. RELATIONSHIP TO EXISTING AGENCIES.
 
-(a) FDVMA REGULATORY AUTHORITY PRESERVED.—Nothing in this Title shall be construed to limit the FDVMA's authority to regulate, audit, or enforce compliance by the SCA as a Covered Entity with respect to data sovereignty, algorithmic transparency, and structural variance standards. The FDVMA shall conduct annual sovereignty audits of SCA infrastructure consistent with Section 304.
+(a) FMIA REGULATORY AUTHORITY PRESERVED.—Nothing in this Title shall be construed to limit the FMIA's authority to regulate, audit, or enforce compliance by the SCA as a Covered Entity with respect to data sovereignty, algorithmic transparency, and structural variance standards. The FMIA shall conduct annual sovereignty audits of SCA infrastructure consistent with Section 304.
 
-(b) OPEN-SOURCE COMPUTE POOL DELEGATION.—The Open-Source Compute Pool established in Section 303(c) shall be administered by the FDVMA using SCA infrastructure under a standing interagency service agreement. The SCA shall provide the physical compute capacity; the FDVMA shall administer eligibility, access, and compliance.
+(b) OPEN-SOURCE COMPUTE POOL DELEGATION.—The Open-Source Compute Pool established in Section 303(c) shall be administered by the FMIA using SCA infrastructure under a standing interagency service agreement. The SCA shall provide the physical compute capacity; the FMIA shall administer eligibility, access, and compliance.
 
 (c) DEPARTMENT OF ENERGY COORDINATION.—The SCA shall enter into a formal co-investment agreement with the Department of Energy within one hundred eighty (180) days of SCA establishment, integrating SCA national AI cloud infrastructure with the Department's national laboratory high-performance computing resources to eliminate duplication and maximize the national compute base.
 
@@ -2910,7 +2916,7 @@ SEC. 3307. CONGRESSIONAL OVERSIGHT AND TRANSPARENCY.
 
 SEC. 3308. SCHEDULE H BENCHMARKS — TITLE XXXIII.
 
-The SCA and FDVMA shall jointly report annually on:
+The SCA and FMIA shall jointly report annually on:
 (1) aggregate SCA infrastructure capacity deployed, measured in petaflops of compute and petabytes of storage;
 (2) percentage of national AI inference workload served by SCA versus foreign-controlled infrastructure;
 (3) cost-per-petaflop of SCA infrastructure versus commercial market rates, demonstrating public-benefit leverage;
@@ -2931,7 +2937,7 @@ SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
 
 (a) SUPERSESSION.—The Household Structural Relief Node, previously established as a universal cash distribution mechanism tied to market-dependent SIRF returns, is hereby retired and superseded. No provision of this Act shall be construed to authorize HSRN cash distributions. The retirement of HSRN reflects the determination that market-dependent universal cash transfers create employment disincentive effects, are vulnerable to political lobbying by recipients against structural reforms, and are less effective per dollar than direct structural cost elimination in improving aggregate household economic position.
 
-(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for HSRN is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Sovereign Child Prosperity Trust birth deposits (Title V); the Shelter Sovereignty Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FDVMA consistent with the Restoration Principle of Section 504(c).
+(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for HSRN is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Sovereign Child Prosperity Trust birth deposits (Title V); the Shelter Sovereignty Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FMIA consistent with the Restoration Principle of Section 504(c).
 
 (c) SURPLUS IMPROVEMENT.—The retirement of HSRN as a standing expenditure improves the net annual NSRA surplus from four hundred fifty billion dollars ($450,000,000,000) to five hundred fifty-four billion dollars ($554,000,000,000), reflecting elimination of the approximately one hundred billion dollars ($100,000,000,000) annual HSRN cash distribution expenditure. This surplus improvement is reflected in the fiscal summary of Section 3406.
 
@@ -2952,7 +2958,7 @@ Total Statutory Base Revenue: one hundred seventy-eight billion dollars ($178,00
 (1) Structural variance penalties and clawbacks under Titles I, IX, XI, XIII, XIV, and XXII;
 (2) Judicial disgorgement orders routed to SIRF nodes under Titles VII, X, and XI;
 (3) Health Profiteering Surplus Assessment (HPSA) revenues; and
-(4) Any other penalty, forfeiture, or enforcement recovery designated by the FDVMA.
+(4) Any other penalty, forfeiture, or enforcement recovery designated by the FMIA.
 
 (d) STATUTORY BASE REVENUE SUFFICIENCY DECLARATION.—The Statutory Base Revenue streams of subsection (b) are independently sufficient to fund all SIRF node deployment commitments established in this Act at their minimum annual levels without reliance on Supplemental Revenue. Supplemental Revenue shall be treated as surplus capitalization that accelerates deployment or increases node allocations above minimum statutory floors.
 
@@ -2970,11 +2976,11 @@ The Household Structural Relief Node (formerly HSRN allocation) shall fund the f
 (3) Shelter Sovereignty Fund down payment and rental assistance — one billion five hundred million dollars ($1,500,000,000) annually;
 (4) SPI-WFTC wage floor tax credits — ten billion dollars ($10,000,000,000) annually;
 (5) TANF structural floor enhancement supplement — five billion dollars ($5,000,000,000) annually.
-The FDVMA shall publish an annual Household Structural Relief Node Utilization Report confirming that Node funds have been deployed exclusively to the above mechanisms.
+The FMIA shall publish an annual Household Structural Relief Node Utilization Report confirming that Node funds have been deployed exclusively to the above mechanisms.
 
 SEC. 3404. HOUSEHOLD STRUCTURAL RELIEF NODE — CROSS-TITLE CLARIFICATION.
 
-Any reference in this Act to a universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E benchmark reporting obligations are governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
+Any reference in this Act to a universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E benchmark reporting obligations are governed by the FMIA's consolidated Schedule D reporting mandate under Title XIX. The FMIA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
 
 SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
 
@@ -3010,7 +3016,7 @@ SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
 (7) IESF mandatory IRS investment: fifteen billion dollars ($15,000,000,000), generating $75-105B net return;
 (8) Veterans Health Sovereignty Fund: estimated eight billion dollars ($8,000,000,000);
 (9) Social Security anti-erosion protections: estimated thirty billion dollars ($30,000,000,000);
-(10) Rural Health Sovereignty Fund — demand-adjusted: three billion dollars ($3,000,000,000) annually for years one through five, scaling to one billion five hundred million dollars ($1,500,000,000) annually for years six through ten based on FDVMA Rural Health Demand Assessment under Section 2109(b)(2).
+(10) Rural Health Sovereignty Fund — demand-adjusted: three billion dollars ($3,000,000,000) annually for years one through five, scaling to one billion five hundred million dollars ($1,500,000,000) annually for years six through ten based on FMIA Rural Health Demand Assessment under Section 2109(b)(2).
 Total structural expenditures: approximately one hundred seventy-four billion dollars ($174,000,000,000), partially offset by existing federal program consolidation producing net new federal expenditure of approximately one hundred billion dollars ($100,000,000,000).
 
 (c) MANDATORY GROWTH REINVESTMENT — $100B/YR SOVEREIGN INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
@@ -3019,7 +3025,7 @@ Total structural expenditures: approximately one hundred seventy-four billion do
 (3) National Food System Detoxification and Soil Sovereignty — comprising Regional Food System Infrastructure (Section 706, Title VII) and Agricultural Pesticide Transition Support (Section 705(d), Title VII): twenty billion dollars ($20,000,000,000) per year;
 (4) Semiconductor and Critical Materials Sovereignty (Section 1204, Title XII): fifteen billion dollars ($15,000,000,000) per year;
 (5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year;
-(6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FDVMA assessment.
+(6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FMIA assessment.
 Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section.
 
 (d) NET ANNUAL SURPLUS AVAILABLE FOR DEFICIT REDUCTION.—Seven hundred forty-nine billion dollars ($749,000,000,000) revenue minus one hundred billion dollars ($100,000,000,000) net structural expenditures minus ninety-five billion dollars ($95,000,000,000) mandatory growth reinvestment equals five hundred fifty-four billion dollars ($554,000,000,000) available for annual federal deficit reduction.
@@ -3028,7 +3034,7 @@ Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,0
 
 SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
 
-The FDVMA shall report annually on: (1) SIRF Statutory Base Revenue collected versus projection by stream; (2) Tier 1 waterfall obligation fulfillment rate — whether all Tier 1 obligations were met in full in each quarter; (3) aggregate household structural relief delivered by mechanism; (4) net annual federal deficit reduction attributable to NSRA revenue architecture; (5) debt-to-GDP ratio trend; (6) upstream prevention actuarial savings realized versus Section 2109 projections; (7) Vanguard Node compound growth rate and portfolio return rate; (8) Sovereign Compute Node infrastructure deployed and cost-per-inference-unit; (9) Energy Sovereignty Node residential credit delivered per utility.
+The FMIA shall report annually on: (1) SIRF Statutory Base Revenue collected versus projection by stream; (2) Tier 1 waterfall obligation fulfillment rate — whether all Tier 1 obligations were met in full in each quarter; (3) aggregate household structural relief delivered by mechanism; (4) net annual federal deficit reduction attributable to NSRA revenue architecture; (5) debt-to-GDP ratio trend; (6) upstream prevention actuarial savings realized versus Section 2109 projections; (7) Vanguard Node compound growth rate and portfolio return rate; (8) Sovereign Compute Node infrastructure deployed and cost-per-inference-unit; (9) Energy Sovereignty Node residential credit delivered per utility.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3041,11 +3047,11 @@ SEC. 3408. SOVEREIGN COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMP
 (c) AUTHORIZED INVESTMENTS.—The SCN shall invest in:
 (1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned or co-owned data center facilities providing compute access at below-market rates to domestic academic institutions, small businesses, Vanguard Entities, and federal agencies;
 (2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing underserved rural and urban communities;
-(3) SOVEREIGN DATA CENTERS.—Secure, quantum-hardened data center facilities supporting FDVMA operations, SIRF ledger infrastructure, and Digital Monetary Sovereignty functions under Section 3207;
+(3) SOVEREIGN DATA CENTERS.—Secure, quantum-hardened data center facilities supporting FMIA operations, SIRF ledger infrastructure, and Digital Monetary Sovereignty functions under Section 3207;
 (4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
 (5) RESEARCH COMPUTE GRANTS.—Grants to domestic academic institutions and national laboratories for compute-intensive research in AI safety, quantum computing, and materials science.
 
-(d) SELF-FUNDING TRAJECTORY.—The SCN shall operate on a cost-recovery basis within seven (7) years of initial deployment. Below-cost access rates shall be limited to non-commercial academic and public-interest users. Commercial users accessing SCN infrastructure shall be charged market rates, with net revenue returned to the SCN for reinvestment. The FDVMA shall certify annually whether SCN revenue is sufficient to reduce the standing five percent (5%) SIRF allocation; upon self-funding certification, the SIRF allocation may be reduced by the FDVMA in one-percent (1%) annual increments.
+(d) SELF-FUNDING TRAJECTORY.—The SCN shall operate on a cost-recovery basis within seven (7) years of initial deployment. Below-cost access rates shall be limited to non-commercial academic and public-interest users. Commercial users accessing SCN infrastructure shall be charged market rates, with net revenue returned to the SCN for reinvestment. The FMIA shall certify annually whether SCN revenue is sufficient to reduce the standing five percent (5%) SIRF allocation; upon self-funding certification, the SIRF allocation may be reduced by the FMIA in one-percent (1%) annual increments.
 
 (e) MINIMUM PRODUCTIVE ASSET REQUIREMENT.—Not less than twenty-five percent (25%) of all SCN deployments in any fiscal year shall be invested in revenue-producing infrastructure assets, consistent with the sovereign wealth fund discipline of Section 204(e).
 
@@ -3108,13 +3114,13 @@ SEC. 3503. FINANCIAL CONFLICT OF INTEREST PROHIBITIONS.
 
 (b) FOREIGN ENTERPRISE PROHIBITION.--No Covered Official may hold, directly or through an Immediate Family Member, any financial interest in a Foreign Government-Linked Enterprise during the Covered Official's term of service. Any such interest held at the time of appointment shall be divested within sixty (60) days of enactment or appointment, whichever is later.
 
-(c) ENFORCEMENT.--The Office of Government Ethics shall publish a quarterly Sovereign Integrity Compliance Report listing all Covered Officials, their divestiture status, and any outstanding compliance deficiencies. The FDVMA shall cross-reference financial disclosure filings with its enterprise database to identify undisclosed interests and transmit findings to the Department of Justice Public Integrity Section within thirty (30) days of identification.
+(c) ENFORCEMENT.--The Office of Government Ethics shall publish a quarterly Sovereign Integrity Compliance Report listing all Covered Officials, their divestiture status, and any outstanding compliance deficiencies. The FMIA shall cross-reference financial disclosure filings with its enterprise database to identify undisclosed interests and transmit findings to the Department of Justice Public Integrity Section within thirty (30) days of identification.
 
 (d) PENALTIES.--Willful violation of this section by a Covered Official shall constitute a federal offense punishable by not more than five (5) years imprisonment, a civil fine of not less than one hundred thousand dollars ($100,000) per violation, and permanent disqualification from federal service.
 
 SEC. 3504. SOVEREIGN ACCOUNTABILITY -- SCHEDULE D BENCHMARKS.
 
-The FDVMA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) numb
+The FMIA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) numb
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 (Enacted as a statutory annex for purposes of Sections 3402, 3406, and 1903)
@@ -3192,8 +3198,8 @@ STREAM 9 — CARBON FEE AND BORDER CARBON ADJUSTMENT
   Statutory Basis: Section 2410
   Annual Estimate: $120 billion gross / $40 billion net SIRF contribution
   Rate/Base: $40/metric ton CO2-equivalent at point of first sale; $10/ton annual escalation; Border Carbon Adjustment on imports from non-pricing nations
-  Methodology: The Energy Information Administration (EIA, "Carbon Dioxide Emissions Coefficients," 2023) estimates US annual fossil fuel combustion at approximately 4.5–5 billion metric tons CO2-equivalent. At $40/ton: 5B × $40 = $200B gross upper bound; applying the transitional domestic industry rebate (75% in Year 1) to the energy-intensive trade-exposed sector (estimated 20% of total combustion): 80% × $200B = $160B; net of household dividend, administration, and rebates: ~$120B gross revenue per NSRA Section 2410(g). The Citizens' Climate Lobby and Columbia SIPA Carbon Pricing Leadership report (2022) model a $40 starting fee at $100–140B/yr gross, consistent with this projection. Note: The Carbon Dividend (100% of net revenue) returns to households — the SIRF receives only the Border Carbon Adjustment proceeds and residual after dividend distribution. The $40B SIRF contribution reflects BCA revenue plus any over-collection above dividend commitment.
-  Note: SIRF contribution is from Border Carbon Adjustment; household dividend is a pass-through, not a net SIRF expenditure.
+  Methodology: The Energy Information Administration (EIA, "Carbon Dioxide Emissions Coefficients," 2023) estimates US annual fossil fuel combustion at approximately 4.5–5 billion metric tons CO2-equivalent. At $40/ton: 5B × $40 = $200B gross upper bound; applying the transitional domestic industry rebate (75% in Year 1) to the energy-intensive trade-exposed sector (estimated 20% of total combustion): 80% × $200B = $160B; net of administration costs (1%) and domestic industry rebates: ~$120B net SIRF Energy Sovereignty Subledger deposit in Year 1 per NSRA Section 2410(g). The Citizens' Climate Lobby and Columbia SIPA Carbon Pricing Leadership report (2022) model a $40 starting fee at $100–140B/yr gross, consistent with this projection. Border Carbon Adjustment (BCA) proceeds are deposited as a senior, separate stream into the SIRF Energy Sovereignty Subledger per Section 2410(e) and 2410(g). All Carbon Dividend Fee net revenue now routes directly to the SIRF Energy Sovereignty Subledger per Section 2410(c) for deployment through four priority buckets: (1) Grid Modernization Capital Grants (40%), (2) Rural Electric Cooperative Capitalization (25%), (3) Municipal Public Power Authority Grants (20%), (4) Household Energy Affordability Credits (15%). Veterans Energy Sovereignty Benefits (VESB) per Section 987(d) are a first-priority subledger obligation senior to the four buckets.
+  Note: 100% of Carbon Dividend Fee net revenue routes to the SIRF Energy Sovereignty Subledger. The per-household cash dividend mechanism previously described in this stream has been superseded by Section 2410(c) as amended. SIRF Energy Sovereignty Subledger deployments are infrastructure investments and energy affordability programs, not cash transfers.
 
 STREAM 10 — FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT (FEPSA)
   Statutory Basis: Section 2415
@@ -3279,7 +3285,7 @@ SUPPLEMENTAL STREAM D — DEFENSE PROCUREMENT SOVEREIGNTY PREMIUM
 
 (b) No revenue stream in this Schedule relies on behavioral projections that assume corporate behavior changes in a direction favorable to revenue collection. All projections use current-law behavioral baselines. Revenue reductions from behavioral change (e.g., corporations reducing leveraged buyout activity in response to the LBO cap) are incorporated into the dynamic scoring figures where applicable.
 
-(c) The FDVMA shall publish an annual Schedule G Variance Report no later than March 15 of each year comparing actual SIRF revenue collections for the prior fiscal year to each stream's Schedule G projection, with a plain-language explanation of any variance exceeding ten percent (10%) of the projected amount. This Report shall be submitted to the Congressional Budget Office, the Joint Committee on Taxation, and made publicly available at no cost.
+(c) The FMIA shall publish an annual Schedule G Variance Report no later than March 15 of each year comparing actual SIRF revenue collections for the prior fiscal year to each stream's Schedule G projection, with a plain-language explanation of any variance exceeding ten percent (10%) of the projected amount. This Report shall be submitted to the Congressional Budget Office, the Joint Committee on Taxation, and made publicly available at no cost.
 
 (d) The Congressional Budget Office is directed to score each revenue stream in this Schedule independently and publish its analysis within one hundred eighty (180) days of enactment, consistent with the open data mandate of Section 1903.
 
