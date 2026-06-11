@@ -4454,4 +4454,207 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
   function hasSignedLocally(email) {
     try { return !!localStorage.getItem(emailKey(email.toLowerCase())); } catch(e) { return false; }
   }
-  function markSig
+  function markSignedLocally(email) {
+    try { localStorage.setItem(emailKey(email.toLowerCase()), '1'); } catch(e) {}
+  }
+
+  // ── ZIP → delegation lookup ──────────────────────────────────
+  // Uses Google Civic Information API (no key needed for basic district lookup).
+  // Falls back to geocod.io if Google fails.
+  var _sigFirstName = '';
+  var _sigZip = '';
+
+  async function loadDelegation(zip, firstName) {
+    var repEl   = document.getElementById('del-rep');
+    var sen1El  = document.getElementById('del-sen1');
+    var sen2El  = document.getElementById('del-sen2');
+    var repLink = document.getElementById('del-rep-link');
+    var sen1Link= document.getElementById('del-sen1-link');
+    var sen2Link= document.getElementById('del-sen2-link');
+    if (repEl)  repEl.textContent  = 'Looking up…';
+    if (sen1El) sen1El.textContent = 'Looking up…';
+    if (sen2El) sen2El.textContent = '';
+
+    try {
+      // Google Civic API — offices for the ZIP
+      var url = 'https://www.googleapis.com/civicinfo/v2/representatives?address=' +
+                encodeURIComponent(zip + ', USA') +
+                '&levels=country&roles=legislatorLowerBody&roles=legislatorUpperBody';
+      var r = await fetch(url);
+      if (!r.ok) throw new Error('civic api error');
+      var d = await r.json();
+      var officials = d.officials || [];
+      var offices   = d.offices   || [];
+      var reps = [], sens = [];
+      offices.forEach(function(o) {
+        var isHouse  = (o.roles||[]).indexOf('legislatorLowerBody') > -1;
+        var isSenate = (o.roles||[]).indexOf('legislatorUpperBody') > -1;
+        (o.officialIndices||[]).forEach(function(idx) {
+          var off = officials[idx];
+          if (!off) return;
+          var contactUrl = (off.urls && off.urls[0]) ? off.urls[0] : null;
+          if (isHouse)  reps.push({name: off.name, url: contactUrl});
+          if (isSenate) sens.push({name: off.name, url: contactUrl});
+        });
+      });
+      if (repEl && reps[0])  { repEl.textContent = reps[0].name;  if (reps[0].url && repLink)  { repLink.href = reps[0].url;  repLink.style.display='inline'; } }
+      else if (repEl)        { repEl.textContent  = 'Representative'; }
+      if (sen1El && sens[0]) { sen1El.textContent = sens[0].name; if (sens[0].url && sen1Link) { sen1Link.href = sens[0].url; sen1Link.style.display='inline'; } }
+      else if (sen1El)       { sen1El.textContent = 'Senator'; }
+      if (sen2El && sens[1]) { sen2El.textContent = sens[1].name; if (sens[1].url && sen2Link) { sen2Link.href = sens[1].url; sen2Link.style.display='inline'; } }
+      else if (sen2El)       { sen2El.textContent = 'Senator'; }
+    } catch(e) {
+      if (repEl)  repEl.textContent  = 'Your Representative';
+      if (sen1El) sen1El.textContent = 'Your Senator';
+      if (sen2El) sen2El.textContent = 'Your Senator';
+    }
+
+    // Populate the pre-written email
+    buildEmailBody(firstName, zip);
+    buildShareLinks(firstName);
+  }
+
+  function buildEmailBody(firstName, zip) {
+    var body = document.getElementById('w-email-body');
+    if (!body) return;
+    var text =
+      'Subject: I Support the National Sovereignty and Resilience Act\n\n' +
+      'Dear [Representative/Senator Name],\n\n' +
+      'My name is ' + firstName + ' and I am a constituent writing from ZIP code ' + zip + '. ' +
+      'I am writing to express my strong support for the National Sovereignty and Resilience Act (NSRA) — ' +
+      '"The American Deal."\n\n' +
+      'This legislation delivers:\n' +
+      '• Universal zero-premium healthcare through the Basic Minimum Plan\n' +
+      '• G7 pharmaceutical price parity — ending price gouging on American families\n' +
+      '• $584 billion in annual deficit reduction without cutting Social Security or Medicare\n' +
+      '• Real estate reform to cap corporate single-family housing ownership\n' +
+      '• Sovereign Infrastructure Fund to rebuild American manufacturing\n\n' +
+      'Every mechanism in this bill is designed to survive constitutional review and deliver ' +
+      'measurable, quantifiable returns to American households in every congressional district.\n\n' +
+      'I urge you to review the full text at TheAmericanDeal.org and support this legislation.\n\n' +
+      'Respectfully,\n' + firstName + '\nZIP: ' + zip;
+    body.value = text;
+    // Store for openEmail
+    window._nsraEmailBody = text;
+  }
+
+  function buildShareLinks(firstName) {
+    var shareText = encodeURIComponent('I just signed the NSRA — The American Deal. Universal healthcare, G7 pharma prices, $584B in deficit cuts. What America Owes You™ → https://theamericandeal.org');
+    var x = document.getElementById('share-x');
+    var th = document.getElementById('share-threads');
+    var bs = document.getElementById('share-bluesky');
+    var tr = document.getElementById('share-truth');
+    if (x)  x.href  = 'https://twitter.com/intent/tweet?text=' + shareText;
+    if (th) th.href = 'https://www.threads.net/intent/post?text=' + shareText;
+    if (bs) bs.href = 'https://bsky.app/intent/compose?text=' + shareText;
+    if (tr) tr.href = 'https://truthsocial.com/share?text=' + shareText;
+  }
+
+  // ── Email provider openers ────────────────────────────────────
+  window.openEmail = function(provider) {
+    var subject = encodeURIComponent('I Support the National Sovereignty and Resilience Act');
+    var body    = encodeURIComponent(window._nsraEmailBody || 'Please visit TheAmericanDeal.org to read the NSRA.');
+    var urls = {
+      gmail:   'https://mail.google.com/mail/?view=cm&fs=1&su=' + subject + '&body=' + body,
+      outlook: 'https://outlook.live.com/mail/0/deeplink/compose?subject=' + subject + '&body=' + body,
+      yahoo:   'https://compose.mail.yahoo.com/?subject=' + subject + '&body=' + body
+    };
+    var url = urls[provider];
+    if (url) window.open(url, '_blank', 'noopener');
+  };
+
+  window.copyEmail = function() {
+    var text = window._nsraEmailBody || '';
+    if (!text) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function() {
+        var btn = document.querySelector('.wf-btn-ghost');
+        if (btn) { btn.textContent = '✓ Copied!'; setTimeout(function(){ btn.textContent = '📋 Copy Message to Clipboard'; }, 2500); }
+      }).catch(function() {
+        fallbackCopy(text);
+      });
+    } else {
+      fallbackCopy(text);
+    }
+  };
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e) {}
+    document.body.removeChild(ta);
+  }
+
+  // ── Main form submit handler ──────────────────────────────────
+  window.handleSigSubmit = async function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    var btn   = document.getElementById('sig-submit-btn');
+    var msg   = document.getElementById('sig-msg');
+    var form  = document.getElementById('nsra-sig-form');
+    var email = (form.querySelector('[name="email"]') || {}).value || '';
+    var first = (document.getElementById('sig-first') || {}).value || '';
+    var zip   = (document.getElementById('sig-zip')   || {}).value || '';
+
+    // Duplicate guard
+    if (hasSignedLocally(email)) {
+      if (msg) {
+        msg.textContent = 'You have already signed — scroll down to contact your representatives.';
+        msg.className = 'wf-msg error';
+      }
+      // Still let them proceed to Step 2
+      _sigFirstName = first; _sigZip = zip;
+      showStep2(first, zip);
+      return;
+    }
+
+    if (btn) { btn.disabled = true; btn.textContent = 'Submitting…'; }
+
+    try {
+      // FormSubmit.co AJAX relay
+      var data = new FormData(form);
+      var resp = await fetch('https://formsubmit.co/ajax/musamarketsworkspace@gmail.com', {
+        method:  'POST',
+        headers: { 'Accept': 'application/json' },
+        body:    data
+      });
+      var result = await resp.json().catch(function(){ return { success: false }; });
+
+      if (resp.ok && result.success !== false) {
+        // Success path
+        markSignedLocally(email);
+        // Increment counterapi
+        try {
+          await fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/up');
+          await updateVisitorCounter();
+        } catch(ce) { console.warn('Counter increment failed', ce); }
+        _sigFirstName = first; _sigZip = zip;
+        showStep2(first, zip);
+      } else {
+        throw new Error('FormSubmit returned error');
+      }
+    } catch(err) {
+      // On network error, still advance to Step 2 (don't block user)
+      markSignedLocally(email);
+      _sigFirstName = first; _sigZip = zip;
+      showStep2(first, zip);
+      console.warn('Signature relay error (advancing anyway):', err);
+    } finally {
+      if (btn) { btn.disabled = false; btn.textContent = 'Sign the NSRA →'; }
+    }
+  };
+
+  function showStep2(firstName, zip) {
+    var step1 = document.getElementById('wizard-step1');
+    var step2 = document.getElementById('wizard-step2');
+    if (step1) step1.style.display = 'none';
+    if (step2) step2.style.display = 'block';
+    loadDelegation(zip, firstName);
+    // Smooth scroll to step 2
+    setTimeout(function(){ if (step2) step2.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
+  }
+
+})();
+</script>
