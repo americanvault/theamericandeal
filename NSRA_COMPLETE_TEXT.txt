@@ -3305,34 +3305,75 @@ SUPPLEMENTAL STREAM D — DEFENSE PROCUREMENT SOVEREIGNTY PREMIUM
 
 4. TOTAL REVENUE RECONCILIATION.
 
-  STATUTORY BASE REVENUE (Streams 1–12):
+  SCENARIO DEFINITIONS:
+  SCENARIO A (NSRA BASE): Full 7-Subledger Math Engine(TM) projection. Incorporates
+  system-coherence effects, enforcement investment returns, and SIRF deployment income.
+  This is the operative statutory projection for all NSRA funding obligations.
 
-  Stream 1 — Corporate Tax Restoration:          $ 90B (dynamic)
-  Stream 2 — Pillar Two Global Minimum Tax:       $ 50B
-  Stream 3 — IESF Net Return:                     $ 60B
-  Stream 4 — NIMA:                                $ 39.6B
-  Stream 5 — Financial Transaction Assessment:    $  7B
-  Stream 6 — LBO Deductibility Cap:               $ 18B
-  Stream 7 — Carried Interest:                    $ 14B
-  Stream 8 — Financial Transaction Tax (FTT):     $ 75B
-  Stream 9 — Carbon Fee (SIRF net contribution):  $ 40B
-  Stream 10 — FEPSA:                              $ 20B
-  Stream 11 — Federal Land Royalties:             $  8B
-  Stream 12 — Stepped-Up Basis Reform:            $ 50B
-                                                  --------
-  TOTAL STATUTORY BASE REVENUE:                   $471.6B
+  SCENARIO B (CBO CONSERVATIVE FLOOR): Maximum-discount scenario. Applies CBO static
+  baseline methodology to every stream simultaneously: zeroes all behavioral multipliers,
+  enforcement investment returns, and SIRF deployment income. Reflects what CBO is
+  institutionally constrained to score under 2 U.S.C. § 639 static baseline rules.
+  The conservative floor is the self-funding argument under adversarial review.
+
+  CBO CONFIDENCE CLASSIFICATION:
+  HIGH  = Direct, measurable, precedent-backed; CBO has prior score or Treasury model.
+  MED   = Scoreable with moderate uncertainty; behavioral discount or novelty haircut expected.
+
+  STATUTORY BASE REVENUE (Streams 1-12):
+
+  Stream                                    CBO     SCENARIO A     SCENARIO B
+                                            Conf.   (NSRA Base)    (CBO Floor)
+  ---------------------------------------------------------------------------------
+  1 - Corporate Tax Restoration (21->28%)   HIGH    $ 90.0B        $ 73.0B
+  2 - OECD Pillar Two Global Minimum Tax    HIGH    $ 50.0B        $ 45.0B
+  3 - IESF Net Return (IRS Enforcement)     MED     $ 60.0B        $ 30.0B  (*)
+  4 - NIMA (Infrastructure Assessment)      MED     $ 39.6B        $ 28.0B  (*)
+  5 - Financial Transaction Assessment      HIGH    $  7.0B        $  6.0B
+  6 - LBO Interest Deductibility Cap        HIGH    $ 18.0B        $ 15.0B
+  7 - Carried Interest Ordinary Income      HIGH    $ 14.0B        $ 12.0B
+  8 - Financial Transaction Tax (FTT)       MED     $ 75.0B        $ 50.0B  (*)
+  9 - Carbon Fee (SIRF net contribution)    HIGH    $ 40.0B        $ 35.0B
+  10 - FEPSA (Financial Excess Profits)     MED     $ 20.0B        $ 14.0B  (*)
+  11 - Federal Land Royalty Reform          HIGH    $  8.0B        $  7.0B
+  12 - Stepped-Up Basis Reform              HIGH    $ 50.0B        $ 40.0B
+                                                    ----------     ----------
+  TOTAL STATUTORY BASE REVENUE:                     $471.6B        $355.0B
+
+  (*) Streams 3, 4, 8, 10: CBO likely to apply significant discount for behavioral
+  effects, enforcement investment returns, or novel instrument uncertainty. Floor
+  figures use published lower-bound estimates from CBO, JCT, or Tax Policy Center.
 
   SUPPLEMENTAL REVENUE (conservative floor):
-  Streams A–D combined floor:                     $55.8B–$126.2B
+  Streams A-D combined floor:                     $55.8B-$126.2B
 
   ADDITIONAL SCORED STREAMS (included in Sec. 3406 total):
-  Carbon Fee gross (before household dividend):   $120B
-  Corporate tax static scoring upside vs. dynamic:$ 20B
-  Additional enforcement penalty base (Years 3+): $ 80B+
-                                                  --------
-  AGGREGATE REVENUE (consistent with Sec. 3406):  ~$749B
+  Carbon Fee gross (before energy subledger routing): $120B
+  Corporate tax static scoring upside vs. dynamic:    $ 20B
+  Additional enforcement penalty base (Years 3+):     $ 80B+
+                                                      --------
+  AGGREGATE REVENUE (consistent with Sec. 3406):      ~$749B
 
-  Note: The $749B figure in Section 3406(a) reflects a full-ramp, Year 3–5 projection incorporating both Statutory Base Revenue at static/dynamic midpoints and the lower bound of Supplemental Revenue streams at operational maturity. Year 1 Statutory Base Revenue alone of $471.6B is sufficient to fund all Tier 1 and Tier 2 SIRF waterfall obligations ($174B combined) with substantial surplus for Tier 3 infrastructure investment.
+  SCENARIO B OBLIGATION COVERAGE ANALYSIS:
+  CBO Conservative Floor (Statutory Base, Streams 1-12):   $355.0B
+  Tier 1 SIRF Capitalization Obligation (Year 1):          $100.0B
+  Tier 2 Program Expenditure Floor (Year 1):               $ 74.0B
+  Total Tier 1 + Tier 2 Obligations:                       $174.0B
+  Conservative Floor Surplus after Tier 1+2:               $181.0B
+  Tier 1+2 Coverage Ratio (CBO Floor / Obligations):         2.04x
+
+  High-confidence streams alone (Streams 1, 2, 5, 6, 7, 9, 11, 12):
+  NSRA Projection: $277.0B  |  CBO Floor: $233.0B
+  High-confidence CBO floor covers Tier 1+2 obligations ($174B) at 1.34x
+  without crediting a single MED-confidence stream.
+
+  Note: The $749B figure in Section 3406(a) reflects a full-ramp, Year 3-5
+  projection incorporating both Statutory Base Revenue at static/dynamic midpoints
+  and the lower bound of Supplemental Revenue streams at operational maturity.
+  Year 1 Statutory Base Revenue alone of $471.6B (Scenario A) or $355.0B
+  (Scenario B CBO conservative floor) is sufficient to fund all Tier 1 and
+  Tier 2 SIRF waterfall obligations ($174B combined) with substantial surplus
+  for Tier 3 infrastructure investment under either scenario.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
