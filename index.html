@@ -898,6 +898,12 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
       <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-insulin" onchange="calcBenefits()" style="accent-color:var(--green)"/> Use insulin or high-cost prescriptions</label>
       <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-veteran" onchange="calcBenefits()" style="accent-color:var(--green)"/> Household includes a veteran</label>
       <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-newborn" onchange="calcBenefits()" style="accent-color:var(--green)"/> Expecting or recently had a child</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-insured" onchange="calcBenefits()" style="accent-color:var(--blue)"/> Have employer-sponsored health insurance</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-drugs" onchange="calcBenefits()" style="accent-color:var(--blue)"/> Take any prescription medications (not insulin)</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-renter" onchange="calcBenefits()" style="accent-color:var(--blue)"/> Pay rent in a major metro area</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-homebuyer" onchange="calcBenefits()" style="accent-color:var(--amber)"/> First-time homebuyer or saving for down payment</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-smallbiz" onchange="calcBenefits()" style="accent-color:var(--amber)"/> Own or operate a small business</label>
+      <label style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);cursor:pointer"><input type="checkbox" id="calc-senior" onchange="calcBenefits()" style="accent-color:var(--green)"/> Household includes someone 65+ (Medicare)</label>
     </div>
     <div id="calc-results" style="display:none">
       <hr/>
@@ -1116,22 +1122,133 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     const insulin = document.getElementById('calc-insulin').checked;
     const veteran = document.getElementById('calc-veteran').checked;
     const newborn = document.getElementById('calc-newborn').checked;
+    const insured = document.getElementById('calc-insured').checked;
+    const drugs = document.getElementById('calc-drugs').checked;
+    const renter = document.getElementById('calc-renter').checked;
+    const homebuyer = document.getElementById('calc-homebuyer').checked;
+    const smallbiz = document.getElementById('calc-smallbiz').checked;
+    const senior = document.getElementById('calc-senior').checked;
     const stateCode = document.getElementById('calc-state').value;
     if(stateCode) showStateProfile(stateCode);
-    if(income===0 && !uninsured && !loans && !insulin && !veteran && !newborn){document.getElementById('calc-results').style.display='none';return;}
+    const anyChecked = uninsured||loans||insulin||veteran||newborn||insured||drugs||renter||homebuyer||smallbiz||senior;
+    if(income===0 && !anyChecked){document.getElementById('calc-results').style.display='none';return;}
     document.getElementById('calc-results').style.display='block';
-    let items=[], total=0;
-    if(uninsured){const bmpVal=6000+(size>1?(size-1)*2000:0);items.push({label:'BMP Health Coverage',val:bmpVal,color:'var(--blue)',note:'$0 premium · $0 deductible · Year 1'});total+=bmpVal;}
-    if(loans){const loanSave=2400;items.push({label:'Student Loan Interest',val:loanSave,color:'var(--blue)',note:'Zero-interest conversion · Year 1'});total+=loanSave;}
-    if(insulin){const drugSave=3600;items.push({label:'Prescription Drug Savings',val:drugSave,color:'var(--green)',note:'G7 parity pricing · est. avg savings'});total+=drugSave;}
-    if(veteran && uninsured){items.push({label:'Veteran BMP Coverage',val:0,color:'var(--amber)',note:'Included in BMP above — $0 cost'});}
-    else if(veteran && !uninsured){items.push({label:'Veteran PACT Gap Coverage',val:0,color:'var(--amber)',note:'Non-service conditions now covered'});}
-    if(newborn){const cpt=5000;items.push({label:'Child Prosperity Trust',val:cpt,color:'var(--green)',note:'$5,000 at birth · one-time deposit'});total+=cpt;}
-    if(children>0){const childTax=children*2000;items.push({label:'Child Tax Credit Enhancement',val:childTax,color:'var(--green)',note:fmt(2000)+'/child · refundable · Year 1'});total+=childTax;}
-    const cards = items.map(i=>`<div style="background:var(--bg-base);border:1px solid var(--border);border-radius:8px;padding:10px 12px"><div style="font-size:10px;color:var(--muted)">${i.label}</div><div style="font-size:18px;font-weight:800;color:${i.color};margin:3px 0">${i.val>0?fmt(i.val):'Covered'}</div><div style="font-size:9px;color:var(--muted)">${i.note}</div></div>`).join('');
-    document.getElementById('calc-cards').innerHTML=cards;
-    document.getElementById('calc-total').textContent=fmt(total)+'/yr';
-    document.getElementById('calc-apd-note').innerHTML='All benefits shown activate Year 1 upon enactment. No phase gates required.';
+    let items=[], total=0, structuralItems=[];
+
+    // ── DIRECT CASH / SAVINGS BENEFITS ──────────────────────────────────────
+    if(uninsured){
+      const bmpVal=6000+(size>1?(size-1)*2000:0);
+      items.push({label:'BMP Health Coverage',val:bmpVal,color:'var(--blue)',note:'$0 premium · $0 deductible · Year 1'});
+      total+=bmpVal;
+    }
+    if(insured && !uninsured){
+      // Insured households benefit from: employer premium reduction (employers no longer pay uncompensated care surcharge embedded in group rates), zero cost-sharing, no surprise billing
+      // Conservative: $600–1200/yr in reduced premium growth + eliminated cost-sharing surprises
+      const premiumRelief = Math.round(800 * size * 0.4); // 40% of $800/person premium growth stopped
+      items.push({label:'Health Premium Pressure Relief',val:premiumRelief,color:'var(--blue)',note:'Employer rate growth slows · BMP floors competition'});
+      total+=premiumRelief;
+    }
+    if(loans){
+      // Average federal loan balance $37K at ~6.5% = $2,405/yr interest → zero
+      const loanSave=2400;
+      items.push({label:'Student Loan Interest Eliminated',val:loanSave,color:'var(--blue)',note:'Zero-interest conversion · Year 1 · avg $37K balance'});
+      total+=loanSave;
+    }
+    if(insulin){
+      const drugSave=3600;
+      items.push({label:'Insulin / High-Cost Rx Savings',val:drugSave,color:'var(--green)',note:'G7 parity pricing · $35 insulin cap · est. avg savings'});
+      total+=drugSave;
+    }
+    if(drugs && !insulin){
+      // Average American on Rx drugs spends $1,200+/yr. G7 prices are ~70% lower on average.
+      // Conservative: $840/yr savings per household member on chronic meds
+      const rxSave = Math.round(840 * Math.max(1, size*0.6));
+      items.push({label:'Prescription Drug Savings (G7 Parity)',val:rxSave,color:'var(--green)',note:'All Rx priced at G7 median — avg 60–70% reduction'});
+      total+=rxSave;
+    }
+    if(veteran && uninsured){
+      items.push({label:'Veteran BMP Coverage',val:0,color:'var(--amber)',note:'Included in BMP above — $0 cost · all PACT gaps filled'});
+    } else if(veteran && !uninsured){
+      // PACT Act gap closure + dental/vision/hearing now covered
+      const vetVal=1800;
+      items.push({label:'Veteran Coverage Expansion',val:vetVal,color:'var(--amber)',note:'PACT Act gaps filled · dental · vision · hearing'});
+      total+=vetVal;
+    }
+    if(senior){
+      // Medicare dental/vision/hearing expansion. Current out-of-pocket: dental avg $1,400/yr, vision $200, hearing $500+
+      const seniorVal=2100;
+      items.push({label:'Medicare Dental · Vision · Hearing',val:seniorVal,color:'var(--green)',note:'Currently uncovered — added to Medicare Year 1'});
+      total+=seniorVal;
+    }
+    if(newborn){
+      const cpt=5000;
+      items.push({label:'Child Prosperity Trust Deposit',val:cpt,color:'var(--green)',note:'$5,000 at birth · SIRF-funded · grows to $32K+ by 18'});
+      total+=cpt;
+    }
+    if(children>0){
+      const childTax=children*2000;
+      items.push({label:'Child Tax Credit Enhancement',val:childTax,color:'var(--green)',note:fmt(2000)+'/child · refundable · Year 1'});
+      total+=childTax;
+    }
+
+    // ── HOUSING ──────────────────────────────────────────────────────────────
+    if(renter){
+      // Title XIV PE cap projected 8% rent reduction in top-50 MSAs within 5 years
+      // Conservative 5-yr average: 4% reduction. Median metro rent $1,800/mo = $21,600/yr → $864 savings
+      const rentSave = Math.round(21600 * 0.04);
+      items.push({label:'Rent Reduction (Housing Sovereignty)',val:rentSave,color:'var(--amber)',note:'PE portfolio cap · est. 4–8% reduction in major metros'});
+      total+=rentSave;
+    }
+    if(homebuyer){
+      // Shelter Sovereignty Fund: up to $20K down payment assistance
+      // One-time, not annual — show as structural benefit
+      structuralItems.push({label:'Down Payment Assistance',val:20000,color:'var(--amber)',note:'Up to $20,000 · Shelter Sovereignty Fund · one-time'});
+    }
+
+    // ── SMALL BUSINESS ───────────────────────────────────────────────────────
+    if(smallbiz){
+      // Small businesses benefit from: (1) reduced employee healthcare cost (BMP covers the floor, employer only pays supplemental)
+      // (2) Vanguard Entity grants/loans (3) wage floor simplification
+      // Conservative: $3K–8K/yr reduction in per-employee health contribution for businesses currently providing insurance
+      const bizVal = 4500;
+      items.push({label:'Small Business Healthcare Savings',val:bizVal,color:'var(--amber)',note:'BMP covers the floor — employer stops paying basic coverage'});
+      total+=bizVal;
+    }
+
+    // ── STRUCTURAL / UNIVERSAL (income-blind) ────────────────────────────────
+    // Every household gets pharma savings through insurance premiums even if not on Rx
+    if(!insulin && !drugs && income>0){
+      const pharmaPassThrough = Math.round(1200 * (size/4)); // $1,200/yr per family of 4 in reduced plan costs
+      structuralItems.push({label:'Pharma Cost Pass-Through',val:pharmaPassThrough,color:'var(--green)',note:'G7 pricing reduces insurance premiums for all plan holders'});
+    }
+    // Universal energy cost offset from AI data commons tariff
+    if(income>0){
+      const energyCredit = 120 * Math.ceil(size/2); // ~$120/meter per household, scaled by size
+      structuralItems.push({label:'NSRA Sovereign Infrastructure Credit',val:energyCredit,color:'var(--blue)',note:'Energy Sovereignty Node → utility bill credit · all households'});
+    }
+    // Debt reduction — every household benefits from $584B/yr surplus → lower borrowing costs
+    if(income >= 75000){
+      const debtBenefit = Math.round(income * 0.003); // 30 bps interest rate improvement on mortgage/auto/HELOC
+      structuralItems.push({label:'Lower Borrowing Costs (Debt Reduction)',val:debtBenefit,color:'var(--blue)',note:'$584B/yr surplus → federal borrowing declines → lower mortgage & auto rates'});
+    }
+
+    // ── INCOME-TIER MESSAGING ────────────────────────────────────────────────
+    let tierNote = '';
+    if(income >= 150000){
+      tierNote = 'Higher-income households see structural returns: pharmaceutical savings embedded in insurance premiums, lower federal borrowing costs reducing mortgage rates, housing market stabilization, and universal infrastructure credits. The NSRA's fiscal architecture reduces the deficit pressure that drives future tax increases.';
+    } else if(income >= 75000){
+      tierNote = 'Middle-income households benefit most from healthcare cost relief, pharmaceutical savings, housing reform, and the elimination of cost-sharing surprises. The structural value often exceeds the direct transfer value.';
+    } else {
+      tierNote = 'All benefits shown activate Year 1 upon enactment. No phase gates required for direct household benefits.';
+    }
+
+    // ── RENDER ───────────────────────────────────────────────────────────────
+    const card = i => `<div style="background:var(--bg-base);border:1px solid var(--border);border-radius:8px;padding:10px 12px"><div style="font-size:10px;color:var(--muted)">${i.label}</div><div style="font-size:18px;font-weight:800;color:${i.color};margin:3px 0">${i.val>0?fmt(i.val):'Covered'}</div><div style="font-size:9px;color:var(--muted)">${i.note}</div></div>`;
+    const structCard = i => `<div style="background:var(--bg-base);border:1px solid rgba(100,120,200,0.3);border-radius:8px;padding:10px 12px;opacity:0.85"><div style="font-size:9px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em">Structural</div><div style="font-size:10px;color:var(--muted)">${i.label}</div><div style="font-size:16px;font-weight:700;color:${i.color};margin:3px 0">${i.val>0?fmt(i.val):'Covered'}</div><div style="font-size:9px;color:var(--muted)">${i.note}</div></div>`;
+    const structTotal = structuralItems.reduce((s,i)=>s+i.val,0);
+    document.getElementById('calc-cards').innerHTML = items.map(card).join('') + structuralItems.map(structCard).join('');
+    document.getElementById('calc-total').textContent = fmt(total + structTotal)+'/yr';
+    document.getElementById('calc-apd-note').innerHTML = tierNote;
   }
   </script>
 
@@ -4337,5 +4454,4 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
   function hasSignedLocally(email) {
     try { return !!localStorage.getItem(emailKey(email.toLowerCase())); } catch(e) { return false; }
   }
-  function markSignedLocally(email) {
-    try { localStorage.setItem(emailKey(                                                                                                          
+  function markSig
