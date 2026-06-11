@@ -653,7 +653,8 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
       <span style="font-size:12px;font-weight:600;color:var(--text)">Click any state for its NSRA impact profile</span>
       <div style="display:flex;gap:0">
         <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--green);background:var(--green);color:#000;border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
-        <button id="btn-party" onclick="setMapMode('party')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">2024 Political Map</button>
+        <button id="btn-party" onclick="setMapMode('party')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">2024 Presidential</button>
+        <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">Governors 2026</button>
       </div>
     </div>
     <div id="map-legend-impact" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
@@ -665,7 +666,12 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     <div id="map-legend-party" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
       <span><span style="display:inline-block;width:10px;height:10px;background:#DC2626;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Trump 2024</span>
       <span><span style="display:inline-block;width:10px;height:10px;background:#2563EB;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Harris 2024</span>
-      <span style="color:var(--muted);font-style:italic">Note: darkest red/blue states = highest NSRA impact</span>
+      <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
+    </div>
+    <div id="map-legend-gov" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
+      <span><span style="display:inline-block;width:10px;height:10px;background:#B91C1C;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Republican Governor</span>
+      <span><span style="display:inline-block;width:10px;height:10px;background:#1D4ED8;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Democratic Governor</span>
+      <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
     </div>
     <div id="map-tooltip" style="position:fixed;display:none;background:rgba(13,15,20,0.95);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:11px;pointer-events:none;z-index:999;min-width:160px"></div>
     <svg id="us-map" style="width:100%;height:auto;display:block;border-radius:6px;background:var(--bg-elevated)"></svg>
@@ -693,30 +699,28 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     '46':'SD','47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV',
     '55':'WI','56':'WY'
   };
-  // ── Composite impact scoring ────────────────────────────────────────────────
-  // TIERS is computed dynamically from STATE_DATA after it is defined (in the D3 callback).
-  // Scoring: 60% need intensity (poverty rate, income inverse, insurer MLR inverse) +
-  //          40% absolute volume (uninsured, snap, loans, vets, renters, uncomp care, hospitals).
-  // Quartile assignment over all 50 states produces 4 equal bands.
+
+  // ── Composite impact scoring ─────────────────────────────────────────────────
+  // Computed after STATE_DATA is available (called inside fetch .then to guarantee timing).
   let TIERS = {};
-  function computeTiers() {
-    if (typeof STATE_DATA === 'undefined') return;
-    const pos  = ['uninsured','snap','loans','vets','renters_k','uncomp_B','hosp'];
-    const all  = ['poverty_pct','income','insurer_mlr',...pos];
-    const mn   = {}, mx = {};
+  function computeTiers(sd) {
+    if (!sd || !Object.keys(sd).length) return;
+    const pos = ['uninsured','snap','loans','vets','renters_k','uncomp_B','hosp'];
+    const all = ['poverty_pct','income','insurer_mlr',...pos];
+    const mn = {}, mx = {};
     all.forEach(f => {
-      const vals = Object.values(STATE_DATA).map(d => d[f]);
+      const vals = Object.values(sd).map(d => d[f]).filter(v => v != null);
       mn[f] = Math.min(...vals); mx[f] = Math.max(...vals);
     });
-    const norm = (v,f) => (mx[f]===mn[f]) ? 0 : (v-mn[f])/(mx[f]-mn[f]);
+    const norm = (v,f) => (mx[f]===mn[f]) ? 0 : (v - mn[f]) / (mx[f] - mn[f]);
     const scores = {};
-    Object.entries(STATE_DATA).forEach(([code,d]) => {
+    Object.entries(sd).forEach(([code,d]) => {
       const rateScore = (
         norm(d.poverty_pct,'poverty_pct') * 1.5
         + (1 - norm(d.income,'income'))
         + (1 - norm(d.insurer_mlr,'insurer_mlr'))
       ) / 3.5;
-      const absScore = pos.reduce((s,f) => s + norm(d[f],f), 0) / pos.length;
+      const absScore = pos.reduce((s,f) => s + norm(d[f]||0, f), 0) / pos.length;
       scores[code] = 0.60 * rateScore + 0.40 * absScore;
     });
     const sorted = Object.keys(scores).sort((a,b) => scores[b] - scores[a]);
@@ -725,87 +729,12 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
       TIERS[code] = i < n/4 ? 'very-high' : i < n/2 ? 'high' : i < 3*n/4 ? 'medium' : 'lower';
     });
   }
-  const TIER_COLORS = {'very-high':'#166534','high':'#16a34a','medium':'#22C55E','lower':'#4ADE80'};
-  const TIER_LABELS = {'very-high':'Highest Impact','high':'High Impact','medium':'Moderate Impact','lower':'Lower Impact'};
 
-  const svg = document.getElementById('us-map');
-  const tip = document.getElementById('map-tooltip');
+  const TIER_COLORS   = {'very-high':'#166534','high':'#16a34a','medium':'#22C55E','lower':'#4ADE80'};
+  const TIER_LABELS   = {'very-high':'Very High Impact','high':'High Impact','medium':'Moderate Impact','lower':'Baseline Impact'};
+  const TIER_INTENSITY = {'very-high':1,'high':0.8,'medium':0.6,'lower':0.45};
 
-  // Load D3 + topojson then draw
-  function loadScript(src,cb){const s=document.createElement('script');s.src=src;s.onload=cb;document.head.appendChild(s);}
-
-  loadScript('https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js', function(){
-    loadScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js', function(){
-      fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
-        .then(r=>r.json())
-        .then(us=>{
-          computeTiers();
-          const W = svg.parentElement.clientWidth - 40 || 800;
-          const H = Math.round(W * 0.62);
-          svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-          svg.setAttribute('height', H);
-
-          const proj = d3.geoAlbersUsa().fitSize([W, H], topojson.feature(us, us.objects.states));
-          const path = d3.geoPath().projection(proj);
-          const states = topojson.feature(us, us.objects.states).features;
-          const d3svg = d3.select(svg);
-
-          d3svg.selectAll('path')
-            .data(states)
-            .join('path')
-            .attr('d', path)
-            .attr('fill', d => {
-              const id = String(d.id).padStart(2,'0');
-              const code = FIPS[id];
-              return TIER_COLORS[TIERS[code]] || '#1E2128';
-            })
-            .attr('stroke', '#0D0F14')
-            .attr('stroke-width', 0.5)
-            .style('cursor','pointer')
-            .on('mouseenter', function(event, d){
-              const id = String(d.id).padStart(2,'0');
-              const code = FIPS[id];
-              const sd = typeof STATE_DATA !== 'undefined' && STATE_DATA[code];
-              const baseColor = (typeof mapMode!=='undefined' && mapMode==='party') ? getPartyColor(code) : (TIER_COLORS[TIERS[code]]||'#1E2128');
-              d3.select(this).attr('fill', d3.color(baseColor).brighter(0.35).formatHex());
-              if(sd){
-                const partyLine = (typeof PARTY!=='undefined' && typeof mapMode!=='undefined' && mapMode==='party')
-                    ? '<br/><span style="color:'+(PARTY[code]?'#f87171':'#60a5fa')+'">'+(PARTY[code]?'Voted Trump 2024':'Voted Harris 2024')+'</span>' : '';
-                tip.innerHTML = '<strong style="color:#F1F5F9;font-size:12px">'+sd.name+'</strong><br/>'
-                  +'<span style="color:#94A3B8">NSRA Impact: '+TIER_LABELS[TIERS[code]]+'</span>'
-                  +partyLine+'<br/>'
-                  +'<span style="color:#22C55E">'+sd.uninsured+'M uninsured → BMP</span><br/>'
-                  +'<span style="color:#94A3B8">'+sd.loans+'M student borrowers</span><br/>'
-                  +'<span style="color:#F59E0B">'+sd.vets+'M veterans</span><br/>'
-                  +'<span style="color:#94A3B8;font-size:9px">Click for full impact profile</span>';
-                tip.style.display='block';
-              }
-            })
-            .on('mousemove', function(event){
-              tip.style.left=(event.clientX+14)+'px';
-              tip.style.top=(event.clientY-10)+'px';
-            })
-            .on('mouseleave', function(event, d){
-              const id = String(d.id).padStart(2,'0');
-              const code = FIPS[id];
-              const restoreColor = (typeof mapMode!=='undefined' && mapMode==='party') ? getPartyColor(code) : (TIER_COLORS[TIERS[code]]||'#1E2128');
-              d3.select(this).attr('fill', restoreColor);
-              tip.style.display='none';
-            })
-            .on('click', function(event, d){
-              const id = String(d.id).padStart(2,'0');
-              const code = FIPS[id];
-              if(code && typeof selectState==='function') selectState(code);
-            });
-        })
-        .catch(()=>{
-          svg.parentElement.insertAdjacentHTML('beforeend','<p style="color:var(--muted);font-size:12px;padding:12px">Map requires internet connection to load. Use the state dropdown in the calculator above.</p>');
-          svg.style.display='none';
-        });
-    });
-  });
-
-  // 2024 presidential results — true = Trump, false = Harris
+  // ── 2024 Presidential — true = Trump, false = Harris ─────────────────────────
   const PARTY = {
     AL:true,AK:true,AZ:true,AR:true,FL:true,GA:true,ID:true,IN:true,IA:true,
     KS:true,KY:true,LA:true,MI:true,MS:true,MO:true,MT:true,NE:true,NC:true,
@@ -815,41 +744,179 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
     ME:false,MN:false,NJ:false,NM:false,NY:false,OR:false,RI:false,VA:false,
     VT:false,WA:false,NH:false
   };
-  // Impact tier for shading intensity in party mode
-  const TIER_INTENSITY = {'very-high':1,'high':0.8,'medium':0.6,'lower':0.45};
+
+  // ── Governors 2026 — 'R' = Republican, 'D' = Democrat ────────────────────────
+  const GOV = {
+    AL:'R',AK:'R',AZ:'R',AR:'R',CA:'D',CO:'D',CT:'D',DE:'D',
+    FL:'R',GA:'R',HI:'D',ID:'R',IL:'D',IN:'R',IA:'R',KS:'R',
+    KY:'R',LA:'R',ME:'D',MD:'D',MA:'R',MI:'D',MN:'D',MS:'R',
+    MO:'R',MT:'R',NE:'R',NV:'D',NH:'R',NJ:'D',NM:'D',NY:'D',
+    NC:'D',ND:'R',OH:'R',OK:'R',OR:'D',PA:'D',RI:'D',SC:'R',
+    SD:'R',TN:'R',TX:'R',UT:'R',VT:'R',VA:'D',WA:'D',WV:'R',
+    WI:'D',WY:'R'
+  };
+  const GOV_NAME = {
+    AL:'Kay Ivey',AK:'Mike Dunleavy',AZ:'Katie Hobbs',AR:'Sarah Huckabee Sanders',
+    CA:'Gavin Newsom',CO:'Jared Polis',CT:'Ned Lamont',DE:'Matt Meyer',
+    FL:'Ron DeSantis',GA:'Brian Kemp',HI:'Josh Green',ID:'Brad Little',
+    IL:'JB Pritzker',IN:'Mike Braun',IA:'Kim Reynolds',KS:'Laura Kelly',
+    KY:'Andy Beshear',LA:'Jeff Landry',ME:'Janet Mills',MD:'Wes Moore',
+    MA:'Maura Healey',MI:'Gretchen Whitmer',MN:'Tim Walz',MS:'Tate Reeves',
+    MO:'Mike Kehoe',MT:'Greg Gianforte',NE:'Jim Pillen',NV:'Joe Lombardo',
+    NH:'Kelly Ayotte',NJ:'Phil Murphy',NM:'Michelle Lujan Grisham',NY:'Kathy Hochul',
+    NC:'Josh Stein',ND:'Kelly Armstrong',OH:'Mike DeWine',OK:'Kevin Stitt',
+    OR:'Tina Kotek',PA:'Josh Shapiro',RI:'Dan McKee',SC:'Henry McMaster',
+    SD:'Kristi Noem',TN:'Bill Lee',TX:'Greg Abbott',UT:'Spencer Cox',
+    VT:'Phil Scott',VA:'Glenn Youngkin',WA:'Bob Ferguson',WV:'Patrick Morrisey',
+    WI:'Tony Evers',WY:'Mark Gordon'
+  };
+
   let mapMode = 'impact';
 
-  function getPartyColor(code){
+  function getPartyColor(code) {
     const trump = PARTY[code];
     const intensity = TIER_INTENSITY[TIERS[code]] || 0.5;
-    if(trump === undefined) return '#1E2128';
-    if(trump){
-      // Red — darker = higher NSRA need (the key marketing insight)
-      const r = Math.round(180 + intensity*60);
-      const g = Math.round(20 + intensity*10);
-      return 'rgb('+r+','+g+',30)';
+    if (trump === undefined) return '#2A2F3B';
+    if (trump) {
+      const r = Math.round(160 + intensity * 75);
+      const g = Math.round(15 + intensity * 10);
+      return 'rgb('+r+','+g+',28)';
     } else {
-      const b = Math.round(150 + intensity*80);
-      const g = Math.round(60 + intensity*30);
-      return 'rgb(30,'+g+','+b+')';
+      const b = Math.round(140 + intensity * 90);
+      const g = Math.round(50 + intensity * 30);
+      return 'rgb(22,'+g+','+b+')';
     }
   }
 
-  window.setMapMode = function(mode){
-    mapMode = mode;
-    document.getElementById('map-legend-impact').style.display = mode==='impact'?'flex':'none';
-    document.getElementById('map-legend-party').style.display = mode==='party'?'flex':'none';
-    document.getElementById('btn-impact').style.background = mode==='impact'?'var(--green)':'var(--bg-elevated)';
-    document.getElementById('btn-impact').style.color = mode==='impact'?'#000':'var(--muted)';
-    document.getElementById('btn-impact').style.borderColor = mode==='impact'?'var(--green)':'var(--border)';
-    document.getElementById('btn-party').style.background = mode==='party'?'var(--red)':'var(--bg-elevated)';
-    document.getElementById('btn-party').style.color = mode==='party'?'#fff':'var(--muted)';
-    document.getElementById('btn-party').style.borderColor = mode==='party'?'var(--red)':'var(--border)';
-    d3.select('#us-map').selectAll('path').attr('fill', function(d){
-      const id = String(d.id).padStart(2,'0');
-      const code = FIPS[id];
-      return mode==='party' ? getPartyColor(code) : (TIER_COLORS[TIERS[code]]||'#1E2128');
+  function getGovColor(code) {
+    const party = GOV[code];
+    const intensity = TIER_INTENSITY[TIERS[code]] || 0.5;
+    if (!party) return '#2A2F3B';
+    if (party === 'R') {
+      const r = Math.round(155 + intensity * 80);
+      const g = Math.round(12 + intensity * 10);
+      return 'rgb('+r+','+g+',25)';
+    } else {
+      const b = Math.round(135 + intensity * 95);
+      const g = Math.round(45 + intensity * 35);
+      return 'rgb(18,'+g+','+b+')';
+    }
+  }
+
+  function getFillColor(code) {
+    if (mapMode === 'party') return getPartyColor(code);
+    if (mapMode === 'gov')   return getGovColor(code);
+    return TIER_COLORS[TIERS[code]] || '#2A2F3B';
+  }
+
+  const svg = document.getElementById('us-map');
+  const tip = document.getElementById('map-tooltip');
+
+  function loadScript(src, cb) {
+    const s = document.createElement('script');
+    s.src = src; s.onload = cb; document.head.appendChild(s);
+  }
+
+  loadScript('https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js', function(){
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js', function(){
+      fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json')
+        .then(r => r.json())
+        .then(us => {
+          // Resolve STATE_DATA — it lives in the adjacent script block (global const)
+          const sd = (typeof STATE_DATA !== 'undefined') ? STATE_DATA : (window.STATE_DATA || {});
+          computeTiers(sd);
+
+          const W = svg.parentElement.clientWidth - 40 || 800;
+          const H = Math.round(W * 0.62);
+          svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+          svg.setAttribute('height', H);
+
+          const proj  = d3.geoAlbersUsa().fitSize([W, H], topojson.feature(us, us.objects.states));
+          const pathFn = d3.geoPath().projection(proj);
+          const states = topojson.feature(us, us.objects.states).features;
+          const d3svg  = d3.select(svg);
+
+          d3svg.selectAll('path')
+            .data(states)
+            .join('path')
+            .attr('d', pathFn)
+            .attr('fill', d => {
+              const code = FIPS[String(d.id).padStart(2,'0')];
+              return getFillColor(code);
+            })
+            .attr('stroke', '#0D0F14')
+            .attr('stroke-width', 0.5)
+            .style('cursor', 'pointer')
+            .on('mouseenter', function(event, d) {
+              const code = FIPS[String(d.id).padStart(2,'0')];
+              const sdState = sd[code];
+              const base = getFillColor(code);
+              const brighter = d3.color(base);
+              if (brighter) d3.select(this).attr('fill', brighter.brighter(0.4).formatHex());
+              if (sdState) {
+                const govLine = (mapMode === 'gov' && GOV[code])
+                  ? '<br/><span style="color:'+(GOV[code]==='R'?'#f87171':'#60a5fa')+'">Gov. '+GOV_NAME[code]+' ('+GOV[code]+')</span>' : '';
+                const partyLine = (mapMode === 'party')
+                  ? '<br/><span style="color:'+(PARTY[code]?'#f87171':'#60a5fa')+'">'+(PARTY[code]?'Voted Trump 2024':'Voted Harris 2024')+'</span>' : '';
+                tip.innerHTML = '<strong style="color:#F1F5F9;font-size:12px">'+sdState.name+'</strong><br/>'
+                  +'<span style="color:#94A3B8">NSRA Impact: '+TIER_LABELS[TIERS[code]]+'</span>'
+                  +partyLine+govLine+'<br/>'
+                  +'<span style="color:#22C55E">'+sdState.uninsured+'M uninsured → BMP</span><br/>'
+                  +'<span style="color:#94A3B8">'+sdState.loans+'M student borrowers</span><br/>'
+                  +'<span style="color:#F59E0B">'+sdState.vets+'M veterans</span><br/>'
+                  +'<span style="color:#94A3B8;font-size:9px">Click for full impact profile</span>';
+                tip.style.display = 'block';
+              }
+            })
+            .on('mousemove', function(event) {
+              tip.style.left = (event.clientX + 14) + 'px';
+              tip.style.top  = (event.clientY - 10) + 'px';
+            })
+            .on('mouseleave', function(event, d) {
+              const code = FIPS[String(d.id).padStart(2,'0')];
+              d3.select(this).attr('fill', getFillColor(code));
+              tip.style.display = 'none';
+            })
+            .on('click', function(event, d) {
+              const code = FIPS[String(d.id).padStart(2,'0')];
+              if (code && typeof selectState === 'function') selectState(code);
+            });
+        })
+        .catch(() => {
+          svg.parentElement.insertAdjacentHTML('beforeend','<p style="color:var(--muted);font-size:12px;padding:12px">Map requires internet connection to load. Use the state dropdown below.</p>');
+          svg.style.display = 'none';
+        });
     });
+  });
+
+  window.setMapMode = function(mode) {
+    mapMode = mode;
+    // Legend visibility
+    ['impact','party','gov'].forEach(m => {
+      const el = document.getElementById('map-legend-'+m);
+      if (el) el.style.display = (m === mode) ? 'flex' : 'none';
+    });
+    // Button states
+    const btns = {
+      'btn-impact': { activeMode:'impact', activeColor:'var(--green)', activeText:'#000' },
+      'btn-party':  { activeMode:'party',  activeColor:'#B91C1C',     activeText:'#fff' },
+      'btn-gov':    { activeMode:'gov',    activeColor:'#7C3AED',     activeText:'#fff' },
+    };
+    Object.entries(btns).forEach(([id, cfg]) => {
+      const btn = document.getElementById(id);
+      if (!btn) return;
+      const active = (cfg.activeMode === mode);
+      btn.style.background   = active ? cfg.activeColor : 'var(--bg-elevated)';
+      btn.style.color        = active ? cfg.activeText  : 'var(--muted)';
+      btn.style.borderColor  = active ? cfg.activeColor : 'var(--border)';
+    });
+    // Redraw fills
+    if (typeof d3 !== 'undefined') {
+      d3.select('#us-map').selectAll('path').attr('fill', function(d) {
+        const code = FIPS[String(d.id).padStart(2,'0')];
+        return getFillColor(code);
+      });
+    }
   };
 })();
 </script>
@@ -4581,80 +4648,14 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
   function fallbackCopy(text) {
     var ta = document.createElement('textarea');
     ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-    document.body.appendChild(ta); ta.focus(); ta.select();
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
     try { document.execCommand('copy'); } catch(e) {}
     document.body.removeChild(ta);
   }
 
-  // ── Main form submit handler ──────────────────────────────────
-  window.handleSigSubmit = async function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-
-    var btn   = document.getElementById('sig-submit-btn');
-    var msg   = document.getElementById('sig-msg');
-    var form  = document.getElementById('nsra-sig-form');
-    var email = (form.querySelector('[name="email"]') || {}).value || '';
-    var first = (document.getElementById('sig-first') || {}).value || '';
-    var zip   = (document.getElementById('sig-zip')   || {}).value || '';
-
-    // Duplicate guard
-    if (hasSignedLocally(email)) {
-      if (msg) {
-        msg.textContent = 'You have already signed — scroll down to contact your representatives.';
-        msg.className = 'wf-msg error';
-      }
-      // Still let them proceed to Step 2
-      _sigFirstName = first; _sigZip = zip;
-      showStep2(first, zip);
-      return;
-    }
-
-    if (btn) { btn.disabled = true; btn.textContent = 'Submitting…'; }
-
-    try {
-      // FormSubmit.co AJAX relay
-      var data = new FormData(form);
-      var resp = await fetch('https://formsubmit.co/ajax/musamarketsworkspace@gmail.com', {
-        method:  'POST',
-        headers: { 'Accept': 'application/json' },
-        body:    data
-      });
-      var result = await resp.json().catch(function(){ return { success: false }; });
-
-      if (resp.ok && result.success !== false) {
-        // Success path
-        markSignedLocally(email);
-        // Increment counterapi
-        try {
-          await fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/up');
-          await updateVisitorCounter();
-        } catch(ce) { console.warn('Counter increment failed', ce); }
-        _sigFirstName = first; _sigZip = zip;
-        showStep2(first, zip);
-      } else {
-        throw new Error('FormSubmit returned error');
-      }
-    } catch(err) {
-      // On network error, still advance to Step 2 (don't block user)
-      markSignedLocally(email);
-      _sigFirstName = first; _sigZip = zip;
-      showStep2(first, zip);
-      console.warn('Signature relay error (advancing anyway):', err);
-    } finally {
-      if (btn) { btn.disabled = false; btn.textContent = 'Sign the NSRA →'; }
-    }
-  };
-
-  function showStep2(firstName, zip) {
-    var step1 = document.getElementById('wizard-step1');
-    var step2 = document.getElementById('wizard-step2');
-    if (step1) step1.style.display = 'none';
-    if (step2) step2.style.display = 'block';
-    loadDelegation(zip, firstName);
-    // Smooth scroll to step 2
-    setTimeout(function(){ if (step2) step2.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 100);
-  }
-
 })();
 </script>
+
+</body>
+</html>
