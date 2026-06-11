@@ -4837,7 +4837,7 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
   // ── Signature counter ────────────────────────────────────────
   function updateVisitorCounter() {
     // /get/ reads current value without incrementing — /hit/ is only called on actual signature submission
-    fetch('https://abacus.jasoncameron.dev/get/theamericandeal/nsra-signatures')
+    fetch('https://abacus.jasoncameron.dev/get/theamericandeal/nsra-verified')
       .then(function(r){ return r.json(); })
       .then(function(d){
         if (!d || !d.value) return;
@@ -4904,7 +4904,7 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
       if (!d || String(d.success) !== 'true') throw new Error(d && d.message ? d.message : 'relay rejected');
     }).then(function() {
       if (email) markSignedLocally(email);
-      fetch('https://abacus.jasoncameron.dev/hit/theamericandeal/nsra-signatures')
+      fetch('https://abacus.jasoncameron.dev/hit/theamericandeal/nsra-verified')
         .then(function() { updateVisitorCounter(); })
         .catch(function() {});
       if (msg) msg.textContent = '✓ Signature recorded. Welcome aboard.';
