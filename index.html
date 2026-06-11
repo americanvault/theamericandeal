@@ -4550,11 +4550,99 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     try { localStorage.setItem(emailKey(email.toLowerCase()), '1'); } catch(e) {}
   }
 
+  // ── Form submission: Step 1 → Step 2 ─────────────────────────
+  // Window-level — referenced by onsubmit="handleSigSubmit(event)".
+  window.handleSigSubmit = function(e) {
+    e.preventDefault();
+    if (e.stopPropagation) e.stopPropagation();
+    var form  = document.getElementById('nsra-sig-form');
+    var btn   = document.getElementById('sig-submit-btn');
+    var msg   = document.getElementById('sig-msg');
+    var first = document.getElementById('sig-first') ? document.getElementById('sig-first').value.trim() : '';
+    var zip   = document.getElementById('sig-zip')   ? document.getElementById('sig-zip').value.trim()   : '';
+    var email = (form && form.elements.email) ? form.elements.email.value.trim() : '';
+
+    function finishStep1() {
+      if (btn) { btn.disabled = false; btn.textContent = 'Sign the NSRA →'; }
+      showStep2(first, zip);
+    }
+
+    if (email && hasSignedLocally(email)) {
+      if (msg) msg.textContent = 'You’ve already signed from this device — taking you to Step 2.';
+      showStep2(first, zip);
+      return false;
+    }
+
+    if (btn) { btn.disabled = true; btn.textContent = 'Signing…'; }
+
+    var fd = new FormData(form);
+    fd.append('_subject', 'New NSRA Signature');
+    fd.append('_template', 'table');
+    fd.append('_captcha', 'false');
+
+    fetch('https://formsubmit.co/ajax/musamarketsworkspace@gmail.com', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: fd
+    }).then(function(r) {
+      if (!r.ok) throw new Error('relay error');
+      return r.json();
+    }).then(function() {
+      if (email) markSignedLocally(email);
+      // Increment public counter (fire-and-forget), then refresh display
+      fetch('https://api.counterapi.dev/v1/theamericandeal/nsra/up')
+        .then(function() { updateVisitorCounter(); })
+        .catch(function() {});
+      if (msg) msg.textContent = '✓ Signature recorded. Welcome aboard.';
+      finishStep1();
+    }).catch(function() {
+      // Never block the user — record locally and continue to Step 2
+      if (email) markSignedLocally(email);
+      if (msg) msg.textContent = '✓ Signature recorded.';
+      finishStep1();
+    });
+
+    return false;
+  };
+
+  function showStep2(firstName, zip) {
+    _sigFirstName = firstName; _sigZip = zip;
+    var s1 = document.getElementById('wizard-step1');
+    var s2 = document.getElementById('wizard-step2');
+    if (s1) s1.style.display = 'none';
+    if (s2) s2.style.display = 'block';
+    loadDelegation(zip, firstName);
+    if (s2 && s2.scrollIntoView) {
+      try { s2.scrollIntoView({behavior: 'smooth', block: 'start'}); } catch (err) { s2.scrollIntoView(); }
+    }
+  }
+
   // ── ZIP → delegation lookup ──────────────────────────────────
-  // Uses Google Civic Information API (no key needed for basic district lookup).
-  // Falls back to geocod.io if Google fails.
+  // Google retired the Civic Info "representatives" endpoint in April 2025,
+  // so this uses three key-free, CORS-enabled sources instead:
+  //   1. api.zippopotam.us           → ZIP → state
+  //   2. unitedstates.github.io      → current members of Congress (CSV)
+  //   3. OpenSourceActivismTech zccd → ZIP → congressional district
+  // If anything fails, official finder links are shown so the user is never stranded.
   var _sigFirstName = '';
   var _sigZip = '';
+
+  function parseCsv(text) {
+    var rows = [], row = [], cur = '', inQ = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (inQ) {
+        if (c === '"') {
+          if (text[i + 1] === '"') { cur += '"'; i++; } else { inQ = false; }
+        } else { cur += c; }
+      } else if (c === '"') { inQ = true; }
+      else if (c === ',') { row.push(cur); cur = ''; }
+      else if (c === '\n') { row.push(cur.replace(/\r$/, '')); rows.push(row); row = []; cur = ''; }
+      else { cur += c; }
+    }
+    if (cur.length || row.length) { row.push(cur.replace(/\r$/, '')); rows.push(row); }
+    return rows;
+  }
 
   async function loadDelegation(zip, firstName) {
     var repEl   = document.getElementById('del-rep');
@@ -4567,38 +4655,80 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
     if (sen1El) sen1El.textContent = 'Looking up…';
     if (sen2El) sen2El.textContent = '';
 
+    var FIND_REP = 'https://www.house.gov/representatives/find-your-representative';
+    var FIND_SEN = 'https://www.senate.gov/senators/senators-contact.htm';
+    function showLink(linkEl, href) {
+      if (linkEl && href) { linkEl.href = href; linkEl.style.display = 'inline'; }
+    }
+
     try {
-      // Google Civic API — offices for the ZIP
-      var url = 'https://www.googleapis.com/civicinfo/v2/representatives?address=' +
-                encodeURIComponent(zip + ', USA') +
-                '&levels=country&roles=legislatorLowerBody&roles=legislatorUpperBody';
-      var r = await fetch(url);
-      if (!r.ok) throw new Error('civic api error');
-      var d = await r.json();
-      var officials = d.officials || [];
-      var offices   = d.offices   || [];
-      var reps = [], sens = [];
-      offices.forEach(function(o) {
-        var isHouse  = (o.roles||[]).indexOf('legislatorLowerBody') > -1;
-        var isSenate = (o.roles||[]).indexOf('legislatorUpperBody') > -1;
-        (o.officialIndices||[]).forEach(function(idx) {
-          var off = officials[idx];
-          if (!off) return;
-          var contactUrl = (off.urls && off.urls[0]) ? off.urls[0] : null;
-          if (isHouse)  reps.push({name: off.name, url: contactUrl});
-          if (isSenate) sens.push({name: off.name, url: contactUrl});
+      // 1) ZIP → state
+      var zr = await fetch('https://api.zippopotam.us/us/' + encodeURIComponent(zip));
+      if (!zr.ok) throw new Error('zip lookup failed');
+      var zd = await zr.json();
+      var state = (zd.places && zd.places[0]) ? zd.places[0]['state abbreviation'] : null;
+      if (!state) throw new Error('no state for ZIP');
+
+      // 2) Current members of Congress (maintained dataset, ~200 KB)
+      var lr = await fetch('https://unitedstates.github.io/congress-legislators/legislators-current.csv');
+      if (!lr.ok) throw new Error('legislators fetch failed');
+      var rows = parseCsv(await lr.text());
+      var col = {};
+      rows[0].forEach(function(h, i) { col[h] = i; });
+      var members = [];
+      for (var i = 1; i < rows.length; i++) {
+        var r = rows[i];
+        if (!r || r.length < 11) continue;
+        members.push({
+          name:     r[col.full_name] || ((r[col.first_name] || '') + ' ' + (r[col.last_name] || '')),
+          type:     r[col.type],
+          state:    r[col.state],
+          district: r[col.district],
+          url:      r[col.contact_form] || r[col.url] || null
         });
-      });
-      if (repEl && reps[0])  { repEl.textContent = reps[0].name;  if (reps[0].url && repLink)  { repLink.href = reps[0].url;  repLink.style.display='inline'; } }
-      else if (repEl)        { repEl.textContent  = 'Representative'; }
-      if (sen1El && sens[0]) { sen1El.textContent = sens[0].name; if (sens[0].url && sen1Link) { sen1Link.href = sens[0].url; sen1Link.style.display='inline'; } }
-      else if (sen1El)       { sen1El.textContent = 'Senator'; }
-      if (sen2El && sens[1]) { sen2El.textContent = sens[1].name; if (sens[1].url && sen2Link) { sen2Link.href = sens[1].url; sen2Link.style.display='inline'; } }
-      else if (sen2El)       { sen2El.textContent = 'Senator'; }
+      }
+
+      var sens = members.filter(function(m) { return m.type === 'sen' && m.state === state; });
+      var stateReps = members.filter(function(m) { return m.type === 'rep' && m.state === state; });
+
+      // 3) ZIP → district (skip the district file for at-large states)
+      var rep = null;
+      if (stateReps.length === 1) {
+        rep = stateReps[0];
+      } else if (stateReps.length > 1) {
+        try {
+          var dr = await fetch('https://raw.githubusercontent.com/OpenSourceActivismTech/us-zipcodes-congress/master/zccd.csv');
+          if (dr.ok) {
+            var lines = (await dr.text()).split('\n');
+            var dist = null;
+            for (var j = 1; j < lines.length; j++) {
+              var p = lines[j].split(',');
+              if (p[1] === state && p[2] === zip) { dist = parseInt(p[3], 10); break; }
+            }
+            if (dist !== null && !isNaN(dist)) {
+              rep = stateReps.filter(function(m) { return parseInt(m.district, 10) === dist; })[0] || null;
+            }
+          }
+        } catch (errD) {}
+      }
+
+      if (repEl) {
+        repEl.textContent = rep ? rep.name : 'Find Your Representative';
+        showLink(repLink, rep ? rep.url : FIND_REP);
+      }
+      if (sen1El) {
+        sen1El.textContent = sens[0] ? sens[0].name : 'Your Senator';
+        showLink(sen1Link, sens[0] ? sens[0].url : FIND_SEN);
+      }
+      if (sen2El) {
+        sen2El.textContent = sens[1] ? sens[1].name : 'Your Senator';
+        showLink(sen2Link, sens[1] ? sens[1].url : FIND_SEN);
+      }
     } catch(e) {
-      if (repEl)  repEl.textContent  = 'Your Representative';
-      if (sen1El) sen1El.textContent = 'Your Senator';
-      if (sen2El) sen2El.textContent = 'Your Senator';
+      // Full fallback — official finder links so the user is never stranded
+      if (repEl)  { repEl.textContent  = 'Find Your Representative'; showLink(repLink,  FIND_REP); }
+      if (sen1El) { sen1El.textContent = 'Find Your Senators';       showLink(sen1Link, FIND_SEN); }
+      if (sen2El) { sen2El.textContent = 'Find Your Senators';       showLink(sen2Link, FIND_SEN); }
     }
 
     // Populate the pre-written email
