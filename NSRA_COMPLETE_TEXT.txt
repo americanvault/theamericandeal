@@ -2767,13 +2767,159 @@ END OF TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXIII — RESERVED FOR FUTURE STATUTORY ENACTMENT
+TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 3300. RESERVATION.—This Title is reserved for future legislative enactment by Congress. No substantive provisions are established herein. This reservation preserves sequential Title numbering integrity for subsequent amendments and related legislation introduced under the National Sovereignty and Resilience Act.
+SEC. 3301. FINDINGS — TITLE XXXIII.
+
+Congress finds that:
+
+(1) Artificial intelligence systems, digital payment infrastructure, and advanced semiconductor applications are the primary determinants of 21st-century economic and national security sovereignty;
+
+(2) The concentration of compute infrastructure in a small number of private commercial entities creates systemic national security vulnerabilities, including the risk of foreign acquisition, monopolistic access pricing that excludes domestic innovators, and single-point-of-failure exposure for critical federal systems;
+
+(3) The Sovereign Compute Node established in Section 3408 of this Act provides dedicated funding for public-interest compute infrastructure, but a SIRF funding node alone does not constitute an institution capable of holding title to long-duration productive assets, issuing revenue bonds, entering commercial lease agreements, or operating on a self-sustaining cost-recovery basis;
+
+(4) Existing federal agencies with relevant jurisdiction — including the Department of Commerce, the Department of Energy, and the Federal Data Veracity Matrix Administration — have been evaluated as primary institutional homes for the sovereign compute mission; the FDVMA's enforcement role creates an inherent conflict of interest if it simultaneously holds title to revenue-generating infrastructure assets it is charged with regulating; the Department of Commerce lacks a balance-sheet enterprise structure for long-duration asset ownership; and the Department of Energy's national laboratory compute assets, while complementary, operate under classification and procurement constraints incompatible with the public-access and commercial-lease mandates of this Title;
+
+(5) The United States International Development Finance Corporation (DFC) provides the closest structural precedent — a federal enterprise corporation with an independent balance sheet, co-investment mandate, and cost-recovery trajectory — but DFC's statutory jurisdiction is limited to foreign development finance; a domestic equivalent is required;
+
+(6) The most efficient institutional structure is therefore a new federal enterprise corporation — the Sovereign Compute Authority — that consolidates the asset-ownership, commercial-lease, and revenue-bond functions of the Sovereign Compute Node into a single legal entity with an independent balance sheet, while delegating regulatory oversight, data standards, and Open-Source Compute Pool administration to the FDVMA under an interagency agreement.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF TITLE XXXIII — RESERVED
+
+SEC. 3302. ESTABLISHMENT OF THE SOVEREIGN COMPUTE AUTHORITY.
+
+(a) ESTABLISHMENT.—There is established a wholly owned Government corporation, to be known as the Sovereign Compute Authority (SCA), subject to chapter 91 of title 31, United States Code (the Government Corporation Control Act).
+
+(b) PURPOSES.—The purposes of the SCA are to:
+(1) hold title to and operate the public-interest compute infrastructure funded by the Sovereign Compute Node established in Section 3408;
+(2) issue revenue bonds secured by SCN infrastructure lease revenue, thereby leveraging SIRF capital into a larger productive asset base without additional SIRF outlay;
+(3) provide below-cost compute access to domestic academic institutions, small businesses, and Vanguard Entities, cross-subsidized by commercial-rate access for private sector users;
+(4) serve as the physical infrastructure host for the Digital Dollar Settlement Network established under Section 3207;
+(5) achieve operational self-sufficiency within seven (7) years of initial deployment, consistent with Section 3408(d), thereby reducing and ultimately eliminating reliance on the standing SIRF allocation;
+(6) operate as a domestic sovereign compute asset system whose long-run strategic objective is the accumulation of federally owned productive infrastructure — not the permanent collection of tariff revenue or SIRF transfers — converting a public expenditure into a sovereign capital asset that generates lease and service revenue in perpetuity;
+
+(7) accept, where appropriate and consistent with the priority ladder established in Section 3305(c), equity interests, royalty agreements, and revenue-sharing arrangements from entities accessing SCA infrastructure, subject to the following limitations:
+(A) aggregate equity holdings across all SCA portfolio positions shall not exceed twenty percent (20%) of SCA's audited net asset value in any fiscal year;
+(B) no single equity position shall represent more than five percent (5%) of SCA's audited net asset value;
+(C) all equity and revenue-sharing agreements shall require Board approval by a two-thirds supermajority vote and shall be disclosed in the SCA's annual report to Congress;
+(D) equity positions shall be managed as a sovereign development portfolio — not as speculative investments — with the purpose of aligning SCA's financial returns with the commercial success of domestic AI and compute enterprises it enables; and
+(E) the FDVMA shall conduct annual conflict-of-interest audits of all SCA equity positions to ensure that no holding creates a regulatory conflict with FDVMA's oversight role.
+
+(c) LEGAL STATUS.—The SCA is a body corporate and instrumentality of the United States. It may sue and be sued in its corporate name. It shall not be subject to the Administrative Procedure Act with respect to its commercial contracting and asset management functions, but shall comply with the APA for all regulatory, enforcement, and public-access functions delegated to it by statute.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3303. GOVERNANCE.
+
+(a) BOARD OF DIRECTORS.—The SCA shall be governed by a Board of Directors consisting of:
+(1) the Secretary of the Treasury, or a designee at the Deputy Secretary level or above, who shall serve as Chairperson;
+(2) the Secretary of Commerce, or a designee at the Deputy Secretary level or above;
+(3) the Secretary of Defense, or a designee at the Under Secretary level or above, representing national security compute requirements;
+(4) the Administrator for Economic Data Integrity (head of the FDVMA), serving ex officio as the regulatory coordination liaison;
+(5) the Director of the National Science Foundation, or a designee, representing the academic and research compute community;
+(6) three (3) independent directors appointed by the President with the advice and consent of the Senate, serving staggered four (4) year terms, of whom:
+(A) one shall have demonstrated expertise in enterprise infrastructure finance or sovereign wealth fund management;
+(B) one shall have demonstrated expertise in semiconductor manufacturing, cloud computing, or advanced hardware systems; and
+(C) one shall represent the public interest, with demonstrated background in civil society, consumer protection, or public-interest technology policy.
+
+(b) CHIEF EXECUTIVE OFFICER.—The Board shall appoint a Chief Executive Officer of the SCA, who shall serve at the pleasure of the Board and shall be the chief operating officer of the corporation. The CEO shall be compensated at a rate not to exceed Executive Schedule Level II, adjusted for private-sector comparability by the Board consistent with Government Corporation Control Act authorities.
+
+(c) REMOVAL COMPLIANCE.—Independent directors shall be removable by the President for cause, consistent with Humphrey's Executor v. United States, 295 U.S. 602 (1935), as limited by Seila Law LLC v. CFPB, 591 U.S. 197 (2020). No statutory removal protection shall limit the President's authority over the Chairperson or the ex officio members serving in their principal agency capacity.
+
+(d) QUORUM AND VOTING.—Five members constitute a quorum. Decisions require a majority of members present. The Chairperson shall cast the deciding vote in the event of a tie.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3304. FINANCIAL ARCHITECTURE.
+
+(a) INITIAL CAPITALIZATION.—The SCA shall receive, as its initial capital contribution, not less than the first three (3) years of Sovereign Compute Node distributions from the SIRF as established in Section 3408, to be held as the SCA Infrastructure Capital Reserve.
+
+(b) REVENUE BOND AUTHORITY.—The SCA is authorized to issue revenue bonds secured by SCA infrastructure lease revenue, in an aggregate principal amount not to exceed three times (3x) the SCA's audited net asset value at the time of issuance. Such bonds:
+(1) shall not constitute obligations of the United States and shall not be backed by the full faith and credit of the United States;
+(2) shall be issued with maturities not to exceed thirty (30) years;
+(3) shall require SCA Board approval by a two-thirds supermajority vote;
+(4) shall be disclosed annually to Congress in the SCA's audited financial statements.
+
+(c) COMMERCIAL LEASE REVENUE.—The SCA shall charge market-rate fees to private commercial users accessing SCA infrastructure. Not less than seventy-five percent (75%) of net commercial lease revenue shall be reinvested in SCA infrastructure expansion or debt service. The remaining twenty-five percent (25%) shall be returned to the SIRF Sovereign Compute Node as a revenue offset, reducing the required SIRF allocation consistent with Section 3408(d).
+
+(d) BELOW-COST ACCESS PROGRAM.—The SCA shall maintain a Public Access Compute Program providing access to not less than twenty percent (20%) of SCA infrastructure capacity to domestic academic institutions, small businesses with annual revenues below fifty million dollars ($50,000,000), and Vanguard Entities at rates not exceeding twenty percent (20%) of SCA commercial market rates. The cost differential of below-market access shall be funded by the SCN allocation and treated as a public-benefit expenditure in the SCA's annual report.
+
+(e) SELF-SUFFICIENCY TRAJECTORY.—
+(1) The SCA shall publish annually a Self-Sufficiency Trajectory Report projecting the year in which commercial lease revenue will be sufficient to cover all SCA operating costs, debt service, and the Public Access Compute Program without any further SCN allocation from the SIRF.
+(2) Upon the FDVMA's certification that the SCA has achieved operational self-sufficiency, the standing five percent (5%) SIRF allocation to the Sovereign Compute Node shall be reduced by one percent (1%) annually until the allocation reaches zero, at which point all SCN lease revenues shall be returned to the SIRF general node pool for reallocation.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
+
+(a) ASSET CLASSES.—The SCA is authorized to invest in, construct, acquire, own, and operate:
+(1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned data center facilities providing compute access to domestic users, co-located where operationally feasible with the Digital Dollar Settlement Network;
+(2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing economically distressed and rural communities;
+(3) QUANTUM-SECURED DATA CENTERS.—Facilities providing quantum-hardened storage and processing for FDVMA operations, SIRF ledger infrastructure, and national security applications under interagency agreement with the National Security Agency and the Department of Defense;
+(4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
+(5) SEMICONDUCTOR MANUFACTURING CO-INVESTMENTS.—Equity co-investments in domestic advanced semiconductor foundry construction in partnership with Vanguard Entities, consistent with the SIRF co-investment ratios of Section 006.
+
+(b) PROHIBITED INVESTMENTS AND ACTIVITIES.—The SCA shall not:
+(1) acquire equity stakes in foreign entities without express Congressional authorization by joint resolution;
+(2) invest in cryptocurrencies, digital asset speculation, or non-fungible tokens;
+(3) provide compute access to any entity subject to an active FDVMA enforcement action or capital-flight lock under Section 1601;
+(4) CONSUMER AI PROHIBITION.—develop, market, train, or operate consumer artificial intelligence products, services, or models, except as strictly necessary for governmental operations, scientific research, educational access, or national security purposes authorized by the Board and disclosed to Congress. The SCA is an infrastructure provider, not a commercial AI developer. No future Board resolution, executive directive, or appropriations rider shall authorize SCA to compete with domestic commercial AI firms in consumer-facing markets without express statutory authorization by Congress.
+
+(c) STATUTORY ACCESS PRIORITY LADDER.—SCA infrastructure capacity shall be allocated among users according to the following priority order, with higher-priority categories served before lower-priority categories in any period of capacity constraint:
+(1) TIER 1 — FEDERAL AGENCIES.—Federal civilian agencies and the Armed Forces requiring compute access for governmental operations, national security, or emergency response;
+(2) TIER 2 — NATIONAL LABORATORIES.—Department of Energy national laboratories, DARPA, and other federally chartered research institutions;
+(3) TIER 3 — UNIVERSITIES AND ACADEMIC INSTITUTIONS.—Domestic accredited colleges, universities, community colleges, and research institutions, at below-cost rates consistent with Section 3304(d);
+(4) TIER 4 — MUNICIPAL COMPUTING ARRAYS.—State and local government compute deployments, including smart city infrastructure and public health data systems;
+(5) TIER 5 — DOMESTIC STARTUPS AND SMALL BUSINESSES.—Domestic enterprises with annual revenues below fifty million dollars ($50,000,000), at below-cost rates consistent with Section 3304(d);
+(6) TIER 6 — DOMESTIC ENTERPRISE USERS.—Domestic Covered Entities and other domestic commercial users, at market rates consistent with Section 3304(c);
+(7) TIER 7 — FOREIGN ALLIED USERS.—Entities organized under the laws of Allied Settlement Compact signatory nations, permitted access only upon Board approval and only when Tiers 1 through 6 are not capacity-constrained; at rates not less than one hundred twenty percent (120%) of SCA domestic commercial market rates, with all premium revenue returned to the SIRF.
+In no period of capacity constraint shall any Tier 7 allocation reduce available capacity for Tiers 1 through 5.
+
+(d) INTERAGENCY COMPUTE AGREEMENTS.—The SCA shall enter into memoranda of understanding with the Department of Energy national laboratories, the National Science Foundation, and the Defense Advanced Research Projects Agency to integrate SCA infrastructure with existing federal compute resources, eliminating duplication and maximizing national compute capacity utilization.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3306. RELATIONSHIP TO EXISTING AGENCIES.
+
+(a) FDVMA REGULATORY AUTHORITY PRESERVED.—Nothing in this Title shall be construed to limit the FDVMA's authority to regulate, audit, or enforce compliance by the SCA as a Covered Entity with respect to data sovereignty, algorithmic transparency, and structural variance standards. The FDVMA shall conduct annual sovereignty audits of SCA infrastructure consistent with Section 304.
+
+(b) OPEN-SOURCE COMPUTE POOL DELEGATION.—The Open-Source Compute Pool established in Section 303(c) shall be administered by the FDVMA using SCA infrastructure under a standing interagency service agreement. The SCA shall provide the physical compute capacity; the FDVMA shall administer eligibility, access, and compliance.
+
+(c) DEPARTMENT OF ENERGY COORDINATION.—The SCA shall enter into a formal co-investment agreement with the Department of Energy within one hundred eighty (180) days of SCA establishment, integrating SCA national AI cloud infrastructure with the Department's national laboratory high-performance computing resources to eliminate duplication and maximize the national compute base.
+
+(d) DEPARTMENT OF COMMERCE STANDARDS ROLE.—NIST shall serve as the primary standards-setting body for SCA infrastructure security, interoperability, and quantum-hardening requirements, consistent with NIST's existing mandate under the CHIPS and Science Act.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3307. CONGRESSIONAL OVERSIGHT AND TRANSPARENCY.
+
+(a) ANNUAL REPORT.—The SCA shall submit to Congress and publish publicly an annual report containing:
+(1) audited financial statements prepared in accordance with generally accepted government auditing standards;
+(2) a portfolio report listing all SCA infrastructure assets, their current book value, lease revenue generated, and cost-per-inference-unit metrics;
+(3) the Self-Sufficiency Trajectory Report required by Section 3304(e);
+(4) a Public Access Utilization Report documenting below-cost access delivered, institutions served, and economic value generated;
+(5) an assessment of foreign-controlled compute infrastructure market share and SCA's progress in reducing domestic dependency.
+
+(b) GAO AUDIT.—The Government Accountability Office shall conduct a comprehensive audit of SCA operations and financial condition not less than once every three (3) fiscal years, with findings transmitted to the relevant congressional committees and published in the Federal Register.
+
+(c) INSPECTOR GENERAL.—The SCA shall have an Inspector General appointed consistent with the Inspector General Act of 1978 (5 U.S.C. App.), with independent budget authority and direct reporting to Congress.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3308. SCHEDULE H BENCHMARKS — TITLE XXXIII.
+
+The SCA and FDVMA shall jointly report annually on:
+(1) aggregate SCA infrastructure capacity deployed, measured in petaflops of compute and petabytes of storage;
+(2) percentage of national AI inference workload served by SCA versus foreign-controlled infrastructure;
+(3) cost-per-petaflop of SCA infrastructure versus commercial market rates, demonstrating public-benefit leverage;
+(4) Digital Dollar Settlement Network uptime and transaction throughput supported by SCA physical layer;
+(5) progress toward the seven (7) year self-sufficiency target: ratio of commercial lease revenue to total SCA operating costs;
+(6) semiconductor co-investment leverage ratio: private capital mobilized per SCA dollar deployed.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
@@ -2890,7 +3036,7 @@ SEC. 3408. SOVEREIGN COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMP
 
 (a) ESTABLISHMENT.—There is established within the SIRF a dedicated allocation to be known as the Sovereign Compute Node (SCN), receiving five percent (5%) of SIRF base revenues as established in Section 3405(11).
 
-(b) MISSION.—The Sovereign Compute Node shall fund the construction, ownership, and operation of public-interest compute infrastructure to ensure that artificial intelligence capabilities, data processing, and digital infrastructure remain accessible to American citizens, researchers, and small businesses and are not exclusively concentrated in private commercial infrastructure subject to foreign influence or monopolistic pricing.
+(b) MISSION.—The Sovereign Compute Node shall fund the construction, ownership, and operation of public-interest compute infrastructure to ensure that artificial intelligence capabilities, data processing, and digital infrastructure remain accessible to American citizens, researchers, and small businesses and are not exclusively concentrated in private commercial infrastructure subject to foreign influence or monopolistic pricing. The long-run policy objective of the Sovereign Compute Node is not tariff collection as a permanent revenue stream but the accumulation of federally owned productive compute assets — held and operated through the Sovereign Compute Authority established in Title XXXIII — whose commercial lease and service revenues supplant the SIRF allocation over time, converting a public expenditure into a sovereign capital asset that generates revenue in perpetuity. The Data Commons Tariff is seed capital; the SCA asset base is the strategic endpoint.
 
 (c) AUTHORIZED INVESTMENTS.—The SCN shall invest in:
 (1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned or co-owned data center facilities providing compute access at below-market rates to domestic academic institutions, small businesses, Vanguard Entities, and federal agencies;
