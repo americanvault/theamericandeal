@@ -195,7 +195,7 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (1) IN GENERAL.—Notwithstanding any other provision of law, no federal agency, executive department, or administrative officer may issue, grant, or renew any "safe harbor" exemption, regulatory carve-out, compliance waiver, or non-enforcement guidance to shield any Covered Entity from an FDVM variance audit, structural penalty, or clawback proceeding.
 
-(2) INVALIDITY OF ADMINISTRATIVE CURE ACTIONS.—Any administrative rule, advisory opinion, or settlement agreement that purports to exempt a Covered Entity from the strict liability provisions of this Title is void ab initio.
+(2) INVALIDITY OF ADMINISTRATIVE CURE ACTIONS.—Any administrative rule, advisory opinion, or settlement agreement that purports to exempt a Covered Entity from the strict liability provisions of this Title is subject to mandatory FDVMA review and approval before taking effect. The FDVMA shall have thirty (30) days to review any such agreement and shall approve it only if it (A) does not extinguish the underlying structural variance finding, (B) includes a remediation plan with binding milestones, and (C) is accompanied by a penalty escrow equal to not less than fifty percent (50%) of the assessed penalty amount. Any settlement not submitted for FDVMA review, or not approved within the thirty-day window, is void ab initio. Nothing in this paragraph shall be construed to limit the authority of a federal district court to approve a consent decree pursuant to its equitable jurisdiction, provided the court receives FDVMA review findings as part of the record.
 
 (e) FDVMA OPERATIONAL CAPACITY.—
 
@@ -350,15 +350,20 @@ MINIMUM SIRF CAPITALIZATION FLOOR.—No SIRF disbursement program shall deploy c
 (2) QUARTERLY DISTRICT IMPACT REPORTING.—The FDVMA shall compile and transmit directly to the registered voters of each United States Congressional District, on a rolling quarterly basis, a hyper-localized Economic Velocity Manifest detailing the exact dollar volume of SIRF capital deployed within that specific district, the physical assets constructed, and the verified expansion of regional capital velocity.
 
 (e) SIRF CAPITAL ALLOCATION NODES.—SIRF capital shall be allocated among the following mandatory nodes, subject to annual rebalancing by the FDVMA based on verified utilization rates:
-(1) Industrial Infrastructure Node: 25%;
-(2) Vanguard Capitalization Node (startup and cooperative grants): 15%;
-(3) Household Endowment Node: 20%;
+(1) Household Structural Relief Node: 20%;
+(2) Tier 1 Mandatory Structural Obligations Reserve: 15%;
+(3) Vanguard Capitalization Node: 20%;
 (4) Environmental Remediation Node: 10%;
-(5) Energy Sovereignty Node: 10%;
+(5) Energy Sovereignty Node: 12%;
 (6) Agricultural Sovereignty Node: 7%;
-(7) Knowledge Sovereignty Node: 5%;
-(8) Biosecurity and Pharmaceutical Node: 5%;
-(9) Administrative Operations Reserve: 3%.
+(7) Sovereign Deficit Reduction Node: 5%;
+(8) Knowledge Sovereignty Node: 2%;
+(9) Biosecurity and Pharmaceutical Node: 5%;
+(10) Administrative Operations Reserve: 3%;
+(11) Sovereign Compute Node: 5%;
+(12) Strategic Mobility Infrastructure Node: 11%.
+
+Total: one hundred percent (100%). The Sovereign Compute Node established in paragraph (11) and the Strategic Mobility Infrastructure Node established in paragraph (12) are new nodes created by this Title and shall be governed by Sections 3408 and 3409 respectively. The Vanguard Capitalization Node is increased from fifteen percent (15%) to twenty percent (20%) subject to the investment instrument requirements of Section 204(e).
 
 SEC. 202. SYSTEMIC RESILIENCE PREMIUM ON DEFENSE AND AEROSPACE PROCUREMENT.
 
@@ -400,6 +405,29 @@ SEC. 204. THE VANGUARD CAPITALIZATION PROTOCOL.
 
 (d) VANGUARD REVIEW PANEL.—The SIRF Vanguard Review Panel shall consist of nine (9) members: three appointed by the President, three by the Speaker of the House, and three by the Senate Majority Leader, with staggered four-year terms. Panel decisions shall be by majority vote and shall be final and unreviewable except for constitutional due process violations.
 
+(e) INVESTMENT INSTRUMENT REQUIREMENTS — SOVEREIGN WEALTH DISCIPLINE.—
+
+(1) MINIMUM REPAYABLE INSTRUMENT REQUIREMENT.—Not less than sixty percent (60%) of total annual Vanguard Capitalization Node deployments shall be made through repayable or revenue-producing instruments rather than non-repayable grants. Qualifying instruments include:
+(A) direct loans at market or below-market rates;
+(B) preferred equity stakes with defined return schedules;
+(C) revenue-sharing agreements specifying percentage of gross revenue payable to SIRF;
+(D) royalty agreements on intellectual property, manufacturing processes, or technology developed with Vanguard capital;
+(E) warrants or options to acquire equity stakes in recipient entities.
+
+(2) GRANT CEILING.—Non-repayable, zero-equity grants shall constitute not more than forty percent (40%) of annual Vanguard Capitalization Node deployments, reserved for early-stage Vanguard Entities — as defined in Section 55(10) — that cannot satisfy debt service requirements and for which equity or revenue-sharing is impractical given business stage.
+
+(3) FUND REPLENISHMENT.—All principal, interest, dividends, royalties, and revenue-share payments returned to the Vanguard Capitalization Node from prior deployments shall be retained within the node and redeployed in the following fiscal year, compounding the node's effective investment capacity over time. The FDVMA shall report annually on Vanguard Node compound growth rate.
+
+(4) PRIORITY INVESTMENT SECTORS.—Within the repayable instrument allocation, priority shall be given to:
+(A) domestic semiconductor and advanced materials manufacturing;
+(B) artificial intelligence startups with domestic data sovereignty compliance;
+(C) battery production, grid equipment, and power electronics;
+(D) worker cooperatives in strategic manufacturing;
+(E) domestic compute infrastructure and data center construction;
+(F) advanced manufacturing campuses and industrial parks.
+
+(5) SOVEREIGN WEALTH FUND POSTURE.—The Vanguard Capitalization Node shall be managed as a sovereign investment fund, not a grant program. The FDVMA shall publish annually a Vanguard Portfolio Report detailing active investments, return rates, and net node growth.
+
 SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
 
 (a) IN GENERAL.—If any provision of this Title, or any application of its closed-loop fiscal architecture to any entity, agency, or circumstance, is held invalid or temporarily suspended by an injunction issued by a court of competent jurisdiction, the remaining Titles and provisions of this Act shall remain entirely unaffected and shall continue to operate with full force and effect.
@@ -420,9 +448,45 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 (b) IMMUNITY FROM UNCOMPENSATED ENCLOSURE.—The Sovereign Data Commons shall be immune to uncompensated extraction, commercial enclosure, or computational training ingestion by any Covered Entity.
 
-(c) MANDATORY COMPENSATORY TARIFFS.—Any Covered Entity operating machine-learning foundational models, large language structures, or generative neural networks that ingests data from the Sovereign Data Commons shall pay a fixed statutory tariff of $0.02 per gigabyte of data ingested, payable directly to the Personal Data Rights Node of the SIRF.
+(c) MANDATORY COMPENSATORY TARIFFS.—
 
-(d) COMMUNITY ROYALTY REDISTRIBUTION.—Not less than fifty percent (50%) of tariff revenue collected under subsection (c) shall be redistributed as direct per-capita digital commons royalties to United States residents, distributed annually in equal shares by the Social Security Administration's supplemental payment infrastructure.
+(1) TARIFF AUTHORITY.—This subsection is enacted pursuant to the Sovereign Data Commons registration framework established in subsection (a) and the Spending Clause and Commerce Clause of Art. I, Sec. 8 of the Constitution. The tariff imposed herein compensates the Sovereign Data Commons for the commercial extraction of collectively generated civic and cultural data assets and is not a tax on speech or information content.
+
+(2) TARIFF RATE AND SCOPE.—Any Covered Entity operating machine-learning foundational models, large language structures, or generative neural networks that ingests Registered Sovereign Data Commons content shall pay a fixed statutory tariff of $0.02 per gigabyte of data ingested, payable directly to the Personal Data Rights Node of the SIRF.
+
+(3) EXEMPTED CATEGORIES.—The following categories of data are expressly excluded from the tariff established in paragraph (2) and shall not be counted toward ingested gigabyte volume:
+
+(A) NEWS AND JOURNALISM.—Any content produced by a registered news organization, journalist, editorial staff, or independent press outlet for the purpose of informing the public, regardless of format or distribution channel;
+
+(B) ACADEMIC AND SCIENTIFIC DATA.—Any content produced under a peer-review process, academic institutional affiliation, or federally funded research grant, including datasets, papers, preprints, and associated supplementary materials;
+
+(C) PERSONAL COMMUNICATIONS.—Any private correspondence, personal messages, personal journals, or personal social media content not published for commercial distribution;
+
+(D) GOVERNMENT RECORDS.—Any federal, state, or local government record in the public domain under the Freedom of Information Act or equivalent state law;
+
+(E) OPEN-SOURCE CODE.—Any software source code distributed under an open-source license recognized by the Open Source Initiative.
+
+(4) REGISTRATION REQUIREMENT.—The FDVMA shall maintain a public registry of Sovereign Data Commons content categories subject to this tariff, updated annually. Only content categories affirmatively registered in the current registry are subject to the tariff. Novel content categories shall be added to the registry only through the rulemaking process under 5 U.S.C. § 553 with a mandatory sixty (60) day public comment period.
+
+(5) MEASUREMENT AND AUDIT.—The FDVMA shall promulgate rules within one hundred eighty (180) days of enactment establishing standardized, technology-neutral gigabyte measurement protocols for tariff computation, ensuring that tariff obligations are calculable with reasonable certainty before the tariff takes effect for any new content category.
+
+(d) SOVEREIGN ENERGY COST OFFSET.—
+
+(1) REPEAL OF CITIZEN DIVIDEND.—The direct per-capita digital commons cash royalty previously contemplated for this subsection is superseded and replaced by the Sovereign Energy Cost Offset established herein, consistent with the retirement of universal cash distributions in Section 3401 and the principle that NSRA deployments shall prioritize structural cost reduction over direct transfers.
+
+(2) ENERGY SOVEREIGNTY NODE ROUTING.—Not less than fifty percent (50%) of annual tariff revenue collected under subsection (c) and deposited to the Personal Data Rights Node of the SIRF shall be transferred quarterly to the Energy Sovereignty Node established in Section 201(e)(5).
+
+(3) DISTRIBUTION MECHANISM.—Energy Sovereignty Node funds attributable to this subsection shall be distributed exclusively to:
+(A) municipal electric utilities serving residential customers;
+(B) rural electric cooperatives organized under the Rural Electrification Act (7 U.S.C. § 901 et seq.);
+(C) public power authorities organized under state law; and
+(D) any electric utility participating in a federal grid modernization program under Section 905 of this Act.
+
+(4) PASS-THROUGH REQUIREMENT.—Any utility receiving funds under this subsection shall pass through one hundred percent (100%) of received funds to residential customers as a line-item credit on monthly bills. The credit shall be labeled: "NSRA Sovereign Infrastructure Credit." Utilities that fail to pass through funds within sixty (60) days of receipt shall be ineligible for further distributions and shall remit undeployed funds to the FDVMA.
+
+(5) POLICY RATIONALE.—AI infrastructure is the primary driver of residential electricity demand growth. The public's proportionate share of AI data extraction value shall therefore offset the residential electricity cost burden generated by AI infrastructure, creating a closed economic loop: AI Extraction → Data Commons Tariff → Energy Sovereignty Node → Lower Household Electricity Bills.
+
+(6) AUDIT REQUIREMENT.—The FDVMA shall publish annually a Sovereign Energy Credit Report documenting, by utility, the amount received, the per-customer credit delivered, and the compliance status of each participating utility.
 
 SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
@@ -598,6 +662,56 @@ SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, A
 (e) SIRF RAMP PERIOD AND SUNSET.—For purposes of this section, the "SIRF Ramp Period" begins on the date of enactment and ends on the earlier of: (1) the first fiscal year in which the Congressional Budget Office certifies, under Section 005(a), that SIRF revenue is sufficient to fund all Tranche 1 mechanisms without recourse to the floor; or (2) the close of the sixth (6th) full fiscal year after enactment. Upon expiration of the SIRF Ramp Period, the guarantee in this section shall sunset automatically, except that any shortfall identified before sunset shall be backfilled to completion.
 
 (f) NO PREEMPTION OF EXISTING PROGRAMS.—Nothing in this section repeals, replaces, or amends the Supplemental Nutrition Assistance Program, the Low Income Home Energy Assistance Program, or any federal housing assistance program. This section operates solely as a transitional SIRF-funded floor protecting the economic baseline of this Act and is fully severable under Section 205.
+
+SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XIV — SHELTER SOVEREIGNTY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+(a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause.
+
+(b) PORTFOLIO CONCENTRATION CAP.—No institutional investor, as defined in subsection (h)(1), may own, directly or through affiliated entities or investment vehicles, more than fifty (50) single-family residential units within any single Metropolitan Statistical Area (MSA), as defined by the Office of Management and Budget. Compliance with this cap shall be achieved within thirty-six (36) months of enactment of this Act.
+
+(c) FDVM MONITORING ACTIVATION.—Effective upon enactment, the FDVMA shall activate institutional housing portfolio monitoring through the Federal Data Veracity Matrix. All institutional investors owning more than twenty-five (25) single-family residential units in any MSA shall register with the FDVMA within ninety (90) days of enactment and report portfolio holdings quarterly.
+
+(d) MANDATORY DIVESTITURE — EXCESS HOLDINGS.—Any institutional investor exceeding the fifty-unit cap established in subsection (b) upon enactment or thereafter shall divest excess holdings in full within thirty-six (36) months of enactment. Divestiture shall be subject to the following operational constraints:
+
+(1) VOLUME ABSORPTION THROTTLE.—Mandatory divestiture shall be conducted at a rate not to exceed four and one-half percent (4.5%) of the total available single-family housing inventory in the relevant MSA in any single calendar quarter (the "V_abs Quarterly Absorption Throttle"), to prevent forced sale volumes from distorting local property markets.
+
+(2) PRIORITY SALE CHANNELS.—Divesting institutional investors shall offer excess units, in priority order, to: (A) existing tenants of the unit at fair market value; (B) first-time homebuyers meeting income eligibility under the Shelter Sovereignty Fund (subsection (f)); (C) community land trusts and non-profit housing organizations; and (D) the open market.
+
+(3) HOLDING PERIOD EXTENSION.—If the V_abs Quarterly Absorption Throttle prevents completion of divestiture within thirty-six (36) months, the FDVMA may extend the compliance window in six-month increments, not to exceed a total of twenty-four (24) additional months, upon certification that divestiture is proceeding in compliance with the throttle constraint.
+
+(e) JUST COMPENSATION — CONSTITUTIONAL GUARANTEE.—
+
+(1) MARKET-RATE SALES.—Nothing in this section requires any institutional investor to accept below-market compensation for divested units. All divestiture sales shall be conducted at fair market value through arms-length transactions. The federal government does not set the sale price and does not compel any specific buyer.
+
+(2) INDEPENDENT APPRAISAL RIGHT.—Any institutional investor subject to mandatory divestiture under this section is entitled to an independent appraisal by a certified appraiser of its choosing, at its own expense, for any unit it believes is being undervalued in the priority sale process. No forced sale under this section may occur at a price more than ten percent (10%) below the certified independent appraisal value.
+
+(3) TAKING WAIVER.—Compliance with this section's concentration cap and divestiture requirement, including the arms-length market-rate sale process and independent appraisal right established herein, constitutes just compensation within the meaning of the Fifth Amendment. No institutional investor in compliance with this section may claim an uncompensated taking in any federal court.
+
+(4) LITIGATION PRESERVATION.—Nothing in paragraph (3) bars any institutional investor from filing a Fifth Amendment takings claim in the United States Court of Federal Claims asserting that, notwithstanding the market-rate sale process, the practical effect of mandatory divestiture constitutes a compensable taking. Such claims shall be adjudicated on the merits. Pendency of a takings claim does not stay the divestiture requirement.
+
+(f) SHELTER SOVEREIGNTY FUND.—There is established within the SIRF Household Structural Relief Node a dedicated sub-account to be known as the Shelter Sovereignty Fund. The Shelter Sovereignty Fund shall:
+
+(1) provide down payment assistance grants of up to twenty thousand dollars ($20,000) to first-time homebuyers purchasing units divested under this section, with priority to buyers in the fifty most overconcentrated MSAs;
+
+(2) capitalize community land trust acquisitions of divested units at zero-equity bridge grant terms; and
+
+(3) fund tenant legal assistance programs in overconcentrated MSAs to facilitate tenant right-of-first-refusal purchases under subsection (d)(2)(A).
+
+(g) ENFORCEMENT.—The Department of Housing and Urban Development, the Federal Trade Commission, and the FDVMA shall exercise concurrent enforcement authority over this section. The Department of Justice Antitrust Division shall have concurrent authority to challenge acquisition patterns that violate this section. Civil penalties for violation of the concentration cap or divestiture requirement shall be assessed at ten thousand dollars ($10,000) per unit per month of non-compliance, deposited to the Shelter Sovereignty Fund.
+
+(h) DEFINITIONS.—As used in this section:
+
+(1) INSTITUTIONAL INVESTOR.—Any entity, fund, trust, real estate investment trust, or affiliated group of entities that (A) owns single-family residential units primarily as financial assets rather than owner-occupied residences, and (B) manages a portfolio of twenty-five (25) or more single-family residential units in total nationally or ten (10) or more units within a single MSA. The term does not include individual owner-occupants, small landlords owning fewer than ten (10) units nationally, or public housing authorities.
+
+(2) SINGLE-FAMILY RESIDENTIAL UNIT.—A residential property classified as a single-family home, townhome, or condominium unit, as defined in the applicable local zoning code, that is or was primarily used for residential occupancy.
+
+(3) STRUCTURAL RENT BASELINE.—The median gross rent within a given MSA, adjusted quarterly to the Sovereign Productivity Index, as defined in Section 203 of this Act.
+
+(i) CONSTITUTIONAL GROUNDING.—The concentration cap and divestiture requirements of this section are enacted pursuant to the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause conditions attached to the Shelter Sovereignty Fund disbursements, and Congress's plenary authority to regulate financial markets and interstate capital flows. The V_abs Quarterly Absorption Throttle, the 180-day minimum notice requirement of Title XVIII, and the just compensation provisions of subsection (e) are specifically designed to satisfy the three-factor balancing test of Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978).
 
 SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
 
@@ -1901,6 +2015,18 @@ SEC. F-001. COMPULSORY LICENSING FRAMEWORK.
 
 (e) LICENSE TERM.—A compulsory license issued under this Schedule shall remain in effect until the original patent holder reduces pricing to at or below the G7 parity ceiling and maintains compliant pricing for not less than ninety (90) consecutive calendar days, at which point the compulsory license shall automatically terminate.
 
+(f) JUST COMPENSATION ARBITRATION.—
+
+(1) RIGHT TO CHALLENGE.—Any patent holder subject to a compulsory license under this Schedule who believes the applicable royalty rate constitutes less than just compensation within the meaning of the Fifth Amendment to the Constitution may petition the United States Court of Federal Claims for a just compensation determination within one hundred eighty (180) days of compulsory license issuance.
+
+(2) ARBITRATION PANEL.—Upon petition, the Court of Federal Claims shall convene a three-member Independent Pharmaceutical Royalty Arbitration Panel consisting of: one economist with expertise in pharmaceutical market valuation appointed by the court; one representative of the patent holder; and one representative of HHS. The Panel shall issue a binding just compensation determination within one hundred twenty (120) days of convening.
+
+(3) ROYALTY FLOOR.—The arbitration panel's determination shall serve as the operative royalty rate if and only if it exceeds the rates specified in subsections (c)(1)-(3). The statutory rates in subsections (c)(1)-(3) serve as floors, not ceilings, for just compensation purposes.
+
+(4) NO STAY.—Filing a petition under this subsection shall not stay the issuance or operation of the compulsory license. Access to the drug at the G7 parity ceiling price shall continue uninterrupted during arbitration proceedings.
+
+(5) COORDINATION WITH 28 U.S.C. § 1498.—Nothing in this subsection limits the rights of patent holders under 28 U.S.C. § 1498 to seek compensation for government use of patents. This subsection provides an additional, supplementary arbitration pathway.
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2547,6 +2673,25 @@ SEC. 3207. DIGITAL DOLLAR SOVEREIGNTY.
 
 (f) CONGRESSIONAL OVERSIGHT.—The Federal Reserve shall submit quarterly progress reports to the Senate Committee on Banking, Housing, and Urban Affairs and the House Committee on Financial Services on DDSI development progress, security architecture, and international adoption metrics.
 
+
+(c) DIGITAL MONETARY SOVEREIGNTY FUNCTION.—
+
+(1) STRATEGIC DIGITAL RESERVE AUTHORITY.—The SIRF is authorized to maintain a Strategic Digital Reserve consisting of:
+(A) monetary gold held in domestic Federal Reserve vaults;
+(B) foreign-currency reserves in G7 currencies;
+(C) a limited allocation of dollar-denominated digital settlement assets not to exceed five percent (5%) of total SIRF reserve assets, for the purpose of monitoring and hedging systemic digital-finance transitions.
+
+(2) NATIONAL DOLLAR SETTLEMENT NETWORK.—There is hereby established the National Dollar Settlement Network (NDSN), administered by the FDVMA in coordination with the Federal Reserve. The NDSN shall:
+(A) develop and deploy dollar-backed digital payment settlement rails for domestic and international commerce;
+(B) establish public interoperability standards ensuring that private digital payment systems operating in the United States maintain dollar-denominated settlement capability;
+(C) provide real-time gross settlement infrastructure for federal, state, and municipal government transactions;
+(D) partner with allied nations to extend dollar-denominated digital settlement to international trade corridors.
+
+(3) PURPOSE — RESERVE CURRENCY DEFENSE.—The NDSN is established for the specific purpose of preserving United States monetary sovereignty and reserve-currency competitiveness in a digital finance environment. The goal is not speculative digital asset investment; it is ensuring that the next generation of payment, settlement, and financial infrastructure remains dollar-centered. The strategic priority sequence is: (A) dollar settlement infrastructure; (B) sovereign compute infrastructure supporting dollar finance; (C) strategic digital custody and clearing; (D) limited digital reserve allocation.
+
+(4) FUNDING.—The NDSN shall be capitalized from the Sovereign Compute Node established in Section 3408, reflecting the co-location of compute and digital settlement infrastructure.
+
+(5) PROHIBITION ON SPECULATION.—Nothing in this section authorizes speculative investment in digital assets for financial return. The Strategic Digital Reserve and NDSN operate exclusively for monetary sovereignty purposes. Any SIRF capital allocated to digital assets under paragraph (1)(C) shall be held in custody and not deployed in yield-seeking strategies.
 SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
 
 (a) ANNUAL THREAT ASSESSMENT.—The Secretary of the Treasury, in coordination with the Director of National Intelligence and the Secretary of State, shall publish an unclassified Annual Dollar Sovereignty Threat Assessment identifying: (1) nations, institutions, and networks that have taken material actions to undermine dollar reserve currency status in the preceding twelve (12) months; (2) the estimated quantified impact on dollar demand of each identified action; (3) recommended policy responses within the authorities of this Title; and (4) any legislative changes recommended to strengthen reserve currency defense architecture.
@@ -2644,17 +2789,21 @@ SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
 
 The SIRF node allocation percentages are revised as follows, effective from the date of enactment of this Title:
 (1) Household Structural Relief Node (formerly HSRN): 20%;
-(2) Tier 1 Mandatory Structural Obligations reserve: 15%;
-(3) Vanguard Capitalization Node: 15%;
+(2) Tier 1 Mandatory Structural Obligations Reserve: 15%;
+(3) Vanguard Capitalization Node: 20%;
 (4) Environmental Remediation Node: 10%;
-(5) Energy Sovereignty Node: 10%;
+(5) Energy Sovereignty Node: 12%;
 (6) Agricultural Sovereignty Node: 7%;
-(7) Sovereign Deficit Reduction Node: 10%;
-(8) Knowledge Sovereignty Node: 5%;
+(7) Sovereign Deficit Reduction Node: 5%;
+(8) Knowledge Sovereignty Node: 2%;
 (9) Biosecurity and Pharmaceutical Node: 5%;
-(10) Administrative Operations Reserve: 3%.
+(10) Administrative Operations Reserve: 3%;
+(11) Sovereign Compute Node: 5%;
+(12) Strategic Mobility Infrastructure Node: 11%.
 
-Total allocation: one hundred percent (100%). Only the designation and use of Node (1) is modified from HSRN cash distributions to structural mechanism funding. Node (7) Sovereign Deficit Reduction Node replaces the prior Industrial Infrastructure Node, reflecting the consolidation of infrastructure investment into the SIRF Tier 3 waterfall under Section 3402(e)(3).
+Total allocation: one hundred percent (100%).
+
+RATIONALE FOR REVISIONS FROM PRIOR TABLE.—(a) Vanguard Capitalization Node increased from fifteen percent (15%) to twenty percent (20%), reflecting the shift from grant-dominant to investment-instrument-dominant deployment, making the node partially self-replenishing. (b) Sovereign Deficit Reduction Node reduced from ten percent (10%) to five percent (5%): debt discipline is preserved by the automatic surplus-transfer mechanism in Section 3402(d), which routes any SIRF balance above one hundred twenty percent (120%) of obligations to mandatory deficit reduction; the standing node is no longer required at its prior size. (c) Knowledge Sovereignty Node reduced from five percent (5%) to two percent (2%): the Knowledge Sovereignty mission is substantially absorbed by the new Sovereign Compute Node. (d) Energy Sovereignty Node increased from ten percent (10%) to twelve percent (12%) to fund the Energy Dividend established in Section 301(d) as amended. (e) Two new nodes established: Sovereign Compute Node (five percent (5%)) and Strategic Mobility Infrastructure Node (eleven percent (11%)), as governed by Sections 3408 and 3409 respectively.
 
 SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
 
@@ -2688,7 +2837,52 @@ Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,0
 
 SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
 
-The FDVMA shall report annually on: (1) SIRF Statutory Base Revenue collected versus projection by stream; (2) Tier 1 waterfall obligation fulfillment rate — whether all Tier 1 obligations were met in full in each quarter; (3) aggregate household structural relief delivered by mechanism; (4) net annual federal deficit reduction attributable to NSRA revenue architecture; (5) debt-to-GDP ratio trend; (6) upstream prevention actuarial savings realized versus Section 2109 projections.
+The FDVMA shall report annually on: (1) SIRF Statutory Base Revenue collected versus projection by stream; (2) Tier 1 waterfall obligation fulfillment rate — whether all Tier 1 obligations were met in full in each quarter; (3) aggregate household structural relief delivered by mechanism; (4) net annual federal deficit reduction attributable to NSRA revenue architecture; (5) debt-to-GDP ratio trend; (6) upstream prevention actuarial savings realized versus Section 2109 projections; (7) Vanguard Node compound growth rate and portfolio return rate; (8) Sovereign Compute Node infrastructure deployed and cost-per-inference-unit; (9) Energy Sovereignty Node residential credit delivered per utility.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3408. SOVEREIGN COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMPUTE.
+
+(a) ESTABLISHMENT.—There is established within the SIRF a dedicated allocation to be known as the Sovereign Compute Node (SCN), receiving five percent (5%) of SIRF base revenues as established in Section 3405(11).
+
+(b) MISSION.—The Sovereign Compute Node shall fund the construction, ownership, and operation of public-interest compute infrastructure to ensure that artificial intelligence capabilities, data processing, and digital infrastructure remain accessible to American citizens, researchers, and small businesses and are not exclusively concentrated in private commercial infrastructure subject to foreign influence or monopolistic pricing.
+
+(c) AUTHORIZED INVESTMENTS.—The SCN shall invest in:
+(1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned or co-owned data center facilities providing compute access at below-market rates to domestic academic institutions, small businesses, Vanguard Entities, and federal agencies;
+(2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing underserved rural and urban communities;
+(3) SOVEREIGN DATA CENTERS.—Secure, quantum-hardened data center facilities supporting FDVMA operations, SIRF ledger infrastructure, and Digital Monetary Sovereignty functions under Section 3207;
+(4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
+(5) RESEARCH COMPUTE GRANTS.—Grants to domestic academic institutions and national laboratories for compute-intensive research in AI safety, quantum computing, and materials science.
+
+(d) SELF-FUNDING TRAJECTORY.—The SCN shall operate on a cost-recovery basis within seven (7) years of initial deployment. Below-cost access rates shall be limited to non-commercial academic and public-interest users. Commercial users accessing SCN infrastructure shall be charged market rates, with net revenue returned to the SCN for reinvestment. The FDVMA shall certify annually whether SCN revenue is sufficient to reduce the standing five percent (5%) SIRF allocation; upon self-funding certification, the SIRF allocation may be reduced by the FDVMA in one-percent (1%) annual increments.
+
+(e) MINIMUM PRODUCTIVE ASSET REQUIREMENT.—Not less than twenty-five percent (25%) of all SCN deployments in any fiscal year shall be invested in revenue-producing infrastructure assets, consistent with the sovereign wealth fund discipline of Section 204(e).
+
+(f) RELATIONSHIP TO DIGITAL MONETARY SOVEREIGNTY.—SCN infrastructure shall serve as the physical compute layer for the Digital Dollar Settlement Network and cryptographic verification systems established under Section 3207(c). SCN and DDSI functions shall be co-located where operationally feasible to maximize infrastructure efficiency.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
+
+(a) ESTABLISHMENT.—There is established within the SIRF a dedicated allocation to be known as the Strategic Mobility Infrastructure Node (SMIN), receiving eleven percent (11%) of SIRF base revenues as established in Section 3405(12).
+
+(b) MISSION.—The Strategic Mobility Infrastructure Node shall fund physical infrastructure investments with high national economic multiplier value, prioritizing assets that generate ongoing revenue, reduce national logistics costs, and strengthen domestic supply chain sovereignty.
+
+(c) MINIMUM PRODUCTIVE ASSET REQUIREMENT.—Not less than twenty-five percent (25%) of all SMIN deployments in any fiscal year shall be invested in revenue-producing assets. Qualifying productive assets include:
+(1) fiber optic backbone networks with commercial carrier access agreements;
+(2) port facility upgrades with terminal operating revenue;
+(3) logistics hub construction with long-term private operator lease agreements;
+(4) inland waterway infrastructure with toll or usage-fee revenue;
+(5) industrial park and advanced manufacturing campus development with tenant lease revenue.
+
+(d) ELIGIBLE INVESTMENT CATEGORIES.—SMIN deployments shall be concentrated in:
+(1) NATIONAL RAIL SOVEREIGNTY.—Continuation and expansion of the National Rail Sovereignty corridors established under Section 803;
+(2) PORT AND LOGISTICS INFRASTRUCTURE.—Modernization of strategic domestic ports and inland freight logistics hubs;
+(3) BROADBAND AND FIBER BACKBONE.—Long-haul fiber infrastructure connecting rural and underserved communities to national broadband networks;
+(4) TRANSMISSION INFRASTRUCTURE.—High-voltage direct current (HVDC) transmission lines and interstate grid interconnections supporting the Energy Sovereignty Node;
+(5) INDUSTRIAL CORRIDOR DEVELOPMENT.—Planned industrial parks and manufacturing campuses in economically distressed regions designated as Manufacturing Renaissance Zones under Section 1202.
+
+(e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 006.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 END OF TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVER
