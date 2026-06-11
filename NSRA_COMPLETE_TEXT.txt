@@ -1503,7 +1503,7 @@ SEC. 2303. WAGE EQUALIZATION ASSESSMENT — STRUCTURE AND SAFEGUARDS.
 
 (3) Tier 3 — Full WEA rate: All other non-designated nations.
 
-(e) REVENUE ALLOCATION.—All WEA revenue shall be deposited into the SIRF Industrial Infrastructure Node and dedicated to domestic manufacturing workforce development, with not less than fifty percent (50%) allocated to retraining programs for workers in import-affected industries.
+(e) REVENUE ALLOCATION.—The fiscal routing of all WEA revenue is governed exclusively by Section 2419(a) of Title XXIV of this Act (American Fiscal Integrity Act), which constitutes the sole appropriation and routing authority for WEA collections. The allocation mandate of that section -- not less than fifty percent (50%) to domestic manufacturing workforce development and retraining -- is incorporated herein by reference.
 
 SEC. 2304. SOVEREIGN DEFENSE EFFICIENCY COMMISSION.
 
@@ -1817,6 +1817,37 @@ SEC. 2416. CFPB SOVEREIGN CONSUMER FINANCIAL PROTECTION — MEDICAL DEBT, PREDAT
 (e) CFPB ENFORCEMENT FLOOR.—In addition to the enforcement floor established in Section 107(b)(3), the CFPB shall deploy not less than two hundred fifty (250) additional examination and enforcement staff within two (2) years of enactment, dedicated to the consumer financial protection mandates of this section.
 
 (f) EXISTING AGENCY PRIMACY.—All enforcement under this section operates through the CFPB's existing authority under the Consumer Financial Protection Act, the Fair Debt Collection Practices Act (15 U.S.C. § 1692 et seq.), and the Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.). No new agency is created.
+
+
+SEC. 2417. REIT TAX TREATMENT -- TITLE XIV DIVESTITURE COMPLIANCE CLARIFICATION.
+
+(a) IRC SECTION 856 NON-EXEMPTION.--Real estate investment trust status under section 856 of the Internal Revenue Code of 1986 does not exempt any entity from the institutional housing portfolio concentration cap established under Section 1401 of this Act. REIT tax qualification is a matter of federal tax law and does not constitute a defense to, or exemption from, the ownership restrictions and mandatory divestiture requirements of Title XIV.
+
+(b) QUALIFYING DISPOSITION TREATMENT.--Any divestiture of single-family residential units conducted by a real estate investment trust in compliance with the mandatory divestiture schedule of Section 1401(d) shall be treated as a qualifying disposition for purposes of the REIT distribution requirements under section 857 of the Internal Revenue Code. No additional excise tax under section 857(b)(7) shall be imposed solely as a result of compliance-driven divestiture under Title XIV, provided the divestiture proceeds are distributed to shareholders within the REIT's taxable year of sale or the following taxable year. The Secretary of the Treasury shall issue regulations implementing this subsection within one hundred eighty (180) days of enactment.
+
+(c) COMMITTEE COORDINATION.--The Joint Committee on Taxation shall include a revenue estimate for this section in the unified CBO certification required under Section 005(a) of this Act.
+
+SEC. 2418. PRIVATE EQUITY DIVESTITURE -- ORDINARY INCOME TREATMENT FOR CRITICAL SYSTEMS DISPOSITIONS.
+
+(a) CARRIED INTEREST RECHARACTERIZATION.--Notwithstanding any other provision of the Internal Revenue Code of 1986, any gain recognized by a private equity fund, leveraged buyout vehicle, or affiliated investment entity on the disposition of a Critical Life-Safety System, as defined in Section 2202(2) of this Act, pursuant to the mandatory divestiture requirements of Title XXII, shall be treated as ordinary income and not as long-term capital gain for all federal income tax purposes, including for purposes of the carried interest provisions of section 1061 of the Internal Revenue Code.
+
+(b) RATIONALE.--Congress finds that the profit-extraction model applied to Critical Life-Safety Systems -- including leveraged acquisition, debt loading on acquired entities, and management fee extraction -- constitutes an ordinary business activity generating ordinary income, not a long-term capital investment qualifying for preferential capital gains treatment.
+
+(c) EFFECTIVE DATE.--This section applies to dispositions occurring on or after the date of enactment of this Act, and to all gains accrued after the date of enactment on positions held on such date.
+
+(d) SECRETARY AUTHORITY.--The Secretary of the Treasury shall issue regulations preventing the use of structuring, installment sales, or related-party transactions to circumvent the ordinary income treatment established in this section.
+
+SEC. 2419. TRADE ENFORCEMENT REVENUE ROUTING -- FISCAL CONSOLIDATION.
+
+(a) WAGE EQUALIZATION ASSESSMENT REVENUE.--All revenue collected pursuant to the Wage Equalization Assessment established in Section 2303 of this Act (Title XXIII) shall be deposited into the SIRF Industrial Infrastructure Node established under Section 201(e) of this Act. Not less than fifty percent (50%) of such revenue shall be allocated to domestic manufacturing workforce development and retraining programs for workers in import-affected industries, consistent with the mandate of Section 2303(e). This section constitutes the exclusive fiscal routing authority for WEA revenue and supersedes any conflicting revenue disposition language in Title XXIII.
+
+(b) USMCA LABOR ENFORCEMENT TARIFF REVENUE.--All tariff revenue collected under the automatic labor enforcement escalation mechanism established in Section 3003(b) of this Act (Title XXX) shall be deposited into the SIRF Labor Node. Not less than fifty percent (50%) shall be disbursed as wage supplements and retraining assistance to American workers in sectors affected by documented USMCA labor non-compliance through the American Worker Remediation Fund established as a sub-account of the SIRF Labor Node. This section constitutes the exclusive fiscal routing authority for USMCA escalation tariff revenue.
+
+(c) CURRENCY COUNTERVAILING DUTY REVENUE.--All revenue collected pursuant to the Currency Countervailing Duty established in Section 3004(b) of this Act (Title XXX) shall be deposited into the SIRF Industrial Infrastructure Node and deployed for domestic manufacturing investment consistent with Section 401(b) of this Act. This section constitutes the exclusive fiscal routing authority for CCD revenue.
+
+(d) UNIFIED REVENUE CERTIFICATION.--The FDVMA shall include WEA revenue, USMCA escalation tariff revenue, and CCD revenue in the unified SIRF Revenue Sufficiency Report transmitted to Congress under Section 005(b) of this Act. The Congressional Budget Office shall score these revenue streams as part of the unified deficit neutrality certification required under Section 005(a).
+
+(e) COMMITTEE JURISDICTION DECLARATION.--The revenue routing provisions of this section are within the jurisdiction of the Senate Committee on Finance and the House Committee on Ways and Means. The operational trade enforcement provisions of Titles XXIII and XXX remain within the jurisdiction of the Senate Committee on Finance (tariff authority), the Senate Committee on Foreign Relations (diplomatic architecture), and the Senate Committee on Commerce, Science, and Transportation (supply chain operations). This section resolves any jurisdictional ambiguity by consolidating fiscal routing under Title XXIV.
 
 TITLE XXV — VETERANS HEALTH SOVEREIGNTY AND PACT ACT COMPLETION ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2378,7 +2409,7 @@ SEC. 3003. LABOR ENFORCEMENT ESCALATION MECHANISM.
 
 (3) TIER 3 (Day 181+): Suspension of USMCA preferential tariff treatment for the non-compliant sector, restoring Most Favored Nation (MFN) rates until compliance is certified by an independent USMCA labor panel.
 
-(c) AMERICAN WORKER REMEDIATION FUND.—Fifty percent (50%) of all tariff revenue collected under the escalation mechanism in subsection (b) shall be deposited into a dedicated American Worker Remediation Fund within the SIRF Labor Node, disbursed as wage supplements and retraining assistance to American workers in sectors affected by documented USMCA labor non-compliance.
+(c) AMERICAN WORKER REMEDIATION FUND.—The fiscal routing of all tariff revenue collected under the escalation mechanism in subsection (b) is governed exclusively by Section 2419(b) of Title XXIV of this Act (American Fiscal Integrity Act). The American Worker Remediation Fund established therein, as a sub-account of the SIRF Labor Node, is the exclusive depository for such revenue. The fifty percent (50%) allocation mandate to wage supplements and retraining assistance is incorporated herein by reference.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2388,7 +2419,7 @@ SEC. 3004. CURRENCY MANIPULATION ENFORCEMENT.
 
 (b) AUTOMATIC CURRENCY COUNTERVAILING DUTY.—Upon a finding that a USMCA trading partner's currency is misaligned by more than 10% relative to its fair value for two consecutive quarters, the Secretary of Commerce shall automatically impose a Currency Countervailing Duty (CCD) on imports from that trading partner equal to the documented misalignment percentage, applied on an ad valorem basis to all imported goods. The CCD shall remain in effect until the misalignment is reduced below 5%.
 
-(c) REVENUE DISPOSITION.—All CCD revenue shall be deposited into the SIRF Industrial Infrastructure Node and deployed for domestic manufacturing investment consistent with Section 401(b) of this Act.
+(c) REVENUE DISPOSITION.—The fiscal routing of all Currency Countervailing Duty revenue is governed exclusively by Section 2419(c) of Title XXIV of this Act (American Fiscal Integrity Act), which constitutes the sole appropriation and routing authority for CCD collections. The deployment mandate for domestic manufacturing investment under Section 401(b) is incorporated herein by reference.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2923,4 +2954,19 @@ As used in this Title:
 (1) COVERED OFFICIAL.—The President, Vice President, any Cabinet Secretary, Deputy Secretary, Under Secretary, or Assistant Secretary of any executive department, any member of the White House senior staff, any member of the National Security Council, any independent agency head, and any other executive branch official confirmed by the Senate or serving in a position with a salary at or above the Executive Schedule Level IV rate.
 (2) IMMEDIATE FAMILY MEMBER.—The spouse, domestic partner, child, sibling, or parent of a Covered Official, and any entity in which such a person holds a controlling interest or serves in a management capacity.
 (3) FOREIGN GOVERNMENT-LINKED ENTERPRISE.—Any enterprise in which a foreign government, foreign sovereign wealth fund, foreign state-owned enterprise, or any entity in which a foreign government holds a direct or indirect ownership interest of ten percent (10%) or more, holds an ownership, licensing, revenue-sharing, or advisory interest.
-(4) SOVEREIGN
+(4) SOVEREIGNINTEGRITY ENTERPRISE.--Any domestic entity, including a corporation, limited liability company, partnership, trust, or nonprofit organization, in which a Covered Official or Immediate Family Member holds a financial interest of five percent (5%) or more, serves in a management or advisory capacity, or from which a Covered Official or Immediate Family Member has received compensation exceeding ten thousand dollars ($10,000) in any twelve-month period within the four (4) years preceding the Covered Official's appointment.
+
+SEC. 3503. FINANCIAL CONFLICT OF INTEREST PROHIBITIONS.
+
+(a) DIVESTITURE REQUIREMENT.--Every Covered Official shall, within ninety (90) days of assuming office, divest all financial interests in any Sovereign Integrity Enterprise that presents a direct conflict with the Covered Official's official duties, as determined by the Office of Government Ethics. Divestiture shall be into a qualified blind trust meeting the standards of 5 U.S.C. App. 4 sec. 102(f), or through outright sale at fair market value.
+
+(b) FOREIGN ENTERPRISE PROHIBITION.--No Covered Official may hold, directly or through an Immediate Family Member, any financial interest in a Foreign Government-Linked Enterprise during the Covered Official's term of service. Any such interest held at the time of appointment shall be divested within sixty (60) days of enactment or appointment, whichever is later.
+
+(c) ENFORCEMENT.--The Office of Government Ethics shall publish a quarterly Sovereign Integrity Compliance Report listing all Covered Officials, their divestiture status, and any outstanding compliance deficiencies. The FDVMA shall cross-reference financial disclosure filings with its enterprise database to identify undisclosed interests and transmit findings to the Department of Justice Public Integrity Section within thirty (30) days of identification.
+
+(d) PENALTIES.--Willful violation of this section by a Covered Official shall constitute a federal offense punishable by not more than five (5) years imprisonment, a civil fine of not less than one hundred thousand dollars ($100,000) per violation, and permanent disqualification from federal service.
+
+SEC. 3504. SOVEREIGN ACCOUNTABILITY -- SCHEDULE D BENCHMARKS.
+
+The FDVMA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) number of referrals to the Department of Justice for willful violations; (3) number of Foreign Government-Linked Enterprise interests identified and divested; and (4) overall Sovereign Integrity Compliance Rate across all executive branch positions covered by this Title.
+
