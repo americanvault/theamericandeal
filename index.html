@@ -4836,7 +4836,8 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
   // ── Signature counter ────────────────────────────────────────
   function updateVisitorCounter() {
-    fetch('https://abacus.jasoncameron.dev/hit/theamericandeal/nsra-signatures')
+    // /get/ reads current value without incrementing — /hit/ is only called on actual signature submission
+    fetch('https://abacus.jasoncameron.dev/get/theamericandeal/nsra-signatures')
       .then(function(r){ return r.json(); })
       .then(function(d){
         if (!d || !d.value) return;
