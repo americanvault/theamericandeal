@@ -125,11 +125,11 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 (5) SNAP and WIC statutory protection (Titles I and VII).
 No Tranche 1 disbursement requires a SIRF revenue certification or phase gate condition. These mechanisms are funded from mandatory enforcement revenue that activates automatically upon enactment.
 
-(c) TRANCHE 2 — [RESERVED — HSRN RETIRED].—The targeted Household Structural Relief Node program formerly designated under this tranche is retired in full by Section 3401 of Title XXXIV. No disbursement authority, phase gate condition, or budget obligation is established by this subsection.
+(c) TRANCHE 2 — TARGETED HSRN (GATE 1 CONDITIONS).—Household Structural Relief Node deployment at three hundred dollars ($300) per month to households at or below one hundred fifty percent (150%) of the federal poverty guideline shall activate only when all three Gate 1 conditions of Schedule E are simultaneously certified by the CBO. No Tranche 2 disbursement may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that dollar-one of HSRN is backed by collected, verified sovereign revenue.
 
-(d) TRANCHE 3 — [RESERVED — HSRN RETIRED].—The universal Household Structural Relief Node program formerly designated under this tranche is retired in full by Section 3401 of Title XXXIV. No disbursement authority, phase gate condition, or budget obligation is established by this subsection.
+(d) TRANCHE 3 — UNIVERSAL HSRN (GATE 2 CONDITIONS).—Universal Household Structural Relief Node deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal HSRN deployment occurs when the fiscal foundation is substantially complete, not before.
 
-(e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E (retired).
+(e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E.
 
 (f) MACRO-SHOCK PROTECTION.—To prevent a sudden fiscal shock to the macroeconomic baseline during the multi-year ramp of corporate supply chain migration and enforcement revenue:
 (1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Endowment Node's verified quarterly inflow;
@@ -1635,7 +1635,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (b) CREDIT RATE.—Covered Entities meeting the SPI wage floor threshold shall receive a tax credit equal to seven and one-half percent (7.5%) of total domestic payroll costs for employees paid at or above the SPI wage floor, applied against corporate income tax liability.
 
-(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E (retired). The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
+(c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
 
 (d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FDVMA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
@@ -2828,7 +2828,7 @@ The FDVMA shall publish an annual Household Structural Relief Node Utilization R
 
 SEC. 3404. HOUSEHOLD STRUCTURAL RELIEF NODE — CROSS-TITLE CLARIFICATION.
 
-Any reference in this Act to the Household Structural Relief Node, HSRN, or any universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E (retired) benchmark reporting obligations are now governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
+Any reference in this Act to a universal cash distribution mechanism tied to SIRF market returns is hereby superseded by the Household Structural Relief Node framework of this Title. Schedule E benchmark reporting obligations are governed by the FDVMA's consolidated Schedule D reporting mandate under Title XIX. The FDVMA shall publish a reconciliation notice within ninety (90) days of enactment identifying all superseded provisions and confirming the operative mechanisms.
 
 SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
 
