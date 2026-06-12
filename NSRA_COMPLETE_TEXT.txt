@@ -3175,7 +3175,86 @@ SEC. 3503. FINANCIAL CONFLICT OF INTEREST PROHIBITIONS.
 
 SEC. 3504. SOVEREIGN ACCOUNTABILITY -- SCHEDULE D BENCHMARKS.
 
-The FMIA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) numb
+The FMIA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) number and disposition of identified undisclosed financial interests referred to the Department of Justice Public Integrity Section; (3) number of Emoluments Clause private-right-of-action suits filed and their outcomes; (4) number of Foreign Government-Linked Enterprise interests divested under Section 3503(b); and (5) post-service cooling-off period compliance rates among departing Covered Officials.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXVI — FOREIGN INFLUENCE TRANSPARENCY AND ADVERSARY CAPITAL DEFENSE ACT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3601. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+(1) The integrity of sovereign policy-making depends on transparency as to which foreign principals are directing, funding, or participating in efforts to influence United States legislation, regulation, procurement, and public opinion, and existing law contains structural gaps that permit such influence to remain undisclosed;
+(2) The Lobbying Disclosure Act of 1995 (2 U.S.C. § 1601 et seq.) exemption to the Foreign Agents Registration Act (22 U.S.C. § 611 et seq.) ("FARA") permits a person lobbying in the United States on behalf of a foreign principal to register under the less rigorous Lobbying Disclosure Act in lieu of FARA, thereby avoiding FARA's more comprehensive disclosure of the foreign principal relationship, the activities undertaken, and the compensation received;
+(3) This Title regulates conduct — the undisclosed direction, funding, or control of influence activity by foreign principals, and the acquisition of sensitive United States assets by capital traceable to foreign adversaries — and does not regulate, restrict, or disfavor any person on the basis of national origin, ethnicity, religion, or the viewpoint or content of protected speech;
+(4) The disclosure obligations of this Title apply with equal force to influence activity directed, funded, or controlled by any foreign government, whether an ally, a partner, a neutral, or a designated adversary of the United States, and impose no obligation by reason of the identity of any domestic ethnic, national-origin, or religious community;
+(5) The Committee on Foreign Investment in the United States lacks comprehensive, categorical authority over the full range of acquisitions, greenfield investments, and controlling interests by which capital traceable to foreign adversaries may acquire United States critical infrastructure, defense-relevant supply chains, sovereign compute capacity, agricultural land, and real property proximate to sensitive national security facilities; and
+(6) Sanctions-evasion and asymmetric capital-flight networks routinely employ shell entities, front companies, and nominee ownership structures established in high-risk jurisdictions to obscure the beneficial ownership of capital and to defeat enforcement, and a beneficial-ownership look-through standard is necessary to give effect to the capital-flight lock authority of Section 1806.
+
+(b) PURPOSE.—The purpose of this Title is to require uniform, viewpoint-neutral and nationality-neutral disclosure of foreign-principal influence activity, to close the Lobbying Disclosure Act exemption with respect to foreign-government principals, to establish a categorical screen on the acquisition of sensitive United States assets by capital traceable to foreign adversaries, and to extend a beneficial-ownership look-through standard to the enforcement authorities of this Act.
+
+(c) RULE OF CONSTRUCTION — FIRST AMENDMENT AND EQUAL PROTECTION.—Nothing in this Title shall be construed to prohibit, penalize, or burden protected speech, association, petition, or the expression of any viewpoint, or to impose any obligation on any person by reason of that person's race, ethnicity, national origin, religion, or membership in any community. This Title imposes disclosure and screening obligations triggered solely by conduct, namely a documented relationship of foreign-principal direction, funding, or control, or a documented chain of beneficial ownership traceable to a foreign adversary. Each obligation under this Title shall be construed and applied as the least restrictive means of achieving the compelling governmental interest in transparency of foreign influence and protection of sovereign assets, consistent with the First Amendment and the equal protection component of the Fifth Amendment.
+
+SEC. 3602. DEFINITIONS — TITLE XXXVI.
+
+As used in this Title:
+(1) FOREIGN PRINCIPAL.—The term has the meaning given in 22 U.S.C. § 611(b), and includes any foreign government, foreign political party, foreign-government-controlled entity, and any person outside the United States acting at the direction or under the control of any of the foregoing.
+(2) FOREIGN ADVERSARY.—Any foreign government or regime designated as a foreign adversary by the Secretary of Commerce under 15 C.F.R. § 7.4, or otherwise designated as a foreign adversary by Federal statute or by Executive determination published in the Federal Register. The designation shall be made by reference to documented governmental conduct and not by reference to the population, diaspora, or ethnicity of any nation. As of the date of enactment, this term includes the governments identified in the prevailing Federal foreign-adversary designation; the operative list is the published designation in effect at the time of any enforcement action under this Title.
+(3) ADVERSARY-TRACEABLE CAPITAL.—Capital in which a Foreign Adversary, an instrumentality of a Foreign Adversary, or a person owned or controlled by a Foreign Adversary holds, directly or through any chain of intermediary entities, a beneficial ownership interest of twenty-five percent (25%) or more, or over which such a person exercises control irrespective of the nominal percentage of ownership.
+(4) SENSITIVE UNITED STATES ASSET.—(A) critical infrastructure as defined in 42 U.S.C. § 5195c(e); (B) any element of a defense-relevant supply chain certified as such by the Secretary of Defense; (C) sovereign compute capacity within the meaning of Title XXXIII; (D) agricultural land exceeding three hundred twenty (320) contiguous acres; and (E) real property located within twenty-five (25) miles of a military installation, defense research facility, or other facility designated as sensitive by the Secretary of Defense.
+(5) BENEFICIAL OWNER.—The term has the meaning given in 31 U.S.C. § 5336(a)(3), determined on a look-through basis through every intermediary entity, nominee, trust, and front company, without regard to the jurisdiction of organization of any intermediary.
+(6) COVERED INFLUENCE ACTIVITY.—Any lobbying activity within the meaning of 2 U.S.C. § 1602, and any public-relations, political-consulting, or research-and-advocacy activity intended to influence United States Government policy or public opinion on a matter of public concern, that is directed, funded, supervised, or controlled, in whole or in part, by a Foreign Principal.
+
+SEC. 3603. CLOSURE OF THE LOBBYING DISCLOSURE ACT EXEMPTION FOR FOREIGN-GOVERNMENT PRINCIPALS.
+
+(a) ELIMINATION OF EXEMPTION.—Section 3(h) of the Foreign Agents Registration Act (22 U.S.C. § 613(h)) is amended so that the exemption for persons registered under the Lobbying Disclosure Act shall not apply to any person engaged in Covered Influence Activity on behalf of, or under the direction or control of, a foreign government or foreign political party. Such a person shall register and report under FARA.
+
+(b) PARITY OF DISCLOSURE — ALL FOREIGN GOVERNMENTS.—The obligation established in subsection (a) applies identically to influence activity directed, funded, or controlled by any foreign government, without distinction between allied, partner, neutral, or adversary governments. No foreign government's directed influence activity shall be exempt from FARA registration by reason of an alliance, treaty, defense, intelligence, or trade relationship with the United States.
+
+(c) PARTICIPATION DISCLOSURE.—Any registrant under the Lobbying Disclosure Act shall disclose, in each periodic report, the identity of any foreign government entity or foreign political party that participates in the direction, planning, supervision, or control of the registrant's lobbying activities, regardless of whether that entity finances the activities. This subsection codifies the disclosure standard and applies uniformly to all foreign governments.
+
+(d) NO REGULATION OF DOMESTIC ADVOCACY.—Nothing in this section requires registration or disclosure by any United States person engaged in advocacy that is not directed, funded, supervised, or controlled by a Foreign Principal. The sharing of a policy viewpoint with, or alignment of a policy position with that of, a foreign government does not, without a documented relationship of direction, funding, supervision, or control, constitute Covered Influence Activity.
+
+SEC. 3604. FOREIGN-FUNDED INFLUENCE DISCLOSURE — RESEARCH, ADVOCACY, AND MEDIA.
+
+(a) DISCLOSURE REQUIREMENT.—Any organization exempt from taxation under section 501(c) of the Internal Revenue Code, and any media or research organization, that produces or disseminates research, analysis, or advocacy intended to influence United States Government policy and that has received aggregate funding of fifty thousand dollars ($50,000) or more from one or more Foreign Principals within the preceding twelve (12) months, shall disclose the identity of each such Foreign Principal and the aggregate amount received, in a public filing with the Department of Justice and in a conspicuous notation on the published product.
+
+(b) NATIONALITY NEUTRALITY.—The disclosure obligation of this section applies to funding from any Foreign Principal of any nation, and creates no obligation triggered by the national origin, ethnicity, or religion of the organization's members, donors, or staff.
+
+(c) NO CONTENT RESTRICTION.—This section imposes no restriction on the content, viewpoint, or conclusions of any research, analysis, or advocacy. It requires only disclosure of the funding relationship.
+
+SEC. 3605. ADVERSARY CAPITAL SCREEN ON SENSITIVE UNITED STATES ASSETS.
+
+(a) SCREEN ESTABLISHED.—No person shall acquire a controlling interest in, or a greenfield ownership position in, any Sensitive United States Asset using Adversary-Traceable Capital, except upon prior review and written clearance by the Committee on Foreign Investment in the United States or a successor interagency body designated by the President.
+
+(b) MANDATORY NOTIFICATION.—Any acquisition described in subsection (a) shall be notified to the Committee not less than forty-five (45) days before consummation, with full disclosure of the beneficial ownership chain determined on the look-through basis of Section 3602(5).
+
+(c) CATEGORICAL RESTRICTION.—Where the Committee determines that a proposed acquisition would place a Sensitive United States Asset under the control of Adversary-Traceable Capital and that no mitigation measure can adequately protect the national security interest, the Committee shall prohibit the acquisition. Such a determination shall be supported by written findings and is subject to judicial review under the procedural protections of Title XVIII.
+
+(d) DIVESTITURE OF EXISTING HOLDINGS.—Where Adversary-Traceable Capital holds, as of the date of enactment, a controlling interest in a Sensitive United States Asset, the holder shall notify the Committee within one hundred eighty (180) days, and the Committee may order divestiture subject to the one hundred eighty (180) day asset-divestment notice window and ALJ Judicial Verification Warrant requirements of Section 1804, and, where applicable, the volume-absorption and just-compensation protections of Title XIV.
+
+(e) ALLY AND PARTNER CAPITAL UNAFFECTED.—Capital traceable solely to a foreign government that is not a Foreign Adversary is not Adversary-Traceable Capital and is not subject to the screen of this section, except to the extent independently reviewable under existing Committee authority.
+
+SEC. 3606. BENEFICIAL-OWNERSHIP LOOK-THROUGH — ANTI-FRONT-COMPANY ENFORCEMENT.
+
+(a) LOOK-THROUGH STANDARD.—For purposes of the capital-flight lock authority of Section 1806, the asset-seizure and forced-divestment authorities of Title XVIII, and the adversary capital screen of Section 3605, beneficial ownership shall be determined on a look-through basis that pierces every intermediary entity, nominee arrangement, trust, and front company, without regard to the jurisdiction in which any intermediary is organized.
+
+(b) FRONT-COMPANY PRESUMPTION.—An entity shall be presumed to be a front company for a documented beneficial owner where the entity (1) is organized in a jurisdiction identified as high-risk for money laundering by the Financial Action Task Force or the Financial Crimes Enforcement Network; (2) lacks substantial independent business operations; and (3) engages in transactions principally for the benefit of the documented beneficial owner. The presumption is rebuttable by clear and convincing evidence of independent operations.
+
+(c) NO STRICT-LIABILITY EXPANSION.—This section establishes a method of determining beneficial ownership and does not create any new penalty. All penal remedies arising from conduct identified through the look-through standard remain subject to the Article III adjudication and jury-trial requirements applicable under this Act, and to the pre-deprivation notice and warrant requirements of Title XVIII.
+
+SEC. 3607. ENFORCEMENT AND COORDINATION.
+
+(a) PRIMARY AGENCIES.—The Department of Justice (FARA Unit) shall be the primary enforcement agency for Sections 3603 and 3604; the Committee on Foreign Investment in the United States shall be primary for Section 3605; and the Department of the Treasury, in coordination with the FMIA, shall be primary for Section 3606 as it relates to Section 1806.
+
+(b) CIVIL DISCLOSURE ENFORCEMENT.—A knowing and willful failure to make a disclosure required by Section 3603 or 3604 is subject to civil penalty. Consistent with the enforcement architecture of this Act, no civil monetary penalty shall be finally assessed except by a United States District Court with the Seventh Amendment right to trial by jury preserved.
+
+(c) NO RETALIATORY OR SELECTIVE ENFORCEMENT.—Enforcement under this Title shall be conducted on a viewpoint-neutral and nationality-neutral basis. The Department of Justice shall publish an annual report stating, in the aggregate and by foreign-government principal, the number of registrations, disclosures, and enforcement actions under this Title, to permit public verification that enforcement does not target any nation, viewpoint, or community selectively.
+
+SEC. 3608. SCHEDULE D BENCHMARKS — TITLE XXXVI.
+
+The Department of Justice and the FMIA shall report biennially to Congress on: (1) the number of foreign-government principals newly registered under FARA following closure of the Lobbying Disclosure Act exemption; (2) the number of foreign-funded influence disclosures filed under Section 3604; (3) the number of adversary-capital acquisitions notified, cleared, mitigated, or prohibited under Section 3605; (4) the number of beneficial-ownership look-through determinations made under Section 3606; and (5) confirmation, with supporting aggregate data, that enforcement has been conducted on a nationality-neutral and viewpoint-neutral basis.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 (Enacted as a statutory annex for purposes of Sections 3402, 3406, and 1903)
@@ -3383,4 +3462,8 @@ SUPPLEMENTAL STREAM D — DEFENSE PROCUREMENT SOVEREIGNTY PREMIUM
 
 (c) The FMIA shall publish an annual Schedule G Variance Report no later than March 15 of each year comparing actual SIRF revenue collections for the prior fiscal year to each stream's Schedule G projection, with a plain-language explanation of any variance exceeding ten percent (10%) of the projected amount. This Report shall be submitted to the Congressional Budget Office, the Joint Committee on Taxation, and made publicly available at no cost.
 
-(d) The Congressional Budget Office is directed to score each revenue stream in this Schedule independently and p
+(d) The Congressional Budget Office is directed to score each revenue stream in this Schedule independently and to publish its findings, including any divergence from the statutory floor estimates stated herein, so that Congress and the public may evaluate the revenue architecture of this Act against an independent baseline. Where the Congressional Budget Office's independent score of any stream falls below the statutory floor stated in this Schedule, the FMIA shall, within ninety (90) days, transmit to Congress a reconciliation memorandum identifying the source of the divergence and any corrective calibration, without any reduction in the household benefit obligations established elsewhere in this Act.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+END OF NSRA COMPLETE TEXT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
