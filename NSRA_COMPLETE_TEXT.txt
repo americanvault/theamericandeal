@@ -16,6 +16,8 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
 
 (b) FINDINGS OF BROAD NATIONAL CONSENSUS.—Congress finds that the provisions of this Act reflect policy areas of documented bipartisan concern, including: domestic manufacturing competitiveness, pharmaceutical pricing fairness, housing affordability, retirement security, food supply-chain resilience, infrastructure investment, and protection of taxpayer-funded research from foreign extraction.
 
+(c) SCOPE OF ACT.—This Act comprises thirty-six (36) titles, numbered Title I through Title XXXVI, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
+
 SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF STRUCTURAL CAUSALITY.
 
 The Congress finds and declares the following:
@@ -371,18 +373,18 @@ MINIMUM SIRF CAPITALIZATION FLOOR.—No SIRF disbursement program shall deploy c
 (C) The SIRF IG shall maintain a public registry of all individuals subject to the cooling-off requirement of this subsection, updated quarterly.
 
 (e) SIRF CAPITAL ALLOCATION NODES.—SIRF capital shall be allocated among the following mandatory nodes, subject to annual rebalancing by the FMIA based on verified utilization rates:
-(1) Household Structural Relief Node: 20%;
+(1) Household Structural Relief Node: 15%;
 (2) Tier 1 Mandatory Structural Obligations Reserve: 15%;
-(3) Vanguard Capitalization Node: 20%;
-(4) Environmental Remediation Node: 10%;
-(5) Energy Sovereignty Node: 12%;
-(6) Agricultural Sovereignty Node: 7%;
+(3) Vanguard Capitalization Node: 15%;
+(4) Environmental Remediation Node: 9%;
+(5) Energy Sovereignty Node: 9%;
+(6) Agricultural Sovereignty Node: 9%;
 (7) Sovereign Deficit Reduction Node: 5%;
 (8) Knowledge Sovereignty Node: 2%;
-(9) Biosecurity and Pharmaceutical Node: 5%;
+(9) Biosecurity and Pharmaceutical Node: 6%;
 (10) Administrative Operations Reserve: 3%;
-(11) Sovereign Compute Node: 5%;
-(12) Strategic Mobility Infrastructure Node: 11%.
+(11) Sovereign Compute Node: 6%;
+(12) Strategic Mobility Infrastructure Node: 6%.
 
 Total: one hundred percent (100%). The Sovereign Compute Node established in paragraph (11) and the Strategic Mobility Infrastructure Node established in paragraph (12) are new nodes created by this Title and shall be governed by Sections 3408 and 3409 respectively. The Vanguard Capitalization Node is increased from fifteen percent (15%) to twenty percent (20%) subject to the investment instrument requirements of Section 204(e).
 
@@ -700,6 +702,434 @@ SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, A
 
 SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
 
+
+TITLE VI — SOVEREIGN CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 601. PROHIBITION ON PREDATORY PRIVATE EQUITY BUYOUTS AND ASSET PLEDGING.
+
+(a) IN GENERAL.—It shall be a high-level corporate violation for any private equity firm, investment fund, or Covered Entity to execute a leveraged buyout or structured acquisition of a domestic corporate enterprise where the underlying employee pension capital, retirement funds, healthcare reserves, or deferred compensation assets are pledged as collateral, guaranteed as debt backstops, or utilized to service acquisition financing.
+
+(b) EXCLUSION FROM CORPORATE DEBT LIQUIDATION.—In the event of structural insolvency or Chapter 11 reorganization of any Covered Entity, worker pension structures shall possess absolute super-priority lien status, priming all senior secured lenders, debtor-in-possession financiers, and bondholder committees.
+
+(c) LEGACY ACQUISITION COMPLIANCE PERIOD.—Covered Entities that completed leveraged acquisitions prior to the effective date of this Act and whose existing structures conflict with subsection (a) shall have a twenty-four (24) month compliance window to refinance or restructure their acquisition debt to remove pension assets from collateral pools. The SIRF capital protection node shall make available transitional refinancing credit facilities at federal funds rate plus one percent (1%) for qualifying domestic entities during this transition period.
+
+SEC. 602. THE ERIDANUS AMENDMENT TO ERISA — PATCH R-09.
+
+(a) AMENDMENT TO SECTION 514.—Section 514 of the Employee Retirement Income Security Act of 1974 (29 U.S.C. § 1144) is amended by inserting at the end the following new subsection:
+
+"(c) SOVEREIGN PENSION PROTECTION ACT COORDINATION.—Nothing contained within this statutory section or any parallel preemption framework under federal law shall be construed to preempt, limit, displace, or invalidate the application of Title VI of the National Sovereignty and Resilience Act of 2028, which mandates the maintenance of strict corporate liability pension solvency floors as absolute minimum federal baseline standards. State laws that provide pension protections equal to or greater than those required by Title VI of the National Sovereignty and Resilience Act of 2028 are not preempted."
+
+SEC. 603. AUTOMATED ACTUARIAL BACKSTOP TRIGGER.
+
+(a) ACTIVATION PARAMETERS.—The FDVM shall monitor the real-time balance sheets and actuarial reserve structures of all domestic corporate pension plans. If any defined-benefit or defined-contribution pension fund falls below a ninety percent (90%) strict actuarial solvency floor due to systemic macroeconomic contraction, market disruptions, or supply chain variances, the Automated Actuarial Backstop Trigger shall instantly engage.
+
+(b) FUNDING MECHANICS.—Upon engagement of the trigger, the SIRF capital protection node shall automatically clear a non-repayable capitalization injection equal to the exact dollar delta required to restore the affected fund to one hundred percent (100%) actuarial solvency. Plan administrators are granted an automatic 180-day conformance window from the date of injection to adjust portfolio distributions into domestic sovereign infrastructure assets, during which period plan administrators are completely absolved of personal fiduciary liability for the unfunded structural gap.
+
+(c) VOLUNTARY PENSION ENHANCEMENT PROGRAM.—Any employer that voluntarily increases pension contribution rates above the minimum actuarial solvency floor shall be eligible for a matching SIRF co-investment of twenty-five cents ($0.25) per employer dollar contributed above the floor, up to a maximum matching contribution of five thousand dollars ($5,000) per employee per year.
+
+SEC. 604. RETIREMENT SECURITY FOR GIG AND CONTINGENT WORKERS.
+
+(a) PORTABLE BENEFIT ACCOUNT MANDATE.—Any Covered Entity that classifies more than twenty-five percent (25%) of its domestic workforce as independent contractors or contingent workers shall establish, maintain, and contribute to Portable Benefit Accounts for each such worker. Contributions shall not be less than twelve percent (12%) of total annual compensation paid to each contingent worker.
+
+(b) ACCOUNT PORTABILITY.—Portable Benefit Accounts established under this section shall be owned by and transferable with the individual worker across all employment relationships. Account funds shall be accessible for retirement, health insurance premiums, and paid family leave coverage.
+
+(c) ENFORCEMENT.—Failure to establish or fund Portable Benefit Accounts as required shall constitute a strict liability violation, with automated penalties of not less than one thousand dollars ($1,000) per worker per quarter of non-compliance, routed to the SIRF and credited proportionally to the accounts of affected workers.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE VII — AGRICULTURAL SOVEREIGNTY AND CALORIC INFRASTRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 701. MECHANICAL DIVESTMENT OF FOOD DISTRIBUTION MONOPOLIES.
+
+(a) PORTFOLIO CONCENTRATION FLOORS.—To preserve food supply security and domestic supply-chain anti-fragility, no Covered Entity, transnational corporation, or foreign sovereign wealth fund shall possess, lease, or exercise structural control over more than twelve percent (12%) of the consolidated national market share within the following critical categories:
+(1) Master food distribution networks and cold-storage clearing facilities;
+(2) Fertilizer manufacturing, chemical synthesis foundries, and raw phosphate repositories; or
+(3) Arable domestic topsoil acreage.
+
+(b) AUTOMATED SEIZURE AND WORKER COOPERATIVE RE-CAPITALIZATION.—
+
+(1) NOTICE TO DIVEST.—Any corporate asset concentration found by the FDVM to cross the 12% statutory cap shall instantly trigger an automated Notice of Excess Concentration, granting the entity a fixed, non-extendable one hundred eighty (180) calendar day window to execute voluntary market divestments to domestic primary producers.
+
+(2) JUDICIAL TRANSFER MECHANICS.—If the Covered Entity remains non-compliant at the end of the one hundred eighty (180) day voluntary divestment window, the Department of Agriculture shall within thirty (30) calendar days file an application in the United States District Court for the district where the excess assets are located for an Order of Forced Divestment and Title Transfer. The District Court shall adjudicate the application on an expedited thirty (30) day track. Upon issuance of the Order, title to the excess agricultural assets, land, and distribution facilities shall transfer to the USDA as trustee, pending assignment to qualifying regional worker cooperatives and municipal food security trusts. Just compensation as calculated under Section 701(c) shall be tendered concurrent with title transfer from the Agricultural Transition Reserve established within the SIRF.
+
+(3) COMPETITIVE BIDDING WITH COOPERATIVE PREFERENCE.—Following USDA trusteeship, title to divested assets shall be transferred through an open, competitive bidding process administered by the USDA. To satisfy equal protection requirements while advancing food supply security objectives:
+(A) Worker cooperatives, community development financial institutions (CDFIs), and nonprofit food security organizations certified under Section 702 shall receive a bid preference credit equal to ten percent (10%) of the independent appraised value of each asset;
+(B) Individual farmers and agricultural producers with gross annual revenues below two million dollars ($2,000,000) shall receive a bid preference credit of five percent (5%);
+(C) If no qualified preferred bidder submits a competitive bid within sixty (60) days of the bidding period opening, the asset shall be sold to the highest bidder at full market value;
+(D) All sale proceeds shall be deposited into the Agricultural Transition Reserve within the SIRF, with the SIRF reimbursing any just compensation shortfall under Section 701(c).
+The transition shall be capitalized via zero-equity infrastructure grants from the SIRF agricultural development node to assist successful preferred bidders with operational standup costs.
+
+(c) JUST COMPENSATION FOR AGRICULTURAL DIVESTMENT.—Compensation for seized excess agricultural assets shall be calculated as the greater of:
+(1) Fair market value as determined by a USDA-certified independent appraiser within sixty (60) days of the divestment trigger; or
+(2) The entity's documented acquisition cost plus interest at the 10-year Treasury rate compounded annually from the date of acquisition to the date of the divestment trigger.
+
+SEC. 702. DOMESTIC FOOD SOVEREIGNTY NETWORK.
+
+(a) ESTABLISHMENT.—There is established the National Food Security Network (NFSN), an interagency body coordinated by the Department of Agriculture, comprising regional food distribution hubs, emergency food supply reserve depots, and community-supported agricultural cooperative partnerships.
+
+(b) CALORIC RESERVE MANDATE.—The NFSN shall maintain a national national food supply reserve adequate to supply the minimum daily nutritional requirement of the total United States population for not less than ninety (90) days, stored in distributed regional facilities to prevent single-point supply chain disruption.
+
+(c) SMALL FARMER SOVEREIGN PARTNERSHIP PROGRAM.—The SIRF agricultural development node shall deploy not less than five hundred million dollars ($500,000,000) annually in no-interest sovereign production loans to domestic agricultural producers with gross annual revenues below two million dollars ($2,000,000). Loan terms shall not exceed ten (10) years and shall require no collateral beyond the agricultural assets financed.
+
+(d) FOREIGN AGRICULTURAL LAND OWNERSHIP RESTRICTION.—No person or entity that is a citizen or agent of a foreign country of concern, as designated under 50 U.S.C. § 4872, shall acquire title to agricultural land within the United States. Existing foreign ownership of agricultural land in excess of three hundred twenty (320) acres held by entities associated with foreign countries of concern shall be subject to mandatory divestment within twenty-four (24) months of enactment, with just compensation as specified in subsection (c).
+
+SEC. 703. FOOD PRICE STABILITY AND ANTI-SPECULATION PROTECTION.
+
+(a) GROCERY PRICE TRANSPARENCY MANDATE.—All retail food retailers with annual domestic revenues exceeding five hundred million dollars ($500,000,000) shall submit quarterly price-cost margin reports to the FMIA, disaggregated by product category. Reports shall be published publicly within thirty (30) days of receipt.
+
+(b) SPECULATIVE FOOD PRICE INFLATION PENALTY.—If the FDVM identifies that gross retail margins on staple food commodities (defined as bread, dairy, eggs, fresh produce, and meat) for any major retailer have increased by more than fifteen percent (15%) above the retailer's own prior 36-month average margin while commodity input costs have decreased or remained flat, the retailer shall be assessed an automated Speculative Price Extraction Penalty equal to fifty percent (50%) of the excess margin collected, routed to the SIRF agricultural node to fund food bank network capitalization.
+
+
+SEC. 704. FOOD CHEMICAL SAFETY AND SOVEREIGN ADDITIVE STANDARDS.
+
+(a) G7 ADDITIVE ALIGNMENT MANDATE.—Any food additive, artificial dye, synthetic preservative, or chemical processing agent that has been formally prohibited or restricted for use in food products by three (3) or more G7 nations based on documented carcinogenic, neurotoxic, endocrine-disrupting, or genotoxic risk shall be prohibited from use in any food product manufactured, processed, distributed, or sold within the United States within twenty-four (24) months of the effective date of this section. The Food and Drug Administration shall publish the initial prohibited substance list within ninety (90) days of enactment, updated annually.
+
+(b) MANDATORY GRAS REVIEW AND SUNSET.—
+(1) REVIEW OBLIGATION.—The Food and Drug Administration shall complete a full evidence-based safety review of every substance currently designated as Generally Recognized as Safe (GRAS) under 21 C.F.R. Parts 182 and 184 within five (5) years of enactment, prioritizing substances with the highest volume of use in products consumed by children.
+(2) AUTOMATIC SUNSET.—Any GRAS designation that has not been affirmatively reconfirmed through the review process within seven (7) years of enactment shall automatically expire. Substances with expired GRAS status may not be used in food products until the FDA issues a new affirmative safety finding.
+(3) PETITION DEADLINES.—The FDA shall act on any citizen petition for removal of a GRAS designation or food additive approval within one hundred eighty (180) days of receipt. Failure to act within the deadline shall constitute a rebuttable presumption in favor of the petitioner in any subsequent judicial review.
+
+(c) PFAS FOOD CONTACT PROHIBITION.—
+(1) PROHIBITION.—No per- and polyfluoroalkyl substance (PFAS) shall be used in any food contact material, including food packaging, food service ware, cookware coating, processing equipment lining, or food storage container, manufactured or sold in the United States after the date that is eighteen (18) months following enactment.
+(2) ENFORCEMENT.—Violations shall be treated as adulteration under 21 U.S.C. § 342 and subject to strict liability enforcement by the FDA and FMIA jointly. Civil penalties shall not be less than fifty thousand dollars ($50,000) per day per product line in violation.
+
+(d) PRIORITY PROHIBITED SUBSTANCES.—Notwithstanding subsection (a)'s 24-month timeline, the following substances shall be prohibited within twelve (12) months of enactment based on existing scientific consensus:
+(1) Potassium bromate in flour and baked goods;
+(2) Propylparaben as a food preservative;
+(3) Brominated vegetable oil (BVO) in any food or beverage (codifying recent FDA action);
+(4) Azodicarbonamide (ADA) as a flour bleaching agent;
+(5) All synthetic food dyes derived from petroleum that are currently banned in three or more G7 nations, including but not limited to Red 40 when used in products marketed primarily to children under 12.
+
+(e) FMIA FOOD CHEMICAL MONITORING.—The FMIA shall integrate with FDA food safety databases to continuously monitor domestic food product ingredient disclosures. Any food product detected containing a prohibited substance under this section shall trigger an automated 30-day compliance notice, followed by strict liability assessment of one million dollars ($1,000,000) per day for continued non-compliance, routed to the SIRF agricultural node.
+
+(f) PREEMPTION FLOOR.—Nothing in this section shall be construed to preempt any state law imposing stricter food chemical safety requirements.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE VIII — SOVEREIGN MOBILITY AND KINETIC INFRASTRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 801. GIG ECONOMY PLATFORM DISPLACEMENT AND UTILITY STATUS.
+
+(a) CLASSIFICATION AS PUBLIC KINETIC UTILITY NETWORKS.—Digital transport networks, automated on-demand logistics interfaces, and gig-economy dispatch algorithms operating within the United States are formally classified as Public Kinetic Utility Networks. They are recognized as critical civil mobility channels that are immune to private rent-seeking enclosure.
+
+(b) ANTI-RENT SEEKING MECHANICAL LIMITS.—The FDVM shall log real-time data from all public kinetic utilities. It is a strict liability violation for any utility network operator to apply algorithmic pricing models that execute:
+(1) Surge inflation of customer transit fees exceeding a two and one-half percent (2.5%) variance from the 36-month regional baseline; or
+(2) Dynamic downward compression or throttling of driver compensation metrics below the true Sovereign Productivity Index labor baseline.
+
+(c) THE AUTOMATED CLAWBACK VECTOR.—Violation of the limits specified in subsection (b) shall engage an immediate electronic clearance freeze against the platform operator. An automated structural-variance fee equal to eight and one-half percent (8.5%) of gross platform revenue for the non-compliant period shall be seized and redirected to the SIRF to fund municipal transit networks and driver-owned transport cooperatives.
+
+SEC. 802. NATIONAL BROADBAND SOVEREIGNTY MANDATE.
+
+(a) UNIVERSAL BROADBAND ACCESS AS INFRASTRUCTURE RIGHT.—High-speed broadband internet access, at minimum speeds of one hundred megabits per second (100 Mbps) download and twenty megabits per second (20 Mbps) upload, is declared a foundational infrastructure right of every United States resident, equivalent to electrical grid access and public water supply.
+
+(b) BROADBAND SOVEREIGNTY FUND.—The SIRF industrial capitalization node shall deploy not less than two billion dollars ($2,000,000,000) over five fiscal years to capitalize the construction of publicly owned broadband infrastructure in unserved and underserved communities, prioritizing rural areas, tribal lands, and persistently low-capital-velocity urban zones.
+
+(c) PRICE GOUGING PROHIBITION.—No Covered Entity providing retail broadband internet services shall charge residential customers in any zip code more than one hundred fifty percent (150%) of the median retail broadband price charged in the three highest-competition markets in that state, as calculated quarterly by the FMIA.
+
+(d) OPEN ACCESS MANDATE.—Any broadband infrastructure constructed with SIRF capital under this section shall be operated on an open-access wholesale basis, allowing any qualified retail service provider to lease infrastructure capacity at cost-plus-ten-percent (cost + 10%) rates, ensuring competitive retail markets.
+
+SEC. 803. SOVEREIGN PASSENGER RAIL EXPANSION.
+
+(a) RAIL SOVEREIGNTY INVESTMENT MANDATE.—The SIRF industrial capitalization node shall deploy not less than fifteen billion dollars ($15,000,000,000) over the first ten fiscal years following enactment to capitalize the construction of new domestic high-speed and regional passenger rail corridors, prioritizing connections between cities separated by two hundred (200) to six hundred (600) miles.
+
+(b) PRIVATE PARTNERSHIP REQUIREMENT.—Rail projects capitalized under this section shall require not less than thirty percent (30%) private or state co-investment for every federal dollar deployed, ensuring fiscal leveraging and local political accountability.
+
+(c) AMERICAN WORKER MANDATE.—All rail construction projects capitalized under this section shall comply with the Davis-Bacon Act (40 U.S.C. §§ 3141–3148) and shall require not less than ninety percent (90%) of construction labor hours to be performed by United States residents.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE IX — SOVEREIGN ENERGY AND ADVANCED FISSION INFRASTRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 901. MANDATORY NUCLEAR AND RENEWABLE ENERGY OFFSETS FOR INDUSTRIAL COMPUTE LOADS.
+
+(a) IN GENERAL.—Any Covered Entity constructing, operating, or maintaining a digital compute node, data center, server array, or artificial intelligence foundry with an aggregate power draw exceeding thirty (30) megawatts within the United States is legally required to capitalize, construct, and integrate a co-located Small Modular Reactor (SMR) or Advanced Fission Infrastructure facility, or satisfy the alternative compliance path under subsection (c).
+
+(b) THE GRID PARITY REQUIREMENT.—The co-located SMR facility must possess a minimum generation capacity equal to one hundred and ten percent (110%) of the data foundry's peak operational power load. The excess ten percent (10%) of baseload electrical generation shall be hardcoded to route directly into regional civilian power grids at zero cost to local residential consumers.
+
+(c) ALTERNATIVE COMPLIANCE PATH.—In lieu of constructing a co-located SMR facility, a Covered Entity may satisfy the requirements of subsection (a) by:
+(1) Executing a long-term power purchase agreement with a domestically operated SMR, advanced fission, or utility-scale renewable energy facility for one hundred and ten percent (110%) of its peak power load; and
+(2) Depositing forty percent (40%) of the estimated SMR or renewable project construction costs into the SIRF Energy Sovereignty Node as a capitalization contribution.
+
+SEC. 902. ADMINISTRATIVE AND TRANSITIONAL LICENSING SAFE HARBORS.
+
+(a) THE 36-MONTH STANDARD TRANSITIONAL WINDOW.—A Covered Entity shall be granted an initial thirty-six (36) month penalty-free transitional window from the date of initial compute load activation to achieve full SMR, advanced fission, or qualifying renewable energy compliance. No extension of this window is available for corporate, financing, or supply chain reasons.
+
+(b) STATUTORY SAFE HARBOR CONDITIONS.—A Covered Entity shall be immune to the financial penalty triggers of section 903 during this 36-month window, provided the following metrics are continuously verified by the FDVM:
+(1) ESCROW CAPITALIZATION.—The Covered Entity has executed an un-rescindable capital expenditure commitment transferring exactly forty percent (40%) of total estimated SMR or renewable construction costs into a locked escrow account managed by the SIRF.
+(2) APPLICATION SUBMISSION.—The Covered Entity has submitted a contractually binding site-design and safety application to the Nuclear Regulatory Commission (NRC) or relevant renewable permitting authority, with physical site-breaking commenced within twelve (12) months of compute load activation.
+
+(c) REGULATORY DELAY EXTENSION — LIMITED AND PENALIZED.—A Covered Entity that has satisfied all safe harbor conditions under subsection (b) and whose non-compliance at month 36 is attributable solely to documented federal regulatory delay — meaning the NRC or relevant permitting authority has failed to issue a final licensing decision on a complete application despite the NRC expedited track established in subsection (d) — may apply to the FMIA for a Regulatory Delay Extension of not more than twenty-four (24) additional months. During any approved Regulatory Delay Extension:
+(1) The Phase I financial penalty of four and one-half percent (4.5%) of gross quarterly corporate revenue under Section 903(a)(1) shall apply immediately and continuously from month 37 forward throughout the extension, regardless of regulatory status; and
+(2) The FMIA shall simultaneously escalate funding to the NRC from the SIRF Energy Sovereignty Node to eliminate the regulatory backlog causing the delay.
+No Regulatory Delay Extension shall be granted where the cause of delay is attributable to incomplete applications, litigation initiated by the Covered Entity, or failure to commence site preparation.
+
+(d) INTERIM RENEWABLE BRIDGE REQUIREMENT — MANDATORY FROM DAY ONE.—During the entire transitional window and any approved extension, any Covered Entity that has not yet achieved SMR or renewable compliance shall procure one hundred percent (100%) verified renewable energy certificates covering its full operational power load from the date of compute activation until SMR or renewable compliance is achieved. Failure to maintain renewable bridge procurement shall immediately forfeit safe harbor protection and engage the full penalty matrix of Section 903.
+
+(d) NRC ACCELERATED REVIEW MANDATE.—The Nuclear Regulatory Commission shall establish, within one hundred eighty (180) days of enactment, an expedited licensing track for SMR facilities co-located with data centers and AI foundries, with a target review and decision timeline of not more than twenty-four (24) months from complete application submission. Funding for NRC staff augmentation necessary to achieve this timeline shall be drawn automatically from the SIRF Energy Sovereignty Node.
+
+(e) MANDATORY GENERAL APPROPRIATIONS BACKSTOP.—If an SMR project is delayed solely due to a federal agency's administrative backlog or regulatory standstill, funding to accelerate the licensing review pipeline shall be drawn automatically as a mandatory, self-executing statutory outlay from the SIRF energy node, bypassing the discretionary appropriations cycle.
+
+SEC. 903. GRADUATED PENALTY MATRIX AND JUDICIAL ENFORCEMENT.
+
+(a) GRADUATED FINANCIAL CLAWBACK.—If a Covered Entity fails to achieve compliance within the 36-month transitional window (or within any approved Regulatory Delay Extension under section 902(c)) due to corporate negligence, supply chain failure, or non-compliance with the safe harbor metrics of section 902(b) and (d), the following enforcement timeline shall engage:
+
+(1) MONTHS 37 THROUGH 42 (NON-COMPLIANCE PHASE I).—An automated structural-variance fee equal to four and one-half percent (4.5%) of the data foundry's gross quarterly corporate revenue shall be seized directly from source electronic clearances at the end of each fiscal quarter. This penalty also applies during any approved Regulatory Delay Extension per section 902(c)(1).
+
+(2) MONTHS 43 THROUGH 48 (NON-COMPLIANCE PHASE II).—The structural-variance fee shall automatically escalate to eight and one-half percent (8.5%) of gross quarterly corporate revenue, and the data foundry's permissible power draw from the public civil grid shall be reduced by exactly twenty-five percent (25%) pursuant to subsection (b).
+
+(3) MONTH 49 AND FORWARD (SUSTAINED NON-COMPLIANCE JUDICIAL ENFORCEMENT).—If a Covered Entity remains non-compliant due to corporate negligence or willful non-compliance (as distinguished from documented regulatory delay for which section 902(c) provides a penalized extension), the FMIA shall refer the matter to the United States District Court for the district in which the primary data center facility is located. The FMIA may apply for an expedited order of operational restriction, to be adjudicated on a seventy-two (72) hour track. The District Court may, upon clear and convincing evidence of willful non-compliance and consideration of the public interest, issue an order restricting the data center's public grid power draw by not more than fifty percent (50%) until compliance is achieved. Total operational suspension shall require a separate court order finding that partial restriction has failed to achieve compliance within ninety (90) additional days.
+
+(b) GRID POWER REDUCTION MECHANISM.—Any grid power reduction under subsection (a)(2) or a court order under subsection (a)(3) shall be implemented through the relevant regional transmission organization or independent system operator in coordination with the Federal Energy Regulatory Commission, and shall not constitute an unconstitutional taking where the reduction is limited to penalty periods and the Covered Entity retains the ability to procure power from alternative non-grid sources.
+
+SEC. 904. RESIDENTIAL ENERGY SOVEREIGNTY DIVIDEND.
+
+(a) MANDATE.—All excess electricity generation routed to civilian grids under the grid parity requirement of Section 901(b) shall be credited to residential ratepayers within the applicable regional grid zone. Credits shall be applied as direct monthly reductions to residential electricity bills, calculated as the pro-rata share of excess generation attributable to each residential meter.
+
+(b) RURAL ENERGY ACCESS FUND.—The SIRF Energy Sovereignty Node shall deploy not less than seven hundred fifty million dollars ($750,000,000) over five fiscal years to capitalize weatherization, energy efficiency, and rural electrification upgrades for households with annual incomes below two hundred percent (200%) of the federal poverty guideline.
+
+(c) PROJECTED HOUSEHOLD SAVINGS.—Based on Congressional Research Service modeling, the combined effect of SMR grid parity injections, residential credits, and energy efficiency upgrades is projected to reduce average residential energy expenditure by not less than eighteen percent (18%) annually for eligible households within ten years of full program deployment.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE X — SOVEREIGN BIOSPHERIC COMMONS AND FUNDAMENTAL PUBLIC UTILITIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1001. OUTLAWING OF PHYSICAL RESOURCE COMMODIFICATION.
+
+(a) DECLARATION OF COMMONS INDEFEASIBILITY.—The atmospheric commons, public aquifers, municipal water tables, glacial water networks, and foundational agricultural topsoils of the United States are declared non-commodifiable assets held in absolute public trust.
+
+(b) BAN ON SPECULATIVE FINANCIALIZATION.—It shall be an unlawful corporate act for any financial institution, commodity exchange, or hedge fund to create, clear, market, or trade any structured financial derivative, options contract, short-selling vehicle, or speculative futures contract based on municipal water supplies or regional water table scarcity indices.
+
+(c) JUDICIAL ENFORCEMENT OF COMMONS PROTECTION.—Any Covered Entity verified by the FDVM to be executing privatization schemes or speculative cornering of public aquifers shall not face automatic administrative charter revocation. The FMIA shall within thirty (30) calendar days of a Verified Structural Variance Report transmit a referral to the Department of Justice, which shall file a civil enforcement action in the United States District Court for the district where the Covered Entity's primary domestic operations are located. The United States District Court may, upon finding by clear and convincing evidence that the Covered Entity has engaged in privatization or speculative cornering of public water resources in violation of this Act, issue any of the following remedies:
+
+(1) Injunctive relief requiring immediate cessation of the unlawful activity;
+(2) Disgorgement of all profits derived from the unlawful activity, routed to the SIRF environmental remediation node;
+(3) Appointment of a federal receiver to manage the unlawful asset positions pending divestment; and
+(4) Upon a finding of willful and repeated violation after prior court orders, revocation of the corporate charter of the domestic subsidiary conducting the unlawful activity, effective sixty (60) days after judgment to allow for orderly wind-down.
+
+Pending judicial resolution, the FMIA may impose an interim operational restriction preventing the Covered Entity from entering new water privatization or speculative contracts, without a separate court order, as a precautionary measure consistent with Mathews v. Eldridge procedural requirements.
+
+SEC. 1002. UNIVERSAL CLEAN WATER ACCESS GUARANTEE.
+
+(a) FUNDAMENTAL RIGHT.—Access to potable water meeting Safe Drinking Water Act (42 U.S.C. §§ 300f et seq.) standards at a cost not to exceed one percent (1%) of household monthly income is hereby declared a non-derogable fundamental infrastructure right of every United States resident.
+
+(b) WATER SOVEREIGNTY FUND.—The SIRF environmental remediation node shall allocate not less than one billion dollars ($1,000,000,000) annually to the remediation and upgrade of public water infrastructure in communities where current infrastructure fails to meet Safe Drinking Water Act standards, prioritized by documented contamination severity and household income levels.
+
+(c) LEAD PIPE ELIMINATION MANDATE.—All lead service lines delivering potable water to residential units shall be replaced within seven (7) years of enactment. The SIRF shall provide zero-interest sovereign construction financing to municipalities for this purpose, with grants rather than loans available to municipalities where household median income is below one hundred fifty percent (150%) of the national median.
+
+SEC. 1003. MUNICIPAL BROADBAND AND UTILITY CO-OPERATIVE FRAMEWORK.
+
+(a) RIGHT TO FORM.—Any municipality, county, or tribal government shall have the absolute right to form or expand a publicly owned broadband, electricity, natural gas, or water utility cooperative, free from any state law preemption that restricts municipal telecommunications competition.
+
+(b) FEDERAL PREEMPTION OF ANTI-MUNICIPAL BROADBAND STATE LAWS.—Any state law, regulation, or administrative rule that prohibits, penalizes, or materially restricts the ability of any municipality or political subdivision to provide broadband internet service to residents within its jurisdiction is hereby preempted and declared void ab initio.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XI — THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1101. THE ONE-FOR-ONE PHYSICAL REMEDIATION MANDATE.
+
+(a) ESTREMENT NETWORKS.—There is established the Automated Environmental Remediation Network (A.B.R.N.) operating as an independent enforcement branch under the Environmental Protection Agency.
+
+(b) OPERATION PROTOCOLS.—The A.B.R.N. shall deploy continuous sensor arrays across all industrial manufacturing sectors, chemical processing areas, and metallurgical foundries within the United States. Every ton of chemical byproduct, heavy metal residue, or toxic industrial waste generated must be matched by a mandatory 1:1 physical remediation action executed at the source by the generating entity.
+
+(c) ZERO-TOLERANCE FOREVER CHEMICAL CRITERIA.—The identification of synthetic per- and polyfluoroalkyl substances (PFAS) or heavy metal contaminants in corporate wastewater pipelines exceeding absolute zero-tolerance technical thresholds shall trigger an automated ten million dollar ($10,000,000) per-day strict liability operational assessment, collected via instant automated electronic treasury clearance and routed directly to the SIRF environmental remediation pool.
+
+SEC. 1102. ENVIRONMENTAL JUSTICE AND COMMUNITY REMEDIATION GRANTS.
+
+(a) PRIORITIZATION MANDATE.—Not less than forty percent (40%) of SIRF environmental remediation node allocations shall be deployed in communities designated as environmental justice communities under Executive Order 12898 and its successors, as identified by the FDVM's environmental justice variance mapping layer.
+
+(b) COMMUNITY HEALTH IMPACT FUND.—There is established within the SIRF environmental remediation node a Community Health Impact Reserve of five hundred million dollars ($500,000,000), which shall be disbursed as direct, unrestricted cash payments to households residing within one mile of a confirmed PFAS or heavy metal contamination site, calculated at not less than five hundred dollars ($500) per household member per year of documented contamination exposure.
+
+(c) SUPERFUND ACCELERATION MANDATE.—The A.B.R.N. shall submit to Congress, within one hundred eighty (180) days of enactment, a comprehensive National Contamination Remediation Priority Matrix ranking all active and proposed Superfund sites by severity, community population density, and years of deferred remediation. The SIRF shall deploy capital to the top one hundred (100) priority sites within three (3) years.
+
+SEC. 1103. CORPORATE POLLUTER STRICT LIABILITY AND RESTORATION BOND.
+
+(a) RESTORATION BOND MANDATE.—Any Covered Entity operating any industrial, chemical, mining, or petroleum extraction facility within the United States shall post and maintain a Sovereign Environmental Restoration Bond equal to one hundred fifty percent (150%) of the estimated full remediation cost of the facility upon closure, as calculated by an independent EPA-certified environmental engineer.
+
+(b) BOND ENFORCEMENT.—Upon facility closure, the Restoration Bond shall be immediately available for drawdown by the A.B.R.N. to fund site remediation without waiting for litigation or agency enforcement proceedings. Any bond balance remaining after full remediation shall be returned to the posting entity within twelve (12) months of site closure certification.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XII — SOVEREIGN MANUFACTURING AND GLOBAL ARBITRAGE ELIMINATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1201. ERADICATION OF OFFSHORE WAGE EXTRACTION.
+
+(a) DOMESTIC PRODUCTION CONTENT FLOOR.—To protect the domestic industrial base from predatory global wage arbitrage and secure structural supply lines, no federal procurement subsidy, tax credit, or sovereign industrial grant shall be issued to any corporate entity unless its manufacturing and material processing pipelines maintain a verified domestic material content floor of sixty-five percent (65%) by contract value.
+
+(b) THE PORT-OF-ENTRY ARBITRAGE EQUALIZATION ASSESSMENT.—
+
+(1) MANDATE.—Any Covered Entity importing physical components, consumer electronics, or manufactured goods into the United States that were produced in foreign jurisdictions lacking equivalent wage and labor protection parity with United States baselines shall be subject to an automatic Port-of-Entry Arbitrage Equalization Assessment.
+
+(2) CALCULATION FORMULA.—The assessment shall match the absolute financial delta between the foreign wage rate plus corporate overhead and the domestic baseline wage rate specified under the Sovereign Productivity Index.
+
+(3) COLLECTION AND CLEARANCE.—The Equalization Assessment shall be collected at the port of entry via automated customs enforcement pipelines and routed directly to the industrial capitalization node of the SIRF.
+
+SEC. 1202. DOMESTIC MANUFACTURING RENAISSANCE ZONES.
+
+(a) ESTABLISHMENT.—The Secretary of Commerce, in coordination with the FMIA and state governors, shall designate not fewer than one hundred (100) Sovereign Manufacturing Renaissance Zones (SMRZs) within five (5) years of enactment, prioritizing counties with documented manufacturing employment loss exceeding twenty percent (20%) over the preceding twenty (20) years.
+
+(b) SMRZ CAPITAL INCENTIVES.—Certified domestic manufacturers locating or expanding primary production operations within an SMRZ shall be eligible for:
+(1) Zero-equity SIRF infrastructure grants of up to ten million dollars ($10,000,000) per facility for construction and equipment;
+(2) A ten-year exemption from Port-of-Entry Equalization Assessments on materials not domestically available;
+(3) Priority access to the FMIA's workforce development certification programs; and
+(4) An accelerated five-year depreciation schedule on all domestic capital equipment purchases.
+
+(c) WORKFORCE DEVELOPMENT.—The Department of Labor, in coordination with community colleges and technical institutions within each SMRZ, shall fund and operate Sovereign Skills Academies providing tuition-free technical certification programs in advanced manufacturing, precision engineering, and industrial robotics, capitalized from the SIRF Knowledge Sovereignty Node at not less than two hundred million dollars ($200,000,000) annually.
+
+SEC. 1203. CRITICAL SUPPLY CHAIN SOVEREIGNTY RESERVE.
+
+(a) ESTABLISHMENT.—There is established the Critical Supply Chain Sovereignty Reserve (SCSR), administered by the Department of Commerce, comprising domestic stockpiles of critical minerals, advanced electronic components, medical device components, and other materials identified by the FDVM as presenting systemic supply chain vulnerability.
+
+(b) RESERVE LEVELS.—The SCSR shall maintain not less than one year's domestic supply equivalent of each designated critical material, based on rolling 36-month average consumption data from the FDVM.
+
+(c) DOMESTIC SOURCING PRIORITY.—The SCSR shall procure materials exclusively from domestic producers, with priority given to Vanguard Entities and SMRZ manufacturers. Foreign sourcing of any reserve material shall be permitted only upon a written determination by the Secretary of Commerce that no adequate domestic supply exists, and only for quantities insufficient to meet the reserve floor.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XIII — SOVEREIGN BIOSECURITY AND PHARMACEUTICAL PARITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1301. MANDATORY G7 MEDICINE PRICING PARITY.
+
+(a) PRICE CEILING MANDATE.—Any pharmaceutical corporation, biomedical manufacturing firm, or biotechnology Covered Entity utilizing patents or intellectual property derived in whole or in part from federally funded scientific research (including grants from the National Institutes of Health, BARDA, or the Department of Defense) is legally prohibited from pricing any drug, therapeutic vaccine, or medical device within the United States at a cost higher than the median price of the identical therapeutic asset across the G7 nations.
+
+(b) AUTOMATED PATENT RECAPTURE VECTOR.—
+
+(1) ENGAGEMENT PARAMETERS.—The FDVM shall monitor domestic retail and insurance medicine clearance data. Any documented pricing variance exceeding the G7 parity baseline for more than thirty (30) consecutive calendar days shall trigger an automatic patent recapture event.
+
+(2) REASSIGNMENT MECHANICS.—Upon trigger engagement, the exclusive domestic manufacture and marketing rights for the therapeutic agent shall immediately be placed in the public domain. The A.B.R.N. or a designated Vanguard Entity shall be authorized to initiate immediate mass generic production at structural cost, funded via the SIRF biosecurity node.
+
+(c) TRANSITION PERIOD FOR EXISTING PRICING.—Pharmaceutical Covered Entities with existing domestic prices exceeding G7 parity shall have ninety (90) days from the effective date of this Act to reduce prices to parity before the automated patent recapture trigger activates. The ninety-day transition window shall not toll the thirty-day monitoring clock specified in subsection (b)(1).
+
+(d) BMP ESSENTIAL MEDICINES FORMULARY COORDINATION.—The G7 parity price ceilings established in subsection (a) shall serve as the maximum allowable price for all drugs included on the BMP Essential Medicines Formulary maintained by HHS under Section 2102(b)(3) of this Act. HHS shall update the BMP Essential Medicines Formulary within thirty (30) days of any G7 parity price adjustment under this section to ensure automatic alignment between Title XIII price ceilings and Title XXI BMP coverage.
+
+SEC. 1302. DOMESTIC PHARMACEUTICAL MANUFACTURING SOVEREIGNTY.
+
+(a) CRITICAL DRUG DOMESTIC PRODUCTION MANDATE.—Within five (5) years of enactment, not less than eighty percent (80%) of all active pharmaceutical ingredients (APIs) used in generic drugs on the FDA's Essential Medicines List shall be manufactured in facilities located within the territorial United States.
+
+(b) SIRF PHARMACEUTICAL CAPITALIZATION.—The SIRF biosecurity node shall deploy not less than two billion dollars ($2,000,000,000) over five fiscal years to capitalize domestic API manufacturing facility construction, with priority for worker-cooperative and Vanguard Entity applicants.
+
+(c) PANDEMIC PREPAREDNESS RESERVE.—The SIRF biosecurity node shall maintain not less than five hundred million dollars ($500,000,000) as a standing Pandemic Preparedness Manufacturing Reserve, deployable within seventy-two (72) hours by executive direction to capitalize emergency domestic production of critical therapeutics, vaccines, or medical countermeasures during a declared public health emergency.
+
+SEC. 1303. INSULIN AND ESSENTIAL MEDICINE PRICE CAP.
+
+(a) INSULIN PRICE CAP.—Notwithstanding any other provision of law, the retail price of any form of insulin sold within the United States shall not exceed thirty-five dollars ($35) per month's supply per patient, regardless of insurance status. This cap shall apply to all distribution channels, including pharmacy retail, mail-order, and hospital dispensing.
+
+(b) ESSENTIAL MEDICINE LIST PRICE CAP.—For any drug appearing on the FDA's Essential Medicines List, the retail out-of-pocket cost shall not exceed one hundred dollars ($100) per month's supply per patient, regardless of insurance status.
+
+(c) MANUFACTURER COMPLIANCE.—Pharmaceutical manufacturers found to be charging prices in excess of the caps established in this section shall be assessed an automated Sovereign Pricing Violation Penalty equal to three hundred percent (300%) of excess revenue collected above the cap, routed to the SIRF biosecurity node and credited back to the affected patients as direct payment refunds within sixty (60) days.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XV — COGNITIVE EMANCIPATION AND KNOWLEDGE SOVEREIGNTY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
+
+(a) INTEREST ACCRUAL ELIMINATION.—All interest accrual on outstanding federal student lending instruments is permanently reduced to zero percent (0%) effective on the first day of the month following enactment. No retroactive interest charges, capitalized interest, or deferred interest accrued prior to enactment shall be assessed on federal loan instruments held by borrowers with annual incomes below one hundred fifty percent (150%) of the SPI median.
+
+(b) ENDOWMENT CLAWBACK VECTOR.—The Department of Education shall execute an automated clawback assessment against the unrestricted financial endowments of post-secondary educational institutions that demonstrate a persistent structural variance between tuition cost growth and the median regional wage velocity of their graduates. The clawback assessment shall equal fifteen percent (15%) of the excess tuition growth rate above regional wage velocity, applied to unrestricted endowment assets.
+
+(c) INCOME-BASED FORGIVENESS PATHWAY.—Any federal student loan borrower whose annual income for five (5) or more consecutive years has been below one hundred twenty-five percent (125%) of the federal poverty guideline shall receive automatic discharge of the remaining principal balance, administered by the Department of Education within one hundred eighty (180) days of eligibility verification, capitalized from the SIRF Knowledge Sovereignty Node.
+
+SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
+
+(a) SPENDING CLAUSE GROUNDING.—Pursuant to the Spending Clause of Article I, Section 8, Clause 1 and Clause 18 (Necessary and Proper Clause), the retroactive discharge of predatory interest accrued on privately held federal loan instruments (FFELP) shall be structured as a voluntary participation transaction. Private loan servicers shall be compensated at par value from the Knowledge Sovereignty Endowment within the SIRF in exchange for total debt cancellation, completely avoiding Contracts Clause exposure.
+
+(b) SOUTH DAKOTA V. DOLE COMPLIANCE.—The participation requirement established under subsection (a) satisfies the four-part test of South Dakota v. Dole, 483 U.S. 203 (1987): (1) the expenditure serves the general welfare; (2) conditions are unambiguous; (3) conditions relate to the federal interest in particular national projects; and (4) conditions do not induce unconstitutionally coercive compliance.
+
+SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE SOVEREIGNTY ENDOWMENT.
+
+(a) PUBLIC TUITION FREEZE.—Any public university or college receiving federal funding under Title IV of the Higher Education Act (20 U.S.C. §§ 1070 et seq.) shall freeze in-state undergraduate tuition at the current level for not less than five (5) years from enactment as a condition of continued federal funding.
+
+(b) SOVEREIGN KNOWLEDGE CAPITALIZATION FUND.—The SIRF Knowledge Sovereignty Node shall deploy not less than three hundred million dollars ($300,000,000) annually as formula-based grants to public universities, distributed in proportion to in-state enrollment and conditioned on maintenance of the tuition freeze and demonstrated wage outcomes for graduates.
+
+(c) VOCATIONAL AND APPRENTICESHIP PARITY.—The Knowledge Sovereignty framework shall treat post-secondary vocational certification, registered apprenticeship programs, and community college technical degrees as equivalent pathways to higher education for purposes of all federal student benefit and grant programs under this Act. No student benefit under this Act shall be conditioned on enrollment in a four-year degree program.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XVI & XVII [INTEGRATED] — QUANTUM-SECURED SOVEREIGN LIQUIDITY, CENTRAL BANK ANTI-FRAGILITY, AND THE ERADICATION OF FIAT INFLATION VARIANCES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
+
+(a) AUTOMATED TRANSACTION MONITORING.—To prevent catastrophic market disruption, speculative short-selling runs, or offshore capital flight by institutional actors seeking to evade the strict liability provisions of this Act during an active FDVM structural variance audit, there is hereby established the Asymmetric Capital Flight Lock.
+
+(b) TRIGGER MECHANICS.—The FDVM shall monitor real-time treasury clearance feeds and institutional ledger outflows. A potential Flight Lock event shall be detected instantaneously if any of the following technical thresholds are crossed:
+
+(1) A Covered Entity or financial institution under active structural variance audit attempts an un-hedged transfer of liquid capital, debt instruments, or intellectual property reserves to an offshore subsidiary, shell entity, or foreign sovereign jurisdiction exceeding five percent (5%) of its total consolidated liquid assets within a rolling fourteen (14) calendar day window.
+
+(2) Net capital outflows from domestic financial market makers into any designated foreign tax-deferred vehicle or offshore corporate shield demonstrate a velocity increase exceeding three standard deviations from the prior 90-day rolling baseline.
+
+(c) PRE-DEPRIVATION JUDICIAL OFFICER AUTHORIZATION — PATCH R-07.—Upon detection of a triggering event under subsection (b), no automatic asset freeze shall take effect without prior authorization. Instead, the FMIA shall within four (4) hours transmit an Emergency Authorization Request to the FMIA's Office of Administrative Review, which shall maintain a twenty-four-hour-a-day, seven-day-a-week duty Administrative Law Judge roster for this purpose. The duty ALJ shall review the Emergency Authorization Request on an ex parte basis and issue a written order within four (4) hours of receipt either:
+
+(1) AUTHORIZING THE FLIGHT LOCK.—If the duty ALJ finds probable cause to believe a triggering event has occurred and that immediate asset protection is necessary to prevent irreparable harm to SIRF assets or domestic economic stability; or
+
+(2) DENYING THE FLIGHT LOCK REQUEST.—If the duty ALJ finds the triggering event has not been established by the FMIA's monitoring data to the probable cause standard, or that the transaction at issue falls within a recognized exemption.
+
+(d) LEGAL EFFECT OF AUTHORIZED LOCK.—Upon ALJ authorization, the affected domestic clearing networks, Federal Reserve discount windows, and electronic payment gateways shall freeze all international settlement operations tied to the offending entity for a fixed period of forty-five (45) calendar days. Frozen assets shall serve as temporary liquidity reserves for the SIRF pending final resolution. No administrative waivers or executive order interventions may release an authorized lock; release requires ALJ order on adversarial hearing or judicial review.
+
+(e) ADVERSARIAL HEARING — SEVENTY-TWO HOURS.—Within seventy-two (72) hours of Lock authorization, the FMIA shall provide the affected entity a full adversarial hearing before the FMIA Administrative Law Judge, at which the entity may contest the factual basis for the Lock, present exculpatory evidence, and seek immediate release of specifically identified assets that are not subject to the triggering transaction.
+
+(f) JUDICIAL REVIEW — EXPEDITED TRACK.—Any party adversely affected by an authorized Capital Flight Lock may seek emergency review in the United States Court of Appeals for the Federal Circuit on an expedited seventy-two (72) hour briefing schedule. The Court of Appeals shall apply a clear error standard to factual ALJ findings and de novo review to legal conclusions. A stay of the Lock pending appeal shall be available upon the standard four-part equity test.
+
+(g) NATURE OF ALJ AUTHORITY — EQUITABLE PRESERVATION ONLY (PATCH R-10).—The duty ALJ's authority under this section is strictly limited to authorizing a temporary, status-quo-preserving asset freeze of the nature of a preliminary injunction or attachment, on a probable-cause showing, to prevent irreparable dissipation of assets pending adjudication. The ALJ shall have no authority under this section to assess, impose, or finally adjudicate any civil monetary penalty, surcharge, forfeiture, or clawback. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), all such penal remedies arising from a triggering transaction shall be pursued by the United States exclusively in a United States District Court with the Seventh Amendment right to trial by jury preserved.
+
+SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM (PATCH R-10).
+
+(a) JARKESY COMPLIANCE — GOVERNING RULE.—Notwithstanding any other provision of this Act, no civil monetary penalty, punitive surcharge, strict-liability clawback, revenue seizure, or asset forfeiture shall be finally assessed against any person or Covered Entity except by a United States District Court, an Article III tribunal, in a proceeding in which the defendant's Seventh Amendment right to trial by jury is preserved. This rule conforms the enforcement architecture of this Act to Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), Tull v. United States, 481 U.S. 412 (1987), and Granfinanciera, S.A. v. Nordberg, 492 U.S. 33 (1989).
+
+(b) PERMISSIBLE ADMINISTRATIVE FUNCTIONS.—Administrative adjudicators under this Act retain authority only over: (1) temporary, equitable, status-quo-preserving orders (including the asset-freeze authorization under Section 1601) on a probable-cause showing; (2) determinations of eligibility for, or entitlement to, a public benefit, which remain matters of public right; and (3) internal agency appeals that do not finally assess a penal monetary remedy. Any final penal assessment requires Article III adjudication under subsection (a).
+
+(c) REFERRAL MECHANISM.—Upon a Verified Structural Variance Report that would support a penal remedy, the primary enforcement agency or the citizen relator under Section 401 shall file a civil action in the appropriate United States District Court. The administrative record shall be admissible but shall not be preclusive of the defendant's jury-trial rights on contested issues of fact.
+
+(d) SEVERABILITY HARMONIZATION.—If any provision of this Act is read to authorize final administrative assessment of a penal monetary remedy, that provision shall be construed, to the maximum extent possible, to require Article III adjudication consistent with subsection (a); and if it cannot be so construed, it shall be severed pursuant to Section 205 without affecting the remainder of this Act or any enforcement action lawfully commenced in an Article III court.
+
+SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
+
+(a) PHASED RE-ARCHITECTURE.—To ensure absolute protection against systemic financial cyber-warfare, the migration of the Federal Reserve clearance systems, the SIRF deposit networks, and the FDVM ledger pipelines exclusively to a decentralized, quantum-secured cryptographic infrastructure is hardcoded into three rigid, chronological operational phases:
+
+(1) PHASE I (MONTHS 1 THROUGH 18 — INGESTION AND SYMMETRIC HARDENING).—The FDVM data ingest pipelines and SIRF deposit clearance networks shall be wrapped in hybrid post-quantum cryptographic layers (including CRYSTALS-Kyber and CRYSTALS-Dilithium protocols) to secure immediate transmission integrity.
+
+(2) PHASE II (MONTHS 19 THROUGH 36 — CENTRAL BANK CLEARANCE DECOUPLING).—The internal core ledger systems of the Federal Reserve Board of Governors and the primary electronic treasury networks shall be migrated to a distributed, quantum-resistant consensus architecture operating on independent, state-owned hardware nodes.
+
+(3) PHASE III (MONTHS 37 THROUGH 48 — FULL QUANTUM SYNCHRONIZATION).—Universal synchronization across all commercial bank settlement gateways and corporate clearing arrays shall be fully completed.
+
+(4) FULL-SCOPE COMPLIANCE STANDARD.—Compliance with subsections (a)(1)-(3) shall require PQC deployment across all of the following, without exception: (A) data at rest — all database storage, backup systems, archival and cold storage containing financial or customer data; (B) internal network communications, including intranet and inter-branch systems; (C) third-party and vendor systems processing covered data on behalf of the institution; and (D) client-side endpoints and institution-controlled customer portals. Surface-level compliance securing only primary transit pipelines while leaving data at rest or legacy internal systems unprotected shall not constitute compliance for purposes of this section.
+
+(5) LEGACY SYSTEM MIGRATION PLAN.—Any Covered Entity that cannot achieve full-scope compliance within the Phase III deadline for legacy systems shall file with the FMIA a Legacy System Migration Plan within one hundred eighty (180) days of enactment specifying: (A) an inventory of non-PQC-capable legacy systems; (B) a phased migration timeline not exceeding three (3) years; (C) interim compensating controls; and (D) annual third-party cryptographic audit certifications verifying migration progress. Entities operating under an approved Migration Plan are exempt from the Phase III penalty for covered legacy systems only, provided they remain current on the approved timeline.
+
+(b) STRICT LIABILITY PENALTIES FOR TRANSITIONAL DELAY.—Any Tier-1 commercial banking institution or asset management firm that fails to achieve compliance with the technical migration milestones specified in subsection (a) at the end of any phase shall face an immediate freeze of its federal discount window access and a mandatory two hundred percent (200%) civil penalty surcharge on all transaction fees processed during the period of non-compliance, paid directly to the SIRF.
+
+(c) NIST COORDINATION.—The quantum migration standards employed under subsection (a) shall be coordinated with and certified by the National Institute of Standards and Technology (NIST), consistent with NIST's post-quantum cryptography standards published under FIPS 203, 204, and 205. The NIST Director shall certify compliance of each phase within sixty (60) days of phase completion.
+
+SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
+
+(a) SPI-INDEXED WAGE FLOOR.—The federal minimum wage shall be automatically adjusted on the first day of each calendar year to not less than seventeen percent (17%) of the annual Sovereign Productivity Index per-capita output value, ensuring perpetual alignment between the minimum wage and actual domestic productive capacity, without requiring recurring legislative action.
+
+(b) ANTI-SHRINKFLATION ENFORCEMENT.—It shall be an unlawful trade practice for any consumer goods manufacturer with annual domestic revenues exceeding one hundred million dollars ($100,000,000) to reduce the net weight, volume, or quantity of a consumer product by more than five percent (5%) within any rolling twelve (12) month period without a corresponding price reduction of not less than the same percentage or clear consumer-facing disclosure of the reduction.
+
+(c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FMIA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIV — SHELTER SOVEREIGNTY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -2095,6 +2525,39 @@ END OF TITLE XXVI — NATIONAL SOCIAL SECURITY SOVEREIGNTY COMMISSION
 
 
 
+
+SCHEDULE E — PHASE GATE TRIGGER PARAMETERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
+
+(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the Household Structural Relief Node shall be in Phase 1 status. No HSRN disbursements shall occur to any household that is not already receiving federal assistance under Title V pilot program authority (Sec. 502(f)(1)).
+
+(b) PHASE 2 — GATE 1 CONDITIONS.—HSRN shall advance to Phase 2 — targeted deployment at three hundred dollars ($300) per month base rate to households at or below one hundred fifty percent (150%) of the federal poverty guideline — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
+
+(1) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below nine hundred billion dollars ($900,000,000,000) based on CBO's most recent baseline projection;
+
+(2) TREND CONDITION.—CBO's ten-year baseline projection shows a declining deficit trajectory, with the projected deficit in Year 10 of the baseline lower than the current fiscal year's projected deficit; and
+
+(3) SIRF CONDITION.—The SIRF balance, as certified by the FMIA, exceeds two hundred billion dollars ($200,000,000,000).
+
+(c) PHASE 3 — GATE 2 CONDITIONS.—HSRN shall advance to Phase 3 — universal deployment at full statutory rates to all eligible households — when both of the following conditions are simultaneously certified by the CBO:
+
+(1) DEBT-TO-GDP CONDITION.—The federal debt held by the public as a percentage of GDP is below one hundred ten percent (110%); and
+
+(2) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below four hundred billion dollars ($400,000,000,000).
+
+(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding HSRN expansion shall activate within sixty (60) days without requiring additional legislative action.
+
+(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, HSRN disbursements shall be adjusted downward on a pro-rata basis per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
+
+(f) REVENUE SUPPRESSION COUNTERFACTUAL ADJUSTMENT.—(1) DETECTION MANDATE.—The FMIA shall maintain a Revenue Suppression Detection Module (RSDM) that identifies coordinated domestic revenue contraction by Covered Entities exceeding fifteen percent (15%) of the prior 36-month rolling baseline, correlated across two or more entities in the same sector, within twelve (12) months of enactment or any FMIA enforcement action. (2) CBO COUNTERFACTUAL DEFICIT.—Upon FMIA certification of a Revenue Suppression Event, the CBO shall compute and publish a Revenue-Adjusted Counterfactual Deficit (RACD) that adds back estimated revenue suppressed by the verified evasion activity. (3) ALTERNATIVE GATE CERTIFICATION.—The Phase Gate 2 Deficit Condition is satisfied if either: (A) the actual projected deficit falls below $900,000,000,000; OR (B) the RACD falls below $900,000,000,000 and the FMIA has certified a Revenue Suppression Event affecting the standard calculation. (4) SOVEREIGN EVASION ASSESSMENT.—Any Covered Entity engaging in coordinated revenue suppression to prevent Gate 1 certification shall be subject to a Sovereign Evasion Assessment equal to three times (3x) the estimated suppression value, deposited into the SIRF.
+
+(g) MINIMUM FLOOR HSRN.—Effective upon enactment, without Phase Gate certification, the FMIA shall disburse from SIRF investment returns a Minimum Floor HSRN of one hundred dollars ($100) per month to every eligible household at or below one hundred percent (100%) of the federal poverty guideline. Funded exclusively from SIRF investment returns, not SIRF principal; pro-rated if returns are insufficient. Upon Phase Gate 2 certification, the Floor HSRN is subsumed into the full Phase 2 disbursement.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE F — PHARMACEUTICAL COMPULSORY LICENSING ROYALTY SCHEDULE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3040,22 +3503,22 @@ Any reference in this Act to a universal cash distribution mechanism tied to SIR
 SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
 
 The SIRF node allocation percentages are revised as follows, effective from the date of enactment of this Title:
-(1) Household Structural Relief Node (formerly HSRN): 20%;
+(1) Household Structural Relief Node: 15%;
 (2) Tier 1 Mandatory Structural Obligations Reserve: 15%;
-(3) Vanguard Capitalization Node: 20%;
-(4) Environmental Remediation Node: 10%;
-(5) Energy Sovereignty Node: 12%;
-(6) Agricultural Sovereignty Node: 7%;
+(3) Vanguard Capitalization Node: 15%;
+(4) Environmental Remediation Node: 9%;
+(5) Energy Sovereignty Node: 9%;
+(6) Agricultural Sovereignty Node: 9%;
 (7) Sovereign Deficit Reduction Node: 5%;
 (8) Knowledge Sovereignty Node: 2%;
-(9) Biosecurity and Pharmaceutical Node: 5%;
+(9) Biosecurity and Pharmaceutical Node: 6%;
 (10) Administrative Operations Reserve: 3%;
-(11) Sovereign Compute Node: 5%;
-(12) Strategic Mobility Infrastructure Node: 11%.
+(11) Sovereign Compute Node: 6%;
+(12) Strategic Mobility Infrastructure Node: 6%.
 
 Total allocation: one hundred percent (100%).
 
-RATIONALE FOR REVISIONS FROM PRIOR TABLE.—(a) Vanguard Capitalization Node increased from fifteen percent (15%) to twenty percent (20%), reflecting the shift from grant-dominant to investment-instrument-dominant deployment, making the node partially self-replenishing. (b) Sovereign Deficit Reduction Node reduced from ten percent (10%) to five percent (5%): debt discipline is preserved by the automatic surplus-transfer mechanism in Section 3402(d), which routes any SIRF balance above one hundred twenty percent (120%) of obligations to mandatory deficit reduction; the standing node is no longer required at its prior size. (c) Knowledge Sovereignty Node reduced from five percent (5%) to two percent (2%): the Knowledge Sovereignty mission is substantially absorbed by the new Sovereign Compute Node. (d) Energy Sovereignty Node increased from ten percent (10%) to twelve percent (12%) to fund the Energy Dividend established in Section 301(d) as amended. (e) Two new nodes established: Sovereign Compute Node (five percent (5%)) and Strategic Mobility Infrastructure Node (eleven percent (11%)), as governed by Sections 3408 and 3409 respectively.
+RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebalanced to total exactly one hundred percent (100%) following the addition of the Sovereign Compute Node and Strategic Mobility Infrastructure Node. (a) Household Structural Relief Node set at fifteen percent (15%), sized to fully fund the statutory dollar floors of the targeted structural-cost-elimination mechanisms enumerated in Section 3403 following retirement of the universal cash dividend under Section 3401. (b) Vanguard Capitalization Node set at fifteen percent (15%); its statutory replenishment mechanism (Section 204) recycles returned principal, interest, dividends, and royalties, compounding effective deployment capacity above the nominal allocation. (c) Environmental Remediation, Energy Sovereignty, and Agricultural Sovereignty Nodes set at nine percent (9%) each as core domestic-sovereignty investments. (d) Biosecurity and Pharmaceutical, Sovereign Compute, and Strategic Mobility Infrastructure Nodes set at six percent (6%) each. (e) Sovereign Deficit Reduction Node (five percent (5%)) is reinforced by the automatic surplus-transfer mechanism of Section 3402(d), which routes any SIRF balance above one hundred twenty percent (120%) of obligations to mandatory deficit reduction. (f) Tier 1 Mandatory Structural Obligations Reserve (fifteen percent (15%)), Administrative Operations Reserve (three percent (3%)), and Knowledge Sovereignty Node (two percent (2%)) are set to preserve mandatory benefit guarantees and enforcement capacity.
 
 SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
 
@@ -3137,7 +3600,7 @@ SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
 (e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 006.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVER
+END OF TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
