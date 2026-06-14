@@ -537,7 +537,15 @@ SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
 All penalties collected under this paragraph shall be routed to the SIRF to fund open-source municipal computing arrays. The 45-day pre-deprivation notice requirement of Title XVIII applies to all penalties under this paragraph.
 
-(d) FIRST AMENDMENT PRESERVATION.—Nothing in this section shall be construed to compel any platform to host, amplify, or distribute any specific category of speech, nor to prohibit content moderation practices consistent with a platform's publicly disclosed community standards, provided such standards are applied uniformly and do not systematically suppress lawful political or civic speech.
+(d) FIRST AMENDMENT PRESERVATION AND SAFE HARBOR.—
+
+(1) GENERAL PRESERVATION.—Nothing in this section shall be construed to compel any platform to host, amplify, or distribute any specific category of speech, nor to prohibit content moderation practices consistent with a platform's publicly disclosed community standards, provided such standards are applied uniformly and do not systematically suppress lawful political or civic speech.
+
+(2) ALGORITHMIC EDITORIAL SAFE HARBOR.—No enforcement action under this section shall be brought against any Covered Entity on the basis of an algorithmic or editorial decision to rank, recommend, deprioritize, or decline to amplify any category of lawful speech or expressive content. The algorithmic drift enforcement authority established under subsections (a) and (b) is limited exclusively to measurable adverse economic outcomes in consumer financial decision-making as defined in subsection (b)(2), and shall not extend to outcomes that are the result of expressive or editorial judgments about the content, viewpoint, or subject matter of speech.
+
+(3) CONDUCT-NOT-CONTENT LIMITATION.—All enforcement authority under this section is directed at the economic conduct of Covered Entities — specifically, the deployment of algorithmic systems to extract economic value from users without compensation — and not at the content or viewpoint of any speech carried, moderated, or algorithmically sorted by those systems. No FMIA enforcement action under this section shall turn on the viewpoint, topic, or political valence of any speech that a Covered Entity hosts, routes, or declines to distribute.
+
+(4) PREEMPTION OF COMPELLED SPEECH.—Nothing in this section shall be construed to require any Covered Entity to carry, display, or distribute speech that the Covered Entity has determined, in the exercise of editorial discretion, to be inconsistent with its platform policies, community standards, or editorial mission, consistent with Moody v. NetChoice, LLC, 603 U.S. ___ (2024), and Miami Herald Publishing Co. v. Tornillo, 418 U.S. 241 (1974).
 
 SEC. 303. DOMESTIC SEMICONDUCTOR AND AI CHIP SOVEREIGNTY.
 
@@ -574,6 +582,26 @@ SEC. 401. DECENTRALIZED CITIZEN ENFORCEMENT ENGINE.
 (d) FRIVOLOUS CLAIM DETERRENCE.—Any civil enforcement action brought under this section that is determined by a court to be frivolous, vexatious, or brought solely for the purpose of harassment shall subject the plaintiff's attorney to sanctions under Federal Rule of Civil Procedure 11. The citizen bounty shall not be awarded in any such case.
 
 (e) COVERED ENTITY COUNTERCLAIM LIMITATION.—No Covered Entity subject to an enforcement action under this section may assert a counterclaim seeking damages from an individual citizen plaintiff for the act of filing a good-faith enforcement action, provided the citizen plaintiff had a reasonable basis for belief that a Verified Structural Variance existed.
+
+(f) FCA-PRECEDENTED VIOLATION CATEGORIES — BOUNTY ELIGIBILITY LIMITATION.—
+
+(1) ELIGIBLE VIOLATION CATEGORIES.—The citizen bounty established under subsection (b) shall be available only in enforcement actions arising from the following categories of violation, which are modeled on violation types with established precedent under the False Claims Act (31 U.S.C. §§ 3729–3733) and cognate whistleblower statutes:
+
+(A) Submission of false or fraudulent certifications, reports, or disclosures to the FMIA, FDVM, or any federal agency in connection with a structural variance or compliance determination required under this Act;
+
+(B) Knowing evasion of a FDVM audit obligation, including falsification of API output metrics submitted pursuant to Section 302(a) or any equivalent data submission requirement;
+
+(C) Fraudulent concealment of a structural non-compliance condition that the Covered Entity had actual knowledge of, where such concealment delayed or prevented enforcement;
+
+(D) Retaliation against a whistleblower who disclosed a structural variance or compliance failure to the FMIA, FDVM, or Congress;
+
+(E) Procurement fraud in connection with any federal contract, grant, loan, or subsidy involving a Covered Entity subject to this Act, consistent with categories actionable under 31 U.S.C. § 3729(a).
+
+(2) NON-ELIGIBLE CLAIMS.—The citizen bounty shall not be available in enforcement actions based solely on a Covered Entity's failure to achieve a structural outcome metric (such as a wage floor, domestic content percentage, or energy transition milestone) where no fraud, false certification, or knowing concealment is alleged. Such outcome-based enforcement actions remain available under the FMIA's administrative enforcement authority and Title XX judicial review provisions, but do not carry the citizen bounty.
+
+(3) FIRST-TO-FILE AND GOVERNMENT-ELECTION RULE.—Consistent with the False Claims Act's first-to-file bar (31 U.S.C. § 3730(b)(5)) and government-election rule (31 U.S.C. § 3730(b)(4)): (A) no bounty action under this section may proceed if a substantially identical action has already been filed by another citizen plaintiff; and (B) the FMIA shall have sixty (60) days following notice of a filed bounty action to elect to intervene and assume primary prosecution of the action, in which case the citizen plaintiff's bounty shall not be reduced below ten percent (10%) of the net recovery.
+
+(4) ORIGINAL-SOURCE REQUIREMENT.—A citizen plaintiff seeking a bounty under this section must be an original source of the information underlying the claim — meaning the plaintiff has direct and independent knowledge of the information supporting the alleged violation and has voluntarily provided that information to the FMIA prior to filing, consistent with the original-source doctrine of Hughes Aircraft Co. v. United States ex rel. Schumer, 520 U.S. 939 (1997).
 
 SEC. 402. DOMESTIC CONTENT SOVEREIGN CONTRACT FRAMEWORK.
 
@@ -2069,7 +2097,13 @@ SEC. 2303. WAGE EQUALIZATION ASSESSMENT — STRUCTURE AND SAFEGUARDS.
 
 (3) CONSUMER PRICE PROTECTION.—The FMIA shall publish quarterly a Consumer Price Impact Assessment for each active WEA rate. If the FMIA determines that a WEA rate is producing a statistically significant increase in consumer prices for essential goods — defined as food, medicine, children's products, and housing materials — the FMIA shall notify Congress within thirty (30) days and reduce the applicable WEA rate to a consumer-neutral level pending legislative review.
 
-(b) WTO COMPLIANCE.—No WEA shall activate for any non-designated nation until the USTR has certified in writing to Congress that the assessment is consistent with WTO Article XX(b) (necessary to protect human life or health) or WTO Article XX(e) (relating to prison labor) or that WTO dispute proceedings have been initiated to establish such compliance. The USTR shall file WTO compliance documentation within sixty (60) days of enactment.
+(b) USITC PRE-SCORE GATE AND WTO COMPLIANCE.—
+
+(1) USITC PRE-ACTIVATION CERTIFICATION.—No WEA shall activate against any non-designated nation unless and until the United States International Trade Commission (USITC) has issued a written Pre-Score Determination finding, on the basis of an independent economic analysis, that: (A) the calculated labor cost differential for that nation meets the threshold criteria established under subsection (a)(1); (B) activation of the WEA is consistent with United States obligations under WTO Article XX(b) (necessary to protect human life or health) or WTO Article XX(e) (relating to prison labor); and (C) the projected consumer price impact does not trigger the consumer-neutral threshold under subsection (a)(3). The USITC shall complete the Pre-Score Determination for each applicable non-designated nation within ninety (90) days of receiving a referral from the FMIA. No executive agency may waive or substitute for the USITC Pre-Score Determination required under this paragraph.
+
+(2) USTR WTO COMPLIANCE FILING.—Following a favorable USITC Pre-Score Determination under paragraph (1), and prior to WEA activation, the USTR shall certify in writing to Congress that the assessment is consistent with the applicable WTO Article XX exception identified in the USITC Pre-Score Determination, or that WTO dispute proceedings have been initiated to establish such compliance. The USTR shall file this certification within thirty (30) days of the USITC Pre-Score Determination.
+
+(3) CONGRESSIONAL NOTIFICATION.—The FMIA shall transmit both the USITC Pre-Score Determination and the USTR certification to the relevant congressional committees of jurisdiction within five (5) business days of receipt. WEA activation shall not proceed until both documents have been transmitted to Congress.
 
 (c) DIPLOMATIC ENGAGEMENT PERIOD.—Prior to the activation of the WEA against any specific non-designated nation, the USTR shall conduct a mandatory ninety (90) day diplomatic engagement period during which the United States shall offer bilateral labor rights improvement frameworks as an alternative to WEA activation. Nations that enter into a binding bilateral labor rights agreement meeting ILO Core Convention standards within the ninety-day period shall be reclassified as Designated Allied Nations and exempted from the WEA.
 
