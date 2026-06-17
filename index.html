@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4ST7F361PS"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-4ST7F361PS');
-  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>National Sovereignty and Resilience Act (NSRA) — TheAmericanDeal.org | What America Owes You™</title>
@@ -438,12 +429,63 @@ var DONATIONS_LIVE = false; // flip to true when org is formed and payment proce
   if(DONATIONS_LIVE){ btn.classList.add('live'); btn.title = 'Support the campaign'; }
 })();
 function handleDonate(){
+  nsraTrackEvent('support_button_click', {
+    event_category: 'engagement',
+    event_label: DONATIONS_LIVE ? 'support_button_live' : 'support_button_dormant',
+    donations_live: DONATIONS_LIVE ? 'true' : 'false'
+  });
   if(!DONATIONS_LIVE) return; // dormant — do nothing while greyed out
   // TODO: replace with payment processor URL when live
   window.open('https://theamericandeal.org/donate','_blank');
 }
 function toggleNav(){document.getElementById('nav-links').classList.toggle('open');}
+
 function closeNav(){document.getElementById('nav-links').classList.remove('open');}
+
+// NSRA delegated analytics listeners
+document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest ? e.target.closest('a') : null;
+    if (!a) return;
+
+    var href = a.getAttribute('href') || '';
+    var textLabel = (a.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 80);
+
+    if (href === '#support') {
+      nsraTrackEvent('support_click', {
+        event_category: 'engagement',
+        event_label: textLabel || 'support_anchor',
+        link_location: 'internal_anchor'
+      });
+    }
+
+    if (/\.pdf(\?|#|$)/i.test(href)) {
+      var filename = href.split('/').pop().split('?')[0].split('#')[0];
+      nsraTrackEvent('document_download', {
+        event_category: 'documents',
+        event_label: filename,
+        file_name: filename,
+        link_text: textLabel
+      });
+    }
+
+    if (href.indexOf('tel:') === 0) {
+      nsraTrackEvent('call_button_click', {
+        event_category: 'civic_action',
+        event_label: href.replace('tel:', ''),
+        link_text: textLabel
+      });
+    }
+
+    if (/twitter\.com|x\.com|threads\.net|truthsocial\.com/i.test(href)) {
+      nsraTrackEvent('social_share_or_follow_click', {
+        event_category: 'social',
+        event_label: href,
+        link_text: textLabel
+      });
+    }
+  }, true);
+});
 </script>
 
 <!-- HERO -->
@@ -994,6 +1036,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
   });
 
   window.setMapMode = function(mode) {
+    nsraTrackEvent('state_map_mode_change', {event_category:'engagement', event_label: mode, map_mode: mode});
     mapMode = mode;
     // Legend visibility
     ['impact','party','gov'].forEach(m => {
@@ -1152,6 +1195,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
   };
 
   function selectState(code){
+    nsraTrackEvent('state_map_interaction', {event_category:'engagement', event_label: code || 'unknown_state', state_code: code || ''});
     const el = document.getElementById('calc-state');
     if(el){ el.value=code; }
     document.getElementById('calc-section').scrollIntoView({behavior:'smooth',block:'start'});
@@ -1286,6 +1330,7 @@ function closeNav(){document.getElementById('nav-links').classList.remove('open'
   }
 
   function calcBenefits(){
+    if (!window._nsraCalculatorTracked) { window._nsraCalculatorTracked = true; nsraTrackEvent('calculator_use', {event_category:'tools', event_label:'household_calculator'}); }
     const income = parseFloat(document.getElementById('calc-income').value)||0;
     const size = parseInt(document.getElementById('calc-size').value)||1;
     const children = parseInt(document.getElementById('calc-children').value)||0;
@@ -6281,6 +6326,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     }
 
     if (email && hasSignedLocally(email)) {
+      nsraTrackEvent('petition_repeat_device', {event_category:'conversion', event_label:'already_signed_local', zip: zip});
       if (msg) msg.textContent = 'You have already signed from this device -- taking you to Step 2.';
       showStep2(first, last, zip);
       return false;
@@ -6307,10 +6353,12 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
       fetch('https://abacus.jasoncameron.dev/hit/theamericandeal/nsra-verified')
         .then(function() { updateVisitorCounter(); })
         .catch(function() {});
+      nsraTrackEvent('petition_signup', {event_category:'conversion', event_label:'signature_success', zip: zip});
       if (msg) msg.textContent = '✓ Signature recorded. Welcome aboard.';
       finishStep1();
     }).catch(function() {
       if (email) markSignedLocally(email);
+      nsraTrackEvent('petition_signup_fallback', {event_category:'conversion', event_label:'signature_fallback', zip: zip});
       if (msg) msg.textContent = '✓ Signature recorded.';
       finishStep1();
     });
@@ -6319,6 +6367,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
   };
 
   function showStep2(firstName, lastName, zip) {
+    nsraTrackEvent('support_step2_view', {event_category:'civic_action', event_label:'call_congress_step', zip: zip || ''});
     _sigFirstName = firstName; _sigLastName = lastName; _sigZip = zip;
     var s1 = document.getElementById('wizard-step1');
     var s2 = document.getElementById('wizard-step2');
@@ -6512,6 +6561,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
   }
 
   window.copyScript = function() {
+    nsraTrackEvent('call_script_copy', {event_category:'civic_action', event_label:'copy_call_script'});
     var text = window._nsraCallScript || (document.getElementById('call-script') ? document.getElementById('call-script').textContent : '') || '';
     if (!text) return;
     var btn = document.querySelector('[onclick="copyScript()"]');
