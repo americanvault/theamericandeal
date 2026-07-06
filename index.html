@@ -78,6 +78,101 @@
     "mainEntityOfPage": "https://theamericandeal.org/"
   }
   </script>
+
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "TheAmericanDeal.org",
+    "legalName": "TheAmericanDeal, Inc.",
+    "url": "https://theamericandeal.org/",
+    "logo": "https://theamericandeal.org/android-chrome-192x192.png",
+    "image": "https://theamericandeal.org/og-image.png",
+    "slogan": "What America Owes You™",
+    "description": "TheAmericanDeal, Inc. is a nonprofit civic-education and grassroots-advocacy organization supporting the National Sovereignty and Resilience Act (NSRA).",
+    "foundingDate": "2026",
+    "founder": {
+      "@type": "Person",
+      "name": "Santonio Sanders",
+      "jobTitle": "Principal Architect, NSRA"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "contact@theamericandeal.org",
+      "contactType": "General Inquiries",
+      "availableLanguage": "English"
+    },
+    "sameAs": [
+      "https://x.com/NSRA2028",
+      "https://instagram.com/nsratheamericandeal"
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: WebSite + SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TheAmericanDeal.org — The National Sovereignty and Resilience Act",
+    "alternateName": "The American Deal",
+    "url": "https://theamericandeal.org/",
+    "inLanguage": "en-US",
+    "publisher": { "@type": "Organization", "name": "TheAmericanDeal, Inc." },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": { "@type": "EntryPoint", "urlTemplate": "https://theamericandeal.org/?q={search_term_string}" },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQ (rich results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the National Sovereignty and Resilience Act (NSRA)?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA is a comprehensive, citizen-developed federal legislative framework of 36 statutory titles. It delivers universal zero-premium healthcare, G7 pharmaceutical price parity, zero-interest student debt relief, corporate housing-market reform, and roughly $554 billion in annual deficit reduction — with a modeled pathway to a balanced federal budget by Year 4." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the NSRA add to the federal deficit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. The NSRA is designed as a self-funding, closed-loop fiscal architecture. It generates roughly $554 billion in annual deficit reduction through enforcement-driven revenue — including offshore tax recovery, pharmaceutical parity savings, and structural penalties — rather than new broad-based taxes, with a modeled pathway to budget balance by Year 4." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the NSRA lower prescription drug prices?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA matches U.S. prescription drug prices to the median price paid across the G7 nations, enforced automatically through a compulsory-licensing framework with fixed statutory royalty rates. Insulin is capped at $35 per month." }
+      },
+      {
+        "@type": "Question",
+        "name": "What does the NSRA do for healthcare?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA establishes the Basic Medical Provision (BMP): universal, zero-premium health coverage delivered through competitive private carriers and funded by the Health Sovereignty Fund, layered above existing coverage rather than replacing private insurance." }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the NSRA address corporate ownership of housing?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Title XIV caps institutional single-family housing ownership at 50 units per Metropolitan Statistical Area, with a phased divestment schedule and a volume-absorption limit (no more than 4.5% per quarter) to protect local markets from forced-sale shock." }
+      },
+      {
+        "@type": "Question",
+        "name": "Who wrote the NSRA and is it constitutional?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA was authored by Santonio Sanders, a U.S. Navy veteran and former VA ambulatory-care director. Its enforcement mechanisms are engineered for constitutional durability, including pre-deprivation due-process notice schedules calibrated to Mathews v. Eldridge and sector-specific enumeration to satisfy the major-questions doctrine." }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Performance: preconnect -->
+  <link rel="preconnect" href="https://abacus.jasoncameron.dev" crossorigin />
+  <link rel="dns-prefetch" href="https://abacus.jasoncameron.dev" />
+  <meta name="author" content="Santonio Sanders" />
+  <meta name="publisher" content="TheAmericanDeal, Inc." />
   <style>
     :root {
       --bg-base:     #0D0F14;
@@ -6216,6 +6311,17 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
         <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.25);margin-bottom:12px">Contact</div>
         <div style="font-size:11px;color:rgba(255,255,255,0.35);line-height:1.7">Media inquiries, legislative staff, and general correspondence:<br/><a href="mailto:contact@theamericandeal.org" style="color:rgba(0,200,83,0.7);text-decoration:none">contact@theamericandeal.org</a></div>
       </div>
+      <div>
+        <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.25);margin-bottom:12px">The NSRA Explained</div>
+        <div style="font-size:11px;line-height:1.9">
+          <a href="/healthcare/" style="color:rgba(0,200,83,0.7);text-decoration:none">Universal Healthcare</a><br/>
+          <a href="/drug-prices/" style="color:rgba(0,200,83,0.7);text-decoration:none">Drug Price Parity</a><br/>
+          <a href="/student-debt/" style="color:rgba(0,200,83,0.7);text-decoration:none">Student Debt Relief</a><br/>
+          <a href="/housing/" style="color:rgba(0,200,83,0.7);text-decoration:none">Corporate Housing Reform</a><br/>
+          <a href="/calculator/" style="color:rgba(0,200,83,0.7);text-decoration:none">Benefit Calculator</a><br/>
+          <a href="/bill-text/" style="color:rgba(0,200,83,0.7);text-decoration:none">Full Bill Text</a>
+        </div>
+      </div>
     </div>
     <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
       <div style="font-size:10px;color:rgba(255,255,255,0.2)">&copy; 2024&ndash;2026 TheAmericanVault LLC. All rights reserved. Proprietary legislative authorship &mdash; unauthorized reproduction prohibited.</div>
@@ -6561,10 +6667,28 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
   }
 
   window.copyScript = function() {
-    nsraTrackEvent('call_script_copy', {event_category:'civic_action', event_label:'copy_call_script'});
     var text = window._nsraCallScript || (document.getElementById('call-script') ? document.getElementById('call-script').textContent : '') || '';
     if (!text) return;
     var btn = document.querySelector('[onclick="copyScript()"]');
     function done() {
       if (btn) { btn.textContent = '✓ Copied!'; setTimeout(function(){ btn.textContent = '📋 Copy Script to Clipboard'; }, 2500); }
-  
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function() { fallbackCopy(text); done(); });
+    } else { fallbackCopy(text); done(); }
+  };
+
+  function fallbackCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch(e) {}
+    document.body.removeChild(ta);
+  }
+
+})();
+</script>
+
+</body>
+</html>
