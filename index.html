@@ -476,11 +476,6 @@
   </style>
 </head>
 <body>
-<!-- Netlify Forms detection (hidden) -->
-<form name="nsra-signatures" netlify netlify-honeypot="bot-field" hidden>
-  <input name="name" /><input name="email" /><input name="zip" /><input name="phone" />
-</form>
-
 <!-- NAV -->
 <nav>
   <a class="nav-brand" href="#">NSRA <span style="color:var(--green)">· TheAmericanDeal</span></a>
@@ -6187,7 +6182,6 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
       <div class="wizard-title">Sign Your Name to the NSRA</div>
       <p style="font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:16px">A public record of citizen demand. One signature per person. Your information is never sold or shared &mdash; used solely to demonstrate constituent support to congressional offices. <span style="color:var(--green);font-weight:600">Sign first to get your legislators&rsquo; direct phone numbers.</span></p>
       <form id="nsra-sig-form" onsubmit="handleSigSubmit(event)">
-        <input type="hidden" name="form-name" value="nsra-signatures" />
         <div class="wf-2col">
           <div class="wf-row"><label>First Name *</label><input type="text" id="sig-first" name="first_name" placeholder="First" required /></div>
           <div class="wf-row"><label>Last Name *</label><input type="text" id="sig-last" name="last_name" placeholder="Last" required /></div>
