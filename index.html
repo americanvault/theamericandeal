@@ -527,7 +527,7 @@
     <li><a href="/engage/" onclick="closeNav()" style="color:var(--text);font-weight:700">Special Interest Orgs</a></li>
   </ul>
   <div style="display:flex;flex-direction:column;gap:4px;align-items:stretch">
-    <a id="signcall-btn" href="#support" onclick="closeNav()">Sign &amp; Call</a>
+    <a id="signcall-btn" href="#support" onclick="closeNav()">Speak Up</a>
     <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
   </div>
   <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
@@ -612,7 +612,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="stat"><div class="stat-val" id="hero-balance-yr">Yr 4</div><div class="stat-label">Balanced Budget (central est.)</div></div>
     <div class="stat"><div class="stat-val" id="hero-protected">79M+</div><div class="stat-label">Americans Protected</div><div style="font-size:9px;color:var(--amber);margin-top:2px" id="hero-protected-note">28M uninsured &middot; 42M SNAP &middot; 9M veterans (Year 1 direct relief)</div></div>
     <div class="stat"><div class="stat-val" id="hero-deficit">$554B</div><div class="stat-label">True Annual Deficit Reduction</div></div>
-    <div class="stat"><div class="stat-val" id="sig-count-hero" style="color:var(--amber)">0</div><div class="stat-label">People Standing With The NSRA</div><div style="font-size:9px;color:var(--muted);margin-top:2px"><a href="#support" style="color:var(--green);text-decoration:none">Add your name &rarr;</a></div></div>
+    <div class="stat"><div class="stat-val" id="sig-count-hero" style="color:var(--amber)">0</div><div class="stat-label">People Standing With The NSRA</div><div style="font-size:9px;color:var(--muted);margin-top:2px"><a href="#support" style="color:var(--green);text-decoration:none">Add Your Name &rarr;</a></div></div>
   </div>
   <div style="max-width:660px;margin:14px auto 0;padding:0 16px;font-size:10px;color:var(--muted);line-height:1.6;text-align:center">
     <strong style="color:#94A3B8">NSRA model estimate</strong> using published CBO, JCT, OMB, Treasury, and federal agency baselines. Internally modeled from government data — <strong style="color:#94A3B8">not yet officially scored</strong>. Independent and congressional scoring pending.
@@ -5910,11 +5910,17 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
 <div class="section" id="support">
 
   <div class="section-header">
-    <h2>Sign &amp; Call Congress</h2>
-    <span>Make your voice count</span>
+    <h2>Make Your Voice Count</h2>
+    <span>Sign the petition, call your representatives, and tell us what else matters to you</span>
   </div>
 
-  <div id="support-wizard"></div>
+  <div class="sc-cols">
+<div class="sc-left">
+<div style="max-width:660px;margin:0 auto 12px;padding:0 16px">
+  <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Take Action</div>
+  <div style="font-size:17px;font-weight:800;color:var(--text)">Sign &amp; call Congress</div>
+</div>
+<div id="support-wizard"></div>
   <style>
     .wizard-wrap { max-width:660px; margin:0 auto; padding:0 16px; }
     .wizard-counter { font-size:36px; font-weight:800; color:var(--green); display:flex; align-items:baseline; gap:10px; margin-bottom:24px; }
@@ -5946,6 +5952,10 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     .w-email-preview { background:var(--bg-base); border:1px solid var(--border); border-radius:6px; padding:12px 14px; font-size:11px; color:#94A3B8; font-family:'Courier New',monospace; line-height:1.7; white-space:pre-wrap; height:260px; overflow-y:auto; margin:12px 0; }
     .share-row { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; padding-top:14px; border-top:1px solid var(--border); margin-top:14px; }
     .share-btn { padding:7px 16px; border-radius:6px; font-size:11px; font-weight:700; text-decoration:none; color:#fff; display:inline-block; }
+    .sc-cols { display:grid; grid-template-columns:1fr 1fr; gap:28px; max-width:1200px; margin:0 auto; padding:0 16px; align-items:start; }
+    .sc-left, .sc-right { min-width:0; }
+    .sc-left .wizard-wrap, .sc-right > div { max-width:100%; }
+    @media (max-width:900px){ .sc-cols { grid-template-columns:1fr; } }
   </style>
 
   <div class="wizard-wrap">
@@ -6029,6 +6039,8 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     </div>
   </div>
 
+</div>
+<div class="sc-right">
   <!-- VOTER FEEDBACK -->
   <div style="max-width:660px;margin:26px auto 0;padding:0 16px">
     <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:20px 24px">
@@ -6055,6 +6067,8 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
   function vfSubmit(e){e.preventDefault();var f=document.getElementById('vfeedback'),m=document.getElementById('vfMsg');var a=f.querySelector('select[name="Area"]'),su=f.querySelector('input[name="_subject"]');if(su&&a&&a.selectedIndex>0){su.value='NSRA Voter Feedback \u2014 '+a.value;}m.style.color='#94a3b8';m.textContent='Sending\u2026';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Thank you \u2014 we read every submission.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically \u2014 please email contact@theamericandeal.org.';});return false;}
   </script>
 
+</div>
+</div>
   <!-- CONTACT INFO BLOCK -->
   <div style="max-width:660px;margin:32px auto 0;padding:0 16px">
     <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:24px 32px;display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between">
