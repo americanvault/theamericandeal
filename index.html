@@ -476,12 +476,20 @@
     @media (max-width: 820px) { #swipe-hint { display: flex !important; } }
     .nav-dd { position: relative; }
     .nav-dd > a { cursor: pointer; }
-    .nav-dd-menu { display: none; position: absolute; top: calc(100% + 10px); right: 0; min-width: 260px; background: rgba(13,15,20,0.98); border: 1px solid var(--border); border-radius: 8px; padding: 6px; list-style: none; z-index: 200; box-shadow: 0 10px 28px rgba(0,0,0,0.45); }
+    .nav-dd-menu { display: none; position: absolute; top: calc(100% + 4px); right: 0; min-width: 260px; background: rgba(13,15,20,0.98); border: 1px solid var(--border); border-radius: 8px; padding: 6px; list-style: none; z-index: 200; box-shadow: 0 10px 28px rgba(0,0,0,0.45); }
     .nav-dd:hover .nav-dd-menu, .nav-dd:focus-within .nav-dd-menu { display: block; }
     .nav-dd-menu li { margin: 0; }
     .nav-dd-menu a { display: block; padding: 8px 12px; font-size: 12px; color: var(--muted); border-radius: 6px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
     .nav-dd-menu a:hover { background: rgba(34,197,94,0.10); color: var(--green); }
     @media (max-width: 900px) { .nav-dd-menu { display: block; position: static; border: none; box-shadow: none; padding: 2px 0 2px 12px; min-width: 0; background: transparent; } .nav-dd-menu a { padding: 6px 0; } }
+    .nav-dd::after { content:""; position:absolute; top:100%; right:0; width:260px; height:10px; }
+    @media (max-width: 900px) { .nav-dd::after { display:none; } }
+    .rev-card { display:flex; flex-direction:column; gap:5px; background:var(--bg-surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; text-decoration:none; transition:border-color .15s, transform .15s; }
+    .rev-card:hover { border-color:var(--green); transform:translateY(-2px); }
+    .rev-card .rc-role { font-size:10px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--green); }
+    .rev-card .rc-act { font-size:14px; font-weight:800; color:var(--text); }
+    .rev-card .rc-act .rc-arrow { color:var(--muted); font-weight:600; }
+    .rev-card .rc-sub { font-size:11.5px; color:var(--muted); line-height:1.5; }
   </style>
 </head>
 <body>
@@ -615,6 +623,22 @@ document.addEventListener('DOMContentLoaded', function() {
     <strong style="color:#94A3B8">NSRA model estimate</strong> using published CBO, JCT, OMB, Treasury, and federal agency baselines. Internally modeled from government data — <strong style="color:#94A3B8">not yet officially scored</strong>. Independent and congressional scoring pending.
   </div>
   <div class="hero-badge" style="background:rgba(245,158,11,0.12);border-color:rgba(245,158,11,0.3);color:var(--amber)">Pending Introduction — 120th Congress · TheAmericanDeal.org</div>
+</div>
+
+<!-- FOR REVIEWERS -->
+<div class="section" id="reviewers" style="padding-top:30px;padding-bottom:6px">
+  <div class="section-header">
+    <h2>Reviewing the NSRA?</h2>
+    <span>Start where you sit — six pathways into the framework</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <a class="rev-card" href="#support"><div class="rc-role">Voters</div><div class="rc-act">Sign &amp; call your rep <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Add your name and send a pre-written message to your representative and senators.</div></a>
+    <a class="rev-card" href="/fiscal-model/"><div class="rc-role">Subject-matter experts</div><div class="rc-act">Interrogate the fiscal model <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Toggle streams, set your own realization rate, and stress-test the math yourself.</div></a>
+    <a class="rev-card" href="/NSRA_Legislative_Packet.pdf"><div class="rc-role">Organizations</div><div class="rc-act">Briefing packet <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fiscal architecture, constitutional posture, and priority entry points.</div></a>
+    <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates &amp; legislators</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill.</div></a>
+    <a class="rev-card" href="/NSRA_Committee_Package.pdf"><div class="rc-role">Congressional staff</div><div class="rc-act">Committee package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Per-committee jurisdiction map and referral analysis.</div></a>
+    <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
+  </div>
 </div>
 
 
