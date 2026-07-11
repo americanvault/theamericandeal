@@ -499,11 +499,10 @@
   <a class="nav-brand" href="#">NSRA <span style="color:var(--green)">· TheAmericanDeal</span></a>
   <ul class="nav-links" id="nav-links">
     <li><a href="#changes" onclick="closeNav()">What This Bill Introduces</a></li>
-    <li><a href="#impact-map" onclick="closeNav()">State Impact</a></li>
     <li><a href="#deal" onclick="closeNav()">The Bottom Line</a></li>
-    <li><a href="#about" onclick="closeNav()">About</a></li>
+    <li><a href="#impact-map" onclick="closeNav()">State &amp; Household Impact</a></li>
     <li><a href="#dashboard" onclick="closeNav()">Dashboard</a></li>
-    <li><a href="#legal-review" onclick="closeNav()">Legal Review</a></li>
+    <li><a href="#legal-review" onclick="closeNav()">Legislative Architecture</a></li>
     <li><a href="#bill-text" onclick="closeNav()" style="color:var(--green)">Policy Vault</a></li>
     <li><a href="NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" onclick="closeNav()">Full Bill ↓</a></li>
     <li class="nav-dd">
@@ -516,24 +515,10 @@
       </ul>
     </li>
     <li><a href="/adopt/" onclick="closeNav()" style="color:var(--green)">For Policymakers</a></li>
+    <li><a href="#about" onclick="closeNav()">About</a></li>
     <li><a href="#support" onclick="closeNav()" style="color:var(--green)">Sign &amp; Call</a></li>
   </ul>
   <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
-  <!-- Social icons -->
-  <div class="nav-social">
-    <!-- X / Twitter -->
-    <a href="https://x.com/NSRA2028" target="_blank" rel="noopener" title="Follow @NSRA2028 on X" aria-label="X">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.726-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-    </a>
-    <!-- Instagram -->
-    <a href="https://instagram.com/nsratheamericandeal" target="_blank" rel="noopener" title="Follow @nsratheamericandeal on Instagram" aria-label="Instagram">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-    </a>
-    <!-- Threads -->
-    <a href="https://threads.net/@nsratheamericandeal" target="_blank" rel="noopener" title="Follow @nsratheamericandeal on Threads" aria-label="Threads">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.028-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.583-1.317-.88-2.39-.887h-.048c-.832 0-1.979.255-2.707 1.211l-1.616-1.178c.933-1.356 2.414-2.107 4.32-2.107h.063c2.962.02 4.789 1.836 5.029 5.07.043.563.039 1.145.039 1.733.023 1.756.04 3.006-.005 3.963-.091 1.84-.76 3.362-1.987 4.515C17.087 23.289 14.912 24 12.186 24zm.024-8.938c-.95.056-1.716.305-2.165.703-.434.382-.63.882-.587 1.489.046.698.405 1.22.996 1.578.482.295 1.104.44 1.73.405.963-.052 1.727-.415 2.272-1.079.556-.677.87-1.698.93-3.03a11.87 11.87 0 0 0-3.176-.066z"/></svg>
-    </a>
-  </div>
   <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
@@ -805,9 +790,103 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <!-- STATE-BY-STATE IMPACT -->
+<div class="section" id="deal">
+  <div class="section-header">
+    <h2>The Honest Bottom Line</h2>
+    <span>Clinton Surpluses · Trump OBBBA · NSRA 2028</span>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:12px">Three frameworks, three outcomes. Clinton started with a $290B deficit and closed it in 6 years — but the dot-com boom contributed an estimated 25–35% of that improvement in unexpected capital gains windfalls. The NSRA starts with a $1.9T deficit — <strong style="color:var(--text)">6.5× Clinton's challenge</strong> — with no tech boom at its back. Yet it generates <strong style="color:var(--text)">$554B/yr in absolute deficit reduction</strong> — nearly 10× Clinton's $60B/yr average in absolute dollars — while simultaneously delivering universal healthcare, pharmaceutical relief, and a household dividend that Clinton never offered. Pathway to balanced budget within a single presidential term — Year 4 central estimate (range Yr 3–5). And unlike the OBBBA, the alternative to NSRA isn't "6 years." It's <strong style="color:var(--red)">never</strong>.</p>
+  <div style="position:relative">
+    <div id="swipe-hint" style="display:none;align-items:center;justify-content:center;gap:6px;padding:8px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:8px;margin-bottom:10px;font-size:11px;color:var(--green);font-weight:600">
+      <span style="font-size:16px">&#8592;</span> Swipe to compare all three frameworks <span style="font-size:16px">&#8594;</span>
+    </div>
+  </div>
+  <div style="overflow-x:auto;-webkit-overflow-scrolling:touch" id="comparison-table-wrap">
+    <table style="min-width:760px">
+      <thead>
+        <tr>
+          <th style="min-width:180px">Metric</th>
+          <th style="color:#60a5fa;min-width:180px">Clinton Era<br/><span style="font-weight:400;font-size:9px">OBRA 1990 &amp; 1993 · Surplus by 1998</span></th>
+          <th style="color:#f87171;min-width:180px">Trump OBBBA<br/><span style="font-weight:400;font-size:9px">One Big Beautiful Bill Act · 2025</span></th>
+          <th style="color:var(--green);min-width:200px">NSRA 2028<br/><span style="font-weight:400;font-size:9px">National Sovereignty &amp; Resilience Act</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Deficit trajectory</td>
+          <td style="color:#60a5fa">$290B deficit (FY1992) → $69B surplus (FY1998) · ~$60B/yr avg improvement · PAYGO + spending caps + top rate raised to 39.6% · Dot-com boom provided est. 25–35% of improvement via unexpected capital gains windfalls</td>
+          <td style="color:#f87171">CBO: adds $3.3–3.8T to deficit over 10 years · No balanced budget target · Deficit grows faster than baseline</td>
+          <td style="color:var(--green);font-weight:700">$554B/yr deficit reduction (Year 1) · Balanced Year 4 · <strong>Absolute annual improvement: NSRA $554B/yr vs. Clinton $60B/yr — against a 6.5× larger starting deficit. Revenue architecture includes SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform. Pharma savings revised upward to $55B/yr (source: PNAS 2024).</strong></td>
+        </tr>
+        <tr>
+          <td style="font-weight:700;color:var(--text)">Balanced budget — when?</td>
+          <td style="color:#60a5fa;font-weight:700">Year 6 from enactment<br/><span style="font-weight:400;font-size:10px">Starting deficit: $290B · Tailwind: dot-com boom</span></td>
+          <td style="color:#f87171;font-weight:700">Never<br/><span style="font-weight:400;font-size:10px">CBO projects deficit grows indefinitely under OBBBA</span></td>
+          <td style="color:var(--green);font-weight:700">Year 4 (range Yr 3–5)<br/><span style="font-weight:400;font-size:10px">Starting deficit: $1.9T · $749B Year 1 revenue · $95B effective mandatory growth (SS cap offsets $80B) · $554B/yr net reduction · Pharma savings $55B/yr (PNAS 2024)</span></td>
+        </tr>
+        <tr>
+          <td>Balanced budget mechanism</td>
+          <td style="color:#60a5fa">PAYGO rules · Discretionary spending caps · Top income tax rate raised to 39.6% · Economic growth tailwind</td>
+          <td style="color:#f87171">None — extends TCJA cuts ($4.5T cost) · Medicaid/SNAP cuts (~$1T) offset only partially · No fiscal balance target</td>
+          <td style="color:var(--green);font-weight:700">Self-executing FMIA enforcement triggers · V_abs throttle · 16-stream revenue engine · Self-funding · No new borrowing</td>
+        </tr>
+        <tr>
+          <td>Household monthly floor</td>
+          <td style="color:#60a5fa">None · EITC expansion · Minimum wage increase · No universal dividend</td>
+          <td style="color:#f87171">None · MAGA Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
+          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust $5K at birth · MAGA Account complementary</td>
+        </tr>
+        <tr>
+          <td>Healthcare coverage floor</td>
+          <td style="color:#60a5fa">None · COBRA expansion · CHIP created 1997 · 40M+ uninsured throughout</td>
+          <td style="color:#f87171">No new coverage floor · Medicaid work requirements cut ~10–15M enrollees · ACA subsidies extended but uninsured unchanged</td>
+          <td style="color:var(--green);font-weight:700">BMP: $0 premium, $0 deductible for all 28M uninsured · Private carrier choice · Zero merger with Medicare</td>
+        </tr>
+        <tr>
+          <td>Drug pricing</td>
+          <td style="color:#60a5fa">No federal price controls · Market rates · Medicare Part D did not yet exist</td>
+          <td style="color:#f87171">IRA 2022 drug negotiations retained (10–20 drugs/yr) · No G7 parity · No compulsory licensing</td>
+          <td style="color:var(--green);font-weight:700">G7 parity on all NIH-funded drugs · Compulsory licensing at 8% royalty · $550B Medicare/Medicaid savings over 10 years (PNAS 2024)</td>
+        </tr>
+        <tr>
+          <td>10-year deficit impact</td>
+          <td style="color:#60a5fa">Reduced deficit ~$500B over 5 years (1993–1998) · Surplus achieved Year 6</td>
+          <td style="color:#f87171">+$3.3–3.8T added to national debt over 10 years (CBO estimate)</td>
+          <td style="color:var(--green);font-weight:700">-$4.5T+ total deficit reduction through Year 10 (central estimate) · Surplus achieved Year 4 · Debt reduction compounds from Year 5 forward</td>
+        </tr>
+        <tr>
+          <td>PE / monopoly accountability</td>
+          <td style="color:#60a5fa">No PE healthcare restrictions · Microsoft antitrust (DOJ, 1998) · No housing cap</td>
+          <td style="color:#f87171">No PE healthcare restrictions · No housing concentration cap · Reduced FTC/DOJ antitrust enforcement budget</td>
+          <td style="color:var(--green);font-weight:700">PE prohibited from hospitals, EMS, 911, nursing homes · 50-unit housing cap (V_abs ≤ 4.5%) · Citizen Bounty Engine 15% cut</td>
+        </tr>
+        <tr>
+          <td>IRS enforcement</td>
+          <td style="color:#60a5fa">IRS funding stable · ~$60B tax gap (1990s) · No supermajority protection</td>
+          <td style="color:#f87171">$80B IRA 2022 IRS allocation clawed back · Staffing at 2010 levels · $688B/yr gap uncollected</td>
+          <td style="color:var(--green);font-weight:700">$15B/yr mandatory · Two-thirds supermajority protected · Cannot be rescinded by CR or executive order</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:10px;color:var(--muted);margin-top:10px">Sources: CBO Budget &amp; Economic Outlook 2026–2036 · CBO OBBBA score May 2025 · OMB Historical Tables · Clinton OBRA 1993 CBO analysis · JCT TCJA scoring</p>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>The American Deal</h2>
+  <p>Not borrowed. Earned. Built to last.</p>
+  <div class="cta-quote">
+    "Your drug bills are getting cut — by law. Every uninsured American gets real coverage at zero premium. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $5,000 account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down — permanently, from revenue this country was already generating and never collected. No new taxes on working people. No borrowing. No waiting for a check that may never come. This is structural relief, and it starts the day this bill is signed. That is the American Deal."
+  </div>
+</div>
+
+<!-- ABOUT THIS BILL -->
+
+
 <div class="section" id="impact-map">
   <div class="section-header">
-    <h2>State-by-State Impact</h2>
+    <h2>State and Household Impact</h2>
     <span>State Impact Map — Click Any State</span>
   </div>
 
@@ -1490,147 +1569,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <!-- THE HONEST BOTTOM LINE -->
-<div class="section" id="deal">
-  <div class="section-header">
-    <h2>The Honest Bottom Line</h2>
-    <span>Clinton Surpluses · Trump OBBBA · NSRA 2028</span>
-  </div>
-  <p style="font-size:12px;color:var(--muted);margin-bottom:12px">Three frameworks, three outcomes. Clinton started with a $290B deficit and closed it in 6 years — but the dot-com boom contributed an estimated 25–35% of that improvement in unexpected capital gains windfalls. The NSRA starts with a $1.9T deficit — <strong style="color:var(--text)">6.5× Clinton's challenge</strong> — with no tech boom at its back. Yet it generates <strong style="color:var(--text)">$554B/yr in absolute deficit reduction</strong> — nearly 10× Clinton's $60B/yr average in absolute dollars — while simultaneously delivering universal healthcare, pharmaceutical relief, and a household dividend that Clinton never offered. Pathway to balanced budget within a single presidential term — Year 4 central estimate (range Yr 3–5). And unlike the OBBBA, the alternative to NSRA isn't "6 years." It's <strong style="color:var(--red)">never</strong>.</p>
-  <div style="position:relative">
-    <div id="swipe-hint" style="display:none;align-items:center;justify-content:center;gap:6px;padding:8px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:8px;margin-bottom:10px;font-size:11px;color:var(--green);font-weight:600">
-      <span style="font-size:16px">&#8592;</span> Swipe to compare all three frameworks <span style="font-size:16px">&#8594;</span>
-    </div>
-  </div>
-  <div style="overflow-x:auto;-webkit-overflow-scrolling:touch" id="comparison-table-wrap">
-    <table style="min-width:760px">
-      <thead>
-        <tr>
-          <th style="min-width:180px">Metric</th>
-          <th style="color:#60a5fa;min-width:180px">Clinton Era<br/><span style="font-weight:400;font-size:9px">OBRA 1990 &amp; 1993 · Surplus by 1998</span></th>
-          <th style="color:#f87171;min-width:180px">Trump OBBBA<br/><span style="font-weight:400;font-size:9px">One Big Beautiful Bill Act · 2025</span></th>
-          <th style="color:var(--green);min-width:200px">NSRA 2028<br/><span style="font-weight:400;font-size:9px">National Sovereignty &amp; Resilience Act</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Deficit trajectory</td>
-          <td style="color:#60a5fa">$290B deficit (FY1992) → $69B surplus (FY1998) · ~$60B/yr avg improvement · PAYGO + spending caps + top rate raised to 39.6% · Dot-com boom provided est. 25–35% of improvement via unexpected capital gains windfalls</td>
-          <td style="color:#f87171">CBO: adds $3.3–3.8T to deficit over 10 years · No balanced budget target · Deficit grows faster than baseline</td>
-          <td style="color:var(--green);font-weight:700">$554B/yr deficit reduction (Year 1) · Balanced Year 4 · <strong>Absolute annual improvement: NSRA $554B/yr vs. Clinton $60B/yr — against a 6.5× larger starting deficit. Revenue architecture includes SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform. Pharma savings revised upward to $55B/yr (source: PNAS 2024).</strong></td>
-        </tr>
-        <tr>
-          <td style="font-weight:700;color:var(--text)">Balanced budget — when?</td>
-          <td style="color:#60a5fa;font-weight:700">Year 6 from enactment<br/><span style="font-weight:400;font-size:10px">Starting deficit: $290B · Tailwind: dot-com boom</span></td>
-          <td style="color:#f87171;font-weight:700">Never<br/><span style="font-weight:400;font-size:10px">CBO projects deficit grows indefinitely under OBBBA</span></td>
-          <td style="color:var(--green);font-weight:700">Year 4 (range Yr 3–5)<br/><span style="font-weight:400;font-size:10px">Starting deficit: $1.9T · $749B Year 1 revenue · $95B effective mandatory growth (SS cap offsets $80B) · $554B/yr net reduction · Pharma savings $55B/yr (PNAS 2024)</span></td>
-        </tr>
-        <tr>
-          <td>Balanced budget mechanism</td>
-          <td style="color:#60a5fa">PAYGO rules · Discretionary spending caps · Top income tax rate raised to 39.6% · Economic growth tailwind</td>
-          <td style="color:#f87171">None — extends TCJA cuts ($4.5T cost) · Medicaid/SNAP cuts (~$1T) offset only partially · No fiscal balance target</td>
-          <td style="color:var(--green);font-weight:700">Self-executing FMIA enforcement triggers · V_abs throttle · 16-stream revenue engine · Self-funding · No new borrowing</td>
-        </tr>
-        <tr>
-          <td>Household monthly floor</td>
-          <td style="color:#60a5fa">None · EITC expansion · Minimum wage increase · No universal dividend</td>
-          <td style="color:#f87171">None · MAGA Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
-          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust $5K at birth · MAGA Account complementary</td>
-        </tr>
-        <tr>
-          <td>Healthcare coverage floor</td>
-          <td style="color:#60a5fa">None · COBRA expansion · CHIP created 1997 · 40M+ uninsured throughout</td>
-          <td style="color:#f87171">No new coverage floor · Medicaid work requirements cut ~10–15M enrollees · ACA subsidies extended but uninsured unchanged</td>
-          <td style="color:var(--green);font-weight:700">BMP: $0 premium, $0 deductible for all 28M uninsured · Private carrier choice · Zero merger with Medicare</td>
-        </tr>
-        <tr>
-          <td>Drug pricing</td>
-          <td style="color:#60a5fa">No federal price controls · Market rates · Medicare Part D did not yet exist</td>
-          <td style="color:#f87171">IRA 2022 drug negotiations retained (10–20 drugs/yr) · No G7 parity · No compulsory licensing</td>
-          <td style="color:var(--green);font-weight:700">G7 parity on all NIH-funded drugs · Compulsory licensing at 8% royalty · $550B Medicare/Medicaid savings over 10 years (PNAS 2024)</td>
-        </tr>
-        <tr>
-          <td>10-year deficit impact</td>
-          <td style="color:#60a5fa">Reduced deficit ~$500B over 5 years (1993–1998) · Surplus achieved Year 6</td>
-          <td style="color:#f87171">+$3.3–3.8T added to national debt over 10 years (CBO estimate)</td>
-          <td style="color:var(--green);font-weight:700">-$4.5T+ total deficit reduction through Year 10 (central estimate) · Surplus achieved Year 4 · Debt reduction compounds from Year 5 forward</td>
-        </tr>
-        <tr>
-          <td>PE / monopoly accountability</td>
-          <td style="color:#60a5fa">No PE healthcare restrictions · Microsoft antitrust (DOJ, 1998) · No housing cap</td>
-          <td style="color:#f87171">No PE healthcare restrictions · No housing concentration cap · Reduced FTC/DOJ antitrust enforcement budget</td>
-          <td style="color:var(--green);font-weight:700">PE prohibited from hospitals, EMS, 911, nursing homes · 50-unit housing cap (V_abs ≤ 4.5%) · Citizen Bounty Engine 15% cut</td>
-        </tr>
-        <tr>
-          <td>IRS enforcement</td>
-          <td style="color:#60a5fa">IRS funding stable · ~$60B tax gap (1990s) · No supermajority protection</td>
-          <td style="color:#f87171">$80B IRA 2022 IRS allocation clawed back · Staffing at 2010 levels · $688B/yr gap uncollected</td>
-          <td style="color:var(--green);font-weight:700">$15B/yr mandatory · Two-thirds supermajority protected · Cannot be rescinded by CR or executive order</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p style="font-size:10px;color:var(--muted);margin-top:10px">Sources: CBO Budget &amp; Economic Outlook 2026–2036 · CBO OBBBA score May 2025 · OMB Historical Tables · Clinton OBRA 1993 CBO analysis · JCT TCJA scoring</p>
-</div>
-
-<!-- CTA -->
-<div class="cta">
-  <h2>The American Deal</h2>
-  <p>Not borrowed. Earned. Built to last.</p>
-  <div class="cta-quote">
-    "Your drug bills are getting cut — by law. Every uninsured American gets real coverage at zero premium. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $5,000 account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down — permanently, from revenue this country was already generating and never collected. No new taxes on working people. No borrowing. No waiting for a check that may never come. This is structural relief, and it starts the day this bill is signed. That is the American Deal."
-  </div>
-</div>
-
-<!-- ABOUT THIS BILL -->
-<div class="section" id="about" style="padding-bottom:48px">
-  <div class="section-header">
-    <h2>About This Bill</h2>
-    <span>Written outside the system</span>
-  </div>
-  <div class="about-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1000px">
-    <div style="grid-column:span 2;background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:24px 28px">
-      <p style="font-size:15px;line-height:1.8;color:var(--text);margin-bottom:16px">The National Sovereignty and Resilience Act was not written in a congressional office, a think tank, or a lobbying firm. It was not funded by a donor. It was not shaped by a party platform. It was written by one person — a citizen who spent a career inside the systems this bill reforms, watched Americans fall through gaps this bill closes, and decided the fix needed to be written.</p>
-      <p style="font-size:14px;line-height:1.8;color:var(--muted)">No campaign donors shaped it. No party platform constrained it. No political career depended on it. Every provision was written to work, not to win a vote.</p>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px">
-      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">The Author</div>
-      <div style="display:flex;flex-direction:column;gap:12px">
-        <div style="display:flex;gap:12px;align-items:flex-start">
-          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
-          <div>
-            <div style="font-size:13px;font-weight:700">10-Year US Navy Submarine Veteran</div>
-            <div style="font-size:11px;color:var(--muted);margin-top:2px">Served a decade in the submarine service. The veterans provisions in Title XXV were written by someone who wore the uniform, not someone who read about it.</div>
-          </div>
-        </div>
-        <div style="display:flex;gap:12px;align-items:flex-start">
-          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
-          <div>
-            <div style="font-size:13px;font-weight:700">Federal Contractor — National Security &amp; Diplomacy</div>
-            <div style="font-size:11px;color:var(--muted);margin-top:2px">Embedded across multiple federal agencies in law enforcement and diplomatic operations. Knows how government actually runs — the budget lines, the turf wars, and what survives a change in administration.</div>
-          </div>
-        </div>
-        <div style="display:flex;gap:12px;align-items:flex-start">
-          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
-          <div>
-            <div style="font-size:13px;font-weight:700">VA Ambulatory Care Director — Care Referral Continuum</div>
-            <div style="font-size:11px;color:var(--muted);margin-top:2px">Directed ambulatory care operations and the full veteran care referral continuum — including community care coordination — at a major federal VA medical facility. The Title XXV architecture was designed by someone who ran the system it reforms.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px">
-      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">Why It Matters</div>
-      <div style="display:flex;flex-direction:column;gap:10px;font-size:12px;color:var(--muted);line-height:1.7">
-        <p>Every mechanism in this bill was designed to survive the real world — committee attorneys, federal courts, CBO scoring, and hostile floor amendments. The due process windows in Title XVIII were calibrated to Mathews v. Eldridge specifically to prevent the injunctions that killed prior reform attempts. The V_abs throttle in Title XIV was engineered to avoid the housing market shock that critics used to kill every previous housing reform bill.</p>
-        <p>The 7-Subledger Math Engine™ underlying the SIRF was built to be auditable to the penny. Every revenue projection has a corresponding CBO-scriptable enforcement mechanism. Every benefit has a corresponding revenue source. There is no "and then a miracle occurs" step in the fiscal model. Each stream — from IRS enforcement to SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform — carries a confidence weight derived from existing JCT and CBO scoring analogs.</p>
-        <p>The 5-bill packaging strategy is not political compromise — it is surgical precision. Each bill can pass independently, deliver value independently, and fund the next. If three pass and two stall, Americans still get universal healthcare, fiscal reform, and the economic sovereignty provisions. The architecture was designed so that partial victory is still a historic win.</p>
-        <p>This is what it looks like when the person writing the bill has nothing to lose and everything to prove.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- EVIDENCE STANDARD -->
 <div class="section" id="evidence-standard">
   <div class="section-header">
     <h2>The American Deal Evidence Standard</h2>
@@ -2091,9 +2029,19 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- LEGAL ARCHITECTURE REVIEW -->
 <div class="section" id="legal-review" style="padding-top:0">
   <div class="section-header">
-    <h2>Legal Architecture Review</h2>
+    <h2>Legislative Architecture Review</h2>
     <span>Constitutional Vulnerabilities — All Resolved</span>
   </div>
+<div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin:4px 0 10px">The Review Record — what we pressure-tested before publishing</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-bottom:20px">
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Constitutional Red-Team</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Every provision pressure-tested against current Supreme Court doctrine before publication.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Congressional Viability Audit</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Reviewed for procedural survivability, referral pathways, and markup exposure.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Committee-Jurisdiction Analysis</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Each of the 36 titles mapped to its likely House and Senate committees of reference.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Regulatory &amp; Red-Tape Reduction Audit</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Screened for administrative burden, duplicative process, and deregulatory offsets.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Fiscal Stress-Test</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Revenue modeled under low/base/high scenarios with sensitivity analysis.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px"><div style="font-size:12px;font-weight:800;color:var(--text);margin-bottom:3px">Implementation-Readiness Review</div><div style="font-size:11px;color:var(--muted);line-height:1.55">Enactment-to-operation sequencing and agency-capacity assessment.</div><div style="display:inline-block;margin-top:7px;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:var(--green);background:rgba(34,197,94,0.12);border:1px solid rgba(34,197,94,0.3);padding:2px 8px;border-radius:20px">Completed</div></div>
+</div>
+<div style="font-size:10.5px;color:var(--muted);line-height:1.6;margin-bottom:16px">Independent external review — CBO/JCT scoring and outside counsel — is welcomed and pending. Internal review is documented but held as work product.</div>
   <div style="background:var(--bg-surface);border:1px solid rgba(34,197,94,0.3);border-radius:10px;padding:20px 24px">
     <p style="font-size:12px;color:var(--muted);margin-bottom:16px">Every identified constitutional vulnerability — through the most recent Supreme Court terms — was proactively closed in statutory text before introduction. Each card names the controlling case and the section of the bill that answers it. This is the institutional record.</p>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px">
@@ -2111,7 +2059,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
       <div style="background:var(--bg-elevated);border-radius:8px;padding:12px 14px;border-left:3px solid var(--green)">
         <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--green);margin-bottom:4px">Pharma Caps / Takings Clause ✓</div>
-        <div style="font-size:12px;color:var(--muted)">Sec. 1303(c) cost-floor safety valve: no ceiling compels below-cost sales. HHS-GAO certified audit; interim relief at cost + 5% margin. Federally subsidized manufacturers ineligible for exception.</div>
+        <div style="font-size:12px;color:var(--muted)">Sec. 1303(d) cost-floor safety valve: no cap compels below-cost sales. HHS-GAO certified audit; interim relief at cost + 5% margin. Federally subsidized manufacturers ineligible for exception.</div>
       </div>
       <div style="background:var(--bg-elevated);border-radius:8px;padding:12px 14px;border-left:3px solid var(--green)">
         <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--green);margin-bottom:4px">FMIA Scope / West Virginia v. EPA (2022) ✓</div>
@@ -6220,6 +6168,57 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     </div>
 
 </div>
+
+<div class="section" id="about" style="padding-bottom:48px">
+  <div class="section-header">
+    <h2>About This Bill</h2>
+    <span>Written outside the system</span>
+  </div>
+  <div class="about-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:1000px">
+    <div style="grid-column:span 2;background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:24px 28px">
+      <p style="font-size:15px;line-height:1.8;color:var(--text);margin-bottom:16px">The National Sovereignty and Resilience Act was not written in a congressional office, a think tank, or a lobbying firm. It was not funded by a donor. It was not shaped by a party platform. It was written by one person — a citizen who spent a career inside the systems this bill reforms, watched Americans fall through gaps this bill closes, and decided the fix needed to be written.</p>
+      <p style="font-size:14px;line-height:1.8;color:var(--muted)">No campaign donors shaped it. No party platform constrained it. No political career depended on it. Every provision was written to work, not to win a vote.</p>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">The Author</div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
+          <div>
+            <div style="font-size:13px;font-weight:700">10-Year US Navy Submarine Veteran</div>
+            <div style="font-size:11px;color:var(--muted);margin-top:2px">Served a decade in the submarine service. The veterans provisions in Title XXV were written by someone who wore the uniform, not someone who read about it.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
+          <div>
+            <div style="font-size:13px;font-weight:700">Federal Contractor — National Security &amp; Diplomacy</div>
+            <div style="font-size:11px;color:var(--muted);margin-top:2px">Embedded across multiple federal agencies in law enforcement and diplomatic operations. Knows how government actually runs — the budget lines, the turf wars, and what survives a change in administration.</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;align-items:flex-start">
+          <div style="width:4px;align-self:stretch;min-height:36px;background:var(--green);border-radius:3px;flex-shrink:0"></div>
+          <div>
+            <div style="font-size:13px;font-weight:700">VA Ambulatory Care Director — Care Referral Continuum</div>
+            <div style="font-size:11px;color:var(--muted);margin-top:2px">Directed ambulatory care operations and the full veteran care referral continuum — including community care coordination — at a major federal VA medical facility. The Title XXV architecture was designed by someone who ran the system it reforms.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">Why It Matters</div>
+      <div style="display:flex;flex-direction:column;gap:10px;font-size:12px;color:var(--muted);line-height:1.7">
+        <p>Every mechanism in this bill was designed to survive the real world — committee attorneys, federal courts, CBO scoring, and hostile floor amendments. The due process windows in Title XVIII were calibrated to Mathews v. Eldridge specifically to prevent the injunctions that killed prior reform attempts. The V_abs throttle in Title XIV was engineered to avoid the housing market shock that critics used to kill every previous housing reform bill.</p>
+        <p>The 7-Subledger Math Engine™ underlying the SIRF was built to be auditable to the penny. Every revenue projection has a corresponding CBO-scriptable enforcement mechanism. Every benefit has a corresponding revenue source. There is no "and then a miracle occurs" step in the fiscal model. Each stream — from IRS enforcement to SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform — carries a confidence weight derived from existing JCT and CBO scoring analogs.</p>
+        <p>The 5-bill packaging strategy is not political compromise — it is surgical precision. Each bill can pass independently, deliver value independently, and fund the next. If three pass and two stall, Americans still get universal healthcare, fiscal reform, and the economic sovereignty provisions. The architecture was designed so that partial victory is still a historic win.</p>
+        <p>This is what it looks like when the person writing the bill has nothing to lose and everything to prove.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EVIDENCE STANDARD -->
+
 
 <div class="section" id="support">
 
