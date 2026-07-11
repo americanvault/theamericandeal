@@ -100,10 +100,11 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 </div>
 
 <!-- PRELIMINARY SCORING TOOL -->
-<section id="prelim-score" style="max-width:1000px;margin:0 auto;padding:14px 24px 26px">
-  <div style="font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Preliminary self-score &middot; not a CBO/JCT score</div>
+<section id="prelim-score" style="max-width:1040px;margin:0 auto;padding:14px 24px 26px">
+  <div style="font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Preliminary score on published CBO/JCT baselines &middot; pending official scoring</div>
   <h2 style="font-size:23px;font-weight:800;margin-bottom:8px">Preliminary Scoring Tool</h2>
-  <p style="font-size:14px;color:#cbd5e1;line-height:1.6;margin-bottom:14px;max-width:840px">Every stream is anchored to a <b style="color:var(--text)">published government baseline</b>. Set the scoring conventions and watch the number move. This is a transparent, self-generated estimate, <b style="color:var(--text)">not</b> a CBO or JCT score; official scoring is pending and welcomed.</p>
+  <p style="font-size:14px;color:#cbd5e1;line-height:1.6;margin-bottom:8px;max-width:860px">A legislative score is a <b style="color:var(--text)">dollar figure</b>, the budgetary effect over the window, so the headline output is dollars. The confidence-coverage percent beside it shows how much of that number rests on higher-confidence baselines. Deselect any stream you do not credit and the score recomputes.</p>
+  <p style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:14px;max-width:860px">Every stream is built on a published government baseline (CBO, JCT, Treasury, OECD, and peer agencies). This is a <b style="color:var(--text)">preliminary score, pending official scoring</b>, which is welcomed.</p>
   <div style="display:grid;grid-template-columns:1.05fr 1fr;gap:20px" class="ps-grid">
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 22px">
       <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:14px">Scoring conventions</div>
@@ -114,16 +115,21 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
       <div style="display:flex;gap:8px;flex-wrap:wrap"><button onclick="psPreset(80,1,1,0)" style="font-size:11px;font-weight:700;padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer">Conservative</button><button onclick="psPreset(90,1,1,0)" style="font-size:11px;font-weight:700;padding:6px 12px;border-radius:6px;border:1px solid var(--green);background:var(--elev);color:var(--green);cursor:pointer">Central</button><button onclick="psPreset(100,0,0,0)" style="font-size:11px;font-weight:700;padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer">Headline (full)</button></div>
     </div>
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 22px">
-      <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:12px">Preliminary self-score</div>
-      <div style="text-align:center;padding:12px 10px;background:var(--elev);border-radius:10px;margin-bottom:8px"><div id="ps-rev" style="font-size:32px;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums">$0B</div><div style="font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:4px">Year-1 net revenue</div></div>
+      <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:12px">Preliminary score &middot; pending official scoring</div>
+      <div style="display:grid;grid-template-columns:1.4fr 1fr;gap:8px;margin-bottom:8px"><div style="text-align:center;padding:12px 8px;background:var(--elev);border-radius:10px"><div id="ps-rev" style="font-size:29px;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums">$0B</div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:4px">Year-1 net revenue</div></div><div style="text-align:center;padding:12px 8px;background:var(--elev);border-radius:10px"><div id="ps-cov" style="font-size:29px;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums">0%</div><div style="font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:4px">High/mod confidence</div></div></div>
       <div style="display:flex;justify-content:space-between;font-size:13px;padding:7px 2px;border-bottom:1px solid rgba(255,255,255,.06)"><span style="color:var(--muted)">Annual deficit reduction</span><span id="ps-def" style="font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums">$0B</span></div>
       <div style="display:flex;justify-content:space-between;font-size:13px;padding:7px 2px;border-bottom:1px solid rgba(255,255,255,.06)"><span style="color:var(--muted)">10-year revenue</span><span id="ps-ten" style="font-weight:800;color:var(--text);font-variant-numeric:tabular-nums">$0T</span></div>
+      <div style="display:flex;justify-content:space-between;font-size:13px;padding:7px 2px;border-bottom:1px solid rgba(255,255,255,.06)"><span style="color:var(--muted)">Streams selected</span><span id="ps-cnt" style="font-weight:800;color:var(--text)">15 / 15</span></div>
       <div style="display:flex;justify-content:space-between;font-size:13px;padding:7px 2px"><span style="color:var(--muted)">Central balance year</span><span id="ps-bal" style="font-weight:800;color:var(--text)">Year 4</span></div>
       <div id="ps-method" style="font-size:10.5px;color:var(--muted);line-height:1.5;margin-top:10px"></div>
       <button onclick="psCopy(event)" style="margin-top:12px;width:100%;font-size:12px;font-weight:700;padding:9px;border-radius:8px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer">Copy this preliminary score</button>
     </div>
   </div>
-  <div style="margin-top:14px;padding:14px 16px;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:10px;font-size:11.5px;color:var(--muted);line-height:1.7"><b style="color:#F1F5F9">Preliminary self-score.</b> Generated from the streams below, each anchored to a published CBO, JCT, IRS, Treasury, OECD, BEA, GAO, or peer-reviewed baseline (FY2025), using the conventions you set above. This is <b style="color:#F1F5F9">not an official CBO or JCT score</b>, which is pending and welcomed. It reflects scoring conventions, not the microsimulation an official score performs.</div>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin-top:20px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px"><div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)">Revenue streams &mdash; deselect any you do not credit</div><div style="display:flex;gap:8px"><button onclick="psAll(1)" style="font-size:11px;font-weight:700;padding:5px 11px;border-radius:6px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer">Select all</button><button onclick="psAll(0)" style="font-size:11px;font-weight:700;padding:5px 11px;border-radius:6px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer">Clear all</button></div></div>
+    <div id="ps-streams" style="display:grid;grid-template-columns:1fr 1fr;gap:6px 20px"></div>
+  </div>
+  <div style="margin-top:14px;padding:14px 16px;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:10px;font-size:11.5px;color:var(--muted);line-height:1.7"><b style="color:#F1F5F9">Preliminary score.</b> Built from the streams above, each anchored to a published CBO, JCT, IRS, Treasury, OECD, BEA, GAO, or peer-reviewed baseline (FY2025), using the conventions and selections you set. It is a preliminary aggregation <b style="color:#F1F5F9">pending official scoring</b>, which is welcomed, and reflects scoring conventions rather than the line-by-line microsimulation an official score performs.</div>
 </section>
 
 <h2 id="streams">Revenue streams, evidence cards</h2>
@@ -497,27 +503,47 @@ function fiscSubmit(e){e.preventDefault();var f=document.getElementById('fiscFor
 <script>
 var PS_STREAMS=[["SS payroll cap elimination", 150, "SSA/CBO", "high", false], ["Corporate rate 21%->28%", 110, "JCT", "high", false], ["IRS enforcement (net)", 90, "CBO/Treasury", "mod", false], ["Carbon dividend fee", 85, "CBO/Treasury/EIA", "mod", true], ["OECD Pillar Two", 75, "OECD/JCT", "mod", true], ["Financial transaction tax 0.1%", 75, "JCT/CBO", "mod", true], ["Step-up basis reform >$5M", 50, "JCT", "mod", false], ["NIMA 0.18% >$100M", 39.6, "BEA", "prelim", false], ["Federal royalty modernization", 30, "Interior/GAO/CBO", "mod", false], ["Financial-sector excess-profits", 20, "FDIC/BEA", "prelim", false], ["FDVM Medicare fraud recovery", 20, "HHS-OIG/GAO/CBO", "mod", false], ["LBO interest cap (30% EBITDA)", 18, "JCT", "mod", false], ["Carried interest -> ordinary income", 14, "JCT", "high", false], ["FTA 0.02% >$1M trades", 7, "JCT", "prelim", false], ["SNAP retailer fraud recovery", 1, "USDA-OIG/GAO", "high", false]]; var PS_COSTS=35.0; var PS_OUTLAYS=195.6;
 function psFactorConf(c){return c==='high'?1.0:(c==='mod'?0.92:0.80);}
+function psChipColor(c){return c==='high'?'var(--green)':(c==='mod'?'var(--amber)':'var(--muted)');}
+function psChipLabel(c){return c==='high'?'High':(c==='mod'?'Moderate':'Preliminary');}
+function psBuild(){
+  var h=''; PS_STREAMS.forEach(function(s,i){
+    h+='<label style="display:flex;align-items:center;gap:8px;font-size:12px;color:#cbd5e1;padding:5px 0;cursor:pointer;border-bottom:1px solid rgba(255,255,255,.04)">'
+      +'<input type="checkbox" id="ps-s'+i+'" checked onchange="psCalc()" style="accent-color:var(--green);width:14px;height:14px;flex:0 0 auto" />'
+      +'<span style="flex:1 1 auto;min-width:0">'+s[0]+'</span>'
+      +'<span style="font-size:9.5px;font-weight:700;color:'+psChipColor(s[3])+';border:1px solid currentColor;border-radius:4px;padding:1px 5px;flex:0 0 auto">'+psChipLabel(s[3])+'</span>'
+      +'<span style="font-variant-numeric:tabular-nums;color:var(--muted);flex:0 0 auto;width:46px;text-align:right">$'+s[1]+'B</span>'
+      +'</label>';
+  });
+  document.getElementById('ps-streams').innerHTML=h;
+}
 function psCalc(){
   var real=(+document.getElementById('ps-real').value)/100;
   document.getElementById('ps-realv').textContent=Math.round(real*100)+'%';
   var conf=document.getElementById('ps-conf').checked, beh=document.getElementById('ps-beh').checked, dyn=document.getElementById('ps-dyn').checked;
-  var adj=0;
-  PS_STREAMS.forEach(function(s){ var y=s[1]*real; if(conf) y*=psFactorConf(s[3]); if(beh && s[4]) y*=0.85; adj+=y; });
+  var adj=0, sel=0, selGross=0, hmGross=0;
+  PS_STREAMS.forEach(function(s,i){
+    var on=document.getElementById('ps-s'+i); if(on && !on.checked) return;
+    sel++; selGross+=s[1]; if(s[3]!=='prelim') hmGross+=s[1];
+    var y=s[1]*real; if(conf) y*=psFactorConf(s[3]); if(beh && s[4]) y*=0.85; adj+=y;
+  });
   if(dyn) adj*=1.03;
   var net=adj-PS_COSTS; var def=net-PS_OUTLAYS; var ten=net*9.5/1000;
+  var cov = selGross>0 ? Math.round(hmGross/selGross*100) : 0;
   document.getElementById('ps-rev').textContent='$'+net.toFixed(0)+'B';
+  document.getElementById('ps-cov').textContent=cov+'%';
   document.getElementById('ps-def').textContent='$'+def.toFixed(0)+'B';
   document.getElementById('ps-ten').textContent='$'+ten.toFixed(2)+'T';
-  var bal = def>=530?'Year 4':(def>=440?'Year 5':(def>=350?'Year 6':'Year 7+'));
+  document.getElementById('ps-cnt').textContent=sel+' / '+PS_STREAMS.length;
+  var bal = def>=530?'Year 4':(def>=440?'Year 5':(def>=350?'Year 6':(def>=250?'Year 7+':'Not reached')));
   document.getElementById('ps-bal').textContent=bal;
-  var m=[]; m.push(Math.round(real*100)+'% realization'); if(conf)m.push('confidence-weighted'); if(beh)m.push('behavioral haircut'); m.push(dyn?'dynamic +3%':'static basis');
-  var gross=PS_STREAMS.reduce(function(a,b){return a+b[1];},0);
-  document.getElementById('ps-method').textContent='Method applied: '+m.join(' \u00b7 ')+'. Gross of active streams before adjustment: $'+gross.toFixed(0)+'B.';
-  window._psSummary='NSRA PRELIMINARY SELF-SCORE (not a CBO/JCT score)\nYear-1 net revenue: $'+net.toFixed(0)+'B\nAnnual deficit reduction: $'+def.toFixed(0)+'B\n10-year revenue: $'+ten.toFixed(2)+'T\nCentral balance year: '+bal+'\nMethod: '+m.join(', ')+'\nBaselines: published CBO/JCT/IRS/Treasury/OECD/BEA/GAO (FY2025). Official scoring pending.';
+  var m=[]; m.push(Math.round(real*100)+'% realization'); if(conf)m.push('confidence-weighted'); if(beh)m.push('behavioral haircut'); m.push(dyn?'dynamic +3%':'static basis'); m.push(sel+' of '+PS_STREAMS.length+' streams');
+  document.getElementById('ps-method').textContent='Method applied: '+m.join(' \u00b7 ')+'. Selected gross before adjustment: $'+selGross.toFixed(0)+'B.';
+  window._psSummary='NSRA PRELIMINARY SCORE on published CBO/JCT/Treasury/OECD baselines (pending official scoring)\nYear-1 net revenue: $'+net.toFixed(0)+'B\nAnnual deficit reduction: $'+def.toFixed(0)+'B\n10-year revenue: $'+ten.toFixed(2)+'T\nHigh/moderate-confidence coverage: '+cov+'%\nCentral balance year: '+bal+'\nMethod: '+m.join(', ')+'\nBaselines: published CBO/JCT/IRS/Treasury/OECD/BEA/GAO (FY2025). Official scoring pending.';
 }
 function psPreset(r,c,b,d){document.getElementById('ps-real').value=r;document.getElementById('ps-conf').checked=!!c;document.getElementById('ps-beh').checked=!!b;document.getElementById('ps-dyn').checked=!!d;psCalc();}
+function psAll(v){PS_STREAMS.forEach(function(s,i){var el=document.getElementById('ps-s'+i);if(el)el.checked=!!v;});psCalc();}
 function psCopy(ev){try{navigator.clipboard.writeText(window._psSummary||'');var b=ev.target;var t=b.textContent;b.textContent='\u2713 Copied';setTimeout(function(){b.textContent=t;},1800);}catch(e){}}
-psCalc();
+psBuild(); psCalc();
 </script>
 </body>
 </html>
