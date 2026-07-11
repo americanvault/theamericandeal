@@ -809,12 +809,12 @@ document.addEventListener('DOMContentLoaded', function() {
     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:11px;align-items:center;justify-content:space-between">
       <span style="font-size:12px;font-weight:600;color:var(--text)">Click any state for its NSRA impact profile</span>
       <div style="display:flex;gap:0">
-        <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
+        <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--green);background:var(--green);color:#000;border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
         <button id="btn-party" onclick="setMapMode('party')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">2024 Presidential</button>
-        <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid #7C3AED;background:#7C3AED;color:#fff;border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">Governors 2026</button>
+        <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">Governors 2026</button>
       </div>
     </div>
-    <div id="map-legend-impact" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
+    <div id="map-legend-impact" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
       <span><span style="display:inline-block;width:10px;height:10px;background:#166534;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Very High NSRA Impact</span>
       <span><span style="display:inline-block;width:10px;height:10px;background:#16a34a;border-radius:2px;margin-right:4px;vertical-align:middle"></span>High NSRA Impact</span>
       <span><span style="display:inline-block;width:10px;height:10px;background:#22C55E;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Moderate NSRA Impact</span>
@@ -825,7 +825,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <span><span style="display:inline-block;width:10px;height:10px;background:#2563EB;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Harris 2024</span>
       <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
     </div>
-    <div id="map-legend-gov" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
+    <div id="map-legend-gov" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
       <span><span style="display:inline-block;width:10px;height:10px;background:#B91C1C;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Republican Governor</span>
       <span><span style="display:inline-block;width:10px;height:10px;background:#1D4ED8;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Democratic Governor</span>
       <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
@@ -920,7 +920,7 @@ document.addEventListener('DOMContentLoaded', function() {
     WI:'Tony Evers',WY:'Mark Gordon'
   };
 
-  let mapMode = 'gov';
+  let mapMode = 'impact';
 
   function getPartyColor(code) {
     const trump = PARTY[code];
