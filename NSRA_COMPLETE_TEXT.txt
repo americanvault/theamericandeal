@@ -1021,6 +1021,26 @@ SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE.
 
 (c) COORDINATION.—The program shall be administered in coordination with the Automated Environmental Remediation Network established under Title XI, and shall prioritize projects delivering concurrent flood-mitigation, carbon-sequestration, and public-recreation benefits.
 
+SEC. 1005A. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
+
+(a) PURPOSE.—This section establishes uniform Federal standards for the humane capture, care, safety, and release of animals held in or transferred through licensed captive facilities, and a coordinated program for the survival of keystone and vital species whose loss would destabilize the ecosystems this Title is charged to protect. Funding is provided as a dedicated set-aside within the Urban and Rural Wildlife Corridor and Rewilding Infrastructure allocation of Section 1005 and from the SIRF environmental remediation pool, without any increase to the total allocation of this Title.
+
+(b) DEFINITIONS.—In this section: (1) "Covered facility" means a zoo, aquarium, marine park, wildlife sanctuary, breeding center, or research facility that is licensed under the Animal Welfare Act (7 U.S.C. 2131 et seq.) or that holds any animal of a keystone or vital species. (2) "Keystone or vital species" means a species designated by the Secretary of the Interior, in consultation with the United States Fish and Wildlife Service, whose ecological role in maintaining ecosystem structure and function warrants heightened protection, including great apes, elephants, rhinoceros, large carnivores, cetaceans, and primary pollinator species.
+
+(c) HUMANE CAPTURE AND HANDLING STANDARDS.—Capture, sedation, transport, and handling of covered animals shall conform to published, peer-reviewed veterinary standards that minimize physiological stress and injury, shall prohibit capture and restraint methods documented to cause avoidable trauma, and shall require the supervision of a licensed veterinarian for any capture or immobilization of a keystone or vital species.
+
+(d) CARE AND FACILITY SAFETY STANDARDS.—Covered facilities shall meet enhanced standards for enclosure design, species-appropriate space and enrichment, veterinary care, nutrition, sanitation, and recordkeeping, and shall maintain barrier, containment, and life-safety systems sufficient to protect both the animals held and the public.
+
+(e) INCIDENT AND NON-LETHAL-FIRST PROTOCOLS.—(1) Each covered facility holding a keystone or vital species shall maintain a written incident-response protocol requiring that, in any encounter between a human and a captive animal, non-lethal control measures—including trained-response teams, chemical immobilization, and physical barriers—be attempted first wherever they can resolve the incident without unreasonable risk to human life. (2) The use of lethal force against a keystone or vital species shall be authorized only where an imminent and otherwise-unavoidable threat to human life exists; each such use shall be documented and reported to, and independently reviewed by, the United States Fish and Wildlife Service. (3) Covered facilities shall conduct and record periodic drills of these protocols and shall maintain trained emergency-response and veterinary capacity on call.
+
+(f) RELEASE AND REWILDING PROTOCOLS.—Any release of a captive-held animal to the wild shall follow science-based protocols governing health and disease screening, behavioral and foraging readiness, genetic suitability, site selection, and post-release monitoring, coordinated with the rewilding infrastructure established under Section 1005, so that release advances rather than endangers the recovery of wild populations.
+
+(g) KEYSTONE AND VITAL SPECIES SURVIVAL PROGRAM.—There is established, within the program of Section 1005, a Keystone and Vital Species Survival Program to—(1) fund anti-poaching, habitat-protection, and breeding-for-release efforts for designated species at imminent risk of extinction, including rhinoceros, great apes, and elephants; (2) support accredited sanctuaries that provide lifetime care to animals that cannot be safely released; and (3) coordinate with international conservation compacts consistent with Title XXIII.
+
+(h) ENFORCEMENT.—Violations of this section are enforceable through the standards and penalty architecture applicable to this Title, and the pre-deprivation notice and due-process schedules of Title XVIII apply to any deprivation arising under this section. Facilities below the small-entity threshold of this Act shall receive compliance assistance before the assessment of any penalty.
+
+(i) STANDALONE ENACTMENT.—This section provides independent public, humane, and ecological benefit; is severable under Section 205; and may be enacted independently of any other provision of this Act.
+
 SEC. 1006. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
 
 (a) ESTABLISHMENT.—There are established scientific integrity functions to ensure that determinations under this Title and Title VII rest on transparent, peer-reviewed, and publicly available scientific evidence.
