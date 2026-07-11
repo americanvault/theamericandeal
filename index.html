@@ -203,7 +203,7 @@
       background: rgba(13,15,20,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 0 32px;
+      padding: 0 22px;
       display: flex; align-items: center; justify-content: space-between;
       height: 56px;
     }
@@ -212,10 +212,10 @@
       color: var(--text); text-decoration: none;
     }
     .nav-brand span { color: var(--green); }
-    .nav-links { display: flex; gap: 20px; list-style: none; }
+    .nav-links { display: flex; flex-wrap: nowrap; gap: 13px; list-style: none; }
     .nav-links a {
-      font-size: 12px; color: var(--muted); text-decoration: none;
-      letter-spacing: 0.04em; text-transform: uppercase; font-weight: 600;
+      font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap;
+      letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600;
       transition: color 0.2s;
     }
     .nav-links a:hover { color: var(--text); }
@@ -287,7 +287,7 @@
     .col-4  { grid-column: span 4; }
     .col-3  { grid-column: span 3; }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1200px) {
       .summary-grid { grid-template-columns: 1fr !important; }
       .col-8, .col-6, .col-4, .col-3 { grid-column: span 12; }
       .nav-links { display: none; }
@@ -481,9 +481,9 @@
     .nav-dd-menu li { margin: 0; }
     .nav-dd-menu a { display: block; padding: 8px 12px; font-size: 12px; color: var(--muted); border-radius: 6px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
     .nav-dd-menu a:hover { background: rgba(34,197,94,0.10); color: var(--green); }
-    @media (max-width: 900px) { .nav-dd-menu { display: block; position: static; border: none; box-shadow: none; padding: 2px 0 2px 12px; min-width: 0; background: transparent; } .nav-dd-menu a { padding: 6px 0; } }
+    @media (max-width: 1200px) { .nav-dd-menu { display: block; position: static; border: none; box-shadow: none; padding: 2px 0 2px 12px; min-width: 0; background: transparent; } .nav-dd-menu a { padding: 6px 0; } }
     .nav-dd::after { content:""; position:absolute; top:100%; right:0; width:260px; height:10px; }
-    @media (max-width: 900px) { .nav-dd::after { display:none; } }
+    @media (max-width: 1200px) { .nav-dd::after { display:none; } }
     .rev-card { display:flex; flex-direction:column; gap:5px; background:var(--bg-surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; text-decoration:none; transition:border-color .15s, transform .15s; }
     .rev-card:hover { border-color:var(--green); transform:translateY(-2px); }
     .rev-card .rc-role { font-size:10px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--green); }
@@ -499,12 +499,8 @@
   <a class="nav-brand" href="#">NSRA <span style="color:var(--green)">· TheAmericanDeal</span></a>
   <ul class="nav-links" id="nav-links">
     <li><a href="#changes" onclick="closeNav()">What This Bill Introduces</a></li>
-    <li><a href="#deal" onclick="closeNav()">The Bottom Line</a></li>
-    <li><a href="#impact-map" onclick="closeNav()">State &amp; Household Impact</a></li>
-    <li><a href="#dashboard" onclick="closeNav()">Dashboard</a></li>
-    <li><a href="#legal-review" onclick="closeNav()">Legislative Architecture</a></li>
-    <li><a href="#bill-text" onclick="closeNav()" style="color:var(--green)">Policy Vault</a></li>
-    <li><a href="NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" onclick="closeNav()">Full Bill ↓</a></li>
+    <li><a href="#deal" onclick="closeNav()">The Honest Bottom Line</a></li>
+    <li><a href="#impact-map" onclick="closeNav()">State and Household Impact</a></li>
     <li class="nav-dd">
       <a href="javascript:void(0)">For Reviewers &#9662;</a>
       <ul class="nav-dd-menu">
@@ -514,8 +510,7 @@
         <li><a href="/press/" onclick="closeNav()">Press &amp; Media — Press Package</a></li>
       </ul>
     </li>
-    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--green)">For Policymakers</a></li>
-    <li><a href="#about" onclick="closeNav()">About</a></li>
+    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--green)">Policymaker Portal</a></li>
     <li><a href="#support" onclick="closeNav()" style="color:var(--green)">Sign &amp; Call</a></li>
   </ul>
   <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
@@ -614,7 +609,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="section" id="reviewers" style="padding-top:30px;padding-bottom:6px">
   <div class="section-header">
     <h2>Reviewing the NSRA?</h2>
-    <span>Start where you sit — six pathways into the framework</span>
+    <span>Start where you sit — four pathways into the framework</span>
   </div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
     <a class="rev-card" href="/fiscal-model/"><div class="rc-role">Subject-matter experts</div><div class="rc-act">Interrogate the fiscal model <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Toggle streams, set your own realization rate, and stress-test the math yourself.</div></a>
@@ -2083,6 +2078,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2>Policy Vault</h2>
     <span>36 Titles · 218 Sections · 27 Committees of Jurisdiction · Single Unified Act · Complete Statutory Text</span>
   </div>
+  <div style="margin:0 0 16px"><a href="/NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" style="display:inline-block;background:var(--green);color:#04120a;font-weight:800;font-size:13px;padding:11px 22px;border-radius:8px;text-decoration:none">Download the full bill (PDF) &darr;</a></div>
   <!-- BRIEFING DOCUMENTS SHELF -->
   <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin-bottom:16px">
     <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">Briefing Documents</div>
