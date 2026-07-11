@@ -229,7 +229,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   </form>
 </section>
 
-<footer>TheAmericanDeal.org, What America Owes You&trade; · <a href="/">Home</a> · <a href="/bill-text/">Policy Vault</a> · <a href="/engage/">Engagement</a> · contact@theamericandeal.org</footer>
+<footer>TheAmericanDeal.org, What America Owes You&trade; &middot; <a href="/">Home</a> &middot; <a href="/adopt/">Policymaker Portal</a> &middot; <a href="/adopt/fiscal/">Fiscal Review</a> &middot; <a href="/press/">Press &amp; Media</a> &middot; <a href="/engage/">Special Interest Orgs</a> &middot; <a href="/bill-text/">Policy Vault</a> &middot; contact@theamericandeal.org</footer>
 <script>
 function pressSubmit(e){e.preventDefault();var f=document.getElementById('pressForm'),m=document.getElementById('pressMsg');var rs=f.querySelector('select[name="I am requesting"]'),su=f.querySelector('input[name="_subject"]');if(su&&rs&&rs.value){su.value='Press & Media Portal, '+rs.value;}m.style.color='#94a3b8';m.textContent='Sending…';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Request sent. We\u2019ll follow up at the email you provided.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically, please email contact@theamericandeal.org directly.';});return false;}
 </script>
