@@ -52,7 +52,7 @@
     "inLanguage": "en-US",
     "author": {
       "@type": "Person",
-      "name": "Santonio Sanders",
+      "name": "Santonio D. Sanders",
       "jobTitle": "Principal Architect, NSRA",
       "description": "U.S. Navy veteran, former VA ambulatory care director, former U.S. State Department official"
     },
@@ -94,7 +94,7 @@
     "foundingDate": "2026",
     "founder": {
       "@type": "Person",
-      "name": "Santonio Sanders",
+      "name": "Santonio D. Sanders",
       "jobTitle": "Principal Architect, NSRA"
     },
     "contactPoint": {
@@ -162,7 +162,7 @@
       {
         "@type": "Question",
         "name": "Who wrote the NSRA and is it constitutional?",
-        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA was authored by Santonio Sanders, a U.S. Navy veteran and former VA ambulatory-care director. Its enforcement mechanisms are engineered for constitutional durability, including pre-deprivation due-process notice schedules calibrated to Mathews v. Eldridge and sector-specific enumeration to satisfy the major-questions doctrine." }
+        "acceptedAnswer": { "@type": "Answer", "text": "The NSRA was authored by Santonio D. Sanders, a U.S. Navy veteran and former VA ambulatory-care director. Its enforcement mechanisms are engineered for constitutional durability, including pre-deprivation due-process notice schedules calibrated to Mathews v. Eldridge and sector-specific enumeration to satisfy the major-questions doctrine." }
       }
     ]
   }
@@ -171,7 +171,7 @@
   <!-- Performance: preconnect -->
   <link rel="preconnect" href="https://abacus.jasoncameron.dev" crossorigin />
   <link rel="dns-prefetch" href="https://abacus.jasoncameron.dev" />
-  <meta name="author" content="Santonio Sanders" />
+  <meta name="author" content="Santonio D. Sanders" />
   <meta name="publisher" content="TheAmericanDeal, Inc." />
   <style>
     :root {
@@ -492,7 +492,17 @@
     .rev-card .rc-act { font-size:14px; font-weight:800; color:var(--text); }
     .rev-card .rc-act .rc-arrow { color:var(--muted); font-weight:600; }
     .rev-card .rc-sub { font-size:11.5px; color:var(--muted); line-height:1.5; }
-  </style>
+      .flip-card{perspective:1400px;min-height:250px;cursor:pointer}
+    .flip-inner{position:relative;width:100%;min-height:250px;transition:transform .55s cubic-bezier(.4,.2,.2,1);transform-style:preserve-3d}
+    .flip-card.flipped .flip-inner{transform:rotateY(180deg)}
+    .flip-front,.flip-back{position:absolute;inset:0;-webkit-backface-visibility:hidden;backface-visibility:hidden;background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;overflow:auto;display:flex;flex-direction:column}
+    .flip-front:hover,.flip-back:hover{border-color:var(--green)}
+    .flip-back{transform:rotateY(180deg)}
+    .flip-hint{margin-top:auto;padding-top:10px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+    .flip-card:hover .flip-hint{color:var(--green)}
+    .flip-back .fb-row{font-size:11.5px;color:#cbd5e1;line-height:1.5;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+    .flip-back .fb-row b{color:var(--green)}
+</style>
 </head>
 <body>
 <script>window.nsraTrackEvent=window.nsraTrackEvent||function(n,p){try{if(typeof gtag==='function'){gtag('event',n,p||{});}else if(window.dataLayer){window.dataLayer.push(Object.assign({event:n},p||{}));}}catch(e){}};</script>
@@ -610,46 +620,14 @@ document.addEventListener('DOMContentLoaded', function() {
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
     <a class="rev-card" href="/adopt/fiscal/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Fiscal Review Portal <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Interactive model, Schedule G evidence room, scorebook, sourcing, and open technical questions.</div></a>
     <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates, legislators &amp; staff</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill — with the committee package and jurisdiction map inside.</div></a>
-    <a class="rev-card" href="/adopt/#pathways"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Coalition &amp; platform adoption <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Adopt the NSRA as a coalition platform — briefing packet, committee map, and entry points in the Policymaker Portal.</div></a>
+    <a class="rev-card" href="/engage/"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Engagement &amp; consultation <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Bring your concerns to the table — review the built-in accommodations and submit input on the record.</div></a>
     <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
   </div>
 </div>
 
 
 <!-- SIX PROMISES -->
-<div class="section" id="pillars">
-  <div class="section-header">
-    <h2>What America Owes You</h2>
-    <span>Six promises that span all 36 titles</span>
-  </div>
-  <p style="max-width:780px;margin:0 auto 18px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, scored, citizen-authored agenda — published in full and open to whoever runs on it first. Built outside the political system, owned by no party, and ready to deliver.</p>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-Extraction</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Anti-monopoly · anti-offshoring · asset-stripping &amp; PE limits · capital-flight lock · sovereign wealth fund</div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-Corruption</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Congressional stock ban · emoluments enforcement · foreign-influence transparency · citizen bounties · press freedom</div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Pro-Worker &amp; Pro-Farmer</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Organizing rights · pension protection · wage floors · food sovereignty · cooperative land transfer</div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Clean Water &amp; Clean Energy</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Lead-pipe &amp; PFAS cleanup · water security · grid modernization · advanced fission · affordable power</div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Future-Building</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Child Prosperity Trust · student-debt relief · AI &amp; compute sovereignty · semiconductors · manufacturing</div>
-    </div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px">
-      <div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">American Sovereignty</div>
-      <div style="font-size:12px;color:var(--muted);line-height:1.6">Dollar &amp; reserve-currency defense · adversary-capital screen · reshoring · veterans first · Social Security protection</div>
-    </div>
-  </div>
-</div>
+
 
 <!-- WHAT THIS BILL INTRODUCES -->
 <div class="section" id="changes">
@@ -657,130 +635,66 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2>What This Bill Introduces</h2>
     <span>36 Titles · 218 Sections · 27 Committees of Jurisdiction · $554B Annual Surplus · Self-Funding Architecture</span>
   </div>
-  <div class="summary-grid changes-container">
-
-    <div class="change-card">
-      <div class="change-num">Title XXI</div>
-      <div class="change-title">Zero-Premium Health Coverage</div>
-      <div class="change-body">Every uninsured American gets real coverage at zero premium through the Basic Minimum Plan — private carriers, zero cost to enroll, zero cost-sharing on primary care and preventive services. BMP replaces the uninsured penalty gap with a federally enforced coverage floor. Carriers compete on quality, not on excluding sick people.</div>
-      <div class="change-tags"><span class="tag">Healthcare</span><span class="tag">Title XXI</span></div>
+  <p style="max-width:820px;margin:0 auto 20px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, scored, citizen-authored agenda — published in full and open to whoever runs on it first. Built outside the political system, owned by no party. Nine promises, and every one of the 36 titles that delivers them.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-Extraction</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Anti-monopoly · asset-stripping &amp; PE limits · capital-flight lock · sovereign wealth fund</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles II · XX · XXII</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Anti-Extraction — by title</div><div class="fb-row"><b>II</b> — Sovereign Economic Reset — the closed-loop capitalization engine and the SIRF that fund the Act.</div><div class="fb-row"><b>XX</b> — Market-Competition Preservation — antitrust safeguards and bipartisan implementation guardrails.</div><div class="fb-row"><b>XXII</b> — Critical Systems &amp; PE Accountability — bars private equity from hospitals, EMS, 911, and nursing homes.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XIII</div>
-      <div class="change-title">Drug Price Parity</div>
-      <div class="change-body">Every drug sold in the U.S. is price-matched to the G7 median — by law. Americans currently pay 2–4× what citizens of allied nations pay for the same pills made in the same factories. Compulsory licensing activates automatically when any manufacturer refuses to comply. Patent rights are preserved; gouging is not.</div>
-      <div class="change-tags"><span class="tag">Pharma</span><span class="tag">Title XIII</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-Corruption</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Congressional stock ban · emoluments · foreign-influence transparency · press freedom · due process</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles I · XVIII · XXVII · XXIX · XXXV · XXXVI</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Anti-Corruption — by title</div><div class="fb-row"><b>I</b> — Systemic Resilience — the Federal Data Veracity Matrix and enforcement spine.</div><div class="fb-row"><b>XVIII</b> — Procedural Due Process — 45/60/180-day pre-deprivation notice and ALJ verification warrant.</div><div class="fb-row"><b>XXVII</b> — Press Freedom — anti-retaliation, a journalist shield law, and FCC editorial firewalls.</div><div class="fb-row"><b>XXIX</b> — Congressional Financial Integrity — bans members from trading individual stocks.</div><div class="fb-row"><b>XXXV</b> — Sovereign Integrity — executive accountability and enforcement non-initiation checks.</div><div class="fb-row"><b>XXXVI</b> — Foreign Influence — adversary-capital screening and transparency.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title VII</div>
-      <div class="change-title">Food &amp; Pesticide Reset</div>
-      <div class="change-body">195 pesticides banned in the EU but legal here are phased out. GRAS self-certification for food additives is abolished — independent FDA review required. The federal school lunch standard is updated to current nutritional science. This is a structural detox of the American food supply, not a voluntary industry pledge.</div>
-      <div class="change-tags"><span class="tag">Food</span><span class="tag">Title VII</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Pro-Worker &amp; Pro-Farmer</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Organizing rights · pension protection · wage floors · food sovereignty</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles IV · VI · VII · XXVIII</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Pro-Worker &amp; Pro-Farmer — by title</div><div class="fb-row"><b>IV</b> — Realist Parity Enforcement — OSHA wage-theft enforcement and private bounty engines.</div><div class="fb-row"><b>VI</b> — Pension Anti-Fragility — super-priority for worker pensions; a capped automated solvency backstop.</div><div class="fb-row"><b>VII</b> — Agricultural Sovereignty — food-supply security and anti-concentration caps.</div><div class="fb-row"><b>XXVIII</b> — Worker Organizing Rights — card-check recognition, treble back pay, anti-union-busting.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title X</div>
-      <div class="change-title">Clean Water Sovereignty</div>
-      <div class="change-body">Every lead service line in America replaced within 7 years. PFAS designated sovereign health contaminants with mandatory MCL standards within 2 years. $15B/yr National Water Security Fund. PFAS manufacturers bear strict joint-and-several liability for contamination. Communities within 1 mile of contaminated sites get a private right of action.</div>
-      <div class="change-tags"><span class="tag">Water</span><span class="tag">Title X</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Affordable Health &amp; Medicine</div><div style="font-size:12px;color:var(--muted);line-height:1.6">$0-premium coverage · G7 drug pricing · $35 insulin · veterans&rsquo; health</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles XIII · XXI · XXV · XXXI</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Affordable Health &amp; Medicine — by title</div><div class="fb-row"><b>XIII</b> — Pharmaceutical Parity — G7 price matching, $35 insulin, compulsory licensing at royalty.</div><div class="fb-row"><b>XXI</b> — Universal Basic Minimum Coverage — $0-premium coverage for the uninsured via private carriers.</div><div class="fb-row"><b>XXV</b> — Veterans Health Sovereignty — PACT Act completion and VA care-continuum funding.</div><div class="fb-row"><b>XXXI</b> — Global Health Sovereignty — mutual-benefit international health security.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title IX</div>
-      <div class="change-title">Clean Grid &amp; Energy Sovereignty</div>
-      <div class="change-body">$25B/yr to modernize the national electrical grid — hardened against cyberattack, extreme weather, and cascading failure. Fossil fuel companies get a voluntary, funded migration path through the $10B Clean Energy Transition Fund. No forced shutdown — a structured off-ramp with worker transition support built in.</div>
-      <div class="change-tags"><span class="tag">Energy</span><span class="tag">Title IX</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Housing &amp; Shelter</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Corporate single-family cap (50/metro) · Shelter Sovereignty Fund · buyer support</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Title XIV</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Housing &amp; Shelter — by title</div><div class="fb-row"><b>XIV</b> — Shelter Sovereignty — caps corporate single-family ownership at 50 per metro with a market-shock throttle, and funds down-payment help for first-time buyers.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title X</div>
-      <div class="change-title">Rewilding &amp; Wildlife Corridors</div>
-      <div class="change-body">$22B/yr to restore wildlife habitat and establish connected corridors across fragmented ecosystems. Upstream prevention of zoonotic disease spillover. Soil sovereignty reserve funds mycoremediation and cover-crop transitions. The economic case: one COVID-scale pandemic costs more than 30 years of this fund.</div>
-      <div class="change-tags"><span class="tag">Environment</span><span class="tag">Title X</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Clean Water &amp; Clean Energy</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Lead-pipe &amp; PFAS cleanup · water security · grid modernization · advanced fission</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles IX · X · XI</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Clean Water &amp; Clean Energy — by title</div><div class="fb-row"><b>IX</b> — Sovereign Energy — grid modernization and advanced fission with a funded fossil-fuel off-ramp.</div><div class="fb-row"><b>X</b> — Biospheric Commons — lead-pipe &amp; PFAS cleanup, water security, rewilding, humane animal standards.</div><div class="fb-row"><b>XI</b> — Automated Environmental Remediation — a cleanup network for contaminated sites.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XIV</div>
-      <div class="change-title">Housing: 50-Unit Cap</div>
-      <div class="change-body">No corporate entity — PE firm, REIT, or institutional aggregator — may own more than 50 single-family homes in any Metropolitan Statistical Area. Required divestitures are absorbed through a localized volume filter (V_abs ≤ 4.5%/quarter) to prevent market shock. Community land trusts get $1B/yr to absorb inventory and keep it permanently affordable.</div>
-      <div class="change-tags"><span class="tag">Housing</span><span class="tag">Title XIV</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Future-Building</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Child Prosperity Trust · student-debt relief · AI &amp; compute · semiconductors · knowledge</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles III · V · XII · XV · XXXIII</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Future-Building — by title</div><div class="fb-row"><b>III</b> — AI Sovereignty &amp; Data Rights — personal-data rights and algorithmic protections.</div><div class="fb-row"><b>V</b> — Child Prosperity &amp; Poverty Elimination — the Child Prosperity Trust ($5K at birth).</div><div class="fb-row"><b>XII</b> — Manufacturing Sovereignty — reshoring and wage-arbitrage elimination.</div><div class="fb-row"><b>XV</b> — Knowledge Sovereignty — student-debt relief and education access.</div><div class="fb-row"><b>XXXIII</b> — Sovereign Compute Authority — public compute access and AI infrastructure.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XII</div>
-      <div class="change-title">Semiconductor Independence</div>
-      <div class="change-body">$15B/yr to build full-spectrum domestic semiconductor and critical materials supply chains — from raw extraction to finished chip. Every dollar of SIRF capital requires $2 in private co-investment. The CHIPS Act started this; the NSRA finishes it with mandatory timelines, domestic content floors, and a Strategic Critical Supply Reserve that cannot be raided by executive order.</div>
-      <div class="change-tags"><span class="tag">Manufacturing</span><span class="tag">Title XII</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">American Sovereignty</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Dollar defense · adversary-capital screen · reshoring · Social Security · trade</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles VIII · XVI · XXIII · XXVI · XXX · XXXII</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">American Sovereignty — by title</div><div class="fb-row"><b>VIII</b> — Sovereign Mobility &amp; Infrastructure — kinetic infrastructure investment.</div><div class="fb-row"><b>XVI</b> — Quantum-Secured Liquidity — central-bank anti-fragility and secure clearing.</div><div class="fb-row"><b>XXIII</b> — Trade &amp; Allied Diplomacy — the allied settlement compact and trade architecture.</div><div class="fb-row"><b>XXVI</b> — Social Security Sovereignty — a solvency commission protecting scheduled benefits.</div><div class="fb-row"><b>XXX</b> — USMCA Gap Closure — trade enforcement and sovereignty-gap fixes.</div><div class="fb-row"><b>XXXII</b> — Dollar Sovereignty — reserve-currency defense.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XXXII</div>
-      <div class="change-title">Dollar Reserve Currency Defense</div>
-      <div class="change-body">The BRICS de-dollarization campaign is a direct threat to American purchasing power. The NSRA builds an Allied Settlement Compact — nations that commit to USD-denominated trade get infrastructure co-investment. A Digital Dollar Settlement Infrastructure at the Fed hardens U.S. transaction rails against SWIFT-alternative routing by adversarial actors.</div>
-      <div class="change-tags"><span class="tag">Dollar</span><span class="tag">Title XXXII</span></div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Fiscal Integrity &amp; Self-Funding</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Self-executing revenue engine · deficit-neutrality certification · benefit accounting · SIRF</div><div style="font-size:11px;font-weight:700;color:#cbd5e1;margin-top:9px;letter-spacing:.02em">Titles 0 · XIX · XXIV · XXXIV</div><div class="flip-hint">Tap for title detail &#8635;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Fiscal Integrity &amp; Self-Funding — by title</div><div class="fb-row"><b>0</b> — Statutory Foundations — definitions, mandatory triggers, deficit-neutrality certification, severability.</div><div class="fb-row"><b>XIX</b> — ROI &amp; Household Benefit Accounting — performance benchmarks and household-level accounting.</div><div class="fb-row"><b>XXIV</b> — Tax Code Reform &amp; Fiscal Integrity — the core revenue title (loophole closure and enforcement).</div><div class="fb-row"><b>XXXIV</b> — Structural Refinement &amp; SIRF — SIRF sovereignty and architecture refinement.</div><div class="flip-hint">&#8635; Tap to flip back</div></div>
+      </div>
     </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XXXIII</div>
-      <div class="change-title">Sovereign Compute Authority</div>
-      <div class="change-body">The U.S. cannot defend dollar settlement rails or AI sovereignty on foreign-owned infrastructure. The NSRA charters the Sovereign Compute Authority — a federal enterprise corporation modeled on the DFC — to hold title to nationally owned data centers, municipal computing arrays, and public AI inference infrastructure. Capitalized by the SIRF Sovereign Compute Node, the SCA issues revenue bonds against its lease income, provides below-cost access to researchers and small businesses, and is mandated to achieve full financial self-sufficiency within 7 years. The strategic endpoint is not a data tariff — it is federally owned compute infrastructure that generates lease revenue in perpetuity. The Digital Dollar Settlement Network runs on SCA hardware. NIST sets the standards. DOE national labs co-invest.</div>
-      <div class="change-tags"><span class="tag">Compute</span><span class="tag">AI Sovereignty</span><span class="tag">Title XXXIII</span></div>
-    </div>
-
-    <div class="change-card">
-      <div class="change-num">Title V · XXIV</div>
-      <div class="change-title">Household Relief &amp; War on Poverty</div>
-      <div class="change-body">Zero-interest conversion of all federal student debt. $5,000 Sovereign Child Prosperity Trust birth deposit — projected $32,000+ at age 18. SPI-WFTC wage floor tax credit. Congress declares a statutory War on Poverty: 5% SPM poverty rate within 10 years. Structural cost elimination, not permanent dependency — every mechanism is self-funding from scored revenue.</div>
-      <div class="change-tags"><span class="tag">Household</span><span class="tag">Title V</span></div>
-    </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XXXV</div>
-      <div class="change-title">Executive Anti-Corruption &amp; Sovereign Integrity</div>
-      <div class="change-body">The President, VP, Cabinet, and all senior White House staff must fully divest from foreign government-linked enterprises within 60 days of taking office. No brand licensing to foreign nationals during tenure. Any citizen, Member of Congress, or State AG can sue for Emoluments Clause violations — with 30-day expedited hearings. A 4-year revolving door ban. 10-year foreign agent prohibition. Disgorgement plus 3× civil penalties for willful violations.</div>
-      <div class="change-tags"><span class="tag">Anti-Corruption</span><span class="tag">Title XXXV</span></div>
-    </div>
-
-    <div class="change-card">
-      <div class="change-num">Title XXVI</div>
-      <div class="change-title">Social Security: Gig Workers &amp; Caregivers</div>
-      <div class="change-body">60 million gig workers finally get the employer-side Social Security match (6.2%) that W-2 employees receive — paid by the platforms that profit from their labor, with zero reclassification of worker status. Separately, 53 million unpaid caregivers — parents, those caring for elderly or disabled family members — receive up to $25,000/yr in credited SS earnings for every year of caregiving, up to 10 years. Same structure as the VA caregiver program. No new cash transfer, no dependency — just retirement security for labor that was always real.</div>
-      <div class="change-tags"><span class="tag">Social Security</span><span class="tag">Gig Workers</span><span class="tag">Caregivers</span><span class="tag">Title XXVI</span></div>
-    </div>
-
-    <div class="change-card">
-      <div class="change-num">Title II · XXXIV</div>
-      <div class="change-title">Self-Funding Architecture — $554B Annual Surplus</div>
-      <div class="change-body">The NSRA generates <strong>$749B in scored annual revenue</strong> from corporate accountability enforcement, carried interest recapture, leveraged buyout assessments, IRS enforcement investment returns, carbon fees, and infrastructure monetization — anchored by $55B/yr in verified federal pharmaceutical savings (source: PNAS 2024, G7 parity analysis). After $100B in structural program costs and $95B in sovereign infrastructure investment, the bill produces a <strong>$554B annual surplus</strong> available for federal deficit reduction — enough to close the $1.9T deficit within a single presidential term. Every revenue stream is scored, mandatory, and carries a corresponding CBO-scriptable statutory mechanism. <a href="#bill-text" onclick="document.getElementById('schedule-g-legal').closest('.bt-body').style.display='block';" style="color:var(--green);text-decoration:underline">See Schedule G — Revenue Assumptions &amp; Methodology →</a></div>
-      <div class="change-tags"><span class="tag">Fiscal</span><span class="tag">SIRF</span><span class="tag">Surplus</span><span class="tag">Schedule G</span></div>
-    </div>
-
   </div>
+
 </div>
 
-<!-- WHY ONE INTEGRATED ACT -->
-<div class="section" id="why-integrated">
-  <div class="section-header">
-    <h2>Why One Integrated Act?</h2>
-    <span>Strongest as one Act — engineered to survive in parts</span>
-  </div>
-  <p style="max-width:820px;margin:0 auto 22px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A common first reaction to 36 titles is &ldquo;no single bill can do all of this.&rdquo; Two things are true at once. As one Act, the provisions reinforce each other — revenue funds benefits, safeguards protect the revenue, and the whole is self-funding by design. And by design it is <strong style="color:var(--text)">not all-or-nothing</strong>: every title is drafted to stand alone as an entry point, and a severability clause (Sec. 205) keeps the rest intact if any single piece is struck or stripped. Strongest as a whole; viable in parts.</p>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Revenue funds benefits</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Enforcement revenue — offshore recovery, G7 pharmaceutical parity, structural penalties — directly capitalizes the household benefits. No new broad-based taxes, no borrowing. Revenue titles and the benefits they fund are drafted to travel together.</div></div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-corruption protects implementation</div><div style="font-size:12px;color:var(--muted);line-height:1.65">The congressional stock ban, emoluments enforcement, and citizen-bounty provisions keep the revenue-and-benefit machinery from being captured, diverted, or quietly repealed. Safeguards are what make the rest durable.</div></div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Industrial policy serves fiscal &amp; security goals</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Semiconductors, reshoring, and sovereign compute rebuild the domestic tax base and the national-security base at the same time. One appropriation, two returns.</div></div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Household relief lowers structural cost</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Universal baseline coverage and drug-price parity cut the uncompensated-care and public-health costs that otherwise drag on federal and state budgets — the benefit pays part of its own way.</div></div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Sovereign infrastructure creates durable revenue</div><div style="font-size:12px;color:var(--muted);line-height:1.65">The Sovereign Infrastructure &amp; Resilience Fund and public infrastructure generate returns that outlast the initial appropriation, converting one-time spending into a recurring public asset.</div></div>
-    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Fiscal controls prevent new deficits</div><div style="font-size:12px;color:var(--muted);line-height:1.65">CBO certification gates, the SIRF floor, and revenue-threshold triggers ensure benefits never activate faster than the revenue that funds them — the structure stays deficit-neutral by design.</div></div>
-  </div>
-  <div style="max-width:820px;margin:22px auto 0;padding:14px 18px;background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;font-size:12px;color:var(--muted);line-height:1.7">
-    <strong style="color:var(--green)">Stronger together &mdash; viable apart.</strong> Passed as one Act, the revenue funds the benefits and the structure is self-funding by design. But no piece is a hostage to the others: every title is written to move on its own as a standalone or amendment vehicle, and Section 205&rsquo;s severability clause ensures that a court striking one provision &mdash; or a Congress enacting only a few &mdash; leaves the rest standing and effective. The integration is the ideal; the modularity is the insurance.
-  </div>
-</div>
-
-<!-- STATE-BY-STATE IMPACT -->
 <div class="section" id="deal">
   <div class="section-header">
     <h2>The Honest Bottom Line</h2>
@@ -1630,6 +1544,28 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <!-- POLICY VAULT -->
+<div class="section" id="why-integrated">
+  <div class="section-header">
+    <h2>Why One Integrated Act?</h2>
+    <span>Strongest as one Act — built to pass, and survive, in pieces</span>
+  </div>
+  <p style="max-width:820px;margin:0 auto 22px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A common first reaction to 36 titles is &ldquo;no single bill can do all of this.&rdquo; Two things are true at once. As one Act, the provisions reinforce each other — revenue funds benefits, safeguards protect the revenue, and the whole is self-funding by design. And it is deliberately <strong style="color:var(--text)">not all-or-nothing</strong>, in two distinct ways: for <strong style="color:var(--text)">passage</strong>, the 36 titles are organized into <strong style="color:var(--text)">five coordinated bills</strong> — each self-funding and constitutionally grounded on its own — so if some pass and others stall, Americans still get major wins; and for <strong style="color:var(--text)">durability</strong>, a severability clause (Sec. 205) keeps the rest of the Act in full force if a court strikes any single title. Individual titles are not all independently operable — some stand alone, others must travel with their funding or enforcement (the Amendment &amp; Dependency tool maps which). Strongest as one Act; built to pass, and survive, in pieces.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Revenue funds benefits</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Enforcement revenue — offshore recovery, G7 pharmaceutical parity, structural penalties — directly capitalizes the household benefits. No new broad-based taxes, no borrowing. Revenue titles and the benefits they fund are drafted to travel together.</div></div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Anti-corruption protects implementation</div><div style="font-size:12px;color:var(--muted);line-height:1.65">The congressional stock ban, emoluments enforcement, and citizen-bounty provisions keep the revenue-and-benefit machinery from being captured, diverted, or quietly repealed. Safeguards are what make the rest durable.</div></div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Industrial policy serves fiscal &amp; security goals</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Semiconductors, reshoring, and sovereign compute rebuild the domestic tax base and the national-security base at the same time. One appropriation, two returns.</div></div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Household relief lowers structural cost</div><div style="font-size:12px;color:var(--muted);line-height:1.65">Universal baseline coverage and drug-price parity cut the uncompensated-care and public-health costs that otherwise drag on federal and state budgets — the benefit pays part of its own way.</div></div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Sovereign infrastructure creates durable revenue</div><div style="font-size:12px;color:var(--muted);line-height:1.65">The Sovereign Infrastructure &amp; Resilience Fund and public infrastructure generate returns that outlast the initial appropriation, converting one-time spending into a recurring public asset.</div></div>
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px"><div style="font-size:14px;font-weight:800;color:var(--green);margin-bottom:6px">Fiscal controls prevent new deficits</div><div style="font-size:12px;color:var(--muted);line-height:1.65">CBO certification gates, the SIRF floor, and revenue-threshold triggers ensure benefits never activate faster than the revenue that funds them — the structure stays deficit-neutral by design.</div></div>
+  </div>
+  <div style="max-width:820px;margin:22px auto 0;padding:14px 18px;background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;font-size:12px;color:var(--muted);line-height:1.7">
+    <strong style="color:var(--green)">Stronger together &mdash; built to pass, and survive, in pieces.</strong> Passed as one Act, the revenue funds the benefits and the structure is self-funding by design. It is still not hostage to any single vote or ruling: for <strong style="color:var(--text)">passage</strong>, the agenda moves as <strong style="color:var(--text)">five coordinated bills</strong>, each able to advance and deliver on its own and fund the next; for <strong style="color:var(--text)">durability</strong>, Section 205 ensures that a court striking one title leaves the rest standing, with a fallback appropriation protecting first-tier household benefits. At the individual-title level, dependencies are explicit — some titles stand alone, others must travel with their funding or enforcement. The integration is the ideal; the five-bill packaging and severability are the insurance.
+  </div>
+</div>
+
+<!-- STATE-BY-STATE IMPACT -->
+
+
 <div class="section" id="bill-text">
   <div class="section-header">
     <h2>Policy Vault</h2>
@@ -6420,7 +6356,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     </div>
     <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
       <div style="font-size:10px;color:rgba(255,255,255,0.2);max-width:560px">&copy; 2024&ndash;2026 TheAmericanVault LLC. The NSRA statutory text is published for good-faith legislative review, institutional evaluation, public-interest analysis, and adoption with attribution. TheAmericanDeal branding, trademarks, proprietary analytical systems, and representations of authorship are protected; misappropriation and false attribution are prohibited.</div>
-      <div style="font-size:10px;color:rgba(255,255,255,0.2)">Principal Architect: Santonio Sanders &nbsp;&middot;&nbsp; TheAmericanDeal.org</div>
+      <div style="font-size:10px;color:rgba(255,255,255,0.2)">Principal Architect: Santonio D. Sanders &nbsp;&middot;&nbsp; TheAmericanDeal.org</div>
     </div>
   </div>
 </div>
