@@ -70,10 +70,10 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <body>
 <nav><a class="brand" href="/">The<span>American</span>Deal</a></nav>
 <div class="wrap">
-<div class="eyebrow">The 7-Subledger Math Engine™ · For Reviewers</div>
-<h1>The NSRA Fiscal Model</h1>
-<p class="lede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled Year-1 revenue and deficit reduction update live.</p>
-<p class="sub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/calculator/">Sovereign Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
+<div class="eyebrow" id="fmEye">The 7-Subledger Math Engine™ · For Reviewers</div>
+<h1 id="fmH1">The 7-Subledger Fiscal Model</h1>
+<p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled Year-1 revenue and deficit reduction update live.</p>
+<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/calculator/">Sovereign Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
 
 <div class="grid">
   <div class="panel">
@@ -175,6 +175,19 @@ render();
 document.getElementById('real').addEventListener('input',calc);
 document.getElementById('prog').addEventListener('input',calc);
 calc();
+
+// ---- audience framing (?aud=press|policy); subledger heading retained for IP ----
+(function(){
+ var a=(new URLSearchParams(location.search).get('aud')||'').toLowerCase();
+ var TM=String.fromCharCode(8482), MID=String.fromCharCode(183), ENG="The 7-Subledger Math Engine"+TM+" "+MID+" ";
+ var F={
+  press:{eye:ENG+'For Press & Media',h1:'The 7-Subledger Fiscal Model',lede:'Every dollar of NSRA revenue comes from a specific, named stream tied to a published federal baseline. Toggle any stream and watch the total move \u2014 no spin, just arithmetic you can check.',sub:'This is the same model reviewers use. Adjust how much of each stream is collected, switch streams on or off, and see the number recompute live. Every figure traces to the Figure-by-Figure Sourcing sheet and Schedule G.'},
+  policy:{eye:ENG+'For Policymakers & Staff',h1:'The 7-Subledger Fiscal Model',lede:'Before you co-sponsor a title, see exactly what it contributes and whether the package still holds without it. Toggle any stream to model a narrower bill; lower realization to test conservative collection.',sub:'Every stream ties to a published CBO, JCT, Treasury, OECD, or GAO baseline. Toggling titles off shows the design principle in action: strongest whole, but still net-positive in parts.'}
+ };
+ var f=F[a]; if(!f) return;
+ var set=function(id,v){var el=document.getElementById(id); if(el) el.textContent=v;};
+ set('fmEye',f.eye); set('fmH1',f.h1); set('fmLede',f.lede); set('fmSub',f.sub);
+})();
 </script>
 </body>
 </html>
