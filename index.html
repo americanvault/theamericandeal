@@ -212,7 +212,7 @@
       color: var(--text); text-decoration: none;
     }
     .nav-brand span { color: var(--green); }
-    .nav-links { display: flex; flex-wrap: nowrap; gap: 26px; list-style: none; }
+    .nav-links { display: flex; flex-wrap: nowrap; gap: 17px; list-style: none; }
     .nav-links a {
       font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap;
       letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600;
@@ -287,12 +287,14 @@
     .col-4  { grid-column: span 4; }
     .col-3  { grid-column: span 3; }
 
-    @media (max-width: 1200px) {
-      .summary-grid { grid-template-columns: 1fr !important; }
-      .col-8, .col-6, .col-4, .col-3 { grid-column: span 12; }
+    @media (max-width: 1400px) {
       .nav-links { display: none; }
       .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: rgba(13,15,20,0.97); padding: 12px 24px 20px; gap: 14px; z-index: 99; border-bottom: 1px solid var(--border); }
       .nav-hamburger { display: flex !important; }
+    }
+    @media (max-width: 1200px) {
+      .summary-grid { grid-template-columns: 1fr !important; }
+      .col-8, .col-6, .col-4, .col-3 { grid-column: span 12; }
       .section { padding: 32px 16px; }
       .hero { padding: 48px 16px 40px; }
       .hero h1 { font-size: 28px; }
@@ -481,9 +483,9 @@
     .nav-dd-menu li { margin: 0; }
     .nav-dd-menu a { display: block; padding: 8px 12px; font-size: 12px; color: var(--muted); border-radius: 6px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
     .nav-dd-menu a:hover { background: rgba(34,197,94,0.10); color: var(--green); }
-    @media (max-width: 1200px) { .nav-dd-menu { display: block; position: static; border: none; box-shadow: none; padding: 2px 0 2px 12px; min-width: 0; background: transparent; } .nav-dd-menu a { padding: 6px 0; } }
+    @media (max-width: 1400px) { .nav-dd-menu { display: block; position: static; border: none; box-shadow: none; padding: 2px 0 2px 12px; min-width: 0; background: transparent; } .nav-dd-menu a { padding: 6px 0; } }
     .nav-dd::after { content:""; position:absolute; top:100%; right:0; width:260px; height:10px; }
-    @media (max-width: 1200px) { .nav-dd::after { display:none; } }
+    @media (max-width: 1400px) { .nav-dd::after { display:none; } }
     .rev-card { display:flex; flex-direction:column; gap:5px; background:var(--bg-surface); border:1px solid var(--border); border-radius:12px; padding:16px 18px; text-decoration:none; transition:border-color .15s, transform .15s; }
     .rev-card:hover { border-color:var(--green); transform:translateY(-2px); }
     .rev-card .rc-role { font-size:10px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--green); }
@@ -501,16 +503,10 @@
     <li><a href="#changes" onclick="closeNav()">What This Bill Introduces</a></li>
     <li><a href="#deal" onclick="closeNav()">The Honest Bottom Line</a></li>
     <li><a href="#impact-map" onclick="closeNav()">State and Household Impact</a></li>
-    <li class="nav-dd">
-      <a href="javascript:void(0)">For Reviewers &#9662;</a>
-      <ul class="nav-dd-menu">
-        <li><a href="/fiscal-model/" onclick="closeNav()">Fiscal Experts — Fiscal Model</a></li>
-        <li><a href="/NSRA_Legislative_Packet.pdf" onclick="closeNav()">Special Interest Organizations — Briefing Packet</a></li>
-        <li><a href="/adopt/" onclick="closeNav()">Candidates, Legislators &amp; Staff — Adopt the NSRA</a></li>
-        <li><a href="/press/" onclick="closeNav()">Press &amp; Media — Press Package</a></li>
-      </ul>
-    </li>
-    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--green)">Policymaker Portal</a></li>
+    <li><a href="#bill-text" onclick="closeNav()">Policy Vault</a></li>
+    <li><a href="/adopt/" onclick="closeNav()">Policymaker Portal</a></li>
+    <li><a href="/adopt/fiscal/" onclick="closeNav()">Fiscal Review Portal</a></li>
+    <li><a href="/press/" onclick="closeNav()">Press &amp; Media Portal</a></li>
     <li><a href="#support" onclick="closeNav()" style="color:var(--green)">Sign &amp; Call</a></li>
   </ul>
   <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
@@ -612,9 +608,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <span>Start where you sit — four pathways into the framework</span>
   </div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <a class="rev-card" href="/fiscal-model/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Interrogate the fiscal model <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Toggle streams, set your own realization rate, and stress-test the math yourself.</div></a>
+    <a class="rev-card" href="/adopt/fiscal/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Fiscal Review Portal <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Interactive model, Schedule G evidence room, scorebook, sourcing, and open technical questions.</div></a>
     <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates, legislators &amp; staff</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill — with the committee package and jurisdiction map inside.</div></a>
-    <a class="rev-card" href="/NSRA_Legislative_Packet.pdf"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Briefing packet <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fiscal architecture, constitutional posture, and priority entry points.</div></a>
+    <a class="rev-card" href="/adopt/#pathways"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Coalition &amp; platform adoption <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Adopt the NSRA as a coalition platform — briefing packet, committee map, and entry points in the Policymaker Portal.</div></a>
     <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
   </div>
 </div>
