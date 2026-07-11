@@ -85,6 +85,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <div class="summary" style="margin-top:12px">
   <div class="sc"><div class="n" style="color:var(--text)">Year 4</div><div class="l">Central balanced-budget projection</div><div class="x">Range Yr 3–5.</div></div>
   <div class="sc"><div class="n" style="color:var(--amber)">$1.9T</div><div class="l">Current federal deficit</div><div class="x">CBO FY2026 projection.</div></div>
+  <div class="sc"><div class="n" style="color:var(--amber)"><span id="live-borrow">~$1.6T</span></div><div class="l">Federal borrowing, FY-to-date</div><div class="x"><span id="live-borrow-note">debt change since FY start · not the net deficit</span></div></div>
   <div class="sc"><div class="n" style="color:var(--amber)">~101%</div><div class="l">Debt / GDP</div><div class="x">CBO Budget &amp; Economic Outlook 2026–2036.</div></div>
   <div class="sc"><div class="n" style="color:var(--blue)"><span id="live-debt">$39.2T</span></div><div class="l">Live U.S. national debt</div><div class="x"><span id="live-debt-date">· U.S. Treasury</span></div></div>
 </div>
@@ -406,8 +407,24 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 function fiscSubmit(e){e.preventDefault();var f=document.getElementById('fiscForm'),m=document.getElementById('fiscMsg');var rs=f.querySelector('select[name="I am requesting"]'),su=f.querySelector('input[name="_subject"]');if(su&&rs&&rs.value){su.value='Fiscal Review Portal — '+rs.value;}m.style.color='#94a3b8';m.textContent='Sending…';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Request sent. We\u2019ll follow up at the email you provided.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically — please email contact@theamericandeal.org directly.';});return false;}
 </script>
 <script>
-(function(){var el=document.getElementById('live-debt'),dt=document.getElementById('live-debt-date');if(!el)return;
-fetch('https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?sort=-record_date&page[size]=1').then(function(r){return r.json();}).then(function(d){var rec=d&&d.data&&d.data[0];if(!rec)return;var amt=parseFloat(rec.tot_pub_debt_out_amt);if(!isFinite(amt))return;el.textContent='$'+(amt/1e12).toFixed(2)+'T';if(dt)dt.textContent='· as of '+rec.record_date+' · U.S. Treasury';}).catch(function(){});})();
+/* Live U.S. debt (daily, Treasury Fiscal Data API) + FY-to-date federal borrowing = debt change since the
+   prior fiscal year-end (Sep 30). Self-updates each fiscal year. Borrowing != net deficit (differs by
+   intragovernmental holdings); labeled as such. These figures are context only and do not feed the NSRA model. */
+(function(){
+  var el=document.getElementById('live-debt'),dt=document.getElementById('live-debt-date');
+  var bo=document.getElementById('live-borrow'),bn=document.getElementById('live-borrow-note');
+  var API='https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny';
+  var now=new Date(); var fyStart=((now.getMonth()+1)>=10?now.getFullYear():now.getFullYear()-1)+'-09-30';
+  fetch(API+'?fields=record_date,tot_pub_debt_out_amt&sort=-record_date&page[size]=1').then(function(r){return r.json();}).then(function(d){
+    var rec=d&&d.data&&d.data[0]; if(!rec) return; var amt=parseFloat(rec.tot_pub_debt_out_amt);
+    if(el&&isFinite(amt)) el.textContent='$'+(amt/1e12).toFixed(2)+'T';
+    if(dt) dt.textContent='· as of '+rec.record_date+' · U.S. Treasury';
+    fetch(API+'?fields=record_date,tot_pub_debt_out_amt&filter=record_date:lte:'+fyStart+'&sort=-record_date&page[size]=1').then(function(r){return r.json();}).then(function(d2){
+      var b=d2&&d2.data&&d2.data[0]; if(!b||!bo) return; var bamt=parseFloat(b.tot_pub_debt_out_amt);
+      if(isFinite(bamt)&&isFinite(amt)){ bo.textContent='$'+((amt-bamt)/1e12).toFixed(2)+'T'; if(bn) bn.textContent='debt change since '+b.record_date+' · not the net deficit'; }
+    }).catch(function(){});
+  }).catch(function(){});
+})();
 </script>
 </body>
 </html>
