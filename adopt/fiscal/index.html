@@ -68,7 +68,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <body>
 <nav>
   <a class="brand" href="/">The<span>American</span>Deal</a>
-  <div class="navlinks"><a href="/adopt/">&larr; Portal</a><a href="/fiscal-model/">Interactive model</a><a href="#streams">Revenue streams</a><a href="/adopt/?req=Fiscal-model%20review#request">Request review</a></div>
+  <div class="navlinks"><a href="/adopt/">&larr; Portal</a><a href="/fiscal-model/">Interactive model</a><a href="#streams">Revenue streams</a><a href="#fisc">Request briefing</a></div>
 </nav>
 <div class="wrap">
 <div class="eyebrow">Fiscal Model &amp; Evidence Room · Schedule G Revenue Build-Up</div>
@@ -371,10 +371,33 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <div class="btnrow">
   <a class="btn p" href="/fiscal-model/">Open the interactive model</a>
   <a class="btn s" href="/NSRA_Figure_Sourcing_Verification.pdf">Figure-by-Figure Sourcing (PDF)</a>
-  <a class="btn s" href="/adopt/?req=Fiscal-model%20review#request">Request a fiscal-model review</a>
+  <a class="btn s" href="#fisc">Request a fiscal briefing</a>
 </div>
 
 </div>
+
+<section id="fisc" style="max-width:1000px;margin:0 auto;padding:10px 24px 40px">
+  <div style="font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Request a briefing</div>
+  <h2 style="font-size:22px;font-weight:800;margin-bottom:8px">Talk to us about the numbers</h2>
+  <p style="font-size:14px;color:#cbd5e1;margin-bottom:14px;max-width:680px">Have a scoring question, want a methodology walk-through, or need the revenue assumptions defended line by line? Send it here and we'll follow up.</p>
+  <form id="fiscForm" onsubmit="return fiscSubmit(event)" style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 22px;max-width:640px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+      <div><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px">Name / office</label><input type="text" name="Name / office" style="background:var(--elev);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 11px;font-size:13.5px;width:100%;outline:none" /></div>
+      <div><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px">Your email (for our reply)</label><input type="email" name="Reply email" required style="background:var(--elev);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 11px;font-size:13.5px;width:100%;outline:none" /></div>
+      <div style="grid-column:span 2"><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px">I am requesting</label><select name="I am requesting" style="background:var(--elev);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 11px;font-size:13.5px;width:100%;outline:none"><option>Fiscal-model review</option><option>Schedule G methodology walk-through</option><option>Revenue-assumption review</option><option>Full fiscal briefing</option><option>Scoring coordination</option><option>Other</option></select></div>
+    </div>
+    <div style="margin-top:14px"><label style="display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);margin-bottom:6px">Notes (optional)</label><textarea name="Notes" rows="3" style="background:var(--elev);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 11px;font-size:13.5px;width:100%;outline:none;resize:vertical"></textarea></div>
+    <input type="hidden" name="_subject" value="Fiscal Review Portal — Request" />
+    <input type="hidden" name="_template" value="table" />
+    <input type="hidden" name="_captcha" value="false" />
+    <button type="submit" style="margin-top:16px;background:var(--green);color:#04120a;font-weight:800;font-size:13.5px;padding:12px 22px;border:none;border-radius:9px;cursor:pointer">Send request</button>
+    <div id="fiscMsg" style="margin-top:12px;font-size:13px;min-height:18px"></div>
+  </form>
+</section>
+
 <footer>TheAmericanDeal.org — What America Owes You&trade; · <a href="/adopt/">Policymaker Portal</a> · <a href="/fiscal-model/">Fiscal Model</a> · <a href="/bill-text/">Policy Vault</a> · contact@theamericandeal.org</footer>
+<script>
+function fiscSubmit(e){e.preventDefault();var f=document.getElementById('fiscForm'),m=document.getElementById('fiscMsg');var rs=f.querySelector('select[name="I am requesting"]'),su=f.querySelector('input[name="_subject"]');if(su&&rs&&rs.value){su.value='Fiscal Review Portal — '+rs.value;}m.style.color='#94a3b8';m.textContent='Sending…';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Request sent. We\u2019ll follow up at the email you provided.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically — please email contact@theamericandeal.org directly.';});return false;}
+</script>
 </body>
 </html>
