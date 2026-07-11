@@ -212,7 +212,7 @@
       color: var(--text); text-decoration: none;
     }
     .nav-brand span { color: var(--green); }
-    .nav-links { display: flex; flex-wrap: nowrap; gap: 13px; list-style: none; }
+    .nav-links { display: flex; flex-wrap: nowrap; gap: 26px; list-style: none; }
     .nav-links a {
       font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap;
       letter-spacing: 0.03em; text-transform: uppercase; font-weight: 600;
@@ -504,8 +504,8 @@
     <li class="nav-dd">
       <a href="javascript:void(0)">For Reviewers &#9662;</a>
       <ul class="nav-dd-menu">
-        <li><a href="/fiscal-model/" onclick="closeNav()">Subject-matter experts — Fiscal Model</a></li>
-        <li><a href="/NSRA_Legislative_Packet.pdf" onclick="closeNav()">Organizations — Briefing Packet</a></li>
+        <li><a href="/fiscal-model/" onclick="closeNav()">Fiscal Experts — Fiscal Model</a></li>
+        <li><a href="/NSRA_Legislative_Packet.pdf" onclick="closeNav()">Special Interest Organizations — Briefing Packet</a></li>
         <li><a href="/adopt/" onclick="closeNav()">Candidates, Legislators &amp; Staff — Adopt the NSRA</a></li>
         <li><a href="/press/" onclick="closeNav()">Press &amp; Media — Press Package</a></li>
       </ul>
@@ -612,9 +612,9 @@ document.addEventListener('DOMContentLoaded', function() {
     <span>Start where you sit — four pathways into the framework</span>
   </div>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <a class="rev-card" href="/fiscal-model/"><div class="rc-role">Subject-matter experts</div><div class="rc-act">Interrogate the fiscal model <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Toggle streams, set your own realization rate, and stress-test the math yourself.</div></a>
+    <a class="rev-card" href="/fiscal-model/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Interrogate the fiscal model <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Toggle streams, set your own realization rate, and stress-test the math yourself.</div></a>
     <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates, legislators &amp; staff</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill — with the committee package and jurisdiction map inside.</div></a>
-    <a class="rev-card" href="/NSRA_Legislative_Packet.pdf"><div class="rc-role">Organizations</div><div class="rc-act">Briefing packet <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fiscal architecture, constitutional posture, and priority entry points.</div></a>
+    <a class="rev-card" href="/NSRA_Legislative_Packet.pdf"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Briefing packet <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fiscal architecture, constitutional posture, and priority entry points.</div></a>
     <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
   </div>
 </div>
@@ -1583,445 +1583,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 <!-- LIVE DASHBOARD -->
-<div class="section" id="dashboard">
-  <div class="section-header">
-    <h2>Live Dashboard</h2>
-    <span>Legislative Status Engine</span>
-  </div>
-  <div class="grid">
-
-    <!-- Year 1 Impact -->
-    <div class="panel col-12">
-      <div class="panel-label">Year 1 American Relief</div>
-      <div class="panel-title">What Americans Feel Before the Check Arrives</div>
-      <div class="impact-cards">
-        <div class="impact-card"><div class="impact-group">8.4M insulin-dependent Americans</div><div class="impact-relief" style="color:var(--green)">$2,400–$4,800/yr saved</div></div>
-        <div class="impact-card"><div class="impact-group">28M uninsured Americans</div><div class="impact-relief" style="color:var(--blue)">$6,000–$9,600/yr BMP coverage value</div></div>
-        <div class="impact-card"><div class="impact-group">43M student loan borrowers</div><div class="impact-relief" style="color:var(--blue)">$2,400/yr zero-interest savings</div></div>
-        <div class="impact-card"><div class="impact-group">All Medicare seniors</div><div class="impact-relief" style="color:var(--green)">Dental · Vision · Hearing covered</div></div>
-        <div class="impact-card"><div class="impact-group">1.8M uninsured veterans</div><div class="impact-relief" style="color:var(--amber)">Full BMP at $0</div></div>
-        <div class="impact-card"><div class="impact-group">Every newborn in America</div><div class="impact-relief" style="color:var(--green)">$5,000 Child Prosperity Trust</div><div style="font-size:9px;color:var(--muted);margin-top:3px">SIRF-funded outright grant — complements Trump Accounts ($1K seed + $5K/yr savings vehicle, Jul 2026)</div></div>
-        <div class="impact-card"><div class="impact-group">42M SNAP recipients</div><div class="impact-relief" style="color:var(--green)">Benefits protected in statute</div></div>
-        <div class="impact-card"><div class="impact-group">6.7M WIC recipients</div><div class="impact-relief" style="color:var(--green)">Benefits preserved and extended</div></div>
-        <div class="impact-card"><div class="impact-group">All chronic medication users</div><div class="impact-relief" style="color:var(--green)">Drug prices cut to G7 levels — same pill, fraction of the price</div></div>
-        <div class="impact-card"><div class="impact-group">PE hospital market families</div><div class="impact-relief" style="color:var(--amber)">No ER closures · No staff cuts</div></div>
-        <div class="impact-card"><div class="impact-group">Rural communities</div><div class="impact-relief" style="color:var(--blue)">Broadband buildout begins</div></div>
-      </div>
-    </div>
-
-    <!-- Phase Gate Banner -->
-    <div class="panel col-12">
-      <div class="panel-label">Schedule E — Phase Gate Triggers</div>
-      <div class="gate-row">
-        <div class="gate">
-          <div class="gate-dot d-amber"></div>
-          <div class="gate-body">
-            <strong>Phase 1 — Pending Enactment</strong>
-            <p>Bill not yet passed · Upon passage: fiscal foundation building begins immediately.</p>
-          </div>
-        </div>
-        <div class="gate">
-          <div class="gate-dot d-red"></div>
-          <div class="gate-body">
-            <strong>Phase 2 — Gate 1 Conditions — Locked</strong>
-            <p>Gate 1 conditions: deficit &lt; $900B, CBO declining trend, SIRF &gt; $200B · Unlocks when all 3 conditions below are met</p>
-            <div class="chips">
-              <span class="chip">Deficit &lt; $900B</span>
-              <span class="chip">CBO 10yr Declining</span>
-              <span class="chip">SIRF &gt; $200B</span>
-            </div>
-          </div>
-        </div>
-        <div class="gate">
-          <div class="gate-dot d-red"></div>
-          <div class="gate-body">
-            <strong>Phase 3 — Gate 2 Conditions — Locked</strong>
-            <p>Full universal relief at statutory rates · Unlocks when both conditions below are met</p>
-            <div class="chips">
-              <span class="chip">Debt/GDP &lt; 110%</span>
-              <span class="chip warn">Now: 101% (CBO 2026)</span>
-              <span class="chip">Deficit &lt; $400B</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Fiscal KPIs -->
-    <div class="panel col-4">
-      <div class="panel-label">Fiscal KPI Stack</div>
-      <div class="panel-title">Phase 1 Fiscal Math</div>
-      <div style="margin:1px 0 9px"><a href="#evidence-standard" style="text-decoration:none"><span style="font-size:8px;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:var(--blue);background:rgba(96,165,250,0.12);border:1px solid rgba(96,165,250,0.3);padding:2px 7px;border-radius:20px">Gov. baseline &middot; Internally modeled &middot; Sensitivity tested</span></a></div>
-      <div style="margin:0 0 10px"><a href="/fiscal-model/" style="font-size:11px;font-weight:700;color:var(--green);text-decoration:none">&#9656; Run the interactive fiscal model &rarr;</a></div>
-      <div class="kpi-grid">
-        <div class="kpi-card"><div class="kpi-val g">$749B</div><div class="kpi-label">Year 1 revenue (12 scored streams, confidence-weighted, WEA upside not included)</div></div>
-        <div class="kpi-card"><div class="kpi-val">$204B</div><div class="kpi-label">Expenditures (programs + student loan + MGHS Fund)</div></div>
-        <div class="kpi-card"><div class="kpi-val g">$575B</div><div class="kpi-label">Net revenue surplus (Year 1)</div></div>
-        <div class="kpi-card"><div class="kpi-val a">−$95B</div><div class="kpi-label">Effective mandatory growth headwind (SS cap offsets $80B)</div></div>
-        <div class="kpi-card"><div class="kpi-val g">$554B</div><div class="kpi-label">True annual deficit reduction (Year 1)</div></div>
-        <div class="kpi-card"><div class="kpi-val b">Year 4</div><div class="kpi-label">Balanced budget (range: Yr 3–5)</div></div>
-        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--amber)"><div class="kpi-val a">$1.9T</div><div class="kpi-label">Current deficit — CBO FY2026 projection ($955B first 7 months · May 2026)</div></div>
-        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--blue)"><div class="kpi-val b">101%</div><div class="kpi-label">Current debt/GDP — CBO Budget &amp; Economic Outlook 2026–2036</div></div>
-        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--green)"><div class="kpi-val g" id="live-debt">$39.2T</div><div class="kpi-label"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:5px;vertical-align:middle"></span>Live U.S. National Debt <span id="live-debt-date" style="color:var(--muted)">&middot; as of 2026-06-02 &middot; U.S. Treasury</span></div></div>
-      </div>
-    </div>
-
-    <!-- Revenue Matrix -->
-    <div class="panel col-8">
-      <div class="panel-label">Revenue Stream Matrix</div>
-      <div class="panel-title">Phase 1 Revenue Engine</div>
-      <table>
-        <thead>
-          <tr><th>Stream</th><th>Type</th><th style="text-align:right">Yield / yr</th><th>Status</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>NIMA — 0.18% domestic gross &gt;$100M</td><td>User Fee</td><td style="text-align:right;color:var(--green);font-weight:700">$39.6B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>FTA — 0.02% institutional trades &gt;$1M</td><td>Assessment</td><td style="text-align:right;color:var(--green);font-weight:700">$7B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>LBO Interest Cap — 30% EBITDA max</td><td>Code Reform</td><td style="text-align:right;color:var(--green);font-weight:700">$18B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Carried Interest → Ordinary Income</td><td>Code Reform</td><td style="text-align:right;color:var(--green);font-weight:700">$14B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>IRS Enforcement Fund ($15B → $75–105B net)</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$90B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>SDEC — DoD Efficiency Commission</td><td>Spending Cut</td><td style="text-align:right;color:var(--amber);font-weight:700">$40B</td><td><span class="badge b-muted">Pending Yr 5</span></td></tr>
-          <tr><td>Medicare + Medicaid Pharma Savings — G7 Parity (10-yr)</td><td>Pharma</td><td style="text-align:right;color:var(--green);font-weight:700">$550B</td><td><span class="badge b-muted">10-yr total · PNAS 2024</span></td></tr>
-          <tr><td>FDVM — Medicare Fraud Detection</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$20B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>SNAP Retailer Fraud Recovery</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$1B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Student Loan Zero-Interest (forgone net interest)</td><td>Program Cost</td><td style="text-align:right;color:var(--red);font-weight:700">−$25B</td><td><span class="badge b-muted">Yr 1+</span></td></tr>
-          <tr><td>Wage Equalization Assessment (WEA)</td><td>Trade Levy</td><td style="text-align:right;color:var(--amber);font-weight:700">TBD</td><td><span class="badge b-muted">USITC Pre-Score Req.</span></td></tr>
-          <tr><td>SPI Wage Floor Tax Credit</td><td>Credit</td><td style="text-align:right;color:var(--muted);font-weight:700">−$10B</td><td><span class="badge b-muted">Phase 2</span></td></tr>
-          <tr style="border-top:2px solid var(--border)"><td colspan="4" style="color:var(--amber);font-size:11px;font-weight:700;padding:6px 0 2px">TAX CODE EQUITY STREAMS — Secs. 2408–2415</td></tr>
-          <tr><td>SS Payroll Cap Elimination (Sec. 2408)</td><td>IRC § 3121</td><td style="text-align:right;color:var(--green);font-weight:700">$150B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Corporate Rate 28% (Sec. 2409)</td><td>IRC § 11</td><td style="text-align:right;color:var(--green);font-weight:700">$110B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Carbon Dividend Fee (Sec. 2410)</td><td>Fee + Dividend</td><td style="text-align:right;color:var(--green);font-weight:700">$85B net</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>OECD Pillar Two Full Implementation (Sec. 2411)</td><td>Global Min Tax</td><td style="text-align:right;color:var(--green);font-weight:700">$75B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Step-Up Basis Reform — estates &gt;$5M (Sec. 2412)</td><td>IRC § 1014</td><td style="text-align:right;color:var(--green);font-weight:700">$50B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Financial Transaction Tax — 0.1% equity/bond (Sec. 2413)</td><td>Wall St. Levy</td><td style="text-align:right;color:var(--green);font-weight:700">$75B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Mineral Royalty Reform — onshore 12.5%→18.75% (Sec. 2415)</td><td>Royalty</td><td style="text-align:right;color:var(--green);font-weight:700">$15B+</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Federal Land Royalty Reform (Sec. 2414)</td><td>Royalty</td><td style="text-align:right;color:var(--green);font-weight:700">$15B</td><td><span class="badge b-amber">Pending</span></td></tr>
-          <tr><td>Financial Sector Excess Profits Assessment (Sec. 2415)</td><td>Excise</td><td style="text-align:right;color:var(--green);font-weight:700">$20B</td><td><span class="badge b-amber">Pending</span></td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- Corporate Benefit Scorecard -->
-    <div class="panel col-12" id="corporate-grades" style="margin-top:8px">
-      <div class="panel-label">Transparency — Corporate Benefit Audit</div>
-      <div class="panel-title">What Each Sector Gains. What It Gives Up. Why.</div>
-      <div class="panel-sub" style="margin-bottom:12px">The NSRA is not anti-corporate. It is anti-extraction. This audit scores each sector on <strong style="color:var(--text)">net benefit received</strong> &mdash; counting every exemption, credit, grant, demand expansion, transition rebate, and just-compensation guarantee the bill extends to it, weighed against the costs it bears. Every sector that makes things, employs people, and competes on merit gains. Every sector that profits from wage arbitrage, rent extraction, or financial engineering is restructured &mdash; with compensation. That distinction is intentional.</div>
-
-      <div style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:20px;font-size:10px;color:var(--muted);align-items:center">
-        <strong style="color:var(--text);font-size:11px">Benefit Scale:</strong>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:5px"></span>7.0&ndash;10 &nbsp;Major net beneficiary</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--blue);margin-right:5px"></span>5.0&ndash;6.9 &nbsp;Net positive on balance</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--amber);margin-right:5px"></span>4.0&ndash;4.9 &nbsp;Mixed &mdash; gains offset by restructuring</span>
-        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:5px"></span>Below 4.0 &nbsp;Net restructured &mdash; protections retained</span>
-      </div>
-
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:20px">
-
-        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Small Business (&lt;$10M)</div>
-            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">9.5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Expressly exempt from all Covered Entity obligations. Zero-equity Vanguard Capital grants. Free SBA compliance assistance. Tiered penalty schedules. Domestic content certification at no cost. The most pro-small-business legislation in a generation.</div>
-        </div>
-
-        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Domestic Manufacturers</div>
-            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">8/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">WEA eliminates foreign wage arbitrage advantage. Buy American procurement preferences. Reshoring tax credit (15% accelerated depreciation). SPI Wage Floor Tax Credit (7.5%). $3B semiconductor fund. Corporate rate increase and carbon fee are real costs — offset by stronger domestic demand from BMP and wage floor provisions.</div>
-        </div>
-
-        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Defense Contractors</div>
-            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5.5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">SDEC binding efficiency audits expose cost-overrun programs. 95% domestic content is strict. But defense spending is maintained and $500M Vanguard grants fund critical materials manufacturers. Win for lean operators, loss for bloated cost-plus programs.</div>
-        </div>
-
-        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Large Corps (non-financial)</div>
-            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Corporate rate 28% (+7pts). SS payroll cap elimination raises employer labor costs on high-wage employees. NIMA (0.18% of gross revenue). Carbon fee. Offset by stronger consumer demand from BMP and infrastructure investment that reduces operational costs. Companies with genuine domestic value chains face higher taxes but a stronger economy.</div>
-        </div>
-
-        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Big Tech / Data Platforms</div>
-            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Graduated per-day penalties (Patch J: $500K/day → $2M/day) replace blanket revenue seizure. Judicial order required for structural remedies. $0.02/GB data tariff on model training ingestion. Foreign AI registration and sovereignty audits. Open-Source Compute Pool and semiconductor fund create new markets. Companies with transparent, domestic data practices face manageable compliance. Companies built on uncompensated data extraction face structural disruption.</div>
-        </div>
-
-        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Banking &amp; Financial Institutions</div>
-            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">FEPSA: 15% surtax on ROE above 12%. FTT: 0.1% on equity/bond trades. Capital flight monitoring with 4-hour ALJ warrant. 200% penalty for quantum migration non-compliance. LBO interest cap eliminates the financial engineering playbook. Community banks and credit unions below $10B are largely exempt — this targets the top tier.</div>
-        </div>
-
-        <div style="background:rgba(248,113,113,0.06);border:1px solid rgba(248,113,113,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Fossil Fuel &amp; Energy</div>
-            <div style="background:rgba(248,113,113,0.15);color:var(--red);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">3.5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Carbon fee $40/ton rising to $130/ton by Year 10. Royalty rates increased: onshore 12.5%→18.75%, offshore 18.75%→22%. New 8% hardrock mineral royalty. Transitional industry rebates (75% in Yrs 1-3) and Border Carbon Adjustment provide competitive protection during transition — the bill is designed to price carbon out of the energy mix long-term.</div>
-        </div>
-
-        <div style="background:rgba(248,113,113,0.06);border:1px solid rgba(248,113,113,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Pharmaceutical Industry</div>
-            <div style="background:rgba(248,113,113,0.15);color:var(--red);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">3/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Automatic patent recapture within 30 days of G7 parity breach. 8% royalty on generics, 12% orphan, 4% PHE. BMP formulary capped at G7 levels. $550B in federal Medicare + Medicaid savings over 10 years ($55B/yr) — sourced from PNAS 2024 analysis of full G7 parity for outpatient pharmaceuticals across Canada, France, Germany, Japan, and the UK. Industry loses pricing power in the world's largest pharmaceutical market. Bayh-Dole march-in applies only to taxpayer-funded research — fully private R&D is unaffected.</div>
-        </div>
-
-
-        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Health Insurers</div>
-            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5.5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">The NSRA does not eliminate health insurance — it regulates it. BMP covers the individual and small-group market (28M currently uninsured Americans per the bill's own findings), expanding the total covered pool carriers can serve. Large-group, employer-sponsored, and supplemental markets remain fully intact. The regulatory framework is specific: carriers face a 15% overhead/profit ceiling (85% MLR floor) with a 100% levy on retained premium above that ceiling routed to the Health Sovereignty Fund; a $25,000 per-instance automated civil penalty for prohibited prior-authorization denials; and a prior-authorization ban on all BMP-covered services except non-emergency inpatient admissions exceeding 5 days. Carriers accumulating 250+ violations in 12 months face mandatory suspension. Net result: carriers that operate on delivery efficiency gain a fully-covered patient pool and no billing risk. Carriers whose revenue model depends on denial rates and administrative friction face structural compliance costs. The bill targets the overhead, not the industry.</div>
-        </div>
-
-        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Healthcare Providers</div>
-            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">8/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Hospitals and provider networks are net beneficiaries. BMP closes the uncompensated care gap — hospitals currently absorb an estimated $42B/yr in uncompensated care costs (AHA figure; not stated in the bill) that suppress margins and get cost-shifted to insured patients. Under BMP, every patient carries coverage; bad-debt write-offs collapse and collection rates improve. PE acquisition of hospitals, nursing homes, and rural health systems is prohibited with 48-month divestment windows and just compensation at acquisition cost + Treasury yield. The $1B Vital Systems Transition Reserve pre-funds rural hospital stabilization before enforcement begins. BMP carriers that participate in the top-25% quality tier receive up to a 5% bonus on risk-adjusted rates — providers treating BMP enrollees benefit from those better-capitalized carrier partners. The bill's zero-cost-sharing mandate eliminates one of the primary drivers of delayed care and bad-debt: patients who skip treatment because they can't afford a copay. Independent, nonprofit, and federally qualified health centers benefit most; PE-owned and high-overhead consolidated systems face the steepest compliance investment.</div>
-        </div>
-
-        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">Private Equity</div>
-            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">Patch J judicial order requirement + 45/60/180-day notice schedules protect portfolio companies from immediate clawbacks. PE investment in competitive markets unrestricted — restrictions apply to SFR housing only of systems whose failure kills people. Hospitals, nursing homes, 911 dispatch, rural emergency services, and EMS are not investment theses; they are public safety infrastructure. The evidence base is unambiguous: private equity ownership of these systems is correlated with increased mortality, accelerated staff cuts, and destabilized local healthcare markets. The restriction is surgical, not ideological. Outside of Critical Life-Safety Systems: housing portfolio capped at 50 units/MSA, agricultural land concentration capped at 12%. Carried interest taxed as ordinary income. LBO interest deductibility capped. Just compensation at acquisition cost + Treasury yield is provided on all forced divestments — this is not confiscation, it is regulated exit.</div>
-        </div>
-
-        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-            <div style="font-weight:700;font-size:13px;color:var(--text)">REITs / Institutional Real Estate</div>
-            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4.5/10</div>
-          </div>
-          <div style="font-size:11px;color:var(--muted);line-height:1.6">V_abs 4.5%/quarter orderly divestment schedule + independent appraisal + Penn Central compliance. Managed portfolio wind-down replaces cliff divestment. 50-unit MSA cap applies to SFR only. 20% Rent Extraction Levy on rents above Structural Rent Baseline in concentrated markets. V_abs throttle prevents fire-sale losses. Just compensation at acquisition cost + Treasury yield provided. The business model of institutional single-family housing aggregation is legislated out of existence — with compensation.</div>
-        </div>
-
-      </div>
-
-      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:10px;padding:14px;font-size:12px;color:var(--muted);line-height:1.7">
-        <strong style="color:var(--amber)">The Distinction That Matters:</strong> Read the scores as a benefit ledger, not a threat assessment. No sector on this list is destroyed; every restructured sector retains a protected path &mdash; statutory exemptions for community banks and small business, just compensation at acquisition cost plus Treasury yield on every forced divestment, transitional rebates and border adjustment for energy, and untouched fully-private R&amp;D for pharmaceutical firms. This bill restructures the financial economy — the part of the corporate world that extracts value from housing, healthcare, data, and financial markets without creating it — and reinvests that value into the productive economy: the part that manufactures, employs, and builds. If your business model survives on merit, the NSRA is the most favorable operating environment in decades. The corporate allies this bill naturally creates — domestic manufacturers, community banks, clean energy companies, domestic healthcare providers, small businesses — represent a durable coalition.
-      </div>
-    </div>
-
-
-    <!-- SIRF -->
-    <div class="panel col-6">
-      <div class="panel-label">SIRF Tracker</div>
-      <div class="panel-title">Sovereign Infrastructure & Resilience Fund</div>
-      <div class="kpi-grid">
-        <div class="kpi-card"><div class="kpi-val a">$200B</div><div class="kpi-label">Phase 2 trigger threshold</div></div>
-        <div class="kpi-card"><div class="kpi-val g">≤25%</div><div class="kpi-label">Non-voting equity max</div></div>
-        <div class="kpi-card"><div class="kpi-val b">15 yrs</div><div class="kpi-label">Mandatory equity exit</div></div>
-        <div class="kpi-card"><div class="kpi-val g">$10–20B</div><div class="kpi-label">Projected yr-15 return</div></div>
-      </div>
-      <hr/>
-      <div class="panel-sub" style="color:var(--text);font-weight:600">Veterans Sovereignty Node</div>
-      <div class="chips">
-        <span class="chip warn">8% SIRF Allocation — Mandatory</span>
-        <span class="chip meet">⅔ Supermajority Protected</span>
-        <span class="chip">Indexed to PACT Act Enrollment</span>
-      </div>
-      <div class="panel-sub">Vital Systems Transition Reserve: $1B pre-funded</div>
-    </div>
-
-    <!-- Pharma -->
-    <div class="panel col-4">
-      <div class="panel-label">Pharmaceutical Architecture</div>
-      <div class="panel-title">Three-Layer Pricing System</div>
-      <div class="phase-list">
-        <div class="phase-item active">
-          <div class="phase-item-label">Layer 1 — NIH-Funded G7 Parity</div>
-          <div class="phase-item-val" style="font-size:14px">70% of blockbusters · Bayh-Dole</div>
-          <div class="phase-item-note">FDVM auto cross-ref FDA × NIH grant DB · Zero discretion</div>
-        </div>
-        <div class="phase-item pending">
-          <div class="phase-item-label">Layer 2 — Allied Pricing Compact</div>
-          <div class="phase-item-val" style="font-size:14px">USTR 90-day directive</div>
-          <div class="phase-item-note">2 bilateral agreements within 24 months</div>
-        </div>
-        <div class="phase-item locked">
-          <div class="phase-item-label">Layer 3 — Fallback (if Layer 2 fails)</div>
-          <div class="phase-item-val" style="font-size:14px">Innovation Protection Period</div>
-          <div class="phase-item-note">Private R&D drugs only · Binary NIH test · No litigation window</div>
-        </div>
-      </div>
-      <hr/>
-      <div class="panel-sub">Compulsory license royalty: <strong style="color:var(--green)">8% net sales</strong></div>
-      <div class="panel-sub">Medicare + Medicaid pharma savings: <strong style="color:var(--green)">$250B / 10yr</strong></div>
-      <div class="panel-sub">Global R&D Endowment: <strong>15%</strong> of pharma savings → NIH</div>
-    </div>
-
-    <!-- Nutrition -->
-    <div class="panel col-4">
-      <div class="panel-label">Nutrition Guard</div>
-      <div class="panel-title">SNAP & WIC Protection</div>
-      <div class="phase-item active">
-        <div class="phase-item-label">SNAP — Fully Protected</div>
-        <div class="phase-item-val" style="font-size:14px">42M beneficiaries · 1.54× multiplier</div>
-        <div class="phase-item-note">FDVM: retailer fraud only · $1B/yr recovery · Zero beneficiary impact</div>
-      </div>
-      <div class="phase-item active" style="margin-top:4px">
-        <div class="phase-item-label">WIC — Preserved + Expanded</div>
-        <div class="phase-item-val" style="font-size:14px">6.7M · Postpartum 12 → 24 months</div>
-        <div class="phase-item-note">Cost $7.3B/yr · Saves $18B Medicaid · ROI: 3.5×</div>
-      </div>
-      <hr/>
-      <div class="panel-sub">Both programs excluded from PRWORA reform language</div>
-      <div class="panel-sub">NSRA direct benefits excluded from both eligibility calculations</div>
-    </div>
-
-    <!-- Health -->
-    <div class="panel col-4">
-      <div class="panel-label">Health Coverage Stack</div>
-      <div class="panel-title">BMP + Medicare</div>
-      <div class="phase-item active">
-        <div class="phase-item-label">Basic Medical Plan</div>
-        <div class="phase-item-val" style="font-size:14px">$0 premium · $0 deductible</div>
-        <div class="phase-item-note">Funded via Medicaid/CHIP/ACA consolidation + pharma savings · Private carrier choice · 28M uninsured covered</div>
-      </div>
-      <div class="phase-item active" style="margin-top:4px">
-        <div class="phase-item-label">Medicare — Separate + Enhanced</div>
-        <div class="phase-item-val" style="font-size:14px">$400B dedicated payroll revenue</div>
-        <div class="phase-item-note">Not merged into BMP · Risk pools separate</div>
-      </div>
-      <hr/>
-      <div class="chips">
-        <span class="chip met">G7 Part D Parity</span>
-        <span class="chip met">FDVM Fraud Detection</span>
-        <span class="chip met">Dental + Vision + Hearing</span>
-      </div>
-      <div class="panel-sub" style="margin-top:4px">Dental/Vision bridge: $15B/yr via BMP supplemental structure</div>
-    </div>
-
-    <!-- Food & Agriculture Sovereignty -->
-    <div class="panel col-12">
-      <div class="panel-label">Title VII — Food Security &amp; Anti-Monopoly</div>
-      <div class="panel-title">No Cartels. No Price Gouging. No Foreign Control of Your Food Supply.</div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px">
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 701 — Anti-Monopoly</div>
-          <div style="font-size:14px;font-weight:700;color:var(--green)">12% Market Cap</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">No single entity may control &gt;12% of national food distribution, cold-storage, or seed/fertilizer supply · 180-day divestment → transfer to worker cooperatives &amp; municipal food security trusts</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Emergency Reserve</div>
-          <div style="font-size:14px;font-weight:700;color:var(--amber)">90-Day National Food Reserve</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">National Food Security Network (NFSN) maintains distributed regional reserves sufficient for full US population · Prevents single-point supply disruption</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Small Farmers</div>
-          <div style="font-size:14px;font-weight:700;color:var(--green)">$500M/yr Zero-Interest Loans</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">SIRF agricultural node · Farmers with &lt;$2M annual revenue · 10-year terms · No collateral beyond financed assets</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Foreign Land</div>
-          <div style="font-size:14px;font-weight:700;color:var(--red)">Foreign Ag Land Ban</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">Countries of concern (50 U.S.C. § 4872) banned from acquiring US agricultural land · Existing holdings &gt;320 acres: 24-month mandatory divestment</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 703 — Price Stability</div>
-          <div style="font-size:14px;font-weight:700;color:var(--amber)">Anti-Speculation Penalty</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">If gross margins on staples spike &gt;15% above 36-month avg while input costs are flat or falling → 50% of excess margin seized, routed to food bank network capitalization</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px;border-left:2px solid var(--red)">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 704 — Chemical Bans</div>
-          <div style="font-size:14px;font-weight:700;color:var(--red)">Harmful Additive Prohibition</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">Bans food additives prohibited in 3+ G7 nations · 5-yr mandatory GRAS review with auto-sunset · PFAS in food packaging banned within 18mo · Priority list: potassium bromate, propylparaben, ADA, BVO, petroleum-derived dyes in children's products</div>
-        </div>
-        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 703 — Transparency</div>
-          <div style="font-size:14px;font-weight:700;color:var(--blue)">Grocery Price Disclosure</div>
-          <div style="font-size:10px;color:var(--muted);margin-top:3px">Retailers &gt;$500M revenue must file quarterly price-cost margin reports by product category · Published publicly within 30 days · Anti-shrinkflation: &gt;5% quantity reduction without disclosure = unlawful</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- PE Timeline -->
-    <div class="panel col-6">
-      <div class="panel-label">Titles XIV + XXII — PE Divestiture</div>
-      <div class="panel-title">All PE Compliance Windows</div>
-      <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Healthcare / Critical Systems — Title XXII</div>
-      <div class="gantt">
-        <div class="gantt-row"><div class="gantt-label">911 Dispatch / PSAPs</div><div class="gantt-track"><div class="gantt-fill" style="width:50%;background:var(--red)"></div></div><div class="gantt-mo">24mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">EMS & Ambulance Fleets</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">Air Ambulance Transport</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">First Responder Supply (&gt;25%)</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">Hospital Sale-Leasebacks (&gt;15%)</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">Acute Care Hospitals</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--blue)"></div></div><div class="gantt-mo">48mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">Nursing Homes / ALF</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--blue)"></div></div><div class="gantt-mo">48mo</div></div>
-        <div class="gantt-row"><div class="gantt-label">Rural Hospital Closure</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--green)"></div></div><div class="gantt-mo">SIRF</div></div>
-      </div>
-      <hr/>
-      <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Single-Family Housing — Title XIV · Sec. 1401</div>
-      <div class="gantt">
-        <div class="gantt-row"><div class="gantt-label">PE/REIT &gt;50 homes/MSA</div><div class="gantt-track"><div class="gantt-fill" style="width:37%;background:var(--purple)"></div></div><div class="gantt-mo">180d</div></div>
-      </div>
-      <div class="panel-sub" style="margin-top:4px">Sell to primary-residence buyers only · ≤110% appraised value · <strong style="color:var(--purple)">V_abs ≤ 4.5%/qtr throttle</strong> — prevents market-crashing asset dumps · Multi-family (4+ units), senior, student &amp; nonprofit housing exempt · Individual/family trusts &lt;10 units grandfathered</div>
-      <hr/>
-      <div class="panel-sub">Title XXII bases: Commerce + Spending Clauses · Critical Infrastructure precedent · $1B SIRF reserve pre-funded</div>
-    </div>
-
-    <!-- Veterans -->
-    <div class="panel col-6">
-      <div class="panel-label">Title XXV — Veterans Health Sovereignty</div>
-      <div class="panel-title">Three-Tier Architecture + 6 PACT Act Gaps</div>
-      <div class="tier-list">
-        <div class="tier-card">
-          <div class="tier-num" style="color:var(--green)">1</div>
-          <div class="tier-info">
-            <strong>Service-Connected — VA as Sovereign BMP</strong>
-            <span>$0 · Anti-privatization permanent in statute · ⅔ supermajority to override</span>
-          </div>
-        </div>
-        <div class="tier-card">
-          <div class="tier-num" style="color:var(--blue)">2</div>
-          <div class="tier-info">
-            <strong>Non-Service-Connected — BMP via Private Carrier</strong>
-            <span>$0 · Closes 1.8M uninsured veteran gap</span>
-          </div>
-        </div>
-        <div class="tier-card">
-          <div class="tier-num" style="color:var(--muted)">3</div>
-          <div class="tier-info">
-            <strong>Voluntary Supplemental</strong>
-            <span>Out-of-pocket · No federal subsidy · No restriction</span>
-          </div>
-        </div>
-      </div>
-      <hr/>
-      <div class="panel-sub" style="color:var(--text);font-weight:600">6 PACT Act Gaps Closed</div>
-      <div class="chips">
-        <span class="chip met">125-day claims standard</span>
-        <span class="chip met">50% interim benefits</span>
-        <span class="chip met">Same-day MH crisis access</span>
-        <span class="chip met">Toxic registry auto-enroll</span>
-        <span class="chip met">8% SIRF veterans node</span>
-        <span class="chip met">$500M research endowment</span>
-      </div>
-    </div>
-
-  </div><!-- /grid -->
-</div><!-- /dashboard section -->
-
-<!-- LEGAL ARCHITECTURE REVIEW -->
 <div class="section" id="legal-review" style="padding-top:0">
   <div class="section-header">
     <h2>Legislative Architecture Review</h2>
@@ -2079,6 +1640,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <span>36 Titles · 218 Sections · 27 Committees of Jurisdiction · Single Unified Act · Complete Statutory Text</span>
   </div>
   <div style="margin:0 0 16px"><a href="/NSRA_COMPLETE_TEXT.pdf" download="NSRA_Complete_Text.pdf" style="display:inline-block;background:var(--green);color:#04120a;font-weight:800;font-size:13px;padding:11px 22px;border-radius:8px;text-decoration:none">Download the full bill (PDF) &darr;</a></div>
+  <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin-bottom:16px">
+    <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Key Acronyms &amp; Terms</div>
+    <div style="font-size:11px;color:var(--muted);margin-bottom:10px">The NSRA uses defined statutory instruments and administrative bodies. Full definitions live in Sec. 003 (Consolidated Master Definitions) of the bill text.</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 26px"><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NSRA</span><span style="color:var(--muted)">National Sovereignty and Resilience Act</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SIRF</span><span style="color:var(--muted)">Sovereign Infrastructure Reinvestment Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FMIA</span><span style="color:var(--muted)">Federal Market Integrity Administration</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FDVM</span><span style="color:var(--muted)">Federal Data Veracity Matrix</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">BMP</span><span style="color:var(--muted)">Basic Minimum Plan (universal coverage)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">HSF</span><span style="color:var(--muted)">Health Sovereignty Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SPI</span><span style="color:var(--muted)">Sovereign Productivity Index</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NIMA</span><span style="color:var(--muted)">National Infrastructure Maintenance Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTT</span><span style="color:var(--muted)">Financial Transaction Tax (0.1%)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTA</span><span style="color:var(--muted)">Financial Transaction Assessment (0.02%, large institutional trades)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">WEA</span><span style="color:var(--muted)">Wage Equalization Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SDEC</span><span style="color:var(--muted)">Sovereign Defense Efficiency Commission</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SCA</span><span style="color:var(--muted)">Sovereign Compute Authority</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">VSN</span><span style="color:var(--muted)">Veterans Sovereignty Node</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CPT</span><span style="color:var(--muted)">Child Prosperity Trust</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">A.B.R.N.</span><span style="color:var(--muted)">Automated Environmental Remediation Network</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">V_abs</span><span style="color:var(--muted)">Volume Absorption Throttle (housing divestiture)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">ALJ</span><span style="color:var(--muted)">Administrative Law Judge</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">MSA</span><span style="color:var(--muted)">Metropolitan Statistical Area</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OASDI</span><span style="color:var(--muted)">Old-Age, Survivors &amp; Disability Insurance (Social Security)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">G7</span><span style="color:var(--muted)">Group of Seven (pharmaceutical price benchmark)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CBO / JCT</span><span style="color:var(--muted)">Congressional Budget Office / Joint Committee on Taxation</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OMB / GAO</span><span style="color:var(--muted)">Office of Management &amp; Budget / Government Accountability Office</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">Schedule F</span><span style="color:var(--muted)">Pharmaceutical compulsory-licensing royalty schedule</span></div></div>
+  </div>
   <!-- BRIEFING DOCUMENTS SHELF -->
   <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin-bottom:16px">
     <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px">Briefing Documents</div>
@@ -6164,6 +5730,447 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     </div>
 
 </div>
+
+<div class="section" id="dashboard">
+  <div class="section-header">
+    <h2>Live Dashboard</h2>
+    <span>Legislative Status Engine</span>
+  </div>
+  <div class="grid">
+
+    <!-- Year 1 Impact -->
+    <div class="panel col-12">
+      <div class="panel-label">Year 1 American Relief</div>
+      <div class="panel-title">What Americans Feel Before the Check Arrives</div>
+      <div class="impact-cards">
+        <div class="impact-card"><div class="impact-group">8.4M insulin-dependent Americans</div><div class="impact-relief" style="color:var(--green)">$2,400–$4,800/yr saved</div></div>
+        <div class="impact-card"><div class="impact-group">28M uninsured Americans</div><div class="impact-relief" style="color:var(--blue)">$6,000–$9,600/yr BMP coverage value</div></div>
+        <div class="impact-card"><div class="impact-group">43M student loan borrowers</div><div class="impact-relief" style="color:var(--blue)">$2,400/yr zero-interest savings</div></div>
+        <div class="impact-card"><div class="impact-group">All Medicare seniors</div><div class="impact-relief" style="color:var(--green)">Dental · Vision · Hearing covered</div></div>
+        <div class="impact-card"><div class="impact-group">1.8M uninsured veterans</div><div class="impact-relief" style="color:var(--amber)">Full BMP at $0</div></div>
+        <div class="impact-card"><div class="impact-group">Every newborn in America</div><div class="impact-relief" style="color:var(--green)">$5,000 Child Prosperity Trust</div><div style="font-size:9px;color:var(--muted);margin-top:3px">SIRF-funded outright grant — complements Trump Accounts ($1K seed + $5K/yr savings vehicle, Jul 2026)</div></div>
+        <div class="impact-card"><div class="impact-group">42M SNAP recipients</div><div class="impact-relief" style="color:var(--green)">Benefits protected in statute</div></div>
+        <div class="impact-card"><div class="impact-group">6.7M WIC recipients</div><div class="impact-relief" style="color:var(--green)">Benefits preserved and extended</div></div>
+        <div class="impact-card"><div class="impact-group">All chronic medication users</div><div class="impact-relief" style="color:var(--green)">Drug prices cut to G7 levels — same pill, fraction of the price</div></div>
+        <div class="impact-card"><div class="impact-group">PE hospital market families</div><div class="impact-relief" style="color:var(--amber)">No ER closures · No staff cuts</div></div>
+        <div class="impact-card"><div class="impact-group">Rural communities</div><div class="impact-relief" style="color:var(--blue)">Broadband buildout begins</div></div>
+      </div>
+    </div>
+
+    <!-- Phase Gate Banner -->
+    <div class="panel col-12">
+      <div class="panel-label">Schedule E — Phase Gate Triggers</div>
+      <div class="gate-row">
+        <div class="gate">
+          <div class="gate-dot d-amber"></div>
+          <div class="gate-body">
+            <strong>Phase 1 — Pending Enactment</strong>
+            <p>Bill not yet passed · Upon passage: fiscal foundation building begins immediately.</p>
+          </div>
+        </div>
+        <div class="gate">
+          <div class="gate-dot d-red"></div>
+          <div class="gate-body">
+            <strong>Phase 2 — Gate 1 Conditions — Locked</strong>
+            <p>Gate 1 conditions: deficit &lt; $900B, CBO declining trend, SIRF &gt; $200B · Unlocks when all 3 conditions below are met</p>
+            <div class="chips">
+              <span class="chip">Deficit &lt; $900B</span>
+              <span class="chip">CBO 10yr Declining</span>
+              <span class="chip">SIRF &gt; $200B</span>
+            </div>
+          </div>
+        </div>
+        <div class="gate">
+          <div class="gate-dot d-red"></div>
+          <div class="gate-body">
+            <strong>Phase 3 — Gate 2 Conditions — Locked</strong>
+            <p>Full universal relief at statutory rates · Unlocks when both conditions below are met</p>
+            <div class="chips">
+              <span class="chip">Debt/GDP &lt; 110%</span>
+              <span class="chip warn">Now: 101% (CBO 2026)</span>
+              <span class="chip">Deficit &lt; $400B</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fiscal KPIs -->
+    <div class="panel col-4">
+      <div class="panel-label">Fiscal KPI Stack</div>
+      <div class="panel-title">Phase 1 Fiscal Math</div>
+      <div style="margin:1px 0 9px"><a href="#evidence-standard" style="text-decoration:none"><span style="font-size:8px;font-weight:800;letter-spacing:0.04em;text-transform:uppercase;color:var(--blue);background:rgba(96,165,250,0.12);border:1px solid rgba(96,165,250,0.3);padding:2px 7px;border-radius:20px">Gov. baseline &middot; Internally modeled &middot; Sensitivity tested</span></a></div>
+      <div style="margin:0 0 10px"><a href="/fiscal-model/" style="font-size:11px;font-weight:700;color:var(--green);text-decoration:none">&#9656; Run the interactive fiscal model &rarr;</a></div>
+      <div class="kpi-grid">
+        <div class="kpi-card"><div class="kpi-val g">$749B</div><div class="kpi-label">Year 1 revenue (12 scored streams, confidence-weighted, WEA upside not included)</div></div>
+        <div class="kpi-card"><div class="kpi-val">$204B</div><div class="kpi-label">Expenditures (programs + student loan + MGHS Fund)</div></div>
+        <div class="kpi-card"><div class="kpi-val g">$575B</div><div class="kpi-label">Net revenue surplus (Year 1)</div></div>
+        <div class="kpi-card"><div class="kpi-val a">−$95B</div><div class="kpi-label">Effective mandatory growth headwind (SS cap offsets $80B)</div></div>
+        <div class="kpi-card"><div class="kpi-val g">$554B</div><div class="kpi-label">True annual deficit reduction (Year 1)</div></div>
+        <div class="kpi-card"><div class="kpi-val b">Year 4</div><div class="kpi-label">Balanced budget (range: Yr 3–5)</div></div>
+        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--amber)"><div class="kpi-val a">$1.9T</div><div class="kpi-label">Current deficit — CBO FY2026 projection ($955B first 7 months · May 2026)</div></div>
+        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--blue)"><div class="kpi-val b">101%</div><div class="kpi-label">Current debt/GDP — CBO Budget &amp; Economic Outlook 2026–2036</div></div>
+        <div class="kpi-card" style="grid-column:span 2;border-left:3px solid var(--green)"><div class="kpi-val g" id="live-debt">$39.2T</div><div class="kpi-label"><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--green);margin-right:5px;vertical-align:middle"></span>Live U.S. National Debt <span id="live-debt-date" style="color:var(--muted)">&middot; as of 2026-06-02 &middot; U.S. Treasury</span></div></div>
+      </div>
+    </div>
+
+    <!-- Revenue Matrix -->
+    <div class="panel col-8">
+      <div class="panel-label">Revenue Stream Matrix</div>
+      <div class="panel-title">Phase 1 Revenue Engine</div>
+      <table>
+        <thead>
+          <tr><th>Stream</th><th>Type</th><th style="text-align:right">Yield / yr</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>NIMA — 0.18% domestic gross &gt;$100M</td><td>User Fee</td><td style="text-align:right;color:var(--green);font-weight:700">$39.6B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>FTA — 0.02% institutional trades &gt;$1M</td><td>Assessment</td><td style="text-align:right;color:var(--green);font-weight:700">$7B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>LBO Interest Cap — 30% EBITDA max</td><td>Code Reform</td><td style="text-align:right;color:var(--green);font-weight:700">$18B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Carried Interest → Ordinary Income</td><td>Code Reform</td><td style="text-align:right;color:var(--green);font-weight:700">$14B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>IRS Enforcement Fund ($15B → $75–105B net)</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$90B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>SDEC — DoD Efficiency Commission</td><td>Spending Cut</td><td style="text-align:right;color:var(--amber);font-weight:700">$40B</td><td><span class="badge b-muted">Pending Yr 5</span></td></tr>
+          <tr><td>Medicare + Medicaid Pharma Savings — G7 Parity (10-yr)</td><td>Pharma</td><td style="text-align:right;color:var(--green);font-weight:700">$550B</td><td><span class="badge b-muted">10-yr total · PNAS 2024</span></td></tr>
+          <tr><td>FDVM — Medicare Fraud Detection</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$20B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>SNAP Retailer Fraud Recovery</td><td>Enforcement</td><td style="text-align:right;color:var(--green);font-weight:700">$1B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Student Loan Zero-Interest (forgone net interest)</td><td>Program Cost</td><td style="text-align:right;color:var(--red);font-weight:700">−$25B</td><td><span class="badge b-muted">Yr 1+</span></td></tr>
+          <tr><td>Wage Equalization Assessment (WEA)</td><td>Trade Levy</td><td style="text-align:right;color:var(--amber);font-weight:700">TBD</td><td><span class="badge b-muted">USITC Pre-Score Req.</span></td></tr>
+          <tr><td>SPI Wage Floor Tax Credit</td><td>Credit</td><td style="text-align:right;color:var(--muted);font-weight:700">−$10B</td><td><span class="badge b-muted">Phase 2</span></td></tr>
+          <tr style="border-top:2px solid var(--border)"><td colspan="4" style="color:var(--amber);font-size:11px;font-weight:700;padding:6px 0 2px">TAX CODE EQUITY STREAMS — Secs. 2408–2415</td></tr>
+          <tr><td>SS Payroll Cap Elimination (Sec. 2408)</td><td>IRC § 3121</td><td style="text-align:right;color:var(--green);font-weight:700">$150B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Corporate Rate 28% (Sec. 2409)</td><td>IRC § 11</td><td style="text-align:right;color:var(--green);font-weight:700">$110B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Carbon Dividend Fee (Sec. 2410)</td><td>Fee + Dividend</td><td style="text-align:right;color:var(--green);font-weight:700">$85B net</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>OECD Pillar Two Full Implementation (Sec. 2411)</td><td>Global Min Tax</td><td style="text-align:right;color:var(--green);font-weight:700">$75B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Step-Up Basis Reform — estates &gt;$5M (Sec. 2412)</td><td>IRC § 1014</td><td style="text-align:right;color:var(--green);font-weight:700">$50B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Financial Transaction Tax — 0.1% equity/bond (Sec. 2413)</td><td>Wall St. Levy</td><td style="text-align:right;color:var(--green);font-weight:700">$75B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Mineral Royalty Reform — onshore 12.5%→18.75% (Sec. 2415)</td><td>Royalty</td><td style="text-align:right;color:var(--green);font-weight:700">$15B+</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Federal Land Royalty Reform (Sec. 2414)</td><td>Royalty</td><td style="text-align:right;color:var(--green);font-weight:700">$15B</td><td><span class="badge b-amber">Pending</span></td></tr>
+          <tr><td>Financial Sector Excess Profits Assessment (Sec. 2415)</td><td>Excise</td><td style="text-align:right;color:var(--green);font-weight:700">$20B</td><td><span class="badge b-amber">Pending</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Corporate Benefit Scorecard -->
+    <div class="panel col-12" id="corporate-grades" style="margin-top:8px">
+      <div class="panel-label">Transparency — Corporate Benefit Audit</div>
+      <div class="panel-title">What Each Sector Gains. What It Gives Up. Why.</div>
+      <div class="panel-sub" style="margin-bottom:12px">The NSRA is not anti-corporate. It is anti-extraction. This audit scores each sector on <strong style="color:var(--text)">net benefit received</strong> &mdash; counting every exemption, credit, grant, demand expansion, transition rebate, and just-compensation guarantee the bill extends to it, weighed against the costs it bears. Every sector that makes things, employs people, and competes on merit gains. Every sector that profits from wage arbitrage, rent extraction, or financial engineering is restructured &mdash; with compensation. That distinction is intentional.</div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:14px;margin-bottom:20px;font-size:10px;color:var(--muted);align-items:center">
+        <strong style="color:var(--text);font-size:11px">Benefit Scale:</strong>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--green);margin-right:5px"></span>7.0&ndash;10 &nbsp;Major net beneficiary</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--blue);margin-right:5px"></span>5.0&ndash;6.9 &nbsp;Net positive on balance</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--amber);margin-right:5px"></span>4.0&ndash;4.9 &nbsp;Mixed &mdash; gains offset by restructuring</span>
+        <span><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--red);margin-right:5px"></span>Below 4.0 &nbsp;Net restructured &mdash; protections retained</span>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-bottom:20px">
+
+        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Small Business (&lt;$10M)</div>
+            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">9.5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Expressly exempt from all Covered Entity obligations. Zero-equity Vanguard Capital grants. Free SBA compliance assistance. Tiered penalty schedules. Domestic content certification at no cost. The most pro-small-business legislation in a generation.</div>
+        </div>
+
+        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Domestic Manufacturers</div>
+            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">8/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">WEA eliminates foreign wage arbitrage advantage. Buy American procurement preferences. Reshoring tax credit (15% accelerated depreciation). SPI Wage Floor Tax Credit (7.5%). $3B semiconductor fund. Corporate rate increase and carbon fee are real costs — offset by stronger domestic demand from BMP and wage floor provisions.</div>
+        </div>
+
+        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Defense Contractors</div>
+            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5.5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">SDEC binding efficiency audits expose cost-overrun programs. 95% domestic content is strict. But defense spending is maintained and $500M Vanguard grants fund critical materials manufacturers. Win for lean operators, loss for bloated cost-plus programs.</div>
+        </div>
+
+        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Large Corps (non-financial)</div>
+            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Corporate rate 28% (+7pts). SS payroll cap elimination raises employer labor costs on high-wage employees. NIMA (0.18% of gross revenue). Carbon fee. Offset by stronger consumer demand from BMP and infrastructure investment that reduces operational costs. Companies with genuine domestic value chains face higher taxes but a stronger economy.</div>
+        </div>
+
+        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Big Tech / Data Platforms</div>
+            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Graduated per-day penalties (Patch J: $500K/day → $2M/day) replace blanket revenue seizure. Judicial order required for structural remedies. $0.02/GB data tariff on model training ingestion. Foreign AI registration and sovereignty audits. Open-Source Compute Pool and semiconductor fund create new markets. Companies with transparent, domestic data practices face manageable compliance. Companies built on uncompensated data extraction face structural disruption.</div>
+        </div>
+
+        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Banking &amp; Financial Institutions</div>
+            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">FEPSA: 15% surtax on ROE above 12%. FTT: 0.1% on equity/bond trades. Capital flight monitoring with 4-hour ALJ warrant. 200% penalty for quantum migration non-compliance. LBO interest cap eliminates the financial engineering playbook. Community banks and credit unions below $10B are largely exempt — this targets the top tier.</div>
+        </div>
+
+        <div style="background:rgba(248,113,113,0.06);border:1px solid rgba(248,113,113,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Fossil Fuel &amp; Energy</div>
+            <div style="background:rgba(248,113,113,0.15);color:var(--red);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">3.5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Carbon fee $40/ton rising to $130/ton by Year 10. Royalty rates increased: onshore 12.5%→18.75%, offshore 18.75%→22%. New 8% hardrock mineral royalty. Transitional industry rebates (75% in Yrs 1-3) and Border Carbon Adjustment provide competitive protection during transition — the bill is designed to price carbon out of the energy mix long-term.</div>
+        </div>
+
+        <div style="background:rgba(248,113,113,0.06);border:1px solid rgba(248,113,113,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Pharmaceutical Industry</div>
+            <div style="background:rgba(248,113,113,0.15);color:var(--red);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">3/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Automatic patent recapture within 30 days of G7 parity breach. 8% royalty on generics, 12% orphan, 4% PHE. BMP formulary capped at G7 levels. $550B in federal Medicare + Medicaid savings over 10 years ($55B/yr) — sourced from PNAS 2024 analysis of full G7 parity for outpatient pharmaceuticals across Canada, France, Germany, Japan, and the UK. Industry loses pricing power in the world's largest pharmaceutical market. Bayh-Dole march-in applies only to taxpayer-funded research — fully private R&D is unaffected.</div>
+        </div>
+
+
+        <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Health Insurers</div>
+            <div style="background:rgba(96,165,250,0.15);color:var(--blue);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">5.5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">The NSRA does not eliminate health insurance — it regulates it. BMP covers the individual and small-group market (28M currently uninsured Americans per the bill's own findings), expanding the total covered pool carriers can serve. Large-group, employer-sponsored, and supplemental markets remain fully intact. The regulatory framework is specific: carriers face a 15% overhead/profit ceiling (85% MLR floor) with a 100% levy on retained premium above that ceiling routed to the Health Sovereignty Fund; a $25,000 per-instance automated civil penalty for prohibited prior-authorization denials; and a prior-authorization ban on all BMP-covered services except non-emergency inpatient admissions exceeding 5 days. Carriers accumulating 250+ violations in 12 months face mandatory suspension. Net result: carriers that operate on delivery efficiency gain a fully-covered patient pool and no billing risk. Carriers whose revenue model depends on denial rates and administrative friction face structural compliance costs. The bill targets the overhead, not the industry.</div>
+        </div>
+
+        <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Healthcare Providers</div>
+            <div style="background:rgba(34,197,94,0.15);color:var(--green);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">8/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Hospitals and provider networks are net beneficiaries. BMP closes the uncompensated care gap — hospitals currently absorb an estimated $42B/yr in uncompensated care costs (AHA figure; not stated in the bill) that suppress margins and get cost-shifted to insured patients. Under BMP, every patient carries coverage; bad-debt write-offs collapse and collection rates improve. PE acquisition of hospitals, nursing homes, and rural health systems is prohibited with 48-month divestment windows and just compensation at acquisition cost + Treasury yield. The $1B Vital Systems Transition Reserve pre-funds rural hospital stabilization before enforcement begins. BMP carriers that participate in the top-25% quality tier receive up to a 5% bonus on risk-adjusted rates — providers treating BMP enrollees benefit from those better-capitalized carrier partners. The bill's zero-cost-sharing mandate eliminates one of the primary drivers of delayed care and bad-debt: patients who skip treatment because they can't afford a copay. Independent, nonprofit, and federally qualified health centers benefit most; PE-owned and high-overhead consolidated systems face the steepest compliance investment.</div>
+        </div>
+
+        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">Private Equity</div>
+            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">Patch J judicial order requirement + 45/60/180-day notice schedules protect portfolio companies from immediate clawbacks. PE investment in competitive markets unrestricted — restrictions apply to SFR housing only of systems whose failure kills people. Hospitals, nursing homes, 911 dispatch, rural emergency services, and EMS are not investment theses; they are public safety infrastructure. The evidence base is unambiguous: private equity ownership of these systems is correlated with increased mortality, accelerated staff cuts, and destabilized local healthcare markets. The restriction is surgical, not ideological. Outside of Critical Life-Safety Systems: housing portfolio capped at 50 units/MSA, agricultural land concentration capped at 12%. Carried interest taxed as ordinary income. LBO interest deductibility capped. Just compensation at acquisition cost + Treasury yield is provided on all forced divestments — this is not confiscation, it is regulated exit.</div>
+        </div>
+
+        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <div style="font-weight:700;font-size:13px;color:var(--text)">REITs / Institutional Real Estate</div>
+            <div style="background:rgba(245,158,11,0.15);color:var(--amber);font-weight:800;font-size:15px;padding:2px 10px;border-radius:20px">4.5/10</div>
+          </div>
+          <div style="font-size:11px;color:var(--muted);line-height:1.6">V_abs 4.5%/quarter orderly divestment schedule + independent appraisal + Penn Central compliance. Managed portfolio wind-down replaces cliff divestment. 50-unit MSA cap applies to SFR only. 20% Rent Extraction Levy on rents above Structural Rent Baseline in concentrated markets. V_abs throttle prevents fire-sale losses. Just compensation at acquisition cost + Treasury yield provided. The business model of institutional single-family housing aggregation is legislated out of existence — with compensation.</div>
+        </div>
+
+      </div>
+
+      <div style="background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.25);border-radius:10px;padding:14px;font-size:12px;color:var(--muted);line-height:1.7">
+        <strong style="color:var(--amber)">The Distinction That Matters:</strong> Read the scores as a benefit ledger, not a threat assessment. No sector on this list is destroyed; every restructured sector retains a protected path &mdash; statutory exemptions for community banks and small business, just compensation at acquisition cost plus Treasury yield on every forced divestment, transitional rebates and border adjustment for energy, and untouched fully-private R&amp;D for pharmaceutical firms. This bill restructures the financial economy — the part of the corporate world that extracts value from housing, healthcare, data, and financial markets without creating it — and reinvests that value into the productive economy: the part that manufactures, employs, and builds. If your business model survives on merit, the NSRA is the most favorable operating environment in decades. The corporate allies this bill naturally creates — domestic manufacturers, community banks, clean energy companies, domestic healthcare providers, small businesses — represent a durable coalition.
+      </div>
+    </div>
+
+
+    <!-- SIRF -->
+    <div class="panel col-6">
+      <div class="panel-label">SIRF Tracker</div>
+      <div class="panel-title">Sovereign Infrastructure & Resilience Fund</div>
+      <div class="kpi-grid">
+        <div class="kpi-card"><div class="kpi-val a">$200B</div><div class="kpi-label">Phase 2 trigger threshold</div></div>
+        <div class="kpi-card"><div class="kpi-val g">≤25%</div><div class="kpi-label">Non-voting equity max</div></div>
+        <div class="kpi-card"><div class="kpi-val b">15 yrs</div><div class="kpi-label">Mandatory equity exit</div></div>
+        <div class="kpi-card"><div class="kpi-val g">$10–20B</div><div class="kpi-label">Projected yr-15 return</div></div>
+      </div>
+      <hr/>
+      <div class="panel-sub" style="color:var(--text);font-weight:600">Veterans Sovereignty Node</div>
+      <div class="chips">
+        <span class="chip warn">8% SIRF Allocation — Mandatory</span>
+        <span class="chip meet">⅔ Supermajority Protected</span>
+        <span class="chip">Indexed to PACT Act Enrollment</span>
+      </div>
+      <div class="panel-sub">Vital Systems Transition Reserve: $1B pre-funded</div>
+    </div>
+
+    <!-- Pharma -->
+    <div class="panel col-4">
+      <div class="panel-label">Pharmaceutical Architecture</div>
+      <div class="panel-title">Three-Layer Pricing System</div>
+      <div class="phase-list">
+        <div class="phase-item active">
+          <div class="phase-item-label">Layer 1 — NIH-Funded G7 Parity</div>
+          <div class="phase-item-val" style="font-size:14px">70% of blockbusters · Bayh-Dole</div>
+          <div class="phase-item-note">FDVM auto cross-ref FDA × NIH grant DB · Zero discretion</div>
+        </div>
+        <div class="phase-item pending">
+          <div class="phase-item-label">Layer 2 — Allied Pricing Compact</div>
+          <div class="phase-item-val" style="font-size:14px">USTR 90-day directive</div>
+          <div class="phase-item-note">2 bilateral agreements within 24 months</div>
+        </div>
+        <div class="phase-item locked">
+          <div class="phase-item-label">Layer 3 — Fallback (if Layer 2 fails)</div>
+          <div class="phase-item-val" style="font-size:14px">Innovation Protection Period</div>
+          <div class="phase-item-note">Private R&D drugs only · Binary NIH test · No litigation window</div>
+        </div>
+      </div>
+      <hr/>
+      <div class="panel-sub">Compulsory license royalty: <strong style="color:var(--green)">8% net sales</strong></div>
+      <div class="panel-sub">Medicare + Medicaid pharma savings: <strong style="color:var(--green)">$250B / 10yr</strong></div>
+      <div class="panel-sub">Global R&D Endowment: <strong>15%</strong> of pharma savings → NIH</div>
+    </div>
+
+    <!-- Nutrition -->
+    <div class="panel col-4">
+      <div class="panel-label">Nutrition Guard</div>
+      <div class="panel-title">SNAP & WIC Protection</div>
+      <div class="phase-item active">
+        <div class="phase-item-label">SNAP — Fully Protected</div>
+        <div class="phase-item-val" style="font-size:14px">42M beneficiaries · 1.54× multiplier</div>
+        <div class="phase-item-note">FDVM: retailer fraud only · $1B/yr recovery · Zero beneficiary impact</div>
+      </div>
+      <div class="phase-item active" style="margin-top:4px">
+        <div class="phase-item-label">WIC — Preserved + Expanded</div>
+        <div class="phase-item-val" style="font-size:14px">6.7M · Postpartum 12 → 24 months</div>
+        <div class="phase-item-note">Cost $7.3B/yr · Saves $18B Medicaid · ROI: 3.5×</div>
+      </div>
+      <hr/>
+      <div class="panel-sub">Both programs excluded from PRWORA reform language</div>
+      <div class="panel-sub">NSRA direct benefits excluded from both eligibility calculations</div>
+    </div>
+
+    <!-- Health -->
+    <div class="panel col-4">
+      <div class="panel-label">Health Coverage Stack</div>
+      <div class="panel-title">BMP + Medicare</div>
+      <div class="phase-item active">
+        <div class="phase-item-label">Basic Medical Plan</div>
+        <div class="phase-item-val" style="font-size:14px">$0 premium · $0 deductible</div>
+        <div class="phase-item-note">Funded via Medicaid/CHIP/ACA consolidation + pharma savings · Private carrier choice · 28M uninsured covered</div>
+      </div>
+      <div class="phase-item active" style="margin-top:4px">
+        <div class="phase-item-label">Medicare — Separate + Enhanced</div>
+        <div class="phase-item-val" style="font-size:14px">$400B dedicated payroll revenue</div>
+        <div class="phase-item-note">Not merged into BMP · Risk pools separate</div>
+      </div>
+      <hr/>
+      <div class="chips">
+        <span class="chip met">G7 Part D Parity</span>
+        <span class="chip met">FDVM Fraud Detection</span>
+        <span class="chip met">Dental + Vision + Hearing</span>
+      </div>
+      <div class="panel-sub" style="margin-top:4px">Dental/Vision bridge: $15B/yr via BMP supplemental structure</div>
+    </div>
+
+    <!-- Food & Agriculture Sovereignty -->
+    <div class="panel col-12">
+      <div class="panel-label">Title VII — Food Security &amp; Anti-Monopoly</div>
+      <div class="panel-title">No Cartels. No Price Gouging. No Foreign Control of Your Food Supply.</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px">
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 701 — Anti-Monopoly</div>
+          <div style="font-size:14px;font-weight:700;color:var(--green)">12% Market Cap</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">No single entity may control &gt;12% of national food distribution, cold-storage, or seed/fertilizer supply · 180-day divestment → transfer to worker cooperatives &amp; municipal food security trusts</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Emergency Reserve</div>
+          <div style="font-size:14px;font-weight:700;color:var(--amber)">90-Day National Food Reserve</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">National Food Security Network (NFSN) maintains distributed regional reserves sufficient for full US population · Prevents single-point supply disruption</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Small Farmers</div>
+          <div style="font-size:14px;font-weight:700;color:var(--green)">$500M/yr Zero-Interest Loans</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">SIRF agricultural node · Farmers with &lt;$2M annual revenue · 10-year terms · No collateral beyond financed assets</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 702 — Foreign Land</div>
+          <div style="font-size:14px;font-weight:700;color:var(--red)">Foreign Ag Land Ban</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">Countries of concern (50 U.S.C. § 4872) banned from acquiring US agricultural land · Existing holdings &gt;320 acres: 24-month mandatory divestment</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 703 — Price Stability</div>
+          <div style="font-size:14px;font-weight:700;color:var(--amber)">Anti-Speculation Penalty</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">If gross margins on staples spike &gt;15% above 36-month avg while input costs are flat or falling → 50% of excess margin seized, routed to food bank network capitalization</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px;border-left:2px solid var(--red)">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 704 — Chemical Bans</div>
+          <div style="font-size:14px;font-weight:700;color:var(--red)">Harmful Additive Prohibition</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">Bans food additives prohibited in 3+ G7 nations · 5-yr mandatory GRAS review with auto-sunset · PFAS in food packaging banned within 18mo · Priority list: potassium bromate, propylparaben, ADA, BVO, petroleum-derived dyes in children's products</div>
+        </div>
+        <div style="background:var(--bg-elevated);border-radius:8px;padding:10px 12px">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Sec. 703 — Transparency</div>
+          <div style="font-size:14px;font-weight:700;color:var(--blue)">Grocery Price Disclosure</div>
+          <div style="font-size:10px;color:var(--muted);margin-top:3px">Retailers &gt;$500M revenue must file quarterly price-cost margin reports by product category · Published publicly within 30 days · Anti-shrinkflation: &gt;5% quantity reduction without disclosure = unlawful</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PE Timeline -->
+    <div class="panel col-6">
+      <div class="panel-label">Titles XIV + XXII — PE Divestiture</div>
+      <div class="panel-title">All PE Compliance Windows</div>
+      <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Healthcare / Critical Systems — Title XXII</div>
+      <div class="gantt">
+        <div class="gantt-row"><div class="gantt-label">911 Dispatch / PSAPs</div><div class="gantt-track"><div class="gantt-fill" style="width:50%;background:var(--red)"></div></div><div class="gantt-mo">24mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">EMS & Ambulance Fleets</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">Air Ambulance Transport</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">First Responder Supply (&gt;25%)</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">Hospital Sale-Leasebacks (&gt;15%)</div><div class="gantt-track"><div class="gantt-fill" style="width:75%;background:var(--amber)"></div></div><div class="gantt-mo">36mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">Acute Care Hospitals</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--blue)"></div></div><div class="gantt-mo">48mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">Nursing Homes / ALF</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--blue)"></div></div><div class="gantt-mo">48mo</div></div>
+        <div class="gantt-row"><div class="gantt-label">Rural Hospital Closure</div><div class="gantt-track"><div class="gantt-fill" style="width:100%;background:var(--green)"></div></div><div class="gantt-mo">SIRF</div></div>
+      </div>
+      <hr/>
+      <div style="font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--muted);margin-bottom:4px">Single-Family Housing — Title XIV · Sec. 1401</div>
+      <div class="gantt">
+        <div class="gantt-row"><div class="gantt-label">PE/REIT &gt;50 homes/MSA</div><div class="gantt-track"><div class="gantt-fill" style="width:37%;background:var(--purple)"></div></div><div class="gantt-mo">180d</div></div>
+      </div>
+      <div class="panel-sub" style="margin-top:4px">Sell to primary-residence buyers only · ≤110% appraised value · <strong style="color:var(--purple)">V_abs ≤ 4.5%/qtr throttle</strong> — prevents market-crashing asset dumps · Multi-family (4+ units), senior, student &amp; nonprofit housing exempt · Individual/family trusts &lt;10 units grandfathered</div>
+      <hr/>
+      <div class="panel-sub">Title XXII bases: Commerce + Spending Clauses · Critical Infrastructure precedent · $1B SIRF reserve pre-funded</div>
+    </div>
+
+    <!-- Veterans -->
+    <div class="panel col-6">
+      <div class="panel-label">Title XXV — Veterans Health Sovereignty</div>
+      <div class="panel-title">Three-Tier Architecture + 6 PACT Act Gaps</div>
+      <div class="tier-list">
+        <div class="tier-card">
+          <div class="tier-num" style="color:var(--green)">1</div>
+          <div class="tier-info">
+            <strong>Service-Connected — VA as Sovereign BMP</strong>
+            <span>$0 · Anti-privatization permanent in statute · ⅔ supermajority to override</span>
+          </div>
+        </div>
+        <div class="tier-card">
+          <div class="tier-num" style="color:var(--blue)">2</div>
+          <div class="tier-info">
+            <strong>Non-Service-Connected — BMP via Private Carrier</strong>
+            <span>$0 · Closes 1.8M uninsured veteran gap</span>
+          </div>
+        </div>
+        <div class="tier-card">
+          <div class="tier-num" style="color:var(--muted)">3</div>
+          <div class="tier-info">
+            <strong>Voluntary Supplemental</strong>
+            <span>Out-of-pocket · No federal subsidy · No restriction</span>
+          </div>
+        </div>
+      </div>
+      <hr/>
+      <div class="panel-sub" style="color:var(--text);font-weight:600">6 PACT Act Gaps Closed</div>
+      <div class="chips">
+        <span class="chip met">125-day claims standard</span>
+        <span class="chip met">50% interim benefits</span>
+        <span class="chip met">Same-day MH crisis access</span>
+        <span class="chip met">Toxic registry auto-enroll</span>
+        <span class="chip met">8% SIRF veterans node</span>
+        <span class="chip met">$500M research endowment</span>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+</div><!-- /dashboard section -->
+
+<!-- LEGAL ARCHITECTURE REVIEW -->
+
 
 <div class="section" id="about" style="padding-bottom:48px">
   <div class="section-header">
