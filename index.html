@@ -316,17 +316,17 @@
     .nav-social a svg { width: 14px; height: 14px; fill: currentColor; }
     @media (max-width: 600px) { .nav-social { display: none; } }
     #signcall-btn {
-      font-size: 12px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
-      padding: 7px 16px; border-radius: 6px; border: 1px solid var(--green);
-      background: var(--green); color: #04120a; text-decoration: none; white-space: nowrap;
+      font-size: 10.5px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 4px 14px; border-radius: 6px; border: 1px solid var(--green);
+      background: var(--green); color: #04120a; text-decoration: none; white-space: nowrap; text-align:center;
       font-family: inherit;
     }
     #signcall-btn:hover { filter: brightness(1.08); }
     #donate-btn {
-      font-size: 12px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-      padding: 7px 16px; border-radius: 6px; border: 1px solid #3a3f4a;
+      font-size: 10.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      padding: 4px 14px; border-radius: 6px; border: 1px solid #3a3f4a;
       background: #1e2228; color: #4b5260; cursor: not-allowed;
-      opacity: 0.55; margin-left: 8px; font-family: inherit;
+      opacity: 0.55; font-family: inherit; text-align:center;
       transition: none; pointer-events: auto;
     }
     #donate-btn.live {
@@ -521,13 +521,15 @@
     <li><a href="#deal" onclick="closeNav()">The Honest Bottom Line</a></li>
     <li><a href="#impact-map" onclick="closeNav()">State and Household Impact</a></li>
     <li><a href="#bill-text" onclick="closeNav()">Policy Vault</a></li>
-    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--text);font-weight:700">Policymakers <span style="color:var(--green)">&rarr;</span></a></li>
-    <li><a href="/adopt/fiscal/" onclick="closeNav()" style="color:var(--text);font-weight:700">Fiscal Reviewers <span style="color:var(--green)">&rarr;</span></a></li>
-    <li><a href="/press/" onclick="closeNav()" style="color:var(--text);font-weight:700">Press/Media <span style="color:var(--green)">&rarr;</span></a></li>
-    <li><a href="/engage/" onclick="closeNav()" style="color:var(--text);font-weight:700">Special Interest Orgs <span style="color:var(--green)">&rarr;</span></a></li>
+    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--text);font-weight:700">Policymakers</a></li>
+    <li><a href="/adopt/fiscal/" onclick="closeNav()" style="color:var(--text);font-weight:700">Fiscal Reviewers</a></li>
+    <li><a href="/press/" onclick="closeNav()" style="color:var(--text);font-weight:700">Press/Media</a></li>
+    <li><a href="/engage/" onclick="closeNav()" style="color:var(--text);font-weight:700">Special Interest Orgs</a></li>
   </ul>
-  <a id="signcall-btn" href="#support" onclick="closeNav()">Sign &amp; Call</a>
-  <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
+  <div style="display:flex;flex-direction:column;gap:4px;align-items:stretch">
+    <a id="signcall-btn" href="#support" onclick="closeNav()">Sign &amp; Call</a>
+    <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
+  </div>
   <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
     <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
@@ -5604,7 +5606,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     <!-- Year 1 Impact -->
     <div class="panel col-12">
       <div class="panel-label">Year 1 American Relief</div>
-      <div class="panel-title">What Americans Feel Before the Check Arrives</div>
+      <div class="panel-title">What Americans Feel in Year One</div>
       <div class="impact-cards">
         <div class="impact-card"><div class="impact-group">8.4M insulin-dependent Americans</div><div class="impact-relief" style="color:var(--green)">$2,400–$4,800/yr saved</div></div>
         <div class="impact-card"><div class="impact-group">28M uninsured Americans</div><div class="impact-relief" style="color:var(--blue)">$6,000–$9,600/yr BMP coverage value</div></div>
@@ -5661,7 +5663,7 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
     <!-- Corporate Benefit Scorecard -->
     <div class="panel col-12" id="corporate-grades" style="margin-top:8px">
       <div class="panel-label">Transparency — Is This Anti-Business?</div>
-      <div class="panel-title">What Businesses Get, In Plain Language</div>
+      <div class="panel-title">What Businesses Get</div>
       <div class="panel-sub" style="margin-bottom:14px">Short answer: no, it&rsquo;s not anti-business. The NSRA rewards companies that make things, hire people, and compete fairly — and rebalances the ones that profit by extracting. Here&rsquo;s the plain version.</div>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px">
         <div style="background:rgba(34,197,94,0.06);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:14px"><div style="font-weight:700;font-size:13px;color:var(--text);margin-bottom:6px">If you build and hire</div><div style="font-size:11.5px;color:var(--muted);line-height:1.6">Small businesses (under $10M) are exempt and can get grants and free help. Makers and manufacturers win: foreign wage advantages disappear, and you get reshoring credits and stronger customer demand.</div></div>
@@ -6026,6 +6028,32 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
       </div>
     </div>
   </div>
+
+  <!-- VOTER FEEDBACK -->
+  <div style="max-width:660px;margin:26px auto 0;padding:0 16px">
+    <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:12px;padding:20px 24px">
+      <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Your Voice</div>
+      <div style="font-size:17px;font-weight:800;color:var(--text);margin-bottom:6px">Tell us what else matters to you</div>
+      <div style="font-size:12.5px;color:var(--muted);line-height:1.6;margin-bottom:14px">The NSRA is finished &mdash; but it&rsquo;s built to grow. Answer in your own words; the boxes just keep it organized. We read every submission.</div>
+      <form id="vfeedback" onsubmit="return vfSubmit(event)">
+        <div style="margin-bottom:12px"><label style="display:block;font-size:11px;font-weight:700;color:var(--muted);margin-bottom:5px">What area does this concern?</label><select name="Area" required style="background:var(--bg-elevated);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13.5px;outline:none;font-family:inherit;width:100%"><option>— pick the area —</option><option>Healthcare &amp; coverage</option><option>Drug &amp; medicine prices</option><option>Housing &amp; rent</option><option>Jobs, wages &amp; workers</option><option>Corruption &amp; accountability</option><option>Clean water &amp; energy</option><option>Veterans</option><option>Student debt &amp; education</option><option>Social Security &amp; retirement</option><option>Something else</option></select></div>
+        <div style="margin-bottom:12px"><label style="display:block;font-size:11px;font-weight:700;color:var(--muted);margin-bottom:5px">What&rsquo;s the problem you&rsquo;re facing?</label><textarea name="The problem" required rows="2" placeholder="Just describe it however you can." style="background:var(--bg-elevated);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13.5px;outline:none;font-family:inherit;width:100%;resize:vertical"></textarea></div>
+        <div style="margin-bottom:12px"><label style="display:block;font-size:11px;font-weight:700;color:var(--muted);margin-bottom:5px">What would actually help?</label><textarea name="What would help" rows="2" placeholder="Optional — what would fix it for you?" style="background:var(--bg-elevated);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13.5px;outline:none;font-family:inherit;width:100%;resize:vertical"></textarea></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <input type="email" name="Email (optional)" placeholder="Email (optional)" style="background:var(--bg-elevated);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13px;outline:none;font-family:inherit;width:100%" />
+          <input type="text" name="State / ZIP (optional)" placeholder="State or ZIP (optional)" style="background:var(--bg-elevated);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:13px;outline:none;font-family:inherit;width:100%" />
+        </div>
+        <input type="hidden" name="_subject" value="NSRA Voter Feedback" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <button type="submit" style="margin-top:12px;background:var(--green);color:#04120a;font-weight:800;font-size:13px;padding:11px 22px;border:none;border-radius:8px;cursor:pointer">Send it in</button>
+        <div id="vfMsg" style="margin-top:10px;font-size:13px;min-height:18px"></div>
+      </form>
+    </div>
+  </div>
+  <script>
+  function vfSubmit(e){e.preventDefault();var f=document.getElementById('vfeedback'),m=document.getElementById('vfMsg');var a=f.querySelector('select[name="Area"]'),su=f.querySelector('input[name="_subject"]');if(su&&a&&a.selectedIndex>0){su.value='NSRA Voter Feedback \u2014 '+a.value;}m.style.color='#94a3b8';m.textContent='Sending\u2026';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Thank you \u2014 we read every submission.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically \u2014 please email contact@theamericandeal.org.';});return false;}
+  </script>
 
   <!-- CONTACT INFO BLOCK -->
   <div style="max-width:660px;margin:32px auto 0;padding:0 16px">
