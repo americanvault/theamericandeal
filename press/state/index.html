@@ -100,10 +100,11 @@ footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-si
  var d="0";try{d=localStorage.getItem("usa250hidden")||"0";}catch(e){}
  if(d==="1"){el.style.display="none";return;}
  var rolled=true;
- function sync(){var y=window.pageYOffset||document.documentElement.scrollTop||0;
+ function place(){var n=document.querySelector("nav");var b=n?Math.max(0,n.getBoundingClientRect().bottom):56;el.style.top=(b+8)+"px";tab.style.top=(b+4)+"px";}
+ function sync(){place();var y=window.pageYOffset||document.documentElement.scrollTop||0;
    if(y>70){ if(!rolled){rolled=true;el.classList.add("rolled");tab.style.display="block";} }
    else { if(rolled){rolled=false;el.classList.remove("rolled");tab.style.display="none";} } }
- window.addEventListener("scroll",sync,{passive:true});
+ window.addEventListener("scroll",sync,{passive:true});window.addEventListener("resize",place,{passive:true});place();
  setTimeout(function(){el.classList.remove("rolled");rolled=false;setTimeout(sync,50);},220);
  window.usa250dismiss=function(ev){if(ev)ev.stopPropagation();try{localStorage.setItem("usa250hidden","1");}catch(e){}el.style.display="none";tab.style.display="none";};
  window.usa250totop=function(){window.scrollTo({top:0,behavior:"smooth"});};
