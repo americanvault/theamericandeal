@@ -53,7 +53,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <body>
 <nav>
   <a class="brand" href="/">The<span>American</span>Deal</a>
-  <div class="navlinks"><a href="/adopt/">Policymaker Portal</a><a href="/adopt/fiscal/#prelim-score">Scoring Tool</a><a href="#accommodations">Accommodations</a><a href="#benefit-audit">Benefit audit</a><a href="#constitution">Constitution</a><a href="#input">Submit input</a></div>
+  <div class="navlinks"><a href="/adopt/">Policymaker Portal</a><a href="/adopt/fiscal/?from=engage#prelim-score">Scoring Tool</a><a href="#accommodations">Accommodations</a><a href="#benefit-audit">Benefit audit</a><a href="#constitution">Constitution</a><a href="#input">Submit input</a></div>
 </nav>
 <!-- USA250 BANNER -->
 <style id="usa250css">
@@ -329,7 +329,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <b>Good faith, on the record.</b> This channel is for constructive, specific engagement. Input does not bind either party and is not legal advice; substantive submissions may be summarized in a public consultation record. TheAmericanDeal, Inc. is a Wyoming 501(c)(4) civic-education organization; materials here are informational and non-partisan. Statutory parameters cited are the text of the bill; fiscal figures referenced elsewhere are model estimates, scoring pending.
 </div>
 </div>
-<footer>TheAmericanDeal.org, What America Owes You&trade; &middot; <a href="/">Home</a> &middot; <a href="/adopt/">Policymaker Portal</a> &middot; <a href="/adopt/fiscal/">Fiscal Review</a> &middot; <a href="/press/">Press &amp; Media</a> &middot; <a href="/engage/">Special Interest Orgs</a> &middot; <a href="/bill-text/">Policy Vault</a> &middot; contact@theamericandeal.org</footer>
+<footer>TheAmericanDeal.org, What America Owes You&trade; &middot; <a href="/">Home</a> &middot; <a href="/adopt/">Policymaker Portal</a> &middot; <a href="/adopt/fiscal/?from=engage">Fiscal Review</a> &middot; <a href="/press/">Press &amp; Media</a> &middot; <a href="/engage/">Special Interest Orgs</a> &middot; <a href="/bill-text/">Policy Vault</a> &middot; contact@theamericandeal.org</footer>
 <script>
 function engSubmit(e){e.preventDefault();var f=document.getElementById('engForm'),m=document.getElementById('engMsg');var rs=f.querySelector('select[name="Nature of input"]'),su=f.querySelector('input[name="_subject"]');if(su&&rs&&rs.value){su.value='Stakeholder Engagement, '+rs.value;}m.style.color='#94a3b8';m.textContent='Sending…';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='✓ Input received. We’ll follow up at the email you provided.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically, please email contact@theamericandeal.org directly.';});return false;}
 </script>
