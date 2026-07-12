@@ -85,7 +85,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
     </div>
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
-      <input type="number" id="prog" value="204" min="0" step="1" />
+      <input type="number" id="prog" value="196" min="0" step="1" />
       <div style="font-size:11px;color:var(--muted);margin-top:4px">BMP, student-loan zero-interest, and household relief outlays.</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
@@ -103,7 +103,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
     <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction</div></div>
     <div class="rowout"><span>Gross revenue (active streams)</span><span id="rGross">$0B</span></div>
     <div class="rowout"><span>&times; realization rate</span><span id="rReal">100%</span></div>
-    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$204B</span></div>
+    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$196B</span></div>
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
@@ -149,7 +149,7 @@ function render(){
  });
 }
 function setAll(v){STREAMS.forEach(function(s,i){s.on=v;var el=document.getElementById('s'+i);if(el)el.checked=v;});calc();}
-function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=204;render();calc();}
+function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=196;render();calc();}
 function calc(){
  var real=+document.getElementById('real').value;
  var prog=+document.getElementById('prog').value||0;
@@ -187,6 +187,20 @@ calc();
  var f=F[a]; if(!f) return;
  var set=function(id,v){var el=document.getElementById(id); if(el) el.textContent=v;};
  set('fmEye',f.eye); set('fmH1',f.h1); set('fmLede',f.lede); set('fmSub',f.sub);
+})();
+</script>
+<script>
+/* Referrer-aware back-to-portal banner: shows only when arriving from a portal (?from= or same-origin referrer) */
+(function(){
+  var PORT={press:["/press/","Press & Media portal"],adopt:["/adopt/","Policymaker portal"],policy:["/adopt/","Policymaker portal"],fiscal:["/adopt/fiscal/","Fiscal Review portal"],engage:["/engage/","Special Interest portal"]};
+  var p=null;
+  try{var f=new URLSearchParams(location.search).get("from"); if(f&&PORT[f]) p=PORT[f];}catch(e){}
+  if(!p){ try{ if(document.referrer){ var r=new URL(document.referrer); if(r.origin===location.origin){ for(var k in PORT){ if(r.pathname===PORT[k][0]){ p=PORT[k]; break; } } } } }catch(e){} }
+  if(!p) return;
+  var a=document.createElement("a"); a.href=p[0];
+  a.innerHTML="&larr; Back to "+p[1];
+  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#161920;border-bottom:1px solid #252830;color:#22C55E;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
+  document.body.insertBefore(a, document.body.firstChild);
 })();
 </script>
 </body>
