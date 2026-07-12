@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>National Sovereignty and Resilience Act (NSRA) · TheAmericanDeal.org | What America Owes You™</title>
-  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA) is a finished, fully-costed federal framework: universal zero-premium healthcare, G7 drug pricing, student-debt relief, corporate housing reform, and roughly $554B in annual deficit reduction, with a modeled path to a balanced budget by Year 4. Owned by no party. TheAmericanDeal.org." />
+  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA) is a finished federal framework, internally costed on published government baselines (official scoring pending): universal zero-premium healthcare, G7 drug pricing, student-debt relief, corporate housing reform, and roughly $554B in annual deficit reduction, with a modeled path to a balanced budget by Year 4. Owned by no party. TheAmericanDeal.org." />
   <meta name="keywords" content="National Sovereignty and Resilience Act, NSRA 2028, The American Deal, What America Owes You, universal healthcare, G7 drug pricing, student debt relief, corporate housing cap, deficit reduction, balanced budget, five coordinated bills, congressional review package, policymaker portal, fiscal model" />
   <link rel="canonical" href="https://theamericandeal.org/" />
   <meta name="google-site-verification" content="YfTXLC4Mqq8eWmgpcpbIoVx1Q-r4wEIpqQhDVTBWmZw" />
@@ -633,7 +633,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </div>
 
 
-<!-- SIX PROMISES -->
+<!-- NINE PROMISES -->
 
 
 <!-- WHAT THIS BILL INTRODUCES -->
@@ -642,7 +642,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <h2>What This Bill Introduces</h2>
     <span>36 Titles · 218 Sections · 27 Committees of Jurisdiction · $554B Annual Surplus · Self-Funding Architecture</span>
   </div>
-  <p style="max-width:820px;margin:0 auto 20px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, fully-costed, citizen-authored agenda, published in full and open to whoever runs on it first. Built outside the political system, owned by no party. Nine promises, and every one of the 36 titles that delivers them.</p>
+  <p style="max-width:820px;margin:0 auto 20px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, citizen-authored agenda, internally costed on published government baselines with official scoring pending, published in full and open to whoever runs on it first. Built outside the political system, owned by no party. Nine promises, and every one of the 36 titles that delivers them.</p>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
     <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
       <div class="flip-inner">
@@ -6529,6 +6529,20 @@ The Department of Justice and the FMIA shall report biennially to Congress on: (
       if(dt) dt.textContent = '· as of ' + rec.record_date + ' · U.S. Treasury';
     })
     .catch(function(){ /* keep static fallback */ });
+})();
+</script>
+<script>
+/* Referrer-aware back-to-portal banner: shows only when arriving from a portal (?from= or same-origin referrer) */
+(function(){
+  var PORT={press:["/press/","Press & Media portal"],adopt:["/adopt/","Policymaker portal"],policy:["/adopt/","Policymaker portal"],fiscal:["/adopt/fiscal/","Fiscal Review portal"],engage:["/engage/","Special Interest portal"]};
+  var p=null;
+  try{var f=new URLSearchParams(location.search).get("from"); if(f&&PORT[f]) p=PORT[f];}catch(e){}
+  if(!p){ try{ if(document.referrer){ var r=new URL(document.referrer); if(r.origin===location.origin){ for(var k in PORT){ if(r.pathname===PORT[k][0]){ p=PORT[k]; break; } } } } }catch(e){} }
+  if(!p) return;
+  var a=document.createElement("a"); a.href=p[0];
+  a.innerHTML="&larr; Back to "+p[1];
+  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#161920;border-bottom:1px solid #252830;color:#22C55E;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
+  document.body.insertBefore(a, document.body.firstChild);
 })();
 </script>
 </body>
