@@ -1,0 +1,53 @@
+NSRA MACHINE-READABLE DATASETS - DATA DICTIONARY
+Methodology version: v2026.1    Last updated: 2026-07-11
+Publisher: TheAmericanDeal.org (National Sovereignty and Resilience Act)
+Status: Internally modeled on published government baselines. Official CBO/JCT scoring pending and welcomed.
+Contact: contact@theamericandeal.org
+
+These figures are preliminary model estimates built on published CBO, JCT, IRS, Treasury,
+OECD, BEA, GAO, SSA, HHS-OIG, USDA-OIG, and peer-reviewed baselines. They are NOT an official
+CBO or JCT score. Every file carries a methodology_version and last_updated column.
+
+FILES
+-----
+nsra_revenue_streams.csv
+  One row per scored revenue or cost stream (15 revenue + 2 program-linked costs).
+  stream                          : plain-language name of the stream
+  statutory_section               : NSRA section or title authorizing it
+  year1_estimate_billion_usd      : Year-1 estimate, $B (negative = program-linked cost)
+  baseline_source                 : published agency/source the estimate is built on
+  base_year                       : year of the baseline data
+  confidence                      : High / Moderate / Preliminary
+  behavioral_sensitive            : Yes if elasticity-sensitive (subject to behavioral haircut)
+
+nsra_fiscal_projections.csv
+  10-year projection, central scenario.
+  fiscal_year                          : 1-10
+  net_revenue_billion_usd              : modeled net revenue that year
+  program_outlays_billion_usd          : revenue-funded program outlays
+  annual_deficit_reduction_billion_usd : net_revenue minus program_outlays
+  Note: Year-1 realization ramps (86/94/98/100 pct across years 1-4); 2 pct/yr revenue growth assumed.
+
+nsra_state_impact.csv
+  One row per state (50 states). Population fields in millions (M) or thousands (K) as labeled.
+  uninsured_M, snap_M, student_loans_M, veterans_M, renters_K, mfg_jobs_K, births_K, hospitals,
+  median_income_K, elderly_pct, poverty_pct, uncompensated_care_B, insurer_mlr_pct.
+  Sources: Census ACS, KFF, USDA FNS, VA, BLS, BEA (2024 vintage).
+
+nsra_title_to_bill.csv
+  Maps each of the 36 titles to its coordinated bill (1-5). Titles XVI & XVII are integrated.
+  Source: the public five-coordinated-bill packaging on TheAmericanDeal.org Policy Vault.
+
+nsra_title_to_committee.csv
+  Maps each title to the primary congressional committees of its coordinated bill.
+  Committee assignment is at the bill level (primary committees of the containing bill).
+
+nsra_source_register.csv
+  Headline macro figures and per-stream figures with their baseline source, source year,
+  and confidence. Use this to trace any published number to its origin.
+
+CANONICAL TAXONOMY
+------------------
+Revenue is the sum of 12 scored base revenue streams plus supplemental enforcement recapture.
+Gross ~$784.6B/yr -> ~$749B net (central) -> ~$554B annual deficit reduction after ~$196B
+revenue-funded outlays. Balanced budget Year 4 central (range 3-5).
