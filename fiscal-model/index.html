@@ -247,7 +247,6 @@ calc();
   var PORT={press:["/press/","Press & Media portal"],adopt:["/adopt/","Policymaker portal"],policy:["/adopt/","Policymaker portal"],fiscal:["/adopt/fiscal/","Fiscal Review portal"],engage:["/engage/","Special Interest portal"]};
   var p=null;
   try{var f=new URLSearchParams(location.search).get("from"); if(f&&PORT[f]) p=PORT[f];}catch(e){}
-  if(!p){ try{ if(document.referrer){ var r=new URL(document.referrer); if(r.origin===location.origin){ for(var k in PORT){ if(r.pathname===PORT[k][0]){ p=PORT[k]; break; } } } } }catch(e){} }
   if(!p) return;
   var a=document.createElement("a"); a.href=p[0];
   a.innerHTML="&larr; Back to "+p[1];
