@@ -1,0 +1,26 @@
+figure,value,unit,baseline_source,source_year,confidence,methodology_version,last_updated
+Gross scored revenue (active streams),784.6,billion USD/yr,Sum of scored streams; CBO/JCT/OECD/BEA/Treasury baselines,2025,Moderate,v2026.1,2026-07-11
+Net Year-1 revenue (central),749,billion USD/yr,Gross less program-linked costs and realization,2025,Moderate,v2026.1,2026-07-11
+Annual deficit reduction (central),554,billion USD/yr,Net revenue less ~$196B revenue-funded outlays,2025,Moderate,v2026.1,2026-07-11
+Balanced-budget year (central),4,fiscal year,"NSRA fiscal model, low/base/high scenarios (range 3-5)",2025,Moderate,v2026.1,2026-07-11
+Baseline federal deficit,1900,billion USD/yr,CBO Budget & Economic Outlook 2026-2036,2026,High,v2026.1,2026-07-11
+Uninsured covered by BMP,28,million people,Census ACS / KFF,2024,High,v2026.1,2026-07-11
+SNAP recipients,42,million people,USDA FNS,2024,High,v2026.1,2026-07-11
+Veterans (enhanced VA + VESB),9,million people,VA / Census,2024,High,v2026.1,2026-07-11
+SS payroll cap elimination,150,billion USD/yr,SSA / CBO,2025,High,v2026.1,2026-07-11
+Corporate rate restoration 21% to 28%,110,billion USD/yr,JCT,2025,High,v2026.1,2026-07-11
+IRS enforcement fund (net),90,billion USD/yr,CBO / Treasury,2025,Moderate,v2026.1,2026-07-11
+Carbon dividend fee,85,billion USD/yr,CBO / Treasury / EIA,2025,Moderate,v2026.1,2026-07-11
+OECD Pillar Two implementation,75,billion USD/yr,OECD / JCT,2025,Moderate,v2026.1,2026-07-11
+Financial transaction tax 0.1%,75,billion USD/yr,JCT / CBO,2025,Moderate,v2026.1,2026-07-11
+Step-up basis reform >$5M,50,billion USD/yr,JCT,2025,Moderate,v2026.1,2026-07-11
+NIMA 0.18% domestic gross >$100M,39.6,billion USD/yr,BEA,2025,Preliminary,v2026.1,2026-07-11
+Federal land + mineral royalty modernization,30,billion USD/yr,Interior / GAO / CBO,2025,Moderate,v2026.1,2026-07-11
+Financial-sector excess-profits assessment,20,billion USD/yr,FDIC / BEA,2025,Preliminary,v2026.1,2026-07-11
+FDVM Medicare fraud recovery,20,billion USD/yr,HHS-OIG / GAO / CBO,2025,Moderate,v2026.1,2026-07-11
+LBO interest cap (30% EBITDA),18,billion USD/yr,JCT,2025,Moderate,v2026.1,2026-07-11
+Carried interest to ordinary income,14,billion USD/yr,JCT,2025,High,v2026.1,2026-07-11
+FTA 0.02% institutional trades >$1M,7,billion USD/yr,JCT,2025,Preliminary,v2026.1,2026-07-11
+SNAP retailer fraud recovery,1,billion USD/yr,USDA-OIG / GAO,2025,High,v2026.1,2026-07-11
+Student-loan zero-interest conversion (cost),-25,billion USD/yr,CBO / Education,2025,Moderate,v2026.1,2026-07-11
+SPI wage-floor tax credit (cost),-10,billion USD/yr,JCT,2025,Moderate,v2026.1,2026-07-11
