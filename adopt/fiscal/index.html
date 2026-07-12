@@ -4,8 +4,8 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Fiscal Model &amp; Evidence Room, NSRA | TheAmericanDeal.org</title>
-<meta name="description" content="Schedule G revenue build-up for the NSRA: a one-page evidence card for every revenue and cost stream, with statutory authority, baseline source, assumptions, phase-in, sensitivity, confidence, and official-scoring status. For institutional reviewers." />
-<meta name="keywords" content="NSRA Schedule G, revenue build-up, fiscal evidence, revenue streams, deficit reduction sourcing, congressional scoring" />
+<meta name="description" content="Fiscal review room for the NSRA: an interactive Preliminary Scoring Tool that produces a preliminary score on published CBO, JCT, Treasury, and OECD baselines, plus the Schedule G build-up and a one-page evidence card for every revenue and cost stream, with statutory authority, baseline source, assumptions, sensitivity, confidence, and official-scoring status. For institutional reviewers and scorekeepers." />
+<meta name="keywords" content="NSRA Schedule G, preliminary scoring tool, CBO JCT baseline score, revenue build-up, fiscal evidence, revenue streams, deficit reduction sourcing, congressional scoring, 7-subledger math engine" />
 <link rel="canonical" href="https://theamericandeal.org/adopt/fiscal/" />
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Santonio D. Sanders" />
@@ -14,7 +14,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://theamericandeal.org/adopt/fiscal/" />
 <meta property="og:title" content="Fiscal Model &amp; Evidence Room, NSRA" />
-<meta property="og:description" content="A one-page evidence card for every NSRA revenue stream. Statutory authority, baseline, assumptions, sensitivity, and scoring status." />
+<meta property="og:description" content="An interactive Preliminary Scoring Tool on published CBO/JCT baselines, plus an evidence card for every NSRA revenue stream. Pending official scoring." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fiscal Review Room &amp; Preliminary Scoring Tool, NSRA" />
+<meta name="twitter:description" content="Score it yourself: an interactive preliminary score on published CBO/JCT/Treasury/OECD baselines. Official scoring pending." />
 <meta property="og:image" content="https://theamericandeal.org/og-image.png" />
 <style>
 :root{--bg:#0D0F14;--surface:#161920;--elev:#1E2128;--green:#22C55E;--amber:#F59E0B;--red:#EF4444;--blue:#60A5FA;--text:#F1F5F9;--muted:#64748B;--border:#252830}
@@ -79,8 +82,8 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <div class="summary">
   <div class="sc"><div class="n" style="color:var(--green)">$784.6B</div><div class="l">Gross modeled revenue</div><div class="x">Sum of the revenue streams below (12 CBO-scored base + supplemental enforcement), full realization.</div></div>
   <div class="sc"><div class="n" style="color:var(--amber)">−$35B</div><div class="l">Program-linked costs</div><div class="x">Student-loan zero-interest + SPI wage-floor credit.</div></div>
-  <div class="sc"><div class="n" style="color:var(--text)">~$749B</div><div class="l">Central net Year-1 revenue</div><div class="x">After conservative realization and netting; matches the model within rounding.</div></div>
-  <div class="sc"><div class="n" style="color:var(--blue)">~$554B</div><div class="l">Modeled deficit reduction</div><div class="x">After ~$204B in revenue-funded program outlays.</div></div>
+  <div class="sc"><div class="n" style="color:var(--text)">~$749B</div><div class="l">Central net Year-1 revenue</div><div class="x">After program-linked cost netting (−$35B). Realization is a sensitivity lever, not a headline subtraction.</div></div>
+  <div class="sc"><div class="n" style="color:var(--blue)">~$554B</div><div class="l">Modeled deficit reduction</div><div class="x">After ~$196B in revenue-funded program outlays.</div></div>
 </div>
 <div class="summary" style="margin-top:12px">
   <div class="sc"><div class="n" style="color:var(--text)">Year 4</div><div class="l">Central balanced-budget projection</div><div class="x">Range Yr 3–5.</div></div>
@@ -89,14 +92,36 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="sc"><div class="n" style="color:var(--amber)">~101%</div><div class="l">Debt / GDP</div><div class="x">CBO Budget &amp; Economic Outlook 2026–2036.</div></div>
   <div class="sc"><div class="n" style="color:var(--blue)"><span id="live-debt">$39.2T</span></div><div class="l">Live U.S. national debt</div><div class="x"><span id="live-debt-date">· U.S. Treasury</span></div></div>
 </div>
-<div class="note" style="margin-top:14px"><b>Reconciliation:</b> gross stream revenue (~$784.6B) is reduced by conservative realization assumptions and program-linked costs to the ~$749B central net revenue estimate; deficit reduction (~$554B) is that figure net of ~$204B in funded outlays. Adjust realization and toggle any stream in the <a href="/fiscal-model/">interactive model</a> to see the sensitivity live.</div>
+<div class="note" style="margin-top:14px"><b>Reconciliation.</b> Conservative per-stream assumptions are embedded in the gross estimates; enforcement realization and behavioral effects are sensitivity levers in the <a href="/fiscal-model/">interactive model</a>, not additional headline subtractions. The only headline adjustments are program-linked cost netting and revenue-funded outlays, shown in the bridge below.</div>
+<div style="max-width:640px;margin:14px 0 4px">
+  <div style="font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px">The $784.6B to $554B bridge</div>
+  <table style="width:100%;border-collapse:collapse;font-size:13px">
+    <tr><td style="padding:7px 10px;border-bottom:1px solid var(--border)">Gross scored stream revenue (conservative baselines embedded)</td><td style="padding:7px 10px;border-bottom:1px solid var(--border);text-align:right;font-weight:700;font-variant-numeric:tabular-nums">$784.6B</td></tr>
+    <tr><td style="padding:7px 10px;border-bottom:1px solid var(--border)">Less program-linked revenue offsets (student-loan zero-interest −$25B; SPI wage-floor credit −$10B)</td><td style="padding:7px 10px;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:var(--amber);font-variant-numeric:tabular-nums">−$35.0B</td></tr>
+    <tr><td style="padding:7px 10px;border-bottom:1px solid var(--border)"><b>Central net Year-1 revenue</b></td><td style="padding:7px 10px;border-bottom:1px solid var(--border);text-align:right;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums">$749.6B</td></tr>
+    <tr><td style="padding:7px 10px;border-bottom:1px solid var(--border)">Less revenue-funded program outlays (BMP coverage, veterans, Child Prosperity Trust, housing support, wage-floor credits, administration)</td><td style="padding:7px 10px;border-bottom:1px solid var(--border);text-align:right;font-weight:700;color:var(--amber);font-variant-numeric:tabular-nums">−$195.6B</td></tr>
+    <tr><td style="padding:7px 10px"><b>Annual deficit reduction</b></td><td style="padding:7px 10px;text-align:right;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums">$554.0B</td></tr>
+  </table>
+  <div style="font-size:10.5px;color:var(--muted);line-height:1.6;margin-top:7px">At full realization. Per-program outlay dollar splits are being itemized; the aggregate reconciles to the $554B headline. See the <a href="/data/nsra_fiscal_projections.csv">projections CSV</a> and <a href="/data/NSRA_Datasets.xlsx">workbook</a>.</div>
+</div>
+<div class="note" style="margin-top:12px;background:rgba(96,165,250,.07);border-color:rgba(96,165,250,.25)"><b>Taxonomy.</b> The build below shows 15 rows: <b>12 CBO-scored base revenue streams</b> plus supplemental enforcement recapture, and 2 program-linked cost rows. Headline revenue is the 12 base streams plus supplemental enforcement. <b>FTT / FTA overlap:</b> the 0.1% Financial Transaction Tax (Sec. 2413) and the 0.02% Financial Transaction Assessment (Sec. 2405) apply to <b>separate transaction classes</b>, retail/broad market versus large institutional trades above $1M, and are scored on non-overlapping bases, so a single transaction is not charged under both.</div>
+
+<h2 id="tenyear">The ten-year score window</h2>
+<p style="font-size:14px;color:#cbd5e1;line-height:1.65;max-width:840px;margin-bottom:6px">Congressional scoring runs over a multiyear window, so here is the central path. Revenue ramps as enforcement capacity is rebuilt (realization of 86 / 94 / 98 / 100% across Years 1 through 4, then a 2% annual growth assumption), which is why Year 1 is lower than the steady-state figure. The <b style="color:var(--text)">~$554B headline is the full-realization annual figure</b>, reached around Year 3; the balanced-budget projection is Year 4 central.</p>
+<div style="overflow-x:auto;max-width:840px"><table style="width:100%;border-collapse:collapse;font-size:12.5px;margin:10px 0 4px">
+<tr><th style="text-align:left;padding:7px 9px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)">Fiscal year</th><th style="text-align:right;padding:7px 9px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)">Net revenue</th><th style="text-align:right;padding:7px 9px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)">Program outlays</th><th style="text-align:right;padding:7px 9px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)">Deficit reduction</th><th style="text-align:right;padding:7px 9px;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)">Cumulative</th></tr>
+<tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 1</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$640B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$196B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$444B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$444B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 2</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$717B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$199B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$518B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$962B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 3</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$764B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$202B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$562B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$1,524B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 4</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$795B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$205B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$591B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$2,115B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 5</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$811B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$208B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$604B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$2,719B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 6</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$828B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$211B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$617B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$3,336B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 7</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$844B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$214B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$630B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$3,966B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 8</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$861B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$217B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$644B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$4,610B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 9</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$878B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$220B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$658B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$5,268B</td></tr><tr><td style="padding:6px 9px;border-bottom:1px solid var(--border);font-weight:700">Year 10</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums">$896B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--amber)">$224B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;font-variant-numeric:tabular-nums;color:var(--blue);font-weight:800">$672B</td><td style="padding:6px 9px;border-bottom:1px solid var(--border);text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">$5,940B</td></tr><tr><td style="padding:7px 9px;font-weight:800">10-yr total</td><td style="padding:7px 9px;text-align:right;font-weight:800;font-variant-numeric:tabular-nums">$8,034B</td><td style="padding:7px 9px;text-align:right;font-weight:800;color:var(--amber);font-variant-numeric:tabular-nums">$2,093B</td><td style="padding:7px 9px;text-align:right;font-weight:800;color:var(--blue);font-variant-numeric:tabular-nums">$5,940B</td><td style="padding:7px 9px;text-align:right;font-weight:800;font-variant-numeric:tabular-nums">$5,940B</td></tr>
+</table></div>
+<p style="font-size:12px;color:var(--muted);line-height:1.6;max-width:840px">Ten-year deficit reduction totals <b style="color:#cbd5e1">$5.94T</b> central ($5.23T low, $6.42T high). Every input is separated from the formulas in the downloadable <a href="/data/NSRA_Scorer_Workbook.xlsx">scorer workbook</a> (assumptions, revenue streams, program costs, annual phase-in, ten-year window, low/base/high scenarios, source register, version history), so a reviewer can change any assumption and re-score. This is a preliminary model, not an official CBO or JCT score.</p>
+
+
 
 <h2>How the math works</h2>
 <div style="max-width:840px">
 <p style="font-size:14px;color:#cbd5e1;line-height:1.65;margin-bottom:12px"><b style="color:var(--text)">How money is captured.</b> The revenue is not a new tax on households. It is captured by recapturing value that already leaves the domestic economy: the offshore tax gap, closed loopholes, restored IRS enforcement, monopoly and rent extraction, mineral-royalty modernization, and a minimum tax on multinationals. Every dollar collected is deposited into the <b style="color:var(--text)">Sovereign Infrastructure Reinvestment Fund (SIRF)</b>, a locked Treasury account, and flows back out to fund the benefits. That is the closed loop, revenue in, benefits out, no new borrowing.</p>
 <p style="font-size:14px;color:#cbd5e1;line-height:1.65;margin-bottom:12px"><b style="color:var(--text)">The realization throttle.</b> Each stream is confidence-weighted and realization-adjusted. Enforcement capacity ramps over several years, so the model does not assume 100% collection on day one. The central estimate applies conservative realization, and the interactive model lets you set your own realization rate to watch the number move. Nothing here depends on optimistic collection.</p>
 <p style="font-size:14px;color:#cbd5e1;line-height:1.65;margin-bottom:12px"><b style="color:var(--text)">The certification gate.</b> Benefits cannot outrun revenue. Major SIRF disbursements require CBO certification, and household relief phases in through a tranche-based escalation lock, Gate 1 then Gate 2, tied to certified SIRF balances. No benefit activates faster than the revenue funding it, so the structure stays deficit-neutral by design.</p>
-<p style="font-size:14px;color:#cbd5e1;line-height:1.65;margin-bottom:6px"><b style="color:var(--text)">The reconciliation.</b> Gross modeled revenue of roughly $785B is reduced by conservative realization and program-linked costs to the ~$749B central net figure, and to ~$554B in annual deficit reduction after ~$204B in revenue-funded outlays, with a central balanced-budget projection by Year 4. Every line below is one of the capture streams that adds up to that total.</p>
+<p style="font-size:14px;color:#cbd5e1;line-height:1.65;margin-bottom:6px"><b style="color:var(--text)">The reconciliation.</b> Gross modeled revenue of roughly $785B is reduced by conservative realization and program-linked costs to the ~$749B central net figure, and to ~$554B in annual deficit reduction after ~$196B in revenue-funded outlays, with a central balanced-budget projection by Year 4. Every line below is one of the capture streams that adds up to that total.</p>
 </div>
 
 <!-- PRELIMINARY SCORING TOOL -->
@@ -169,7 +194,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">IRS enforcement fund (net)</div><div class="rc-amt">$90B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>Sec. 24xx</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2406</b></td></tr>
       <tr><td>Mechanism</td><td>Net revenue from restored, sustained tax-enforcement capacity after administrative cost.</td></tr>
       <tr><td>Baseline source</td><td>CBO / Treasury</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -249,7 +274,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">NIMA domestic gross assessment 0.18% (>$100M)</div><div class="rc-amt">$39.6B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>NIMA</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2404</b></td></tr>
       <tr><td>Mechanism</td><td>0.18% assessment on domestic gross receipts of firms above $100M.</td></tr>
       <tr><td>Baseline source</td><td>BEA / internal build</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -265,7 +290,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">Federal land + mineral royalty reform</div><div class="rc-amt">$30B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>Sec. 2414/2415</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2414</b></td></tr>
       <tr><td>Mechanism</td><td>Modernize below-market federal onshore royalty and leasing rates.</td></tr>
       <tr><td>Baseline source</td><td>Interior / GAO / CBO</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -281,7 +306,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">Financial-sector excess-profits assessment</div><div class="rc-amt">$20B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>Sec. 24xx</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2415</b></td></tr>
       <tr><td>Mechanism</td><td>Assessment on large financial institutions' excess profits.</td></tr>
       <tr><td>Baseline source</td><td>FDIC / BEA / internal</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -297,7 +322,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">FDVM Medicare fraud detection</div><div class="rc-amt">$20B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>FDVM</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 101/103 (Title I)</b></td></tr>
       <tr><td>Mechanism</td><td>Recovered outlays from fraud-detection and verification systems.</td></tr>
       <tr><td>Baseline source</td><td>HHS-OIG / GAO / CBO</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -313,7 +338,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">LBO interest deductibility cap (30% EBITDA)</div><div class="rc-amt">$18B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>Sec. 24xx</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2403</b></td></tr>
       <tr><td>Mechanism</td><td>Cap interest deductibility on leveraged buyouts at 30% of EBITDA.</td></tr>
       <tr><td>Baseline source</td><td>JCT</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -329,7 +354,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">Carried interest → ordinary income</div><div class="rc-amt">$14B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>Sec. 24xx</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2402</b></td></tr>
       <tr><td>Mechanism</td><td>Tax carried interest as ordinary income.</td></tr>
       <tr><td>Baseline source</td><td>JCT</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -345,7 +370,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">FTA institutional trades 0.02% (>$1M)</div><div class="rc-amt">$7B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>FTA</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 2405</b></td></tr>
       <tr><td>Mechanism</td><td>0.02% assessment on large institutional trades above $1M.</td></tr>
       <tr><td>Baseline source</td><td>JCT / internal</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
@@ -361,7 +386,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
   <div class="rc">
     <div class="rc-h"><div class="rc-nm">SNAP retailer fraud recovery</div><div class="rc-amt">$1B</div></div>
     <table class="rc-t">
-      <tr><td>Statutory authority</td><td><b>SNAP</b></td></tr>
+      <tr><td>Statutory authority</td><td><b>Sec. 101/103 (Title I)</b></td></tr>
       <tr><td>Mechanism</td><td>Recovered funds from retailer-side SNAP fraud enforcement.</td></tr>
       <tr><td>Baseline source</td><td>USDA-OIG / GAO</td></tr>
       <tr><td>Base year</td><td>FY2025</td></tr>
