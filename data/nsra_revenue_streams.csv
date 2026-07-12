@@ -1,0 +1,18 @@
+stream,statutory_section,year1_estimate_billion_usd,baseline_source,base_year,confidence,behavioral_sensitive,methodology_version,last_updated
+SS payroll cap elimination,Sec. 2408,150,SSA / CBO,2025,High,No,v2026.1,2026-07-11
+Corporate rate restoration 21% to 28%,Sec. 2409,110,JCT,2025,High,No,v2026.1,2026-07-11
+IRS enforcement fund (net),Sec. 2406,90,CBO / Treasury,2025,Moderate,No,v2026.1,2026-07-11
+Carbon dividend fee,Sec. 2410,85,CBO / Treasury / EIA,2025,Moderate,Yes,v2026.1,2026-07-11
+OECD Pillar Two implementation,Sec. 2411,75,OECD / JCT,2025,Moderate,Yes,v2026.1,2026-07-11
+Financial transaction tax 0.1%,Sec. 2413,75,JCT / CBO,2025,Moderate,Yes,v2026.1,2026-07-11
+Step-up basis reform >$5M,Sec. 2412,50,JCT,2025,Moderate,No,v2026.1,2026-07-11
+NIMA 0.18% domestic gross >$100M,Sec. 2404,39.6,BEA,2025,Preliminary,No,v2026.1,2026-07-11
+Federal land + mineral royalty modernization,Sec. 2414,30,Interior / GAO / CBO,2025,Moderate,No,v2026.1,2026-07-11
+Financial-sector excess-profits assessment,Sec. 2415,20,FDIC / BEA,2025,Preliminary,No,v2026.1,2026-07-11
+FDVM Medicare fraud recovery,Sec. 101/103 (Title I),20,HHS-OIG / GAO / CBO,2025,Moderate,No,v2026.1,2026-07-11
+LBO interest cap (30% EBITDA),Sec. 2403,18,JCT,2025,Moderate,No,v2026.1,2026-07-11
+Carried interest to ordinary income,Sec. 2402,14,JCT,2025,High,No,v2026.1,2026-07-11
+FTA 0.02% institutional trades >$1M,Sec. 2405,7,JCT,2025,Preliminary,No,v2026.1,2026-07-11
+SNAP retailer fraud recovery,Sec. 101/103 (Title I),1,USDA-OIG / GAO,2025,High,No,v2026.1,2026-07-11
+Student-loan zero-interest conversion (cost),Title XV,-25,CBO / Education,2025,Moderate,No,v2026.1,2026-07-11
+SPI wage-floor tax credit (cost),Sec. 2407,-10,JCT,2025,Moderate,No,v2026.1,2026-07-11
