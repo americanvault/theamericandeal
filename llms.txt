@@ -1,16 +1,22 @@
 # TheAmericanDeal.org: The National Sovereignty and Resilience Act (NSRA)
 
-> The NSRA is a citizen-drafted federal DISCUSSION DRAFT. It has NOT been introduced in, considered by, or passed by either chamber of Congress. It is a 37-title, 233-section bill on household costs: zero-premium baseline health coverage, G7-median drug pricing, a $35 insulin cap, a 50-home-per-metro institutional homebuyer cap, zero-interest federal student loans, and a full congressional stock trading ban. It is open to adoption by any sponsor. Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO/JCT scores. Drafted by Santonio D. Sanders. Not affiliated with any party, PAC, or elected official.
+> The NSRA is a citizen-drafted federal DISCUSSION DRAFT. It has NOT been introduced in, considered by, or passed by either chamber of Congress. It is a 40-title, 255-section bill on household costs: zero-premium baseline health coverage, G7-median drug pricing, a $35 insulin cap, a 50-home-per-metro institutional homebuyer cap, zero-interest federal student loans, a full congressional stock trading ban, self-funded paid family leave, federal R&D restored to 1% of GDP, and permits on a fixed clock. It is open to adoption by any sponsor. Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO/JCT scores. Drafted by Santonio D. Sanders. Not affiliated with any party, PAC, or elected official.
 
 ## Key pages
 - [2026 midterm results and what the new Congress can pass](https://theamericandeal.org/2026-midterms/)
 - [2028 agenda for candidates and the 121st Congress](https://theamericandeal.org/2028/)
 - [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
+- [Stop government waste: payment integrity, impoundment, Inspectors General (Title XXXV)](https://theamericandeal.org/government-waste/)
+- [Build faster: permitting on a clock, hydropower, infrastructure costs (Title XVII)](https://theamericandeal.org/build-faster/)
+- [Science and talent: R&D to 1% of GDP, NSF/NIH floors, STEM green cards (Title XXXVII)](https://theamericandeal.org/science/)
+- [Self-funded paid leave, child care, apprenticeships (Title XXXVIII)](https://theamericandeal.org/paid-leave/)
+- [Digital government modernization (Title XXXIX)](https://theamericandeal.org/digital-government/)
 - [Universal zero-premium healthcare (Title XXI)](https://theamericandeal.org/healthcare/)
 - [G7 drug price parity (Title XIII)](https://theamericandeal.org/drug-prices/)
 - [Institutional homebuyer cap (Title XIV)](https://theamericandeal.org/housing/)
 - [Zero-interest student loans (Title XV)](https://theamericandeal.org/student-debt/)
 - [Full bill text and policy vault](https://theamericandeal.org/bill-text/)
+- [Explore: interactive impact map, household calculator, full bill browser](https://theamericandeal.org/explore/)
 - [Policymaker portal](https://theamericandeal.org/adopt/)
 - [Press](https://theamericandeal.org/press/)
 
