@@ -1,48 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://theamericandeal.org/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://theamericandeal.org/</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://theamericandeal.org/updates/</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://theamericandeal.org/bill-text/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://theamericandeal.org/2026-midterms/</loc><lastmod>2026-11-07</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
   <url><loc>https://theamericandeal.org/2028/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
-  
-  <url><loc>https://theamericandeal.org/balanced-budget/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/stock-trading-ban/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/government-waste/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/build-faster/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/science/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/paid-leave/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/digital-government/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://theamericandeal.org/balanced-budget/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://theamericandeal.org/stock-trading-ban/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://theamericandeal.org/government-waste/</loc><lastmod>2026-11-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://theamericandeal.org/build-faster/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://theamericandeal.org/science/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://theamericandeal.org/paid-leave/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://theamericandeal.org/digital-government/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://theamericandeal.org/healthcare/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://theamericandeal.org/drug-prices/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://theamericandeal.org/housing/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://theamericandeal.org/student-debt/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/adopt/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://theamericandeal.org/bill-text/</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://theamericandeal.org/fiscal-model/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://theamericandeal.org/sign/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://theamericandeal.org/fiscal-model/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://theamericandeal.org/adopt/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://theamericandeal.org/adopt/fiscal/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://theamericandeal.org/press/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://theamericandeal.org/press/state/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://theamericandeal.org/engage/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://theamericandeal.org/press/state/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://theamericandeal.org/engage/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://theamericandeal.org/NSRA_COMPLETE_TEXT.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Policy_Brief.pdf</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Why_The_NSRA.pdf</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Coalition_Brief.pdf</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Why_This_Bill_Can_Pass.pdf</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Legislative_Packet.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Committee_Package.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Figure_Sourcing_Verification.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Press_Package.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Executive_Brief.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Section_by_Section.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Title_Index.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Fiscal_Scorebook.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Schedule_G_Revenue_Buildup.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Constitutional_Authority.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Implementation_Timeline.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Oversight_Reauthorization.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Evidence_Standard_Disclosure.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Open_Technical_Questions.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Adoption_Attribution_Guidance.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Title_Briefs.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/NSRA_Congressional_Review_Package.pdf</loc><lastmod>2026-07-11</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://theamericandeal.org/sign/</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Executive_Brief.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Figure_Sourcing_Verification.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Press_Kit.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Policy_Brief.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Why_The_NSRA.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Coalition_Brief.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://theamericandeal.org/NSRA_Why_This_Bill_Can_Pass.pdf</loc><lastmod>2026-11-07</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
