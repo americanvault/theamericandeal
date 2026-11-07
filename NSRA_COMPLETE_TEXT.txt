@@ -28,7 +28,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
 
 (b) FINDINGS OF BROAD NATIONAL CONSENSUS.—Congress finds that the provisions of this Act reflect policy areas of documented bipartisan concern, including: domestic manufacturing competitiveness, pharmaceutical pricing fairness, housing affordability, retirement security, food supply-chain resilience, infrastructure investment, and protection of taxpayer-funded research from foreign extraction.
 
-(c) SCOPE OF ACT.—This Act comprises thirty-six (36) operative titles, numbered Title 0 through Title XXXVI with Title XVII reserved, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
+(c) SCOPE OF ACT.—This Act comprises thirty-seven (37) operative titles, numbered Title 0 through Title XXXVI, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
 
 (d) TABLE OF CONTENTS.—The table of contents for this Act is as follows:
 
@@ -130,7 +130,16 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
     SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
     SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
-  TITLE XVII — [RESERVED]
+  TITLE XVII — NATIONAL BUILD-OUT, HYDROPOWER, AND INFRASTRUCTURE DELIVERY
+    SEC. 1701. FINDINGS AND PURPOSE.
+    SEC. 1702. DEFINITIONS.
+    SEC. 1703. POWERING AND SECURING EXISTING DAMS.
+    SEC. 1704. HYDROPOWER LICENSING AND RELICENSING ON A FIXED SCHEDULE.
+    SEC. 1705. NATIONAL INFRASTRUCTURE INSPECTION AND PREVENTIVE MAINTENANCE STANDARD.
+    SEC. 1706. INFRASTRUCTURE DELIVERY STANDARDS — UNIT COSTS AND STANDARD DESIGNS.
+    SEC. 1707. FEDERAL REVIEW ON A FIXED SCHEDULE FOR COVERED INFRASTRUCTURE PROJECTS.
+    SEC. 1708. FUNDING AND BUDGET NEUTRALITY CERTIFICATION.
+    SEC. 1709. SCHEDULE D BENCHMARKS — TITLE XVII.
   TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
     SEC. 1801. STANDING — CONCRETE INJURY SPECIFICATION BY TITLE.
     SEC. 1802. DUE PROCESS — MANDATORY PRE-DEPRIVATION NOTICE SCHEDULE.
@@ -605,6 +614,8 @@ SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FMIA AS DATA SPIN
 (7) TITLE XIV (Shelter Sovereignty).—The Department of Housing and Urban Development and the Department of Justice Antitrust Division shall be primary enforcement agencies for housing market concentration.
 
 (8) TITLE XVI (Financial Sovereignty).—The Treasury Department and the Federal Reserve Board of Governors shall be primary enforcement agencies for capital flight and financial compliance.
+
+(9) TITLE XVII (National Build-Out and Hydropower).—The Department of Energy and the Federal Energy Regulatory Commission shall be the primary agencies for Sections 1703 and 1704, and the Department of Transportation shall be the primary agency for Sections 1705 through 1707, acting in coordination with the Army Corps of Engineers, the Bureau of Reclamation, and the Federal Emergency Management Agency.
 
 (b) FMIA REFERRAL MECHANISM.—Upon generating a Verified Structural Variance Report, the FMIA shall automatically transmit the Report to the primary enforcement agency designated in subsection (a) within twenty-four (24) hours. The primary agency's SAE ninety (90) day enforcement clock begins upon receipt of the FMIA referral. The FMIA retains concurrent enforcement authority as a backstop if the primary agency fails to act within the SAE window.
 
@@ -1208,6 +1219,12 @@ SEC. 803. SOVEREIGN PASSENGER RAIL EXPANSION.
 
 (c) AMERICAN WORKER MANDATE.—All rail construction projects capitalized under this section shall comply with the Davis-Bacon Act (40 U.S.C. §§ 3141–3148) and shall require not less than ninety percent (90%) of construction labor hours to be performed by United States residents.
 
+(d) NATIONAL CORRIDOR PLAN.—Not later than eighteen (18) months after the date of enactment of this Act, the Secretary of Transportation shall publish a National Intercity Passenger Rail Corridor Plan with a planning horizon of not less than fifteen (15) years, updated every five (5) years, identifying priority corridors connecting cities separated by two hundred (200) to six hundred (600) miles. Projects capitalized under this section shall be consistent with the Plan.
+
+(e) STANDARDIZED DESIGN AND COST CONTROL.—Projects capitalized under this section shall use reference designs under Section 1706(c) where practicable and shall report unit costs under Section 1706(a). The Federal Railroad Administration shall publish the cost per route-kilometer of each corridor.
+
+(f) STATION-AREA VALUE CAPTURE.—Revenue committed from joint development of station areas, tax-increment financing, or other land-value capture may be counted toward the co-investment requirement of subsection (b). Sponsors are encouraged to adopt integrated rail-and-property development models of the kind used by Japanese private railway operators.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1277,6 +1294,12 @@ SEC. 905. INTELLIGENT NATIONAL GRID MODERNIZATION.
 
 (e) ENFORCEMENT.—Failure of a participating utility to meet milestone benchmarks shall permit the FMIA to suspend program disbursements pending cure, subject to the pre-deprivation notice requirements of Title XVIII.
 
+(f) LONG-DURATION STORAGE.—Not less than fifteen percent (15%) of amounts deployed under this section in each fiscal year shall support energy storage with a discharge duration of eight (8) hours or more, including pumped storage hydropower as defined in Section 1702, with a preference for closed-loop facilities.
+
+(g) NATIONAL TRANSMISSION BACKBONE PLAN.—Not later than two (2) years after the date of enactment of this Act, the Secretary of Energy, in consultation with the Federal Energy Regulatory Commission and regional transmission organizations, shall publish a plan for a national interregional high-voltage direct current transmission backbone that identifies priority corridors. Investments under subsection (b)(1) shall give priority to corridors identified in the plan.
+
+(h) EXISTING DAMS ALLOCATION.—Of the amount allocated to this section, two billion dollars ($2,000,000,000) in each of the first five (5) fiscal years after the date of enactment of this Act shall be deposited in the Existing Dams Revolving Fund established under Section 1703(c).
+
 SEC. 987. VETERANS ENERGY SOVEREIGNTY BENEFIT.
 
 (a) ESTABLISHMENT.—There is established a Veterans Energy Sovereignty Benefit (VESB) providing household energy affordability assistance to veteran households, in recognition of service and to ensure that energy-cost transitions under this Title do not fall disproportionately on veterans.
@@ -1326,7 +1349,7 @@ SEC. 1004. NATIONAL WATER SECURITY AND REDISTRIBUTION INFRASTRUCTURE.
 
 (a) PURPOSE.—To secure the domestic water commons as fundamental public infrastructure, there is established a National Water Security and Redistribution Infrastructure program, funded at fifteen billion dollars ($15,000,000,000) per year from the SIRF pursuant to Section 3406(c)(5).
 
-(b) AUTHORIZED INVESTMENTS.—Program funds shall be deployed for: (1) replacement of lead and failing water-distribution infrastructure; (2) drought-resilience and inter-basin redistribution capacity in water-stressed regions; (3) aquifer recharge and watershed restoration; (4) PFAS and contaminant remediation in public water systems; and (5) tribal and rural water-access infrastructure.
+(b) AUTHORIZED INVESTMENTS.—Program funds shall be deployed for: (1) replacement of lead and failing water-distribution infrastructure; (2) drought-resilience and inter-basin redistribution capacity in water-stressed regions; (3) aquifer recharge and watershed restoration; (4) PFAS and contaminant remediation in public water systems; and (5) tribal and rural water-access infrastructure; (6) urban flood diversion and underground stormwater storage, giving priority to metropolitan areas with repetitive flood losses; and (7) rehabilitation of high-hazard-potential dams through the High Hazard Potential Dam Rehabilitation grant program under section 8A of the National Dam Safety Program Act, in an amount not less than one billion five hundred million dollars ($1,500,000,000) in each of the first five (5) fiscal years after the date of enactment of this Act.
 
 (c) PUBLIC OWNERSHIP PRIORITY.—Program funds shall prioritize publicly and cooperatively owned water systems, and shall not subsidize the transfer of public water assets to private for-profit ownership.
 
@@ -1508,7 +1531,7 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
 
-(a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause.
+(a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause. On January 20, 2026, the President directed Federal agencies to curb purchases of single-family homes by large institutional investors and called on Congress to codify that policy; this section provides that statutory codification, together with the divestiture, just-compensation, and enforcement framework that executive action alone cannot supply.
 
 (b) PORTFOLIO CONCENTRATION CAP.—No institutional investor, as defined in subsection (h)(1), may own, directly or through affiliated entities or investment vehicles, more than fifty (50) single-family residential units within any single Metropolitan Statistical Area (MSA), as defined by the Office of Management and Budget. Compliance with this cap shall be achieved within thirty-six (36) months of enactment of this Act.
 
@@ -1658,7 +1681,202 @@ SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE II
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XVII — [RESERVED]
+TITLE XVII — NATIONAL BUILD-OUT, HYDROPOWER, AND INFRASTRUCTURE DELIVERY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1701. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+
+(1) The People's Republic of China has built the largest high-speed rail network in the world. The World Bank has estimated its typical infrastructure unit cost at approximately seventeen million dollars ($17,000,000) to twenty-one million dollars ($21,000,000) per kilometer, roughly two-thirds of comparable costs in other countries. The World Bank attributes much of that difference to long-range network planning, standardized designs, and sustained construction volume rather than to labor costs alone.
+
+(2) By the end of 2025, the People's Republic of China had placed in operation approximately forty-five (45) ultra-high-voltage transmission lines and more than sixty (60) gigawatts of pumped storage hydropower, with substantially more under construction. That gives it the long-distance transmission and long-duration storage needed to move and firm large volumes of domestic generation. The United States is in direct economic and strategic competition with that build-out.
+
+(3) After the 2012 collapse of the Sasago Tunnel ceiling, Japan amended its Road Act. Beginning in 2014, it required road administrators to give every bridge and tunnel a close visual inspection once every five (5) years and to classify each structure into one of four soundness categories, establishing a nationwide preventive-maintenance cycle.
+
+(4) Japan's Metropolitan Area Outer Underground Discharge Channel was completed in 2006 at a cost of approximately two hundred thirty billion yen (¥230,000,000,000). Japan's Ministry of Land, Infrastructure, Transport and Tourism credits it with preventing more than one hundred fifty billion yen (¥150,000,000,000) in flood damage.
+
+(5) The United States has more than ninety thousand (90,000) dams, of which approximately three percent (3%) generate electricity. The Department of Energy has estimated that adding generation to existing non-powered dams could provide up to twelve (12) gigawatts of new capacity without building a new dam, with the largest opportunities concentrated at federally owned lock-and-dam facilities.
+
+(6) In 2025, the Association of State Dam Safety Officials estimated the cost of rehabilitating the Nation's non-Federal dams at one hundred sixty-five billion two hundred million dollars ($165,200,000,000), including thirty-seven billion four hundred million dollars ($37,400,000,000) for non-Federal high-hazard-potential dams. Nearly seventeen thousand (17,000) dams in the United States are classified as high-hazard potential.
+
+(7) Relicensing an existing hydropower project before the Federal Energy Regulatory Commission takes approximately 7.6 years on average. The licenses of 281 hydropower and pumped storage facilities, representing approximately 13.8 gigawatts of capacity, expire by 2030.
+
+(8) The Fiscal Responsibility Act of 2023 (Public Law 118–5) set deadlines for environmental review under the National Environmental Policy Act of 1969. The lead agency may extend those deadlines, and they have not by themselves ensured timely completion of federally funded infrastructure.
+
+(9) The lesson for the United States is not centralized control. It is disciplined execution: long-range plans that do not change with each budget cycle, standardized and repeatable designs, published unit costs, mandatory maintenance, and decisions made on a fixed clock.
+
+(b) PURPOSE.—The purposes of this Title are to—
+
+(1) add generating capacity and safety at the Nation's existing dams;
+
+(2) establish a nationwide inspection and preventive-maintenance standard for public works assets financed under this Act;
+
+(3) lower, and publish, the unit cost of federally financed infrastructure;
+
+(4) complete Federal review of covered infrastructure projects on a fixed and enforceable schedule; and
+
+(5) coordinate with Sections 803, 905, and 1004 of this Act without duplicating them.
+
+(c) RELATIONSHIP TO OTHER LAW AND OTHER TITLES.—This Title supplements and does not duplicate:
+
+(1) Section 803 (passenger rail), Section 905 (transmission and grid-scale storage), and Section 1004 (water security and flood resilience) of this Act;
+
+(2) the National Bridge Inspection Standards (subpart C of part 650 of title 23, Code of Federal Regulations) and the National Tunnel Inspection Standards (subpart E of part 650 of title 23, Code of Federal Regulations);
+
+(3) the National Dam Safety Program Act (33 U.S.C. 467 et seq.); and
+
+(4) the expedited licensing process for qualifying facilities at existing non-powered dams and for closed-loop pumped storage projects established under America's Water Infrastructure Act of 2018 (Public Law 115–270).
+
+Where any such provision imposes a more stringent or more frequent requirement than this Title, that provision controls.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1702. DEFINITIONS.
+
+In this Title:
+
+(1) COVERED INFRASTRUCTURE PROJECT.—The term "covered infrastructure project" means a project for the construction, reconstruction, or rehabilitation of a public works asset that is financed in whole or in part by the SIRF under any Title of this Act and has a total estimated cost of not less than fifty million dollars ($50,000,000).
+
+(2) HIGH-HAZARD-POTENTIAL DAM.—The term "high-hazard-potential dam" has the meaning given the term in section 2 of the National Dam Safety Program Act (33 U.S.C. 467).
+
+(3) NON-POWERED DAM.—The term "non-powered dam" means a dam, lock, diversion structure, or conduit that exists on the date of enactment of this Act and has no hydroelectric generating facility.
+
+(4) PUMPED STORAGE HYDROPOWER.—The term "pumped storage hydropower" means a facility that stores energy by moving water between reservoirs at different elevations, including a closed-loop facility not continuously connected to a naturally flowing water feature.
+
+(5) PUBLIC WORKS ASSET.—The term "public works asset" means a bridge, tunnel, dam, levee, culvert, water or wastewater main, pumping station, or flood-control structure owned by a Federal agency or by a State, local, or tribal government.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1703. POWERING AND SECURING EXISTING DAMS.
+
+(a) PROGRAM ESTABLISHED.—The Secretary of Energy, in coordination with the Chief of Engineers, the Commissioner of Reclamation, and the Federal Energy Regulatory Commission, shall carry out a Powering and Securing Existing Dams Program to add hydroelectric generation at non-powered dams and to modernize existing hydropower facilities.
+
+(b) FEDERAL FACILITIES INVENTORY AND OFFERING.—
+
+(1) INVENTORY.—Not later than one (1) year after the date of enactment of this Act, the Chief of Engineers and the Commissioner of Reclamation shall jointly publish a ranked inventory of federally owned non-powered dams with a potential generating capacity of not less than one (1) megawatt, including the estimated capacity, cost, and principal constraints at each site.
+
+(2) OFFERING.—Not later than three (3) years after the date of enactment of this Act, each agency shall offer for development each of the one hundred (100) highest-ranked sites under its jurisdiction, through a lease of power privilege, a competitive solicitation, or another authority available to the agency. Public power utilities, electric cooperatives, and Indian tribes shall receive a preference among otherwise comparable proposals.
+
+(c) EXISTING DAMS REVOLVING FUND.—
+
+(1) ESTABLISHMENT.—There is established within the Energy Sovereignty Node of the SIRF an Existing Dams Revolving Fund.
+
+(2) CAPITALIZATION.—For each of the first five (5) fiscal years after the date of enactment of this Act, two billion dollars ($2,000,000,000) of the amount allocated to Section 905 under Section 3406(c)(1) shall be deposited in the Existing Dams Revolving Fund.
+
+(3) ELIGIBLE PROJECTS.—The Fund may make loans for: (A) installing hydroelectric generation at a non-powered dam; (B) increasing the capacity or efficiency of an existing hydropower facility; and (C) dam safety rehabilitation that is integral to a project described in subparagraph (A) or (B).
+
+(4) TERMS.—A loan from the Fund shall not exceed eighty percent (80%) of eligible project costs, shall have a term not exceeding forty (40) years, and shall bear interest at a rate equal to the yield on marketable obligations of the United States of comparable maturity.
+
+(5) REVOLVING USE.—All repayments of principal and interest shall be credited to the Fund and remain available for new loans under this subsection.
+
+(d) SAFETY FIRST CONDITION.—No loan may be made for a project at a high-hazard-potential dam unless the project brings the dam into compliance with applicable Federal or State dam safety standards before commercial operation begins.
+
+(e) DAM SAFETY REHABILITATION.—Rehabilitation of high-hazard-potential dams that are not paired with a generation project is funded under Section 1004(b)(7) of this Act.
+
+(f) ENVIRONMENTAL PROTECTIONS PRESERVED.—Nothing in this section waives or limits any condition or prescription under section 4(e) or 18 of the Federal Power Act (16 U.S.C. 797(e), 811), or any requirement of the Endangered Species Act of 1973 or the Federal Water Pollution Control Act.
+
+(g) LABOR STANDARDS.—Projects financed under this section shall comply with the labor standards of Section 803(c) of this Act.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1704. HYDROPOWER LICENSING AND RELICENSING ON A FIXED SCHEDULE.
+
+(a) EXPEDITED LICENSING.—The Federal Energy Regulatory Commission shall process each eligible application for a qualifying facility at an existing non-powered dam, or for a closed-loop pumped storage project, under the expedited licensing process established under America's Water Infrastructure Act of 2018 (Public Law 115–270). The Commission shall report to Congress each such application on which final action is not taken within two (2) years of a complete filing, with the reasons for the delay.
+
+(b) RELICENSING SCHEDULE.—Not later than ninety (90) days after an existing licensee files a notice of intent to seek a new license, the Commission, in consultation with each Federal agency that holds mandatory conditioning authority over the project, shall publish a schedule for each required Federal decision. The schedule shall provide for final Commission action not later than three (3) years after a complete application is filed.
+
+(c) SCHEDULE DISCIPLINE.—The Commission may extend a schedule under subsection (b) only by written order that states the reasons for the extension, and the total of all extensions shall not exceed one (1) year, except where the applicant requests or consents to the extension.
+
+(d) CONTINUED OPERATION.—A licensee that has filed a timely and complete application shall continue to operate under annual licenses pending final action. A delay in agency action shall not be grounds for requiring surrender of the license.
+
+(e) STATE AUTHORITY PRESERVED.—Nothing in this section alters the authority of a State under section 401 of the Federal Water Pollution Control Act (33 U.S.C. 1341).
+
+(f) DEDICATED REVIEW CAPACITY.—Of amounts in the Existing Dams Revolving Fund, not more than fifty million dollars ($50,000,000) per fiscal year may be made available to the Commission and to Federal resource agencies to support staff dedicated to hydropower licensing and relicensing reviews.
+
+(g) PUBLIC TRACKING.—The Commission shall publish, and update not less than quarterly, the status of every pending license and relicense application against its schedule.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1705. NATIONAL INFRASTRUCTURE INSPECTION AND PREVENTIVE MAINTENANCE STANDARD.
+
+(a) STANDARD.—Not later than two (2) years after the date of enactment of this Act, the Secretary of Transportation, in coordination with the Administrator of the Federal Emergency Management Agency, the Chief of Engineers, and the Administrator of the Environmental Protection Agency, shall issue a uniform minimum inspection standard for each public works asset that receives SIRF financing after the date of enactment of this Act or is owned by an entity that receives such financing.
+
+(b) INSPECTION FREQUENCY.—Each covered asset shall receive a close, hands-on visual inspection by a qualified inspector not less than once every five (5) years. An asset already subject to a more frequent Federal inspection requirement shall continue to be inspected under that requirement.
+
+(c) SOUNDNESS CATEGORIES.—Each inspection shall assign the asset to one of the following categories:
+
+(1) CATEGORY I.—Sound; no action required.
+
+(2) CATEGORY II.—Sound, with preventive maintenance advisable.
+
+(3) CATEGORY III.—Early action required before the next inspection cycle.
+
+(4) CATEGORY IV.—Urgent action required.
+
+(d) REQUIRED ACTION.—The owner of a Category IV asset shall immediately restrict or close the asset as necessary to protect public safety and shall adopt a funded remediation plan within one (1) year. The owner of a Category III asset shall complete remediation or replacement within five (5) years.
+
+(e) PUBLIC REGISTRY.—The FMIA shall publish the category, inspection date, and remediation status of each covered asset in a public registry integrated with the SIRF Beneficiary Registry established under Section 201(d)(1).
+
+(f) FIX-IT-FIRST CONDITION.—SIRF financing for new construction shall be conditioned on the owner certifying an asset management plan that schedules remediation of each Category III and Category IV asset it owns and provides funded maintenance for each new asset over not less than thirty (30) years.
+
+(g) LOCAL CAPACITY.—The cost of inspections required by this section, including inspections performed by regional consortia on behalf of local governments with populations under fifty thousand (50,000), shall be an eligible cost under any SIRF program that finances the asset.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1706. INFRASTRUCTURE DELIVERY STANDARDS — UNIT COSTS AND STANDARD DESIGNS.
+
+(a) UNIT COST REPORTING.—The sponsor of each covered infrastructure project shall report standardized unit costs, such as cost per lane-mile, per route-kilometer of track, per megawatt, or per mile of pipe, at contract award and at completion. The FMIA shall publish each report.
+
+(b) BENCHMARKS.—The FMIA, in coordination with the Secretary of Transportation and the Secretary of Energy, shall publish annually domestic and international unit-cost benchmarks for each major project class. A sponsor whose unit cost at contract award exceeds one hundred fifty percent (150%) of the domestic median for its project class shall submit a written cost justification before further SIRF disbursement, subject to the notice requirements of Title XVIII.
+
+(c) REFERENCE DESIGN LIBRARY.—The Secretary of Transportation, the Chief of Engineers, and the Secretary of Energy shall maintain a public library of pre-approved standard designs for recurring infrastructure elements, including bridge beams, viaduct segments, culverts, substations, and modular powerhouses for small hydropower. A project that uses a reference design without material modification shall receive streamlined Federal design review for that element.
+
+(d) LONG-RANGE PROJECT PIPELINE.—Each Federal agency that administers a SIRF infrastructure program shall publish, and update annually, a rolling ten (10) year pipeline of planned projects so that domestic manufacturers and contractors can invest in capacity.
+
+(e) OWNER CAPACITY.—Sponsors may use SIRF financing to build and retain in-house engineering and project-management staff.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1707. FEDERAL REVIEW ON A FIXED SCHEDULE FOR COVERED INFRASTRUCTURE PROJECTS.
+
+(a) APPLICATION.—This section applies to each covered infrastructure project and supplements section 107 of the National Environmental Policy Act of 1969 (42 U.S.C. 4336a).
+
+(b) LIMITS ON EXTENSIONS.—Any extension of a deadline under section 107(g)(2) of the National Environmental Policy Act of 1969 for a covered infrastructure project shall—
+
+(1) be made in writing, published, and supported by a statement of reasons;
+
+(2) be approved by the head of the lead agency; and
+
+(3) not exceed one (1) year in total, except where the project sponsor requests or consents to the extension.
+
+(c) ONE FEDERAL SCHEDULE.—The lead agency shall publish a single schedule for every Federal authorization required for the project on the Permitting Dashboard maintained under title XLI of the FAST Act (42 U.S.C. 4370m et seq.).
+
+(d) TIMELY JUDICIAL REVIEW.—A claim seeking judicial review of a Federal authorization for a covered infrastructure project shall be barred unless it is filed within one hundred fifty (150) days after notice of the authorization is published in the Federal Register, unless a shorter period is otherwise provided by law. Courts shall expedite such claims to the greatest practicable extent.
+
+(e) SAVINGS CLAUSE.—Nothing in this section waives or limits any substantive environmental, public health, safety, labor, or civil rights requirement, or any obligation to consult with Indian tribes, including under section 106 of the National Historic Preservation Act (54 U.S.C. 306108).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1708. FUNDING AND BUDGET NEUTRALITY CERTIFICATION.
+
+This Title creates no new allocation beyond the mandatory growth reinvestment allocations of Section 3406(c). It is funded as follows:
+
+(1) the Existing Dams Revolving Fund under Section 1703(c), capitalized from the amount allocated to Section 905;
+
+(2) dam safety rehabilitation and urban flood diversion under Section 1004(b)(6) and (7), from the amount allocated to Section 1004; and
+
+(3) the inspection, unit-cost reporting, and asset-management costs required by Sections 1705 and 1706, which are eligible costs of the SIRF program that finances each asset.
+
+Total SIRF infrastructure deployment remains ninety-five billion dollars ($95,000,000,000) per year, and the net annual surplus stated in Section 3406(d) is unaffected. Loan repayments to the Existing Dams Revolving Fund are recycled into new projects. Added generation, avoided flood and dam-failure losses, and lower unit costs are expected fiscal and economic benefits that this certification does not count toward the surplus.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1709. SCHEDULE D BENCHMARKS — TITLE XVII.
+
+The Secretary of Energy, the Secretary of Transportation, and the FMIA shall report jointly to Congress biennially on: (1) megawatts of generation added at existing dams and of pumped storage hydropower placed in service, including under Section 905(f); (2) high-hazard-potential dams rehabilitated; (3) hydropower license and relicense decisions issued, with median times from complete application to final action; (4) inspection coverage and the number of assets in each soundness category; (5) unit-cost benchmarks and the projects that exceeded them; (6) compliance with environmental review deadlines, and extensions granted, for covered infrastructure projects; and (7) unit costs of passenger rail corridors financed under Section 803.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
