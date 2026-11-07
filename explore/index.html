@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Explore the NSRA: Interactive Impact Map, Household Calculator, and Full Bill Text | TheAmericanDeal.org</title>
-  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal discussion draft for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
-  <meta name="keywords" content="National Sovereignty and Resilience Act, NSRA, The American Deal, 2028 policy agenda, 2028 presidential platform, 121st Congress, cost of living bill, congressional stock trading ban, institutional investor home buying ban, G7 drug pricing, insulin cap, zero-interest student loans, universal coverage, discussion draft legislation" />
+  <meta name="description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal bill for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
+  <meta name="keywords" content="National Sovereignty and Resilience Act, NSRA, The American Deal, 2028 policy agenda, 2028 presidential platform, 121st Congress, cost of living bill, congressional stock trading ban, institutional investor home buying ban, G7 drug pricing, insulin cap, zero-interest student loans, universal coverage, model legislation" />
   <meta name="author" content="Santonio D. Sanders" />
   <link rel="canonical" href="https://theamericandeal.org/explore/" />
   <meta name="google-site-verification" content="YfTXLC4Mqq8eWmgpcpbIoVx1Q-r4wEIpqQhDVTBWmZw" />
@@ -24,7 +24,7 @@
   <meta property="og:url"         content="https://theamericandeal.org/explore/" />
   <meta property="og:site_name"   content="TheAmericanDeal.org" />
   <meta property="og:title"       content="America Is Years Behind. Here Is the Bill That Fixes It. · NSRA" />
-  <meta property="og:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal discussion draft for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
+  <meta property="og:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal bill for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
   <meta property="og:image"       content="https://theamericandeal.org/og-image.png" />
   <meta property="og:image:width"  content="1200" />
   <meta property="og:image:height" content="630" />
@@ -33,7 +33,7 @@
   <!-- Twitter / X Card -->
   <meta name="twitter:card"        content="summary_large_image" />
   <meta name="twitter:title"       content="NSRA · TheAmericanDeal · What America Owes You™" />
-  <meta name="twitter:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal discussion draft for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
+  <meta name="twitter:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal bill for 2028 candidates and the 121st Congress. Zero-premium coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, federal R&amp;D back to 1% of GDP, and permits on a fixed clock. Official scoring pending." />
   <meta name="twitter:site"        content="@NSRA2028" />
   <meta name="twitter:image"       content="https://theamericandeal.org/og-image.png" />
 
@@ -49,7 +49,7 @@
   <link rel="preconnect" href="https://abacus.jasoncameron.dev" crossorigin />
   <link rel="dns-prefetch" href="https://abacus.jasoncameron.dev" />
   <meta name="author" content="Santonio D. Sanders" />
-  <meta name="publisher" content="TheAmericanDeal.org" />
+  <meta name="publisher" content="Santonio D. Sanders" />
   <style>
     :root {
       --bg-base:     #0D0F14;
@@ -720,7 +720,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <td>Household monthly floor</td>
           <td style="color:#60a5fa">None · EITC expansion · Minimum wage increase · No universal dividend</td>
           <td style="color:#f87171">None · MAGA Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
-          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust $5K at birth · MAGA Account complementary</td>
+          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust: $1,000 at birth plus a savings match in every child&rsquo;s Trump Account</td>
         </tr>
         <tr>
           <td>Healthcare coverage floor</td>
@@ -7919,6 +7919,13 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
       }).catch(function(){});
   }
   updateVisitorCounter();
+  // Arriving from the homepage petition: skip straight to Step 2 (call your legislators)
+  try {
+    var _q = new URLSearchParams(location.search), _z = _q.get('zip');
+    if (_z && /^\d{5}$/.test(_z)) {
+      setTimeout(function(){ showStep2(_q.get('first') || '', '', _z); var _s = document.getElementById('support'); if (_s) _s.scrollIntoView(); }, 400);
+    }
+  } catch(e) {}
 
   // ── Duplicate-signature guard ────────────────────────────────
   function emailKey(email) {
