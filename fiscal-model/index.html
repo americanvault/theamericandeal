@@ -24,18 +24,21 @@
 <meta name="twitter:description" content="Interactive fiscal model — adjust realization, toggle streams, see the result." />
 <meta name="twitter:image" content="https://theamericandeal.org/og-image.png" />
 <meta name="twitter:site" content="@NSRA2028" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;0,8..60,800;1,8..60,700&display=swap" />
+<link rel="stylesheet" href="/assets/site.css" />
 <style>
-:root{--bg:#0D0F14;--surface:#161920;--elev:#1E2128;--green:#22C55E;--amber:#F59E0B;--red:#EF4444;--blue:#60A5FA;--text:#F1F5F9;--muted:#64748B;--border:#252830}
+:root{--bg:#ffffff;--surface:#f6f7f9;--elev:#eef1f4;--green:#15803d;--amber:#b54708;--red:#b42318;--blue:#1d4ed8;--text:#111418;--muted:#5b6472;--border:#e4e7ec}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.6}
 a{color:var(--green)}
-nav{position:sticky;top:0;background:rgba(13,15,20,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;z-index:10}
+nav.legacy-nav{position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;z-index:10}
 .brand{font-size:13px;font-weight:700;letter-spacing:.05em;color:var(--text);text-decoration:none}
 .brand span{color:var(--green)}
 .wrap{max-width:1000px;margin:0 auto;padding:40px 24px 80px}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:12px}
 h1{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1.15;letter-spacing:-.02em;margin-bottom:14px}
-.lede{font-size:16px;color:#cbd5e1;margin-bottom:8px;max-width:760px}
+.lede{font-size:16px;color:#3b4350;margin-bottom:8px;max-width:760px}
 .sub{font-size:13px;color:var(--muted);margin-bottom:26px;max-width:760px}
 .grid{display:grid;grid-template-columns:1.15fr 1fr;gap:22px}
 @media(max-width:820px){.grid{grid-template-columns:1fr}}
@@ -47,24 +50,25 @@ h1{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1.15;letter-spacin
 input[type=range]{width:100%;accent-color:var(--green)}
 input[type=number]{background:var(--elev);border:1px solid var(--border);border-radius:6px;padding:7px 9px;color:var(--text);font-size:13px;width:120px;outline:none}
 .streams{max-height:340px;overflow-y:auto;padding-right:6px}
-.stream{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:12.5px}
+.stream{display:flex;align-items:center;gap:9px;padding:6px 0;border-bottom:1px solid rgba(11,37,69,0.04);font-size:12.5px}
 .stream input{accent-color:var(--green);width:15px;height:15px;flex-shrink:0}
-.stream .nm{flex:1;color:#cbd5e1}
+.stream .nm{flex:1;color:#3b4350}
 .stream .amt{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums}
 .stream.cost .amt{color:var(--amber)}
 .out{text-align:center;padding:14px 10px;background:var(--elev);border-radius:10px;margin-bottom:10px}
 .out .big{font-size:34px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
 .out .lbl{font-size:11px;color:var(--muted);margin-top:5px;text-transform:uppercase;letter-spacing:.06em}
 .g{color:var(--green)}.a{color:var(--amber)}.r{color:var(--red)}.b{color:var(--blue)}
-.rowout{display:flex;justify-content:space-between;font-size:13px;padding:7px 2px;border-bottom:1px solid rgba(255,255,255,.05)}
+.rowout{display:flex;justify-content:space-between;font-size:13px;padding:7px 2px;border-bottom:1px solid rgba(11,37,69,0.04)}
 .rowout span:last-child{font-weight:700;font-variant-numeric:tabular-nums}
 .vs{margin-top:12px;font-size:12px;color:var(--muted);text-align:center;line-height:1.6}
 .btns{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .mini{font-size:11px;font-weight:700;padding:6px 12px;border-radius:6px;border:1px solid var(--border);background:var(--elev);color:var(--muted);cursor:pointer}
 .mini:hover{border-color:var(--green);color:var(--green)}
 .note{margin-top:26px;padding:15px 18px;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:10px;font-size:12px;color:var(--muted);line-height:1.7}
-.note b{color:#F1F5F9}
-footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:13px;color:var(--muted);margin-top:20px}
+.note b{color:#111418}
+footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:13px;color:var(--muted);margin-top:20px}
+/* legacy-fit */ #usa250,#usa250tab{display:none!important} header.site a,footer.site a{text-decoration:none} h1,h2{color:var(--navy,#0b2545)}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -78,14 +82,13 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <header class="site"><div class="in">
 <a class="logo" href="/">The American <span>Deal</span></a>
 <nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav>
-<a class="btn sm" href="/explore/#support">Add your name</a>
+<a class="btn sm" href="/#sign">Sign the petition</a>
 </div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav></header>
 
-<nav><a class="brand" href="/">The<span>American</span>Deal</a></nav>
 <!-- USA250 BANNER -->
 <style id="usa250css">
 #usa250{position:fixed;left:14px;top:66px;z-index:35;width:104px;font-family:Georgia,"Times New Roman",serif}
-#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(0,0,0,.55);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
+#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(16,24,40,0.12);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
 #usa250.rolled #usa250panel{transform:scaleY(0)}
 #usa250 .stripe{height:8px;background:repeating-linear-gradient(90deg,#E23B3B 0 12px,#fff 12px 24px,#4B79E4 24px 36px)}
 #usa250 .body{padding:11px 8px 24px;text-align:center}
@@ -97,7 +100,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 #usa250 .yr .s{color:#E23B3B;margin:0 2px}
 #usa250close{position:absolute;top:9px;right:7px;background:none;border:0;color:#8ea3cf;font-size:15px;font-weight:700;cursor:pointer;line-height:1}
 #usa250close:hover{color:#fff}
-#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(0,0,0,.5)}
+#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(16,24,40,0.12)}
 @media(prefers-reduced-motion:reduce){#usa250panel{transition:none}}
 @media(max-width:520px){#usa250{width:88px;left:8px}#usa250 .big{font-size:32px}}
 </style>
@@ -151,7 +154,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
       <input type="number" id="prog" value="381.1" min="0" step="1" />
-      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3).</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The two tax-side costs, $65B, are listed with the streams below, so the total cost in Section 3406 is $446B.</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
     <div class="streams" id="streams"></div>
@@ -172,7 +175,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.2):</b> ~$657B in annual revenue at full ramp · ~$211B in annual deficit reduction · ~$5.8T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.2):</b> ~$630B in annual revenue at full ramp · ~$184B in annual deficit reduction · ~$5.0T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -181,11 +184,17 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <b>What this is.</b> A transparent, adjustable model — not an official score. Stream values are NSRA Year-1 estimates built on published CBO, JCT, OMB, GAO, Treasury, OECD, and peer-reviewed (PNAS 2024) baselines, documented in <a href="/NSRA_Figure_Sourcing_Verification.pdf">Figure-by-Figure Sourcing</a> and Schedule G. They are internally modeled and sensitivity-tested — <b>not yet officially scored by CBO or JCT</b>, which is pending and welcomed. This tool lets you apply your own realization and scope assumptions; it does not change the underlying published estimates.
 </div>
 </div>
-<footer>TheAmericanDeal.org — What America Owes You&trade; · <a href="/">Home</a> · <a href="/bill-text/">Policy Vault</a> · <a href="/calculator/">Household Calculator</a> · contact@theamericandeal.org</footer>
+<footer class="site"><div class="in">
+<div><div class="logo" style="color:#fff">The American <span>Deal</span></div><p style="margin-top:10px">The National Sovereignty and Resilience Act is model federal legislation written by Santonio D. Sanders. Independent: not affiliated with any party, PAC, or elected official.</p></div>
+<div><h4>Issues</h4><a href="/stock-trading-ban/">Stock trading ban</a><a href="/drug-prices/">Drug prices</a><a href="/healthcare/">Healthcare</a><a href="/housing/">Housing</a><a href="/paid-leave/">Paid leave</a><a href="/science/">Science</a></div>
+<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/explore/">Explore everything</a><a href="/fiscal-model/">Fiscal model</a><a href="/calculator/">Calculator</a><a href="/2028/">2028 agenda</a></div>
+<div><h4>Connect</h4><a href="/adopt/">Policymakers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a><a href="mailto:contact@theamericandeal.org">contact@theamericandeal.org</a></div>
+<div class="fine">Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO or JCT scores. &copy; 2024&ndash;2026 Santonio D. Sanders. What America Owes You&trade;.</div>
+</div></footer>
 
 <script>
 var STREAMS=[
- {n: "Social Security wage-cap elimination (Sec. 2408)", v: 150},
+ {n: "Social Security payroll tax on wages above $400,000 (Sec. 2408)", v: 105},
  {n: "Corporate rate 21% to 28% (Sec. 2409)", v: 110},
  {n: "IRS enforcement, net of investment returns (Sec. 2406)", v: 35},
  {n: "Carbon fee, $40/ton indexed (net budgetary receipts) (Sec. 2410)", v: 85},
@@ -200,7 +209,7 @@ var STREAMS=[
  {n: "Carried interest as ordinary income (Sec. 2402)", v: 1.4},
  {n: "FTA 0.02% on institutional trades > $1M (Sec. 2405)", v: 3},
  {n: "SNAP retailer fraud recovery (Title I)", v: 1},
- {n: "Top rate 39.6% above $400K single / $450K joint (Sec. 2420(a))", v: 22},
+ {n: "Top rate 39.6% above $400K single / $450K joint (Sec. 2420(a))", v: 40},
  {n: "NIIT on active pass-through income above $400K (Sec. 2420(b))", v: 27},
  {n: "Capital gains as ordinary income above $1M (Sec. 2420(c))", v: 3},
  {n: "Stock-buyback excise 1% to 4% (Sec. 2420(d))", v: 15},
@@ -236,7 +245,7 @@ function calc(){
  document.getElementById('rCount').textContent=count;
  var pct=Math.round(def/211*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $211B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $184B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
