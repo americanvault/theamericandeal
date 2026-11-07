@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
-  <meta name="theme-color" content="#0a0c10" />
+  <meta name="theme-color" content="#0b2545" />
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website" />
@@ -50,19 +50,22 @@
   <link rel="dns-prefetch" href="https://abacus.jasoncameron.dev" />
   <meta name="author" content="Santonio D. Sanders" />
   <meta name="publisher" content="Santonio D. Sanders" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;0,8..60,800;1,8..60,700&display=swap" />
+  <link rel="stylesheet" href="/assets/site.css" />
   <style>
     :root {
-      --bg-base:     #0D0F14;
-      --bg-surface:  #161920;
-      --bg-elevated: #1E2128;
-      --green:  #22C55E;
-      --amber:  #F59E0B;
-      --red:    #EF4444;
-      --blue:   #3B82F6;
-      --purple: #A78BFA;
-      --text:   #F1F5F9;
-      --muted:  #64748B;
-      --border: #252830;
+      --bg-base:     #ffffff;
+      --bg-surface:  #f6f7f9;
+      --bg-elevated: #eef1f4;
+      --green:  #15803d;
+      --amber:  #b54708;
+      --red:    #b42318;
+      --blue:   #1d4ed8;
+      --purple: #6d28d9;
+      --text:   #111418;
+      --muted:  #5b6472;
+      --border: #e4e7ec;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -75,9 +78,9 @@
     }
 
     /* ── NAV ── */
-    nav {
+    nav.legacy-nav {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(13,15,20,0.92);
+      background: rgba(255,255,255,0.96);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 0 22px;
@@ -166,7 +169,7 @@
 
     @media (max-width: 1440px) {
       .nav-links { display: none; }
-      .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: rgba(13,15,20,0.97); padding: 12px 24px 20px; gap: 14px; z-index: 99; border-bottom: 1px solid var(--border); }
+      .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 56px; left: 0; right: 0; background: rgba(255,255,255,0.98); padding: 12px 24px 20px; gap: 14px; z-index: 99; border-bottom: 1px solid var(--border); }
       .nav-hamburger { display: flex !important; }
     }
     @media (max-width: 1200px) {
@@ -181,21 +184,21 @@
       .about-grid > div:first-child { grid-column: span 1 !important; }
     }
     @media (max-width: 480px) {
-      nav { padding: 0 16px; }
+      nav.legacy-nav { padding: 0 16px; }
       .hero p { font-size: 14px; }
       .stat-val { font-size: 22px; }
       .kpi-grid { grid-template-columns: 1fr 1fr; }
     }
     .nav-hamburger { display: none; flex-direction: column; gap: 4px; cursor: pointer; padding: 8px; background: none; border: none; }
     .nav-social { display: flex; align-items: center; gap: 6px; margin-left: 8px; }
-    .nav-social a { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 6px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); color: var(--muted); text-decoration: none; transition: background 0.2s, color 0.2s, border-color 0.2s; }
+    .nav-social a { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 6px; background: rgba(11,37,69,0.04); border: 1px solid rgba(11,37,69,0.04); color: var(--muted); text-decoration: none; transition: background 0.2s, color 0.2s, border-color 0.2s; }
     .nav-social a:hover { background: rgba(0,200,83,0.12); border-color: rgba(0,200,83,0.35); color: var(--green); }
     .nav-social a svg { width: 14px; height: 14px; fill: currentColor; }
     @media (max-width: 600px) { .nav-social { display: none; } }
     #signcall-btn {
       font-size: 10.5px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
       padding: 4px 14px; border-radius: 6px; border: 1px solid var(--green);
-      background: var(--green); color: #04120a; text-decoration: none; white-space: nowrap; text-align:center;
+      background: var(--green); color: #ffffff; text-decoration: none; white-space: nowrap; text-align:center;
       font-family: inherit;
     }
     #signcall-btn:hover { filter: brightness(1.08); }
@@ -353,7 +356,7 @@
     }
 
     /* ── FOOTER ── */
-    footer {
+    footer.legacy {
       border-top: 1px solid var(--border);
       padding: 20px 32px;
       display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;
@@ -362,7 +365,7 @@
     @media (max-width: 820px) { #swipe-hint { display: flex !important; } }
     .nav-dd { position: relative; }
     .nav-dd > a { cursor: pointer; }
-    .nav-dd-menu { display: none; position: absolute; top: calc(100% + 4px); right: 0; min-width: 260px; background: rgba(13,15,20,0.98); border: 1px solid var(--border); border-radius: 8px; padding: 6px; list-style: none; z-index: 200; box-shadow: 0 10px 28px rgba(0,0,0,0.45); }
+    .nav-dd-menu { display: none; position: absolute; top: calc(100% + 4px); right: 0; min-width: 260px; background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 6px; list-style: none; z-index: 200; box-shadow: 0 10px 28px rgba(16,24,40,0.12); }
     .nav-dd:hover .nav-dd-menu, .nav-dd:focus-within .nav-dd-menu { display: block; }
     .nav-dd-menu li { margin: 0; }
     .nav-dd-menu a { display: block; padding: 8px 12px; font-size: 12px; color: var(--muted); border-radius: 6px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
@@ -384,40 +387,27 @@
     .flip-back{transform:rotateY(180deg)}
     .flip-hint{margin-top:auto;padding-top:10px;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
     .flip-card:hover .flip-hint{color:var(--green)}
-    .flip-back .fb-row{font-size:11.5px;color:#cbd5e1;line-height:1.5;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+    .flip-back .fb-row{font-size:11.5px;color:#3b4350;line-height:1.5;padding:4px 0;border-bottom:1px solid rgba(11,37,69,0.04)}
     .flip-back .fb-row b{color:var(--green)}
+  #usa250,#usa250tab{display:none!important}
+    body{font-size:15px}
+    .section-header h2{font-family:var(--serif);font-size:24px;color:var(--navy)}
+/* legacy-fit */ #usa250,#usa250tab{display:none!important} header.site a,footer.site a{text-decoration:none} h1,h2{color:var(--navy,#0b2545)}
 </style>
 </head>
 <body>
 <script>window.nsraTrackEvent=window.nsraTrackEvent||function(n,p){try{if(typeof gtag==='function'){gtag('event',n,p||{});}else if(window.dataLayer){window.dataLayer.push(Object.assign({event:n},p||{}));}}catch(e){}};</script>
-<!-- NAV -->
-<nav>
-  <a class="nav-brand" href="/">NSRA <span style="color:var(--green)">· TheAmericanDeal</span></a>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="#behind" onclick="closeNav()" style="color:var(--amber);font-weight:700">Years Behind</a></li>
-    <li><a href="#changes" onclick="closeNav()">What This Bill Introduces</a></li>
-    <li><a href="#deal" onclick="closeNav()">The Honest Bottom Line</a></li>
-    <li><a href="#impact-map" onclick="closeNav()">State and Household Impact</a></li>
-    <li><a href="#bill-text" onclick="closeNav()">Policy Vault</a></li>
-    <li><a href="/adopt/" onclick="closeNav()" style="color:var(--text);font-weight:700">Policymakers</a></li>
-    <li><a href="/adopt/fiscal/" onclick="closeNav()" style="color:var(--text);font-weight:700">Fiscal Reviewers</a></li>
-    <li><a href="/press/" onclick="closeNav()" style="color:var(--text);font-weight:700">Press/Media</a></li>
-    <li><a href="/engage/" onclick="closeNav()" style="color:var(--text);font-weight:700">Special Interest Orgs</a></li>
-  </ul>
-  <div style="display:flex;flex-direction:column;gap:4px;align-items:stretch">
-    <a id="signcall-btn" href="#support" onclick="closeNav()">Speak Up</a>
-    <button id="donate-btn" onclick="handleDonate()" title="Donations open soon">Donate</button>
-  </div>
-  <button class="nav-hamburger" id="nav-hamburger" onclick="toggleNav()" aria-label="Menu">
-    <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
-    <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
-    <span style="width:20px;height:2px;background:var(--text);border-radius:2px;display:block"></span>
-  </button>
-</nav>
+<div class="util"><div class="in"><span></span>
+<span><a href="/adopt/">Policymakers</a><a href="/adopt/fiscal/">Fiscal reviewers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a></span></div></div>
+<header class="site"><div class="in">
+<a class="logo" href="/">The American <span>Deal</span></a>
+<nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav>
+<a class="btn sm" href="/#sign">Sign the petition</a>
+</div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav></header>
 <!-- USA250 BANNER -->
 <style id="usa250css">
 #usa250{position:fixed;left:14px;top:66px;z-index:35;width:104px;font-family:Georgia,"Times New Roman",serif}
-#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(0,0,0,.55);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
+#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(16,24,40,0.12);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
 #usa250.rolled #usa250panel{transform:scaleY(0)}
 #usa250 .stripe{height:8px;background:repeating-linear-gradient(90deg,#E23B3B 0 12px,#fff 12px 24px,#4B79E4 24px 36px)}
 #usa250 .body{padding:11px 8px 24px;text-align:center}
@@ -429,7 +419,7 @@
 #usa250 .yr .s{color:#E23B3B;margin:0 2px}
 #usa250close{position:absolute;top:9px;right:7px;background:none;border:0;color:#8ea3cf;font-size:15px;font-weight:700;cursor:pointer;line-height:1}
 #usa250close:hover{color:#fff}
-#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(0,0,0,.5)}
+#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(16,24,40,0.12)}
 @media(prefers-reduced-motion:reduce){#usa250panel{transition:none}}
 @media(max-width:520px){#usa250{width:88px;left:8px}#usa250 .big{font-size:32px}}
 </style>
@@ -538,214 +528,25 @@ document.addEventListener('DOMContentLoaded', function() {
   <h1>The Promise the Country<br/><em>Can Actually Keep</em></h1>
   <p>A national survival and fiscal recovery instrument, built on genuine revenue, not borrowed promises. Real benefits in Year 1, phased in only as revenue arrives.</p>
   <div class="hero-stats">
-    <div class="stat"><div class="stat-val" id="hero-revenue">$657B</div><div class="stat-label">Annual Revenue (full ramp, Yrs 3&ndash;5)</div><div style="font-size:9px;color:var(--amber);margin-top:2px" id="hero-revenue-note">12 scored revenue streams &middot; Year 1: ~$565B modeled &middot; official scoring pending</div></div>
+    <div class="stat"><div class="stat-val" id="hero-revenue">$630B</div><div class="stat-label">Annual Revenue (full ramp, Yrs 3&ndash;5)</div><div style="font-size:9px;color:var(--amber);margin-top:2px" id="hero-revenue-note">12 scored revenue streams &middot; Year 1: ~$565B modeled &middot; official scoring pending</div></div>
     <div class="stat"><div class="stat-val" id="hero-balance-yr">3%</div><div class="stat-label">Deficit Limit by Year 10, in Law</div></div>
     <div class="stat"><div class="stat-val" id="hero-protected">~30M</div><div class="stat-label">Uninsured Americans Covered</div><div style="font-size:9px;color:var(--amber);margin-top:2px" id="hero-protected-note">Also protects 42M SNAP participants &middot; 9M veterans (groups overlap)</div></div>
-    <div class="stat"><div class="stat-val" id="hero-deficit">$211B</div><div class="stat-label">True Annual Deficit Reduction</div></div>
+    <div class="stat"><div class="stat-val" id="hero-deficit">$184B</div><div class="stat-label">True Annual Deficit Reduction</div></div>
     <div class="stat"><div class="stat-val" id="sig-count-hero" style="color:var(--amber)">Sign</div><div class="stat-label">Stand with the American Deal</div><div style="font-size:9px;color:var(--muted);margin-top:2px"><a href="#support" style="color:var(--green);text-decoration:none">Add Your Name &rarr;</a></div></div>
   </div>
-  <div style="max-width:680px;margin:12px auto 0;padding:0 16px;font-size:10px;color:var(--muted);line-height:1.6;text-align:center"><strong style="color:#94A3B8">NSRA model estimate</strong> using published CBO, JCT, OMB, Treasury, and federal agency baselines. Internally modeled from government data, <strong style="color:#94A3B8">not yet officially scored</strong>; independent and congressional scoring pending. <strong style="color:#94A3B8">Why 2028?</strong> The NSRA is published now, ahead of the 2028 governing cycle, to allow time for independent review, public evaluation, coalition-building, candidate adoption, legislative refinement, and formal CBO/JCT scoring before introduction. The timeline is preparation, not delay.</div>
+  <div style="max-width:680px;margin:12px auto 0;padding:0 16px;font-size:10px;color:var(--muted);line-height:1.6;text-align:center"><strong style="color:#475467">NSRA model estimate</strong> using published CBO, JCT, OMB, Treasury, and federal agency baselines. Internally modeled from government data, <strong style="color:#475467">not yet officially scored</strong>; independent and congressional scoring pending. <strong style="color:#475467">Why 2028?</strong> The NSRA is published now, ahead of the 2028 governing cycle, to allow time for independent review, public evaluation, coalition-building, candidate adoption, legislative refinement, and formal CBO/JCT scoring before introduction. The timeline is preparation, not delay.</div>
 </div>
 
 <!-- YEARS BEHIND -->
-<div class="section" id="behind" style="padding-top:34px;padding-bottom:10px">
-  <div class="section-header">
-    <h2>America Is Years Behind. Here&rsquo;s the Fix.</h2>
-    <span>Science &middot; family policy &middot; infrastructure &middot; government that works &middot; health</span>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <a href="/science/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">0.65%</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">of GDP: federal R&amp;D today, down from 1.86% in 1964. China now matches U.S. R&amp;D at purchasing-power parity.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Title XXXVII: back to 1% of GDP, NSF &amp; NIH floors, STEM green cards</div>
-    </a>
-    <a href="/paid-leave/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">0 weeks</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">of national paid leave. The U.S. is the only OECD country without paid leave for new parents.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Title XXXVIII: 12 weeks, self-funded, employers with fewer than 10 workers exempt from the employer share</div>
-    </a>
-    <a href="/build-faster/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">Grade C</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">for U.S. infrastructure, with a $3.7 trillion ten-year gap. Only 888 miles of new high-voltage lines were built in 2024.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Title XVII: permits on a clock, power from existing dams, published costs</div>
-    </a>
-    <a href="/government-waste/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">$186B</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">in federal improper payments in fiscal year 2025, by GAO's estimate.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Title XXXV: payment integrity, no pocket rescissions, independent IGs</div>
-    </a>
-    <a href="/digital-government/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">#19</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">in the UN e-government ranking. The U.S. was #1 in 2003&ndash;2005.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Title XXXIX: retire legacy systems, one secure front door</div>
-    </a>
-    <a href="/healthcare/" style="display:block;text-decoration:none;background:var(--surface,#161920);border:1px solid var(--border,#252830);border-radius:12px;padding:18px 18px 16px">
-      <div style="font-size:30px;font-weight:800;color:var(--amber,#F59E0B);line-height:1.1;letter-spacing:-.02em">79.0 yrs</div>
-      <div style="font-size:12.5px;color:#cbd5e1;line-height:1.55;margin:6px 0 10px">U.S. life expectancy, vs. 82.7 in peer nations, while paying the most for prescription drugs.</div>
-      <div style="font-size:12px;font-weight:700;color:var(--green,#22C55E);line-height:1.45">The fix &rarr; Titles XXI &amp; XIII: $0-deductible baseline coverage, G7 drug prices</div>
-    </a>
-  </div>
-  <div style="max-width:1100px;margin:18px auto 0;padding:0 16px;text-align:center">
-    <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted,#64748B);margin-bottom:6px">Bills the new Congress can pass in 2027, each one page, each stands alone</div>
-    <a href="/stock-trading-ban/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Stock trading ban</a> <a href="/government-waste/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Stop government waste</a> <a href="/build-faster/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Build faster</a> <a href="/housing/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Housing: cap investors, build more</a> <a href="/science/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Science &amp; talent</a> <a href="/paid-leave/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#22C55E);font-size:12.5px;font-weight:700;text-decoration:none">Paid leave &amp; child care</a>
-  </div>
-  <p style="max-width:900px;margin:12px auto 0;padding:0 16px;text-align:center;font-size:10.5px;color:var(--muted,#64748B);line-height:1.6">Sources: OECD R&amp;D statistics (2026); AAAS historical federal R&amp;D data; OECD Family Database; ASCE 2025 Report Card; Grid Strategies / Americans for a Clean Energy Grid; GAO payment integrity (FY2025); UN E-Government Survey 2024; KFF&ndash;Peterson Health System Tracker.</p>
+<div class="section" id="explore-start" style="padding-top:8px;padding-bottom:8px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;max-width:1180px;margin:0 auto">
+<a href="#impact-map" style="display:block;padding:16px 18px;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;background:#fff;text-decoration:none;color:var(--text)"><div style="font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy,#0b2545);margin-bottom:4px">Your state &rarr;</div><div style="font-size:13px;color:var(--muted);line-height:1.5">Click any state for its impact profile and your delegation.</div></a>
+<a href="#calc-section" style="display:block;padding:16px 18px;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;background:#fff;text-decoration:none;color:var(--text)"><div style="font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy,#0b2545);margin-bottom:4px">Your household &rarr;</div><div style="font-size:13px;color:var(--muted);line-height:1.5">Enter income, family size and state to see what changes for you.</div></a>
+<a href="#bill-text" style="display:block;padding:16px 18px;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;background:#fff;text-decoration:none;color:var(--text)"><div style="font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy,#0b2545);margin-bottom:4px">The full bill &rarr;</div><div style="font-size:13px;color:var(--muted);line-height:1.5">All 40 titles and 260 sections, searchable, with PDFs.</div></a>
+<a href="/fiscal-model/" style="display:block;padding:16px 18px;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;background:#fff;text-decoration:none;color:var(--text)"><div style="font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy,#0b2545);margin-bottom:4px">The math &rarr;</div><div style="font-size:13px;color:var(--muted);line-height:1.5">Every revenue stream and cost, with a model you can stress-test.</div></a>
+<a href="#support" style="display:block;padding:16px 18px;border:1px solid var(--border);border-top:3px solid var(--green);border-radius:10px;background:#fff;text-decoration:none;color:var(--text)"><div style="font-family:var(--serif);font-size:19px;font-weight:700;color:var(--navy,#0b2545);margin-bottom:4px">Speak up &rarr;</div><div style="font-size:13px;color:var(--muted);line-height:1.5">Add your name and contact your representatives in two minutes.</div></a>
 </div>
-
-<!-- FOR REVIEWERS -->
-<div class="section" id="reviewers" style="padding-top:30px;padding-bottom:6px">
-  <div class="section-header">
-    <h2>Reviewing the NSRA?</h2>
-    <span>Start where you sit, four pathways into the framework</span>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <a class="rev-card" href="/adopt/fiscal/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Fiscal Review Portal <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Interactive model, Schedule G evidence room, scorebook, sourcing, and open technical questions.</div></a>
-    <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates, legislators &amp; staff</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill, with the committee package and jurisdiction map inside.</div></a>
-    <a class="rev-card" href="/engage/"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Engagement &amp; consultation <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Bring your concerns to the table, review the built-in accommodations and submit input on the record.</div></a>
-    <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
-  </div>
 </div>
-
-
-<!-- FIVE PILLARS -->
-
-
-<!-- WHAT THIS BILL INTRODUCES -->
-<div class="section" id="changes">
-  <div class="section-header">
-    <h2>Five Pillars, All 40 Titles</h2>
-    <span>40 Titles · 257 Sections · 27 Committees of Jurisdiction · $211B Annual Surplus · Self-Funding Architecture</span>
-  </div>
-  <p style="max-width:820px;margin:0 auto 20px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, citizen-authored agenda, internally costed on published government baselines with official scoring pending, published in full and open to whoever runs on it first. Built outside the political system, owned by no party. Five pillars, and every one of the 40 titles that delivers them.</p>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
-    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
-      <div class="flip-inner">
-        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 1 · 5 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Household Affordability</div><div style="font-size:12px;color:var(--muted);line-height:1.6">$0-deductible coverage · G7 drug pricing · $35 insulin · homes for families · zero-interest student loans · veterans&rsquo; health</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
-        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Household Affordability, by title</div><div class="fb-row"><b>XXI</b>, Universal Basic Minimum Coverage through Competitive Private Delivery</div><div class="fb-row"><b>XIII</b>, National Biosecurity and Pharmaceutical Parity</div><div class="fb-row"><b>XIV</b>, Shelter Security</div><div class="fb-row"><b>XV</b>, Student Debt Relief and Public Higher Education</div><div class="fb-row"><b>XXV</b>, Veterans Health Security and PACT Act Completion</div></div>
-      </div>
-    </div>
-    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
-      <div class="flip-inner">
-        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 2 · 7 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Family Prosperity</div><div style="font-size:12px;color:var(--muted);line-height:1.6">$1,000 at birth · paid leave &amp; child care · pensions · Social Security · wages &amp; organizing rights · household benefit accounting</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
-        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Family Prosperity, by title</div><div class="fb-row"><b>V</b>, Child Prosperity and Poverty Reduction</div><div class="fb-row"><b>XXXVIII</b>, Family and Workforce Security</div><div class="fb-row"><b>VI</b>, National Capital Protection and Pension Anti-Fragility</div><div class="fb-row"><b>XXVI</b>, National Social Security Solvency Commission</div><div class="fb-row"><b>XXVIII</b>, Worker Organizing Rights and Anti-Union-Busting Enforcement</div><div class="fb-row"><b>IV</b>, Domestic Sourcing, Wage Enforcement, and Citizen Enforcement Actions</div><div class="fb-row"><b>XIX</b>, Return on Investment, Performance Benchmarks, and American Household Benefit Accounting</div></div>
-      </div>
-    </div>
-    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
-      <div class="flip-inner">
-        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 3 · 10 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Economic Opportunity</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Make it in America · science &amp; talent · fair markets · food supply · trade enforcement · AI, compute &amp; data rights</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
-        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Economic Opportunity, by title</div><div class="fb-row"><b>XII</b>, National Manufacturing and Global Arbitrage Elimination</div><div class="fb-row"><b>XXXVII</b>, Science, Research, and Talent Renewal</div><div class="fb-row"><b>XXXIII</b>, Strategic Compute Authority</div><div class="fb-row"><b>VII</b>, Agriculture and Food Supply Security</div><div class="fb-row"><b>XXII</b>, National Critical Systems Protection and Private Equity Accountability</div><div class="fb-row"><b>XX</b>, Bipartisan Implementation Safeguards and Market Competition Preservation</div><div class="fb-row"><b>XXIII</b>, National Trade and Allied Diplomatic Architecture</div><div class="fb-row"><b>XXX</b>, NAFTA/USMCA Gap Closure and Trade Enforcement</div><div class="fb-row"><b>VIII</b>, Mobility Networks and App-Based Dispatch Platforms</div><div class="fb-row"><b>III</b>, The Artificial Intelligence Security and Personal Data Rights</div></div>
-      </div>
-    </div>
-    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
-      <div class="flip-inner">
-        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 4 · 7 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Accountable Government</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Congressional stock ban · waste &amp; payment integrity · foreign-influence transparency · press freedom · due process · digital government</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
-        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Accountable Government, by title</div><div class="fb-row"><b>XXIX</b>, Congressional Financial Integrity and Stock Trading Prohibition</div><div class="fb-row"><b>XXXV</b>, Public Integrity and Executive Accountability</div><div class="fb-row"><b>XXXVI</b>, Foreign Influence Transparency and Adversary Capital Defense</div><div class="fb-row"><b>XXVII</b>, Press Freedom and Editorial Independence Protection</div><div class="fb-row"><b>XVIII</b>, Procedural Due Process and Special Standing Controls</div><div class="fb-row"><b>I</b>, Federal Market Integrity Administration and Economic Data Verification</div><div class="fb-row"><b>XXXIX</b>, Digital Government Modernization</div></div>
-      </div>
-    </div>
-    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
-      <div class="flip-inner">
-        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 5 · 11 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">National Resilience</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Balanced-budget path · energy &amp; grid · clean water &amp; rewilding · polluter cleanup · dollar security · build faster</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
-        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">National Resilience, by title</div><div class="fb-row"><b>XXXIV</b>, Structural Architecture Refinement and SIRF Solvency</div><div class="fb-row"><b>XXIV</b>, Tax Code Reform and Fiscal Integrity</div><div class="fb-row"><b>0</b>, Statutory Foundations and Core Definitions</div><div class="fb-row"><b>II</b>, Strategic Infrastructure Reinvestment Fund</div><div class="fb-row"><b>IX</b>, National Energy and Advanced Fission Infrastructure</div><div class="fb-row"><b>X</b>, Clean Water, Conservation, and Essential Public Utilities</div><div class="fb-row"><b>XI</b>, The Automated Environmental Remediation Network (A.B.R.N.)</div><div class="fb-row"><b>XVII</b>, National Build-Out, Hydropower, and Infrastructure Delivery</div><div class="fb-row"><b>XVI</b>, Capital Flight Protection, Post-Quantum Financial Security, and Inflation Protection</div><div class="fb-row"><b>XXXII</b>, Dollar Security and Reserve Currency Defense</div><div class="fb-row"><b>XXXI</b>, American Mutual Benefit Global Health Security</div></div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="section" id="deal">
-  <div class="section-header">
-    <h2>The Honest Bottom Line</h2>
-    <span>Clinton Surpluses · Current Law · NSRA 2028</span>
-  </div>
-  <p style="font-size:12px;color:var(--muted);margin-bottom:12px">Three frameworks, three outcomes. Clinton started with a $290B deficit and closed it in 6 years, but the dot-com boom contributed an estimated 25–35% of that improvement in unexpected capital gains windfalls. The NSRA starts with a $1.9T deficit, <strong style="color:var(--text)">6.5× Clinton's challenge</strong>, with no tech boom at its back. Yet it generates <strong style="color:var(--text)">$211B/yr in absolute deficit reduction</strong>, nearly 4× Clinton's $60B/yr average in absolute dollars, while simultaneously delivering universal healthcare, pharmaceutical relief, and household wealth-building (child trust accounts, student-loan relief, down-payment help) that Clinton never offered. Deficit limits written into law: 4.5% of GDP by Year 4 and 3% by Year 10, plus a required vote on balancing the budget by Year 15 (Sec. 3406(f)). Under current law, CBO projects no balanced budget anywhere in its 10-year window, so under current law the answer is <strong style="color:var(--red)">never</strong>. The NSRA writes deficit limits into law and forces a vote on a plan to balance the budget. <em>These figures come from the NSRA's own model; CBO has not scored the bill. Under a static, CBO-style score (Schedule G, Scenario B), full-ramp revenue is still $551B, 3.2&times; the bill's core funding obligations.</em></p>
-  <div style="position:relative">
-    <div id="swipe-hint" style="display:none;align-items:center;justify-content:center;gap:6px;padding:8px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:8px;margin-bottom:10px;font-size:11px;color:var(--green);font-weight:600">
-      <span style="font-size:16px">&#8592;</span> Swipe to compare all three frameworks <span style="font-size:16px">&#8594;</span>
-    </div>
-  </div>
-  <div style="overflow-x:auto;-webkit-overflow-scrolling:touch" id="comparison-table-wrap">
-    <table style="min-width:760px">
-      <thead>
-        <tr>
-          <th style="min-width:180px">Metric</th>
-          <th style="color:#60a5fa;min-width:180px">Clinton Era<br/><span style="font-weight:400;font-size:9px">OBRA 1990 &amp; 1993 · Surplus by 1998</span></th>
-          <th style="color:#f87171;min-width:180px">Current Law<br/><span style="font-weight:400;font-size:9px">CBO Feb. 2026 baseline · includes the 2025 reconciliation act</span></th>
-          <th style="color:var(--green);min-width:200px">NSRA 2028<br/><span style="font-weight:400;font-size:9px">National Security &amp; Resilience Act</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Deficit trajectory</td>
-          <td style="color:#60a5fa">$290B deficit (FY1992) → $69B surplus (FY1998) · ~$60B/yr avg improvement · PAYGO + spending caps + top rate raised to 39.6% · Dot-com boom provided est. 25–35% of improvement via unexpected capital gains windfalls</td>
-          <td style="color:#f87171">CBO: adds $3.3–3.8T to deficit over 10 years · No balanced budget target · Deficit grows faster than baseline</td>
-          <td style="color:var(--green);font-weight:700">$211B/yr deficit reduction · Deficit limits of 4.5% (Year 4) and 3% of GDP (Year 10) in statute · <strong>Absolute annual improvement: NSRA $211B/yr vs. Clinton $60B/yr, against a 6.5× larger starting deficit. Revenue architecture includes SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform. Pharma savings revised upward to $55B/yr (source: PNAS 2024).</strong></td>
-        </tr>
-        <tr>
-          <td style="font-weight:700;color:var(--text)">Balanced budget, when?</td>
-          <td style="color:#60a5fa;font-weight:700">Year 6 from enactment<br/><span style="font-weight:400;font-size:10px">Starting deficit: $290B · Tailwind: dot-com boom</span></td>
-          <td style="color:#f87171;font-weight:700">Never<br/><span style="font-weight:400;font-size:10px">CBO projects deficits rising from $1.9T (2026) to $3.1T (2036)</span></td>
-          <td style="color:var(--green);font-weight:700">Deficit limits in law (4.5% of GDP by Year 4, 3% by Year 10); vote on a balanced-budget plan by Year 8<br/><span style="font-weight:400;font-size:10px">Starting deficit: $1.9T (CBO, FY2026) · $657B full-ramp revenue · $95B effective mandatory growth (SS cap offsets $80B) · $211B/yr net reduction · Pharma savings $55B/yr (PNAS 2024)</span></td>
-        </tr>
-        <tr>
-          <td>Balanced budget mechanism</td>
-          <td style="color:#60a5fa">PAYGO rules · Discretionary spending caps · Top income tax rate raised to 39.6% · Economic growth tailwind</td>
-          <td style="color:#f87171">None, extends TCJA cuts ($4.5T cost) · Medicaid/SNAP cuts (~$1T) offset only partially · No fiscal balance target</td>
-          <td style="color:var(--green);font-weight:700">Self-executing FMIA enforcement triggers · V_abs throttle · 16-stream revenue engine · Self-funding · No new borrowing</td>
-        </tr>
-        <tr>
-          <td>Household monthly floor</td>
-          <td style="color:#60a5fa">None · EITC expansion · Minimum wage increase · No universal dividend</td>
-          <td style="color:#f87171">None · Trump Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
-          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust: $1,000 at birth plus a savings match in every child&rsquo;s Trump Account</td>
-        </tr>
-        <tr>
-          <td>Healthcare coverage floor</td>
-          <td style="color:#60a5fa">None · COBRA expansion · CHIP created 1997 · 40M+ uninsured throughout</td>
-          <td style="color:#f87171">No new coverage floor · Medicaid work requirements cut ~10–15M enrollees · Enhanced ACA subsidies expired Dec. 2025 · uninsured rising in 2026</td>
-          <td style="color:var(--green);font-weight:700">BMP: $0 deductible for the ~30M uninsured; $0 premium up to 250% of poverty · Private carrier choice · Zero merger with Medicare</td>
-        </tr>
-        <tr>
-          <td>Drug pricing</td>
-          <td style="color:#60a5fa">No federal price controls · Market rates · Medicare Part D did not yet exist</td>
-          <td style="color:#f87171">IRA 2022 drug negotiations retained (10–20 drugs/yr) · No G7 parity · No compulsory licensing</td>
-          <td style="color:var(--green);font-weight:700">G7 parity on all NIH-funded drugs · Compulsory licensing at 8% royalty · $550B Medicare/Medicaid savings over 10 years (PNAS 2024)</td>
-        </tr>
-        <tr>
-          <td>10-year deficit impact</td>
-          <td style="color:#60a5fa">Reduced deficit ~$500B over 5 years (1993–1998) · Surplus achieved Year 6</td>
-          <td style="color:#f87171">+$3.3–3.8T added to national debt over 10 years (CBO estimate)</td>
-          <td style="color:var(--green);font-weight:700">$211B a year in deficit reduction at full ramp (central estimate) · $5.8T over ten years including interest · Deficit limits in statute (Sec. 3406(f))</td>
-        </tr>
-        <tr>
-          <td>PE / monopoly accountability</td>
-          <td style="color:#60a5fa">No PE healthcare restrictions · Microsoft antitrust (DOJ, 1998) · No housing cap</td>
-          <td style="color:#f87171">No PE healthcare restrictions · No housing concentration cap · Reduced FTC/DOJ antitrust enforcement budget</td>
-          <td style="color:var(--green);font-weight:700">PE prohibited from hospitals, EMS, 911, nursing homes · 50-unit housing cap (V_abs ≤ 4.5%) · Citizen Bounty Engine 15% cut</td>
-        </tr>
-        <tr>
-          <td>IRS enforcement</td>
-          <td style="color:#60a5fa">IRS funding stable · ~$60B tax gap (1990s) · No supermajority protection</td>
-          <td style="color:#f87171">$80B IRA 2022 IRS allocation clawed back · Staffing at 2010 levels · $688B/yr gap uncollected</td>
-          <td style="color:var(--green);font-weight:700">$15B/yr mandatory · Two-thirds supermajority protected · Cannot be rescinded by CR or executive order</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <p style="font-size:10px;color:var(--muted);margin-top:10px">Sources: CBO Budget &amp; Economic Outlook 2026–2036 · CBO OBBBA score May 2025 · OMB Historical Tables · Clinton OBRA 1993 CBO analysis · JCT TCJA scoring</p>
-</div>
-
-<!-- CTA -->
-<div class="cta">
-  <h2>The American Deal</h2>
-  <p>Not borrowed. Earned. Built to last.</p>
-  <div class="cta-quote">
-    "Your drug bills are getting cut, by law. Every uninsured American gets real coverage with no deductible, and no premium for families earning up to about $80,000. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $1,000 investment account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down, permanently, from revenue this country was already generating and never collected. No income-tax increase on working families. No borrowing. No waiting for a check that may never come. This is structural relief, and it starts the day this bill is signed. That is the American Deal."
-  </div>
-</div>
-
-<!-- ABOUT THIS BILL -->
-
-
 <div class="section" id="impact-map">
   <div class="section-header">
     <h2>State and Household Impact</h2>
@@ -757,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:11px;align-items:center;justify-content:space-between">
       <span style="font-size:12px;font-weight:600;color:var(--text)">Click any state for its NSRA impact profile</span>
       <div style="display:flex;gap:0">
-        <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--green);background:var(--green);color:#000;border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
+        <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--green);background:var(--green);color:#fff;border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
         <button id="btn-party" onclick="setMapMode('party')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">2024 Presidential</button>
         <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">Governors 2027</button>
         <button id="btn-sen" onclick="setMapMode('sen')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">Senate 2027</button>
@@ -765,10 +566,10 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
     <div id="map-legend-impact" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
-      <span><span style="display:inline-block;width:10px;height:10px;background:#166534;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Very High NSRA Impact</span>
+      <span><span style="display:inline-block;width:10px;height:10px;background:#14532d;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Very High NSRA Impact</span>
       <span><span style="display:inline-block;width:10px;height:10px;background:#16a34a;border-radius:2px;margin-right:4px;vertical-align:middle"></span>High NSRA Impact</span>
-      <span><span style="display:inline-block;width:10px;height:10px;background:#22C55E;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Moderate NSRA Impact</span>
-      <span><span style="display:inline-block;width:10px;height:10px;background:#4ADE80;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Baseline NSRA Impact</span>
+      <span><span style="display:inline-block;width:10px;height:10px;background:#4ade80;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Moderate NSRA Impact</span>
+      <span><span style="display:inline-block;width:10px;height:10px;background:#bbf7d0;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Baseline NSRA Impact</span>
     </div>
     <div id="map-legend-party" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
       <span><span style="display:inline-block;width:10px;height:10px;background:#DC2626;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Trump 2024</span>
@@ -779,7 +580,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#B91C1C"></span>Republican Governor (<span id="gov-cnt-R">20</span>)</span>
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#1D4ED8"></span>Democratic Governor (<span id="gov-cnt-D">29</span>)</span>
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#6B7280"></span>Too close to call (<span id="gov-cnt-P">1</span>)</span>
-      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #FBBF24;box-sizing:border-box"></span>Changed party in 2026</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #b54708;box-sizing:border-box"></span>Changed party in 2026</span>
       <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
     </div>
     <div id="map-legend-sen" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
@@ -787,7 +588,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#B91C1C"></span>Both senators R</span>
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#7C3AED"></span>Split delegation</span>
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#6B7280"></span>Seat uncalled</span>
-      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #FBBF24;box-sizing:border-box"></span>Seat flipped in 2026</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #b54708;box-sizing:border-box"></span>Seat flipped in 2026</span>
     </div>
     <div id="map-legend-house" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
       <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#1D4ED8"></span>Democratic majority of state's House seats</span>
@@ -801,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <strong style="color:var(--text)">House:</strong> Democratic majority projected, with more than 250 Democratic seats called (218 needed).
       <strong style="color:var(--text)">Governors:</strong> 29 D &middot; 20 R &middot; 1 uncalled (KS); 6 changed party.
     </div>
-    <div id="map-tooltip" style="position:fixed;display:none;background:rgba(13,15,20,0.95);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:11px;pointer-events:none;z-index:999;min-width:160px"></div>
+    <div id="map-tooltip" style="position:fixed;display:none;background:rgba(255,255,255,0.98);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:11px;pointer-events:none;z-index:999;min-width:160px"></div>
     <svg id="us-map" style="width:100%;height:auto;display:block;border-radius:6px;background:var(--bg-elevated)"></svg>
     <p style="font-size:10px;color:var(--muted);margin-top:10px">Impact tier reflects composite NSRA reform score: healthcare coverage, pharma pricing, Private Equity restrictions, housing policy, student debt relief, veterans benefits, and tax reform. All states benefit from pharma price caps, Child Prosperity Trust, and BMP coverage regardless of tier. Source: Census ACS 2023 + NSRA fiscal architecture Math Engine™. Governor, Senate and House views: unofficial 2026 election results from AP-based network projections (NBC News, Fox News, CBS News) and MultiState, current as of <span id="elec-asof">Nov 6, 2026</span>; uncalled races shown in gray. Members-elect take office in January 2027.</p>
   </div>
@@ -850,7 +651,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  const TIER_COLORS   = {'very-high':'#166534','high':'#16a34a','medium':'#22C55E','lower':'#4ADE80'};
+  const TIER_COLORS   = {'very-high':'#14532d','high':'#16a34a','medium':'#4ade80','lower':'#bbf7d0'};
   const TIER_LABELS   = {'very-high':'Very High Impact','high':'High Impact','medium':'Moderate Impact','lower':'Baseline Impact'};
   const TIER_INTENSITY = {'very-high':1,'high':0.8,'medium':0.6,'lower':0.45};
 
@@ -985,7 +786,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (mapMode === 'sen') return !!(SEN[code] && SEN[code].some(x => x[2] === 'flip'));
     return false;
   }
-  function getStroke(code)  { return isFlip(code) ? '#FBBF24' : '#0D0F14'; }
+  function getStroke(code)  { return isFlip(code) ? '#b54708' : '#ffffff'; }
   function getStrokeW(code) { return isFlip(code) ? 2 : 0.5; }
 
   let mapMode = 'impact';
@@ -1080,26 +881,26 @@ document.addEventListener('DOMContentLoaded', function() {
               const brighter = d3.color(base);
               if (brighter) d3.select(this).attr('fill', brighter.brighter(0.4).formatHex());
               if (sdState) {
-                const pc = p => p==='R' ? '#f87171' : (p==='D'||p==='I') ? '#60a5fa' : '#cbd5e1';
+                const pc = p => p==='R' ? '#f87171' : (p==='D'||p==='I') ? '#1d4ed8' : '#3b4350';
                 const gi = GOV_INFO[code];
                 const govLine = (mapMode === 'gov' && gi)
                   ? '<br/><span style="color:'+pc(gi[1])+'">'+(gi[2]==='pend' ? gi[0] : 'Gov. '+gi[0]+' ('+gi[1]+')')+'</span>'
-                    +'<br/><span style="color:'+(gi[2]==='flip'?'#FBBF24':'#94A3B8')+';font-size:10px">'+GOV_STATUS_LABEL[gi[2]]+'</span>' : '';
+                    +'<br/><span style="color:'+(gi[2]==='flip'?'#b54708':'#475467')+';font-size:10px">'+GOV_STATUS_LABEL[gi[2]]+'</span>' : '';
                 const hh = HOUSE[code];
                 const houseLine = (mapMode === 'house' && hh)
-                  ? '<br/><span style="color:#cbd5e1">U.S. House: <span style="color:#60a5fa">'+hh[0]+' D</span> &middot; <span style="color:#f87171">'+hh[1]+' R</span>'+(hh[2] ? ' &middot; '+hh[2]+' uncalled' : '')+' ('+(hh[0]+hh[1]+(hh[2]||0))+' seats)</span>' : '';
+                  ? '<br/><span style="color:#3b4350">U.S. House: <span style="color:#1d4ed8">'+hh[0]+' D</span> &middot; <span style="color:#f87171">'+hh[1]+' R</span>'+(hh[2] ? ' &middot; '+hh[2]+' uncalled' : '')+' ('+(hh[0]+hh[1]+(hh[2]||0))+' seats)</span>' : '';
                 const senTag = t => t==='flip' ? ' · flipped 2026' : t==='won' ? ' · won 2026' : t==='vac' ? ' · leaving to be governor' : '';
                 const senLine = (mapMode === 'sen' && SEN[code])
-                  ? SEN[code].map(x => '<br/><span style="color:'+(x[2]==='flip'?'#FBBF24':pc(x[1]))+'">'+(x[2]==='pend' ? x[0] : 'Sen. '+x[0]+' ('+x[1]+')'+senTag(x[2]))+'</span>').join('') : '';
+                  ? SEN[code].map(x => '<br/><span style="color:'+(x[2]==='flip'?'#b54708':pc(x[1]))+'">'+(x[2]==='pend' ? x[0] : 'Sen. '+x[0]+' ('+x[1]+')'+senTag(x[2]))+'</span>').join('') : '';
                 const partyLine = (mapMode === 'party')
-                  ? '<br/><span style="color:'+(PARTY[code]?'#f87171':'#60a5fa')+'">'+(PARTY[code]?'Voted Trump 2024':'Voted Harris 2024')+'</span>' : '';
-                tip.innerHTML = '<strong style="color:#F1F5F9;font-size:12px">'+sdState.name+'</strong><br/>'
-                  +'<span style="color:#94A3B8">NSRA Impact: '+TIER_LABELS[TIERS[code]]+'</span>'
+                  ? '<br/><span style="color:'+(PARTY[code]?'#f87171':'#1d4ed8')+'">'+(PARTY[code]?'Voted Trump 2024':'Voted Harris 2024')+'</span>' : '';
+                tip.innerHTML = '<strong style="color:#111418;font-size:12px">'+sdState.name+'</strong><br/>'
+                  +'<span style="color:#475467">NSRA Impact: '+TIER_LABELS[TIERS[code]]+'</span>'
                   +partyLine+govLine+senLine+houseLine+'<br/>'
-                  +'<span style="color:#22C55E">'+sdState.uninsured+'M uninsured → BMP</span><br/>'
-                  +'<span style="color:#94A3B8">'+sdState.loans+'M student borrowers</span><br/>'
-                  +'<span style="color:#F59E0B">'+sdState.vets+'M veterans</span><br/>'
-                  +'<span style="color:#94A3B8;font-size:9px">Click for full impact profile</span>';
+                  +'<span style="color:#15803d">'+sdState.uninsured+'M uninsured → BMP</span><br/>'
+                  +'<span style="color:#475467">'+sdState.loans+'M student borrowers</span><br/>'
+                  +'<span style="color:#b54708">'+sdState.vets+'M veterans</span><br/>'
+                  +'<span style="color:#475467;font-size:9px">Click for full impact profile</span>';
                 tip.style.display = 'block';
               }
             })
@@ -1502,18 +1303,18 @@ document.addEventListener('DOMContentLoaded', function() {
           <div style="font-size:9px;color:var(--amber);margin-top:2px">BMP Tier 2 · 6 PACT Act gaps closed</div>
         </div>
 
-        <div style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #22C55E">
+        <div style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #15803d">
           
-          <div style="font-size:20px;font-weight:800;color:#22C55E">${apdBeneficiaries}</div>
+          <div style="font-size:20px;font-weight:800;color:#15803d">${apdBeneficiaries}</div>
           <div style="font-size:10px;color:var(--muted)">Lower-income households, energy bill credits</div>
-          <div style="font-size:9px;color:#22C55E;margin-top:2px">~\$450/yr on utility bills, not cash</div>
+          <div style="font-size:9px;color:#15803d;margin-top:2px">~\$450/yr on utility bills, not cash</div>
         </div>
 
-        <div style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #F59E0B">
-          <div style="font-size:9px;font-weight:700;text-transform:uppercase;color:#F59E0B;letter-spacing:0.08em;margin-bottom:4px">Child Prosperity · SIRF</div>
-          <div style="font-size:20px;font-weight:800;color:#F59E0B">${cptKids}</div>
+        <div style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #b54708">
+          <div style="font-size:9px;font-weight:700;text-transform:uppercase;color:#b54708;letter-spacing:0.08em;margin-bottom:4px">Child Prosperity · SIRF</div>
+          <div style="font-size:20px;font-weight:800;color:#b54708">${cptKids}</div>
           <div style="font-size:10px;color:var(--muted)">Newborns receive \$5K trust grant</div>
-          <div style="font-size:9px;color:#F59E0B;margin-top:2px">Every child born in America · Year 1</div>
+          <div style="font-size:9px;color:#b54708;margin-top:2px">Every child born in America · Year 1</div>
         </div>
 
         <div class="provider-card" style="background:var(--bg-base);border-radius:8px;padding:10px 12px;border-left:2px solid #10B981">
@@ -1641,9 +1442,207 @@ document.addEventListener('DOMContentLoaded', function() {
       <div style="font-size:13px;font-weight:700;color:var(--text);margin-bottom:4px">You&rsquo;ve seen your state and run your numbers. Now put your name on the bill.</div>
       <div style="font-size:12px;color:var(--muted)">Sign the NSRA and send a pre-written message directly to your representative and senators.</div>
     </div>
-    <a href="#support" style="flex-shrink:0;padding:10px 20px;background:var(--green);color:#000;font-size:12px;font-weight:700;border-radius:8px;text-decoration:none;letter-spacing:0.04em;white-space:nowrap">Sign &amp; Call Your Rep &rarr;</a>
+    <a href="#support" style="flex-shrink:0;padding:10px 20px;background:var(--green);color:#fff;font-size:12px;font-weight:700;border-radius:8px;text-decoration:none;letter-spacing:0.04em;white-space:nowrap">Sign &amp; Call Your Rep &rarr;</a>
   </div>
 </div>
+
+<div class="section" id="behind" style="padding-top:34px;padding-bottom:10px">
+  <div class="section-header">
+    <h2>America Is Years Behind. Here&rsquo;s the Fix.</h2>
+    <span>Science &middot; family policy &middot; infrastructure &middot; government that works &middot; health</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <a href="/science/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">0.65%</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">of GDP: federal R&amp;D today, down from 1.86% in 1964. China now matches U.S. R&amp;D at purchasing-power parity.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Title XXXVII: back to 1% of GDP, NSF &amp; NIH floors, STEM green cards</div>
+    </a>
+    <a href="/paid-leave/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">0 weeks</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">of national paid leave. The U.S. is the only OECD country without paid leave for new parents.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Title XXXVIII: 12 weeks, self-funded, employers with fewer than 10 workers exempt from the employer share</div>
+    </a>
+    <a href="/build-faster/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">Grade C</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">for U.S. infrastructure, with a $3.7 trillion ten-year gap. Only 888 miles of new high-voltage lines were built in 2024.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Title XVII: permits on a clock, power from existing dams, published costs</div>
+    </a>
+    <a href="/government-waste/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">$186B</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">in federal improper payments in fiscal year 2025, by GAO's estimate.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Title XXXV: payment integrity, no pocket rescissions, independent IGs</div>
+    </a>
+    <a href="/digital-government/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">#19</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">in the UN e-government ranking. The U.S. was #1 in 2003&ndash;2005.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Title XXXIX: retire legacy systems, one secure front door</div>
+    </a>
+    <a href="/healthcare/" style="display:block;text-decoration:none;background:var(--surface,#f6f7f9);border:1px solid var(--border,#e4e7ec);border-radius:12px;padding:18px 18px 16px">
+      <div style="font-size:30px;font-weight:800;color:var(--amber,#b54708);line-height:1.1;letter-spacing:-.02em">79.0 yrs</div>
+      <div style="font-size:12.5px;color:#3b4350;line-height:1.55;margin:6px 0 10px">U.S. life expectancy, vs. 82.7 in peer nations, while paying the most for prescription drugs.</div>
+      <div style="font-size:12px;font-weight:700;color:var(--green,#15803d);line-height:1.45">The fix &rarr; Titles XXI &amp; XIII: $0-deductible baseline coverage, G7 drug prices</div>
+    </a>
+  </div>
+  <div style="max-width:1100px;margin:18px auto 0;padding:0 16px;text-align:center">
+    <div style="font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted,#5b6472);margin-bottom:6px">Bills the new Congress can pass in 2027, each one page, each stands alone</div>
+    <a href="/stock-trading-ban/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Stock trading ban</a> <a href="/government-waste/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Stop government waste</a> <a href="/build-faster/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Build faster</a> <a href="/housing/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Housing: cap investors, build more</a> <a href="/science/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Science &amp; talent</a> <a href="/paid-leave/" style="display:inline-block;margin:5px 4px;padding:8px 14px;border:1px solid rgba(34,197,94,.35);border-radius:999px;color:var(--green,#15803d);font-size:12.5px;font-weight:700;text-decoration:none">Paid leave &amp; child care</a>
+  </div>
+  <p style="max-width:900px;margin:12px auto 0;padding:0 16px;text-align:center;font-size:10.5px;color:var(--muted,#5b6472);line-height:1.6">Sources: OECD R&amp;D statistics (2026); AAAS historical federal R&amp;D data; OECD Family Database; ASCE 2025 Report Card; Grid Strategies / Americans for a Clean Energy Grid; GAO payment integrity (FY2025); UN E-Government Survey 2024; KFF&ndash;Peterson Health System Tracker.</p>
+</div>
+
+<!-- FOR REVIEWERS -->
+<div class="section" id="reviewers" style="padding-top:30px;padding-bottom:6px">
+  <div class="section-header">
+    <h2>Reviewing the NSRA?</h2>
+    <span>Start where you sit, four pathways into the framework</span>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <a class="rev-card" href="/adopt/fiscal/"><div class="rc-role">Fiscal Experts</div><div class="rc-act">Fiscal Review Portal <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Interactive model, Schedule G evidence room, scorebook, sourcing, and open technical questions.</div></a>
+    <a class="rev-card" href="/adopt/"><div class="rc-role">Candidates, legislators &amp; staff</div><div class="rc-act">Adopt the NSRA <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">The policymaker portal: review, co-sponsor a title, or champion the full bill, with the committee package and jurisdiction map inside.</div></a>
+    <a class="rev-card" href="/engage/"><div class="rc-role">Special Interest Organizations</div><div class="rc-act">Engagement &amp; consultation <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Bring your concerns to the table, review the built-in accommodations and submit input on the record.</div></a>
+    <a class="rev-card" href="/press/"><div class="rc-role">Press &amp; media</div><div class="rc-act">Press package <span class="rc-arrow">&rarr;</span></div><div class="rc-sub">Fact sheet, sourcing, figures, founder, and downloadable assets.</div></a>
+  </div>
+</div>
+
+
+<!-- FIVE PILLARS -->
+
+
+<!-- WHAT THIS BILL INTRODUCES -->
+<div class="section" id="changes">
+  <div class="section-header">
+    <h2>Five Pillars, All 40 Titles</h2>
+    <span>40 Titles · 260 Sections · 27 Committees of Jurisdiction · $184B a Year in Deficit Reduction · Self-Funding Architecture</span>
+  </div>
+  <p style="max-width:820px;margin:0 auto 20px;padding:0 16px;text-align:center;font-size:13px;color:var(--muted);line-height:1.7">A finished, citizen-authored agenda, internally costed on published government baselines with official scoring pending, published in full and open to whoever runs on it first. Built outside the political system, owned by no party. Five pillars, and every one of the 40 titles that delivers them.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:1100px;margin:0 auto;padding:0 16px">
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 1 · 5 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Household Affordability</div><div style="font-size:12px;color:var(--muted);line-height:1.6">$0-deductible coverage · G7 drug pricing · $35 insulin · homes for families · zero-interest student loans · veterans&rsquo; health</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Household Affordability, by title</div><div class="fb-row"><b>XXI</b>, Universal Basic Minimum Coverage through Competitive Private Delivery</div><div class="fb-row"><b>XIII</b>, National Biosecurity and Pharmaceutical Parity</div><div class="fb-row"><b>XIV</b>, Shelter Security</div><div class="fb-row"><b>XV</b>, Student Debt Relief and Public Higher Education</div><div class="fb-row"><b>XXV</b>, Veterans Health Security and PACT Act Completion</div></div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 2 · 7 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Family Prosperity</div><div style="font-size:12px;color:var(--muted);line-height:1.6">$1,000 at birth · paid leave &amp; child care · pensions · Social Security · wages &amp; organizing rights · household benefit accounting</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Family Prosperity, by title</div><div class="fb-row"><b>V</b>, Child Prosperity and Poverty Reduction</div><div class="fb-row"><b>XXXVIII</b>, Family and Workforce Security</div><div class="fb-row"><b>VI</b>, National Capital Protection and Pension Anti-Fragility</div><div class="fb-row"><b>XXVI</b>, National Social Security Solvency Commission</div><div class="fb-row"><b>XXVIII</b>, Worker Organizing Rights and Anti-Union-Busting Enforcement</div><div class="fb-row"><b>IV</b>, Domestic Sourcing, Wage Enforcement, and Citizen Enforcement Actions</div><div class="fb-row"><b>XIX</b>, Return on Investment, Performance Benchmarks, and American Household Benefit Accounting</div></div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 3 · 10 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Economic Opportunity</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Make it in America · science &amp; talent · fair markets · food supply · trade enforcement · AI, compute &amp; data rights</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Economic Opportunity, by title</div><div class="fb-row"><b>XII</b>, National Manufacturing and Global Arbitrage Elimination</div><div class="fb-row"><b>XXXVII</b>, Science, Research, and Talent Renewal</div><div class="fb-row"><b>XXXIII</b>, Strategic Compute Authority</div><div class="fb-row"><b>VII</b>, Agriculture and Food Supply Security</div><div class="fb-row"><b>XXII</b>, National Critical Systems Protection and Private Equity Accountability</div><div class="fb-row"><b>XX</b>, Bipartisan Implementation Safeguards and Market Competition Preservation</div><div class="fb-row"><b>XXIII</b>, National Trade and Allied Diplomatic Architecture</div><div class="fb-row"><b>XXX</b>, NAFTA/USMCA Gap Closure and Trade Enforcement</div><div class="fb-row"><b>VIII</b>, Mobility Networks and App-Based Dispatch Platforms</div><div class="fb-row"><b>III</b>, The Artificial Intelligence Security and Personal Data Rights</div></div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 4 · 7 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">Accountable Government</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Congressional stock ban · waste &amp; payment integrity · foreign-influence transparency · press freedom · due process · digital government</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">Accountable Government, by title</div><div class="fb-row"><b>XXIX</b>, Congressional Financial Integrity and Stock Trading Prohibition</div><div class="fb-row"><b>XXXV</b>, Public Integrity and Executive Accountability</div><div class="fb-row"><b>XXXVI</b>, Foreign Influence Transparency and Adversary Capital Defense</div><div class="fb-row"><b>XXVII</b>, Press Freedom and Editorial Independence Protection</div><div class="fb-row"><b>XVIII</b>, Procedural Due Process and Special Standing Controls</div><div class="fb-row"><b>I</b>, Federal Market Integrity Administration and Economic Data Verification</div><div class="fb-row"><b>XXXIX</b>, Digital Government Modernization</div></div>
+      </div>
+    </div>
+    <div class="flip-card" onclick="this.classList.toggle('flipped')" tabindex="0">
+      <div class="flip-inner">
+        <div class="flip-front"><div style="font-size:11px;font-weight:800;letter-spacing:.1em;color:var(--muted);margin-bottom:4px">PILLAR 5 · 11 TITLES</div><div style="font-size:15px;font-weight:800;color:var(--green);margin-bottom:6px">National Resilience</div><div style="font-size:12px;color:var(--muted);line-height:1.6">Balanced-budget path · energy &amp; grid · clean water &amp; rewilding · polluter cleanup · dollar security · build faster</div><div style="font-size:11px;color:var(--muted);margin-top:8px">Tap to see every title &rarr;</div></div>
+        <div class="flip-back"><div style="font-size:13px;font-weight:800;color:var(--text);margin-bottom:6px">National Resilience, by title</div><div class="fb-row"><b>XXXIV</b>, Structural Architecture Refinement and SIRF Solvency</div><div class="fb-row"><b>XXIV</b>, Tax Code Reform and Fiscal Integrity</div><div class="fb-row"><b>0</b>, Statutory Foundations and Core Definitions</div><div class="fb-row"><b>II</b>, Strategic Infrastructure Reinvestment Fund</div><div class="fb-row"><b>IX</b>, National Energy and Advanced Fission Infrastructure</div><div class="fb-row"><b>X</b>, Clean Water, Conservation, and Essential Public Utilities</div><div class="fb-row"><b>XI</b>, The Automated Environmental Remediation Network (A.B.R.N.)</div><div class="fb-row"><b>XVII</b>, National Build-Out, Hydropower, and Infrastructure Delivery</div><div class="fb-row"><b>XVI</b>, Capital Flight Protection, Post-Quantum Financial Security, and Inflation Protection</div><div class="fb-row"><b>XXXII</b>, Dollar Security and Reserve Currency Defense</div><div class="fb-row"><b>XXXI</b>, American Mutual Benefit Global Health Security</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="section" id="deal">
+  <div class="section-header">
+    <h2>The Honest Bottom Line</h2>
+    <span>Clinton Surpluses · Current Law · NSRA 2028</span>
+  </div>
+  <p style="font-size:12px;color:var(--muted);margin-bottom:12px">Three frameworks, three outcomes. Clinton started with a $290B deficit and closed it in 6 years, but the dot-com boom contributed an estimated 25–35% of that improvement in unexpected capital gains windfalls. The NSRA starts with a $1.9T deficit, <strong style="color:var(--text)">6.5× Clinton's challenge</strong>, with no tech boom at its back. Yet it generates <strong style="color:var(--text)">$184B/yr in absolute deficit reduction</strong>, nearly 4× Clinton's $60B/yr average in absolute dollars, while simultaneously delivering universal healthcare, pharmaceutical relief, and household wealth-building (child trust accounts, student-loan relief, down-payment help) that Clinton never offered. Deficit limits written into law: 4.5% of GDP by Year 4 and 3% by Year 10, plus a required vote on balancing the budget by Year 15 (Sec. 3406(f)). Under current law, CBO projects no balanced budget anywhere in its 10-year window, so under current law the answer is <strong style="color:var(--red)">never</strong>. The NSRA writes deficit limits into law and forces a vote on a plan to balance the budget. <em>These figures come from the NSRA's own model; CBO has not scored the bill. Under a static, CBO-style score (Schedule G, Scenario B), full-ramp revenue is still $523B, 3.2&times; the bill's core funding obligations.</em></p>
+  <div style="position:relative">
+    <div id="swipe-hint" style="display:none;align-items:center;justify-content:center;gap:6px;padding:8px;background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:8px;margin-bottom:10px;font-size:11px;color:var(--green);font-weight:600">
+      <span style="font-size:16px">&#8592;</span> Swipe to compare all three frameworks <span style="font-size:16px">&#8594;</span>
+    </div>
+  </div>
+  <div style="overflow-x:auto;-webkit-overflow-scrolling:touch" id="comparison-table-wrap">
+    <table style="min-width:760px">
+      <thead>
+        <tr>
+          <th style="min-width:180px">Metric</th>
+          <th style="color:#1d4ed8;min-width:180px">Clinton Era<br/><span style="font-weight:400;font-size:9px">OBRA 1990 &amp; 1993 · Surplus by 1998</span></th>
+          <th style="color:#f87171;min-width:180px">Current Law<br/><span style="font-weight:400;font-size:9px">CBO Feb. 2026 baseline · includes the 2025 reconciliation act</span></th>
+          <th style="color:var(--green);min-width:200px">NSRA 2028<br/><span style="font-weight:400;font-size:9px">National Security &amp; Resilience Act</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Deficit trajectory</td>
+          <td style="color:#1d4ed8">$290B deficit (FY1992) → $69B surplus (FY1998) · ~$60B/yr avg improvement · PAYGO + spending caps + top rate raised to 39.6% · Dot-com boom provided est. 25–35% of improvement via unexpected capital gains windfalls</td>
+          <td style="color:#f87171">CBO: adds $3.3–3.8T to deficit over 10 years · No balanced budget target · Deficit grows faster than baseline</td>
+          <td style="color:var(--green);font-weight:700">$184B/yr deficit reduction · Deficit limits of 4.5% (Year 4) and 3% of GDP (Year 10) in statute · <strong>Absolute annual improvement: NSRA $184B/yr vs. Clinton $60B/yr, against a 6.5× larger starting deficit. Revenue architecture includes SS payroll cap equity, corporate rate restoration, carbon dividend, Pillar Two, financial transaction tax, and federal land royalty reform. Pharma savings revised upward to $55B/yr (source: PNAS 2024).</strong></td>
+        </tr>
+        <tr>
+          <td style="font-weight:700;color:var(--text)">Balanced budget, when?</td>
+          <td style="color:#1d4ed8;font-weight:700">Year 6 from enactment<br/><span style="font-weight:400;font-size:10px">Starting deficit: $290B · Tailwind: dot-com boom</span></td>
+          <td style="color:#f87171;font-weight:700">Never<br/><span style="font-weight:400;font-size:10px">CBO projects deficits rising from $1.9T (2026) to $3.1T (2036)</span></td>
+          <td style="color:var(--green);font-weight:700">Deficit limits in law (4.5% of GDP by Year 4, 3% by Year 10); vote on a balanced-budget plan by Year 8<br/><span style="font-weight:400;font-size:10px">Starting deficit: $1.9T (CBO, FY2026) · $630B full-ramp revenue · $95B effective mandatory growth (SS cap offsets $80B) · $184B/yr net reduction · Pharma savings $55B/yr (PNAS 2024)</span></td>
+        </tr>
+        <tr>
+          <td>Balanced budget mechanism</td>
+          <td style="color:#1d4ed8">PAYGO rules · Discretionary spending caps · Top income tax rate raised to 39.6% · Economic growth tailwind</td>
+          <td style="color:#f87171">None, extends TCJA cuts ($4.5T cost) · Medicaid/SNAP cuts (~$1T) offset only partially · No fiscal balance target</td>
+          <td style="color:var(--green);font-weight:700">Self-executing FMIA enforcement triggers · V_abs throttle · 16-stream revenue engine · Self-funding · No new borrowing</td>
+        </tr>
+        <tr>
+          <td>Household monthly floor</td>
+          <td style="color:#1d4ed8">None · EITC expansion · Minimum wage increase · No universal dividend</td>
+          <td style="color:#f87171">None · Trump Accounts: $1K seed at birth + $5K/yr savings vehicle · Medicaid/SNAP cuts offset household gains</td>
+          <td style="color:var(--green);font-weight:700">Child Prosperity Trust · G7 pharma pricing · Zero-interest loans · Child Prosperity Trust: $1,000 at birth plus a savings match in every child&rsquo;s Trump Account</td>
+        </tr>
+        <tr>
+          <td>Healthcare coverage floor</td>
+          <td style="color:#1d4ed8">None · COBRA expansion · CHIP created 1997 · 40M+ uninsured throughout</td>
+          <td style="color:#f87171">No new coverage floor · Medicaid work requirements cut ~10–15M enrollees · Enhanced ACA subsidies expired Dec. 2025 · uninsured rising in 2026</td>
+          <td style="color:var(--green);font-weight:700">BMP: $0 deductible for the ~30M uninsured; $0 premium up to 250% of poverty · Private carrier choice · Zero merger with Medicare</td>
+        </tr>
+        <tr>
+          <td>Drug pricing</td>
+          <td style="color:#1d4ed8">No federal price controls · Market rates · Medicare Part D did not yet exist</td>
+          <td style="color:#f87171">IRA 2022 drug negotiations retained (10–20 drugs/yr) · No G7 parity · No compulsory licensing</td>
+          <td style="color:var(--green);font-weight:700">G7 parity on all NIH-funded drugs · Compulsory licensing at 8% royalty · $550B Medicare/Medicaid savings over 10 years (PNAS 2024)</td>
+        </tr>
+        <tr>
+          <td>10-year deficit impact</td>
+          <td style="color:#1d4ed8">Reduced deficit ~$500B over 5 years (1993–1998) · Surplus achieved Year 6</td>
+          <td style="color:#f87171">+$3.3–3.8T added to national debt over 10 years (CBO estimate)</td>
+          <td style="color:var(--green);font-weight:700">$184B a year in deficit reduction at full ramp (central estimate) · $5.0T over ten years including interest · Deficit limits in statute (Sec. 3406(f))</td>
+        </tr>
+        <tr>
+          <td>PE / monopoly accountability</td>
+          <td style="color:#1d4ed8">No PE healthcare restrictions · Microsoft antitrust (DOJ, 1998) · No housing cap</td>
+          <td style="color:#f87171">No PE healthcare restrictions · No housing concentration cap · Reduced FTC/DOJ antitrust enforcement budget</td>
+          <td style="color:var(--green);font-weight:700">PE prohibited from hospitals, EMS, 911, nursing homes · 50-unit housing cap (V_abs ≤ 4.5%) · Citizen Bounty Engine 15% cut</td>
+        </tr>
+        <tr>
+          <td>IRS enforcement</td>
+          <td style="color:#1d4ed8">IRS funding stable · ~$60B tax gap (1990s) · No supermajority protection</td>
+          <td style="color:#f87171">$80B IRA 2022 IRS allocation clawed back · Staffing at 2010 levels · $688B/yr gap uncollected</td>
+          <td style="color:var(--green);font-weight:700">$15B/yr mandatory · Two-thirds supermajority protected · Cannot be rescinded by CR or executive order</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:10px;color:var(--muted);margin-top:10px">Sources: CBO Budget &amp; Economic Outlook 2026–2036 · CBO OBBBA score May 2025 · OMB Historical Tables · Clinton OBRA 1993 CBO analysis · JCT TCJA scoring</p>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>The American Deal</h2>
+  <p>Not borrowed. Earned. Built to last.</p>
+  <div class="cta-quote">
+    "Your drug bills are getting cut, by law. Every uninsured American gets real coverage with no deductible, and no premium for families earning up to about $80,000. Your student loan interest goes to zero. Your local hospital is protected from Wall Street. A $1,000 investment account opens the day your child is born. And the debt that has been compounding against your family's future for thirty years starts getting paid down, permanently, from revenue this country was already generating and never collected. No income-tax increase on working families. No borrowing. No waiting for a check that may never come. This is structural relief, and it starts the day this bill is signed. That is the American Deal."
+  </div>
+</div>
+
+<!-- ABOUT THIS BILL -->
+
 
 <!-- THE HONEST BOTTOM LINE -->
 <div class="section" id="why-integrated">
@@ -1671,13 +1670,13 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="section" id="bill-text">
   <div class="section-header">
     <h2>Policy Vault</h2>
-    <span>40 Titles · 257 Sections · 27 Committees of Jurisdiction · Single Unified Act · Complete Statutory Text</span>
+    <span>40 Titles · 260 Sections · 27 Committees of Jurisdiction · Single Unified Act · Complete Statutory Text</span>
   </div>
 
   <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:18px 22px;margin-bottom:16px">
     <div style="font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:6px">Key Acronyms &amp; Terms</div>
     <div style="font-size:11px;color:var(--muted);margin-bottom:10px">The NSRA uses defined statutory instruments and administrative bodies. Full definitions live in Sec. 003 (Consolidated Master Definitions) of the bill text.</div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 26px"><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NSRA</span><span style="color:var(--muted)">National Sovereignty and Resilience Act</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SIRF</span><span style="color:var(--muted)">Strategic Infrastructure Reinvestment Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">HSRN</span><span style="color:var(--muted)">Household Structural Relief Node (funds student-loan, child-trust, down-payment and wage-credit programs; no cash transfers, Title XXXIV)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FMIA</span><span style="color:var(--muted)">Federal Market Integrity Administration</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FDVM</span><span style="color:var(--muted)">Federal Data Veracity Matrix</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">BMP</span><span style="color:var(--muted)">Basic Minimum Plan (universal coverage)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">HSF</span><span style="color:var(--muted)">Health Security Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SPI</span><span style="color:var(--muted)">Structural Productivity Index</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NIMA</span><span style="color:var(--muted)">National Infrastructure Maintenance Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTT</span><span style="color:var(--muted)">Financial Transaction Tax (0.1%)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTA</span><span style="color:var(--muted)">Financial Transaction Assessment (0.02%, large institutional trades)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">WEA</span><span style="color:var(--muted)">Wage Equalization Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SDEC</span><span style="color:var(--muted)">Strategic Defense Efficiency Commission</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SCA</span><span style="color:var(--muted)">Strategic Compute Authority</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">VSN</span><span style="color:var(--muted)">Veterans Service Node</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CPT</span><span style="color:var(--muted)">Child Prosperity Trust</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">A.B.R.N.</span><span style="color:var(--muted)">Automated Environmental Remediation Network</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">V_abs</span><span style="color:var(--muted)">Volume Absorption Throttle (housing divestiture)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">ALJ</span><span style="color:var(--muted)">Administrative Law Judge</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">MSA</span><span style="color:var(--muted)">Metropolitan Statistical Area</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OASDI</span><span style="color:var(--muted)">Old-Age, Survivors &amp; Disability Insurance (Social Security)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">G7</span><span style="color:var(--muted)">Group of Seven (pharmaceutical price benchmark)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CBO / JCT</span><span style="color:var(--muted)">Congressional Budget Office / Joint Committee on Taxation</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OMB / GAO</span><span style="color:var(--muted)">Office of Management &amp; Budget / Government Accountability Office</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">Schedule F</span><span style="color:var(--muted)">Pharmaceutical compulsory-licensing royalty schedule</span></div></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:0 26px"><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NSRA</span><span style="color:var(--muted)">National Sovereignty and Resilience Act</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SIRF</span><span style="color:var(--muted)">Strategic Infrastructure Reinvestment Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">HSRN</span><span style="color:var(--muted)">Household Structural Relief Node (funds student-loan, child-trust, down-payment and wage-credit programs; no cash transfers, Title XXXIV)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FMIA</span><span style="color:var(--muted)">Federal Market Integrity Administration</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FDVM</span><span style="color:var(--muted)">Federal Data Veracity Matrix</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">BMP</span><span style="color:var(--muted)">Basic Minimum Plan (universal coverage)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">HSF</span><span style="color:var(--muted)">Health Security Fund</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SPI</span><span style="color:var(--muted)">Structural Productivity Index</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">NIMA</span><span style="color:var(--muted)">National Infrastructure Maintenance Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTT</span><span style="color:var(--muted)">Financial Transaction Tax (0.1%)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">FTA</span><span style="color:var(--muted)">Financial Transaction Assessment (0.02%, large institutional trades)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">WEA</span><span style="color:var(--muted)">Wage Equalization Assessment</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SDEC</span><span style="color:var(--muted)">Strategic Defense Efficiency Commission</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">SCA</span><span style="color:var(--muted)">Strategic Compute Authority</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">VSN</span><span style="color:var(--muted)">Veterans Service Node</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CPT</span><span style="color:var(--muted)">Child Prosperity Trust</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">A.B.R.N.</span><span style="color:var(--muted)">Automated Environmental Remediation Network</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">V_abs</span><span style="color:var(--muted)">Volume Absorption Throttle (housing divestiture)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">ALJ</span><span style="color:var(--muted)">Administrative Law Judge</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">MSA</span><span style="color:var(--muted)">Metropolitan Statistical Area</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OASDI</span><span style="color:var(--muted)">Old-Age, Survivors &amp; Disability Insurance (Social Security)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">G7</span><span style="color:var(--muted)">Group of Seven (pharmaceutical price benchmark)</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">CBO / JCT</span><span style="color:var(--muted)">Congressional Budget Office / Joint Committee on Taxation</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">OMB / GAO</span><span style="color:var(--muted)">Office of Management &amp; Budget / Government Accountability Office</span></div><div style="display:flex;gap:8px;font-size:11.5px;line-height:1.5;padding:5px 0;border-bottom:1px solid rgba(11,37,69,0.04)"><span style="flex-shrink:0;min-width:74px;font-weight:800;color:var(--green)">Schedule F</span><span style="color:var(--muted)">Pharmaceutical compulsory-licensing royalty schedule</span></div></div>
   </div>
   <!-- BRIEFING DOCUMENTS SHELF -->
   <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin-bottom:16px">
@@ -1715,7 +1714,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <a href="/NSRA_COMPLETE_TEXT.pdf" target="_blank" style="text-decoration:none;display:flex;flex-direction:column;gap:6px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:border-color 0.2s" onmouseover="this.style.borderColor='var(--green)'" onmouseout="this.style.borderColor='var(--border)'">
         <div style="font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--green)">Full Statute</div>
         <div style="font-size:13px;font-weight:700;color:var(--text);line-height:1.3">Complete Statutory Text</div>
-        <div style="font-size:11px;color:var(--muted);line-height:1.5">40 Titles &#183; 257 Sections &#183; 27 Committees of Jurisdiction &#183; All definitions, mechanisms, schedules, and enforcement architecture.</div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.5">40 Titles &#183; 260 Sections &#183; 27 Committees of Jurisdiction &#183; All definitions, mechanisms, schedules, and enforcement architecture.</div>
         <div style="font-size:10px;color:var(--green);font-weight:600;margin-top:4px">Download PDF &#8595;</div>
       </a>
 
@@ -1747,7 +1746,7 @@ document.addEventListener('DOMContentLoaded', function() {
     .bill-titles { display:flex;flex-direction:column;gap:4px; }
     .bt { background:var(--bg-elevated);border-radius:8px;overflow:hidden; }
     .bt-hdr { padding:10px 14px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;user-select:none; }
-    .bt-hdr:hover { background:rgba(255,255,255,0.04); }
+    .bt-hdr:hover { background:rgba(11,37,69,0.04); }
     .bt-name-row { font-size:12px;font-weight:600; }
     .bt-arrow { color:var(--muted);transition:transform 0.2s;font-size:16px;flex-shrink:0; }
     .bt-arrow.open { transform:rotate(90deg); }
@@ -1757,9 +1756,9 @@ document.addEventListener('DOMContentLoaded', function() {
     .lt-btn { font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:5px 14px;background:var(--bg-base);border:1px solid var(--border);color:var(--muted);cursor:pointer; }
     .lt-btn:first-child { border-radius:6px 0 0 6px; }
     .lt-btn:last-child { border-radius:0 6px 6px 0; }
-    .lt-btn.on { background:var(--green);color:#000;border-color:var(--green); }
+    .lt-btn.on { background:var(--green);color:#fff;border-color:var(--green); }
     .lt-plain { padding:12px 14px 16px;font-size:12px;color:var(--muted);line-height:1.75; }
-    .lt-legal { display:none;padding:12px 14px 16px;font-size:11px;color:#94A3B8;font-family:'Courier New',monospace;background:var(--bg-base);white-space:pre-wrap;word-break:break-word;line-height:1.7;max-height:500px;overflow-y:auto; }
+    .lt-legal { display:none;padding:12px 14px 16px;font-size:11px;color:#475467;font-family:'Courier New',monospace;background:var(--bg-base);white-space:pre-wrap;word-break:break-word;line-height:1.7;max-height:500px;overflow-y:auto; }
   </style>
 
   <script>
@@ -1768,10 +1767,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function sw(btn,mode){const body=btn.closest('.bt-body');body.querySelectorAll('.lt-btn').forEach(b=>b.classList.remove('on'));body.querySelector('.lt-plain').style.display=mode==='plain'?'block':'none';body.querySelector('.lt-legal').style.display=mode==='legal'?'block':'none';btn.classList.add('on');}
   </script>
 
-    <div class="bill-block" style="border-left:3px solid #3B82F6">
+    <div class="bill-block" style="border-left:3px solid #1d4ed8">
       <div class="bill-header" onclick="togBill(this)">
         <div>
-          <div class="bill-num" style="color:#3B82F6">Bill 1</div>
+          <div class="bill-num" style="color:#1d4ed8">Bill 1</div>
           <div class="bill-name">The American Fiscal Integrity Act</div>
           <div class="bill-committees">Ways &amp; Means · Armed Services · Finance</div>
         </div>
@@ -1886,17 +1885,19 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
 
-(a) FINDING.—Congress finds that the Social Security payroll tax applies to one hundred percent (100%) of wage income for ninety-four percent (94%) of American workers, while six percent (6%) of earners — those earning above the annually-indexed taxable wage base — effectively pay a declining percentage of total income in Social Security contributions as their income rises. This structural regressive feature violates the principle that the national retirement security compact should be funded equitably across all income levels.
+(a) FINDING.—Congress finds that the Social Security payroll tax applies to all wage income for about ninety-four percent (94%) of workers, while wages above the annually indexed taxable wage base are exempt, so that the highest earners pay a declining share of their income into the system that most workers rely on.
 
-(b) ELIMINATION OF TAXABLE WAGE BASE CAP.—Section 3121(a) of the Internal Revenue Code of 1986 is amended to remove the limitation on wages subject to the Old Age, Survivors, and Disability Insurance (OASDI) portion of the Federal Insurance Contributions Act tax. Effective for taxable years beginning after the date of enactment, the OASDI contribution rate of 6.2% (employee) and 6.2% (employer) shall apply to all wage income without limit.
+(b) CONTRIBUTION ON WAGES ABOVE $400,000.—Section 3121(a)(1) of the Internal Revenue Code of 1986 and section 211(b)(1) of the Social Security Act are amended so that, for remuneration paid after December 31, 2027, the Old-Age, Survivors, and Disability Insurance taxes of sections 3101(a), 3111(a), and 1401(a) of such Code apply to wages and self-employment income in excess of four hundred thousand dollars ($400,000) in a calendar year, in addition to wages up to the contribution and benefit base. Wages between the contribution and benefit base and four hundred thousand dollars ($400,000) remain exempt. The four hundred thousand dollar ($400,000) amount is not indexed, so that once the contribution and benefit base exceeds it, all covered earnings are subject to the tax.
 
-(c) HIGH EARNER BENEFIT ACCRUAL.—To preserve the contributory character of Social Security while extending the payroll base, the Social Security Administration shall credit wages above the prior taxable wage base toward future benefit calculations at a reduced accrual rate of fifteen percent (15%) of the standard benefit formula, ensuring high earners receive a proportional benefit increase while the primary redistributive function of Social Security is preserved.
+(c) PROTECTION.—Nothing in this section increases the payroll tax of any worker whose wages and self-employment income for the year do not exceed four hundred thousand dollars ($400,000).
 
-(d) SS TRUST FUND RESTORATION.—All net new OASDI revenue generated by the elimination of the taxable wage base cap shall be deposited directly into the Social Security Trust Funds (OASI and DI) with the express purpose of extending Social Security solvency. The National Social Security Solvency Commission established in Title XXVI shall certify annually that the Trust Fund&#x27;s projected solvency window has been extended by not less than twenty-five (25) years as a result of this Section.
+(d) BENEFIT CREDIT.—Earnings taxed under subsection (b) shall be credited toward benefits at fifteen percent (15%) of the rate that applies under the standard benefit formula, so that the contributory character of the program is preserved while most of the new revenue strengthens the Trust Funds.
 
-(e) NO BENEFIT CUTS.—Nothing in this Section shall authorize any reduction in Social Security benefits for any current beneficiary or any individual within ten (10) years of Social Security eligibility age.
+(e) TRUST FUND DEPOSIT.—All net new revenue under this section shall be deposited in the Federal Old-Age and Survivors Insurance Trust Fund and the Federal Disability Insurance Trust Fund.
 
-(f) PROJECTED REVENUE AND SCHEDULE G RELATIONSHIP.—Annual net new OASDI revenue is projected at approximately one hundred fifty billion dollars ($150,000,000,000) a year. This revenue is credited to the Social Security Trust Funds, extends Social Security solvency, and is not available to fund any other program of this Act. Because it reduces the unified federal deficit, it is included in the Schedule G revenue table and in the net deficit reduction stated in Section 3406(d); the programs of this Act are fully covered by the remaining revenue. The Congressional Budget Office shall score this stream separately and publish its effect on trust fund solvency.
+(f) NO BENEFIT CUTS.—Nothing in this section reduces the benefits of any current beneficiary or of any individual within ten (10) years of eligibility.
+
+(g) PROJECTED REVENUE AND SCHEDULE G RELATIONSHIP.—Annual net new revenue is projected at approximately one hundred five billion dollars ($105,000,000,000) in first-year dollars, scored with the open-source Tax-Calculator microsimulation model of the Policy Simulation Library and net of the resulting reduction in income-tax receipts. The revenue is credited to the Social Security Trust Funds and is not available to fund any other program of this Act. Because it reduces the unified federal deficit, it is included in Schedule G and in the net deficit reduction stated in Section 3406(d). The Chief Actuary of the Social Security Administration shall publish its effect on long-range solvency.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2110,7 +2111,7 @@ SEC. 2420. HIGH-INCOME TAX FAIRNESS.
 
 (e) PROTECTION.—No provision of this section increases the tax of any individual whose adjusted gross income does not exceed $400,000 ($200,000 in the case of a married individual filing a separate return).
 
-(f) REVENUE.—Revenue under this section, projected at approximately sixty-seven billion dollars ($67,000,000,000) a year, shall be applied to deficit reduction under Section 3406(f).</div>
+(f) REVENUE.—Revenue under this section, projected at approximately eighty-five billion dollars ($85,000,000,000) a year, shall be applied to deficit reduction under Section 3406(f).</div>
           </div>
         </div>
         <div class="bt">
@@ -2393,6 +2394,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
     SEC. 3410. FISCAL SUSTAINABILITY PLAN.
     SEC. 3411. AMERICAN RESOURCE FUND.
+    SEC. 3412. EXPENDITURE REVIEW AND SAVINGS VERIFICATION.
   TITLE XXXV — PUBLIC INTEGRITY AND EXECUTIVE ACCOUNTABILITY
     SEC. 3501. FINDINGS AND PURPOSE.
     SEC. 3502. DEFINITIONS — TITLE XXXV.
@@ -2622,10 +2624,10 @@ TIER 4 — LONG-TERM (MONTHS 49 AND BEYOND):
         </div>
       </div>
     </div>
-    <div class="bill-block" style="border-left:3px solid #22C55E">
+    <div class="bill-block" style="border-left:3px solid #15803d">
       <div class="bill-header" onclick="togBill(this)">
         <div>
-          <div class="bill-num" style="color:#22C55E">Bill 2</div>
+          <div class="bill-num" style="color:#15803d">Bill 2</div>
           <div class="bill-name">The American Health Security Act</div>
           <div class="bill-committees">Energy &amp; Commerce · Veterans Affairs · Finance</div>
         </div>
@@ -3102,14 +3104,14 @@ SEC. F-001. COMPULSORY LICENSING FRAMEWORK.
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">The complete revenue build-up underlying the NSRA's $657 billion annual revenue projection. Each of the 12 statutory base revenue streams is individually sourced and sized: CBO, JCT, IRS, FDIC, BEA, EIA, GAO, OECD, and independent academic data. Includes a reconciliation table showing how each stream contributes to the aggregate figure, plus 4 supplemental enforcement streams not included in the base projection. Designed to be independently scoreable by the Congressional Budget Office without reliance on NSRA-specific assumptions. The FMIA is required to publish an annual Schedule G Variance Report comparing actual SIRF collections to each stream's projection.</div>
+            <div class="lt-plain">The complete revenue build-up underlying the NSRA's $630 billion annual revenue projection. Each of the 12 statutory base revenue streams is individually sourced and sized: CBO, JCT, IRS, FDIC, BEA, EIA, GAO, OECD, and independent academic data. Includes a reconciliation table showing how each stream contributes to the aggregate figure, plus 4 supplemental enforcement streams not included in the base projection. Designed to be independently scoreable by the Congressional Budget Office without reliance on NSRA-specific assumptions. The FMIA is required to publish an annual Schedule G Variance Report comparing actual SIRF collections to each stream's projection.</div>
             <div class="lt-legal" id="schedule-g-legal">SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 (Enacted as a statutory annex for purposes of Sections 3402, 3406, and 1903)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 1. PURPOSE.
 
-Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.2, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
+Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.4, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3117,7 +3119,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
   Stream                                                   Section        Conf.        Scenario A   Scenario B
   --------------------------------------------------------------------------------------------------------
-  Social Security wage-cap elimination                     Sec. 2408      High         $  150.0B   $  142.5B
+  Social Security payroll tax on wages above $400,000      Sec. 2408      High         $  105.0B   $   99.8B
   Corporate rate 21% to 28%                                Sec. 2409      High         $  110.0B   $  104.5B
   IRS enforcement, net of investment returns               Sec. 2406      Moderate     $   35.0B   $   28.0B
   Carbon fee, $40/ton indexed (net budgetary receipts)     Sec. 2410      Moderate     $   85.0B   $   68.0B
@@ -3132,14 +3134,14 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Carried interest as ordinary income                      Sec. 2402      High         $    1.4B   $    1.3B
   FTA 0.02% on institutional trades &gt; $1M                  Sec. 2405      Preliminary  $    3.0B   $    1.5B
   SNAP retailer fraud recovery                             Title I        High         $    1.0B   $    0.9B
-  Top rate 39.6% above $400K single / $450K joint          Sec. 2420(a)   Moderate     $   22.0B   $   17.6B
+  Top rate 39.6% above $400K single / $450K joint          Sec. 2420(a)   Moderate     $   40.0B   $   32.0B
   NIIT on active pass-through income above $400K           Sec. 2420(b)   Moderate     $   27.0B   $   21.6B
   Capital gains as ordinary income above $1M               Sec. 2420(c)   Preliminary  $    3.0B   $    1.5B
   Stock-buyback excise 1% to 4%                            Sec. 2420(d)   High         $   15.0B   $   14.2B
   --------------------------------------------------------------------------------------------------------
-  TOTAL REVENUE                                                                        $  657.4B   $  551.2B
+  TOTAL REVENUE                                                                        $  630.4B   $  522.9B
 
-  Basis for each stream: REV-01, SSA OCACT / CBO options; REV-02, JCT / Treasury Green Book; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Treasury Green Book / TPC (current-law baseline); REV-17, Treasury Green Book; REV-18, JCT realization elasticities; no deemed realization at death; REV-19, Treasury Green Book.
+  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-02, JCT / Treasury Green Book; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, Treasury Green Book; REV-18, JCT realization elasticities; no deemed realization at death; REV-19, Treasury Green Book.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3168,60 +3170,62 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
 4. RECONCILIATION AND TEN-YEAR PROJECTION.
 
-  Full-ramp annual deficit reduction (Scenario A): $657.4B revenue - $446.1B costs and outlays = $211.3B.
+  Full-ramp annual deficit reduction (Scenario A): $630.4B revenue - $446.1B costs and outlays = $184.3B.
   Revenue ramps with enforcement capacity (86, 94, 98, then 100 percent realization in Years 1-4) and grows 4 percent a year; programs phase in behind the certification gates of Schedule E (55, 75, 90, then 100 percent) and grow 4.5 percent a year; reduced debt lowers interest costs at 3.5 percent.
 
   Fiscal year   Revenue   Costs+outlays   Deficit reduction   Interest savings   Total     Cumulative
-  Year 1  (FY2028)  $  565B    $  275B          $  291B             $   0B           $  291B   $   291B
-  Year 2  (FY2029)  $  643B    $  366B          $  276B             $  10B           $  287B   $   577B
-  Year 3  (FY2030)  $  697B    $  445B          $  252B             $  20B           $  272B   $   849B
-  Year 4  (FY2031)  $  739B    $  508B          $  231B             $  30B           $  261B   $  1111B
-  Year 5  (FY2032)  $  769B    $  531B          $  239B             $  39B           $  277B   $  1388B
-  Year 6  (FY2033)  $  800B    $  554B          $  246B             $  49B           $  294B   $  1683B
-  Year 7  (FY2034)  $  832B    $  579B          $  253B             $  59B           $  312B   $  1995B
-  Year 8  (FY2035)  $  865B    $  604B          $  261B             $  70B           $  331B   $  2325B
-  Year 9  (FY2036)  $  900B    $  631B          $  269B             $  81B           $  350B   $  2676B
-  Year 10 (FY2037)  $  936B    $  659B          $  277B             $  94B           $  370B   $  3046B
+  Year 1  (FY2028)  $  542B    $  275B          $  268B             $   0B           $  268B   $   268B
+  Year 2  (FY2029)  $  616B    $  366B          $  250B             $   9B           $  259B   $   527B
+  Year 3  (FY2030)  $  668B    $  445B          $  223B             $  18B           $  242B   $   769B
+  Year 4  (FY2031)  $  709B    $  508B          $  201B             $  27B           $  228B   $   997B
+  Year 5  (FY2032)  $  737B    $  531B          $  207B             $  35B           $  242B   $  1239B
+  Year 6  (FY2033)  $  767B    $  554B          $  213B             $  43B           $  256B   $  1495B
+  Year 7  (FY2034)  $  798B    $  579B          $  219B             $  52B           $  271B   $  1766B
+  Year 8  (FY2035)  $  830B    $  604B          $  225B             $  62B           $  287B   $  2054B
+  Year 9  (FY2036)  $  863B    $  631B          $  232B             $  72B           $  304B   $  2357B
+  Year 10 (FY2037)  $  897B    $  659B          $  238B             $  83B           $  321B   $  2678B
 
-  Ten-year cumulative deficit reduction, Scenario A: $2.6T before interest savings; $3.0T including interest savings.
-  Range (revenue factor 0.88 to 1.08): $2.0T to $3.8T including interest savings.
+  Ten-year cumulative deficit reduction, Scenario A: $2.3T before interest savings; $2.7T including interest savings.
+  Range (revenue factor 0.88 to 1.08): $1.6T to $3.4T including interest savings.
 
   OBLIGATION COVERAGE (SCENARIO B):
-  Scenario B revenue:                                       $551.2B
+  Scenario B revenue:                                       $522.9B
   Tier 1 SIRF capitalization and Tier 2 program floor:      $174.0B
-  Coverage ratio:                                           3.17x
-  High-confidence streams only (Scenario B):                $263.4B, or 1.51x
+  Coverage ratio:                                           3.01x
+  High-confidence streams only (Scenario B):                $220.7B, or 1.27x
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 4A. FISCAL SUSTAINABILITY PLAN (SECTION 3410) AND COMBINED PROJECTION.
 
   Measure                                                                              Section          Full effect   Start   Years to full
-  Social Security solvency: slower benefit growth for top earners, stronger minimum be Sec. 3410(b)     $   120B      Yr 5    30
-  Medicare drug negotiation expansion and post-acute payment reform                    Sec. 3410(c)     $    40B      Yr 2    5
+  Social Security solvency: slower benefit growth for top earners, stronger minimum be Sec. 3410(b)     $    45B      Yr 8    40
+  Medicare drug negotiation expansion and post-acute payment reform                    Sec. 3410(c)     $    25B      Yr 2    5
   Appropriations caps: defense and non-defense grow at inflation minus 1%              Sec. 3410(d)     $   160B      Yr 1    10
-  Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    35B      Yr 1    1
+  Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    22B      Yr 1    1
   Carbon fee rises $5/ton a year to $75 (net of household credits)                     Sec. 3410(f)     $    40B      Yr 2    7
-  Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $    15B      Yr 2    3
-  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   410B
+  Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $     8B      Yr 2    3
+  Crop insurance: premium subsidy and insurer reimbursement reform                     Sec. 3410(h)     $     5B      Yr 2    1
+  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   305B
 
   Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
-  Year 1  (FY2028)  $  291B          $   51B          $   0B            $  342B   $   342B
-  Year 2  (FY2029)  $  276B          $   89B          $  12B            $  377B   $   719B
-  Year 3  (FY2030)  $  252B          $  130B          $  25B            $  407B   $  1127B
-  Year 4  (FY2031)  $  231B          $  175B          $  39B            $  445B   $  1572B
-  Year 5  (FY2032)  $  239B          $  221B          $  55B            $  515B   $  2087B
-  Year 6  (FY2033)  $  246B          $  271B          $  73B            $  590B   $  2676B
-  Year 7  (FY2034)  $  253B          $  314B          $  94B            $  661B   $  3337B
-  Year 8  (FY2035)  $  261B          $  361B          $ 117B            $  738B   $  4076B
-  Year 9  (FY2036)  $  269B          $  402B          $ 143B            $  814B   $  4889B
-  Year 10 (FY2037)  $  277B          $  447B          $ 171B            $  895B   $  5784B
+  Year 1  (FY2028)  $  268B          $   38B          $   0B            $  306B   $   306B
+  Year 2  (FY2029)  $  250B          $   75B          $  11B            $  336B   $   642B
+  Year 3  (FY2030)  $  223B          $  110B          $  22B            $  356B   $   997B
+  Year 4  (FY2031)  $  201B          $  148B          $  35B            $  384B   $  1381B
+  Year 5  (FY2032)  $  207B          $  185B          $  48B            $  440B   $  1821B
+  Year 6  (FY2033)  $  213B          $  225B          $  64B            $  501B   $  2322B
+  Year 7  (FY2034)  $  219B          $  261B          $  81B            $  561B   $  2884B
+  Year 8  (FY2035)  $  225B          $  302B          $ 101B            $  628B   $  3511B
+  Year 9  (FY2036)  $  232B          $  337B          $ 123B            $  692B   $  4203B
+  Year 10 (FY2037)  $  238B          $  375B          $ 147B            $  760B   $  4963B
 
-  Ten-year combined deficit reduction: $5.1T before interest savings; $5.8T including interest savings (range $4.7T to $6.5T).
+  Ten-year combined deficit reduction: $4.3T before interest savings; $5.0T including interest savings (range $3.9T to $5.7T).
   Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office&#x27;s published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
 
-  RELATIONSHIP TO SECTION 3406(f): The deficit reduction of Section 3406 lowers the CBO baseline deficit by roughly one-tenth, and Section 3410 roughly doubles that by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
+  OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
 
+  RELATIONSHIP TO SECTION 3406(f): The deficit reduction of Section 3406 lowers the CBO baseline deficit by roughly one-tenth, and Section 3410 roughly doubles that by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 5. METHODOLOGY TRANSPARENCY AND EXTERNAL REVIEW.
@@ -3266,10 +3270,10 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
         </div>
       </div>
     </div>
-    <div class="bill-block" style="border-left:3px solid #F59E0B">
+    <div class="bill-block" style="border-left:3px solid #b54708">
       <div class="bill-header" onclick="togBill(this)">
         <div>
-          <div class="bill-num" style="color:#F59E0B">Bill 3</div>
+          <div class="bill-num" style="color:#b54708">Bill 3</div>
           <div class="bill-name">The American Economic Security Act</div>
           <div class="bill-committees">Banking · Judiciary · Education · HELP</div>
         </div>
@@ -3834,7 +3838,7 @@ The Director of the Office of Science and Technology Policy shall report biennia
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">America is the only OECD country with no national paid leave for new parents. This title creates 12 weeks of paid family and medical leave insurance, paying 66% of wages (85% for low earners), financed entirely by its own 0.4% payroll contribution split between workers and employers, with no employer share for businesses under 10 employees and opt-outs for state programs and equivalent employer plans. Adds child care supply grants that raise provider pay and open rural and infant slots, a bigger employer child care credit, and a $2,500 to $3,500 apprenticeship credit for the electricians, lineworkers, welders and technicians the build-out needs.</div>
+            <div class="lt-plain">America is the only OECD country with no national paid leave for new parents. This title creates 12 weeks of paid family and medical leave insurance, paying 66% of wages (85% for low earners), financed entirely by its own contributions of 0.4% of wages from workers and 0.4% from employers, with no employer share for businesses under 10 employees and opt-outs for state programs and equivalent employer plans. Adds child care supply grants that raise provider pay and open rural and infant slots, a bigger employer child care credit, and a $2,500 to $3,500 apprenticeship credit for the electricians, lineworkers, welders and technicians the build-out needs.</div>
             <div class="lt-legal">TITLE XXXVIII — FAMILY AND WORKFORCE SECURITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3906,10 +3910,10 @@ The Commissioner of Social Security, the Secretary of Health and Human Services,
         </div>
       </div>
     </div>
-    <div class="bill-block" style="border-left:3px solid #A78BFA">
+    <div class="bill-block" style="border-left:3px solid #6d28d9">
       <div class="bill-header" onclick="togBill(this)">
         <div>
-          <div class="bill-num" style="color:#A78BFA">Bill 4</div>
+          <div class="bill-num" style="color:#6d28d9">Bill 4</div>
           <div class="bill-name">The American Supply Chain Security Act</div>
           <div class="bill-committees">Agriculture · Energy &amp; Commerce · Foreign Affairs · Transportation</div>
         </div>
@@ -4336,10 +4340,10 @@ SEC. 803. NATIONAL PASSENGER RAIL EXPANSION.
         </div>
       </div>
     </div>
-    <div class="bill-block" style="border-left:3px solid #EF4444">
+    <div class="bill-block" style="border-left:3px solid #b42318">
       <div class="bill-header" onclick="togBill(this)">
         <div>
-          <div class="bill-num" style="color:#EF4444">Bill 5</div>
+          <div class="bill-num" style="color:#b42318">Bill 5</div>
           <div class="bill-name">The American Accountability and Data Rights Act</div>
           <div class="bill-committees">Judiciary · Commerce · Environment &amp; Public Works</div>
         </div>
@@ -6702,7 +6706,7 @@ This Title is funded from the SIRF Biosecurity Node and is net-positive on a 10-
               <button class="lt-btn on" onclick="sw(this,'plain')">Plain Language</button>
               <button class="lt-btn" onclick="sw(this,'legal')">Statutory Text</button>
             </div>
-            <div class="lt-plain">Retires the universal cash dividend in favor of direct structural cost elimination, defines the SIRF's mandatory statutory base-revenue streams and four-tier priority waterfall, revises the 12-node allocation table, updates the Year-1 fiscal summary ($211B net surplus), and establishes the Strategic Compute Node and Strategic Mobility Infrastructure Node.</div>
+            <div class="lt-plain">Retires the universal cash dividend in favor of direct structural cost elimination, defines the SIRF's mandatory statutory base-revenue streams and four-tier priority waterfall, revises the 12-node allocation table, updates the Year-1 fiscal summary ($184B net surplus), and establishes the Strategic Compute Node and Strategic Mobility Infrastructure Node.</div>
             <div class="lt-legal">TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOLVENCY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -6777,7 +6781,7 @@ RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebala
 
 SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 
-(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred fifty-seven billion dollars ($657,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.2). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred sixty-five billion dollars ($565,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred fifty-one billion dollars ($551,000,000,000).
+(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred thirty billion dollars ($630,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.4). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred forty-two billion dollars ($542,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred twenty-three billion dollars ($523,000,000,000), which, against the same costs, would leave approximately seventy-seven billion dollars ($77,000,000,000) a year in deficit reduction.
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
 (1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
@@ -6802,9 +6806,9 @@ Net program costs: approximately three hundred fifty-one billion one hundred mil
 (4) Semiconductor and Critical Materials Security (Section 1204, Title XII): fifteen billion dollars ($15,000,000,000) per year;
 (5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year;
 (6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FMIA assessment.
-Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section.
+Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
-(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred fifty-seven billion dollars ($657,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately two hundred eleven billion dollars ($211,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately three trillion dollars ($3,000,000,000,000) including reduced interest costs, within a range of two trillion dollars to three trillion eight hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred thirty billion dollars ($630,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred eighty-four billion dollars ($184,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion three hundred billion dollars ($2,300,000,000,000), or approximately two trillion seven hundred billion dollars ($2,700,000,000,000) including reduced interest costs, within a range of one trillion six hundred billion dollars to three trillion four hundred billion dollars under the scenarios in Schedule G.
 
 (e) DESIGNATION.—The net annual deficit reduction stated in subsection (d) is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
@@ -6903,7 +6907,9 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (g) PAYMENT INTEGRITY.—Each agency with a program reporting improper payments above one billion dollars ($1,000,000,000) under section 3352 of title 31, United States Code, shall reduce its improper payment rate by not less than one-third within three (3) fiscal years, using the verification systems of Sections 3509 and 3904. Recoveries and avoided payments are applied to deficit reduction.
 
-(h) PROJECTED EFFECT.—The measures in subsections (b) through (g) are projected to reduce the deficit by approximately four hundred ten billion dollars ($410,000,000,000) a year at full effect, stated in first-year dollars, with the Social Security changes phasing in over a generation. Together with Section 3406, ten-year deficit reduction is projected at approximately five trillion one hundred billion dollars ($5,100,000,000,000), or approximately five trillion eight hundred billion dollars ($5,800,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to under five percent (5%) of gross domestic product; the remaining reduction needed to meet the limit of Section 3406(f)(2)(B) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers&#x27; administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected.
+
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred five billion dollars ($305,000,000,000) a year at full effect, stated in first-year dollars. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion three hundred billion dollars ($4,300,000,000,000), or approximately five trillion dollars ($5,000,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to approximately five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -6919,7 +6925,33 @@ SEC. 3411. AMERICAN RESOURCE FUND.
 
 (e) BUDGETARY TREATMENT.—Investments of the Fund in non-federal assets shall be recorded on a fair-value basis in the manner of section 123 of the Emergency Economic Stabilization Act of 2008 (12 U.S.C. 5232).
 
-(f) REPORTING.—The trustees shall publish an annual report on holdings, returns, and transfers, audited by the Comptroller General.</div>
+(f) REPORTING.—The trustees shall publish an annual report on holdings, returns, and transfers, audited by the Comptroller General.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3412. EXPENDITURE REVIEW AND SAVINGS VERIFICATION.
+
+(a) PURPOSE.—To make the federal government measurably more efficient at what it already pays for, and to ensure that no savings are claimed before they are real.
+
+(b) EXPENDITURE REVIEWS.—The Comptroller General shall review each federal program or activity with outlays above one billion dollars ($1,000,000,000) a year at least once every five (5) years, beginning with programs identified in the Comptroller General&#x27;s annual reports on fragmentation, overlap, and duplication. Each agency shall maintain a public inventory of its contracts, grants, facilities, information technology systems, and administrative costs.
+
+(c) REMEDIATION PLANS.—For each open recommendation of the Comptroller General or an Inspector General with estimated financial benefits above one hundred million dollars ($100,000,000), the agency shall publish within one hundred eighty (180) days a remediation plan with a deadline and an estimate of savings, or a statement of reasons for not acting.
+
+(d) SAVINGS RECOGNITION.—For purposes of this Act—
+(1) savings are recognized only when the Congressional Budget Office has scored them or when actual reductions in outlays have been measured against an adjusted baseline and audited by the Comptroller General;
+(2) no savings may be counted under more than one section of this Act;
+(3) savings from the Strategic Defense Efficiency Commission under Section 2304, from upstream prevention under Section 3406(c), and from returns on federal investments are excluded from every projection of this Act until recognized under paragraph (1); and
+(4) recognized net savings are applied first to deficit reduction until the limits of Section 3406(f) are met.
+
+(e) INFRASTRUCTURE FINANCING.—Each project funded under Section 3406(c) shall be classified as—
+(1) revenue-generating, including transmission, water systems with rate revenue, semiconductor and critical-materials facilities, and public compute, which shall be financed through loans, loan guarantees, or revenue-sharing agreements wherever practicable, with repayments returned to the Treasury and applied to deficit reduction;
+(2) cost-saving, including flood mitigation, water remediation, and soil restoration, which shall state the future federal costs it is expected to avoid and report the results; or
+(3) public-good, including wildlife corridors and essential rural services, which shall be funded through capped appropriations with a published statement of public benefits.
+
+(f) PROTECTIONS.—Nothing in this section authorizes a reduction in benefits under Social Security, Medicare, Medicaid, veterans&#x27; programs, the Supplemental Nutrition Assistance Program, or the Basic Minimum Plan, or a reduction in military readiness.
+
+(g) REPORT.—The Comptroller General shall report annually to Congress on reviews completed, remediation plans published, and savings recognized under this section.</div>
           </div>
         </div>
         <div class="bt">
@@ -7321,7 +7353,7 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
         <div style="background:rgba(96,165,250,0.06);border:1px solid rgba(96,165,250,0.2);border-radius:10px;padding:14px"><div style="font-weight:700;font-size:13px;color:var(--text);margin-bottom:6px">Most large companies</div><div style="font-size:11.5px;color:var(--muted);line-height:1.6">Established companies that compete on merit come out roughly even or ahead, new demand from universal coverage and wage floors offsets a higher corporate rate.</div></div>
         <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.2);border-radius:10px;padding:14px"><div style="font-weight:700;font-size:13px;color:var(--text);margin-bottom:6px">The extractors</div><div style="font-size:11.5px;color:var(--muted);line-height:1.6">Companies that profit mainly by offshoring wages, cornering housing, or financial engineering get restructured, but they are paid fair market value, and nothing is seized. The rebalance is the whole point.</div></div>
       </div>
-      <div style="margin-top:14px;font-size:12px;color:var(--muted)">Want the detailed, sector-by-sector <b style="color:#cbd5e1">scored</b> audit with the legal and technical basis? It lives in the <a href="/engage/#benefit-audit" style="color:var(--green);text-decoration:none">Special Interest &amp; Lobbyist portal &rarr;</a></div>
+      <div style="margin-top:14px;font-size:12px;color:var(--muted)">Want the detailed, sector-by-sector <b style="color:#3b4350">scored</b> audit with the legal and technical basis? It lives in the <a href="/engage/#benefit-audit" style="color:var(--green);text-decoration:none">Special Interest &amp; Lobbyist portal &rarr;</a></div>
     </div>
     <!-- Pharma -->
     <div class="panel col-4">
@@ -7587,20 +7619,20 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
     .wf-row input { background:var(--bg-elevated); border:1px solid var(--border); border-radius:6px; padding:9px 12px; font-size:13px; color:var(--text); outline:none; width:100%; box-sizing:border-box; }
     .wf-row input:focus { border-color:var(--green); }
     .wf-row input::placeholder { color:var(--muted); }
-    .wf-btn { width:100%; padding:12px; background:var(--green); color:#000; font-size:13px; font-weight:700; border:none; border-radius:8px; cursor:pointer; margin-top:6px; letter-spacing:0.04em; }
+    .wf-btn { width:100%; padding:12px; background:var(--green); color:#fff; font-size:13px; font-weight:700; border:none; border-radius:8px; cursor:pointer; margin-top:6px; letter-spacing:0.04em; }
     .wf-btn:hover { opacity:0.9; } .wf-btn:disabled { opacity:0.5; cursor:not-allowed; }
     .wf-btn-ghost { width:100%; padding:10px; background:transparent; border:1px solid var(--border); color:var(--muted); font-size:12px; font-weight:600; border-radius:8px; cursor:pointer; margin-top:8px; }
     .wf-btn-ghost:hover { border-color:var(--green); color:var(--green); }
     .wf-note { font-size:11px; color:var(--muted); text-align:center; margin-top:8px; }
     .wf-msg { font-size:12px; margin-top:10px; padding:10px 12px; border-radius:6px; display:none; }
-    .wf-msg.error { background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.25); color:#EF4444; display:block; }
+    .wf-msg.error { background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.25); color:#b42318; display:block; }
     .delegation-row { display:flex; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
     .del-card { flex:1; min-width:140px; display:flex; flex-direction:column; align-items:center; gap:5px; padding:10px; background:var(--bg-elevated); border-radius:8px; }
     .del-icon { font-size:28px; }
     .del-role { font-size:9px; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; }
     .del-name { font-size:11px; font-weight:700; color:var(--text); text-align:center; line-height:1.3; }
     .del-party { font-size:9px; color:var(--muted); }
-    .w-email-preview { background:var(--bg-base); border:1px solid var(--border); border-radius:6px; padding:12px 14px; font-size:11px; color:#94A3B8; font-family:'Courier New',monospace; line-height:1.7; white-space:pre-wrap; height:260px; overflow-y:auto; margin:12px 0; }
+    .w-email-preview { background:var(--bg-base); border:1px solid var(--border); border-radius:6px; padding:12px 14px; font-size:11px; color:#475467; font-family:'Courier New',monospace; line-height:1.7; white-space:pre-wrap; height:260px; overflow-y:auto; margin:12px 0; }
     .share-row { display:flex; gap:8px; justify-content:center; flex-wrap:wrap; padding-top:14px; border-top:1px solid var(--border); margin-top:14px; }
     .share-btn { padding:7px 16px; border-radius:6px; font-size:11px; font-weight:700; text-decoration:none; color:#fff; display:inline-block; }
     .sc-cols { display:grid; grid-template-columns:1fr 1fr; gap:28px; max-width:1200px; margin:0 auto; padding:0 16px; align-items:start; }
@@ -7648,21 +7680,21 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
           <div style="font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-transform:uppercase;color:var(--muted);margin-bottom:4px">U.S. Representative</div>
           <div class="del-name" id="del-rep" style="font-size:12px;font-weight:700;text-align:center;line-height:1.4">Looking up&hellip;</div>
           <div id="del-rep-phone" style="font-size:15px;font-weight:800;color:var(--green);margin:6px 0;letter-spacing:0.04em"></div>
-          <a id="del-rep-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#000;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
+          <a id="del-rep-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
           <a id="del-rep-link" href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener" style="font-size:10px;color:var(--muted);text-decoration:none;margin-top:4px">Find office &rarr;</a>
         </div>
         <div class="del-card" id="phone-card-sen1">
           <div style="font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px">U.S. Senator</div>
           <div class="del-name" id="del-sen1" style="font-size:12px;font-weight:700;text-align:center;line-height:1.4">Looking up&hellip;</div>
           <div id="del-sen1-phone" style="font-size:15px;font-weight:800;color:var(--green);margin:6px 0;letter-spacing:0.04em"></div>
-          <a id="del-sen1-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#000;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
+          <a id="del-sen1-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
           <a id="del-sen1-link" href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener" style="font-size:10px;color:var(--muted);text-decoration:none;margin-top:4px">Find office &rarr;</a>
         </div>
         <div class="del-card" id="phone-card-sen2">
           <div style="font-size:9px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:4px">U.S. Senator</div>
           <div class="del-name" id="del-sen2" style="font-size:12px;font-weight:700;text-align:center;line-height:1.4"></div>
           <div id="del-sen2-phone" style="font-size:15px;font-weight:800;color:var(--green);margin:6px 0;letter-spacing:0.04em"></div>
-          <a id="del-sen2-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#000;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
+          <a id="del-sen2-tel" href="#" style="display:none;padding:7px 18px;background:var(--green);color:#fff;font-size:11px;font-weight:700;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Call Now</a>
           <a id="del-sen2-link" href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener" style="font-size:10px;color:var(--muted);text-decoration:none;margin-top:4px">Find office &rarr;</a>
         </div>
       </div>
@@ -7709,13 +7741,13 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
         <input type="hidden" name="_subject" value="NSRA Voter Feedback" />
         <input type="hidden" name="_template" value="table" />
         <input type="hidden" name="_captcha" value="false" />
-        <button type="submit" style="margin-top:12px;background:var(--green);color:#04120a;font-weight:800;font-size:13px;padding:11px 22px;border:none;border-radius:8px;cursor:pointer">Send it in</button>
+        <button type="submit" style="margin-top:12px;background:var(--green);color:#ffffff;font-weight:800;font-size:13px;padding:11px 22px;border:none;border-radius:8px;cursor:pointer">Send it in</button>
         <div id="vfMsg" style="margin-top:10px;font-size:13px;min-height:18px"></div>
       </form>
     </div>
   </div>
   <script>
-  function vfSubmit(e){e.preventDefault();var f=document.getElementById('vfeedback'),m=document.getElementById('vfMsg');var a=f.querySelector('select[name="Area"]'),su=f.querySelector('input[name="_subject"]');if(su&&a&&a.selectedIndex>0){su.value='NSRA Voter Feedback \u2014 '+a.value;}m.style.color='#94a3b8';m.textContent='Sending\u2026';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#22C55E';m.textContent='\u2713 Thank you \u2014 we read every submission.';f.reset();}).catch(function(){m.style.color='#F59E0B';m.textContent='Could not send automatically \u2014 please email contact@theamericandeal.org.';});return false;}
+  function vfSubmit(e){e.preventDefault();var f=document.getElementById('vfeedback'),m=document.getElementById('vfMsg');var a=f.querySelector('select[name="Area"]'),su=f.querySelector('input[name="_subject"]');if(su&&a&&a.selectedIndex>0){su.value='NSRA Voter Feedback \u2014 '+a.value;}m.style.color='#475467';m.textContent='Sending\u2026';fetch('https://formsubmit.co/ajax/contact@theamericandeal.org',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(){m.style.color='#15803d';m.textContent='\u2713 Thank you \u2014 we read every submission.';f.reset();}).catch(function(){m.style.color='#b54708';m.textContent='Could not send automatically \u2014 please email contact@theamericandeal.org.';});return false;}
   </script>
 
 </div>
@@ -7738,28 +7770,28 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
 </div>
 
 <!-- SOCIAL FOLLOW STRIP -->
-<div style="background:#08090d;border-top:1px solid rgba(255,255,255,0.06);padding:32px 24px 28px;margin-top:0;text-align:center">
+<div style="background:#f6f7f9;border-top:1px solid rgba(11,37,69,0.04);padding:32px 24px 28px;margin-top:0;text-align:center">
   <div style="max-width:900px;margin:0 auto">
     <div style="font-size:11px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.3);margin-bottom:16px">Follow the Campaign</div>
     <div style="display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap">
       <a href="https://x.com/NSRA2028" target="_blank" rel="noopener"
-         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
+         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(11,37,69,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
          onmouseover="this.style.borderColor='rgba(0,200,83,0.4)';this.style.color='#00c853';this.style.background='rgba(0,200,83,0.08)'"
-         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(255,255,255,0.04)'">
+         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(11,37,69,0.04)'">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.742l7.726-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
         @NSRA2028
       </a>
       <a href="https://instagram.com/nsratheamericandeal" target="_blank" rel="noopener"
-         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
+         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(11,37,69,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
          onmouseover="this.style.borderColor='rgba(0,200,83,0.4)';this.style.color='#00c853';this.style.background='rgba(0,200,83,0.08)'"
-         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(255,255,255,0.04)'">
+         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(11,37,69,0.04)'">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
         @nsratheamericandeal
       </a>
       <a href="https://threads.net/@nsratheamericandeal" target="_blank" rel="noopener"
-         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
+         style="display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:8px;background:rgba(11,37,69,0.04);border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.7);text-decoration:none;font-size:12px;font-weight:600;"
          onmouseover="this.style.borderColor='rgba(0,200,83,0.4)';this.style.color='#00c853';this.style.background='rgba(0,200,83,0.08)'"
-         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(255,255,255,0.04)'">
+         onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.7)';this.style.background='rgba(11,37,69,0.04)'">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.35 18.44 1.5 15.586 1.472 12.01v-.017c.028-3.579.879-6.43 2.525-8.482C5.845 1.205 8.6.024 12.18 0h.014c2.746.02 5.043.725 6.826 2.098 1.677 1.29 2.858 3.13 3.509 5.467l-2.04.569c-1.104-3.96-3.898-5.984-8.304-6.015-2.91.022-5.11.936-6.54 2.717C4.307 6.504 3.616 8.914 3.589 12c.027 3.086.718 5.496 2.057 7.164 1.43 1.783 3.631 2.698 6.54 2.717 2.623-.02 4.358-.631 5.8-2.045 1.647-1.613 1.618-3.593 1.09-4.798-.31-.71-.873-1.3-1.634-1.75-.192 1.352-.622 2.446-1.284 3.272-.886 1.102-2.14 1.704-3.73 1.79-1.202.065-2.361-.218-3.259-.801-1.063-.689-1.685-1.74-1.752-2.964-.065-1.19.408-2.285 1.33-3.082.88-.76 2.119-1.207 3.583-1.291a13.853 13.853 0 0 1 3.02.142c-.126-.742-.375-1.332-.75-1.757-.513-.583-1.317-.88-2.39-.887h-.048c-.832 0-1.979.255-2.707 1.211l-1.616-1.178c.933-1.356 2.414-2.107 4.32-2.107h.063c2.962.02 4.789 1.836 5.029 5.07.043.563.039 1.145.039 1.733.023 1.756.04 3.006-.005 3.963-.091 1.84-.76 3.362-1.987 4.515C17.087 23.289 14.912 24 12.186 24zm.024-8.938c-.95.056-1.716.305-2.165.703-.434.382-.63.882-.587 1.489.046.698.405 1.22.996 1.578.482.295 1.104.44 1.73.405.963-.052 1.727-.415 2.272-1.079.556-.677.87-1.698.93-3.03a11.87 11.87 0 0 0-3.176-.066z"/></svg>
         @nsratheamericandeal
       </a>
@@ -7768,7 +7800,7 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
 </div>
 
 <!-- LEGAL FOOTER -->
-<div style="background:#08090d;border-top:1px solid rgba(255,255,255,0.06);padding:40px 24px 32px;margin-top:0">
+<div style="background:#f6f7f9;border-top:1px solid rgba(11,37,69,0.04);padding:40px 24px 32px;margin-top:0">
   <div style="max-width:900px;margin:0 auto">
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px;margin-bottom:32px">
       <div>
@@ -7802,7 +7834,7 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
         </div>
       </div>
     </div>
-    <div style="border-top:1px solid rgba(255,255,255,0.06);padding-top:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+    <div style="border-top:1px solid rgba(11,37,69,0.04);padding-top:20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
       <div style="font-size:10px;color:rgba(255,255,255,0.2);max-width:560px">&copy; 2024&ndash;2026 Santonio D. Sanders. The NSRA statutory text is published for good-faith legislative review, institutional evaluation, public-interest analysis, and adoption with attribution. TheAmericanDeal branding, trademarks, proprietary analytical systems, and representations of authorship are protected; misappropriation and false attribution are prohibited.</div>
       <div style="font-size:10px;color:rgba(255,255,255,0.2)">Principal Architect: Santonio D. Sanders &nbsp;&middot;&nbsp; TheAmericanDeal.org</div>
     </div>
@@ -7818,9 +7850,9 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
   // ══════════════════════════════════════════════════════════════
   var NSRA_FIGURES = {
     // Revenue & fiscal (Schedule G)
-    annualRevenueB:    749,         // $B Year 1 total scored revenue
-    revenueStreams:    16,          // number of scored streams
-    deficitReductionB: 554,        // $B true annual deficit reduction
+    annualRevenueB:    630,         // $B Year 1 total scored revenue
+    revenueStreams:    19,          // number of scored streams
+    deficitReductionB: 184,        // $B true annual deficit reduction
     balanceYear:       4,          // Year balanced budget achieved (central est.)
     balanceRange:      'Yr 3–5', // display range string
 
@@ -7835,8 +7867,8 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
     },
 
     // Bill structure
-    titles:   36,
-    sections: 218,
+    titles:   40,
+    sections: 260,
   };
 
   // Render all hero stats from NSRA_FIGURES
@@ -7854,10 +7886,10 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
     if (bal) bal.textContent = '3%';
 
     var prot = document.getElementById('hero-protected');
-    if (prot) prot.textContent = r.totalProtectedM + 'M+';
+    if (prot) prot.textContent = '~' + r.bmpUninsuredM + 'M';
 
     var protNote = document.getElementById('hero-protected-note');
-    if (protNote) protNote.textContent = r.bmpUninsuredM + 'M uninsured · ' + r.snapM + 'M SNAP · ' + r.veteransM + 'M veterans (Year 1 direct relief)';
+    if (protNote) protNote.textContent = 'Also protects ' + r.snapM + 'M SNAP participants and ' + r.veteransM + 'M veterans';
 
     var def = document.getElementById('hero-deficit');
     if (def) def.textContent = fmt(r.deficitReductionB);
@@ -8125,7 +8157,7 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
       'I am calling to urge ' + repName + ' to support\n' +
       'the National Sovereignty and Resilience Act -- the NSRA.\n\n' +
       'This bill delivers $0-deductible health coverage with no premium for working families,\n' +
-      'G7 pharmaceutical price parity, and $211 billion in\n' +
+      'G7 pharmaceutical price parity, and $184 billion in\n' +
       'annual deficit reduction without cutting Social Security\n' +
       'or Medicare.\n\n' +
       'The full text is at TheAmericanDeal.org. I ask that the\n' +
@@ -8144,7 +8176,7 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
   }
 
   function buildShareLinks(firstName) {
-    var shareText = encodeURIComponent('I just signed the NSRA -- The American Deal. Universal healthcare, G7 pharma prices, $211B in deficit cuts. What America Owes You -- TheAmericanDeal.org');
+    var shareText = encodeURIComponent('I just signed the NSRA -- The American Deal. Universal healthcare, G7 pharma prices, $184B in deficit cuts. What America Owes You -- TheAmericanDeal.org');
     var x  = document.getElementById('share-x');
     var th = document.getElementById('share-threads');
     var tr = document.getElementById('share-truth');
@@ -8205,9 +8237,16 @@ The Federal Chief Information Officer shall report biennially to Congress on: (1
   if(!p) return;
   var a=document.createElement("a"); a.href=p[0];
   a.innerHTML="&larr; Back to "+p[1];
-  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#161920;border-bottom:1px solid #252830;color:#22C55E;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
+  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#f6f7f9;border-bottom:1px solid #e4e7ec;color:#15803d;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
   document.body.insertBefore(a, document.body.firstChild);
 })();
 </script>
+<footer class="site"><div class="in">
+<div><div class="logo" style="color:#fff">The American <span>Deal</span></div><p style="margin-top:10px">The National Sovereignty and Resilience Act is model federal legislation written by Santonio D. Sanders. Independent: not affiliated with any party, PAC, or elected official.</p></div>
+<div><h4>Issues</h4><a href="/stock-trading-ban/">Stock trading ban</a><a href="/drug-prices/">Drug prices</a><a href="/healthcare/">Healthcare</a><a href="/housing/">Housing</a><a href="/paid-leave/">Paid leave</a><a href="/science/">Science</a></div>
+<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/explore/">Explore everything</a><a href="/fiscal-model/">Fiscal model</a><a href="/calculator/">Calculator</a><a href="/2028/">2028 agenda</a></div>
+<div><h4>Connect</h4><a href="/adopt/">Policymakers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a><a href="mailto:contact@theamericandeal.org">contact@theamericandeal.org</a></div>
+<div class="fine">Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO or JCT scores. &copy; 2024&ndash;2026 Santonio D. Sanders. What America Owes You&trade;.</div>
+</div></footer>
 </body>
 </html>
