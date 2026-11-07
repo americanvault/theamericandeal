@@ -16,12 +16,15 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="State Press Briefs, NSRA" />
 <meta name="twitter:description" content="Publication-ready NSRA briefing for each state, printable one-pager for local newsrooms." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;0,8..60,800;1,8..60,700&display=swap" />
+<link rel="stylesheet" href="/assets/site.css" />
 <style>
-:root{--bg:#0D0F14;--surface:#161920;--elev:#1E2128;--green:#22C55E;--amber:#F59E0B;--red:#EF4444;--blue:#60A5FA;--text:#F1F5F9;--muted:#64748B;--border:#252830}
+:root{--bg:#ffffff;--surface:#f6f7f9;--elev:#eef1f4;--green:#15803d;--amber:#b54708;--red:#b42318;--blue:#1d4ed8;--text:#111418;--muted:#5b6472;--border:#e4e7ec}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.6}
 a{color:var(--green)}
-nav{position:sticky;top:0;background:rgba(13,15,20,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;z-index:10}
+nav.legacy-nav{position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px;z-index:10}
 .brand{font-size:13px;font-weight:700;letter-spacing:.05em;color:var(--text);text-decoration:none}
 .brand span{color:var(--green)}
 .wrap{max-width:900px;margin:0 auto;padding:34px 24px 80px}
@@ -39,13 +42,13 @@ select{background:var(--elev);border:1px solid var(--border);border-radius:8px;p
 .stat .v{font-size:21px;font-weight:800;color:var(--green);font-variant-numeric:tabular-nums}
 .stat .l{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:3px;line-height:1.3}
 h3{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:18px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--border)}
-.imp{font-size:13.5px;color:#cbd5e1;line-height:1.7;margin-bottom:6px}
+.imp{font-size:13.5px;color:#3b4350;line-height:1.7;margin-bottom:6px}
 .imp b{color:var(--text)}
 .titles{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px}
 .tt{font-size:11.5px;font-weight:700;color:var(--blue);border:1px solid rgba(96,165,250,.4);border-radius:6px;padding:4px 9px}
 .note{margin-top:18px;padding:13px 15px;background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.25);border-radius:9px;font-size:11px;color:var(--muted);line-height:1.65}
-.note b{color:#F1F5F9}
-footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-size:12px;color:var(--muted);margin-top:24px}
+.note b{color:#111418}
+footer.legacy{border-top:1px solid var(--border);padding:22px;text-align:center;font-size:12px;color:var(--muted);margin-top:24px}
 @media print{
   nav,.ctl,footer,.noprint{display:none!important}
   body{background:#fff;color:#111}
@@ -57,6 +60,7 @@ footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-si
   .note{background:#f7f2e6;border:1px solid #e0d3b0}
   h1,.brief h2{color:#000}
 }
+/* legacy-fit */ #usa250,#usa250tab{display:none!important} header.site a,footer.site a{text-decoration:none} h1,h2{color:var(--navy,#0b2545)}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,14 +74,13 @@ footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-si
 <header class="site"><div class="in">
 <a class="logo" href="/">The American <span>Deal</span></a>
 <nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav>
-<a class="btn sm" href="/explore/#support">Add your name</a>
+<a class="btn sm" href="/#sign">Sign the petition</a>
 </div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav></header>
 
-<nav><a class="brand" href="/">The<span>American</span>Deal</a></nav>
 <!-- USA250 BANNER -->
 <style id="usa250css">
 #usa250{position:fixed;left:14px;top:66px;z-index:35;width:104px;font-family:Georgia,"Times New Roman",serif}
-#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(0,0,0,.55);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
+#usa250panel{transform-origin:top center;transition:transform .6s cubic-bezier(.34,1.56,.64,1);background:#0a1230;box-shadow:0 10px 26px rgba(16,24,40,0.12);clip-path:polygon(0 0,100% 0,100% 90%,50% 100%,0 90%);overflow:hidden}
 #usa250.rolled #usa250panel{transform:scaleY(0)}
 #usa250 .stripe{height:8px;background:repeating-linear-gradient(90deg,#E23B3B 0 12px,#fff 12px 24px,#4B79E4 24px 36px)}
 #usa250 .body{padding:11px 8px 24px;text-align:center}
@@ -89,7 +92,7 @@ footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-si
 #usa250 .yr .s{color:#E23B3B;margin:0 2px}
 #usa250close{position:absolute;top:9px;right:7px;background:none;border:0;color:#8ea3cf;font-size:15px;font-weight:700;cursor:pointer;line-height:1}
 #usa250close:hover{color:#fff}
-#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(0,0,0,.5)}
+#usa250tab{position:fixed;left:0;top:70px;z-index:35;display:none;background:#0a1230;border:1px solid #E23B3B;border-left:0;border-radius:0 8px 8px 0;color:#fff;font-size:10px;font-weight:800;padding:9px 6px;cursor:pointer;writing-mode:vertical-rl;letter-spacing:.14em;box-shadow:2px 4px 12px rgba(16,24,40,0.12)}
 @media(prefers-reduced-motion:reduce){#usa250panel{transition:none}}
 @media(max-width:520px){#usa250{width:88px;left:8px}#usa250 .big{font-size:32px}}
 </style>
@@ -138,7 +141,13 @@ footer{border-top:1px solid var(--border);padding:22px;text-align:center;font-si
   </div>
   <div class="brief" id="brief"></div>
 </div>
-<footer>TheAmericanDeal.org, What America Owes You&trade; &middot; <a href="/press/">Press &amp; Media</a> &middot; <a href="/data/nsra_state_impact.csv" download>State data (CSV)</a> &middot; contact@theamericandeal.org</footer>
+<footer class="site"><div class="in">
+<div><div class="logo" style="color:#fff">The American <span>Deal</span></div><p style="margin-top:10px">The National Sovereignty and Resilience Act is model federal legislation written by Santonio D. Sanders. Independent: not affiliated with any party, PAC, or elected official.</p></div>
+<div><h4>Issues</h4><a href="/stock-trading-ban/">Stock trading ban</a><a href="/drug-prices/">Drug prices</a><a href="/healthcare/">Healthcare</a><a href="/housing/">Housing</a><a href="/paid-leave/">Paid leave</a><a href="/science/">Science</a></div>
+<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/explore/">Explore everything</a><a href="/fiscal-model/">Fiscal model</a><a href="/calculator/">Calculator</a><a href="/2028/">2028 agenda</a></div>
+<div><h4>Connect</h4><a href="/adopt/">Policymakers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a><a href="mailto:contact@theamericandeal.org">contact@theamericandeal.org</a></div>
+<div class="fine">Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO or JCT scores. &copy; 2024&ndash;2026 Santonio D. Sanders. What America Owes You&trade;.</div>
+</div></footer>
 
 <script>
 var STATE_DATA = {
@@ -258,7 +267,7 @@ function pick(){ var c=document.getElementById('sel').value; render(c); try{hist
   if(!p){ try{ if(document.referrer){ var r=new URL(document.referrer); if(r.origin===location.origin){ for(var k in PORT){ if(r.pathname===PORT[k][0]){ p=PORT[k]; break; } } } } }catch(e){} }
   if(!p) return;
   var a=document.createElement("a"); a.href=p[0]; a.className="noprint"; a.innerHTML="&larr; Back to "+p[1];
-  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#161920;border-bottom:1px solid #252830;color:#22C55E;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
+  a.style.cssText="display:block;text-align:center;padding:9px 14px;background:#f6f7f9;border-bottom:1px solid #e4e7ec;color:#15803d;font:600 13px/1.2 Inter,system-ui,sans-serif;text-decoration:none;position:sticky;top:0;z-index:60";
   document.body.insertBefore(a, document.body.firstChild);
 })();
 </script>
