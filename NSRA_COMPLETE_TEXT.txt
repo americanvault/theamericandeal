@@ -3764,17 +3764,11 @@ SEC. 3008. NAFTA MANUFACTURING DISPLACEMENT REMEDIATION.
 
 SEC. 3009. BUDGET IMPACT AND REVENUE CERTIFICATION.
 
-This Title is revenue-positive. The Congressional Budget Office shall score the following revenue sources attributable to this Title:
+(a) SCORING.—The Congressional Budget Office and the Joint Committee on Taxation shall score the revenue attributable to this Title, including Currency Countervailing Duties under Section 3004, labor enforcement tariff collections under Section 3003(b), and rules of origin compliance revenue under Section 3005, together with any reduction in other federal receipts and any change in import volumes resulting from them.
 
-(1) Currency Countervailing Duties under Section 3004: estimated $50,000,000,000 to $120,000,000,000 annually based on documented currency misalignment in the 2020-2024 period;
+(b) NOT COUNTED UNTIL SCORED.—No revenue or savings from this Title, including pharmaceutical savings under Section 3006, is included in Schedule G or in any projection of this Act until it is recognized under Section 3412. Pharmaceutical savings are counted only once, under Title XIII and Section 3410(c).
 
-(2) Labor enforcement tariff collections under Section 3003(b): estimated $8,000,000,000 to $25,000,000,000 annually;
-
-(3) Rules of origin compliance differential revenue under Section 3005: estimated $3,000,000,000 to $7,000,000,000 annually;
-
-(4) Pharmaceutical compulsory licensing savings under Section 3006: consistent with Schedule F projections, estimated $40,000,000,000 annually in reduced federal healthcare expenditure.
-
-All revenue collected under this Title is routed to the SIRF in accordance with Section 201(b)(2), with the NAFTA Legacy Worker Fund capitalization treated as a mandatory first-priority expenditure from combined Title XXX collections.
+(c) ROUTING.—All revenue collected under this Title is routed to the SIRF in accordance with Section 201(b)(2), with the NAFTA Legacy Worker Fund capitalization treated as a mandatory first-priority expenditure from combined Title XXX collections.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
