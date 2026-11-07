@@ -16,3 +16,5 @@ header.site .mnav{display:none}
 @media(max-width:860px){header.site nav.main{display:none} header.site .in{justify-content:space-between}
  header.site .mnav{display:flex;gap:16px;overflow-x:auto;white-space:nowrap;padding:8px 20px;border-top:1px solid #e4e7ec;font-size:14.5px}
  header.site .mnav a{color:#111418;font-weight:600;text-decoration:none}}
+header.site .mnav,.trending .in{scrollbar-width:none;-ms-overflow-style:none}
+header.site .mnav::-webkit-scrollbar,.trending .in::-webkit-scrollbar{display:none;width:0;height:0}
