@@ -81,9 +81,9 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <span><a href="/adopt/">Policymakers</a><a href="/adopt/fiscal/">Fiscal reviewers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a></span></div></div>
 <header class="site"><div class="in">
 <a class="logo" href="/">The American <span>Deal</span></a>
-<nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav>
+<nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/#impact">Your State</a><a href="/#bill">The Bill</a><a href="/#fiscal">The Money</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a></nav>
 <a class="btn sm" href="/#sign">Sign the petition</a>
-</div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav></header>
+</div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/#impact">Your State</a><a href="/#bill">The Bill</a><a href="/#fiscal">The Money</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a></nav></header>
 
 <!-- USA250 BANNER -->
 <style id="usa250css">
@@ -141,7 +141,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <div class="eyebrow" id="fmEye">The 7-Subledger Math Engine™ · For Reviewers</div>
 <h1 id="fmH1">The 7-Subledger Fiscal Model</h1>
 <p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled annual revenue and deficit reduction update live.</p>
-<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/calculator/">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
+<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/#household">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
 
 <div class="grid">
   <div class="panel">
@@ -175,7 +175,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.2):</b> ~$630B in annual revenue at full ramp · ~$184B in annual deficit reduction · ~$5.0T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.2):</b> ~$635B in annual revenue at full ramp · ~$189B in annual deficit reduction · ~$5.0T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -187,7 +187,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <footer class="site"><div class="in">
 <div><div class="logo" style="color:#fff">The American <span>Deal</span></div><p style="margin-top:10px">The National Sovereignty and Resilience Act is model federal legislation written by Santonio D. Sanders. Independent: not affiliated with any party, PAC, or elected official.</p></div>
 <div><h4>Issues</h4><a href="/stock-trading-ban/">Stock trading ban</a><a href="/drug-prices/">Drug prices</a><a href="/healthcare/">Healthcare</a><a href="/housing/">Housing</a><a href="/paid-leave/">Paid leave</a><a href="/science/">Science</a></div>
-<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/explore/">Explore everything</a><a href="/fiscal-model/">Fiscal model</a><a href="/calculator/">Calculator</a><a href="/2028/">2028 agenda</a></div>
+<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/#impact">Your state and household</a><a href="/fiscal-model/">Fiscal model</a><a href="/#household">Calculator</a><a href="/2028/">2028 agenda</a></div>
 <div><h4>Connect</h4><a href="/adopt/">Policymakers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a><a href="mailto:contact@theamericandeal.org">contact@theamericandeal.org</a></div>
 <div class="fine">Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO or JCT scores. &copy; 2024&ndash;2026 Santonio D. Sanders. What America Owes You&trade;.</div>
 </div></footer>
@@ -210,8 +210,8 @@ var STREAMS=[
  {n: "FTA 0.02% on institutional trades > $1M (Sec. 2405)", v: 3},
  {n: "SNAP retailer fraud recovery (Title I)", v: 1},
  {n: "Top rate 39.6% above $400K single / $450K joint (Sec. 2420(a))", v: 40},
- {n: "NIIT on active pass-through income above $400K (Sec. 2420(b))", v: 27},
- {n: "Capital gains as ordinary income above $1M (Sec. 2420(c))", v: 3},
+ {n: "NIIT on active pass-through income above $400K (Sec. 2420(b))", v: 23},
+ {n: "Capital gains and dividends as ordinary income above $1M (Sec. 2420(c))", v: 12},
  {n: "Stock-buyback excise 1% to 4% (Sec. 2420(d))", v: 15},
  {n: "Student-loan zero-interest conversion (net of interest not collected under IDR) (cost)", v: -55, cost: true},
  {n: "SPI wage-floor credit (cost)", v: -10, cost: true}
@@ -245,7 +245,7 @@ function calc(){
  document.getElementById('rCount').textContent=count;
  var pct=Math.round(def/211*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $184B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $189B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
