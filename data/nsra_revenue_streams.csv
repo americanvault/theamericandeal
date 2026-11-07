@@ -1,5 +1,5 @@
 stream_id,stream,statutory_section,confidence,scenario_a_billion_usd,scenario_b_billion_usd,basis,methodology_version,last_updated
-REV-01,Social Security wage-cap elimination,Sec. 2408,High,150,142.5,SSA OCACT / CBO options,v2026.3,2026-11-07
+REV-01,"Social Security payroll tax on wages above $400,000",Sec. 2408,High,105,99.8,"Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale",v2026.3,2026-11-07
 REV-02,Corporate rate 21% to 28%,Sec. 2409,High,110,104.5,JCT / Treasury Green Book,v2026.3,2026-11-07
 REV-03,"IRS enforcement, net of investment returns",Sec. 2406,Moderate,35,28.0,CBO IRS-funding scores (~2.5-3x ROI),v2026.3,2026-11-07
 REV-04,"Carbon fee, $40/ton indexed (net budgetary receipts)",Sec. 2410,Moderate,85,68.0,CBO carbon-tax options; EIA,v2026.3,2026-11-07
@@ -14,7 +14,7 @@ REV-12,Acquisition-debt interest cap at 20% of EBITDA,Sec. 2403,Moderate,5,4.0,J
 REV-13,Carried interest as ordinary income,Sec. 2402,High,1.4,1.3,JCT: ~$14B / 10 yrs,v2026.3,2026-11-07
 REV-14,FTA 0.02% on institutional trades > $1M,Sec. 2405,Preliminary,3,1.5,stacked on FTT; haircut,v2026.3,2026-11-07
 REV-15,SNAP retailer fraud recovery,Title I,High,1,0.9,USDA-OIG,v2026.3,2026-11-07
-REV-16,Top rate 39.6% above $400K single / $450K joint,Sec. 2420(a),Moderate,22,17.6,Treasury Green Book / TPC (current-law baseline),v2026.3,2026-11-07
+REV-16,Top rate 39.6% above $400K single / $450K joint,Sec. 2420(a),Moderate,40,32.0,"Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response",v2026.3,2026-11-07
 REV-17,NIIT on active pass-through income above $400K,Sec. 2420(b),Moderate,27,21.6,Treasury Green Book,v2026.3,2026-11-07
 REV-18,Capital gains as ordinary income above $1M,Sec. 2420(c),Preliminary,3,1.5,JCT realization elasticities; no deemed realization at death,v2026.3,2026-11-07
 REV-19,Stock-buyback excise 1% to 4%,Sec. 2420(d),High,15,14.2,Treasury Green Book,v2026.3,2026-11-07
