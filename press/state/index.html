@@ -207,7 +207,7 @@ function render(code){
   var loanHouse=2000;                                                // avg annual interest eliminated per borrower
   var loanTotalB=Math.round(d.loans*1000000*loanHouse/1e9*10)/10;   // $B/yr interest relief statewide
   var titles=[
-    ['XXI','$0-premium Basic Minimum Plan'],
+    ['XXI','$0-deductible Basic Minimum Plan'],
     ['XIII','G7 drug pricing, $35 insulin'],
     ['XXV','Veterans health, PACT completion'],
     ['XV','Student-loan zero interest'],
@@ -229,7 +229,7 @@ function render(code){
    + stat('$'+d.uncomp_B+'B','Uncompensated care/yr')
    +'</div>'
    +'<h3>Estimated NSRA impact</h3>'
-   +'<div class="imp"><b>Coverage:</b> roughly <b>'+fmtM(d.uninsured)+'</b> uninsured residents become eligible for the $0-premium Basic Minimum Plan, an estimated <b>$'+bmpVal+'B/yr</b> in coverage value, easing about <b>$'+d.uncomp_B+'B/yr</b> in uncompensated care carried by '+d.hosp+' hospitals.</div>'
+   +'<div class="imp"><b>Coverage:</b> roughly <b>'+fmtM(d.uninsured)+'</b> uninsured residents become eligible for the Basic Minimum Plan, an estimated <b>$'+bmpVal+'B/yr</b> in coverage value, easing about <b>$'+d.uncomp_B+'B/yr</b> in uncompensated care carried by '+d.hosp+' hospitals.</div>'
    +'<div class="imp"><b>Medicine:</b> G7 price parity and a $35 insulin cap reach every insured resident; savings scale with the state\'s prescription base.</div>'
    +'<div class="imp"><b>Student debt:</b> zero-interest conversion for about <b>'+fmtM(d.loans)+'</b> borrowers, an estimated <b>$'+loanTotalB+'B/yr</b> in eliminated interest statewide.</div>'
    +'<div class="imp"><b>Veterans:</b> PACT Act completion and VA care-continuum funding for roughly <b>'+fmtM(d.vets)+'</b> veterans.</div>'
