@@ -172,7 +172,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 2107. INSURANCE MARKET CONCENTRATION AND ACCESS STANDARDS.
     SEC. 2108. TRANSITION FROM LEGACY PROGRAMS AND PERFORMANCE BENCHMARKS.
     SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL INFRASTRUCTURE.
-    SEC. 2110. BMP ZERO-PREMIUM CO-PAY STRUCTURE.
+    SEC. 2110. BMP PREMIUM AND CO-PAY STRUCTURE.
     SEC. 2111. CARRIER COMPETITION INTEGRITY FRAMEWORK.
     SEC. 2112. MEDICARE PAYMENT INTEGRITY.
   TITLE XXII — NATIONAL CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY
@@ -286,6 +286,8 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
     SEC. 3408. STRATEGIC COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMPUTE.
     SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
+    SEC. 3410. FISCAL SUSTAINABILITY PLAN.
+    SEC. 3411. AMERICAN RESOURCE FUND.
   TITLE XXXV — PUBLIC INTEGRITY AND EXECUTIVE ACCOUNTABILITY
     SEC. 3501. FINDINGS AND PURPOSE.
     SEC. 3502. DEFINITIONS — TITLE XXXV.
@@ -2132,7 +2134,7 @@ SEC. 1901. AMERICAN HOUSEHOLD BENEFITS — PROJECTIONS AND REPORTING.
 
 (7) PENSION SECURITY.—The actuarial backstop trigger of Title VI is projected to prevent or remediate pension fund deficits affecting not fewer than twelve million American workers in defined-benefit plans currently operating below the ninety percent solvency floor.
 
-(8) HEALTH COVERAGE (TITLE XXI).—The Basic Minimum Plan carries no premium and no deductible, with cost-sharing limited to the co-payments in Section 2110(b). For the approximately thirty million Americans without coverage, it provides coverage that the federal government funds at approximately seven thousand dollars ($7,000) per enrollee per year.
+(8) HEALTH COVERAGE (TITLE XXI).—The Basic Minimum Plan carries no deductible and no premium for households up to two hundred fifty percent (250%) of the poverty line, with premiums above that level capped at eight and one-half percent (8.5%) of income and cost-sharing limited to the co-payments in Section 2110(b). For the approximately thirty million Americans without coverage, it provides coverage that the federal government funds at approximately seven thousand dollars ($7,000) per enrollee per year.
 
 (b) HOUSEHOLD BENEFIT REPORTING.—Benefits under this Act depend on household circumstances and are not stated as a single average. Not later than one year after enactment and annually thereafter, the FMIA, in consultation with the Congressional Budget Office, shall publish the distribution of measured household benefits and costs under this Act by income quintile, household type, and State.
 
@@ -2389,7 +2391,7 @@ SEC. 2102. THE BASIC MINIMUM PLAN — MANDATORY FLOOR PRODUCT.
 
 (a) MANDATORY OFFER REQUIREMENT.—As a condition of licensure to sell any health insurance product in the United States, every licensed health insurance carrier shall offer the Basic Minimum Plan (BMP) as a standard product in every state and territory in which it holds a license to sell health insurance. A carrier that does not offer the BMP in any state where it holds a health insurance license shall have that license suspended within ninety (90) days of non-compliance. A carrier that wishes to exit the BMP market must simultaneously exit the entirety of the United States health insurance market for a period of not less than five (5) years.
 
-(b) BMP DEFINED BENEFIT PACKAGE.—The Basic Minimum Plan shall cover, at minimum, the following categories of services with zero premium and zero deductible to the enrolled individual, with cost-sharing limited to the co-payments in Section 2110(b):
+(b) BMP DEFINED BENEFIT PACKAGE.—The Basic Minimum Plan shall cover, at minimum, the following categories of services with zero deductible to the enrolled individual, premium contributions limited to Section 2110(a), and cost-sharing limited to the co-payments in Section 2110(b):
 
 (1) PRIMARY AND PREVENTIVE CARE.—Unlimited primary care physician and nurse practitioner visits; all USPSTF Grade A and B preventive screenings; adult and childhood immunizations on the CDC-recommended schedule; annual wellness examinations.
 
@@ -2415,7 +2417,7 @@ SEC. 2102. THE BASIC MINIMUM PLAN — MANDATORY FLOOR PRODUCT.
 
 SEC. 2103. GOVERNMENT FUNDING OF THE BASIC MINIMUM PLAN.
 
-(a) FEDERAL BMP PREMIUM.—The federal government shall pay, on behalf of every individual enrolled under Section 2104(d), a per-capita Basic Minimum Plan Premium directly to the BMP carrier of the individual's choice. The individual owes no premium and no deductible for any BMP-covered service; cost-sharing is limited to the co-payments established in Section 2110(b).
+(a) FEDERAL BMP PREMIUM.—The federal government shall pay, on behalf of every individual enrolled under Section 2104(d), a per-capita Basic Minimum Plan Premium directly to the BMP carrier of the individual's choice. The individual owes no deductible for any BMP-covered service; any premium contribution is limited to Section 2110(a), and cost-sharing is limited to the co-payments established in Section 2110(b).
 
 (b) BMP PREMIUM RATE SETTING.—The Secretary of HHS, in coordination with the CBO, shall establish the annual BMP Premium Rate using a risk-adjusted per-capita methodology:
 
@@ -2470,6 +2472,8 @@ SEC. 2104. INDIVIDUAL CARRIER CHOICE AND ENROLLMENT.
 (2) OTHER COVERAGE.—An individual is not eligible under paragraph (1)(A) while the individual is entitled to benefits under part A or enrolled under part B of title XVIII of the Social Security Act, is covered under chapter 55 of title 10 or chapter 17 of title 38 of the United States Code for the care concerned, or is enrolled in, or is offered and eligible to enroll in, affordable employer-sponsored coverage. Employer-sponsored coverage is affordable if the employee's required contribution for self-only coverage does not exceed the applicable percentage of household income determined under section 36B(c)(2)(C) of the Internal Revenue Code of 1986.
 (3) CHILDREN.—Every child under age nineteen (19) who does not have other coverage is eligible regardless of the coverage of a parent, and is enrolled at birth under subsection (b)(3).
 
+(e) ADMINISTRATION THROUGH THE EXCHANGES.—The BMP shall be offered, and eligibility, enrollment, carrier selection, and premium reconciliation shall be administered, through the Exchanges established under title I of the Patient Protection and Affordable Care Act, using their existing eligibility, enrollment, and risk-adjustment systems. No separate enrollment system shall be established.
+
 SEC. 2105. SUPPLEMENTAL COVERAGE — PRIVATE MARKET ABOVE THE FLOOR.
 
 (a) INDIVIDUAL CHOICE OF SUPPLEMENTS.—Every BMP enrollee may purchase supplemental health coverage above the BMP floor from any licensed carrier of their choosing, paying for such coverage entirely out of pocket or through employer contributions. The federal government has no role in supplemental plan pricing, design, delivery, or payment.
@@ -2508,6 +2512,11 @@ SEC. 2108. TRANSITION FROM LEGACY PROGRAMS AND PERFORMANCE BENCHMARKS.
 
 (c) SCHEDULE D BENCHMARKS — TITLE XXI.—The following benchmarks are added to Schedule D for biennial national resilience review: (1) not fewer than ninety-five percent (95%) of previously uninsured United States residents enrolled in BMP within thirty-six (36) months of universal deployment; (2) average primary care appointment wait time not exceeding five (5) business days for ninety percent (90%) of BMP enrollees within five (5) years; (3) national maternal mortality rate reduced by not less than thirty percent (30%) within five (5) years; (4) average annual household out-of-pocket cost for BMP-covered services at zero within twenty-four (24) months; (5) HSF medical loss ratio of not less than ninety-six percent (96%); and (6) not fewer than three (3) competing BMP carriers in ninety percent (90%) of MSAs within five (5) years of universal deployment.
 
+(d) RELATIONSHIP TO THE PATIENT PROTECTION AND AFFORDABLE CARE ACT.—
+(1) MINIMUM ESSENTIAL COVERAGE.—Coverage under the BMP is minimum essential coverage for purposes of section 5000A(f) of the Internal Revenue Code of 1986.
+(2) PREMIUM TAX CREDITS.—For months beginning after the transition under subsection (a), an individual who is eligible to enroll in the BMP is treated as eligible for minimum essential coverage for purposes of section 36B(c)(2)(B) of such Code, and no premium tax credit or cost-sharing reduction shall be allowed for that individual.
+(3) MARKET PROTECTIONS CONTINUE.—Nothing in this Title repeals or limits the protections of title I of the Patient Protection and Affordable Care Act, including guaranteed issue, the prohibition on pre-existing condition exclusions, essential health benefits, dependent coverage to age twenty-six (26), and the prohibition on lifetime and annual limits. Exchanges shall continue to operate for individuals who choose to purchase coverage without federal assistance.
+
 SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL INFRASTRUCTURE.
 
 (a) CONGRESSIONAL FINDINGS — UPSTREAM PREVENTION.—Congress finds that:
@@ -2536,9 +2545,12 @@ SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL 
 
 
 
-SEC. 2110. BMP ZERO-PREMIUM CO-PAY STRUCTURE.
+SEC. 2110. BMP PREMIUM AND CO-PAY STRUCTURE.
 
-(a) PREMIUM ELIMINATION.—The Basic Minimum Plan carries zero monthly premium obligation for any enrolled individual. The federal per-capita payment made directly to the carrier of each enrollee's choosing constitutes the sole revenue stream for BMP coverage obligations. No carrier may impose any monthly premium, enrollment fee, or administrative assessment on BMP enrollees.
+(a) INCOME-BASED PREMIUM.—
+(1) NO PREMIUM UP TO 250 PERCENT OF POVERTY.—An enrollee whose household income does not exceed two hundred fifty percent (250%) of the poverty line, as defined in section 36B(d)(3) of the Internal Revenue Code of 1986, and every enrollee transitioned from Medicaid or CHIP and every child under age nineteen (19), owes no premium.
+(2) CAPPED PREMIUM ABOVE 250 PERCENT OF POVERTY.—For any other enrollee household, the annual premium contribution shall be the lesser of the BMP Premium Rate for the household's enrollees or a percentage of household income that rises on a straight line from zero percent (0%) at two hundred fifty percent (250%) of the poverty line to eight and one-half percent (8.5%) at four hundred percent (400%) of the poverty line, and is eight and one-half percent (8.5%) above that level.
+(3) ADMINISTRATION.—Premium contributions shall be paid to the enrollee's carrier and reconciled on the federal income tax return in the manner of section 36B(f) of such Code. The federal per-capita payment under Section 2103(a), less the enrollee's contribution, constitutes the federal share. No deductible applies to any enrollee, and no carrier may impose any enrollment fee or administrative assessment.
 
 (b) CO-PAY STRUCTURE.—To preserve utilization discipline and maintain enrollee engagement with the healthcare system while eliminating access barriers, BMP-enrolled individuals shall be subject to the following standardized co-payment schedule:
 
@@ -4272,7 +4284,7 @@ SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 (a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred fifty-seven billion dollars ($657,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.2). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred sixty-five billion dollars ($565,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred fifty-one billion dollars ($551,000,000,000).
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
-(1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to a fully federally funded premium: approximately two hundred twenty billion dollars ($220,000,000,000);
+(1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
 (2) Zero-interest student loan conversion, net of interest that would not have been collected under income-driven repayment: fifty-five billion dollars ($55,000,000,000);
 (3) SPI-WFTC wage floor tax credit: ten billion dollars ($10,000,000,000);
 (4) TANF structural enhancement: five billion dollars ($5,000,000,000);
@@ -4285,7 +4297,7 @@ SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 (11) Household energy credits under Section 2410(c)(1): twenty-five billion dollars ($25,000,000,000);
 (12) Modernization titles, capped under Schedule G, Section 6: fifty-one billion dollars ($51,000,000,000); less
 (13) Medicare payment integrity savings under Section 2112: forty billion dollars ($40,000,000,000).
-Net program costs: approximately three hundred ninety-one billion one hundred million dollars ($391,100,000,000).
+Net program costs: approximately three hundred fifty-one billion one hundred million dollars ($351,100,000,000).
 
 (c) MANDATORY GROWTH REINVESTMENT — $100B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
 (1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
@@ -4296,7 +4308,7 @@ Net program costs: approximately three hundred ninety-one billion one hundred mi
 (6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FMIA assessment.
 Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section.
 
-(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred fifty-seven billion dollars ($657,000,000,000) in revenue, less three hundred ninety-one billion one hundred million dollars ($391,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred seventy-one billion dollars ($171,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion one hundred billion dollars ($2,100,000,000,000), or approximately two trillion five hundred billion dollars ($2,500,000,000,000) including reduced interest costs, within a range of one trillion four hundred billion dollars to three trillion two hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred fifty-seven billion dollars ($657,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately two hundred eleven billion dollars ($211,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately three trillion dollars ($3,000,000,000,000) including reduced interest costs, within a range of two trillion dollars to three trillion eight hundred billion dollars under the scenarios in Schedule G.
 
 (e) DESIGNATION.—The net annual deficit reduction stated in subsection (d) is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
@@ -4308,7 +4320,7 @@ Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,0
 (2) STATUTORY FISCAL TARGETS.—The following targets are established, each measured as a percentage of gross domestic product using actual budget results for the fiscal year concerned:
 (A) DEFICIT LIMIT, FOURTH YEAR.—For the fourth full fiscal year beginning after the date of enactment of this Act and each fiscal year thereafter until subparagraph (B) applies, the federal deficit shall not exceed four and one-half percent (4.5%) of gross domestic product.
 (B) DEFICIT LIMIT, TENTH YEAR.—For the tenth full fiscal year beginning after the date of enactment of this Act and each fiscal year thereafter, the federal deficit shall not exceed three percent (3%) of gross domestic product.
-(C) BALANCED BUDGET PLAN.—Not later than the first day of the eighth full fiscal year beginning after the date of enactment of this Act, the President shall submit to Congress, and each House shall vote under the procedures of paragraph (4)(B) on, a Balanced Budget Act that would bring total federal revenues to not less than total federal outlays not later than the fifteenth full fiscal year beginning after the date of enactment of this Act, consistent with paragraph (5).
+(C) BALANCED BUDGET PLAN.—Not later than the first day of the eighth full fiscal year beginning after the date of enactment of this Act, the President shall submit to Congress, and each House shall vote under the procedures of paragraph (4)(B) on, a Balanced Budget Act that, building on Section 3410, would bring total federal revenues to not less than total federal outlays not later than the fifteenth full fiscal year beginning after the date of enactment of this Act, consistent with paragraph (5).
 (D) GLIDE PATH.—For each fiscal year before a limit in subparagraph (A) or (B) first applies, the applicable target shall be the deficit, as a percentage of gross domestic product, on a straight-line path between the actual deficit for the fiscal year in which this Act is enacted and that limit, as published by the Director of the Office of Management and Budget not later than ninety (90) days after the date of enactment of this Act.
 (3) USE OF THE NSRA SURPLUS.—In any fiscal year in which the Director of the Office of Management and Budget projects that the applicable target under paragraph (2) will not be met, no amount of the Fiscal Credibility Reserve shall be applied under priority (4) of Section 3204(c), and the amount that would otherwise have been so applied shall be applied to net deficit reduction.
 (4) ENFORCEMENT.—
@@ -4373,6 +4385,46 @@ SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
 (5) INDUSTRIAL CORRIDOR DEVELOPMENT.—Planned industrial parks and manufacturing campuses in economically distressed regions designated as Manufacturing Renaissance Zones under Section 1202.
 
 (e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 007.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3410. FISCAL SUSTAINABILITY PLAN.
+
+(a) PURPOSE.—This section adds to the deficit reduction of Section 3406 a package of measures, each drawn from proposals that have previously drawn support from both parties, so as to slow the growth of the debt relative to the economy and meet the deficit limits of Section 3406(f) with as little reliance on automatic enforcement as possible.
+
+(b) SOCIAL SECURITY SOLVENCY.—Section 215(a)(1)(A) of the Social Security Act (42 U.S.C. 415(a)(1)(A)) is amended so that, for individuals who first become eligible for old-age or disability insurance benefits after December 31, 2031, the fifteen percent (15%) factor applied to average indexed monthly earnings above the second bend point is reduced by one percentage point a year until it reaches five percent (5%), and the thirty-two percent (32%) factor applied above the median of average indexed monthly earnings is reduced by one-half percentage point a year until it reaches twenty-seven percent (27%). For the same individuals, the primary insurance amount of a worker with not fewer than thirty (30) years of covered earnings shall not be less than one hundred twenty-five percent (125%) of the poverty line for an individual. No change is made to the retirement age, to the benefits of any individual eligible before January 1, 2032, or to cost-of-living adjustments. Savings under this subsection are credited to the Social Security Trust Funds.
+
+(c) MEDICARE.—
+(1) DRUG NEGOTIATION.—Section 1192(a) of the Social Security Act (42 U.S.C. 1320f–1(a)) is amended so that the number of drugs selected for negotiation is fifty (50) for initial price applicability year 2029 and each year thereafter, and the distinction between small-molecule and biological products in determining eligibility for selection is eliminated.
+(2) POST-ACUTE CARE.—Beginning in fiscal year 2029, payments to skilled nursing facilities, home health agencies, inpatient rehabilitation facilities, and long-term care hospitals under title XVIII of the Social Security Act shall be made under a unified post-acute care prospective payment system based on patient characteristics, as recommended by the Medicare Payment Advisory Commission, with aggregate payments set at ninety-five percent (95%) of the amount that would otherwise be paid.
+(3) BENEFICIARY PROTECTION.—Nothing in this subsection reduces any benefit under part A, B, or D of title XVIII or increases any beneficiary premium or cost-sharing obligation.
+
+(d) APPROPRIATIONS CAPS.—Section 251(c) of the Balanced Budget and Emergency Deficit Control Act of 1985 (2 U.S.C. 901(c)) is amended to establish, for each of fiscal years 2028 through 2037, separate discretionary spending limits for the defense and nondefense categories equal to the prior year's limit increased by the rate of inflation projected by the Congressional Budget Office minus one percentage point, enforced through sequestration under section 251 of that Act. Amounts designated as emergency requirements are exempt. Funding for the Department of Veterans Affairs medical care accounts is limited only by the nondefense limit as increased by the rate of inflation.
+
+(e) LIMIT ON THE VALUE OF TAX PREFERENCES.—Section 68 of the Internal Revenue Code of 1986 is amended so that, for taxable years beginning after December 31, 2027, for a taxpayer whose adjusted gross income exceeds $400,000, the tax benefit of itemized deductions and of exclusions for employer-provided health coverage, retirement contributions, and tax-exempt interest is limited to twenty-eight percent (28%) of the amount deducted or excluded.
+
+(f) CARBON FEE SCHEDULE.—Section 2410(b) is amended so that the rate increases by five dollars ($5) per metric ton each year, beginning in the second year, until it reaches seventy-five dollars ($75), and is indexed to the Consumer Price Index thereafter. The household energy credits of Section 2410(c)(1) remain at thirty percent (30%) of net receipts at every rate.
+
+(g) PAYMENT INTEGRITY.—Each agency with a program reporting improper payments above one billion dollars ($1,000,000,000) under section 3352 of title 31, United States Code, shall reduce its improper payment rate by not less than one-third within three (3) fiscal years, using the verification systems of Sections 3509 and 3904. Recoveries and avoided payments are applied to deficit reduction.
+
+(h) PROJECTED EFFECT.—The measures in subsections (b) through (g) are projected to reduce the deficit by approximately four hundred ten billion dollars ($410,000,000,000) a year at full effect, stated in first-year dollars, with the Social Security changes phasing in over a generation. Together with Section 3406, ten-year deficit reduction is projected at approximately five trillion one hundred billion dollars ($5,100,000,000,000), or approximately five trillion eight hundred billion dollars ($5,800,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to under five percent (5%) of gross domestic product; the remaining reduction needed to meet the limit of Section 3406(f)(2)(B) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3411. AMERICAN RESOURCE FUND.
+
+(a) ESTABLISHMENT.—There is established in the Treasury a permanent fund to be known as the American Resource Fund.
+
+(b) DEPOSITS.—There shall be deposited in the Fund all federal receipts from royalties, rents, and bonus bids for minerals, oil, gas, and offshore wind on federal lands and the Outer Continental Shelf in excess of the amounts projected for those receipts in the baseline of the Congressional Budget Office for the fiscal year of enactment, including all additional receipts under Section 2414, together with the earnings of the Fund. Amounts required by law to be paid to States, Indian tribes, or the Land and Water Conservation Fund are not affected.
+
+(c) INVESTMENT.—Until debt held by the public falls below ninety percent (90%) of gross domestic product, the Fund shall be invested only in interest-bearing obligations of the United States, so that its deposits reduce federal borrowing. Thereafter, a board of five (5) trustees appointed by the President with the advice and consent of the Senate, serving staggered seven-year terms and removable only for cause, may invest up to sixty percent (60%) of the Fund in a diversified portfolio of domestic equities and bonds through passive index investments, with no authority to vote shares or select individual companies.
+
+(d) PRINCIPAL PROTECTED.—The principal of the Fund shall not be appropriated. Beginning in the eleventh fiscal year after enactment, one-half of the Fund's realized earnings each year shall be transferred to the Federal Old-Age and Survivors Insurance Trust Fund, and the remainder shall be retained in the Fund.
+
+(e) BUDGETARY TREATMENT.—Investments of the Fund in non-federal assets shall be recorded on a fair-value basis in the manner of section 123 of the Emergency Economic Stabilization Act of 2008 (12 U.S.C. 5232).
+
+(f) REPORTING.—The trustees shall publish an annual report on holdings, returns, and transfers, audited by the Comptroller General.
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -4846,7 +4898,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
   Student-loan zero-interest conversion (net of interest not collected under IDR)  Sec. 1501          $  55.0B
   SPI wage-floor credit                                                            Sec. 2407          $  10.0B
-  Basic Minimum Plan, net new federal cost                                         Title XXI          $ 220.0B
+  Basic Minimum Plan, net new federal cost (after enrollee premiums above 250% of poverty) Title XXI          $ 180.0B
   TANF enhancement                                                                 Sec. 3406(b)(3)    $   5.0B
   Housing security fund and down-payment help                                      Title XIV          $   1.5B
   Child Prosperity Trust deposits and match                                        Sec. 502           $   7.6B
@@ -4859,31 +4911,31 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Science, child care, digital government (capped)                                 Schedule G sec. 6  $  51.0B
   Medicare payment integrity savings (MA coding, site-neutral)                     Sec. 2112          $ -40.0B
   ------------------------------------------------------------------------------------------------------------
-  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 486.1B
+  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 446.1B
 
-  Basic Minimum Plan basis: approximately 25,500,000 newly covered enrollees (85 percent take-up of approximately 30,000,000 uninsured) at approximately $7,000 per enrollee at 100 percent of Medicare rates; plus approximately $40B for the move of transitioned Medicaid and CHIP enrollees to Medicare-level payment and approximately $41.5B for the move of Exchange enrollees from partial premium tax credits to a fully federally funded premium; less approximately $15B in reduced federal uncompensated-care spending and approximately $25B in Title XIII pharmaceutical savings. State maintenance-of-effort contributions under Section 2103(d)(1) replace the former State share for transitioned populations.
+  Basic Minimum Plan basis: approximately 25,500,000 newly covered enrollees (85 percent take-up of approximately 30,000,000 uninsured) at approximately $7,000 per enrollee at 100 percent of Medicare rates; plus approximately $40B for the move of transitioned Medicaid and CHIP enrollees to Medicare-level payment and approximately $41.5B for the move of Exchange enrollees to the BMP; less approximately $40B in enrollee premium contributions above 250 percent of the poverty line (Section 2110(a)); less approximately $15B in reduced federal uncompensated-care spending and approximately $25B in Title XIII pharmaceutical savings. State maintenance-of-effort contributions under Section 2103(d)(1) replace the former State share for transitioned populations.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 4. RECONCILIATION AND TEN-YEAR PROJECTION.
 
-  Full-ramp annual deficit reduction (Scenario A): $657.4B revenue - $486.1B costs and outlays = $171.3B.
+  Full-ramp annual deficit reduction (Scenario A): $657.4B revenue - $446.1B costs and outlays = $211.3B.
   Revenue ramps with enforcement capacity (86, 94, 98, then 100 percent realization in Years 1-4) and grows 4 percent a year; programs phase in behind the certification gates of Schedule E (55, 75, 90, then 100 percent) and grow 4.5 percent a year; reduced debt lowers interest costs at 3.5 percent.
 
   Fiscal year   Revenue   Costs+outlays   Deficit reduction   Interest savings   Total     Cumulative
-  Year 1  (FY2028)  $  565B    $  297B          $  269B             $   0B           $  269B   $   269B
-  Year 2  (FY2029)  $  643B    $  398B          $  245B             $   9B           $  254B   $   523B
-  Year 3  (FY2030)  $  697B    $  484B          $  213B             $  18B           $  231B   $   754B
-  Year 4  (FY2031)  $  739B    $  554B          $  186B             $  26B           $  212B   $   966B
-  Year 5  (FY2032)  $  769B    $  578B          $  191B             $  34B           $  225B   $  1191B
-  Year 6  (FY2033)  $  800B    $  604B          $  196B             $  42B           $  238B   $  1429B
-  Year 7  (FY2034)  $  832B    $  631B          $  201B             $  50B           $  251B   $  1680B
-  Year 8  (FY2035)  $  865B    $  659B          $  206B             $  59B           $  265B   $  1945B
-  Year 9  (FY2036)  $  900B    $  688B          $  212B             $  68B           $  280B   $  2225B
-  Year 10 (FY2037)  $  936B    $  718B          $  217B             $  78B           $  295B   $  2520B
+  Year 1  (FY2028)  $  565B    $  275B          $  291B             $   0B           $  291B   $   291B
+  Year 2  (FY2029)  $  643B    $  366B          $  276B             $  10B           $  287B   $   577B
+  Year 3  (FY2030)  $  697B    $  445B          $  252B             $  20B           $  272B   $   849B
+  Year 4  (FY2031)  $  739B    $  508B          $  231B             $  30B           $  261B   $  1111B
+  Year 5  (FY2032)  $  769B    $  531B          $  239B             $  39B           $  277B   $  1388B
+  Year 6  (FY2033)  $  800B    $  554B          $  246B             $  49B           $  294B   $  1683B
+  Year 7  (FY2034)  $  832B    $  579B          $  253B             $  59B           $  312B   $  1995B
+  Year 8  (FY2035)  $  865B    $  604B          $  261B             $  70B           $  331B   $  2325B
+  Year 9  (FY2036)  $  900B    $  631B          $  269B             $  81B           $  350B   $  2676B
+  Year 10 (FY2037)  $  936B    $  659B          $  277B             $  94B           $  370B   $  3046B
 
-  Ten-year cumulative deficit reduction, Scenario A: $2.1T before interest savings; $2.5T including interest savings.
-  Range (revenue factor 0.88 to 1.08): $1.4T to $3.2T including interest savings.
+  Ten-year cumulative deficit reduction, Scenario A: $2.6T before interest savings; $3.0T including interest savings.
+  Range (revenue factor 0.88 to 1.08): $2.0T to $3.8T including interest savings.
 
   OBLIGATION COVERAGE (SCENARIO B):
   Scenario B revenue:                                       $551.2B
@@ -4891,7 +4943,35 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Coverage ratio:                                           3.17x
   High-confidence streams only (Scenario B):                $263.4B, or 1.51x
 
-  RELATIONSHIP TO SECTION 3406(f): The deficit reduction above lowers the CBO baseline deficit by roughly one-tenth. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4A. FISCAL SUSTAINABILITY PLAN (SECTION 3410) AND COMBINED PROJECTION.
+
+  Measure                                                                              Section          Full effect   Start   Years to full
+  Social Security solvency: slower benefit growth for top earners, stronger minimum be Sec. 3410(b)     $   120B      Yr 5    30
+  Medicare drug negotiation expansion and post-acute payment reform                    Sec. 3410(c)     $    40B      Yr 2    5
+  Appropriations caps: defense and non-defense grow at inflation minus 1%              Sec. 3410(d)     $   160B      Yr 1    10
+  Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    35B      Yr 1    1
+  Carbon fee rises $5/ton a year to $75 (net of household credits)                     Sec. 3410(f)     $    40B      Yr 2    7
+  Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $    15B      Yr 2    3
+  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   410B
+
+  Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
+  Year 1  (FY2028)  $  291B          $   51B          $   0B            $  342B   $   342B
+  Year 2  (FY2029)  $  276B          $   89B          $  12B            $  377B   $   719B
+  Year 3  (FY2030)  $  252B          $  130B          $  25B            $  407B   $  1127B
+  Year 4  (FY2031)  $  231B          $  175B          $  39B            $  445B   $  1572B
+  Year 5  (FY2032)  $  239B          $  221B          $  55B            $  515B   $  2087B
+  Year 6  (FY2033)  $  246B          $  271B          $  73B            $  590B   $  2676B
+  Year 7  (FY2034)  $  253B          $  314B          $  94B            $  661B   $  3337B
+  Year 8  (FY2035)  $  261B          $  361B          $ 117B            $  738B   $  4076B
+  Year 9  (FY2036)  $  269B          $  402B          $ 143B            $  814B   $  4889B
+  Year 10 (FY2037)  $  277B          $  447B          $ 171B            $  895B   $  5784B
+
+  Ten-year combined deficit reduction: $5.1T before interest savings; $5.8T including interest savings (range $4.7T to $6.5T).
+  Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office's published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
+
+  RELATIONSHIP TO SECTION 3406(f): The deficit reduction of Section 3406 lowers the CBO baseline deficit by roughly one-tenth, and Section 3410 roughly doubles that by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
