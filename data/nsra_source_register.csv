@@ -1,14 +1,14 @@
 figure,value,unit,source,methodology_version,last_updated
-Full-ramp revenue (Scenario A),657.4,billion USD/yr,Schedule G sec. 2,v2026.2,2026-11-07
-Full-ramp revenue (Scenario B floor),551.2,billion USD/yr,Schedule G sec. 2,v2026.2,2026-11-07
-"Costs, outlays and infrastructure (full program)",486.1,billion USD/yr,Schedule G sec. 3,v2026.2,2026-11-07
-Annual deficit reduction (full program),171.3,billion USD/yr,Sec. 3406(d),v2026.2,2026-11-07
-"Ten-year deficit reduction, before interest",2136,billion USD,Schedule G sec. 4,v2026.2,2026-11-07
-"Ten-year deficit reduction, incl. interest",2520,billion USD,Schedule G sec. 4,v2026.2,2026-11-07
-Ten-year range incl. interest (low),1445,billion USD,Schedule G sec. 4,v2026.2,2026-11-07
-Ten-year range incl. interest (high),3237,billion USD,Schedule G sec. 4,v2026.2,2026-11-07
-"Deficit limit, Year 4",4.5,percent of GDP,Sec. 3406(f)(2)(A),v2026.2,2026-11-07
-"Deficit limit, Year 10",3.0,percent of GDP,Sec. 3406(f)(2)(B),v2026.2,2026-11-07
-Baseline federal deficit FY2026,1900,billion USD,CBO Feb. 2026,v2026.2,2026-11-07
-Uninsured covered by BMP (eligible),30,million people,CBO / Census,v2026.2,2026-11-07
-BMP federal cost per new enrollee,7000,USD/yr,Schedule G sec. 3,v2026.2,2026-11-07
+Full-ramp revenue (Scenario A),657.4,billion USD/yr,Schedule G sec. 2,v2026.3,2026-11-07
+Full-ramp revenue (Scenario B floor),551.2,billion USD/yr,Schedule G sec. 2,v2026.3,2026-11-07
+"Costs, outlays and infrastructure (full program)",446.1,billion USD/yr,Schedule G sec. 3,v2026.3,2026-11-07
+Annual deficit reduction (full program),211.3,billion USD/yr,Sec. 3406(d),v2026.3,2026-11-07
+"Ten-year deficit reduction (core + plan), before interest",5055,billion USD,Schedule G sec. 4A,v2026.3,2026-11-07
+"Ten-year deficit reduction (core + plan), incl. interest",5784,billion USD,Schedule G sec. 4A,v2026.3,2026-11-07
+Ten-year range incl. interest (low),4709,billion USD,Schedule G sec. 4A,v2026.3,2026-11-07
+Ten-year range incl. interest (high),6501,billion USD,Schedule G sec. 4A,v2026.3,2026-11-07
+"Deficit limit, Year 4",4.5,percent of GDP,Sec. 3406(f)(2)(A),v2026.3,2026-11-07
+"Deficit limit, Year 10",3.0,percent of GDP,Sec. 3406(f)(2)(B),v2026.3,2026-11-07
+Baseline federal deficit FY2026,1900,billion USD,CBO Feb. 2026,v2026.3,2026-11-07
+Uninsured covered by BMP (eligible),30,million people,CBO / Census,v2026.3,2026-11-07
+BMP federal cost per new enrollee,7000,USD/yr,Schedule G sec. 3,v2026.3,2026-11-07
