@@ -1,0 +1,18 @@
+html{scroll-padding-top:84px}
+/* Shared header only, scoped so it cannot collide with a page's own classes. Used by legacy-styled pages. */
+.util{background:#0b2545;color:#cfd8e3;font:13px/1.5 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.util .in{max-width:1180px;margin:0 auto;padding:7px 20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.util a{color:#fff;text-decoration:none;margin-left:16px}
+.util b{color:#fff;font-weight:600}
+header.site{border-bottom:1px solid #e4e7ec;background:#fff;position:sticky;top:0;z-index:1000;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header.site .in{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:22px}
+header.site .logo{font-family:"Source Serif 4",Georgia,serif;font-weight:800;font-size:25px;color:#0b2545;text-decoration:none;white-space:nowrap;line-height:1.2}
+header.site .logo span{color:#15803d}
+header.site nav.main{display:flex;gap:20px;flex:1;flex-wrap:wrap;position:static;background:none;border:0;height:auto;padding:0}
+header.site nav.main a{color:#111418;text-decoration:none;font-weight:600;font-size:15px}
+header.site nav.main a:hover{color:#15803d}
+header.site .btn{display:inline-block;background:#15803d;color:#fff;font-weight:700;font-size:14px;padding:8px 14px;border-radius:8px;text-decoration:none;border:2px solid #15803d;white-space:nowrap}
+header.site .mnav{display:none}
+@media(max-width:860px){header.site nav.main{display:none} header.site .in{justify-content:space-between}
+ header.site .mnav{display:flex;gap:16px;overflow-x:auto;white-space:nowrap;padding:8px 20px;border-top:1px solid #e4e7ec;font-size:14.5px}
+ header.site .mnav a{color:#111418;font-weight:600;text-decoration:none}}
