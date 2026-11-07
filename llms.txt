@@ -17,7 +17,7 @@
 - [Institutional homebuyer cap (Title XIV)](https://theamericandeal.org/housing/)
 - [Zero-interest student loans (Title XV)](https://theamericandeal.org/student-debt/)
 - [Full bill text and policy vault](https://theamericandeal.org/bill-text/)
-- [Explore: interactive impact map, household calculator, full bill browser](https://theamericandeal.org/explore/)
+- [Explore: interactive impact map, household calculator, full bill browser](https://theamericandeal.org/)
 - [Policymaker portal](https://theamericandeal.org/adopt/)
 - [Press](https://theamericandeal.org/press/)
 
