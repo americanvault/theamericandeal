@@ -28,7 +28,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
 
 (b) FINDINGS OF BROAD NATIONAL CONSENSUS.—Congress finds that the provisions of this Act reflect policy areas of documented bipartisan concern, including: domestic manufacturing competitiveness, pharmaceutical pricing fairness, housing affordability, retirement security, food supply-chain resilience, infrastructure investment, and protection of taxpayer-funded research from foreign extraction.
 
-(c) SCOPE OF ACT.—This Act comprises thirty-seven (37) operative titles, numbered Title 0 through Title XXXVI, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
+(c) SCOPE OF ACT.—This Act comprises forty (40) operative titles, numbered Title 0 through Title XXXIX, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
 
 (d) TABLE OF CONTENTS.—The table of contents for this Act is as follows:
 
@@ -38,9 +38,9 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 003. CONSOLIDATED MASTER DEFINITIONS.
     SEC. 004. MANDATORY TRIGGER PARAMETERS — CONGRESSIONAL SPECIFICATION.
     SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
-    SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTURE.
-    SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
-    SEC. 007. EFFECTIVE DATE.
+    SEC. 006. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTURE.
+    SEC. 007. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
+    SEC. 008. EFFECTIVE DATE.
   TITLE I — FEDERAL MARKET INTEGRITY ADMINISTRATION AND ECONOMIC DATA VERIFICATION
     SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — PHASED INDEPENDENCE STRUCTURE.
     SEC. 102. PROHIBITION ON UNCOMPENSATED COMMERCIAL DATA USE.
@@ -67,11 +67,10 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 404. OSHA WORKER SAFETY AND WAGE THEFT ENFORCEMENT.
   TITLE V — CHILD PROSPERITY AND POVERTY REDUCTION
     SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION OF STATE BLOCK GRANT ARCHITECTURE.
-    SEC. 502. [RESERVED.]
-    SEC. 503. THE SECURE CHILD PROSPERITY TRUST.
-    SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
-    SEC. 505. TANF STRUCTURAL ENHANCEMENT.
-    SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, AND UTILITY SECURITY FLOOR DURING THE SIRF RAMP.
+    SEC. 502. THE SECURE CHILD PROSPERITY TRUST.
+    SEC. 503. FORMAL DECLARATION — WAR ON POVERTY.
+    SEC. 504. TANF STRUCTURAL ENHANCEMENT.
+    SEC. 505. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, AND UTILITY SECURITY FLOOR DURING THE SIRF RAMP.
   TITLE VI — NATIONAL CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY
     SEC. 601. PROHIBITION ON PREDATORY PRIVATE EQUITY BUYOUTS AND ASSET PLEDGING.
     SEC. 602. PENSION PROTECTION PREEMPTION COORDINATION AMENDMENT TO ERISA.
@@ -101,8 +100,8 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 1003. MUNICIPAL BROADBAND AND UTILITY CO-OPERATIVE FRAMEWORK.
     SEC. 1004. NATIONAL WATER SECURITY AND REDISTRIBUTION INFRASTRUCTURE.
     SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE.
-    SEC. 1005A. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
-    SEC. 1006. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
+    SEC. 1006. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
+    SEC. 1007. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
   TITLE XI — THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)
     SEC. 1101. THE ONE-FOR-ONE PHYSICAL REMEDIATION MANDATE.
     SEC. 1102. ENVIRONMENTAL JUSTICE AND COMMUNITY REMEDIATION GRANTS.
@@ -121,6 +120,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
   TITLE XIV — SHELTER SECURITY
     SEC. 1401. SHELTER SECURITY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
     SEC. 1402. COMMUNITY LAND TRUST CAPITALIZATION AND FIRST-TIME HOMEBUYER ASSISTANCE.
+    SEC. 1403. BUILD MORE HOMES — HOUSING SUPPLY INCENTIVES.
   TITLE XV — STUDENT DEBT RELIEF AND PUBLIC HIGHER EDUCATION
     SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
     SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
@@ -129,7 +129,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
     SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
     SEC. 1603. INFLATION RELIEF AND COST-OF-LIVING PROTECTION.
-    SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
+    SEC. 1604. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
   TITLE XVII — NATIONAL BUILD-OUT, HYDROPOWER, AND INFRASTRUCTURE DELIVERY
     SEC. 1701. FINDINGS AND PURPOSE.
     SEC. 1702. DEFINITIONS.
@@ -140,15 +140,17 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 1707. FEDERAL REVIEW ON A FIXED SCHEDULE FOR COVERED INFRASTRUCTURE PROJECTS.
     SEC. 1708. FUNDING AND BUDGET NEUTRALITY CERTIFICATION.
     SEC. 1709. SCHEDULE D BENCHMARKS — TITLE XVII.
+    SEC. 1710. WILDFIRE, FLOOD, AND EXTREME-HEAT RESILIENCE.
   TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
     SEC. 1801. STANDING — CONCRETE INJURY SPECIFICATION BY TITLE.
     SEC. 1802. DUE PROCESS — MANDATORY PRE-DEPRIVATION NOTICE SCHEDULE.
     SEC. 1803. ADMINISTRATIVE APPEALS AND JUDICIAL REVIEW.
-    SEC. 1803A. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
-    SEC. 1803B. MANDATORY CONGRESSIONAL REAUTHORIZATION.
-    SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
-    SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
-    SEC. 1806. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
+    SEC. 1804. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
+    SEC. 1805. MANDATORY CONGRESSIONAL REAUTHORIZATION.
+    SEC. 1806. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
+    SEC. 1807. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
+    SEC. 1808. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
+    SEC. 1809. GENERAL SAFEGUARDS — JUST COMPENSATION AND LIMITS ON DELEGATED AUTHORITY.
   TITLE XIX — RETURN ON INVESTMENT, PERFORMANCE BENCHMARKS, AND AMERICAN HOUSEHOLD BENEFIT ACCOUNTING
     SEC. 1901. AMERICAN HOUSEHOLD DIVIDEND — PROJECTED BENEFITS.
     SEC. 1902. RETURN ON INVESTMENT FRAMEWORK.
@@ -273,7 +275,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3307. CONGRESSIONAL OVERSIGHT AND TRANSPARENCY.
     SEC. 3308. BENCHMARKS — TITLE XXXIII.
   TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOLVENCY
-    SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
+    SEC. 3401. RETIREMENT OF UNIVERSAL HOUSEHOLD CASH DISTRIBUTIONS.
     SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
     SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
     SEC. 3404. HOUSEHOLD STRUCTURAL RELIEF NODE — CROSS-TITLE CLARIFICATION.
@@ -302,6 +304,29 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3606. BENEFICIAL-OWNERSHIP LOOK-THROUGH — ANTI-FRONT-COMPANY ENFORCEMENT.
     SEC. 3607. ENFORCEMENT AND COORDINATION.
     SEC. 3608. SCHEDULE D BENCHMARKS — TITLE XXXVI.
+  TITLE XXXVII — SCIENCE, RESEARCH, AND TALENT RENEWAL
+    SEC. 3701. FINDINGS AND PURPOSE.
+    SEC. 3702. NATIONAL RESEARCH INVESTMENT TARGET.
+    SEC. 3703. RESEARCH FUNDING FLOORS.
+    SEC. 3704. REGIONAL TECHNOLOGY HUBS AND LAB-TO-MARKET TRANSLATION.
+    SEC. 3705. RESEARCH SECURITY.
+    SEC. 3706. RETAINING UNITED STATES-TRAINED SCIENTIFIC TALENT.
+    SEC. 3707. FUNDING AND BUDGET NEUTRALITY.
+    SEC. 3708. SCHEDULE D BENCHMARKS — TITLE XXXVII.
+  TITLE XXXVIII — FAMILY AND WORKFORCE SECURITY
+    SEC. 3801. FINDINGS AND PURPOSE.
+    SEC. 3802. NATIONAL PAID FAMILY AND MEDICAL LEAVE INSURANCE.
+    SEC. 3803. CHILD CARE SUPPLY EXPANSION.
+    SEC. 3804. NATIONAL APPRENTICESHIP EXPANSION.
+    SEC. 3805. FUNDING AND BUDGET NEUTRALITY.
+    SEC. 3806. SCHEDULE D BENCHMARKS — TITLE XXXVIII.
+  TITLE XXXIX — DIGITAL GOVERNMENT MODERNIZATION
+    SEC. 3901. FINDINGS AND PURPOSE.
+    SEC. 3902. LEGACY SYSTEM RETIREMENT.
+    SEC. 3903. SINGLE FRONT DOOR FOR FEDERAL SERVICES.
+    SEC. 3904. PAYMENT VERIFICATION AND FRAUD PREVENTION.
+    SEC. 3905. FUNDING AND BUDGET NEUTRALITY.
+    SEC. 3906. SCHEDULE D BENCHMARKS — TITLE XXXIX.
 
 SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF BASELINE CONDITIONS EVIDENCE STANDARD.
 
@@ -402,7 +427,7 @@ SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
 
 
 
-SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTURE.
+SEC. 006. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTURE.
 
 (a) CONGRESSIONAL FINDINGS — TRANCHE STRUCTURE.—Congress finds that the most effective method for delivering immediate household economic relief while maintaining fiscal discipline is a structured, sequenced deployment architecture that insulates safety-net disbursements from dependency on unconfirmed revenue streams.
 
@@ -410,13 +435,13 @@ SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTU
 (1) Basic Minimum Plan deployment for uninsured households (Title XXI);
 (2) G7 pharmaceutical price parity enforcement (Title XIII);
 (3) Federal student loan zero-interest conversion (Title XV);
-(4) Child Prosperity Trust birth deposits (Section 503);
+(4) Child Prosperity Trust birth deposits (Section 502);
 (5) SNAP and WIC statutory protection (Titles I and VII).
 No Tranche 1 disbursement requires a SIRF revenue certification or phase gate condition. These mechanisms are funded from mandatory enforcement revenue that activates automatically upon enactment.
 
 (c) TRANCHE 2 — HOUSEHOLD ENERGY COST REDUCTION (GATE 1 CONDITIONS).—Upon satisfaction of all three Gate 1 conditions of Schedule E as jointly certified by the Comptroller General, the Federal Reserve Board, and the Congressional Budget Office, the Household Energy Cost Reduction Program (HECRP) shall activate. The HECRP shall target a minimum fifteen percent (15%) reduction in average monthly residential electricity costs in participating utility service territories compared to the pre-enactment baseline, as measured by state public utility commission reported data. HECRP shall be funded from the SIRF Energy Security Subledger established under Section 2410(c) and administered by the Secretary of Energy in coordination with state public utility commissions. No Tranche 2 activation may be treated as deficit financing — the SIRF balance certification requirement of Gate 1 ensures that all HECRP deployments are backed by collected, verified federal revenue.
 
-(d) TRANCHE 3 — UNIVERSAL HSRN (GATE 2 CONDITIONS).—Universal Household Structural Relief Node deployment shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Universal HSRN deployment occurs when the fiscal foundation is substantially complete, not before.
+(d) TRANCHE 3 — FULL HOUSEHOLD STRUCTURAL RELIEF NODE FUNDING (GATE 2 CONDITIONS).—Full statutory funding of every designated mechanism of Section 3403 shall activate only when Gate 2 conditions of Schedule E are met, at which point the federal deficit is below four hundred billion dollars ($400,000,000,000) — a near-balanced budget condition. Consistent with Section 3401, no Tranche authorizes a universal or recurring cash distribution to households.
 
 (e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E.
 
@@ -425,7 +450,7 @@ No Tranche 1 disbursement requires a SIRF revenue certification or phase gate co
 (2) The FMIA shall publish a quarterly Tranche Capacity Report confirming available Household Structural Relief Node deployment capacity;
 (3) If revenue collections underperform CBO projections by more than fifteen percent (15%) over any rolling ninety (90) day period, the V_abs Quarterly Absorption Throttle established in Section 004 shall activate, scaling down corporate procurement premiums and upper-tier infrastructure grants before any reduction in household Tranche disbursements.
 
-SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
+SEC. 007. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
 
 (a) MARKET PRIMACY.—Congress declares that the preferred mechanism for achieving the infrastructure security, manufacturing renaissance, and household wealth-building objectives of this Act is voluntary private sector investment attracted by the structural incentives, reduced regulatory arbitrage, and market corrections established herein. Government capital deployment through the SIRF is a supplement to, not a replacement for, domestic private capital formation.
 
@@ -437,7 +462,7 @@ SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
 
 (c) PRIVATE CAPITAL MOBILIZATION REPORT.—The FMIA shall publish annually a Private Capital Mobilization Report quantifying the total private investment attracted as a result of NSRA incentive structures, demonstrating the leverage ratio of public-to-private capital deployment. The target leverage ratio is three dollars ($3.00) of private investment per one dollar ($1.00) of SIRF capital deployed in infrastructure categories.
 
-SEC. 007. EFFECTIVE DATE.
+SEC. 008. EFFECTIVE DATE.
 
 (a) GENERAL EFFECTIVE DATE.—Except as otherwise provided in this Act, this Act shall take effect on the date of enactment.
 
@@ -457,8 +482,8 @@ TIER 1 — IMMEDIATE (MONTHS 1-6):
 TIER 2 — SHORT-TERM (MONTHS 7-24):
 (1) BMP Open Enrollment Period #1 — all current Medicaid, CHIP, and ACA enrollees transition to BMP through chosen private carrier (Sec. 2108(a));
 (2) HHS risk-adjusted BMP Premium Rate published and first carrier payments disbursed (Sec. 2103(b));
-(3) Household Structural Relief Node pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
-(4) Secure Child Prosperity Trust account establishment for all eligible births (Sec. 503);
+(3) Household Structural Relief Node mechanisms activated in priority order (Sec. 3403);
+(4) Secure Child Prosperity Trust account establishment for all eligible births (Sec. 502);
 (5) Automatic BMP enrollment for all newborns (Sec. 2104(b)(3));
 (6) Main Street Capitalization Protocol operationalization (Sec. 204);
 (7) Agricultural monopoly concentration monitoring (Sec. 701);
@@ -468,8 +493,8 @@ TIER 2 — SHORT-TERM (MONTHS 7-24):
 
 TIER 3 — MEDIUM-TERM (MONTHS 25-48):
 (1) BMP Open Enrollment Period #2 — universal enrollment extended to all previously uninsured United States residents (Sec. 2108(c)(1));
-(2) Household Structural Relief Node full deployment upon CBO revenue sufficiency certification (Sec. 3401);
-(3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Sec. 2103(e));
+(2) Household Structural Relief Node full deployment upon CBO revenue sufficiency certification (Sec. 3403; Schedule E);
+(3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Secs. 2006, 2103(d));
 (4) Domestic content floor phase-in escalation (Sec. 402(b));
 (5) SMR compliance safe harbor windows (Sec. 902(a));
 (6) Broadband access fund deployment (Sec. 802(b));
@@ -569,7 +594,7 @@ SEC. 103. THE STRUCTURED ACCOUNTABILITY ENGINE.
 
 (b) NON-DELEGATED DUTY OF THE AGENCY HEAD.—Within the 90-day timeline established in subsection (a), the head of the federal agency possessing primary regulatory jurisdiction over the affected asset layer shall execute one of the following affirmative duties:
 
-(1) ENFORCEMENT INITIATION.—Issue a formal Order of Enforcement and file a civil action under section 1606 seeking asset clawback, civil penalties, or divestment against the non-compliant Covered Entities identified in the report; OR
+(1) ENFORCEMENT INITIATION.—Issue a formal Order of Enforcement and file a civil action under section 1604 seeking asset clawback, civil penalties, or divestment against the non-compliant Covered Entities identified in the report; OR
 
 (2) MANDATORY STATUTORY STATEMENT.—File a formal, public, and judicially reviewable Statement of Reason for Enforcement Non-Initiation with the United States Court of Appeals for the District of Columbia Circuit.
 
@@ -636,7 +661,7 @@ SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
 (a) FINDINGS.—Congress finds that the enforcement capacity of federal regulatory agencies is a function of both statutory authority and operational resources, and that executive budget manipulation — including targeted staffing reductions, hiring freezes, and selective non-enforcement directives — has historically been used to functionally nullify statutory mandates without formally repealing them. The NSRA's enforcement architecture depends on the institutional integrity of EPA, the NLRB, the CFPB, the FDA, the NIH, and the FERC as primary enforcement partners. This section insulates those agencies' NSRA-mandated functions from executive budget interference.
 
 (b) SIRF-FUNDED ENFORCEMENT FLOOR.—For each agency designated as a primary enforcement agency under Section 106 of this Title, the SIRF Administrative Operations Reserve shall provide a mandatory annual enforcement floor grant, drawn automatically without appropriation action, sufficient to maintain the following minimum operational capacity for NSRA-mandated functions:
-(1) ENVIRONMENTAL PROTECTION AGENCY.—Not less than five hundred million dollars ($500,000,000) annually, designated exclusively for enforcement of NSRA Title X, Title XI, and the A.B.R.N. mandate, pesticide prohibition enforcement under Title VII, and the scientific integrity functions established in Section 1006 of this Act;
+(1) ENVIRONMENTAL PROTECTION AGENCY.—Not less than five hundred million dollars ($500,000,000) annually, designated exclusively for enforcement of NSRA Title X, Title XI, and the A.B.R.N. mandate, pesticide prohibition enforcement under Title VII, and the scientific integrity functions established in Section 1007 of this Act;
 (2) NATIONAL LABOR RELATIONS BOARD.—Not less than one hundred fifty million dollars ($150,000,000) annually, designated for enforcement of Title XXVIII enhanced labor protections, maintenance of a case processing workforce sufficient to adjudicate unfair labor practice charges within ninety (90) days of filing, and operation of the mandatory interim reinstatement function under Section 2801;
 (3) CONSUMER FINANCIAL PROTECTION BUREAU.—Not less than two hundred fifty million dollars ($250,000,000) annually, designated for enforcement of the predatory lending and medical debt national standards established in Section 2416 of this Act and existing CFPB authority over mortgage servicing, payday lending, and debt collection;
 (4) FOOD AND DRUG ADMINISTRATION.—Not less than three hundred million dollars ($300,000,000) annually, designated for enforcement of NSRA pharmaceutical parity mandates under Title XIII, GRAS review functions under Section 704, essential medicines manufacturing security under Section 1302, and the curative drug registry under Section 1304;
@@ -647,7 +672,7 @@ SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
 
 (d) SCIENTIFIC AND RESEARCH INTEGRITY PROTECTION.—
 (1) PROHIBITION ON POLITICAL SUPPRESSION.—No officer or employee of the executive branch may direct, order, or induce any scientist, researcher, or career official of EPA, NIH, FDA, CDC, or USDA to alter, suppress, delay, or misrepresent any scientific finding, assessment, report, or recommendation for political, commercial, or policy preference reasons.
-(2) MANDATORY PUBLICATION.—Any scientific assessment, environmental impact finding, drug safety determination, or public health recommendation completed by a federal agency scientist shall be published in the agency's public record within ninety (90) days of completion, unless classification under 50 U.S.C. § 3024 is required — in which case an unclassified summary shall be published.
+(2) MANDATORY PUBLICATION.—Any scientific assessment, environmental impact finding, drug safety determination, or public health recommendation completed by a federal agency scientist shall be published in the agency's public record within ninety (90) days of completion, unless classification under 50 U.S.C. § 3024 is required — in which case an unclassified summary shall be published. This paragraph does not require publication of information exempt from disclosure under section 552(b)(4) or (b)(6) of title 5, United States Code, or of information as to which the President has asserted executive privilege in writing; in either case the agency shall publish a summary of the finding with the protected information removed.
 (3) ENFORCEMENT.—Willful violation of subsection (d)(1) by any executive official shall be subject to civil penalty of not less than two hundred fifty thousand dollars ($250,000) per incident and mandatory referral to the Department of Justice. Any scientist subjected to retaliation for refusing to suppress findings shall have a private right of action for reinstatement, back pay, and compensatory damages in federal district court.
 
 (e) CITIZEN SUIT RIGHTS — NSRA MANDATE ENFORCEMENT.—Any person may bring a civil action in the United States District Court for the district in which the violation occurred against any federal agency that has failed to perform a non-discretionary act or duty required by this Act within the timeframe specified. The court shall have jurisdiction to compel agency action unlawfully withheld and to award reasonable attorney fees and costs to prevailing plaintiffs. This subsection supplements, and does not limit, the remedies available under 5 U.S.C. § 706 (APA arbitrary and capricious review).
@@ -681,7 +706,7 @@ MINIMUM SIRF CAPITALIZATION FLOOR.—No SIRF disbursement program shall deploy c
 
 (c) PROTECTION FROM GENERAL FUND DILUTION AND LEGISLATIVE RAIDS.—
 
-(1) IN GENERAL.—Funds deposited into the SIRF shall remain inviolate. No administrative officer, executive order, budget directive, or general rescission act may divert, offset, loan, or appropriate SIRF balances for any purpose other than the explicit infrastructure capitalization mandates enumerated in this Act.
+(1) IN GENERAL.—Funds deposited into the SIRF shall remain inviolate. No administrative officer, executive order, or budget directive may divert, offset, loan, or appropriate SIRF balances for any purpose other than the explicit infrastructure capitalization mandates enumerated in this Act. No later Act of Congress shall be construed to divert, rescind, or re-appropriate SIRF balances unless it expressly refers to this subsection.
 
 (2) LEGISLATIVE FRICTION — SENSE OF CONGRESS.—It is the sense of Congress that no provision of this section or any fund allocation within the SIRF should be modified, repealed, suspended, or re-appropriated except through an independent, single-subject Act of Congress explicitly naming the section to be modified. Nothing in this paragraph shall be construed to limit the constitutional authority of a future Congress to amend or repeal any provision of this Act by simple majority, consistent with INS v. Chadha, 462 U.S. 919 (1983), and Clinton v. City of New York, 524 U.S. 417 (1998). The durability of the SIRF is secured through the political accountability mechanisms of Section 201(d) and the rapid constituency vesting defense of Section 201(d)(2), not through procedural supermajority constraints on future legislation.
 
@@ -746,7 +771,7 @@ SEC. 203. THE REAL-PARITY STRUCTURAL PRODUCTIVITY INDEX.
 
 (1) PROHIBITION.—It shall be unlawful for any commercial bank, market-making financial institution, or hedge fund to design, clear, trade, or implement any structured derivative, short-selling contract, or synthetic swap asset designed to decouple domestic material contracts from the SPI or facilitate capital flight away from SPI indexation.
 
-(2) CIVIL PENALTY.—Any financial institution that facilitates or clears transactions in violation of paragraph (1) shall be liable for a civil penalty of not more than two hundred percent (200%) of the net financial gain obtained or loss avoided through the non-compliant transactions, assessed only by a United States District Court in accordance with section 1606. A Verified Structural Variance Report of the FDVM shall be admissible as evidence of the violation. In setting the amount, the court shall consider the gravity and duration of the violation, the institution's culpability and history of violations, the harm caused, and the institution's ability to pay, and shall make an independent finding that the penalty is not grossly disproportional to the offense under the Excessive Fines Clause of the Eighth Amendment. Penalties collected shall be deposited in the SIRF.
+(2) CIVIL PENALTY.—Any financial institution that facilitates or clears transactions in violation of paragraph (1) shall be liable for a civil penalty of not more than two hundred percent (200%) of the net financial gain obtained or loss avoided through the non-compliant transactions, assessed only by a United States District Court in accordance with section 1604. A Verified Structural Variance Report of the FDVM shall be admissible as evidence of the violation. In setting the amount, the court shall consider the gravity and duration of the violation, the institution's culpability and history of violations, the harm caused, and the institution's ability to pay, and shall make an independent finding that the penalty is not grossly disproportional to the offense under the Excessive Fines Clause of the Eighth Amendment. Penalties collected shall be deposited in the SIRF.
 
 SEC. 204. THE MAIN STREET CAPITALIZATION PROTOCOL.
 
@@ -813,7 +838,7 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 (c) MANDATORY COMPENSATORY TARIFFS.—
 
-(1) TARIFF AUTHORITY.—This subsection is enacted pursuant to the National Data Commons registration framework established in subsection (a) and the Spending Clause and Commerce Clause of Art. I, Sec. 8 of the Constitution. The tariff imposed herein compensates the National Data Commons for the commercial extraction of collectively generated civic and cultural data assets and is not a tax on speech or information content.
+(1) TARIFF AUTHORITY.—This subsection is enacted pursuant to the National Data Commons registration framework established in subsection (a) and the Taxing Clause, Spending Clause, and Commerce Clause of Art. I, Sec. 8 of the Constitution. The tariff imposed herein compensates the National Data Commons for the commercial extraction of collectively generated civic and cultural data assets and is not a tax on speech or information content.
 
 (2) TARIFF RATE AND SCOPE.—Any Covered Entity operating machine-learning foundational models, large language structures, or generative neural networks that ingests Registered National Data Commons content shall pay a fixed statutory tariff of $0.02 per gigabyte of data ingested, payable directly to the Personal Data Rights Node of the SIRF.
 
@@ -907,7 +932,7 @@ TITLE IV — DOMESTIC SOURCING, WAGE ENFORCEMENT, AND CITIZEN ENFORCEMENT ACTION
 
 SEC. 401. DECENTRALIZED CITIZEN ENFORCEMENT ENGINE.
 
-(a) STATUTORY STANDING BY LAW — ARTICLE III FORUM.—To ensure independent enforcement capacity that is insulated from bureaucratic capture, corporate lobbying, or administrative paralysis, any citizen, corporate employee, labor organization, or qualifying community cohort who has suffered concrete economic harm traceable to a verified structural variance identified in a FDVM Verified Structural Variance Report shall have standing to initiate a civil enforcement action in federal district court. The FDVM Verified Structural Variance Report documenting the underlying variance and the plaintiff's nexus to the affected market or cohort shall constitute the evidentiary predicate for Article III standing purposes. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), any such action seeking civil monetary penalties, punitive surcharges, strict-liability clawbacks, revenue seizures, or asset forfeitures — remedies legal rather than equitable in nature — shall be filed in a United States District Court, in which the right to trial by jury under the Seventh Amendment is preserved for the defendant. Actions seeking solely equitable or declaratory relief, or recovery of a sum certain owed to the United States not in the nature of a penalty, may be filed in the United States Court of Federal Claims.
+(a) STATUTORY STANDING BY LAW — ARTICLE III FORUM.—To ensure independent enforcement capacity that is insulated from bureaucratic capture, corporate lobbying, or administrative paralysis, any citizen, corporate employee, labor organization, or qualifying community cohort who has suffered concrete economic harm traceable to a verified structural variance identified in a FDVM Verified Structural Variance Report shall have standing to initiate a civil enforcement action in federal district court. The FDVM Verified Structural Variance Report documenting the underlying variance and the plaintiff's nexus to the affected market or cohort may be offered as evidence of the plaintiff's injury and its traceability. Nothing in this section shall be construed to confer standing on any person who has not suffered a concrete and particularized injury within the meaning of Article III of the Constitution. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), any such action seeking civil monetary penalties, punitive surcharges, strict-liability clawbacks, revenue seizures, or asset forfeitures — remedies legal rather than equitable in nature — shall be filed in a United States District Court, in which the right to trial by jury under the Seventh Amendment is preserved for the defendant. Actions seeking solely equitable or declaratory relief, or recovery of a sum certain owed to the United States not in the nature of a penalty, may be filed in the United States Court of Federal Claims.
 
 (b) THE MANDATORY 15 PERCENT CITIZEN BOUNTY.—
 
@@ -1010,19 +1035,16 @@ SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION
 
 (f) TRANSITIONAL CONTINUITY GUARANTEE.—No individual currently receiving benefits under the programs affected by the reforms in subsections (b) through (d) shall experience any interruption of benefits during the transition period. The Secretary of Health and Human Services shall issue transitional guidance within sixty (60) days of enactment.
 
-SEC. 502. [RESERVED.]
-
-This section is reserved. No program, disbursement authority, or fiscal obligation is established herein.
 
 
 
-SEC. 503. THE SECURE CHILD PROSPERITY TRUST.
+SEC. 502. THE SECURE CHILD PROSPERITY TRUST.
 
-(a) ESTABLISHMENT.—There is established the Secure Child Prosperity Trust (SCPT), administered by the Department of the Treasury in coordination with the Social Security Administration.
+(a) ESTABLISHMENT.—There is established the Secure Child Prosperity Trust (SCPT), administered by the Department of the Treasury in coordination with the Social Security Administration. SCPT deposits shall be made into the child's Trump account under section 530A of the Internal Revenue Code of 1986, which the Secretary of the Treasury shall open automatically if one does not exist, and shall be invested in the low-cost, broad United States equity index funds permitted under that section.
 
-(b) INITIAL CAPITALIZATION.—At birth, every child born to a United States resident shall automatically receive a Secure Child Prosperity Account funded with an initial deposit of five thousand dollars ($5,000) from the SIRF Household Structural Relief Node.
+(b) INITIAL CAPITALIZATION.—At birth, every child born to a United States resident who is issued a Social Security number shall automatically receive a Secure Child Prosperity Account funded with an initial deposit of one thousand dollars ($1,000) from the SIRF Household Structural Relief Node. For children born in calendar years 2025 through 2028, the federal pilot contribution available under current law satisfies this subsection.
 
-(c) INCOME-SCALED SUPPLEMENTAL DEPOSITS.—Annual supplemental deposits of not less than one thousand dollars ($1,000) shall be made into each SCPT account until the child reaches age eighteen (18), with deposits scaled up to two thousand five hundred dollars ($2,500) annually for accounts belonging to children in households below one hundred fifty percent (150%) of the Structural Productivity Index median.
+(c) INCOME-SCALED SUPPLEMENTAL DEPOSITS.—Beginning when the Household Structural Relief Node reaches Phase 2 under Schedule E, annual supplemental deposits shall be made into each SCPT account belonging to a child in a household below two hundred percent (200%) of the federal poverty guideline until the child reaches age eighteen (18), in an amount equal to the contributions made to the account by family members, employers, or others during the year, up to five hundred dollars ($500) annually. Supplemental deposits shall not exceed four billion dollars ($4,000,000,000) in any fiscal year and shall be reduced pro rata if necessary.
 
 (d) ACCOUNT RESTRICTIONS.—SCPT funds shall be accessible to the account holder beginning at age eighteen (18) for the following purposes only:
 (1) Higher education and vocational training costs;
@@ -1030,11 +1052,9 @@ SEC. 503. THE SECURE CHILD PROSPERITY TRUST.
 (3) Capitalization of a new domestic small business; or
 (4) Unrestricted access beginning at age thirty (30).
 
-(e) PROJECTED HOUSEHOLD BENEFIT.—Based on actuarial projections, a child born at enactment shall accumulate, with projected SPI-indexed returns, an account value of not less than thirty-two thousand dollars ($32,000) at age eighteen, representing a foundational wealth-building asset available to every American child regardless of family income.
+(e) PROJECTED HOUSEHOLD BENEFIT.—At an average annual return of seven percent (7%), the initial deposit grows to approximately three thousand four hundred dollars ($3,400) by age eighteen. A child whose household contributes five hundred dollars ($500) annually and receives the full supplemental deposit accumulates approximately thirty-seven thousand dollars ($37,000) by age eighteen, representing a foundational wealth-building asset available to every American child regardless of family income. Investment returns are not guaranteed.
 
-
-
-SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
+SEC. 503. FORMAL DECLARATION — WAR ON POVERTY.
 
 (a) DECLARATION.—The Congress of the United States hereby formally declares that the elimination of structural poverty is a national imperative of equivalent urgency to national defense. The persistence of poverty in the United States is driven in substantial part by identifiable, measurable structural conditions — including healthcare cost exposure, educational debt burden, housing cost instability, wage suppression, food system dysfunction, and environmental disease burden — that this Act directly addresses.
 
@@ -1042,7 +1062,7 @@ SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
 
 (c) RESTORATION PRINCIPLE.—The anti-poverty framework of this Act is grounded in structural restoration rather than permanent dependency. Federal intervention under this Act is designed to: eliminate the structural cost impositions that make self-sufficiency impossible for working families; invest in the physical and human capital that allows communities to generate sustainable prosperity; and progressively reduce the need for ongoing federal income support as structural conditions improve. Cash transfer and income support mechanisms funded under this Act shall be paired with documented structural cost reductions so that aggregate household economic position improves with or without continued federal income support.
 
-SEC. 505. TANF STRUCTURAL ENHANCEMENT.
+SEC. 504. TANF STRUCTURAL ENHANCEMENT.
 
 (a) FINDINGS.—Congress finds that the Temporary Assistance for Needy Families program, as currently structured, has become a mechanism for work requirements and time limits that reduce access rather than poverty, with federal TANF spending increasingly redirected to administrative purposes rather than direct family support. The NSRA restructures TANF to align with its original statutory purpose of supporting family stability.
 
@@ -1052,7 +1072,7 @@ SEC. 505. TANF STRUCTURAL ENHANCEMENT.
 (3) Prohibit use of TANF funds for abstinence-only education, marriage promotion programs, or any program not directly connected to family economic stability; and
 (4) Repeal the five-year lifetime limit for families where the primary barrier to employment is documented child care unavailability, disability of a household member, or domestic violence.
 
-SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, AND UTILITY SECURITY FLOOR DURING THE SIRF RAMP.
+SEC. 505. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, AND UTILITY SECURITY FLOOR DURING THE SIRF RAMP.
 
 (a) FINDINGS — PROTECTION OF THE ACT'S OWN ECONOMIC ASSUMPTIONS.—Congress finds that: (1) the poverty-reduction, household-wealth, and deficit-reduction benchmarks of this Act in Title XIX and Schedule D are predicated on a stable baseline of household food, shelter, and energy security during the multi-year period in which the Strategic Infrastructure Reinvestment Fund (SIRF) enforcement-revenue streams come online; (2) an erosion of working-poor household stability during that ramp period — from any source — would corrupt the baseline against which this Act's performance is measured and undermine the bipartisan economic modeling required under Section 1903; and (3) a narrowly tailored, time-limited stability floor that holds essential-assistance levels constant during the ramp is therefore necessary to preserve the integrity of the Act's projected return on investment, not to expand any pre-existing program.
 
@@ -1100,7 +1120,7 @@ SEC. 604. RETIREMENT SECURITY FOR GIG AND CONTINGENT WORKERS.
 
 (b) ACCOUNT PORTABILITY.—Portable Benefit Accounts established under this section shall be owned by and transferable with the individual worker across all employment relationships. Account funds shall be accessible for retirement, health insurance premiums, and paid family leave coverage.
 
-(c) ENFORCEMENT.—Failure to establish or fund Portable Benefit Accounts as required shall constitute a violation subject to a civil penalty of not less than one thousand dollars ($1,000) per worker per quarter of non-compliance, assessed in accordance with section 1606, and credited first to the accounts of affected workers, with any remainder deposited in the SIRF.
+(c) ENFORCEMENT.—Failure to establish or fund Portable Benefit Accounts as required shall constitute a violation subject to a civil penalty of not less than one thousand dollars ($1,000) per worker per quarter of non-compliance, assessed in accordance with section 1604, and credited first to the accounts of affected workers, with any remainder deposited in the SIRF.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -1209,7 +1229,7 @@ SEC. 801. GIG ECONOMY PLATFORM DISPLACEMENT AND UTILITY STATUS.
 (1) Surge inflation of customer transit fees exceeding a two and one-half percent (2.5%) variance from the 36-month regional baseline; or
 (2) Dynamic downward compression or throttling of driver compensation metrics below the true Structural Productivity Index labor baseline.
 
-(c) CIVIL PENALTY FOR PRICING VIOLATIONS.—A violation of the limits specified in subsection (b) shall be enforced in accordance with section 1606. Upon a Verified Structural Variance Report, the FMIA may seek a temporary, status-quo-preserving order under section 1606(b) and shall file a civil action in the appropriate United States District Court. The court may assess a civil penalty of not more than eight and one-half percent (8.5%) of the platform operator's gross revenue attributable to the affected regional market for the non-compliant period, after making an independent finding that the amount is proportionate to the harm to riders and drivers and to the duration of the violation, consistent with the Excessive Fines Clause of the Eighth Amendment. Restitution to affected drivers and riders shall be paid first from any penalty collected; the remainder shall be deposited in the SIRF to fund municipal transit networks and driver-owned transport cooperatives.
+(c) CIVIL PENALTY FOR PRICING VIOLATIONS.—A violation of the limits specified in subsection (b) shall be enforced in accordance with section 1604. Upon a Verified Structural Variance Report, the FMIA may seek a temporary, status-quo-preserving order under section 1604(b) and shall file a civil action in the appropriate United States District Court. The court may assess a civil penalty of not more than eight and one-half percent (8.5%) of the platform operator's gross revenue attributable to the affected regional market for the non-compliant period, after making an independent finding that the amount is proportionate to the harm to riders and drivers and to the duration of the violation, consistent with the Excessive Fines Clause of the Eighth Amendment. Restitution to affected drivers and riders shall be paid first from any penalty collected; the remainder shall be deposited in the SIRF to fund municipal transit networks and driver-owned transport cooperatives.
 
 SEC. 802. NATIONAL BROADBAND ACCESS MANDATE.
 
@@ -1274,15 +1294,15 @@ SEC. 903. GRADUATED PENALTY MATRIX AND JUDICIAL ENFORCEMENT.
 
 (a) GRADUATED FINANCIAL CLAWBACK.—If a Covered Entity fails to achieve compliance within the 36-month transitional window (or within any approved Regulatory Delay Extension under section 902(c)) due to corporate negligence, supply chain failure, or non-compliance with the safe harbor metrics of section 902(b) and (d), the following enforcement timeline shall engage:
 
-(1) MONTHS 37 THROUGH 42 (NON-COMPLIANCE PHASE I).—A structural-variance fee equal to four and one-half percent (4.5%) of the data foundry's gross quarterly corporate revenue may be sought for each fiscal quarter of non-compliance in a civil action under section 1606. This penalty also applies during any approved Regulatory Delay Extension per section 902(c)(1).
+(1) MONTHS 37 THROUGH 42 (NON-COMPLIANCE PHASE I).—A structural-variance fee equal to four and one-half percent (4.5%) of the data foundry's gross quarterly corporate revenue may be sought for each fiscal quarter of non-compliance in a civil action under section 1604. This penalty also applies during any approved Regulatory Delay Extension per section 902(c)(1).
 
-(2) MONTHS 43 THROUGH 48 (NON-COMPLIANCE PHASE II).—The structural-variance fee that may be sought under section 1606 shall increase to not more than eight and one-half percent (8.5%) of gross quarterly corporate revenue, and, upon a court order under section 1606, the data foundry's permissible power draw from the public civil grid may be reduced by up to twenty-five percent (25%) pursuant to subsection (b).
+(2) MONTHS 43 THROUGH 48 (NON-COMPLIANCE PHASE II).—The structural-variance fee that may be sought under section 1604 shall increase to not more than eight and one-half percent (8.5%) of gross quarterly corporate revenue, and, upon a court order under section 1604, the data foundry's permissible power draw from the public civil grid may be reduced by up to twenty-five percent (25%) pursuant to subsection (b).
 
 (3) MONTH 49 AND FORWARD (SUSTAINED NON-COMPLIANCE JUDICIAL ENFORCEMENT).—If a Covered Entity remains non-compliant due to corporate negligence or willful non-compliance (as distinguished from documented regulatory delay for which section 902(c) provides a penalized extension), the FMIA shall refer the matter to the United States District Court for the district in which the primary data center facility is located. The FMIA may apply for an expedited order of operational restriction, to be adjudicated on a seventy-two (72) hour track. The District Court may, upon clear and convincing evidence of willful non-compliance and consideration of the public interest, issue an order restricting the data center's public grid power draw by not more than fifty percent (50%) until compliance is achieved. Total operational suspension shall require a separate court order finding that partial restriction has failed to achieve compliance within ninety (90) additional days.
 
 (b) GRID POWER REDUCTION MECHANISM.—Any grid power reduction under subsection (a)(2) or a court order under subsection (a)(3) shall be implemented through the relevant regional transmission organization or independent system operator in coordination with the Federal Energy Regulatory Commission, and shall not constitute an unconstitutional taking where the reduction is limited to penalty periods and the Covered Entity retains the ability to procure power from alternative non-grid sources.
 
-(c) PROPORTIONALITY.—Any revenue-based fee under subsection (a) shall be imposed only by a United States District Court in accordance with section 1606. The court shall make an independent finding that the amount is proportionate to the excess grid load, the duration of non-compliance, and the Covered Entity's culpability, consistent with the Excessive Fines Clause of the Eighth Amendment. Documented regulatory delay under section 902(c) shall be a mitigating factor.
+(c) PROPORTIONALITY.—Any revenue-based fee under subsection (a) shall be imposed only by a United States District Court in accordance with section 1604. The court shall make an independent finding that the amount is proportionate to the excess grid load, the duration of non-compliance, and the Covered Entity's culpability, consistent with the Excessive Fines Clause of the Eighth Amendment. Documented regulatory delay under section 902(c) shall be a mitigating factor.
 
 SEC. 904. RESIDENTIAL ENERGY SAVINGS DIVIDEND.
 
@@ -1318,7 +1338,7 @@ SEC. 906. VETERANS ENERGY SECURITY BENEFIT.
 
 (b) ELIGIBILITY.—Any household that includes a veteran as defined in title 38, United States Code, with household income below two hundred fifty percent (250%) of the Federal Poverty Level, shall be eligible.
 
-(c) BENEFIT.—The VESB shall provide a monthly energy affordability credit applied against residential utility costs, in an amount set annually by the FMIA to offset documented regional energy-cost burden.
+(c) BENEFIT.—The VESB shall provide a monthly energy affordability credit applied against residential utility costs, in an amount set annually by the FMIA by rule under Section 1809(b) to offset documented regional energy-cost burden, of not less than fifty dollars ($50) and not more than one hundred fifty dollars ($150) per month, adjusted annually for changes in the residential electricity price index published by the Energy Information Administration.
 
 (d) FUNDING — FIRST-PRIORITY OBLIGATION.—The Veterans Energy Security Benefit established under this section shall be funded from the SIRF Energy Security Subledger as a first-priority obligation senior to the four deployment buckets established under Section 2410(c), as referenced in Schedule G.
 
@@ -1340,6 +1360,8 @@ SEC. 1001. PUBLIC TRUST PROTECTION FOR CRITICAL NATURAL RESOURCES.
 (4) Upon a finding of willful and repeated violation after prior court orders, revocation of the corporate charter of the domestic subsidiary conducting the unlawful activity, effective sixty (60) days after judgment to allow for orderly wind-down.
 
 Pending judicial resolution, the FMIA may impose an interim operational restriction preventing the Covered Entity from entering new water privatization or speculative contracts, without a separate court order, as a precautionary measure consistent with Mathews v. Eldridge procedural requirements.
+
+(d) PRESERVATION OF EXISTING WATER AND PROPERTY RIGHTS.—Nothing in this section shall be construed to diminish, transfer, or impair any water right adjudicated, permitted, or recognized under State law, any interstate compact, or any treaty with an Indian Tribe, or any private property right in land, water, or minerals existing on the date of enactment of this Act. Consistent with section 8 of the Reclamation Act of 1902 (43 U.S.C. § 383) and the McCarran Amendment (43 U.S.C. § 666), the allocation and administration of water rights remain with the States. The public trust declared in subsection (a) operates only as a limit on the financial instruments and speculative practices described in subsections (b) and (c).
 
 SEC. 1002. UNIVERSAL CLEAN WATER ACCESS GUARANTEE.
 
@@ -1373,7 +1395,7 @@ SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE.
 
 (c) COORDINATION.—The program shall be administered in coordination with the Automated Environmental Remediation Network established under Title XI, and shall prioritize projects delivering concurrent flood-mitigation, carbon-sequestration, and public-recreation benefits.
 
-SEC. 1005A. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
+SEC. 1006. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
 
 (a) PURPOSE.—This section establishes uniform Federal standards for the humane capture, care, safety, and release of animals held in or transferred through licensed captive facilities, and a coordinated program for the survival of keystone and vital species whose loss would destabilize the ecosystems this Title is charged to protect. Funding is provided as a dedicated set-aside within the Urban and Rural Wildlife Corridor and Rewilding Infrastructure allocation of Section 1005 and from the SIRF environmental remediation pool, without any increase to the total allocation of this Title.
 
@@ -1393,7 +1415,7 @@ SEC. 1005A. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SP
 
 (i) STANDALONE ENACTMENT.—This section provides independent public, humane, and ecological benefit; is severable under Section 205; and may be enacted independently of any other provision of this Act.
 
-SEC. 1006. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
+SEC. 1007. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
 
 (a) ESTABLISHMENT.—There are established scientific integrity functions to ensure that determinations under this Title and Title VII rest on transparent, peer-reviewed, and publicly available scientific evidence.
 
@@ -1435,7 +1457,7 @@ SEC. 1104. AGRICULTURAL CHEMICAL REMEDIATION.
 
 (b) AUTHORIZED ACTIVITIES.—The program shall fund: (1) soil remediation and regeneration on contaminated agricultural land; (2) groundwater and surface-water decontamination; (3) bioremediation and regenerative-agriculture transition support; and (4) monitoring and public reporting of contamination levels.
 
-(c) COORDINATION.—The program shall coordinate with the pesticide phase-out of Section 705 and the scientific integrity functions of Section 1006, and shall prioritize remediation in communities with documented agricultural-chemical exposure.
+(c) COORDINATION.—The program shall coordinate with the pesticide phase-out of Section 705 and the scientific integrity functions of Section 1007, and shall prioritize remediation in communities with documented agricultural-chemical exposure.
 
 (d) FUNDING.—The program shall be funded from the SIRF Environmental Remediation Node.
 
@@ -1521,7 +1543,7 @@ SEC. 1303. INSULIN AND ESSENTIAL MEDICINE PRICE CAP.
 
 (b) ESSENTIAL MEDICINE LIST PRICE CAP.—For any drug appearing on the FDA's Essential Medicines List, the retail out-of-pocket cost shall not exceed one hundred dollars ($100) per month's supply per patient, regardless of insurance status.
 
-(c) MANUFACTURER COMPLIANCE.—Pharmaceutical manufacturers found to be charging prices in excess of the caps established in this section shall be liable, in an action brought in accordance with section 1606, for a Pricing Violation Penalty of not more than three hundred percent (300%) of excess revenue collected above the cap. Refunds to affected patients shall be paid first, as direct payments within sixty (60) days after final judgment; any remainder shall be routed to the SIRF biosecurity node.
+(c) MANUFACTURER COMPLIANCE.—Pharmaceutical manufacturers found to be charging prices in excess of the caps established in this section shall be liable, in an action brought in accordance with section 1604, for a Pricing Violation Penalty of not more than three hundred percent (300%) of excess revenue collected above the cap. Refunds to affected patients shall be paid first, as direct payments within sixty (60) days after final judgment; any remainder shall be routed to the SIRF biosecurity node.
 
 (d) COST-FLOOR SAFETY VALVE.—No price cap established under this section shall compel any manufacturer to sell a product below its documented, audited cost of goods sold. A manufacturer may petition the Department of Health and Human Services for interim relief permitting sale at cost plus a reasonable margin not to exceed five percent (5%), pending an expedited audit by the Department in coordination with the Government Accountability Office to be completed within ninety (90) days. A manufacturer whose product benefits from federal manufacturing subsidy, SIRF capitalization, or the federally funded research underlying the product is ineligible for relief under this subsection to the extent of that federal support. Relief under this subsection is temporary and terminates upon the Department's final determination of true cost.
 
@@ -1533,7 +1555,7 @@ SEC. 1304. NATIONAL CURATIVE DRUG REGISTRY AND RESEARCH INTEGRITY PROTECTION.
 
 (b) MARCH-IN RIGHTS ENFORCEMENT — SUPPLEMENTARY TO SCHEDULE F.—Where a registered therapeutic derived from NIH, BARDA, or DoD-funded research is priced above the G7 parity ceiling for more than thirty (30) consecutive days, the Registry shall refer the matter for march-in rights consideration under 35 U.S.C. § 203. The authority of this subsection operates consistent with, and supplementary to, the compulsory licensing framework of Schedule F, which remains the primary enforcement mechanism for pharmaceutical pricing violations; nothing in this section creates a parallel or conflicting remedy, and any exercise of march-in authority shall conform to the just-compensation and due-process protections applicable under Schedule F and Title XVIII.
 
-(c) RESEARCH INTEGRITY PROTECTION.—The research integrity protection functions established in this section shall protect publicly funded research from suppression, undisclosed foreign extraction, or pricing capture, consistent with the manufacturing security provisions of Section 1302 and the scientific integrity functions of Section 1006.
+(c) RESEARCH INTEGRITY PROTECTION.—The research integrity protection functions established in this section shall protect publicly funded research from suppression, undisclosed foreign extraction, or pricing capture, consistent with the manufacturing security provisions of Section 1302 and the scientific integrity functions of Section 1007.
 
 (d) PUBLIC TRANSPARENCY.—The Registry shall be published and updated annually at no cost to the public.
 
@@ -1563,7 +1585,7 @@ SEC. 1401. SHELTER SECURITY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AN
 
 (2) INDEPENDENT APPRAISAL RIGHT.—Any institutional investor subject to mandatory divestiture under this section is entitled to an independent appraisal by a certified appraiser of its choosing, at its own expense, for any unit it believes is being undervalued in the priority sale process. No forced sale under this section may occur at a price more than ten percent (10%) below the certified independent appraisal value.
 
-(3) TAKING WAIVER.—Compliance with this section's concentration cap and divestiture requirement, including the arms-length market-rate sale process and independent appraisal right established herein, constitutes just compensation within the meaning of the Fifth Amendment. No institutional investor in compliance with this section may claim an uncompensated taking in any federal court.
+(3) CONGRESSIONAL FINDING ON COMPENSATION.—Congress finds that the arms-length, market-rate sale process and independent appraisal right established in this subsection are designed to provide just compensation within the meaning of the Fifth Amendment. The adequacy of compensation in any particular case remains a judicial question under Section 1809(a).
 
 (4) LITIGATION PRESERVATION.—Nothing in paragraph (3) bars any institutional investor from filing a Fifth Amendment takings claim in the United States Court of Federal Claims asserting that, notwithstanding the market-rate sale process, the practical effect of mandatory divestiture constitutes a compensable taking. Such claims shall be adjudicated on the merits. Pendency of a takings claim does not stay the divestiture requirement.
 
@@ -1597,6 +1619,25 @@ SEC. 1402. COMMUNITY LAND TRUST CAPITALIZATION AND FIRST-TIME HOMEBUYER ASSISTAN
 
 (c) STRUCTURAL RENT BASELINE ENFORCEMENT.—In any MSA where the FDVM verifies that institutional portfolio concentration exceeds the cap and rents exceed the Structural Rent Baseline by more than fifteen percent (15%), the FMIA shall, after notice under section 1802, impose a Rent Extraction Levy equal to twenty percent (20%) of the excess rent collected above the Structural Rent Baseline, routed to the SIRF to fund direct rental assistance to affected tenants.
 
+
+SEC. 1403. BUILD MORE HOMES — HOUSING SUPPLY INCENTIVES.
+
+(a) FINDINGS.—Congress finds that the United States has a shortage of several million homes; that local zoning and permitting rules that prohibit modest multifamily housing, require large minimum lot sizes, or impose lengthy discretionary review are a principal cause of high housing costs; and that limiting institutional purchases of existing homes under Section 1401 must be paired with building more homes to lower prices.
+
+(b) ELIGIBLE REFORMS.—For purposes of this section, an eligible reform is a State or local law, adopted after the date of enactment of this Act, that does one or more of the following: (1) allows duplexes, triplexes, and accessory dwelling units by right on lots zoned for single-family homes; (2) allows multifamily housing by right within one-half mile of a fixed-guideway transit station or along a frequent bus corridor; (3) eliminates or substantially reduces minimum parking requirements or minimum lot sizes; (4) establishes a shot-clock of not more than one hundred twenty (120) days for decisions on code-compliant residential permit applications; or (5) allows conversion of commercial and office buildings to residential use by right.
+
+(c) BUILD MORE HOMES BONUS.—The Secretary of Housing and Urban Development and the Secretary of Transportation shall award a scoring bonus, in any competitive grant program for housing, community development, or transportation infrastructure, to applicants located in a jurisdiction that has adopted eligible reforms, and shall make Build More Homes Bonus Grants, allocated in proportion to the net increase in housing permits in the jurisdiction above its prior five-year average, which may be used for any infrastructure, school, or public-safety purpose.
+
+(d) NO MANDATE.—Nothing in this section requires any State or unit of local government to adopt any zoning or land-use law, and no federal funds for which a jurisdiction is otherwise eligible may be withheld because the jurisdiction declines to adopt an eligible reform.
+
+(e) FEDERAL SURPLUS LAND FOR HOUSING.—The Administrator of General Services shall, within two (2) years, identify federal land and buildings suitable for housing and offer them for sale or long-term lease, with a preference for proposals that include homes affordable to households earning up to one hundred twenty percent (120%) of area median income.
+
+(f) MANUFACTURED AND FACTORY-BUILT HOUSING.—The Secretary of Housing and Urban Development shall amend the Manufactured Home Construction and Safety Standards to remove the permanent chassis requirement, consistent with performance-based safety standards, and shall establish a national certification for factory-built multifamily modules accepted in lieu of duplicative local inspection.
+
+(g) FUNDING.—Bonus Grants under subsection (c) shall be derived from the Shelter Security Fund established under Section 1401(f), not to exceed five billion dollars ($5,000,000,000) in any fiscal year.
+
+(h) BENCHMARKS.—The Secretary of Housing and Urban Development shall report biennially to Congress, as part of the Schedule D benchmarks, on the number of jurisdictions adopting eligible reforms, housing permits and completions by jurisdiction, and changes in rents and home prices relative to income.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XV — STUDENT DEBT RELIEF AND PUBLIC HIGHER EDUCATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1605,7 +1646,7 @@ SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
 
 (a) INTEREST ACCRUAL ELIMINATION.—All interest accrual on outstanding federal student lending instruments is permanently reduced to zero percent (0%) effective on the first day of the month following enactment. No retroactive interest charges, capitalized interest, or deferred interest accrued prior to enactment shall be assessed on federal loan instruments held by borrowers with annual incomes below one hundred fifty percent (150%) of the SPI median.
 
-(b) ENDOWMENT ACCOUNTABILITY ASSESSMENT.—The Department of Education may, after notice and an opportunity for a hearing and in accordance with section 1606, seek an accountability assessment against the unrestricted financial endowments of post-secondary educational institutions that demonstrate a persistent structural variance, over not fewer than five (5) consecutive academic years, between tuition cost growth and the median regional wage velocity of their graduates. The assessment shall not exceed fifteen percent (15%) of the excess tuition growth rate above regional wage velocity, applied to unrestricted endowment assets. An institution may satisfy the assessment in full by applying an equal amount, within two (2) academic years, to tuition reductions or need-based grant aid for its own students.
+(b) ENDOWMENT ACCOUNTABILITY ASSESSMENT.—The Department of Education may, after notice and an opportunity for a hearing and in accordance with section 1604, seek an accountability assessment against the unrestricted financial endowments of post-secondary educational institutions that demonstrate a persistent structural variance, over not fewer than five (5) consecutive academic years, between tuition cost growth and the median regional wage velocity of their graduates. The assessment shall not exceed fifteen percent (15%) of the excess tuition growth rate above regional wage velocity, applied to unrestricted endowment assets. An institution may satisfy the assessment in full by applying an equal amount, within two (2) academic years, to tuition reductions or need-based grant aid for its own students.
 
 (c) INCOME-BASED FORGIVENESS PATHWAY.—Any federal student loan borrower whose annual income for five (5) or more consecutive years has been below one hundred twenty-five percent (125%) of the federal poverty guideline shall receive automatic discharge of the remaining principal balance, administered by the Department of Education within one hundred eighty (180) days of eligibility verification, capitalized from the SIRF Knowledge Access Node.
 
@@ -1645,7 +1686,7 @@ SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITEC
 
 (2) DENYING THE FLIGHT LOCK REQUEST.—If the duty ALJ finds the triggering event has not been established by the FMIA's monitoring data to the probable cause standard, or that the transaction at issue falls within a recognized exemption.
 
-(d) LEGAL EFFECT OF AUTHORIZED LOCK.—Upon ALJ authorization, the affected domestic clearing networks, Federal Reserve discount windows, and electronic payment gateways shall freeze all international settlement operations tied to the offending entity for a fixed period of forty-five (45) calendar days. Frozen assets shall serve as temporary liquidity reserves for the SIRF pending final resolution. No administrative waivers or executive order interventions may release an authorized lock; release requires ALJ order on adversarial hearing or judicial review.
+(d) LEGAL EFFECT OF AUTHORIZED LOCK.—Upon ALJ authorization, the affected domestic clearing networks, Federal Reserve discount windows, and electronic payment gateways shall hold, for a period of not more than forty-five (45) calendar days, international settlement transfers by the offending entity up to the amount of documented flight conduct specified in the ALJ authorization. Ordinary-course payments for payroll, taxes, trade obligations, and debt service shall continue. Held funds remain the property of the entity, shall not be used by the United States or the SIRF for any purpose, and shall accrue interest for the owner's benefit. The lock dissolves automatically at the end of the period unless the FMIA has filed a civil action under section 1604 and the court has extended it. No administrative waiver or executive order may release an authorized lock early; early release requires an ALJ order after an adversarial hearing, or judicial review.
 
 (e) ADVERSARIAL HEARING — SEVENTY-TWO HOURS.—Within seventy-two (72) hours of Lock authorization, the FMIA shall provide the affected entity a full adversarial hearing before the FMIA Administrative Law Judge, at which the entity may contest the factual basis for the Lock, present exculpatory evidence, and seek immediate release of specifically identified assets that are not subject to the triggering transaction.
 
@@ -1679,7 +1720,7 @@ SEC. 1603. INFLATION RELIEF AND COST-OF-LIVING PROTECTION.
 
 (c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FMIA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
 
-SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
+SEC. 1604. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
 
 (a) JARKESY COMPLIANCE — GOVERNING RULE.—Notwithstanding any other provision of this Act, no civil monetary penalty, punitive surcharge, strict-liability clawback, revenue seizure, or asset forfeiture shall be finally assessed against any person or Covered Entity except by a United States District Court, an Article III tribunal, in a proceeding in which the defendant's Seventh Amendment right to trial by jury is preserved. This rule conforms the enforcement architecture of this Act to Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), Tull v. United States, 481 U.S. 412 (1987), and Granfinanciera, S.A. v. Nordberg, 492 U.S. 33 (1989).
 
@@ -1889,6 +1930,21 @@ SEC. 1709. SCHEDULE D BENCHMARKS — TITLE XVII.
 The Secretary of Energy, the Secretary of Transportation, and the FMIA shall report jointly to Congress biennially on: (1) megawatts of generation added at existing dams and of pumped storage hydropower placed in service, including under Section 905(f); (2) high-hazard-potential dams rehabilitated; (3) hydropower license and relicense decisions issued, with median times from complete application to final action; (4) inspection coverage and the number of assets in each soundness category; (5) unit-cost benchmarks and the projects that exceeded them; (6) compliance with environmental review deadlines, and extensions granted, for covered infrastructure projects; and (7) unit costs of passenger rail corridors financed under Section 803.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1710. WILDFIRE, FLOOD, AND EXTREME-HEAT RESILIENCE.
+
+(a) FINDINGS.—Congress finds that wildfire, flood, hurricane, and extreme-heat losses have risen sharply; that independent studies have found that each dollar invested in hazard mitigation saves several dollars in avoided losses; and that the inspection, unit-cost, and fixed-schedule review provisions of this Title should be applied to protecting communities before disasters, not only to rebuilding after them.
+
+(b) PRE-DISASTER MITIGATION.—The Administrator of the Federal Emergency Management Agency shall make competitive pre-disaster mitigation grants under section 203 of the Robert T. Stafford Disaster Relief and Emergency Assistance Act (42 U.S.C. § 5133) in each fiscal year in an amount not less than six percent (6%) of the estimated aggregate amount of grants made under sections 403, 406, 407, 408, 410, 416, and 428 of that Act for major disasters declared in the preceding fiscal year, and shall not suspend or terminate the program by administrative action.
+
+(c) ELIGIBLE PROJECTS.—Eligible projects include hazardous-fuels reduction and defensible space in the wildland-urban interface; elevation, buyout, and flood-proofing of repetitively flooded properties; nature-based flood protection; cooling centers, tree canopy, and cool-roof programs for extreme heat; and hardening of electric distribution lines in high wildfire-risk areas, including undergrounding and covered conductors.
+
+(d) STANDARDS.—Projects funded under this section shall have a benefit-cost ratio of not less than 1.0 under the Administrator's methodology, shall follow the standard-design and unit-cost requirements of Section 1706 where applicable, and shall be eligible for the fixed review schedule of Section 1707.
+
+(e) SMALL AND RURAL COMMUNITIES.—Not less than twenty-five percent (25%) of grants under this section shall be reserved for communities with populations of fewer than 50,000, with a federal cost share of up to ninety percent (90%) for such communities.
+
+(f) BENCHMARKS.—The Administrator shall report biennially to Congress, as part of the Schedule D benchmarks, on grants awarded, projected and realized avoided losses, and the share of awards to small and rural communities.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1901,7 +1957,7 @@ SEC. 1801. STANDING — CONCRETE INJURY SPECIFICATION BY TITLE.
 
 (2) TITLE II — SIRF DIVERSION INJURIES.—Plaintiff class: Any domestic manufacturer, infrastructure operator, or worker employed at a SIRF-designated facility that did not receive investment due to unlawful diversion of SIRF-eligible funds. Concrete injury: Quantifiable economic loss attributable to the funding gap created by the unlawful diversion, calculated per the SIRF Investment Impact Model in Schedule C.
 
-(3) TITLE V — STRUCTURAL ELIGIBILITY INJURIES.—Plaintiff class: Any individual denied a Public Endowment Distribution or Secure Child Prosperity Trust deposit on the basis of criteria superseded by this Act. Concrete injury: Deprivation of a statutory entitlement in a specific dollar amount, calculable per the endowment formula in Title V, Sections 502 and 503.
+(3) TITLE V — STRUCTURAL ELIGIBILITY INJURIES.—Plaintiff class: Any individual denied a Public Endowment Distribution or Secure Child Prosperity Trust deposit on the basis of criteria superseded by this Act. Concrete injury: Deprivation of a statutory entitlement in a specific dollar amount, calculable per the endowment formula in Title V, Section 502.
 
 (4) TITLE XIV — SHELTER SECURITY INJURIES.—Plaintiff class: Any individual paying rent in a housing market where portfolio concentration exceeds the Title XIV threshold and market-rate rents demonstrably exceed the Structural Rent Baseline. Concrete injury: The difference between actual rent paid and the Structural Rent Baseline, calculated monthly and capped at the statutory maximum.
 
@@ -1949,7 +2005,7 @@ SEC. 1803. ADMINISTRATIVE APPEALS AND JUDICIAL REVIEW.
 
 (d) PRELIMINARY INJUNCTION STANDARD.—No court shall grant a preliminary injunction staying any provision of this Act without finding all four elements of the traditional equity standard: (1) likelihood of success on the merits; (2) irreparable harm in the absence of relief; (3) balance of equities favoring the movant; and (4) public interest in granting relief. The financial burden on a Covered Entity of paying into the SIRF pending appeal shall not, standing alone, constitute irreparable harm.
 
-SEC. 1803A. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
+SEC. 1804. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
 
 (a) ANNUAL REPORT TO CONGRESS.—The FMIA shall transmit to Congress, not later than March 1 of each year, a comprehensive Annual Security Report detailing:
 (1) The number and dollar value of structural variance findings and enforcement actions in the preceding fiscal year;
@@ -1964,7 +2020,7 @@ SEC. 1803A. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
 
 (d) STATE SOVEREIGNTY CONSULTATION PROTOCOL.—Before any FMIA regulation is finalized that imposes new requirements on state governments, the FMIA shall convene a thirty (30) day consultation period with the National Governors Association and the National Conference of State Legislatures. Final regulations shall include a written response to all substantive state concerns raised during consultation.
 
-SEC. 1803B. MANDATORY CONGRESSIONAL REAUTHORIZATION.
+SEC. 1805. MANDATORY CONGRESSIONAL REAUTHORIZATION.
 
 (a) SIRF REAUTHORIZATION.—The Strategic Infrastructure Reinvestment Fund established under Section 201 shall be subject to mandatory Congressional reauthorization not later than ten (10) years after the date of enactment of this Act, and every ten (10) years thereafter. Reauthorization shall be by Act of Congress, and shall include:
 (1) A comprehensive review by the Government Accountability Office of SIRF capitalization levels, investment deployment efficiency, and economic impact on domestic manufacturing, housing, energy, and infrastructure;
@@ -1979,7 +2035,7 @@ SEC. 1803B. MANDATORY CONGRESSIONAL REAUTHORIZATION.
 (c) FMIA REAUTHORIZATION.—The Federal Market Integrity Administration established under Title I shall be subject to mandatory Congressional reauthorization not later than seven (7) years after the date of enactment of this Act, and every seven (7) years thereafter. Reauthorization shall include a comprehensive Inspector General audit of FMIA enforcement actions, regulatory capture risk assessment, and performance against the benchmarks of Schedule D and the benchmark sections of each Title of this Act. The failure of Congress to reauthorize the FMIA shall not affect the validity of any prior FMIA enforcement action or Verified Structural Variance finding.
 
 (d) ADVANCE NOTICE TO CONGRESS.—Not later than two (2) years before each applicable reauthorization deadline, the FMIA Administrator shall transmit to Congress a Reauthorization Readiness Report containing all data necessary for Congress to conduct the required review, including performance metrics, enforcement statistics, constitutional compliance assessments, and the SIRF IG's independent evaluation.
-SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
+SEC. 1806. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
 
 (a) MATHEWS v. ELDRIDGE COMPLIANCE MANDATE.—All enforcement actions under this Act that deprive a Covered Entity or individual of a protected property interest shall satisfy the three-factor balancing test established in Mathews v. Eldridge, 424 U.S. 319 (1976): (1) the private interest affected; (2) the risk of erroneous deprivation and value of additional safeguards; and (3) the government's interest. To structurally satisfy this test, the following hardcoded pre-deprivation notice windows are mandatory:
 
@@ -1993,7 +2049,7 @@ SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
 
 (d) EMERGENCY BYPASS.—In exigent circumstances where observance of the applicable pre-deprivation notice window otherwise required under Section 1802(a) — whether the forty-five (45), sixty (60), or one hundred eighty (180) day window — would create an imminent, irreversible harm to the national interest, including active financial fraud, imminent asset flight, or public health emergency, the FMIA may apply for an Emergency Enforcement Order from the United States District Court for the District of Columbia on 24-hour notice to the target entity, with a full Mathews hearing scheduled within fourteen (14) days of the emergency order's issuance. The emergency bypass shall not be available to shorten the one hundred eighty (180) day divestment window of Section 1802(a)(3) except upon the District Court's express finding of imminent, irreversible harm specific to the assets subject to divestment.
 
-SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
+SEC. 1807. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 
 (a) EMERGENCY REVIEW TRACK — ESTABLISHMENT.—The Judicial Conference of the United States shall, within one hundred eighty (180) days of enactment, establish an Emergency National Enforcement Track in each United States District Court and Court of Appeals, providing expedited adjudication of all enforcement actions under this Act that involve asset freezes, operational restrictions, property transfers, or penalties exceeding one million dollars ($1,000,000). Target adjudication timelines shall be:
 
@@ -2021,22 +2077,36 @@ SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
 (5) All other Titles regulate economic activities that in the aggregate substantially affect interstate commerce, satisfying the standard of Gonzales v. Raich, 545 U.S. 1 (2005).
 
 
-SEC. 1806. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
+SEC. 1808. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
 
 (a) FINDINGS.—Congress finds that:
 (1) The authority to impose temporary capital flow restrictions on Covered Entities engaged in documented asymmetric capital flight constitutes an exercise of the war and emergency powers of Congress, grounded in the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Necessary and Proper Clause (Art. I, Sec. 8, Cl. 18), and the precedent established by the International Emergency Economic Powers Act (50 U.S.C. §§ 1701–1708) ("IEEPA");
 (2) Capital flight restrictions imposed under this Title target conduct that constitutes an unusual and extraordinary threat to the domestic economy, the stability of the SIRF capitalization framework, and the national interest;
 (3) The procedural protections of this Title — including ALJ warrant requirements, pre-deprivation notice windows, and emergency judicial review — are specifically calibrated to satisfy the substantive due process requirements of Mathews v. Eldridge, 424 U.S. 319 (1976), and to ensure that capital flight restrictions do not constitute an unconstitutional taking under the Fifth Amendment;
-(4) Any capital flow restriction imposed under this Title shall be the minimum necessary to address the documented flight conduct, shall be time-limited, and shall be subject to immediate judicial review under the Emergency National Enforcement Track of Section 1805.
+(4) Any capital flow restriction imposed under this Title shall be the minimum necessary to address the documented flight conduct, shall be time-limited, and shall be subject to immediate judicial review under the Emergency National Enforcement Track of Section 1807.
 
 (b) PRESIDENTIAL EMERGENCY DECLARATION REQUIREMENT.—No capital flow lock, asset freeze, or forced domestic repatriation order affecting a Covered Entity's liquid capital assets in excess of one hundred million dollars ($100,000,000) may take effect under this Act unless:
 (1) The President has issued a written determination, consistent with 50 U.S.C. § 1703(b), that the conduct of the relevant Covered Entity or class of entities constitutes an unusual and extraordinary threat to the domestic economic order;
 (2) The President has transmitted such determination to Congress within forty-eight (48) hours of issuance; and
-(3) An ALJ Judicial Verification Warrant has been issued pursuant to Section 1804(c) (Pre-Deprivation Procedural Due Process Architecture — Administrative Law Judge Judicial Verification Warrant).
+(3) An ALJ Judicial Verification Warrant has been issued pursuant to Section 1806(c) (Pre-Deprivation Procedural Due Process Architecture — Administrative Law Judge Judicial Verification Warrant).
 
 (c) TEMPORAL LIMITATION.—Any capital flow lock imposed under this section shall expire automatically after one hundred eighty (180) calendar days unless renewed by an Act of Congress. The FMIA shall notify the affected entity of the expiration or renewal determination not less than thirty (30) days before the expiration date.
 
 (d) SEVERABILITY.—The authority established in this section is severable from all other enforcement authorities of this Act. A judicial determination that any specific capital flow lock was unconstitutionally imposed shall not affect the validity of any other enforcement action under this Act.
+
+SEC. 1809. GENERAL SAFEGUARDS — JUST COMPENSATION AND LIMITS ON DELEGATED AUTHORITY.
+
+(a) JUST COMPENSATION SAVINGS CLAUSE.—
+(1) Nothing in this Act authorizes the taking of private property for public use without just compensation as required by the Fifth Amendment to the Constitution of the United States.
+(2) Any person who claims that the application of any provision of this Act to that person's property effects a taking may bring an action in the United States Court of Federal Claims under section 1491 of title 28, United States Code. Any judgment shall be paid from the SIRF, and if SIRF balances are insufficient, from the permanent appropriation established under section 1304 of title 31, United States Code.
+(3) If a court determines that the application of any provision of this Act to particular property would effect a taking for which compensation is not available, that application shall be severed and enjoined, and the provision shall remain in effect as to all other persons and applications.
+
+(b) INTELLIGIBLE PRINCIPLE FOR AGENCY-SET AMOUNTS.—Wherever this Act authorizes a Federal agency, the FMIA, the SCA, or any other entity established by this Act to set or adjust a benefit amount, credit, fee, assessment rate, price, royalty, lease rate, or performance standard, the following shall apply unless this Act expressly provides otherwise:
+(1) RULEMAKING.—The amount or standard shall be set by rule issued after notice and an opportunity for public comment under section 553 of title 5, United States Code.
+(2) STATUTORY RANGE.—The amount shall fall within any range stated in this Act. Where no range is stated, no annual adjustment may exceed ten percent (10%) of the amount in effect for the preceding year, except by rule containing a written justification under paragraph (3) and subject to paragraph (4).
+(3) REQUIRED FACTORS.—In setting the amount, the agency shall consider and make written findings on: (A) the purpose of the provision that authorizes it; (B) documented cost, price, and market data; (C) the effect on consumers, workers, and small businesses; (D) regional variation; and (E) the fiscal effect on the SIRF and the Federal budget, as certified by the Director of the Office of Management and Budget.
+(4) CONGRESSIONAL REVIEW.—Each such rule shall be a rule for purposes of chapter 8 of title 5, United States Code. A rule that increases any fee, assessment rate, price, or royalty paid by private persons by more than ten percent (10%) shall not take effect until sixty (60) days of continuous session of Congress after its submission.
+(5) JUDICIAL REVIEW.—Each such rule shall be subject to judicial review under chapter 7 of title 5, United States Code, and no provision of this Act shall be construed to require a court to defer to an agency's interpretation of this Act.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIX — RETURN ON INVESTMENT, PERFORMANCE BENCHMARKS, AND AMERICAN HOUSEHOLD BENEFIT ACCOUNTING
@@ -2054,7 +2124,7 @@ SEC. 1901. AMERICAN HOUSEHOLD DIVIDEND — PROJECTED BENEFITS.
 
 (4) STUDENT DEBT RELIEF.—The zero-interest conversion and income-based forgiveness provisions of Title XV are projected to reduce average annual student debt burden by not less than two thousand four hundred dollars ($2,400) per borrower-household for the approximately forty-three million Americans currently carrying federal student loan debt.
 
-(5) CHILD WEALTH BUILDING.—The Secure Child Prosperity Trust established in Section 503 is projected to provide every child born after enactment an accumulated account value of not less than thirty-two thousand dollars ($32,000) at age eighteen, representing the largest universal wealth-building intervention in American history.
+(5) CHILD WEALTH BUILDING.—The Secure Child Prosperity Trust established in Section 502 makes the $1,000 federal birth deposit permanent for every child and adds a dollar-for-dollar savings match of up to $500 a year for lower-income families, so that a family saving $500 a year can build an account of approximately $37,000 by the child's eighteenth birthday at historical market returns.
 
 (6) BROADBAND SAVINGS.—The price gouging prohibition and open-access mandate of Title VIII are projected to reduce average annual broadband expenditure by not less than two hundred forty dollars ($240) per household in currently monopolized markets.
 
@@ -2213,7 +2283,7 @@ SCHEDULE B — PARTICULARIZED INJURY SPECIFICATIONS FOR ARTICLE III STANDING
 
 2. TITLE II (SIRF Diversion).—Concrete injury is defined as the calculable economic loss and foregone employment wages suffered by domestic industrial workers due to an unlawful diversion of SIRF capital, calculated as the per-worker share of the unlawfully diverted sum applied to the SIRF Investment Impact Model.
 
-3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the Household Structural Relief Node formula in Section 502(c) to the claimant's verified household profile.
+3. TITLE V (Universal Prosperity).—Concrete injury is defined as the deprivation of a statutory entitlement in a specific, calculable dollar amount, calculated by applying the applicable benefit formula of Title V or the designated mechanisms of Section 3403 to the claimant's verified household profile.
 
 4. TITLE XIII (Pharmaceutical Parity).—Concrete injury is defined as the exact dollar difference between the price paid by a patient for a covered therapeutic and the G7 median price of the identical therapeutic at the time of purchase.
 
@@ -2407,7 +2477,7 @@ SEC. 2106. CARRIER COMPLIANCE AND ANTI-PROFITEERING ENFORCEMENT.
 
 (a) STRICT LIABILITY VIOLATIONS.—The following constitute strict liability violations enforceable by HHS, the FMIA, and by private right of action: (1) imposing any premium, deductible, copayment, or cost-sharing for any BMP-covered service; (2) imposing prohibited prior authorization requirements; (3) balance billing a BMP enrollee for covered services; (4) retaliating against an enrollee for filing a complaint; (5) conditioning BMP enrollment on supplemental product purchase.
 
-(b) CIVIL PENALTIES.—Violations shall be subject, in an action brought in accordance with section 1606, to: (1) a per-instance civil penalty of not less than twenty-five thousand dollars ($25,000), routed to the HSF; (2) treble damages to the affected enrollee; (3) for carriers accumulating more than two hundred fifty (250) violations in any twelve-month period, mandatory suspension of BMP carrier status pending compliance audit; and (4) for willful systematic violation patterns, permanent revocation of BMP carrier status and disqualification from all federal health programs for ten (10) years.
+(b) CIVIL PENALTIES.—Violations shall be subject, in an action brought in accordance with section 1604, to: (1) a per-instance civil penalty of not less than twenty-five thousand dollars ($25,000), routed to the HSF; (2) treble damages to the affected enrollee; (3) for carriers accumulating more than two hundred fifty (250) violations in any twelve-month period, mandatory suspension of BMP carrier status pending compliance audit; and (4) for willful systematic violation patterns, permanent revocation of BMP carrier status and disqualification from all federal health programs for ten (10) years.
 
 (c) CITIZEN BOUNTY.—Consistent with Section 401, any individual who documents and reports a BMP carrier strict liability violation shall be entitled to fifteen percent (15%) of any civil penalty collected, disbursed within fourteen (14) calendar days of collection.
 
@@ -3178,9 +3248,9 @@ SCHEDULE E — PHASE GATE TRIGGER PARAMETERS
 
 SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
-(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the Household Structural Relief Node shall be in Phase 1 status. No HSRN disbursements shall occur to any household that is not already receiving federal assistance under Title V pilot program authority (Sec. 502(f)(1)).
+(a) PHASE 1 — DEFAULT POSITION.—Upon enactment, the Household Structural Relief Node shall be in Phase 1 status and shall fund the designated mechanisms of Section 3403 in their statutory priority order, to the extent of verified Node inflows.
 
-(b) PHASE 2 — GATE 1 CONDITIONS.—HSRN shall advance to Phase 2 — targeted deployment at three hundred dollars ($300) per month base rate to households at or below one hundred fifty percent (150%) of the federal poverty guideline — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
+(b) PHASE 2 — GATE 1 CONDITIONS.—The Household Structural Relief Node shall advance to Phase 2 — full statutory funding of the first three designated mechanisms of Section 3403 — when all three of the following conditions are simultaneously certified by the CBO in a formal cost estimate published in the Federal Register:
 
 (1) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below nine hundred billion dollars ($900,000,000,000) based on CBO's most recent baseline projection;
 
@@ -3188,19 +3258,19 @@ SEC. E-001. PHASE GATE CONDITIONS — STATUTORY THRESHOLDS.
 
 (3) SIRF CONDITION.—The SIRF balance, as certified by the FMIA, exceeds two hundred billion dollars ($200,000,000,000).
 
-(c) PHASE 3 — GATE 2 CONDITIONS.—HSRN shall advance to Phase 3 — universal deployment at full statutory rates to all eligible households — when both of the following conditions are simultaneously certified by the CBO:
+(c) PHASE 3 — GATE 2 CONDITIONS.—The Household Structural Relief Node shall advance to Phase 3 — full statutory funding of every designated mechanism of Section 3403 — when both of the following conditions are simultaneously certified by the CBO:
 
 (1) DEBT-TO-GDP CONDITION.—The federal debt held by the public as a percentage of GDP is below one hundred ten percent (110%); and
 
 (2) DEFICIT CONDITION.—The projected annual federal deficit for the current fiscal year is below four hundred billion dollars ($400,000,000,000).
 
-(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding HSRN expansion shall activate within sixty (60) days without requiring additional legislative action.
+(d) AUTOMATIC TRIGGER.—Phase Gate conditions are self-executing. When CBO certifies that all conditions for a given Phase Gate are met in a single published cost estimate or budget outlook, the corresponding Node funding expansion shall activate within sixty (60) days without requiring additional legislative action.
 
-(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, HSRN disbursements shall be adjusted downward on a pro-rata basis per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
+(e) DOWNWARD ADJUSTMENT.—If, after a Phase Gate has been met, fiscal conditions deteriorate such that the deficit rises above the applicable ceiling for two (2) consecutive fiscal years, Node funding for the mechanisms of Section 3403 shall be adjusted downward in reverse priority order per Section 005(b)(1), not eliminated entirely. The Phase Gate shall be re-met before returning to full Phase disbursement.
 
 (f) REVENUE SUPPRESSION COUNTERFACTUAL ADJUSTMENT.—(1) DETECTION MANDATE.—The FMIA shall maintain a Revenue Suppression Detection Module (RSDM) that identifies coordinated domestic revenue contraction by Covered Entities exceeding fifteen percent (15%) of the prior 36-month rolling baseline, correlated across two or more entities in the same sector, within twelve (12) months of enactment or any FMIA enforcement action. (2) CBO COUNTERFACTUAL DEFICIT.—Upon FMIA certification of a Revenue Suppression Event, the CBO shall compute and publish a Revenue-Adjusted Counterfactual Deficit (RACD) that adds back estimated revenue suppressed by the verified evasion activity. (3) ALTERNATIVE GATE CERTIFICATION.—The Phase Gate 2 Deficit Condition is satisfied if either: (A) the actual projected deficit falls below $900,000,000,000; OR (B) the RACD falls below $900,000,000,000 and the FMIA has certified a Revenue Suppression Event affecting the standard calculation. (4) REVENUE SUPPRESSION ASSESSMENT.—Any Covered Entity engaging in coordinated revenue suppression to prevent Gate 1 certification shall be subject to a Revenue Suppression Assessment equal to three times (3x) the estimated suppression value, deposited into the SIRF.
 
-(g) MINIMUM FLOOR HSRN.—Effective upon enactment, without Phase Gate certification, the FMIA shall disburse from SIRF investment returns a Minimum Floor HSRN of one hundred dollars ($100) per month to every eligible household at or below one hundred percent (100%) of the federal poverty guideline. Funded exclusively from SIRF investment returns, not SIRF principal; pro-rated if returns are insufficient. Upon Phase Gate 2 certification, the Floor HSRN is subsumed into the full Phase 2 disbursement.
+(g) NO CASH DISTRIBUTION.—Consistent with Section 3401, no Phase of this Schedule authorizes a universal or recurring cash distribution to households. Phase advancement increases funding only for the designated mechanisms of Section 3403.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4021,12 +4091,12 @@ SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
 (2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing economically distressed and rural communities;
 (3) QUANTUM-SECURED DATA CENTERS.—Facilities providing quantum-hardened storage and processing for FMIA operations, SIRF ledger infrastructure, and national security applications under interagency agreement with the National Security Agency and the Department of Defense;
 (4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
-(5) SEMICONDUCTOR MANUFACTURING CO-INVESTMENTS.—Equity co-investments in domestic advanced semiconductor foundry construction in partnership with Main Street Entities, consistent with the SIRF co-investment ratios of Section 006.
+(5) SEMICONDUCTOR MANUFACTURING CO-INVESTMENTS.—Equity co-investments in domestic advanced semiconductor foundry construction in partnership with Main Street Entities, consistent with the SIRF co-investment ratios of Section 007.
 
 (b) PROHIBITED INVESTMENTS AND ACTIVITIES.—The SCA shall not:
 (1) acquire equity stakes in foreign entities without express Congressional authorization by joint resolution;
 (2) invest in cryptocurrencies, digital asset speculation, or non-fungible tokens;
-(3) provide compute access to any entity subject to an active FMIA enforcement action or capital-flight lock under Section 1804;
+(3) provide compute access to any entity subject to an active FMIA enforcement action or capital-flight lock under Section 1601 or 1808;
 (4) CONSUMER AI AND B2C MARKET EXCLUSION.—develop, market, train, or operate consumer artificial intelligence products, services, or models, and shall not enter any business-to-consumer (B2C) service market in which domestic private commercial providers are operating, except as strictly necessary for governmental operations, scientific research, educational access, or national security purposes authorized by the Board and disclosed to Congress. The SCA is a national infrastructure provider, not a commercial AI developer or consumer services competitor. No future Board resolution, executive directive, or appropriations rider shall authorize SCA to compete with domestic commercial AI firms or any domestic B2C service provider in consumer-facing markets without express statutory authorization by Congress enacted after the procedures of subsection (d-1) have been satisfied.
 
 (d-1) CONGRESSIONAL DISAPPROVAL WINDOW FOR NEW SCA SERVICE CATEGORIES.—
@@ -4093,11 +4163,11 @@ The SCA and FMIA shall jointly report annually on:
 TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOLVENCY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
+SEC. 3401. RETIREMENT OF UNIVERSAL HOUSEHOLD CASH DISTRIBUTIONS.
 
 (a) SUPERSESSION.—The Household Structural Relief Node, previously established as a universal cash distribution mechanism tied to market-dependent SIRF returns, is hereby retired and superseded. No provision of this Act shall be construed to authorize HSRN cash distributions. The retirement of HSRN reflects the determination that market-dependent universal cash transfers create employment disincentive effects, are vulnerable to political lobbying by recipients against structural reforms, and are less effective per dollar than direct structural cost elimination in improving aggregate household economic position.
 
-(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for HSRN is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Secure Child Prosperity Trust birth deposits (Title V); the Shelter Security Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FMIA consistent with the Restoration Principle of Section 504(c).
+(b) REALLOCATION.—The twenty percent (20%) SIRF node allocation previously designated for HSRN is redesignated the Household Structural Relief Node. The Household Structural Relief Node shall fund: zero-interest student debt conversion (Title V); the Secure Child Prosperity Trust birth deposits (Title V); the Shelter Security Fund down payment assistance (Title XIV); SPI-WFTC wage floor tax credits (Title V); and any other direct structural cost elimination mechanisms designated by the FMIA consistent with the Restoration Principle of Section 503(c).
 
 (c) SURPLUS IMPROVEMENT.—The retirement of HSRN as a standing expenditure improves the net annual NSRA surplus from four hundred fifty billion dollars ($450,000,000,000) to five hundred fifty-four billion dollars ($554,000,000,000), reflecting elimination of the approximately one hundred billion dollars ($100,000,000,000) annual HSRN cash distribution expenditure. This surplus improvement is reflected in the fiscal summary of Section 3406.
 
@@ -4132,7 +4202,7 @@ SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
 
 The Household Structural Relief Node (formerly HSRN allocation) shall fund the following mechanisms in priority order within the Node:
 (1) Zero-interest student loan conversion interest subsidy — priority funding;
-(2) Secure Child Prosperity Trust birth deposits — four billion dollars ($4,000,000,000) annually;
+(2) Secure Child Prosperity Trust birth deposits — four billion dollars ($4,000,000,000) annually, and, beginning in Phase 2 under Schedule E, savings-match deposits under Section 502(c) of not more than four billion dollars ($4,000,000,000) annually;
 (3) Shelter Security Fund down payment and rental assistance — one billion five hundred million dollars ($1,500,000,000) annually;
 (4) SPI-WFTC wage floor tax credits — ten billion dollars ($10,000,000,000) annually;
 (5) TANF structural floor enhancement supplement — five billion dollars ($5,000,000,000) annually.
@@ -4239,7 +4309,7 @@ SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
 (4) TRANSMISSION INFRASTRUCTURE.—High-voltage direct current (HVDC) transmission lines and interstate grid interconnections supporting the Energy Security Node;
 (5) INDUSTRIAL CORRIDOR DEVELOPMENT.—Planned industrial parks and manufacturing campuses in economically distressed regions designated as Manufacturing Renaissance Zones under Section 1202.
 
-(e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 006.
+(e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 007.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -4379,6 +4449,8 @@ SEC. 3508. INSPECTOR GENERAL INDEPENDENCE.
 
 (d) ANNUAL REPORT.—The Council of the Inspectors General on Integrity and Efficiency shall report annually to Congress on all removals, transfers, placements on leave, and vacancies of Inspectors General, and on the duration of each vacancy.
 
+(e) SEVERABILITY.—If subsection (a) is held invalid as applied to any removal, the notice and reasons requirements of section 403(b) of title 5, United States Code, shall continue to apply, and subsections (b) through (d) shall remain in effect.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3509. PAYMENT INTEGRITY.
@@ -4407,7 +4479,7 @@ SEC. 3601. FINDINGS AND PURPOSE.
 (3) This Title regulates conduct — the undisclosed direction, funding, or control of influence activity by foreign principals, and the acquisition of sensitive United States assets by capital traceable to foreign adversaries — and does not regulate, restrict, or disfavor any person on the basis of national origin, ethnicity, religion, or the viewpoint or content of protected speech;
 (4) The disclosure obligations of this Title apply with equal force to influence activity directed, funded, or controlled by any foreign government, whether an ally, a partner, a neutral, or a designated adversary of the United States, and impose no obligation by reason of the identity of any domestic ethnic, national-origin, or religious community;
 (5) The Committee on Foreign Investment in the United States lacks comprehensive, categorical authority over the full range of acquisitions, greenfield investments, and controlling interests by which capital traceable to foreign adversaries may acquire United States critical infrastructure, defense-relevant supply chains, strategic compute capacity, agricultural land, and real property proximate to sensitive national security facilities; and
-(6) Sanctions-evasion and asymmetric capital-flight networks routinely employ shell entities, front companies, and nominee ownership structures established in high-risk jurisdictions to obscure the beneficial ownership of capital and to defeat enforcement, and a beneficial-ownership look-through standard is necessary to give effect to the capital-flight lock authority of Section 1806.
+(6) Sanctions-evasion and asymmetric capital-flight networks routinely employ shell entities, front companies, and nominee ownership structures established in high-risk jurisdictions to obscure the beneficial ownership of capital and to defeat enforcement, and a beneficial-ownership look-through standard is necessary to give effect to the capital-flight lock authority of Section 1808.
 
 (b) PURPOSE.—The purpose of this Title is to require uniform, viewpoint-neutral and nationality-neutral disclosure of foreign-principal influence activity, to close the Lobbying Disclosure Act exemption with respect to foreign-government principals, to establish a categorical screen on the acquisition of sensitive United States assets by capital traceable to foreign adversaries, and to extend a beneficial-ownership look-through standard to the enforcement authorities of this Act.
 
@@ -4449,13 +4521,13 @@ SEC. 3605. ADVERSARY CAPITAL SCREEN ON SENSITIVE UNITED STATES ASSETS.
 
 (c) CATEGORICAL RESTRICTION.—Where the Committee determines that a proposed acquisition would place a Sensitive United States Asset under the control of Adversary-Traceable Capital and that no mitigation measure can adequately protect the national security interest, the Committee shall prohibit the acquisition. Such a determination shall be supported by written findings and is subject to judicial review under the procedural protections of Title XVIII.
 
-(d) DIVESTITURE OF EXISTING HOLDINGS.—Where Adversary-Traceable Capital holds, as of the date of enactment, a controlling interest in a Sensitive United States Asset, the holder shall notify the Committee within one hundred eighty (180) days, and the Committee may order divestiture subject to the one hundred eighty (180) day asset-divestment notice window and ALJ Judicial Verification Warrant requirements of Section 1804, and, where applicable, the volume-absorption and just-compensation protections of Title XIV.
+(d) DIVESTITURE OF EXISTING HOLDINGS.—Where Adversary-Traceable Capital holds, as of the date of enactment, a controlling interest in a Sensitive United States Asset, the holder shall notify the Committee within one hundred eighty (180) days, and the Committee may order divestiture subject to the one hundred eighty (180) day asset-divestment notice window and ALJ Judicial Verification Warrant requirements of Section 1806, and, where applicable, the volume-absorption and just-compensation protections of Title XIV.
 
 (e) ALLY AND PARTNER CAPITAL UNAFFECTED.—Capital traceable solely to a foreign government that is not a Foreign Adversary is not Adversary-Traceable Capital and is not subject to the screen of this section, except to the extent independently reviewable under existing Committee authority.
 
 SEC. 3606. BENEFICIAL-OWNERSHIP LOOK-THROUGH — ANTI-FRONT-COMPANY ENFORCEMENT.
 
-(a) LOOK-THROUGH STANDARD.—For purposes of the capital-flight lock authority of Section 1806, the asset-seizure and forced-divestment authorities of Title XVIII, and the adversary capital screen of Section 3605, beneficial ownership shall be determined on a look-through basis that pierces every intermediary entity, nominee arrangement, trust, and front company, without regard to the jurisdiction in which any intermediary is organized.
+(a) LOOK-THROUGH STANDARD.—For purposes of the capital-flight lock authority of Section 1808, the asset-seizure and forced-divestment authorities of Title XVIII, and the adversary capital screen of Section 3605, beneficial ownership shall be determined on a look-through basis that pierces every intermediary entity, nominee arrangement, trust, and front company, without regard to the jurisdiction in which any intermediary is organized.
 
 (b) FRONT-COMPANY PRESUMPTION.—An entity shall be presumed to be a front company for a documented beneficial owner where the entity (1) is organized in a jurisdiction identified as high-risk for money laundering by the Financial Action Task Force or the Financial Crimes Enforcement Network; (2) lacks substantial independent business operations; and (3) engages in transactions principally for the benefit of the documented beneficial owner. The presumption is rebuttable by clear and convincing evidence of independent operations.
 
@@ -4463,7 +4535,7 @@ SEC. 3606. BENEFICIAL-OWNERSHIP LOOK-THROUGH — ANTI-FRONT-COMPANY ENFORCEMENT.
 
 SEC. 3607. ENFORCEMENT AND COORDINATION.
 
-(a) PRIMARY AGENCIES.—The Department of Justice (FARA Unit) shall be the primary enforcement agency for Sections 3603 and 3604; the Committee on Foreign Investment in the United States shall be primary for Section 3605; and the Department of the Treasury, in coordination with the FMIA, shall be primary for Section 3606 as it relates to Section 1806.
+(a) PRIMARY AGENCIES.—The Department of Justice (FARA Unit) shall be the primary enforcement agency for Sections 3603 and 3604; the Committee on Foreign Investment in the United States shall be primary for Section 3605; and the Department of the Treasury, in coordination with the FMIA, shall be primary for Section 3606 as it relates to Section 1808.
 
 (b) CIVIL DISCLOSURE ENFORCEMENT.—A knowing and willful failure to make a disclosure required by Section 3603 or 3604 is subject to civil penalty. Consistent with the enforcement architecture of this Act, no civil monetary penalty shall be finally assessed except by a United States District Court with the Seventh Amendment right to trial by jury preserved.
 
@@ -4472,6 +4544,199 @@ SEC. 3607. ENFORCEMENT AND COORDINATION.
 SEC. 3608. SCHEDULE D BENCHMARKS — TITLE XXXVI.
 
 The Department of Justice and the FMIA shall report biennially to Congress on: (1) the number of foreign-government principals newly registered under FARA following closure of the Lobbying Disclosure Act exemption; (2) the number of foreign-funded influence disclosures filed under Section 3604; (3) the number of adversary-capital acquisitions notified, cleared, mitigated, or prohibited under Section 3605; (4) the number of beneficial-ownership look-through determinations made under Section 3606; and (5) confirmation, with supporting aggregate data, that enforcement has been conducted on a nationality-neutral and viewpoint-neutral basis.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXVII — SCIENCE, RESEARCH, AND TALENT RENEWAL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3701. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+(1) Federally funded research produced the foundations of the internet, the global positioning system, modern semiconductors, mRNA vaccines, and the shale and nuclear energy industries, and remains the principal source of the basic research that private firms do not finance on their own.
+(2) Federal research and development spending equaled approximately 1.86 percent of gross domestic product in 1964 and has fallen to roughly 0.6 to 0.7 percent of gross domestic product.
+(3) According to the Organisation for Economic Co-operation and Development, total research and development intensity in the United States is approximately 3.5 percent of gross domestic product, below Israel (approximately 6.8 percent) and the Republic of Korea (approximately 5.1 percent), and the People's Republic of China now spends approximately as much as the United States on research and development when measured at purchasing-power parity.
+(4) The CHIPS and Science Act (Public Law 117–167) authorized the National Science Foundation at approximately $17,800,000,000 for fiscal year 2027, while appropriations for fiscal year 2026 were approximately $8,750,000,000, leaving the research investment Congress authorized largely unfunded.
+(5) Year-to-year swings in research funding cause laboratories to lose trained scientists and abandon multi-year work, wasting prior public investment.
+(6) Foreign nationals who earn advanced science and engineering degrees at United States universities are frequently unable to remain in the United States because of numerical and per-country limits on employment-based immigrant visas, and many go on to strengthen competitor economies.
+
+(b) PURPOSE.—The purpose of this Title is to restore United States leadership in science and technology by setting a long-term federal research investment path, funding research Congress has already authorized, stabilizing research grants, and retaining United States-trained scientific talent, while protecting federally funded research from adversary exploitation.
+
+SEC. 3702. NATIONAL RESEARCH INVESTMENT TARGET.
+
+(a) TARGET.—It is the policy of the United States that total federal research and development obligations shall reach not less than one percent (1.0%) of gross domestic product by the end of the tenth fiscal year beginning after the date of enactment of this Act.
+
+(b) ANNUAL PATHWAY.—The Director of the Office of Science and Technology Policy, in consultation with the Director of the Office of Management and Budget, shall publish with each President's budget submission a Research Investment Pathway Report stating federal research and development obligations as a share of gross domestic product for the prior fiscal year, the level required to remain on a straight-line path to the target in subsection (a), and the agency-by-agency allocation proposed to close any gap.
+
+(c) BASIC RESEARCH SHARE.—Not less than thirty percent (30%) of the increase in federal research and development obligations above the fiscal year 2026 level shall be directed to basic research, as defined by the National Science Foundation.
+
+SEC. 3703. RESEARCH FUNDING FLOORS.
+
+(a) AUTHORIZATION FLOORS.—For each of fiscal years 2028 through 2037, there are authorized to be appropriated not less than:
+(1) for the National Science Foundation, the amount authorized for fiscal year 2027 under the CHIPS and Science Act (Public Law 117–167), increased in each subsequent fiscal year by the greater of 3 percent or the percentage change in the gross domestic product price index;
+(2) for the Department of Energy Office of Science, and for the National Institute of Standards and Technology, the amounts authorized for fiscal year 2027 under that Act, increased in the same manner; and
+(3) for the National Institutes of Health, the amount appropriated for fiscal year 2026, increased in each subsequent fiscal year by the Biomedical Research and Development Price Index plus 1 percentage point.
+
+(b) RESEARCH STABILITY RESERVE.—There is established within the SIRF Knowledge Access Node a Research Stability Reserve. If amounts appropriated for an agency listed in subsection (a) for a fiscal year fall below the level appropriated for the preceding fiscal year, the Secretary of the Treasury shall, upon certification by the Director of the Office of Management and Budget, transfer from the Reserve to that agency an amount sufficient to continue, at not less than ninety percent (90%) of their prior-year level, all multi-year research awards already in force. Transfers under this subsection shall not exceed ten billion dollars ($10,000,000,000) in any fiscal year and shall be available only for continuing awards, not for new awards.
+
+(c) MULTI-YEAR AWARDS.—Each agency listed in subsection (a) shall make not less than fifty percent (50%) of new competitively awarded research grants, by dollar value, as awards of not less than four (4) years with fully committed out-year funding, subject to annual progress review.
+
+(d) EARLY-CAREER INVESTIGATORS.—Each agency listed in subsection (a) shall reserve not less than fifteen percent (15%) of new research grant dollars for principal investigators within ten (10) years of their terminal degree.
+
+SEC. 3704. REGIONAL TECHNOLOGY HUBS AND LAB-TO-MARKET TRANSLATION.
+
+(a) TECH HUB CONTINUATION.—The Secretary of Commerce shall continue the Regional Technology and Innovation Hub program under section 28 of the Stevenson-Wydler Technology Innovation Act of 1980 (15 U.S.C. § 3722a), with priority for regions outside the ten metropolitan areas receiving the largest share of federal research funding.
+
+(b) TRANSLATION GRANTS.—The Director of the National Science Foundation shall award competitive translation grants to universities, national laboratories, and community colleges to move federally funded discoveries into domestic production, with a preference for projects located in a Strategic Manufacturing Renaissance Zone established under Title XII.
+
+(c) DOMESTIC MANUFACTURING CONDITION.—Any patent arising from a translation grant under this section shall be subject to the domestic manufacturing preference of section 204 of title 35, United States Code, without waiver except upon a written finding by the agency head that domestic manufacture is not commercially feasible.
+
+SEC. 3705. RESEARCH SECURITY.
+
+(a) ADVERSARY RESTRICTIONS.—No funds made available under this Title may be awarded to any individual who is a participant in a malign foreign talent recruitment program, as defined in section 10638 of the CHIPS and Science Act (42 U.S.C. § 19231), or to any entity owned or controlled by a foreign country of concern as defined in Title XXXVI.
+
+(b) DISCLOSURE.—Each applicant for an award under this Title shall disclose all current and pending foreign research support, consistent with National Security Presidential Memorandum 33 and the requirements of Title XXXVI.
+
+(c) NON-DISCRIMINATION.—This section shall be administered without regard to the race, ethnicity, or national origin of any researcher, and shall apply only on the basis of documented affiliations and funding sources.
+
+SEC. 3706. RETAINING UNITED STATES-TRAINED SCIENTIFIC TALENT.
+
+(a) EXEMPTION FROM NUMERICAL LIMITS.—Section 201(b)(1) of the Immigration and Nationality Act (8 U.S.C. § 1151(b)(1)) is amended by adding at the end the following:
+"(F) Aliens who have earned a doctoral degree, or a master's degree in a field of science, technology, engineering, or mathematics, from an accredited institution of higher education in the United States that is classified as a doctorate-granting university with very high or high research activity, and who have an offer of employment in the United States in a related field at a wage not less than the median wage for the occupation in the area of intended employment, and the spouses and minor children of such aliens accompanying or following to join them."
+
+(b) SECURITY SCREENING.—No alien may be admitted or granted adjustment of status under the amendment made by subsection (a) who is a citizen of a foreign country of concern designated under Title XXXVI unless the Secretary of Homeland Security, in consultation with the Director of National Intelligence, certifies after individualized review that the alien does not pose a risk of technology transfer to that foreign country.
+
+(c) EMPLOYER ATTESTATION.—An employer petitioning under the amendment made by subsection (a) shall attest that the alien will be paid not less than the wage required by that amendment and that the hiring will not displace a similarly employed United States worker. Violations are subject to the enforcement provisions of section 212(n)(2) of the Immigration and Nationality Act.
+
+SEC. 3707. FUNDING AND BUDGET NEUTRALITY.
+
+(a) SOURCE.—Increases in appropriations above fiscal year 2026 levels for the agencies listed in section 3703(a), and capitalization of the Research Stability Reserve, shall be derived from the Tier 3 capacity of the SIRF identified in Schedule G, section 4, and shall be certified by the Director of the Office of Management and Budget as not increasing the deficit, using the Scenario B conservative floor.
+
+(b) CAP.—Amounts derived from the SIRF under this Title shall not exceed thirty billion dollars ($30,000,000,000) in any fiscal year.
+
+SEC. 3708. SCHEDULE D BENCHMARKS — TITLE XXXVII.
+
+The Director of the Office of Science and Technology Policy shall report biennially to Congress on: (1) federal research and development obligations as a share of gross domestic product against the pathway of section 3702; (2) appropriations for each agency listed in section 3703(a) against its authorization floor; (3) the success rate and median award duration for competitive research grants; (4) the number of United States-trained advanced-degree holders admitted or adjusted under section 3706 and their retention rate after five years; (5) patents, licenses, and domestic production facilities resulting from translation grants under section 3704; and (6) the number of research-security referrals and their outcomes under section 3705.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXVIII — FAMILY AND WORKFORCE SECURITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3801. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+(1) The United States is the only member country of the Organisation for Economic Co-operation and Development without a national paid leave entitlement for new parents.
+(2) Thirteen States and the District of Columbia have enacted paid family and medical leave insurance programs financed by modest payroll contributions, demonstrating that the model is administrable, affordable, and compatible with small-business growth.
+(3) Workers who cannot take paid leave to care for a newborn, a seriously ill family member, or their own serious health condition frequently leave the workforce, lowering labor-force participation and household income.
+(4) A shortage of licensed child care slots and low provider pay limit parents' ability to work, and the shortage is most severe in rural communities.
+(5) Registered apprenticeships produce high completion and earnings outcomes, yet the United States trains a far smaller share of its workforce through apprenticeship than peer economies, while the infrastructure, energy, and manufacturing investments of this Act will require hundreds of thousands of skilled trades workers.
+
+(b) PURPOSE.—The purpose of this Title is to let working Americans care for family without losing their jobs or incomes, expand the supply of child care, and train the skilled workforce this Act's build-out requires, through self-financing and employer-based mechanisms rather than open-ended spending.
+
+SEC. 3802. NATIONAL PAID FAMILY AND MEDICAL LEAVE INSURANCE.
+
+(a) ESTABLISHMENT.—There is established within the Social Security Administration an Office of Paid Family and Medical Leave, which shall administer a program of paid family and medical leave insurance benefits.
+
+(b) QUALIFYING REASONS.—An eligible individual may receive benefits for up to twelve (12) weeks in any twelve-month period for any purpose described in section 102(a)(1) of the Family and Medical Leave Act of 1993 (29 U.S.C. § 2612(a)(1)), including the birth, adoption, or foster placement of a child; the serious health condition of the individual or of a spouse, child, or parent; and qualifying exigencies arising from military deployment.
+
+(c) ELIGIBILITY.—An individual is eligible if the individual has earnings from employment or self-employment sufficient for insured status under the formula established by the Commissioner of Social Security, which shall not require more than four (4) quarters of covered earnings.
+
+(d) BENEFIT AMOUNT.—The weekly benefit shall equal sixty-six percent (66%) of the individual's average weekly covered earnings, not to exceed a maximum weekly benefit set by the Commissioner under Section 1809(b) of not less than one thousand dollars ($1,000) and not more than one thousand five hundred dollars ($1,500), indexed annually to the national average wage index, with a higher replacement rate of not less than eighty-five percent (85%) for earnings at or below the federal minimum wage.
+
+(e) FINANCING.—
+(1) CONTRIBUTION.—There is imposed a paid leave contribution of two-tenths of one percent (0.2%) of covered wages on employees and two-tenths of one percent (0.2%) on employers, collected in the same manner as taxes under the Federal Insurance Contributions Act and subject to the same annual wage base.
+(2) SMALL EMPLOYER RELIEF.—An employer with fewer than ten (10) employees shall be exempt from the employer share of the contribution; the employee share shall continue to apply.
+(3) TRUST FUND.—All contributions shall be deposited in a Paid Family and Medical Leave Trust Fund in the Treasury, from which all benefits and administrative costs shall be paid. Amounts in the Trust Fund shall not be used for any other purpose. Not later than five (5) years after benefits begin and every three (3) years thereafter, the Chief Actuary of the Social Security Administration shall certify the Trust Fund's solvency over a 25-year horizon and recommend any contribution adjustment needed to maintain it.
+
+(f) JOB PROTECTION.—An individual who takes leave under this section and has been employed by the employer for at least ninety (90) days shall be entitled to restoration to the same or an equivalent position on return, and shall not be subject to retaliation for applying for or receiving benefits.
+
+(g) STATE PROGRAMS.—A State that operates a paid family and medical leave program providing benefits at least equal to those under this section may elect to continue its program. Employers and employees covered by such a program shall be credited for State contributions against the contribution imposed by subsection (e), and the Commissioner shall coordinate benefits to prevent duplicate payment.
+
+(h) EMPLOYER PLANS.—An employer that provides paid leave under a written plan at least equal to the benefits of this section may apply to the Commissioner for an equivalency certification, under which the employer's contribution under subsection (e)(1) shall be reduced by the amount the Commissioner determines the employer plan saves the Trust Fund.
+
+(i) EFFECTIVE DATE.—Contributions shall begin on the first day of the first calendar year beginning not less than eighteen (18) months after the date of enactment of this Act, and benefits shall become payable one (1) year later.
+
+SEC. 3803. CHILD CARE SUPPLY EXPANSION.
+
+(a) SUPPLY GRANTS.—The Secretary of Health and Human Services shall make annual Child Care Supply Grants to States, allocated by formula under section 658O of the Child Care and Development Block Grant Act of 1990 (42 U.S.C. § 9858m), to increase the number of licensed child care slots.
+
+(b) STATE COMMITMENTS.—As a condition of receiving a grant, a State shall commit to: (1) a measurable increase in licensed slots, with a priority for infant and toddler care, rural communities, and care during non-traditional work hours; (2) a minimum provider compensation standard not less than the median wage of a kindergarten teacher in the State, phased in over five (5) years; and (3) streamlined licensing for home-based and faith-based providers that meet health and safety standards.
+
+(c) PROVIDER NEUTRALITY.—Grants may support center-based, home-based, faith-based, employer-sponsored, and public-school-based providers on equal terms, consistent with section 658N of the Child Care and Development Block Grant Act of 1990.
+
+(d) EMPLOYER-PROVIDED CHILD CARE CREDIT.—Section 45F of the Internal Revenue Code of 1986 is amended by increasing the maximum credit from $150,000 to $500,000 and, for eligible small businesses, to $600,000.
+
+(e) AUTHORIZATION.—There are authorized to be appropriated for grants under this section twelve billion dollars ($12,000,000,000) for each of fiscal years 2028 through 2037, derived as provided in section 3805.
+
+SEC. 3804. NATIONAL APPRENTICESHIP EXPANSION.
+
+(a) APPRENTICESHIP CREDIT.—Subpart D of part IV of subchapter A of chapter 1 of the Internal Revenue Code of 1986 is amended by inserting a credit for each taxable year equal to two thousand five hundred dollars ($2,500) for each registered apprentice employed by the taxpayer for not less than seven (7) months of the taxable year in a program registered under the National Apprenticeship Act (29 U.S.C. § 50 et seq.), increased to three thousand five hundred dollars ($3,500) for an apprentice who is a veteran, is under twenty-five (25) years of age, or is employed in a Strategic Manufacturing Renaissance Zone. The credit shall be refundable for employers with fewer than fifty (50) employees.
+
+(b) BUILD-OUT TRADES PRIORITY.—The Secretary of Labor shall give priority in apprenticeship grants to programs in occupations required for projects funded under Titles IX, XVII, and XXXIII, including electricians, lineworkers, welders, pipefitters, hydropower and nuclear technicians, and semiconductor technicians.
+
+(c) PRE-APPRENTICESHIP AND HIGH SCHOOL PATHWAYS.—The Secretary of Labor, in coordination with the Secretary of Education, shall award grants for pre-apprenticeship and dual-enrollment programs that award credit toward a registered apprenticeship, consistent with the vocational parity requirement of Title XV.
+
+SEC. 3805. FUNDING AND BUDGET NEUTRALITY.
+
+(a) PAID LEAVE.—The program under section 3802 is self-financing through the Paid Family and Medical Leave Trust Fund and shall not draw on the general fund of the Treasury or the SIRF, except for a one-time, repayable start-up advance not to exceed five billion dollars ($5,000,000,000), to be repaid with interest within ten (10) years.
+
+(b) CHILD CARE AND APPRENTICESHIP.—Amounts for sections 3803 and 3804 shall be derived from the Tier 3 capacity of the SIRF identified in Schedule G, section 4, and certified by the Director of the Office of Management and Budget as not increasing the deficit, using the Scenario B conservative floor. Such amounts shall not exceed sixteen billion dollars ($16,000,000,000) in any fiscal year.
+
+SEC. 3806. SCHEDULE D BENCHMARKS — TITLE XXXVIII.
+
+The Commissioner of Social Security, the Secretary of Health and Human Services, and the Secretary of Labor shall report biennially to Congress on: (1) the number of workers receiving paid leave benefits, by reason and income quintile, and the actuarial status of the Trust Fund; (2) labor-force participation of mothers of children under six and of family caregivers; (3) the number of licensed child care slots, by State and by rural and urban location, and average provider compensation; (4) registered apprentices, completion rates, and post-completion earnings; and (5) the number of apprentices placed in projects funded under Titles IX, XVII, and XXXIII.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XXXIX — DIGITAL GOVERNMENT MODERNIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 3901. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that:
+(1) The United States ranked first in the United Nations E-Government Development Index in 2003 through 2005 and nineteenth in 2024.
+(2) Core benefit, tax, and payment systems at major federal agencies, and many State unemployment insurance systems, still run on decades-old code that is costly to maintain, difficult to secure, and prone to failure during surges in demand.
+(3) The Government Accountability Office estimated federal improper payments at approximately one hundred eighty-six billion dollars ($186,000,000,000) in fiscal year 2025, and has repeatedly linked improper payments to outdated systems and the inability to verify eligibility data across agencies.
+(4) Americans should be able to apply for and manage federal benefits online in one place, securely and without repeating the same information to multiple agencies.
+
+(b) PURPOSE.—The purpose of this Title is to retire high-risk legacy systems on a fixed schedule, give the public a single secure front door to federal services, and reduce fraud and improper payments through modern data verification, while protecting privacy.
+
+SEC. 3902. LEGACY SYSTEM RETIREMENT.
+
+(a) INVENTORY.—Not later than one hundred eighty (180) days after the date of enactment of this Act, the head of each agency listed in section 901(b) of title 31, United States Code, shall submit to the Federal Chief Information Officer and to Congress an inventory of every mission-critical information system more than twenty (20) years old or dependent on programming languages or hardware no longer supported by a vendor.
+
+(b) RETIREMENT SCHEDULE.—Each agency shall retire or modernize every system in its inventory within seven (7) years, and shall give priority to systems that process Social Security, Medicare, Medicaid, veterans', tax, and unemployment insurance payments.
+
+(c) LEGACY MODERNIZATION FUND.—There is established within the Technology Modernization Fund under section 1078 of the Modernizing Government Technology Act of 2017 (40 U.S.C. § 11301 note) a Legacy Retirement Account. Awards from the Account shall be repaid by the receiving agency from documented operating savings over not more than ten (10) years.
+
+(d) STATE UNEMPLOYMENT SYSTEMS.—The Secretary of Labor shall award grants to States to replace legacy unemployment insurance systems with modular, open-standard systems capable of handling claim surges of not less than ten (10) times normal volume, with fraud-detection capabilities meeting standards set by the Secretary.
+
+(e) MODERN PRACTICES.—Modernization funded under this section shall use modular contracting, agile and user-centered development, open standards that avoid vendor lock-in, and the cybersecurity and post-quantum migration requirements of Title XVI.
+
+SEC. 3903. SINGLE FRONT DOOR FOR FEDERAL SERVICES.
+
+(a) ESTABLISHMENT.—The Administrator of General Services, through the Technology Transformation Services, shall establish a single, secure online portal through which an individual may apply for, track, and manage federal benefits and services, using the Login.gov identity-verification service administered by the General Services Administration or its successor.
+
+(b) TELL US ONCE.—With the individual's affirmative consent, information verified by one agency may be reused by another agency for the same individual, so that no individual is required to resubmit information the Federal Government already holds.
+
+(c) ACCESSIBILITY.—The portal shall be usable on mobile devices, shall meet the accessibility requirements of section 508 of the Rehabilitation Act of 1973, and shall offer in-person and telephone alternatives for individuals who cannot or choose not to use online services.
+
+(d) PRIVACY.—Data shared under this section shall be limited to the minimum necessary, shall be subject to the Privacy Act of 1974 and the data-rights and warrant protections of Title III, shall not be used for any law-enforcement purpose except pursuant to a warrant, and shall not be sold or transferred to any non-governmental person.
+
+SEC. 3904. PAYMENT VERIFICATION AND FRAUD PREVENTION.
+
+(a) VERIFICATION SERVICE.—The Secretary of the Treasury shall expand the Do Not Pay working system under section 3354 of title 31, United States Code, to provide real-time eligibility and identity verification to federal agencies and to States administering federally funded programs, including access to the Social Security Administration's full death records.
+
+(b) COORDINATION WITH PAYMENT INTEGRITY.—Savings documented under this section shall be reported under the payment integrity requirements of Section 3509.
+
+SEC. 3905. FUNDING AND BUDGET NEUTRALITY.
+
+(a) SOURCE.—There are authorized to be appropriated for the Legacy Retirement Account and grants under section 3902 five billion dollars ($5,000,000,000) for each of fiscal years 2028 through 2032, derived as follows: first, from improper-payment reductions documented under Section 3509 and section 3904; and second, to the extent such savings are insufficient, from the Tier 3 capacity of the SIRF identified in Schedule G, section 4, certified by the Director of the Office of Management and Budget as not increasing the deficit, using the Scenario B conservative floor.
+
+(b) REPAYMENT.—Repayments to the Legacy Retirement Account shall remain available for further modernization awards.
+
+SEC. 3906. SCHEDULE D BENCHMARKS — TITLE XXXIX.
+
+The Federal Chief Information Officer shall report biennially to Congress on: (1) the number of inventoried legacy systems retired or modernized, by agency, against the schedule of section 3902; (2) operating savings and repayments to the Legacy Retirement Account; (3) the number of services and individuals using the portal under section 3903, completion times, and user satisfaction; (4) improper payments prevented through section 3904; (5) the United States ranking in the United Nations E-Government Development Index; and (6) privacy complaints and their resolution.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
@@ -4582,7 +4847,7 @@ The following revenue streams are designated Supplemental Revenue under Section 
 
 SUPPLEMENTAL STREAM A — STRUCTURAL VARIANCE PENALTIES (Titles I, IX, XI, XIII, XIV, XXII)
   Estimate: $30–80 billion annually at full enforcement ramp (Years 3–7)
-  Basis: DOJ False Claims Act recoveries average $3–5B/yr historically; NSRA court-assessed civil penalties under Section 1606 apply to a structurally broader set of violations. Conservative floor based on Title XIV (housing) alone: 50-unit-per-MSA cap applies to an estimated 200+ MSAs with excess corporate holdings; minimum penalty of $500K per violation × estimated 5,000 annual violations = $2.5B floor from one title alone.
+  Basis: DOJ False Claims Act recoveries average $3–5B/yr historically; NSRA court-assessed civil penalties under Section 1604 apply to a structurally broader set of violations. Conservative floor based on Title XIV (housing) alone: 50-unit-per-MSA cap applies to an estimated 200+ MSAs with excess corporate holdings; minimum penalty of $500K per violation × estimated 5,000 annual violations = $2.5B floor from one title alone.
 
 SUPPLEMENTAL STREAM B — HEALTH PROFIT SURPLUS ASSESSMENT (HPSA)
   Estimate: $15–25 billion annually
@@ -4682,6 +4947,34 @@ SUPPLEMENTAL STREAM D — DEFENSE PROCUREMENT SECURITY PREMIUM
 
 (d) The Congressional Budget Office is directed to score each revenue stream in this Schedule independently and to publish its findings, including any divergence from the statutory floor estimates stated herein, so that Congress and the public may evaluate the revenue architecture of this Act against an independent baseline. Where the Congressional Budget Office's independent score of any stream falls below the statutory floor stated in this Schedule, the FMIA shall, within ninety (90) days, transmit to Congress a reconciliation memorandum identifying the source of the divergence and any corrective calibration, without any reduction in the household benefit obligations established elsewhere in this Act.
 
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. MODERNIZATION TITLES (XXXVII–XXXIX, SECS. 1403 AND 1710) — COST AND FINANCING.
+
+  Provision                                   Max annual draw    Source
+  ---------------------------------------------------------------------------------
+  Title XXXVII  Science, Research, Talent     $30.0B            SIRF Tier 3 (cap, Sec. 3707)
+  Title XXXVIII Child care + apprenticeship   $16.0B            SIRF Tier 3 (cap, Sec. 3805)
+  Title XXXVIII Paid family & medical leave   $ 0.0B            Self-financed 0.4% payroll
+                                                                contribution; trust fund
+  Title XXXIX   Digital Government            $ 5.0B            Improper-payment savings first,
+                                                                then SIRF Tier 3 (Sec. 3905)
+  Sec. 1403     Build More Homes Bonus        within existing   Shelter Security Fund
+  Sec. 1710     Pre-disaster mitigation       within existing   Stafford Act set-aside
+                                                    ----------
+  MAXIMUM NEW SIRF TIER 3 DRAW:                     $51.0B
+
+  COVERAGE UNDER THE CBO CONSERVATIVE FLOOR (SCENARIO B):
+  Conservative Floor Surplus after Tier 1+2 (Section 4):    $181.0B
+  Less maximum modernization draw:                          ($ 51.0B)
+  Remaining Tier 3 capacity:                                $130.0B
+  Coverage ratio, Scenario B floor / (Tier 1+2 + modernization): $355.0B / $225.0B = 1.58x
+  High-confidence streams only: $233.0B / $225.0B = 1.04x
+
+  Each modernization title is capped, may draw only on Tier 3 capacity, and requires OMB
+  certification that it does not increase the deficit under Scenario B. If Scenario B
+  revenue falls short, the caps bind first and Tier 1 and Tier 2 obligations are unaffected.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 END OF DISCUSSION DRAFT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
