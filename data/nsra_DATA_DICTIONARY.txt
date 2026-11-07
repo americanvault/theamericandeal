@@ -1,5 +1,5 @@
 NSRA MACHINE-READABLE DATASETS - DATA DICTIONARY
-Methodology version: v2026.4    Last updated: 2026-11-07
+Methodology version: v2026.5    Last updated: 2026-11-07
 Publisher: TheAmericanDeal.org (National Sovereignty and Resilience Act)
 Status: Internally modeled on published government baselines. Official CBO/JCT scoring pending and welcomed.
 Contact: contact@theamericandeal.org
@@ -11,7 +11,7 @@ CBO or JCT score. Every file carries a methodology_version and last_updated colu
 FILES
 -----
 nsra_revenue_streams.csv
-  One row per scored revenue stream (19 streams).
+  One row per scored revenue stream (20 streams).
   stream_id, stream, statutory_section, confidence (High / Moderate / Preliminary)
   scenario_a_billion_usd  : central full-ramp estimate, $B per year, first-year dollars
   scenario_b_billion_usd  : conservative floor (High -5%, Moderate -20%, Preliminary -50%)
@@ -44,10 +44,10 @@ nsra_source_register.csv
 
 CANONICAL TAXONOMY
 ------------------
-Full-ramp revenue ~$635B/yr (Scenario B floor ~$524B) - costs, outlays and infrastructure ~$446B
-= ~$189B annual deficit reduction. Ten years: ~$2.3T before interest savings, ~$2.7T including
-interest savings (range $1.7T-$3.4T).
-  With the Sec. 3410 Fiscal Sustainability Plan (~$305B/yr at full effect, Y1 dollars): ~$4.4T over ten years
-  before interest savings, ~$5.0T including them (range ~$4.0T-$5.7T). See nsra_fiscal_sustainability_plan.csv.
+Full-ramp revenue ~$627B/yr (Scenario B floor ~$510B) - costs, outlays and infrastructure ~$446B
+= ~$181B annual deficit reduction. Ten years: ~$2.3T before interest savings, ~$2.7T including
+interest savings (range $1.6T-$3.3T).
+  With the Sec. 3410 Fiscal Sustainability Plan (~$385B/yr at full effect, Y1 dollars): ~$4.9T over ten years
+  before interest savings, ~$5.5T including them (range ~$4.5T-$6.2T). See nsra_fiscal_sustainability_plan.csv.
 Statutory deficit limits (Sec. 3406(f)): 4.5% of GDP by
 Year 4, 3% by Year 10, and a required vote on a Balanced Budget Act by Year 8.
