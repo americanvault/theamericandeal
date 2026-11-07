@@ -1,6 +1,6 @@
 # The American Deal: National Sovereignty and Resilience Act (NSRA)
 
-> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.0 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
+> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.5 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
 
 ## Key pages
 - [Homepage: the whole plan, state map, household calculator, every title and every dollar](https://theamericandeal.org/)
@@ -29,12 +29,12 @@
 ## Full context for AI tools
 - [llms-full.txt](https://theamericandeal.org/llms-full.txt): key figures, every title, and answers to common questions
 
-## Key figures (methodology v2026.4, 2026-11-07)
-- Revenue at full ramp: about $635B a year from 19 streams (conservative floor $524B)
+## Key figures (methodology v2026.5, 2026-11-07)
+- Revenue at full ramp: about $627B a year from 20 streams (conservative floor $510B)
 - Program costs, outlays and infrastructure: about $446B a year
-- Core annual deficit reduction: about $189B
-- Fiscal Sustainability Plan (Sec. 3410): about $305B a year at full effect
-- Ten-year deficit reduction: $4.4T before interest, $5.0T including lower interest costs (range $4.0T to $5.7T)
+- Core annual deficit reduction: about $181B
+- Fiscal Sustainability Plan (Sec. 3410): about $385B a year at full effect
+- Ten-year deficit reduction: $4.9T before interest, $5.5T including lower interest costs (range $4.5T to $6.2T)
 - Deficit limits in law: 4.5% of GDP by Year 4, 3% by Year 10; vote by Year 8 on a plan to balance by Year 15
 - Coverage: about 30 million uninsured people covered; no premium up to 250% of poverty; premiums capped at 8.5% of income
 - Drug prices: $35 insulin, G7 median price ceiling, 50 drugs negotiated a year
@@ -96,7 +96,7 @@
 ## Common questions
 
 ### What is the American Deal (NSRA)?
-The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $5.0 trillion over ten years.
+The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $5.5 trillion over ten years.
 
 ### Has the NSRA been introduced in Congress?
 Not yet. The full text is published so any member of Congress or candidate can introduce all of it or any part of it. Six planks, including the congressional stock trading ban and the government-waste provisions, are written to move on their own in 2027.
@@ -111,10 +111,10 @@ No income-tax increase applies to households under $400,000. The Social Security
 Nothing changes for anyone eligible before 2032, the retirement age does not change, and Medicare benefits, premiums and cost-sharing are not cut. To keep Social Security solvent, benefits grow more slowly for future retirees with the highest lifetime earnings, and the minimum benefit rises to 125% of the poverty line for 30-year workers. Social Security, Medicare, Medicaid, veterans' benefits and SNAP are exempt from automatic budget cuts.
 
 ### How does the NSRA balance the budget?
-It cuts the deficit by about $5.0 trillion over ten years including lower interest costs (range $4.0 to $5.7 trillion), caps the deficit at 4.5% of GDP by Year 4 and 3% by Year 10, and requires Congress to vote by Year 8 on a plan to balance the budget by Year 15. If Congress misses a limit, an automatic trigger closes the gap, half from high-income tax breaks and half from non-exempt spending.
+It cuts the deficit by about $5.5 trillion over ten years including lower interest costs (range $4.5 to $6.2 trillion), caps the deficit at 4.5% of GDP by Year 4 and 3% by Year 10, and requires Congress to vote by Year 8 on a plan to balance the budget by Year 15. If Congress misses a limit, an automatic trigger closes the gap, half from high-income tax breaks and half from non-exempt spending.
 
 ### How is the NSRA paid for?
-About $635 billion a year in revenue at full ramp from 19 sources, led by Social Security tax on wages above $400,000, a 28% corporate rate, a global minimum tax, IRS enforcement, a 0.1% financial transaction tax and a 39.6% top rate above $400,000. After about $446 billion in program costs and infrastructure, it reduces the deficit by about $189 billion a year, and its Fiscal Sustainability Plan adds about $305 billion a year at full effect. Estimates are checked with open-source models and published CBO, JCT and SSA estimates; official scoring is pending.
+About $627 billion a year in revenue at full ramp from 20 sources, led by Social Security tax on wages above $400,000, a 25% corporate rate, a global minimum tax, IRS enforcement, a 0.1% financial transaction tax and a 39.6% top rate above $400,000. After about $446 billion in program costs and infrastructure, it reduces the deficit by about $181 billion a year, and its Fiscal Sustainability Plan adds about $385 billion a year at full effect. Estimates are checked with open-source models and published CBO, JCT and SSA estimates; official scoring is pending.
 
 ### What does the NSRA do about prescription drug prices?
 It caps insulin at $35 a month, ties U.S. drug prices to the median price in other G7 countries, and expands Medicare drug price negotiation to 50 drugs a year.
