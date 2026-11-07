@@ -1,0 +1,132 @@
+# The American Deal: National Sovereignty and Resilience Act (NSRA)
+
+> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.0 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
+
+## Key pages
+- [Homepage: the whole plan, state map, household calculator, every title and every dollar](https://theamericandeal.org/)
+- [Full searchable bill text](https://theamericandeal.org/bill-text/)
+- [Updates](https://theamericandeal.org/updates/)
+- [2026 midterm results and what the new Congress can pass](https://theamericandeal.org/2026-midterms/)
+- [2028 agenda](https://theamericandeal.org/2028/)
+- [Balanced budget path (Sec. 3406(f), 3410)](https://theamericandeal.org/balanced-budget/)
+- [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
+- [Stop government waste (Titles XXXV, XXXIX)](https://theamericandeal.org/government-waste/)
+- [Health coverage (Title XXI)](https://theamericandeal.org/healthcare/)
+- [Drug prices (Title XIII)](https://theamericandeal.org/drug-prices/)
+- [Housing (Title XIV)](https://theamericandeal.org/housing/)
+- [Student debt (Title XV)](https://theamericandeal.org/student-debt/)
+- [Paid leave (Title XXXVIII)](https://theamericandeal.org/paid-leave/)
+- [Science (Title XXXVII)](https://theamericandeal.org/science/)
+- [Build faster (Title XVII)](https://theamericandeal.org/build-faster/)
+- [Fiscal model](https://theamericandeal.org/fiscal-model/)
+- [Policymaker portal](https://theamericandeal.org/adopt/)
+- [Fiscal reviewer portal](https://theamericandeal.org/adopt/fiscal/)
+- [Press room](https://theamericandeal.org/press/)
+- [Bill PDF](https://theamericandeal.org/NSRA_COMPLETE_TEXT.pdf)
+- [Bill plain text](https://theamericandeal.org/NSRA_COMPLETE_TEXT.txt)
+- [Open-source scoring scripts](https://theamericandeal.org/data/open-scoring/nsra_taxcalc_scoring.py)
+
+## Full context for AI tools
+- [llms-full.txt](https://theamericandeal.org/llms-full.txt): key figures, every title, and answers to common questions
+
+## Key figures (methodology v2026.4, 2026-11-07)
+- Revenue at full ramp: about $635B a year from 19 streams (conservative floor $524B)
+- Program costs, outlays and infrastructure: about $446B a year
+- Core annual deficit reduction: about $189B
+- Fiscal Sustainability Plan (Sec. 3410): about $305B a year at full effect
+- Ten-year deficit reduction: $4.4T before interest, $5.0T including lower interest costs (range $4.0T to $5.7T)
+- Deficit limits in law: 4.5% of GDP by Year 4, 3% by Year 10; vote by Year 8 on a plan to balance by Year 15
+- Coverage: about 30 million uninsured people covered; no premium up to 250% of poverty; premiums capped at 8.5% of income
+- Drug prices: $35 insulin, G7 median price ceiling, 50 drugs negotiated a year
+- Housing: corporate single-family ownership capped at 50 homes per metro area
+- Stock trading: members of Congress, spouses, senior officials and federal judges divest within 180 days
+
+## Structure: five acts, 40 titles
+
+### Act 1: The American Fiscal Integrity Act
+- Title XXIV: Tax Code Reform And Fiscal Integrity (https://theamericandeal.org/bill-text/#title-XXIV)
+- Title 0: Statutory Foundations And Core Definitions (https://theamericandeal.org/bill-text/#title-0)
+
+### Act 2: The American Health Security Act
+- Title XXI: Universal Basic Minimum Coverage Through Competitive Private Delivery (https://theamericandeal.org/bill-text/#title-XXI)
+- Title XIII: National Biosecurity And Pharmaceutical Parity (https://theamericandeal.org/bill-text/#title-XIII)
+- Title XXV: Veterans Health Security And Pact Act Completion (https://theamericandeal.org/bill-text/#title-XXV)
+
+### Act 3: The American Economic Security Act
+- Title II: Strategic Infrastructure Reinvestment Fund (https://theamericandeal.org/bill-text/#title-II)
+- Title V: Child Prosperity And Poverty Reduction (https://theamericandeal.org/bill-text/#title-V)
+- Title XIV: Shelter Security (https://theamericandeal.org/bill-text/#title-XIV)
+- Title XXII: National Critical Systems Protection And Private Equity Accountability (https://theamericandeal.org/bill-text/#title-XXII)
+- Title XV: Student Debt Relief And Public Higher Education (https://theamericandeal.org/bill-text/#title-XV)
+- Title XXXVII: Science, Research, And Talent Renewal (https://theamericandeal.org/bill-text/#title-XXXVII)
+- Title XXXVIII: Family And Workforce Security (https://theamericandeal.org/bill-text/#title-XXXVIII)
+
+### Act 4: The American Supply Chain Security Act
+- Title VII: Agriculture And Food Supply Security (https://theamericandeal.org/bill-text/#title-VII)
+- Title IX: National Energy And Advanced Fission Infrastructure (https://theamericandeal.org/bill-text/#title-IX)
+- Title XII: National Manufacturing And Global Arbitrage Elimination (https://theamericandeal.org/bill-text/#title-XII)
+- Title XXIII: National Trade And Allied Diplomatic Architecture (https://theamericandeal.org/bill-text/#title-XXIII)
+- Title VIII: Mobility Networks And App-Based Dispatch Platforms (https://theamericandeal.org/bill-text/#title-VIII)
+- Title XVII: National Build-Out, Hydropower, And Infrastructure Delivery (https://theamericandeal.org/bill-text/#title-XVII)
+
+### Act 5: The American Accountability and Data Rights Act
+- Title I: Federal Market Integrity Administration And Economic Data Verification (https://theamericandeal.org/bill-text/#title-I)
+- Title III: The Artificial Intelligence Security And Personal Data Rights (https://theamericandeal.org/bill-text/#title-III)
+- Title IV: Domestic Sourcing, Wage Enforcement, And Citizen Enforcement Actions (https://theamericandeal.org/bill-text/#title-IV)
+- Title X: Clean Water, Conservation, And Essential Public Utilities (https://theamericandeal.org/bill-text/#title-X)
+- Title XI: The Automated Environmental Remediation Network (A.B.R.N.) (https://theamericandeal.org/bill-text/#title-XI)
+- Title VI: National Capital Protection And Pension Anti-Fragility (https://theamericandeal.org/bill-text/#title-VI)
+- Title XVI: Capital Flight Protection, Post-Quantum Financial Security, And Inflation Protection (https://theamericandeal.org/bill-text/#title-XVI)
+- Title XIX: Return On Investment, Performance Benchmarks, And American Household Benefit Accounting (https://theamericandeal.org/bill-text/#title-XIX)
+- Title XX: Bipartisan Implementation Safeguards And Market Competition Preservation (https://theamericandeal.org/bill-text/#title-XX)
+- Title XVIII: Procedural Due Process And Special Standing Controls (https://theamericandeal.org/bill-text/#title-XVIII)
+- Title XXVI: National Social Security Solvency Commission (https://theamericandeal.org/bill-text/#title-XXVI)
+- Title XXXII: Dollar Security And Reserve Currency Defense (https://theamericandeal.org/bill-text/#title-XXXII)
+- Title XXXIII: Strategic Compute Authority (https://theamericandeal.org/bill-text/#title-XXXIII)
+- Title XXVII: Press Freedom And Editorial Independence Protection (https://theamericandeal.org/bill-text/#title-XXVII)
+- Title XXVIII: Worker Organizing Rights And Anti-Union-Busting Enforcement (https://theamericandeal.org/bill-text/#title-XXVIII)
+- Title XXIX: Congressional Financial Integrity And Stock Trading Prohibition (https://theamericandeal.org/bill-text/#title-XXIX)
+- Title XXX: Nafta/Usmca Gap Closure And Trade Enforcement (https://theamericandeal.org/bill-text/#title-XXX)
+- Title XXXI: American Mutual Benefit Global Health Security (https://theamericandeal.org/bill-text/#title-XXXI)
+- Title XXXIV: Structural Architecture Refinement And Sirf Solvency (https://theamericandeal.org/bill-text/#title-XXXIV)
+- Title XXXV: Public Integrity And Executive Accountability (https://theamericandeal.org/bill-text/#title-XXXV)
+- Title XXXVI: Foreign Influence Transparency And Adversary Capital Defense (https://theamericandeal.org/bill-text/#title-XXXVI)
+- Title XXXIX: Digital Government Modernization (https://theamericandeal.org/bill-text/#title-XXXIX)
+
+## Common questions
+
+### What is the American Deal (NSRA)?
+The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $5.0 trillion over ten years.
+
+### Has the NSRA been introduced in Congress?
+Not yet. The full text is published so any member of Congress or candidate can introduce all of it or any part of it. Six planks, including the congressional stock trading ban and the government-waste provisions, are written to move on their own in 2027.
+
+### Does the NSRA ban stock trading by members of Congress?
+Yes. Title XXIX requires members of Congress, their spouses, senior executive officials and federal judges to divest individual stocks within 180 days, with penalties larger than any trade could earn.
+
+### Does the NSRA raise taxes on people earning under $400,000?
+No income-tax increase applies to households under $400,000. The Social Security tax increase applies only to wages above $400,000. Two measures reach most households and are disclosed: a carbon fee, with energy-bill credits for lower-income households, and a paid-leave contribution of 0.4% of wages from workers and 0.4% from employers that funds 12 weeks of paid leave.
+
+### Does the NSRA cut Social Security or Medicare?
+Nothing changes for anyone eligible before 2032, the retirement age does not change, and Medicare benefits, premiums and cost-sharing are not cut. To keep Social Security solvent, benefits grow more slowly for future retirees with the highest lifetime earnings, and the minimum benefit rises to 125% of the poverty line for 30-year workers. Social Security, Medicare, Medicaid, veterans' benefits and SNAP are exempt from automatic budget cuts.
+
+### How does the NSRA balance the budget?
+It cuts the deficit by about $5.0 trillion over ten years including lower interest costs (range $4.0 to $5.7 trillion), caps the deficit at 4.5% of GDP by Year 4 and 3% by Year 10, and requires Congress to vote by Year 8 on a plan to balance the budget by Year 15. If Congress misses a limit, an automatic trigger closes the gap, half from high-income tax breaks and half from non-exempt spending.
+
+### How is the NSRA paid for?
+About $635 billion a year in revenue at full ramp from 19 sources, led by Social Security tax on wages above $400,000, a 28% corporate rate, a global minimum tax, IRS enforcement, a 0.1% financial transaction tax and a 39.6% top rate above $400,000. After about $446 billion in program costs and infrastructure, it reduces the deficit by about $189 billion a year, and its Fiscal Sustainability Plan adds about $305 billion a year at full effect. Estimates are checked with open-source models and published CBO, JCT and SSA estimates; official scoring is pending.
+
+### What does the NSRA do about prescription drug prices?
+It caps insulin at $35 a month, ties U.S. drug prices to the median price in other G7 countries, and expands Medicare drug price negotiation to 50 drugs a year.
+
+### What health coverage does the NSRA provide?
+The Basic Minimum Plan gives the roughly 30 million uninsured Americans coverage with no deductible. It has no premium up to 250% of the poverty line, and premiums are capped at 8.5% of income above that. It is run through the existing ACA marketplaces and pays providers at Medicare rates.
+
+### What does the NSRA do about housing costs?
+It caps corporate ownership of single-family homes at 50 per metro area, phases out excess holdings gradually so local markets are not flooded, and rewards towns that allow more homes to be built.
+
+### Who wrote the NSRA?
+Santonio D. Sanders, a U.S. Navy veteran, former VA ambulatory care director and former U.S. State Department official. The project is independent and is not affiliated with any party, PAC or elected official.
+
+## Citation
+Santonio D. Sanders, National Sovereignty and Resilience Act (the American Deal), https://theamericandeal.org/bill-text/, version of 2026-11-07.
