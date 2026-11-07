@@ -202,9 +202,9 @@ function render(code){
   var d=STATE_DATA[code]; var b=document.getElementById('brief');
   if(!d){ b.innerHTML='<p class="sub">Select a state above.</p>'; return; }
   // derived NSRA impact estimates (preliminary, model-based)
-  var bmpVal=Math.round(d.uninsured*1000000*7800/1e9*10)/10;       // $B/yr coverage value at ~$7,800/person
+  var bmpVal=Math.round(d.uninsured*1000000*7000/1e9*10)/10;       // $B/yr federal coverage cost at ~$7,000/person
   var rxHouse=42;                                                    // illustrative $/mo insulin cap reference, kept qualitative below
-  var loanHouse=2400;                                                // avg annual interest eliminated per borrower
+  var loanHouse=2000;                                                // avg annual interest eliminated per borrower
   var loanTotalB=Math.round(d.loans*1000000*loanHouse/1e9*10)/10;   // $B/yr interest relief statewide
   var titles=[
     ['XXI','$0-premium Basic Minimum Plan'],
@@ -237,7 +237,7 @@ function render(code){
    +'<h3>Strongest applicable titles</h3><div class="titles">'
    + titles.map(function(t){return '<span class="tt">Title '+t[0]+' &middot; '+t[1]+'</span>';}).join('')
    +'</div>'
-   +'<div class="note"><b>Methodology &amp; sources.</b> Population figures from Census ACS, KFF, USDA FNS, VA, and BLS (2024 vintage); coverage value at ~$7,800 per newly covered person; student-loan interest at ~$2,400 per borrower per year. These are preliminary model estimates built on published baselines, not an official CBO or JCT score. Full data: <a href="/data/nsra_state_impact.csv">state-impact CSV</a>. Version v2026.1, updated 2026-07-11. Contact: contact@theamericandeal.org.</div>';
+   +'<div class="note"><b>Methodology &amp; sources.</b> Population figures from Census ACS, KFF, USDA FNS, VA, and BLS (2024 vintage); coverage funded at ~$7,000 per newly covered person; student-loan interest at ~$2,000 per borrower in the first year. These are preliminary model estimates built on published baselines, not an official CBO or JCT score. Full data: <a href="/data/nsra_state_impact.csv">state-impact CSV</a>. Version v2026.1, updated 2026-07-11. Contact: contact@theamericandeal.org.</div>';
   b.innerHTML=html;
 }
 function pick(){ var c=document.getElementById('sel').value; render(c); try{history.replaceState(null,'','?s='+c);}catch(e){} }
