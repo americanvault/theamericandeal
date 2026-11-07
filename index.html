@@ -860,7 +860,9 @@ document.addEventListener('DOMContentLoaded', function() {
       <div style="display:flex;gap:0">
         <button id="btn-impact" onclick="setMapMode('impact')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--green);background:var(--green);color:#000;border-radius:4px 0 0 4px;cursor:pointer;letter-spacing:0.05em">Impact View</button>
         <button id="btn-party" onclick="setMapMode('party')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">2024 Presidential</button>
-        <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">Governors 2026</button>
+        <button id="btn-gov" onclick="setMapMode('gov')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">Governors 2027</button>
+        <button id="btn-sen" onclick="setMapMode('sen')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0;cursor:pointer;letter-spacing:0.05em">Senate 2027</button>
+        <button id="btn-house" onclick="setMapMode('house')" style="font-size:10px;font-weight:700;padding:5px 12px;border:1px solid var(--border);background:var(--bg-elevated);color:var(--muted);border-radius:0 4px 4px 0;cursor:pointer;letter-spacing:0.05em">House 2027</button>
       </div>
     </div>
     <div id="map-legend-impact" style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
@@ -875,13 +877,34 @@ document.addEventListener('DOMContentLoaded', function() {
       <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
     </div>
     <div id="map-legend-gov" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
-      <span><span style="display:inline-block;width:10px;height:10px;background:#B91C1C;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Republican Governor</span>
-      <span><span style="display:inline-block;width:10px;height:10px;background:#1D4ED8;border-radius:2px;margin-right:4px;vertical-align:middle"></span>Democratic Governor</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#B91C1C"></span>Republican Governor (<span id="gov-cnt-R">20</span>)</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#1D4ED8"></span>Democratic Governor (<span id="gov-cnt-D">29</span>)</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#6B7280"></span>Too close to call (<span id="gov-cnt-P">1</span>)</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #FBBF24;box-sizing:border-box"></span>Changed party in 2026</span>
       <span style="color:var(--muted);font-style:italic">Darkest = highest NSRA impact intensity</span>
+    </div>
+    <div id="map-legend-sen" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#1D4ED8"></span>Both senators D/I</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#B91C1C"></span>Both senators R</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#7C3AED"></span>Split delegation</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#6B7280"></span>Seat uncalled</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:transparent;border:2px solid #FBBF24;box-sizing:border-box"></span>Seat flipped in 2026</span>
+    </div>
+    <div id="map-legend-house" style="display:none;gap:16px;flex-wrap:wrap;margin-bottom:10px;font-size:11px">
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#1D4ED8"></span>Democratic majority of state's House seats</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#B91C1C"></span>Republican majority</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#7C3AED"></span>Evenly split</span>
+      <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle;background:#6B7280"></span>Not yet decided (uncalled seats)</span>
+    </div>
+    <div id="map-elections-note" style="display:none;margin-bottom:10px;padding:8px 12px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:6px;font-size:11px;line-height:1.55;color:var(--muted)">
+      <strong style="color:var(--text)">2026 midterm results</strong> (unofficial, as of Nov 6, 2026; new terms begin January 2027).
+      <strong style="color:var(--text)">Senate:</strong> 54 D/I &middot; 44 R &middot; 2 uncalled (AK, MS).
+      <strong style="color:var(--text)">House:</strong> Democratic majority projected, with more than 250 Democratic seats called (218 needed).
+      <strong style="color:var(--text)">Governors:</strong> 29 D &middot; 20 R &middot; 1 uncalled (KS); 6 changed party.
     </div>
     <div id="map-tooltip" style="position:fixed;display:none;background:rgba(13,15,20,0.95);border:1px solid var(--border);border-radius:8px;padding:8px 12px;font-size:11px;pointer-events:none;z-index:999;min-width:160px"></div>
     <svg id="us-map" style="width:100%;height:auto;display:block;border-radius:6px;background:var(--bg-elevated)"></svg>
-    <p style="font-size:10px;color:var(--muted);margin-top:10px">Impact tier reflects composite NSRA reform score: healthcare coverage, pharma pricing, Private Equity restrictions, housing policy, student debt relief, veterans benefits, and tax reform. All states benefit from pharma price caps, Child Prosperity Trust, and BMP coverage regardless of tier. Source: Census ACS 2023 + NSRA fiscal architecture Math Engine™.</p>
+    <p style="font-size:10px;color:var(--muted);margin-top:10px">Impact tier reflects composite NSRA reform score: healthcare coverage, pharma pricing, Private Equity restrictions, housing policy, student debt relief, veterans benefits, and tax reform. All states benefit from pharma price caps, Child Prosperity Trust, and BMP coverage regardless of tier. Source: Census ACS 2023 + NSRA fiscal architecture Math Engine™. Governor, Senate and House views: unofficial 2026 election results from AP-based network projections (NBC News, Fox News, CBS News) and MultiState, current as of <span id="elec-asof">Nov 6, 2026</span>; uncalled races shown in gray. Members-elect take office in January 2027.</p>
   </div>
 </div>
 
@@ -943,31 +966,128 @@ document.addEventListener('DOMContentLoaded', function() {
     VT:false,WA:false,NH:false
   };
 
-  // ── Governors 2026, 'R' = Republican, 'D' = Democrat ────────────────────────
-  const GOV = {
-    AL:'R',AK:'R',AZ:'R',AR:'R',CA:'D',CO:'D',CT:'D',DE:'D',
-    FL:'R',GA:'R',HI:'D',ID:'R',IL:'D',IN:'R',IA:'R',KS:'R',
-    KY:'R',LA:'R',ME:'D',MD:'D',MA:'R',MI:'D',MN:'D',MS:'R',
-    MO:'R',MT:'R',NE:'R',NV:'D',NH:'R',NJ:'D',NM:'D',NY:'D',
-    NC:'D',ND:'R',OH:'R',OK:'R',OR:'D',PA:'D',RI:'D',SC:'R',
-    SD:'R',TN:'R',TX:'R',UT:'R',VT:'R',VA:'D',WA:'D',WV:'R',
-    WI:'D',WY:'R'
+  // ── Governors for 2027, post-2026 election (unofficial as of 2026-11-06) ─────
+  // [name, party 'D'|'R'|'P'(pending), status]
+  // status: flip = gov.-elect, party changed · new = gov.-elect, open seat held
+  //         re = re-elected 2026 · none = no 2026 race · pend = uncalled
+  let GOV_INFO = {
+    AL:['Tommy Tuberville','R','new'], AK:['Jonathan Kreiss-Tomkins','D','flip'],
+    AZ:['Katie Hobbs','D','re'], AR:['Sarah Huckabee Sanders','R','re'],
+    CA:['Xavier Becerra','D','new'], CO:['Phil Weiser','D','new'],
+    CT:['Ned Lamont','D','re'], DE:['Matt Meyer','D','none'],
+    FL:['Byron Donalds','R','new'], GA:['Keisha Lance Bottoms','D','flip'],
+    HI:['Josh Green','D','re'], ID:['Brad Little','R','re'],
+    IL:['JB Pritzker','D','re'], IN:['Mike Braun','R','none'],
+    IA:['Rob Sand','D','flip'], KS:['Uncalled: Cindy Holscher (D) leads Ty Masterson (R)','P','pend'],
+    KY:['Andy Beshear','D','none'], LA:['Jeff Landry','R','none'],
+    ME:['Hannah Pingree','D','new'], MD:['Wes Moore','D','re'],
+    MA:['Maura Healey','D','re'], MI:['Jocelyn Benson','D','new'],
+    MN:['Amy Klobuchar','D','new'], MS:['Tate Reeves','R','none'],
+    MO:['Mike Kehoe','R','none'], MT:['Greg Gianforte','R','none'],
+    NE:['Jim Pillen','R','re'], NV:['Aaron Ford','D','flip'],
+    NH:['Kelly Ayotte','R','re'], NJ:['Mikie Sherrill','D','none'],
+    NM:['Deb Haaland','D','new'], NY:['Kathy Hochul','D','re'],
+    NC:['Josh Stein','D','none'], ND:['Kelly Armstrong','R','none'],
+    OH:['Amy Acton','D','flip'], OK:['Mike Mazzei','R','new'],
+    OR:['Tina Kotek','D','re'], PA:['Josh Shapiro','D','re'],
+    RI:['Helena Foulkes','D','new'], SC:['Alan Wilson','R','new'],
+    SD:['Larry Rhoden','R','re'], TN:['Marsha Blackburn','R','new'],
+    TX:['Gina Hinojosa','D','flip'], UT:['Spencer Cox','R','none'],
+    VT:['Phil Scott','R','re'], VA:['Abigail Spanberger','D','none'],
+    WA:['Bob Ferguson','D','none'], WV:['Patrick Morrisey','R','none'],
+    WI:['David Crowley','D','new'], WY:['Eric Barlow','R','new']
   };
-  const GOV_NAME = {
-    AL:'Kay Ivey',AK:'Mike Dunleavy',AZ:'Katie Hobbs',AR:'Sarah Huckabee Sanders',
-    CA:'Gavin Newsom',CO:'Jared Polis',CT:'Ned Lamont',DE:'Matt Meyer',
-    FL:'Ron DeSantis',GA:'Brian Kemp',HI:'Josh Green',ID:'Brad Little',
-    IL:'JB Pritzker',IN:'Mike Braun',IA:'Kim Reynolds',KS:'Laura Kelly',
-    KY:'Andy Beshear',LA:'Jeff Landry',ME:'Janet Mills',MD:'Wes Moore',
-    MA:'Maura Healey',MI:'Gretchen Whitmer',MN:'Tim Walz',MS:'Tate Reeves',
-    MO:'Mike Kehoe',MT:'Greg Gianforte',NE:'Jim Pillen',NV:'Joe Lombardo',
-    NH:'Kelly Ayotte',NJ:'Phil Murphy',NM:'Michelle Lujan Grisham',NY:'Kathy Hochul',
-    NC:'Josh Stein',ND:'Kelly Armstrong',OH:'Mike DeWine',OK:'Kevin Stitt',
-    OR:'Tina Kotek',PA:'Josh Shapiro',RI:'Dan McKee',SC:'Henry McMaster',
-    SD:'Kristi Noem',TN:'Bill Lee',TX:'Greg Abbott',UT:'Spencer Cox',
-    VT:'Phil Scott',VA:'Glenn Youngkin',WA:'Bob Ferguson',WV:'Patrick Morrisey',
-    WI:'Tony Evers',WY:'Mark Gordon'
+  let GOV = {}, GOV_NAME = {};
+  function rebuildGov() {
+    GOV = {}; GOV_NAME = {};
+    Object.keys(GOV_INFO).forEach(k => { GOV[k] = GOV_INFO[k][1]; GOV_NAME[k] = GOV_INFO[k][0]; });
+  }
+  rebuildGov();
+  const GOV_STATUS_LABEL = {
+    flip:'Governor-elect · party flip in 2026', new:'Governor-elect · open seat, party held',
+    re:'Re-elected 2026', none:'No 2026 race · term continues', pend:'Uncalled as of Nov 6, 2026'
   };
+
+  // ── U.S. Senate delegations for the 120th Congress (from Jan 3, 2027) ───────
+  // [name, party 'D'|'R'|'I'|'?', tag]  tag: won = won 2026 · flip = flipped 2026
+  //   pend = uncalled · vac = leaving to become governor (successor appointed)
+  let SEN = {
+    AL:[['Katie Britt','R'],['Barry Moore','R','won']],
+    AK:[['Lisa Murkowski','R'],['Uncalled: Peltola (D) leads Sullivan (R)','?','pend']],
+    AZ:[['Mark Kelly','D'],['Ruben Gallego','D']],
+    AR:[['John Boozman','R'],['Tom Cotton','R','won']],
+    CA:[['Alex Padilla','D'],['Adam Schiff','D']],
+    CO:[['Michael Bennet','D'],['John Hickenlooper','D','won']],
+    CT:[['Richard Blumenthal','D'],['Chris Murphy','D']],
+    DE:[['Lisa Blunt Rochester','D'],['Chris Coons','D','won']],
+    FL:[['Rick Scott','R'],['Ashley Moody','R','won']],
+    GA:[['Raphael Warnock','D'],['Jon Ossoff','D','won']],
+    HI:[['Brian Schatz','D'],['Mazie Hirono','D']],
+    ID:[['Mike Crapo','R'],['Jim Risch','R','won']],
+    IL:[['Tammy Duckworth','D'],['Juliana Stratton','D','won']],
+    IN:[['Todd Young','R'],['Jim Banks','R']],
+    IA:[['Chuck Grassley','R'],['Josh Turek','D','flip']],
+    KS:[['Jerry Moran','R'],['Adam Hamilton','D','flip']],
+    KY:[['Rand Paul','R'],['Andy Barr','R','won']],
+    LA:[['John Kennedy','R'],['Julia Letlow','R','won']],
+    ME:[['Angus King','I'],['Troy Jackson','D','flip']],
+    MD:[['Chris Van Hollen','D'],['Angela Alsobrooks','D']],
+    MA:[['Elizabeth Warren','D'],['Ed Markey','D','won']],
+    MI:[['Elissa Slotkin','D'],['Abdul El-Sayed','D','won']],
+    MN:[['Amy Klobuchar','D','vac'],['Peggy Flanagan','D','won']],
+    MS:[['Roger Wicker','R'],['Uncalled: Colom (D) leads Hyde-Smith (R)','?','pend']],
+    MO:[['Josh Hawley','R'],['Eric Schmitt','R']],
+    MT:[['Tim Sheehy','R'],['Kurt Alme','R','won']],
+    NE:[['Deb Fischer','R'],['Pete Ricketts','R','won']],
+    NV:[['Catherine Cortez Masto','D'],['Jacky Rosen','D']],
+    NH:[['Maggie Hassan','D'],['Chris Pappas','D','won']],
+    NJ:[['Andy Kim','D'],['Cory Booker','D','won']],
+    NM:[['Martin Heinrich','D'],['Ben Ray Luján','D','won']],
+    NY:[['Chuck Schumer','D'],['Kirsten Gillibrand','D']],
+    NC:[['Ted Budd','R'],['Roy Cooper','D','flip']],
+    ND:[['John Hoeven','R'],['Kevin Cramer','R']],
+    OH:[['Bernie Moreno','R'],['Sherrod Brown','D','flip']],
+    OK:[['James Lankford','R'],['Kevin Hern','R','won']],
+    OR:[['Ron Wyden','D'],['Jeff Merkley','D','won']],
+    PA:[['John Fetterman','D'],['Dave McCormick','R']],
+    RI:[['Sheldon Whitehouse','D'],['Jack Reed','D','won']],
+    SC:[['Tim Scott','R'],['Annie Andrews','D','flip']],
+    SD:[['John Thune','R'],['Mike Rounds','R','won']],
+    TN:[['Marsha Blackburn','R','vac'],['Bill Hagerty','R','won']],
+    TX:[['Ted Cruz','R'],['James Talarico','D','flip']],
+    UT:[['Mike Lee','R'],['John Curtis','R']],
+    VT:[['Bernie Sanders','I'],['Peter Welch','D']],
+    VA:[['Tim Kaine','D'],['Mark Warner','D','won']],
+    WA:[['Patty Murray','D'],['Maria Cantwell','D']],
+    WV:[['Jim Justice','R'],['Shelley Moore Capito','R','won']],
+    WI:[['Tammy Baldwin','D'],['Ron Johnson','R']],
+    WY:[['John Barrasso','R'],['Harriet Hageman','R','won']]
+  };
+  // ── U.S. House delegations by state for 2027: [D, R, uncalled] ──────────────
+  let HOUSE = {"AL":[2,5,0],"AK":[0,0,1],"AZ":[5,3,1],"AR":[0,4,0],"CA":[45,2,5],"CO":[6,1,1],"CT":[5,0,0],"DE":[1,0,0],"FL":[7,17,4],"GA":[5,9,0],"HI":[2,0,0],"ID":[0,2,0],"IL":[14,3,0],"IN":[3,6,0],"IA":[3,1,0],"KS":[1,3,0],"KY":[2,4,0],"LA":[1,3,2],"ME":[1,0,1],"MD":[7,1,0],"MA":[9,0,0],"MI":[9,4,0],"MN":[4,3,1],"MS":[1,3,0],"MO":[3,5,0],"MT":[1,1,0],"NE":[1,2,0],"NV":[4,0,0],"NH":[2,0,0],"NJ":[11,1,0],"NM":[3,0,0],"NY":[20,6,0],"NC":[9,2,3],"ND":[0,1,0],"OH":[8,7,0],"OK":[0,5,0],"OR":[5,1,0],"PA":[11,6,0],"RI":[2,0,0],"SC":[2,4,1],"SD":[0,1,0],"TN":[0,8,1],"TX":[14,24,0],"UT":[1,3,0],"VT":[1,0,0],"VA":[8,3,0],"WA":[8,1,1],"WV":[0,2,0],"WI":[4,4,0],"WY":[0,1,0]};
+  let HOUSE_SOURCE = 'results';
+  function houseClass(code) {
+    const h = HOUSE[code]; if (!h) return null;
+    const d = h[0], r = h[1], u = h[2] || 0;
+    if (d > r + u) return 'D';
+    if (r > d + u) return 'R';
+    if (u === 0 && d === r) return 'S';
+    return 'pend';
+  }
+
+  function senClass(code) {
+    const d = SEN[code]; if (!d) return null;
+    if (d.some(x => x[1] === '?')) return 'pend';
+    const dem = d.filter(x => x[1] === 'D' || x[1] === 'I').length;
+    return dem === 2 ? 'D' : dem === 0 ? 'R' : 'S';
+  }
+  function isFlip(code) {
+    if (mapMode === 'gov') return !!(GOV_INFO[code] && GOV_INFO[code][2] === 'flip');
+    if (mapMode === 'sen') return !!(SEN[code] && SEN[code].some(x => x[2] === 'flip'));
+    return false;
+  }
+  function getStroke(code)  { return isFlip(code) ? '#FBBF24' : '#0D0F14'; }
+  function getStrokeW(code) { return isFlip(code) ? 2 : 0.5; }
 
   let mapMode = 'impact';
 
@@ -986,24 +1106,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  function partyShade(p, intensity) {
+    if (p === 'R') return 'rgb('+Math.round(155 + intensity * 80)+','+Math.round(12 + intensity * 10)+',25)';
+    if (p === 'D') return 'rgb(18,'+Math.round(45 + intensity * 35)+','+Math.round(135 + intensity * 95)+')';
+    if (p === 'S') return 'rgb('+Math.round(85 + intensity * 40)+','+Math.round(40 + intensity * 20)+','+Math.round(150 + intensity * 80)+')';
+    return '#6B7280';
+  }
+
   function getGovColor(code) {
     const party = GOV[code];
-    const intensity = TIER_INTENSITY[TIERS[code]] || 0.5;
     if (!party) return '#2A2F3B';
-    if (party === 'R') {
-      const r = Math.round(155 + intensity * 80);
-      const g = Math.round(12 + intensity * 10);
-      return 'rgb('+r+','+g+',25)';
-    } else {
-      const b = Math.round(135 + intensity * 95);
-      const g = Math.round(45 + intensity * 35);
-      return 'rgb(18,'+g+','+b+')';
-    }
+    return partyShade(party, TIER_INTENSITY[TIERS[code]] || 0.5);
+  }
+
+  function getSenColor(code) {
+    const c = senClass(code);
+    if (!c) return '#2A2F3B';
+    return partyShade(c === 'pend' ? 'P' : c, TIER_INTENSITY[TIERS[code]] || 0.5);
   }
 
   function getFillColor(code) {
     if (mapMode === 'party') return getPartyColor(code);
     if (mapMode === 'gov')   return getGovColor(code);
+    if (mapMode === 'sen')   return getSenColor(code);
+    if (mapMode === 'house') {
+      const hc = houseClass(code);
+      return hc ? partyShade(hc === 'pend' ? 'P' : hc, TIER_INTENSITY[TIERS[code]] || 0.5) : '#2A2F3B';
+    }
     return TIER_COLORS[TIERS[code]] || '#2A2F3B';
   }
 
@@ -1042,8 +1171,8 @@ document.addEventListener('DOMContentLoaded', function() {
               const code = FIPS[String(d.id).padStart(2,'0')];
               return getFillColor(code);
             })
-            .attr('stroke', '#0D0F14')
-            .attr('stroke-width', 0.5)
+            .attr('stroke', d => getStroke(FIPS[String(d.id).padStart(2,'0')]))
+            .attr('stroke-width', d => getStrokeW(FIPS[String(d.id).padStart(2,'0')]))
             .style('cursor', 'pointer')
             .on('mouseenter', function(event, d) {
               const code = FIPS[String(d.id).padStart(2,'0')];
@@ -1052,13 +1181,22 @@ document.addEventListener('DOMContentLoaded', function() {
               const brighter = d3.color(base);
               if (brighter) d3.select(this).attr('fill', brighter.brighter(0.4).formatHex());
               if (sdState) {
-                const govLine = (mapMode === 'gov' && GOV[code])
-                  ? '<br/><span style="color:'+(GOV[code]==='R'?'#f87171':'#60a5fa')+'">Gov. '+GOV_NAME[code]+' ('+GOV[code]+')</span>' : '';
+                const pc = p => p==='R' ? '#f87171' : (p==='D'||p==='I') ? '#60a5fa' : '#cbd5e1';
+                const gi = GOV_INFO[code];
+                const govLine = (mapMode === 'gov' && gi)
+                  ? '<br/><span style="color:'+pc(gi[1])+'">'+(gi[2]==='pend' ? gi[0] : 'Gov. '+gi[0]+' ('+gi[1]+')')+'</span>'
+                    +'<br/><span style="color:'+(gi[2]==='flip'?'#FBBF24':'#94A3B8')+';font-size:10px">'+GOV_STATUS_LABEL[gi[2]]+'</span>' : '';
+                const hh = HOUSE[code];
+                const houseLine = (mapMode === 'house' && hh)
+                  ? '<br/><span style="color:#cbd5e1">U.S. House: <span style="color:#60a5fa">'+hh[0]+' D</span> &middot; <span style="color:#f87171">'+hh[1]+' R</span>'+(hh[2] ? ' &middot; '+hh[2]+' uncalled' : '')+' ('+(hh[0]+hh[1]+(hh[2]||0))+' seats)</span>' : '';
+                const senTag = t => t==='flip' ? ' · flipped 2026' : t==='won' ? ' · won 2026' : t==='vac' ? ' · leaving to be governor' : '';
+                const senLine = (mapMode === 'sen' && SEN[code])
+                  ? SEN[code].map(x => '<br/><span style="color:'+(x[2]==='flip'?'#FBBF24':pc(x[1]))+'">'+(x[2]==='pend' ? x[0] : 'Sen. '+x[0]+' ('+x[1]+')'+senTag(x[2]))+'</span>').join('') : '';
                 const partyLine = (mapMode === 'party')
                   ? '<br/><span style="color:'+(PARTY[code]?'#f87171':'#60a5fa')+'">'+(PARTY[code]?'Voted Trump 2024':'Voted Harris 2024')+'</span>' : '';
                 tip.innerHTML = '<strong style="color:#F1F5F9;font-size:12px">'+sdState.name+'</strong><br/>'
                   +'<span style="color:#94A3B8">NSRA Impact: '+TIER_LABELS[TIERS[code]]+'</span>'
-                  +partyLine+govLine+'<br/>'
+                  +partyLine+govLine+senLine+houseLine+'<br/>'
                   +'<span style="color:#22C55E">'+sdState.uninsured+'M uninsured → BMP</span><br/>'
                   +'<span style="color:#94A3B8">'+sdState.loans+'M student borrowers</span><br/>'
                   +'<span style="color:#F59E0B">'+sdState.vets+'M veterans</span><br/>'
@@ -1087,19 +1225,144 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // ── Auto-updating election data ───────────────────────────────────────────
+  // 1) /data/elections.json is loaded on every visit (edit that file, not this page).
+  // 2) After senate_live_after (new Congress sworn in), the Senate view is built
+  //    from the official congress-legislators dataset, so it tracks seated members.
+  let ASOF = 'Nov 6, 2026';
+  let HOUSE_TEXT = 'Democratic majority projected, with more than 250 Democratic seats called (218 needed).';
+  let SEN_LIVE_AFTER = '2027-01-03T17:00:00Z';
+  let SEN_SOURCE = 'results';
+  const escH = t => String(t).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+
+  function updateElectionUI() {
+    const g = {D:0, R:0, P:0}, gPend = [];
+    let gFlips = 0;
+    Object.keys(GOV_INFO).forEach(k => {
+      const x = GOV_INFO[k]; g[x[1]] = (g[x[1]] || 0) + 1;
+      if (x[2] === 'flip') gFlips++;
+      if (x[2] === 'pend') gPend.push(k);
+    });
+    let sd = 0, sr = 0; const sPend = [];
+    Object.keys(SEN).forEach(k => SEN[k].forEach(x => {
+      if (x[1] === 'D' || x[1] === 'I') sd++; else if (x[1] === 'R') sr++; else sPend.push(k);
+    }));
+    let hd = 0, hr = 0, hu = 0;
+    Object.keys(HOUSE).forEach(k => { hd += HOUSE[k][0]; hr += HOUSE[k][1]; hu += (HOUSE[k][2] || 0); });
+    ['D','R','P'].forEach(p => { const el = document.getElementById('gov-cnt-' + p); if (el) el.textContent = g[p] || 0; });
+    const asofEl = document.getElementById('elec-asof'); if (asofEl) asofEl.textContent = ASOF;
+    GOV_STATUS_LABEL.pend = 'Uncalled as of ' + ASOF;
+    const st = 'style="color:var(--text)"';
+    const note = document.getElementById('map-elections-note');
+    if (note) note.innerHTML =
+      '<strong ' + st + '>2026 midterm results</strong> (unofficial, as of ' + escH(ASOF) + '; new terms begin January 2027). '
+      + '<strong ' + st + '>Senate' + (SEN_SOURCE === 'live' ? ' (members now seated)' : '') + ':</strong> ' + sd + ' D/I &middot; ' + sr + ' R'
+      + (sPend.length ? ' &middot; ' + sPend.length + ' uncalled (' + sPend.join(', ') + ')' : '') + '. '
+      + '<strong ' + st + '>House' + (HOUSE_SOURCE === 'live' ? ' (members now seated)' : '') + ':</strong> ' + hd + ' D &middot; ' + hr + ' R'
+      + (hu ? ' &middot; ' + hu + ' uncalled' : '') + ' (218 needed for a majority). '
+      + '<strong ' + st + '>Governors:</strong> ' + (g.D || 0) + ' D &middot; ' + (g.R || 0) + ' R'
+      + (gPend.length ? ' &middot; ' + gPend.length + ' uncalled (' + gPend.join(', ') + ')' : '')
+      + '; ' + gFlips + ' changed party.';
+  }
+
+  function redrawMap() {
+    updateElectionUI();
+    if (typeof d3 === 'undefined') return;
+    const paths = d3.select('#us-map').selectAll('path');
+    if (paths.empty()) return;
+    paths.attr('fill', function(d) { return getFillColor(FIPS[String(d.id).padStart(2,'0')]); })
+         .attr('stroke', function(d) { return getStroke(FIPS[String(d.id).padStart(2,'0')]); })
+         .attr('stroke-width', function(d) { return getStrokeW(FIPS[String(d.id).padStart(2,'0')]); });
+    paths.filter(function(d) { return isFlip(FIPS[String(d.id).padStart(2,'0')]); }).raise();
+  }
+
+  function validElectionData(j) {
+    if (!j || typeof j !== 'object' || !j.governors || !j.senate) return false;
+    const gk = Object.keys(j.governors), sk = Object.keys(j.senate);
+    if (gk.length < 50 || sk.length < 50) return false;
+    return gk.every(k => Array.isArray(j.governors[k]) && j.governors[k].length >= 3)
+        && sk.every(k => Array.isArray(j.senate[k]) && j.senate[k].length >= 1);
+  }
+
+  function csvRows(text) {
+    const rows = []; let row = [], cur = '', q = false;
+    for (let i = 0; i < text.length; i++) {
+      const ch = text[i];
+      if (q) { if (ch === '"') { if (text[i+1] === '"') { cur += '"'; i++; } else q = false; } else cur += ch; }
+      else if (ch === '"') q = true;
+      else if (ch === ',') { row.push(cur); cur = ''; }
+      else if (ch === '\n') { row.push(cur.replace(/\r$/, '')); rows.push(row); row = []; cur = ''; }
+      else cur += ch;
+    }
+    if (cur.length || row.length) { row.push(cur.replace(/\r$/, '')); rows.push(row); }
+    return rows;
+  }
+
+  function loadLiveSenate() {
+    if (Date.now() < Date.parse(SEN_LIVE_AFTER)) return Promise.resolve();
+    return fetch('https://unitedstates.github.io/congress-legislators/legislators-current.csv')
+      .then(r => r.ok ? r.text() : null)
+      .then(txt => {
+        if (!txt) return;
+        const rows = csvRows(txt), col = {};
+        rows[0].forEach((h, i) => { col[h] = i; });
+        const live = {}; let n = 0; const liveH = {}; let nh = 0;
+        for (let i = 1; i < rows.length; i++) {
+          const r = rows[i];
+          if (!r || r.length < 5) continue;
+          if (r[col.type] === 'rep') {
+            const hs = r[col.state], hp = (r[col.party] || '').charAt(0).toUpperCase();
+            liveH[hs] = liveH[hs] || [0, 0, 0];
+            if (hp === 'D') liveH[hs][0]++; else if (hp === 'R') liveH[hs][1]++;
+            nh++;
+            continue;
+          }
+          if (r[col.type] !== 'sen') continue;
+          const st = r[col.state];
+          const name = r[col.full_name] || ((r[col.first_name] || '') + ' ' + (r[col.last_name] || '')).trim();
+          const last = (r[col.last_name] || '').toLowerCase();
+          const pty = (r[col.party] || '').charAt(0).toUpperCase();
+          const prev = (SEN[st] || []).find(x => x[2] && x[2] !== 'pend' && x[0].toLowerCase().indexOf(last) >= 0);
+          (live[st] = live[st] || []).push([name, pty === 'D' || pty === 'R' ? pty : 'I', prev ? prev[2] : '']);
+          n++;
+        }
+        if (n >= 95 && Object.keys(live).length >= 50) { SEN = live; SEN_SOURCE = 'live'; }
+        if (nh >= 420 && Object.keys(HOUSE).every(k => liveH[k])) { HOUSE = liveH; HOUSE_SOURCE = 'live'; }
+      })
+      .catch(() => {});
+  }
+
+  fetch('data/elections.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(r => r.ok ? r.json() : null)
+    .then(j => {
+      if (!validElectionData(j)) return;
+      GOV_INFO = j.governors; rebuildGov(); SEN = j.senate;
+      if (j.as_of_label) ASOF = j.as_of_label;
+      if (j.house_summary) HOUSE_TEXT = j.house_summary;
+      if (j.house && Object.keys(j.house).length >= 50 && Object.keys(j.house).every(k => Array.isArray(j.house[k]) && j.house[k].length >= 2)) HOUSE = j.house;
+      if (j.senate_live_after) SEN_LIVE_AFTER = j.senate_live_after;
+    })
+    .catch(() => {})
+    .then(loadLiveSenate)
+    .then(redrawMap);
+
   window.setMapMode = function(mode) {
     nsraTrackEvent('state_map_mode_change', {event_category:'engagement', event_label: mode, map_mode: mode});
     mapMode = mode;
     // Legend visibility
-    ['impact','party','gov'].forEach(m => {
+    ['impact','party','gov','sen','house'].forEach(m => {
       const el = document.getElementById('map-legend-'+m);
       if (el) el.style.display = (m === mode) ? 'flex' : 'none';
     });
+    const note = document.getElementById('map-elections-note');
+    if (note) note.style.display = (mode === 'gov' || mode === 'sen' || mode === 'house') ? 'block' : 'none';
     // Button states
     const btns = {
       'btn-impact': { activeMode:'impact', activeColor:'var(--green)', activeText:'#000' },
       'btn-party':  { activeMode:'party', activeColor:'#B91C1C',    activeText:'#fff' },
       'btn-gov':    { activeMode:'gov',   activeColor:'#7C3AED',    activeText:'#fff' },
+      'btn-sen':    { activeMode:'sen',   activeColor:'#4F46E5',    activeText:'#fff' },
+      'btn-house':  { activeMode:'house', activeColor:'#0F766E',    activeText:'#fff' },
     };
     Object.entries(btns).forEach(([id, cfg]) => {
       const btn = document.getElementById(id);
@@ -1111,10 +1374,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     // Redraw fills
     if (typeof d3 !== 'undefined') {
-      d3.select('#us-map').selectAll('path').attr('fill', function(d) {
-        const code = FIPS[String(d.id).padStart(2,'0')];
-        return getFillColor(code);
-      });
+      const paths = d3.select('#us-map').selectAll('path');
+      paths.attr('fill', function(d) { return getFillColor(FIPS[String(d.id).padStart(2,'0')]); })
+           .attr('stroke', function(d) { return getStroke(FIPS[String(d.id).padStart(2,'0')]); })
+           .attr('stroke-width', function(d) { return getStrokeW(FIPS[String(d.id).padStart(2,'0')]); });
+      paths.filter(function(d) { return isFlip(FIPS[String(d.id).padStart(2,'0')]); }).raise();
     }
   };
 })();
