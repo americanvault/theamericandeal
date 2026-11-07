@@ -1,0 +1,1055 @@
+{
+ "_readme": "Election data for the homepage map (#impact-map). Edit this file only; the page loads it on every visit. governors: [name, party D|R|P(pending), status flip|new|re|none|pend]. senate: [[name, party D|R|I|?, tag won|flip|pend|vac], ...]. After senate_live_after the Senate view switches to the official congress-legislators dataset automatically. house: {STATE: [D seats, R seats, uncalled]}; after senate_live_after the House view is also built from the official dataset.",
+ "as_of": "2026-11-06",
+ "as_of_label": "Nov 6, 2026",
+ "house_summary": "Democratic majority projected (251 D, 162 R, 22 uncalled; 218 needed).",
+ "senate_live_after": "2027-01-03T17:00:00Z",
+ "sources": [
+  "AP-based network projections (NBC News, Fox News, CBS News)",
+  "NBC News House results by state",
+  "MultiState 2026 State Election Results"
+ ],
+ "governors": {
+  "AL": [
+   "Tommy Tuberville",
+   "R",
+   "new"
+  ],
+  "AK": [
+   "Jonathan Kreiss-Tomkins",
+   "D",
+   "flip"
+  ],
+  "AZ": [
+   "Katie Hobbs",
+   "D",
+   "re"
+  ],
+  "AR": [
+   "Sarah Huckabee Sanders",
+   "R",
+   "re"
+  ],
+  "CA": [
+   "Xavier Becerra",
+   "D",
+   "new"
+  ],
+  "CO": [
+   "Phil Weiser",
+   "D",
+   "new"
+  ],
+  "CT": [
+   "Ned Lamont",
+   "D",
+   "re"
+  ],
+  "DE": [
+   "Matt Meyer",
+   "D",
+   "none"
+  ],
+  "FL": [
+   "Byron Donalds",
+   "R",
+   "new"
+  ],
+  "GA": [
+   "Keisha Lance Bottoms",
+   "D",
+   "flip"
+  ],
+  "HI": [
+   "Josh Green",
+   "D",
+   "re"
+  ],
+  "ID": [
+   "Brad Little",
+   "R",
+   "re"
+  ],
+  "IL": [
+   "JB Pritzker",
+   "D",
+   "re"
+  ],
+  "IN": [
+   "Mike Braun",
+   "R",
+   "none"
+  ],
+  "IA": [
+   "Rob Sand",
+   "D",
+   "flip"
+  ],
+  "KS": [
+   "Uncalled: Cindy Holscher (D) leads Ty Masterson (R)",
+   "P",
+   "pend"
+  ],
+  "KY": [
+   "Andy Beshear",
+   "D",
+   "none"
+  ],
+  "LA": [
+   "Jeff Landry",
+   "R",
+   "none"
+  ],
+  "ME": [
+   "Hannah Pingree",
+   "D",
+   "new"
+  ],
+  "MD": [
+   "Wes Moore",
+   "D",
+   "re"
+  ],
+  "MA": [
+   "Maura Healey",
+   "D",
+   "re"
+  ],
+  "MI": [
+   "Jocelyn Benson",
+   "D",
+   "new"
+  ],
+  "MN": [
+   "Amy Klobuchar",
+   "D",
+   "new"
+  ],
+  "MS": [
+   "Tate Reeves",
+   "R",
+   "none"
+  ],
+  "MO": [
+   "Mike Kehoe",
+   "R",
+   "none"
+  ],
+  "MT": [
+   "Greg Gianforte",
+   "R",
+   "none"
+  ],
+  "NE": [
+   "Jim Pillen",
+   "R",
+   "re"
+  ],
+  "NV": [
+   "Aaron Ford",
+   "D",
+   "flip"
+  ],
+  "NH": [
+   "Kelly Ayotte",
+   "R",
+   "re"
+  ],
+  "NJ": [
+   "Mikie Sherrill",
+   "D",
+   "none"
+  ],
+  "NM": [
+   "Deb Haaland",
+   "D",
+   "new"
+  ],
+  "NY": [
+   "Kathy Hochul",
+   "D",
+   "re"
+  ],
+  "NC": [
+   "Josh Stein",
+   "D",
+   "none"
+  ],
+  "ND": [
+   "Kelly Armstrong",
+   "R",
+   "none"
+  ],
+  "OH": [
+   "Amy Acton",
+   "D",
+   "flip"
+  ],
+  "OK": [
+   "Mike Mazzei",
+   "R",
+   "new"
+  ],
+  "OR": [
+   "Tina Kotek",
+   "D",
+   "re"
+  ],
+  "PA": [
+   "Josh Shapiro",
+   "D",
+   "re"
+  ],
+  "RI": [
+   "Helena Foulkes",
+   "D",
+   "new"
+  ],
+  "SC": [
+   "Alan Wilson",
+   "R",
+   "new"
+  ],
+  "SD": [
+   "Larry Rhoden",
+   "R",
+   "re"
+  ],
+  "TN": [
+   "Marsha Blackburn",
+   "R",
+   "new"
+  ],
+  "TX": [
+   "Gina Hinojosa",
+   "D",
+   "flip"
+  ],
+  "UT": [
+   "Spencer Cox",
+   "R",
+   "none"
+  ],
+  "VT": [
+   "Phil Scott",
+   "R",
+   "re"
+  ],
+  "VA": [
+   "Abigail Spanberger",
+   "D",
+   "none"
+  ],
+  "WA": [
+   "Bob Ferguson",
+   "D",
+   "none"
+  ],
+  "WV": [
+   "Patrick Morrisey",
+   "R",
+   "none"
+  ],
+  "WI": [
+   "David Crowley",
+   "D",
+   "new"
+  ],
+  "WY": [
+   "Eric Barlow",
+   "R",
+   "new"
+  ]
+ },
+ "senate": {
+  "AL": [
+   [
+    "Katie Britt",
+    "R"
+   ],
+   [
+    "Barry Moore",
+    "R",
+    "won"
+   ]
+  ],
+  "AK": [
+   [
+    "Lisa Murkowski",
+    "R"
+   ],
+   [
+    "Uncalled: Peltola (D) leads Sullivan (R)",
+    "?",
+    "pend"
+   ]
+  ],
+  "AZ": [
+   [
+    "Mark Kelly",
+    "D"
+   ],
+   [
+    "Ruben Gallego",
+    "D"
+   ]
+  ],
+  "AR": [
+   [
+    "John Boozman",
+    "R"
+   ],
+   [
+    "Tom Cotton",
+    "R",
+    "won"
+   ]
+  ],
+  "CA": [
+   [
+    "Alex Padilla",
+    "D"
+   ],
+   [
+    "Adam Schiff",
+    "D"
+   ]
+  ],
+  "CO": [
+   [
+    "Michael Bennet",
+    "D"
+   ],
+   [
+    "John Hickenlooper",
+    "D",
+    "won"
+   ]
+  ],
+  "CT": [
+   [
+    "Richard Blumenthal",
+    "D"
+   ],
+   [
+    "Chris Murphy",
+    "D"
+   ]
+  ],
+  "DE": [
+   [
+    "Lisa Blunt Rochester",
+    "D"
+   ],
+   [
+    "Chris Coons",
+    "D",
+    "won"
+   ]
+  ],
+  "FL": [
+   [
+    "Rick Scott",
+    "R"
+   ],
+   [
+    "Ashley Moody",
+    "R",
+    "won"
+   ]
+  ],
+  "GA": [
+   [
+    "Raphael Warnock",
+    "D"
+   ],
+   [
+    "Jon Ossoff",
+    "D",
+    "won"
+   ]
+  ],
+  "HI": [
+   [
+    "Brian Schatz",
+    "D"
+   ],
+   [
+    "Mazie Hirono",
+    "D"
+   ]
+  ],
+  "ID": [
+   [
+    "Mike Crapo",
+    "R"
+   ],
+   [
+    "Jim Risch",
+    "R",
+    "won"
+   ]
+  ],
+  "IL": [
+   [
+    "Tammy Duckworth",
+    "D"
+   ],
+   [
+    "Juliana Stratton",
+    "D",
+    "won"
+   ]
+  ],
+  "IN": [
+   [
+    "Todd Young",
+    "R"
+   ],
+   [
+    "Jim Banks",
+    "R"
+   ]
+  ],
+  "IA": [
+   [
+    "Chuck Grassley",
+    "R"
+   ],
+   [
+    "Josh Turek",
+    "D",
+    "flip"
+   ]
+  ],
+  "KS": [
+   [
+    "Jerry Moran",
+    "R"
+   ],
+   [
+    "Adam Hamilton",
+    "D",
+    "flip"
+   ]
+  ],
+  "KY": [
+   [
+    "Rand Paul",
+    "R"
+   ],
+   [
+    "Andy Barr",
+    "R",
+    "won"
+   ]
+  ],
+  "LA": [
+   [
+    "John Kennedy",
+    "R"
+   ],
+   [
+    "Julia Letlow",
+    "R",
+    "won"
+   ]
+  ],
+  "ME": [
+   [
+    "Angus King",
+    "I"
+   ],
+   [
+    "Troy Jackson",
+    "D",
+    "flip"
+   ]
+  ],
+  "MD": [
+   [
+    "Chris Van Hollen",
+    "D"
+   ],
+   [
+    "Angela Alsobrooks",
+    "D"
+   ]
+  ],
+  "MA": [
+   [
+    "Elizabeth Warren",
+    "D"
+   ],
+   [
+    "Ed Markey",
+    "D",
+    "won"
+   ]
+  ],
+  "MI": [
+   [
+    "Elissa Slotkin",
+    "D"
+   ],
+   [
+    "Abdul El-Sayed",
+    "D",
+    "won"
+   ]
+  ],
+  "MN": [
+   [
+    "Amy Klobuchar",
+    "D",
+    "vac"
+   ],
+   [
+    "Peggy Flanagan",
+    "D",
+    "won"
+   ]
+  ],
+  "MS": [
+   [
+    "Roger Wicker",
+    "R"
+   ],
+   [
+    "Uncalled: Colom (D) leads Hyde-Smith (R)",
+    "?",
+    "pend"
+   ]
+  ],
+  "MO": [
+   [
+    "Josh Hawley",
+    "R"
+   ],
+   [
+    "Eric Schmitt",
+    "R"
+   ]
+  ],
+  "MT": [
+   [
+    "Tim Sheehy",
+    "R"
+   ],
+   [
+    "Kurt Alme",
+    "R",
+    "won"
+   ]
+  ],
+  "NE": [
+   [
+    "Deb Fischer",
+    "R"
+   ],
+   [
+    "Pete Ricketts",
+    "R",
+    "won"
+   ]
+  ],
+  "NV": [
+   [
+    "Catherine Cortez Masto",
+    "D"
+   ],
+   [
+    "Jacky Rosen",
+    "D"
+   ]
+  ],
+  "NH": [
+   [
+    "Maggie Hassan",
+    "D"
+   ],
+   [
+    "Chris Pappas",
+    "D",
+    "won"
+   ]
+  ],
+  "NJ": [
+   [
+    "Andy Kim",
+    "D"
+   ],
+   [
+    "Cory Booker",
+    "D",
+    "won"
+   ]
+  ],
+  "NM": [
+   [
+    "Martin Heinrich",
+    "D"
+   ],
+   [
+    "Ben Ray Luján",
+    "D",
+    "won"
+   ]
+  ],
+  "NY": [
+   [
+    "Chuck Schumer",
+    "D"
+   ],
+   [
+    "Kirsten Gillibrand",
+    "D"
+   ]
+  ],
+  "NC": [
+   [
+    "Ted Budd",
+    "R"
+   ],
+   [
+    "Roy Cooper",
+    "D",
+    "flip"
+   ]
+  ],
+  "ND": [
+   [
+    "John Hoeven",
+    "R"
+   ],
+   [
+    "Kevin Cramer",
+    "R"
+   ]
+  ],
+  "OH": [
+   [
+    "Bernie Moreno",
+    "R"
+   ],
+   [
+    "Sherrod Brown",
+    "D",
+    "flip"
+   ]
+  ],
+  "OK": [
+   [
+    "James Lankford",
+    "R"
+   ],
+   [
+    "Kevin Hern",
+    "R",
+    "won"
+   ]
+  ],
+  "OR": [
+   [
+    "Ron Wyden",
+    "D"
+   ],
+   [
+    "Jeff Merkley",
+    "D",
+    "won"
+   ]
+  ],
+  "PA": [
+   [
+    "John Fetterman",
+    "D"
+   ],
+   [
+    "Dave McCormick",
+    "R"
+   ]
+  ],
+  "RI": [
+   [
+    "Sheldon Whitehouse",
+    "D"
+   ],
+   [
+    "Jack Reed",
+    "D",
+    "won"
+   ]
+  ],
+  "SC": [
+   [
+    "Tim Scott",
+    "R"
+   ],
+   [
+    "Annie Andrews",
+    "D",
+    "flip"
+   ]
+  ],
+  "SD": [
+   [
+    "John Thune",
+    "R"
+   ],
+   [
+    "Mike Rounds",
+    "R",
+    "won"
+   ]
+  ],
+  "TN": [
+   [
+    "Marsha Blackburn",
+    "R",
+    "vac"
+   ],
+   [
+    "Bill Hagerty",
+    "R",
+    "won"
+   ]
+  ],
+  "TX": [
+   [
+    "Ted Cruz",
+    "R"
+   ],
+   [
+    "James Talarico",
+    "D",
+    "flip"
+   ]
+  ],
+  "UT": [
+   [
+    "Mike Lee",
+    "R"
+   ],
+   [
+    "John Curtis",
+    "R"
+   ]
+  ],
+  "VT": [
+   [
+    "Bernie Sanders",
+    "I"
+   ],
+   [
+    "Peter Welch",
+    "D"
+   ]
+  ],
+  "VA": [
+   [
+    "Tim Kaine",
+    "D"
+   ],
+   [
+    "Mark Warner",
+    "D",
+    "won"
+   ]
+  ],
+  "WA": [
+   [
+    "Patty Murray",
+    "D"
+   ],
+   [
+    "Maria Cantwell",
+    "D"
+   ]
+  ],
+  "WV": [
+   [
+    "Jim Justice",
+    "R"
+   ],
+   [
+    "Shelley Moore Capito",
+    "R",
+    "won"
+   ]
+  ],
+  "WI": [
+   [
+    "Tammy Baldwin",
+    "D"
+   ],
+   [
+    "Ron Johnson",
+    "R"
+   ]
+  ],
+  "WY": [
+   [
+    "John Barrasso",
+    "R"
+   ],
+   [
+    "Harriet Hageman",
+    "R",
+    "won"
+   ]
+  ]
+ },
+ "house": {
+  "AL": [
+   2,
+   5,
+   0
+  ],
+  "AK": [
+   0,
+   0,
+   1
+  ],
+  "AZ": [
+   5,
+   3,
+   1
+  ],
+  "AR": [
+   0,
+   4,
+   0
+  ],
+  "CA": [
+   45,
+   2,
+   5
+  ],
+  "CO": [
+   6,
+   1,
+   1
+  ],
+  "CT": [
+   5,
+   0,
+   0
+  ],
+  "DE": [
+   1,
+   0,
+   0
+  ],
+  "FL": [
+   7,
+   17,
+   4
+  ],
+  "GA": [
+   5,
+   9,
+   0
+  ],
+  "HI": [
+   2,
+   0,
+   0
+  ],
+  "ID": [
+   0,
+   2,
+   0
+  ],
+  "IL": [
+   14,
+   3,
+   0
+  ],
+  "IN": [
+   3,
+   6,
+   0
+  ],
+  "IA": [
+   3,
+   1,
+   0
+  ],
+  "KS": [
+   1,
+   3,
+   0
+  ],
+  "KY": [
+   2,
+   4,
+   0
+  ],
+  "LA": [
+   1,
+   3,
+   2
+  ],
+  "ME": [
+   1,
+   0,
+   1
+  ],
+  "MD": [
+   7,
+   1,
+   0
+  ],
+  "MA": [
+   9,
+   0,
+   0
+  ],
+  "MI": [
+   9,
+   4,
+   0
+  ],
+  "MN": [
+   4,
+   3,
+   1
+  ],
+  "MS": [
+   1,
+   3,
+   0
+  ],
+  "MO": [
+   3,
+   5,
+   0
+  ],
+  "MT": [
+   1,
+   1,
+   0
+  ],
+  "NE": [
+   1,
+   2,
+   0
+  ],
+  "NV": [
+   4,
+   0,
+   0
+  ],
+  "NH": [
+   2,
+   0,
+   0
+  ],
+  "NJ": [
+   11,
+   1,
+   0
+  ],
+  "NM": [
+   3,
+   0,
+   0
+  ],
+  "NY": [
+   20,
+   6,
+   0
+  ],
+  "NC": [
+   9,
+   2,
+   3
+  ],
+  "ND": [
+   0,
+   1,
+   0
+  ],
+  "OH": [
+   8,
+   7,
+   0
+  ],
+  "OK": [
+   0,
+   5,
+   0
+  ],
+  "OR": [
+   5,
+   1,
+   0
+  ],
+  "PA": [
+   11,
+   6,
+   0
+  ],
+  "RI": [
+   2,
+   0,
+   0
+  ],
+  "SC": [
+   2,
+   4,
+   1
+  ],
+  "SD": [
+   0,
+   1,
+   0
+  ],
+  "TN": [
+   0,
+   8,
+   1
+  ],
+  "TX": [
+   14,
+   24,
+   0
+  ],
+  "UT": [
+   1,
+   3,
+   0
+  ],
+  "VT": [
+   1,
+   0,
+   0
+  ],
+  "VA": [
+   8,
+   3,
+   0
+  ],
+  "WA": [
+   8,
+   1,
+   1
+  ],
+  "WV": [
+   0,
+   2,
+   0
+  ],
+  "WI": [
+   4,
+   4,
+   0
+  ],
+  "WY": [
+   0,
+   1,
+   0
+  ]
+ }
+}
