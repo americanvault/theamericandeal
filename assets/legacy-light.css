@@ -1,0 +1,36 @@
+/* Light-theme bridge for pages built on the original dark palette (adopt, press, engage, bill-text, calculator, fiscal-model). */
+:root{--bg:#ffffff;--surface:#f6f7f9;--elev:#eef1f5;--green:#0f6b33;--amber:#b54708;--red:#b42318;--blue:#1d4ed8;--text:#111418;--muted:#4b5565;--border:#e4e7ec}
+body{background:#fff!important;color:#111418;font-size:16px}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,"Times New Roman",serif;letter-spacing:-.01em}
+/* page's own nav becomes a light sub-menu under the shared header */
+body>nav{position:static!important;background:#f6f7f9!important;border-bottom:1px solid #e4e7ec!important;border-top:0!important;backdrop-filter:none!important;height:auto!important;min-height:44px;flex-wrap:wrap;padding:6px 20px!important}
+body>nav .brand{display:none!important}
+body>nav a{color:#3b4350!important}
+body>nav a:hover{color:#15803d!important}
+/* hard-coded light-on-dark text */
+[style*="color:#cbd5e1"],[style*="color:#CBD5E1"],[style*="color: #cbd5e1"],[style*="color:#e2e8f0"],[style*="color:#E2E8F0"],[style*="color:#cdd8f5"],[style*="color:#9fb4e6"],[style*="color:#8ea3cf"],[style*="color:#94A3B8"],[style*="color:#94a3b8"]{color:#3b4350!important}
+[style*="color:#f1f5f9"],[style*="color:#F1F5F9"],[style*="color:#eaf0ff"]{color:#111418!important}
+[style*="color:#22c55e"],[style*="color:#22C55E"]{color:#15803d!important}
+[style*="color:#04120a"],[style*="color:#04121f"]{color:#fff!important}
+[style*="background:#161920"],[style*="background: #161920"]{background:#f6f7f9!important}
+[style*="background:#0a1230"],[style*="background: #0a1230"]{background:#0b2545!important}
+[style*="border:#252830"],[style*="border-color:#252830"]{border-color:#e4e7ec!important}
+/* stylesheet-level light-on-dark text inside page CSS */
+p,li,td{color:inherit}
+.muted,.sub,.desc,.d{color:#4b5565}
+footer{background:#0b2545!important;color:#cfd8e3!important;border-top:0!important}
+footer a{color:#e4e7ec!important}
+input,select,textarea{background:#fff!important;color:#111418!important;border:1px solid #d0d5dd!important}
+table th{color:#4b5565}
+/* page-stylesheet text colors (same selectors, later = wins) */
+p,li,td,.lede,p.body,.qa .a,.dl,.fig .l,.bundle li,.rc-t td:last-child,.sc .l,.tier .lead,.tier .prov b,.tl .step,.vc b,.panel li,.stream .nm{color:#3b4350}
+.note b{color:#111418}
+.btn.g,.btn.p,.btn,.cta{color:#fff}
+#usa250{display:none!important}
+/* hard-coded accent/muted colors set inline by scripts */
+[style*="color:#64748B"],[style*="color:#64748b"],[style*="color: #64748B"]{color:#4b5565!important}
+[style*="color:#EF4444"],[style*="color:#ef4444"],[style*="color:#f0564b"],[style*="color:#F0564B"],[style*="color:#e23b3b"],[style*="color:#E23B3B"]{color:#b42318!important}
+[style*="color:#F59E0B"],[style*="color:#f59e0b"]{color:#b54708!important}
+[style*="color:#60A5FA"],[style*="color:#60a5fa"]{color:#1d4ed8!important}
+[style*="color:#A78BFA"],[style*="color:#a78bfa"]{color:#6d28d9!important}
+[style*="color:var(--green)"]{color:#0f6b33!important}
