@@ -34,30 +34,34 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is the calculator free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The National Return Engine\u2122 is free, requires no signup, and runs entirely in your browser."}}, {"@type": "Question", "name": "Where does the math come from?", "acceptedAnswer": {"@type": "Answer", "text": "Every figure traces to public CBO, JCT, IRS, BEA, and OECD baselines, documented in Schedule G of the NSRA bill text."}}]}
 </script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;0,8..60,800;1,8..60,700&display=swap" />
+<link rel="stylesheet" href="/assets/site.css" />
 <style>
-:root{--bg:#0D0F14;--surface:#161920;--green:#22C55E;--text:#F1F5F9;--muted:#64748B;--border:#252830}
+:root{--bg:#ffffff;--surface:#f6f7f9;--green:#15803d;--text:#111418;--muted:#5b6472;--border:#e4e7ec}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:16px;line-height:1.7}
 a{color:var(--green)}
-nav{position:sticky;top:0;background:rgba(13,15,20,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px}
+nav.legacy-nav{position:sticky;top:0;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:0 24px;display:flex;align-items:center;height:56px}
 .brand{font-size:13px;font-weight:700;letter-spacing:.05em;color:var(--text);text-decoration:none}
 .brand span{color:var(--green)}
 .wrap{max-width:760px;margin:0 auto;padding:48px 24px 80px}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--green);margin-bottom:14px}
 h1{font-size:clamp(28px,5vw,44px);font-weight:800;line-height:1.15;letter-spacing:-.02em;margin-bottom:18px}
-.lede{font-size:19px;color:#cbd5e1;margin-bottom:36px}
+.lede{font-size:19px;color:#3b4350;margin-bottom:36px}
 h2{font-size:22px;font-weight:700;margin:34px 0 10px}
-p{color:#cbd5e1;margin-bottom:14px}
-.cta{display:inline-block;background:var(--green);color:#04120a;font-weight:700;padding:13px 26px;border-radius:8px;text-decoration:none;margin:10px 10px 0 0}
+p{color:#3b4350;margin-bottom:14px}
+.cta{display:inline-block;background:var(--green);color:#ffffff;font-weight:700;padding:13px 26px;border-radius:8px;text-decoration:none;margin:10px 10px 0 0}
 .cta.ghost{background:transparent;border:1px solid var(--border);color:var(--green)}
 .ctarow{margin:36px 0 8px}
 .related{margin-top:48px;padding-top:24px;border-top:1px solid var(--border)}
 .related h2{font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .related a{display:inline-block;margin:6px 14px 6px 0;font-size:15px}
-footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:13px;color:var(--muted)}
+footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;font-size:13px;color:var(--muted)}
 .faq{margin-top:40px}
 .faq h2{border-bottom:1px solid var(--border);padding-bottom:8px}
 .q{font-weight:700;margin-top:18px;color:var(--text)}
+/* legacy-fit */ #usa250,#usa250tab{display:none!important} header.site a,footer.site a{text-decoration:none} h1,h2{color:var(--navy,#0b2545)}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -71,10 +75,9 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <header class="site"><div class="in">
 <a class="logo" href="/">The American <span>Deal</span></a>
 <nav class="main" aria-label="Main"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav>
-<a class="btn sm" href="/explore/#support">Add your name</a>
+<a class="btn sm" href="/#sign">Sign the petition</a>
 </div><nav class="mnav" aria-label="Mobile"><a href="/#issues">Issues</a><a href="/2026-midterms/">2027 Agenda</a><a href="/2028/">2028</a><a href="/bill-text/">The Bill</a><a href="/calculator/">Calculator</a><a href="/explore/">Explore</a></nav></header>
 
-<nav><a class="brand" href="/">The<span>American</span>Deal</a></nav>
 <div class="wrap">
 <div class="eyebrow">The National Security &amp; Resilience Act</div>
 <h1>The National Return Engine™</h1>
@@ -106,6 +109,12 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <a href="/">Full site &amp; petition &rarr;</a>
 </div>
 </div>
-<footer>TheAmericanDeal.org, What America Owes You&trade; · <a href="/">Home</a> · <a href="/explore/#bill-text">Policy Vault</a> · contact@theamericandeal.org</footer>
+<footer class="site"><div class="in">
+<div><div class="logo" style="color:#fff">The American <span>Deal</span></div><p style="margin-top:10px">The National Sovereignty and Resilience Act is model federal legislation written by Santonio D. Sanders. Independent: not affiliated with any party, PAC, or elected official.</p></div>
+<div><h4>Issues</h4><a href="/stock-trading-ban/">Stock trading ban</a><a href="/drug-prices/">Drug prices</a><a href="/healthcare/">Healthcare</a><a href="/housing/">Housing</a><a href="/paid-leave/">Paid leave</a><a href="/science/">Science</a></div>
+<div><h4>The bill</h4><a href="/bill-text/">Bill text &amp; policy vault</a><a href="/explore/">Explore everything</a><a href="/fiscal-model/">Fiscal model</a><a href="/calculator/">Calculator</a><a href="/2028/">2028 agenda</a></div>
+<div><h4>Connect</h4><a href="/adopt/">Policymakers</a><a href="/press/">Press</a><a href="/engage/">Organizations</a><a href="mailto:contact@theamericandeal.org">contact@theamericandeal.org</a></div>
+<div class="fine">Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO or JCT scores. &copy; 2024&ndash;2026 Santonio D. Sanders. What America Owes You&trade;.</div>
+</div></footer>
 </body>
 </html>
