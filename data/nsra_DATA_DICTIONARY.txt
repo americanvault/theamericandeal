@@ -1,5 +1,5 @@
 NSRA MACHINE-READABLE DATASETS - DATA DICTIONARY
-Methodology version: v2026.2    Last updated: 2026-11-07
+Methodology version: v2026.4    Last updated: 2026-11-07
 Publisher: TheAmericanDeal.org (National Sovereignty and Resilience Act)
 Status: Internally modeled on published government baselines. Official CBO/JCT scoring pending and welcomed.
 Contact: contact@theamericandeal.org
