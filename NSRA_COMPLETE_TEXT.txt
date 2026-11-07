@@ -332,6 +332,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3904. PAYMENT VERIFICATION AND FRAUD PREVENTION.
     SEC. 3905. FUNDING AND BUDGET NEUTRALITY.
     SEC. 3906. SCHEDULE D BENCHMARKS — TITLE XXXIX.
+    SEC. 3907. ONE BENEFITS APPLICATION AND SHARED SERVICES.
 
 SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF BASELINE CONDITIONS EVIDENCE STANDARD.
 
@@ -4881,7 +4882,34 @@ SEC. 3905. FUNDING AND BUDGET NEUTRALITY.
 
 SEC. 3906. SCHEDULE D BENCHMARKS — TITLE XXXIX.
 
-The Federal Chief Information Officer shall report biennially to Congress on: (1) the number of inventoried legacy systems retired or modernized, by agency, against the schedule of section 3902; (2) operating savings and repayments to the Legacy Retirement Account; (3) the number of services and individuals using the portal under section 3903, completion times, and user satisfaction; (4) improper payments prevented through section 3904; (5) the United States ranking in the United Nations E-Government Development Index; and (6) privacy complaints and their resolution.
+The Federal Chief Information Officer shall report biennially to Congress on: (1) the number of inventoried legacy systems retired or modernized, by agency, against the schedule of section 3902; (2) operating savings and repayments to the Legacy Retirement Account; (3) the number of services and individuals using the portal under section 3903, completion times, and user satisfaction; (4) improper payments prevented through section 3904; (5) the United States ranking in the United Nations E-Government Development Index; (6) privacy complaints and their resolution; and (7) under section 3907, the number of single applications completed, States participating, duplicate enrollments ended, and costs and savings recognized under Section 3412.
+
+SEC. 3907. ONE BENEFITS APPLICATION AND SHARED SERVICES.
+
+(a) PURPOSE.—To let an individual apply once for the federal benefits the individual may be eligible for, to stop duplicate and mistaken payments by sharing verification across programs, and to lower the cost of running those programs, without merging any program, its trust fund, or its eligibility rules.
+
+(b) ONE APPLICATION.—Not later than three (3) years after the date of enactment, the portal established under section 3903 shall offer a single application that screens an individual or household for Social Security benefits and Supplemental Security Income, Medicare, Medicaid and the Children's Health Insurance Program, the Supplemental Nutrition Assistance Program, the Basic Minimum Plan and coverage through an Exchange, and other federal benefits designated by the Director of the Office of Management and Budget. Screening is not a determination: each program shall determine eligibility and benefits under its own law, and eligibility for one program shall not by itself establish eligibility for another.
+
+(c) STATE CHOICE.—A State administering Medicaid, the Children's Health Insurance Program, or the Supplemental Nutrition Assistance Program may accept application information and verification results provided under this section in place of its own. No State is required to participate. The Federal Government shall bear the cost of building and operating the shared application and verification services, and nothing in this section shifts any administrative or benefit cost to a State.
+
+(d) SHARED VERIFICATION.—The verification service under section 3904 shall answer queries from federal agencies and participating States on identity, death, income, and enrollment in other federally funded programs, including enrollment in Medicaid in more than one State and simultaneous enrollment in Medicaid and subsidized Exchange or Basic Minimum Plan coverage. The service shall—
+(1) answer specific queries and shall not create or maintain a single combined file of individuals' records;
+(2) log every query, and make the log available to the Inspectors General of the agencies concerned and to the individual whose record was queried, on request;
+(3) comply with the Privacy Act of 1974, the computer matching requirements of section 552a(o) through (u) of title 5, United States Code, and section 3903(d) of this Act; and
+(4) be audited each year by the Comptroller General for accuracy, security, and misuse.
+
+(e) DUE PROCESS.—No benefit shall be denied, reduced, suspended, or terminated on the basis of a match under this section alone. The individual shall receive written notice of the information relied on and not less than thirty (30) days to respond, and a person shall review the case before any adverse action, consistent with Title XVIII.
+
+(f) DUPLICATE COVERAGE.—Not less than once each quarter, the Administrator of the Centers for Medicare & Medicaid Services and participating States shall reconcile enrollment to identify individuals enrolled in more than one State's Medicaid program or in both Medicaid and subsidized coverage, and shall end duplicate federal payments after notice under subsection (e).
+
+(g) SHARED SERVICES.—The Director of the Office of Management and Budget shall designate shared-service providers for contact centers, identity proofing, document intake, and payment processing for the programs listed in subsection (b). An agency shall use a designated provider when the Comptroller General finds that doing so lowers cost without lowering service quality.
+
+(h) PROTECTIONS.—Nothing in this section—
+(1) alters the status of the Social Security Administration as an independent agency or the separate accounting of any trust fund;
+(2) merges, eliminates, or changes the eligibility rules or benefits of any program; or
+(3) authorizes the use of program data for any law-enforcement purpose except pursuant to a warrant.
+
+(i) FUNDING AND SAVINGS.—Costs under this section shall be met within the amounts authorized by section 3905. Savings under this section are recognized only as provided in Section 3412 and shall be reported under section 3906.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
