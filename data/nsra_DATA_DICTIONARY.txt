@@ -1,5 +1,5 @@
 NSRA MACHINE-READABLE DATASETS - DATA DICTIONARY
-Methodology version: v2026.1    Last updated: 2026-07-11
+Methodology version: v2026.2    Last updated: 2026-11-07
 Publisher: TheAmericanDeal.org (National Sovereignty and Resilience Act)
 Status: Internally modeled on published government baselines. Official CBO/JCT scoring pending and welcomed.
 Contact: contact@theamericandeal.org
@@ -11,22 +11,18 @@ CBO or JCT score. Every file carries a methodology_version and last_updated colu
 FILES
 -----
 nsra_revenue_streams.csv
-  One row per scored revenue or cost stream (15 revenue + 2 program-linked costs).
-  stream                          : plain-language name of the stream
-  statutory_section               : NSRA section or title authorizing it
-  year1_estimate_billion_usd      : Year-1 estimate, $B (negative = program-linked cost)
-  baseline_source                 : published agency/source the estimate is built on
-  base_year                       : year of the baseline data
-  confidence                      : High / Moderate / Preliminary
-  behavioral_sensitive            : Yes if elasticity-sensitive (subject to behavioral haircut)
+  One row per scored revenue stream (19 streams).
+  stream_id, stream, statutory_section, confidence (High / Moderate / Preliminary)
+  scenario_a_billion_usd  : central full-ramp estimate, $B per year, first-year dollars
+  scenario_b_billion_usd  : conservative floor (High -5%, Moderate -20%, Preliminary -50%)
+  basis                   : published score or baseline the estimate is built on
 
 nsra_fiscal_projections.csv
-  10-year projection, central scenario.
-  fiscal_year                          : 1-10
-  net_revenue_billion_usd              : modeled net revenue that year
-  program_outlays_billion_usd          : revenue-funded program outlays
-  annual_deficit_reduction_billion_usd : net_revenue minus program_outlays
-  Note: Year-1 realization ramps (86/94/98/100 pct across years 1-4); 2 pct/yr revenue growth assumed.
+  10-year projection, central scenario, Year 1 = FY2028.
+  revenue, costs_outlays (program costs, outlays and infrastructure), deficit_reduction,
+  interest_savings (3.5% on debt avoided), total, cumulative ($B).
+  Revenue realization ramps 86/94/98/100 pct (Years 1-4) and grows 4 pct/yr; programs phase in
+  55/75/90/100 pct behind certification gates and grow 4.5 pct/yr.
 
 nsra_state_impact.csv
   One row per state (50 states). Population fields in millions (M) or thousands (K) as labeled.
@@ -48,6 +44,7 @@ nsra_source_register.csv
 
 CANONICAL TAXONOMY
 ------------------
-Revenue is the sum of 12 scored base revenue streams plus supplemental enforcement recapture.
-Gross ~$784.6B/yr -> ~$749B net (central) -> ~$554B annual deficit reduction after ~$196B
-revenue-funded outlays. Balanced budget Year 4 central (range 3-5).
+Full-ramp revenue ~$657B/yr (Scenario B floor ~$551B) - costs, outlays and infrastructure ~$486B
+= ~$171B annual deficit reduction. Ten years: ~$2.1T before interest savings, ~$2.5T including
+interest savings (range $1.4T-$3.2T). Statutory deficit limits (Sec. 3406(f)): 4.5% of GDP by
+Year 4, 3% by Year 10, and a required vote on a Balanced Budget Act by Year 8.
