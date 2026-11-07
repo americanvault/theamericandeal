@@ -2928,7 +2928,7 @@ SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
 
 (f) DOMESTIC INDUSTRY TRANSITION SUPPORT.—Energy-intensive, trade-exposed domestic industries shall receive transitional Carbon Fee rebates at seventy-five percent (75%) of their assessed fee in Years 1 through 3, declining by fifteen percent (15%) per year thereafter as the Border Carbon Adjustment provides equivalent competitive protection. By Year 8, the Border Carbon Adjustment fully replaces the transitional rebate.
 
-(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately eighty-five billion dollars ($85,000,000,000) a year, of which approximately thirty-five billion dollars ($35,000,000,000) is applied to deficit reduction under subsection (c)(3).
+(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately ninety billion dollars ($90,000,000,000) a year, of which approximately thirty-five billion dollars ($35,000,000,000) is applied to deficit reduction under subsection (c)(3).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3100,7 +3100,7 @@ SEC. 2420. HIGH-INCOME TAX FAIRNESS.
 
 (e) PROTECTION.—No provision of this section increases the tax of any individual whose adjusted gross income does not exceed $400,000 ($200,000 in the case of a married individual filing a separate return).
 
-(f) REVENUE.—Revenue under this section, projected at approximately eighty-five billion dollars ($85,000,000,000) a year, shall be applied to deficit reduction under Section 3406(f).
+(f) REVENUE.—Revenue under this section, projected at approximately ninety billion dollars ($90,000,000,000) a year, shall be applied to deficit reduction under Section 3406(f).
 
 
 TITLE XXV — VETERANS HEALTH SECURITY AND PACT ACT COMPLETION
@@ -4284,7 +4284,7 @@ RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebala
 
 SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 
-(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred thirty billion dollars ($630,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.4). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred forty-two billion dollars ($542,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred twenty-three billion dollars ($523,000,000,000), which, against the same costs, would leave approximately seventy-seven billion dollars ($77,000,000,000) a year in deficit reduction.
+(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred thirty-five billion dollars ($635,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.4). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred forty-six billion dollars ($546,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred twenty-four billion dollars ($524,000,000,000), which, against the same costs, would leave approximately seventy-eight billion dollars ($78,000,000,000) a year in deficit reduction.
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
 (1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
@@ -4311,7 +4311,7 @@ Net program costs: approximately three hundred fifty-one billion one hundred mil
 (6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FMIA assessment.
 Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
-(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred thirty billion dollars ($630,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred eighty-four billion dollars ($184,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion three hundred billion dollars ($2,300,000,000,000), or approximately two trillion seven hundred billion dollars ($2,700,000,000,000) including reduced interest costs, within a range of one trillion six hundred billion dollars to three trillion four hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred thirty-five billion dollars ($635,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred eighty-nine billion dollars ($189,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion three hundred billion dollars ($2,300,000,000,000), or approximately two trillion seven hundred billion dollars ($2,700,000,000,000) including reduced interest costs, within a range of one trillion seven hundred billion dollars to three trillion four hundred billion dollars under the scenarios in Schedule G.
 
 (e) DESIGNATION.—The net annual deficit reduction stated in subsection (d) is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
@@ -4412,7 +4412,7 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected.
 
-(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred five billion dollars ($305,000,000,000) a year at full effect, stated in first-year dollars. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion three hundred billion dollars ($4,300,000,000,000), or approximately five trillion dollars ($5,000,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to approximately five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred five billion dollars ($305,000,000,000) a year at full effect, stated in first-year dollars. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion four hundred billion dollars ($4,400,000,000,000), or approximately five trillion dollars ($5,000,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to approximately five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4914,13 +4914,13 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   FTA 0.02% on institutional trades > $1M                  Sec. 2405      Preliminary  $    3.0B   $    1.5B
   SNAP retailer fraud recovery                             Title I        High         $    1.0B   $    0.9B
   Top rate 39.6% above $400K single / $450K joint          Sec. 2420(a)   Moderate     $   40.0B   $   32.0B
-  NIIT on active pass-through income above $400K           Sec. 2420(b)   Moderate     $   27.0B   $   21.6B
-  Capital gains as ordinary income above $1M               Sec. 2420(c)   Preliminary  $    3.0B   $    1.5B
+  NIIT on active pass-through income above $400K           Sec. 2420(b)   Moderate     $   23.0B   $   18.4B
+  Capital gains and dividends as ordinary income above $1M Sec. 2420(c)   Preliminary  $   12.0B   $    6.0B
   Stock-buyback excise 1% to 4%                            Sec. 2420(d)   High         $   15.0B   $   14.2B
   --------------------------------------------------------------------------------------------------------
-  TOTAL REVENUE                                                                        $  630.4B   $  522.9B
+  TOTAL REVENUE                                                                        $  635.4B   $  524.2B
 
-  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-02, JCT / Treasury Green Book; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, Treasury Green Book; REV-18, JCT realization elasticities; no deemed realization at death; REV-19, Treasury Green Book.
+  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-02, JCT / Treasury Green Book; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4949,26 +4949,26 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
 4. RECONCILIATION AND TEN-YEAR PROJECTION.
 
-  Full-ramp annual deficit reduction (Scenario A): $630.4B revenue - $446.1B costs and outlays = $184.3B.
+  Full-ramp annual deficit reduction (Scenario A): $635.4B revenue - $446.1B costs and outlays = $189.3B.
   Revenue ramps with enforcement capacity (86, 94, 98, then 100 percent realization in Years 1-4) and grows 4 percent a year; programs phase in behind the certification gates of Schedule E (55, 75, 90, then 100 percent) and grow 4.5 percent a year; reduced debt lowers interest costs at 3.5 percent.
 
   Fiscal year   Revenue   Costs+outlays   Deficit reduction   Interest savings   Total     Cumulative
-  Year 1  (FY2028)  $  542B    $  275B          $  268B             $   0B           $  268B   $   268B
-  Year 2  (FY2029)  $  616B    $  366B          $  250B             $   9B           $  259B   $   527B
-  Year 3  (FY2030)  $  668B    $  445B          $  223B             $  18B           $  242B   $   769B
-  Year 4  (FY2031)  $  709B    $  508B          $  201B             $  27B           $  228B   $   997B
-  Year 5  (FY2032)  $  737B    $  531B          $  207B             $  35B           $  242B   $  1239B
-  Year 6  (FY2033)  $  767B    $  554B          $  213B             $  43B           $  256B   $  1495B
-  Year 7  (FY2034)  $  798B    $  579B          $  219B             $  52B           $  271B   $  1766B
-  Year 8  (FY2035)  $  830B    $  604B          $  225B             $  62B           $  287B   $  2054B
-  Year 9  (FY2036)  $  863B    $  631B          $  232B             $  72B           $  304B   $  2357B
-  Year 10 (FY2037)  $  897B    $  659B          $  238B             $  83B           $  321B   $  2678B
+  Year 1  (FY2028)  $  546B    $  275B          $  272B             $   0B           $  272B   $   272B
+  Year 2  (FY2029)  $  621B    $  366B          $  255B             $  10B           $  264B   $   536B
+  Year 3  (FY2030)  $  674B    $  445B          $  229B             $  19B           $  247B   $   784B
+  Year 4  (FY2031)  $  715B    $  508B          $  207B             $  27B           $  234B   $  1018B
+  Year 5  (FY2032)  $  743B    $  531B          $  213B             $  36B           $  248B   $  1266B
+  Year 6  (FY2033)  $  773B    $  554B          $  219B             $  44B           $  263B   $  1530B
+  Year 7  (FY2034)  $  804B    $  579B          $  225B             $  54B           $  279B   $  1809B
+  Year 8  (FY2035)  $  836B    $  604B          $  232B             $  63B           $  295B   $  2104B
+  Year 9  (FY2036)  $  870B    $  631B          $  239B             $  74B           $  312B   $  2416B
+  Year 10 (FY2037)  $  904B    $  659B          $  246B             $  85B           $  330B   $  2746B
 
   Ten-year cumulative deficit reduction, Scenario A: $2.3T before interest savings; $2.7T including interest savings.
-  Range (revenue factor 0.88 to 1.08): $1.6T to $3.4T including interest savings.
+  Range (revenue factor 0.88 to 1.08): $1.7T to $3.4T including interest savings.
 
   OBLIGATION COVERAGE (SCENARIO B):
-  Scenario B revenue:                                       $522.9B
+  Scenario B revenue:                                       $524.2B
   Tier 1 SIRF capitalization and Tier 2 program floor:      $174.0B
   Coverage ratio:                                           3.01x
   High-confidence streams only (Scenario B):                $220.7B, or 1.27x
@@ -4988,18 +4988,18 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   TOTAL AT FULL EFFECT (first-year dollars)                                                             $   305B
 
   Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
-  Year 1  (FY2028)  $  268B          $   38B          $   0B            $  306B   $   306B
-  Year 2  (FY2029)  $  250B          $   75B          $  11B            $  336B   $   642B
-  Year 3  (FY2030)  $  223B          $  110B          $  22B            $  356B   $   997B
-  Year 4  (FY2031)  $  201B          $  148B          $  35B            $  384B   $  1381B
-  Year 5  (FY2032)  $  207B          $  185B          $  48B            $  440B   $  1821B
-  Year 6  (FY2033)  $  213B          $  225B          $  64B            $  501B   $  2322B
-  Year 7  (FY2034)  $  219B          $  261B          $  81B            $  561B   $  2884B
-  Year 8  (FY2035)  $  225B          $  302B          $ 101B            $  628B   $  3511B
-  Year 9  (FY2036)  $  232B          $  337B          $ 123B            $  692B   $  4203B
-  Year 10 (FY2037)  $  238B          $  375B          $ 147B            $  760B   $  4963B
+  Year 1  (FY2028)  $  272B          $   38B          $   0B            $  310B   $   310B
+  Year 2  (FY2029)  $  255B          $   75B          $  11B            $  341B   $   651B
+  Year 3  (FY2030)  $  229B          $  110B          $  23B            $  361B   $  1012B
+  Year 4  (FY2031)  $  207B          $  148B          $  35B            $  390B   $  1402B
+  Year 5  (FY2032)  $  213B          $  185B          $  49B            $  447B   $  1849B
+  Year 6  (FY2033)  $  219B          $  225B          $  65B            $  508B   $  2357B
+  Year 7  (FY2034)  $  225B          $  261B          $  82B            $  569B   $  2926B
+  Year 8  (FY2035)  $  232B          $  302B          $ 102B            $  636B   $  3562B
+  Year 9  (FY2036)  $  239B          $  337B          $ 125B            $  700B   $  4262B
+  Year 10 (FY2037)  $  246B          $  375B          $ 149B            $  770B   $  5032B
 
-  Ten-year combined deficit reduction: $4.3T before interest savings; $5.0T including interest savings (range $3.9T to $5.7T).
+  Ten-year combined deficit reduction: $4.4T before interest savings; $5.0T including interest savings (range $4.0T to $5.7T).
   Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office's published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
 
   OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
@@ -5036,9 +5036,9 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   MAXIMUM NEW SIRF TIER 3 DRAW:                     $51.0B
 
   COVERAGE UNDER THE CONSERVATIVE FLOOR (SCENARIO B):
-  Scenario B revenue (Section 4):                           $551.2B
+  Scenario B revenue (Section 4):                           $524.2B
   Tier 1+2 obligations plus maximum modernization draw:     $225.0B
-  Coverage ratio:                                           2.45x
+  Coverage ratio:                                           2.33x
   High-confidence streams only: $263.4B / $225.0B = 1.17x
 
   Each modernization title is capped, may draw only on Tier 3 capacity, and requires OMB
