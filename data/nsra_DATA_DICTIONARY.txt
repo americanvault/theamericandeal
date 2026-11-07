@@ -35,7 +35,7 @@ nsra_state_impact.csv
   Sources: Census ACS, KFF, USDA FNS, VA, BLS, BEA (2024 vintage).
 
 nsra_title_to_bill.csv
-  Maps each of the 36 titles to its coordinated bill (1-5). Titles XVI & XVII are integrated.
+  Maps each of the 40 titles (0-XXXIX) to its coordinated bill (1-5). Titles XVI & XVII are integrated.
   Source: the public five-coordinated-bill packaging on TheAmericanDeal.org Policy Vault.
 
 nsra_title_to_committee.csv
