@@ -1,10 +1,22 @@
-120TH CONGRESS OF THE UNITED STATES OF AMERICA
+DISCUSSION DRAFT — NOT INTRODUCED
+[Discussion draft of November 2026. Published for review by prospective sponsors and candidates. This text is not a bill of any Congress until a Member introduces it, and it has not been considered or passed by either chamber.]
 
-NATIONAL SOVEREIGNTY AND RESILIENCE ACT OF 2028
+[121ST CONGRESS]
+[1ST SESSION]
 
-An Act to establish mechanical triggers, strict liability, and a self-executing framework to safeguard and guarantee the economic, computational, food supply, infrastructural, and environmental sovereignty of the United States; to eradicate global wage arbitrage and asset commodification; to secure personal data rights and knowledge sovereignty; to capitalize the sovereign infrastructure of the Nation through a closed-loop fiscal engine; and to deliver measurable, durable economic benefits to every American household.
+[H.R. / S. ______]
 
-BE IT ENACTED BY THE SENATE AND HOUSE OF REPRESENTATIVES OF THE UNITED STATES OF AMERICA IN CONGRESS ASSEMBLED,
+To lower household costs, reduce the Federal deficit, strengthen domestic production and supply chains, protect workers, consumers, and taxpayers, and for other purposes.
+
+IN THE [HOUSE OF REPRESENTATIVES / SENATE OF THE UNITED STATES]
+
+[__________] introduced the following bill; which was referred to the Committee on [__________]
+
+A BILL
+
+To lower household costs, reduce the Federal deficit, strengthen domestic production and supply chains, protect workers, consumers, and taxpayers, and for other purposes.
+
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE 0 — STATUTORY FOUNDATIONS AND CORE DEFINITIONS
@@ -16,9 +28,267 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
 
 (b) FINDINGS OF BROAD NATIONAL CONSENSUS.—Congress finds that the provisions of this Act reflect policy areas of documented bipartisan concern, including: domestic manufacturing competitiveness, pharmaceutical pricing fairness, housing affordability, retirement security, food supply-chain resilience, infrastructure investment, and protection of taxpayer-funded research from foreign extraction.
 
-(c) SCOPE OF ACT.—This Act comprises thirty-six (36) titles, numbered Title I through Title XXXVI, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
+(c) SCOPE OF ACT.—This Act comprises thirty-six (36) operative titles, numbered Title 0 through Title XXXVI with Title XVII reserved, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
 
-SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF MATERIAL CONDITIONS REVIEW STANDARD.
+(d) TABLE OF CONTENTS.—The table of contents for this Act is as follows:
+
+  TITLE 0 — STATUTORY FOUNDATIONS AND CORE DEFINITIONS
+    SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
+    SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF BASELINE CONDITIONS EVIDENCE STANDARD.
+    SEC. 003. CONSOLIDATED MASTER DEFINITIONS.
+    SEC. 004. MANDATORY TRIGGER PARAMETERS — CONGRESSIONAL SPECIFICATION.
+    SEC. 005. DEFICIT NEUTRALITY CERTIFICATION AND REVENUE SUFFICIENCY MANDATE.
+    SEC. 005A. TRANCHE-BASED ESCALATION LOCK — IMMEDIATE CITIZEN RELIEF ARCHITECTURE.
+    SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
+    SEC. 007. EFFECTIVE DATE.
+  TITLE I — FEDERAL MARKET INTEGRITY ADMINISTRATION AND ECONOMIC DATA VERIFICATION
+    SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — PHASED INDEPENDENCE STRUCTURE.
+    SEC. 102. PROHIBITION ON UNCOMPENSATED COMMERCIAL DATA USE.
+    SEC. 103. THE STRUCTURED ACCOUNTABILITY ENGINE.
+    SEC. 104. WHISTLEBLOWER AND PROTECTED DISCLOSURE FRAMEWORK.
+    SEC. 105. ANTI-HARMONIZATION DECLARATION.
+    SEC. 106. EXISTING AGENCY ENFORCEMENT COORDINATION MANDATE — FMIA AS DATA SPINE.
+    SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
+  TITLE II — SOVEREIGN INFRASTRUCTURE REINVESTMENT FUND
+    SEC. 201. THE SOVEREIGN INFRASTRUCTURE REINVESTMENT FUND — SIRF LOCKBOX.
+    SEC. 202. SYSTEMIC RESILIENCE PREMIUM ON DEFENSE AND AEROSPACE PROCUREMENT.
+    SEC. 203. THE REAL-PARITY SOVEREIGN PRODUCTIVITY INDEX.
+    SEC. 204. THE VANGUARD CAPITALIZATION PROTOCOL.
+    SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
+  TITLE III — THE ARTIFICIAL INTELLIGENCE SOVEREIGNTY AND PERSONAL DATA RIGHTS
+    SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
+    SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
+    SEC. 303. DOMESTIC SEMICONDUCTOR AND AI CHIP SOVEREIGNTY.
+    SEC. 304. FOREIGN AI SYSTEM REGISTRATION AND SOVEREIGNTY AUDIT.
+  TITLE IV — DOMESTIC SOURCING, WAGE ENFORCEMENT, AND CITIZEN ENFORCEMENT ACTIONS
+    SEC. 401. DECENTRALIZED CITIZEN ENFORCEMENT ENGINE.
+    SEC. 402. DOMESTIC CONTENT SOVEREIGN CONTRACT FRAMEWORK.
+    SEC. 403. ANTI-OFFSHORE WAGE ARBITRAGE PERFORMANCE INDEX.
+    SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT.
+  TITLE V — CHILD PROSPERITY AND POVERTY REDUCTION
+    SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION OF STATE BLOCK GRANT ARCHITECTURE.
+    SEC. 502. [RESERVED.]
+    SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
+    SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
+    SEC. 505. TANF STRUCTURAL ENHANCEMENT.
+    SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, AND UTILITY SECURITY FLOOR DURING THE SIRF RAMP.
+  TITLE VI — SOVEREIGN CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY
+    SEC. 601. PROHIBITION ON PREDATORY PRIVATE EQUITY BUYOUTS AND ASSET PLEDGING.
+    SEC. 602. THE ERIDANUS AMENDMENT TO ERISA.
+    SEC. 603. AUTOMATED ACTUARIAL BACKSTOP TRIGGER.
+    SEC. 604. RETIREMENT SECURITY FOR GIG AND CONTINGENT WORKERS.
+  TITLE VII — AGRICULTURE AND FOOD SUPPLY SECURITY
+    SEC. 701. MECHANICAL DIVESTMENT OF FOOD DISTRIBUTION MONOPOLIES.
+    SEC. 702. DOMESTIC FOOD SOVEREIGNTY NETWORK.
+    SEC. 703. FOOD PRICE STABILITY AND ANTI-SPECULATION PROTECTION.
+    SEC. 704. FOOD CHEMICAL SAFETY AND SOVEREIGN ADDITIVE STANDARDS.
+    SEC. 705. PESTICIDE AND AGRICULTURAL CHEMICAL PHASE-OUT.
+    SEC. 706. REGIONAL FOOD SYSTEM INFRASTRUCTURE.
+  TITLE VIII — MOBILITY NETWORKS AND APP-BASED DISPATCH PLATFORMS
+    SEC. 801. GIG ECONOMY PLATFORM DISPLACEMENT AND UTILITY STATUS.
+    SEC. 802. NATIONAL BROADBAND SOVEREIGNTY MANDATE.
+    SEC. 803. SOVEREIGN PASSENGER RAIL EXPANSION.
+  TITLE IX — SOVEREIGN ENERGY AND ADVANCED FISSION INFRASTRUCTURE
+    SEC. 901. MANDATORY NUCLEAR AND RENEWABLE ENERGY OFFSETS FOR INDUSTRIAL COMPUTE LOADS.
+    SEC. 902. ADMINISTRATIVE AND TRANSITIONAL LICENSING SAFE HARBORS.
+    SEC. 903. GRADUATED PENALTY MATRIX AND JUDICIAL ENFORCEMENT.
+    SEC. 904. RESIDENTIAL ENERGY SOVEREIGNTY DIVIDEND.
+    SEC. 905. INTELLIGENT NATIONAL GRID MODERNIZATION.
+    SEC. 987. VETERANS ENERGY SOVEREIGNTY BENEFIT.
+  TITLE X — CLEAN WATER, CONSERVATION, AND ESSENTIAL PUBLIC UTILITIES
+    SEC. 1001. OUTLAWING OF PHYSICAL RESOURCE COMMODIFICATION.
+    SEC. 1002. UNIVERSAL CLEAN WATER ACCESS GUARANTEE.
+    SEC. 1003. MUNICIPAL BROADBAND AND UTILITY CO-OPERATIVE FRAMEWORK.
+    SEC. 1004. NATIONAL WATER SECURITY AND REDISTRIBUTION INFRASTRUCTURE.
+    SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE.
+    SEC. 1005A. HUMANE CAPTIVE-ANIMAL STANDARDS, INCIDENT PROTOCOLS, AND KEYSTONE SPECIES SURVIVAL.
+    SEC. 1006. SCIENTIFIC INTEGRITY AND RESEARCH PROTECTION FUNCTIONS.
+  TITLE XI — THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)
+    SEC. 1101. THE ONE-FOR-ONE PHYSICAL REMEDIATION MANDATE.
+    SEC. 1102. ENVIRONMENTAL JUSTICE AND COMMUNITY REMEDIATION GRANTS.
+    SEC. 1103. CORPORATE POLLUTER STRICT LIABILITY AND RESTORATION BOND.
+    SEC. 1104. AGRICULTURAL CHEMICAL REMEDIATION.
+  TITLE XII — SOVEREIGN MANUFACTURING AND GLOBAL ARBITRAGE ELIMINATION
+    SEC. 1201. ERADICATION OF OFFSHORE WAGE EXTRACTION.
+    SEC. 1202. DOMESTIC MANUFACTURING RENAISSANCE ZONES.
+    SEC. 1203. CRITICAL SUPPLY CHAIN SOVEREIGNTY RESERVE.
+    SEC. 1204. SEMICONDUCTOR AND CRITICAL MATERIALS SOVEREIGNTY.
+  TITLE XIII — SOVEREIGN BIOSECURITY AND PHARMACEUTICAL PARITY
+    SEC. 1301. MANDATORY G7 MEDICINE PRICING PARITY.
+    SEC. 1302. DOMESTIC PHARMACEUTICAL MANUFACTURING SOVEREIGNTY.
+    SEC. 1303. INSULIN AND ESSENTIAL MEDICINE PRICE CAP.
+    SEC. 1304. NATIONAL CURATIVE DRUG REGISTRY AND RESEARCH INTEGRITY PROTECTION.
+  TITLE XIV — SHELTER SOVEREIGNTY
+    SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
+    SEC. 1402. COMMUNITY LAND TRUST CAPITALIZATION AND FIRST-TIME HOMEBUYER ASSISTANCE.
+  TITLE XV — STUDENT DEBT RELIEF AND PUBLIC HIGHER EDUCATION
+    SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
+    SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
+    SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE SOVEREIGNTY ENDOWMENT.
+  TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, AND INFLATION PROTECTION
+    SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
+    SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
+    SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
+    SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
+  TITLE XVII — [RESERVED]
+  TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
+    SEC. 1801. STANDING — CONCRETE INJURY SPECIFICATION BY TITLE.
+    SEC. 1802. DUE PROCESS — MANDATORY PRE-DEPRIVATION NOTICE SCHEDULE.
+    SEC. 1803. ADMINISTRATIVE APPEALS AND JUDICIAL REVIEW.
+    SEC. 1803A. CONGRESSIONAL OVERSIGHT AND SUNSET REVIEWS.
+    SEC. 1803B. MANDATORY CONGRESSIONAL REAUTHORIZATION.
+    SEC. 1804. PRE-DEPRIVATION PROCEDURAL DUE PROCESS ARCHITECTURE.
+    SEC. 1805. EMERGENCY JUDICIAL REVIEW TRACK AND AUTOMATIC STAY PROTECTION.
+    SEC. 1806. ECONOMIC EMERGENCY FINDINGS — CAPITAL FLIGHT LOCK AUTHORITY.
+  TITLE XIX — RETURN ON INVESTMENT, PERFORMANCE BENCHMARKS, AND AMERICAN HOUSEHOLD BENEFIT ACCOUNTING
+    SEC. 1901. AMERICAN HOUSEHOLD SOVEREIGNTY DIVIDEND — PROJECTED BENEFITS.
+    SEC. 1902. RETURN ON INVESTMENT FRAMEWORK.
+    SEC. 1903. BIPARTISAN ECONOMIC MODELING TRANSPARENCY.
+  TITLE XX — BIPARTISAN IMPLEMENTATION SAFEGUARDS AND MARKET COMPETITION PRESERVATION
+    SEC. 2001. MARKET COMPETITION PRESERVATION CLAUSE.
+    SEC. 2002. FEDERALISM AND STATE SOVEREIGNTY PROTECTION.
+    SEC. 2003. BIPARTISAN COMMISSION ON NSRA IMPLEMENTATION.
+    SEC. 2004. DEFENSE INDUSTRIAL SOVEREIGNTY AND MILITARY SUPPLY CHAIN RESILIENCE.
+    SEC. 2005. CONSCIENCE AND RELIGIOUS FREEDOM PROTECTION CLAUSE.
+    SEC. 2006. MANDATORY PILOT CERTIFICATION GATE — NO NATIONAL DEPLOYMENT WITHOUT EVIDENCE.
+  TITLE XXI — UNIVERSAL BASIC MINIMUM COVERAGE THROUGH COMPETITIVE PRIVATE DELIVERY
+    SEC. 2101. CONGRESSIONAL FINDINGS AND DECLARATION OF HEALTH SOVEREIGNTY.
+    SEC. 2102. THE BASIC MINIMUM PLAN — MANDATORY FLOOR PRODUCT.
+    SEC. 2103. GOVERNMENT FUNDING OF THE BASIC MINIMUM PLAN.
+    SEC. 2104. INDIVIDUAL CARRIER CHOICE AND ENROLLMENT.
+    SEC. 2105. SUPPLEMENTAL COVERAGE — PRIVATE MARKET ABOVE THE FLOOR.
+    SEC. 2106. CARRIER COMPLIANCE AND ANTI-PROFITEERING ENFORCEMENT.
+    SEC. 2107. INSURANCE MARKET CONCENTRATION AND ACCESS STANDARDS.
+    SEC. 2108. TRANSITION FROM LEGACY PROGRAMS AND PERFORMANCE BENCHMARKS.
+    SEC. 2109. UPSTREAM PREVENTION, ENVIRONMENTAL HEALTH, AND DEMAND-ADJUSTED RURAL INFRASTRUCTURE.
+    SEC. 2110. BMP ZERO-PREMIUM CO-PAY STRUCTURE.
+    SEC. 2111. CARRIER COMPETITION INTEGRITY FRAMEWORK.
+  TITLE XXII — SOVEREIGN CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY
+    SEC. 2201. FINDINGS AND DECLARATION OF CRITICAL SYSTEMS SOVEREIGNTY.
+    SEC. 2202. DEFINITIONS — TITLE XXII.
+    SEC. 2203. PROHIBITED ACQUISITIONS AND MANDATORY DIVESTITURE.
+    SEC. 2204. CONSTITUTIONAL GROUNDING AND ENFORCEMENT AUTHORITY.
+    SEC. 2205. JUST COMPENSATION AND TRANSITION SUPPORT.
+    SEC. 2206. VITAL SYSTEMS TRANSITION RESERVE.
+  TITLE XXIII — SOVEREIGN TRADE AND ALLIED DIPLOMATIC ARCHITECTURE
+    SEC. 2301. FINDINGS AND DECLARATION OF TRADE SOVEREIGNTY.
+    SEC. 2302. DEFINITIONS — TITLE XXIII.
+    SEC. 2303. WAGE EQUALIZATION ASSESSMENT — STRUCTURE AND SAFEGUARDS.
+    SEC. 2304. SOVEREIGN DEFENSE EFFICIENCY COMMISSION.
+    SEC. 2305. ALLIED PHARMACEUTICAL PRICING COMPACT.
+  TITLE XXIV — SOVEREIGN TAX CODE REFORM AND FISCAL INTEGRITY
+    SEC. 2401. FINDINGS AND DECLARATION OF FISCAL SOVEREIGNTY.
+    SEC. 2402. CARRIED INTEREST — ORDINARY INCOME TREATMENT.
+    SEC. 2403. LBO INTEREST DEDUCTIBILITY CAP.
+    SEC. 2404. NATIONAL INFRASTRUCTURE MAINTENANCE ASSESSMENT.
+    SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
+    SEC. 2406. IRS ENFORCEMENT SOVEREIGNTY FUND.
+    SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
+    SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
+    SEC. 2409. CORPORATE INCOME TAX RESTORATION.
+    SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND.
+    SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
+    SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY.
+    SEC. 2413. FINANCIAL TRANSACTION TAX — WALL STREET SOVEREIGNTY CONTRIBUTION.
+    SEC. 2414. SOVEREIGN FEDERAL LAND ROYALTY REFORM.
+    SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT.
+    SEC. 2416. CFPB SOVEREIGN CONSUMER FINANCIAL PROTECTION — MEDICAL DEBT, PREDATORY LENDING, AND HOUSEHOLD FINANCIAL INTEGRITY STANDARDS.
+    SEC. 2417. REIT TAX TREATMENT -- TITLE XIV DIVESTITURE COMPLIANCE CLARIFICATION.
+    SEC. 2418. PRIVATE EQUITY DIVESTITURE -- ORDINARY INCOME TREATMENT FOR CRITICAL SYSTEMS DISPOSITIONS.
+    SEC. 2419. TRADE ENFORCEMENT REVENUE ROUTING -- FISCAL CONSOLIDATION.
+  TITLE XXV — VETERANS HEALTH SOVEREIGNTY AND PACT ACT COMPLETION
+    SEC. 2501. FINDINGS AND DECLARATION OF VETERANS HEALTH SOVEREIGNTY.
+    SEC. 2502. VETERANS HEALTH COVERAGE — THREE-TIER ARCHITECTURE.
+    SEC. 2503. PACT ACT GAP CLOSURE — SIX PROVISIONS.
+    SEC. 2504. PACT ACT ALIGNMENT AND NON-SUPERSESSION.
+  TITLE XXVI — NATIONAL SOCIAL SECURITY SOVEREIGNTY COMMISSION
+    SEC. 2601. ESTABLISHMENT AND MANDATE.
+    SEC. 2602. PLATFORM EMPLOYER SOCIAL SECURITY CONTRIBUTION MANDATE.
+    SEC. 2603. CAREGIVER SOCIAL SECURITY EARNINGS CREDIT.
+  TITLE XXVII — PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION
+    SEC. 2701. FINDINGS AND PURPOSE.
+    SEC. 2702. DEFINITIONS.
+    SEC. 2703. JOURNALIST ANTI-RETALIATION PROTECTION.
+    SEC. 2704. FEDERAL JOURNALIST SHIELD LAW.
+    SEC. 2705. FEDERAL ANTI-SLAPP PROTECTION FOR PRESS DEFENDANTS.
+    SEC. 2706. FCC EDITORIAL INDEPENDENCE FIREWALL.
+    SEC. 2707. FEDERAL PRESS FREEDOM MONITOR.
+    SEC. 2708. GOVERNMENT PRESS ACCESS GUARANTEE.
+    SEC. 2709. SCHEDULE D BENCHMARKS — TITLE XXVII.
+  TITLE XXVIII — WORKER ORGANIZING RIGHTS AND ANTI-UNION-BUSTING ENFORCEMENT
+    SEC. 2801. FINDINGS AND PURPOSE.
+    SEC. 2802. ENHANCED REMEDIES FOR UNFAIR LABOR PRACTICES.
+    SEC. 2803. AUTOMATIC CARD-CHECK RECOGNITION.
+    SEC. 2804. BUDGET NEUTRALITY CERTIFICATION.
+  TITLE XXIX — CONGRESSIONAL FINANCIAL INTEGRITY AND STOCK TRADING PROHIBITION
+    SEC. 2901. FINDINGS AND PURPOSE.
+    SEC. 2902. PROHIBITION ON INDIVIDUAL SECURITIES TRADING.
+    SEC. 2903. MANDATORY DIVESTITURE AND ENFORCEMENT.
+    SEC. 2904. BUDGET NEUTRALITY CERTIFICATION.
+  TITLE XXX — NAFTA/USMCA SOVEREIGNTY GAP CLOSURE AND TRADE ENFORCEMENT
+    SEC. 3001. FINDINGS AND PURPOSE.
+    SEC. 3002. TERMINATION OF LEGACY INVESTOR-STATE DISPUTE SETTLEMENT.
+    SEC. 3003. LABOR ENFORCEMENT ESCALATION MECHANISM.
+    SEC. 3004. CURRENCY MANIPULATION ENFORCEMENT.
+    SEC. 3005. RULES OF ORIGIN ESCALATION.
+    SEC. 3006. PHARMACEUTICAL SOVEREIGNTY ASSERTION.
+    SEC. 3007. BUY AMERICAN INFRASTRUCTURE ALIGNMENT.
+    SEC. 3008. NAFTA MANUFACTURING DISPLACEMENT REMEDIATION.
+    SEC. 3009. BUDGET IMPACT AND REVENUE CERTIFICATION.
+    SEC. 3010. SCHEDULE D BENCHMARKS — TITLE XXX.
+  TITLE XXXI — AMERICAN MUTUAL BENEFIT GLOBAL HEALTH SOVEREIGNTY
+    SEC. 3101. FINDINGS AND PURPOSE.
+    SEC. 3102. AMERICAN MUTUAL BENEFIT GLOBAL HEALTH FUND.
+    SEC. 3103. RECIPROCITY FRAMEWORK.
+    SEC. 3104. AMERICAN GLOBAL HEALTH SERVICE CORPS.
+    SEC. 3105. CHILD SURVIVAL ACCOUNTABILITY.
+    SEC. 3106. BUDGET NEUTRALITY AND REVENUE CERTIFICATION.
+  TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE
+    SEC. 3201. FINDINGS AND PURPOSE.
+    SEC. 3202. DEFINITIONS — TITLE XXXII.
+    SEC. 3203. THE ALLIED SETTLEMENT COMPACT.
+    SEC. 3204. THE TREASURY BOND CREDIBILITY ENGINE.
+    SEC. 3205. PETRODOLLAR MODERNIZATION.
+    SEC. 3206. SWIFT SOVEREIGN DEFENSE.
+    SEC. 3207. DIGITAL DOLLAR SOVEREIGNTY.
+    SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
+    SEC. 3209. BUDGET IMPACT AND REVENUE CERTIFICATION.
+    SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
+  TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY
+    SEC. 3301. FINDINGS — TITLE XXXIII.
+    SEC. 3302. ESTABLISHMENT OF THE SOVEREIGN COMPUTE AUTHORITY.
+    SEC. 3303. GOVERNANCE.
+    SEC. 3304. FINANCIAL ARCHITECTURE.
+    SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
+    SEC. 3306. RELATIONSHIP TO EXISTING AGENCIES.
+    SEC. 3307. CONGRESSIONAL OVERSIGHT AND TRANSPARENCY.
+    SEC. 3308. SCHEDULE H BENCHMARKS — TITLE XXXIII.
+  TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY
+    SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
+    SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
+    SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
+    SEC. 3404. HOUSEHOLD STRUCTURAL RELIEF NODE — CROSS-TITLE CLARIFICATION.
+    SEC. 3405. SIRF NODE ALLOCATION TABLE — REVISED.
+    SEC. 3406. UPDATED FISCAL SUMMARY — NSRA YEAR 1 ARCHITECTURE.
+    SEC. 3407. SCHEDULE D BENCHMARKS — TITLE XXXIV.
+    SEC. 3408. SOVEREIGN COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMPUTE.
+    SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
+  TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY
+    SEC. 3501. FINDINGS AND PURPOSE.
+    SEC. 3502. DEFINITIONS — TITLE XXXV.
+    SEC. 3503. FINANCIAL CONFLICT OF INTEREST PROHIBITIONS.
+    SEC. 3504. SOVEREIGN ACCOUNTABILITY -- SCHEDULE D BENCHMARKS.
+  TITLE XXXVI — FOREIGN INFLUENCE TRANSPARENCY AND ADVERSARY CAPITAL DEFENSE
+    SEC. 3601. FINDINGS AND PURPOSE.
+    SEC. 3602. DEFINITIONS — TITLE XXXVI.
+    SEC. 3603. CLOSURE OF THE LOBBYING DISCLOSURE ACT EXEMPTION FOR FOREIGN-GOVERNMENT PRINCIPALS.
+    SEC. 3604. FOREIGN-FUNDED INFLUENCE DISCLOSURE — RESEARCH, ADVOCACY, AND MEDIA.
+    SEC. 3605. ADVERSARY CAPITAL SCREEN ON SENSITIVE UNITED STATES ASSETS.
+    SEC. 3606. BENEFICIAL-OWNERSHIP LOOK-THROUGH — ANTI-FRONT-COMPANY ENFORCEMENT.
+    SEC. 3607. ENFORCEMENT AND COORDINATION.
+    SEC. 3608. SCHEDULE D BENCHMARKS — TITLE XXXVI.
+
+SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF BASELINE CONDITIONS EVIDENCE STANDARD.
 
 The Congress finds and declares the following:
 
@@ -28,7 +298,7 @@ The Congress finds and declares the following:
 
 (3) The preservation of United States sovereignty requires the immediate implementation of a self-capitalizing, anti-fragile domestic production network driven by mechanical triggers, strict corporate liability, and an unbreakable baseline of physical, computational, and cognitive protections for the citizenry.
 
-(4) The measures contained herein are grounded in the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause (Art. I, Sec. 8, Cl. 1), the Necessary and Proper Clause (Art. I, Sec. 8, Cl. 18), and the General Welfare Clause, and are designed to withstand constitutional review under current doctrines including West Virginia v. EPA (2022), Gundy v. United States (2019), and TransUnion LLC v. Ramirez (2021).
+(4) The measures contained herein are grounded in the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause (Art. I, Sec. 8, Cl. 1), the Necessary and Proper Clause (Art. I, Sec. 8, Cl. 18), and the General Welfare Clause, and are designed to withstand constitutional review under current doctrines including West Virginia v. EPA (2022), Gundy v. United States (2019), TransUnion LLC v. Ramirez (2021), Loper Bright Enterprises v. Raimondo (2024), SEC v. Jarkesy (2024), and Trump v. Slaughter (2026).
 
 (5) The provisions of this Act are designed to produce measurable, quantifiable economic returns to the American public, including projected reductions in household pharmaceutical expenditure, shelter costs, energy costs, and student debt burden that shall be independently verified by the Congressional Budget Office on a biennial basis.
 
@@ -48,7 +318,7 @@ As used in this Act:
 
 (6) UNCOMPENSATED COMMERCIAL DATA USE.—The uncompensated extraction, curation, or deployment of community-generated data, labor metrics, or sociological outputs stripped of their structural and historical context to design or justify the reduction of public infrastructure safety nets, asset endowments, or socio-economic rights.
 
-(7) MATERIAL CONDITIONS REVIEW STANDARD.—The governing evidentiary standard under this Act, which requires that material baseline conditions, historical context, and resource distribution channels be fully accounted for as primary causal variables when evaluating social and economic variances. Policy models that omit these variables produce inaccurate assessments and are insufficient bases for federal enforcement or resource allocation decisions.
+(7) BASELINE CONDITIONS EVIDENCE STANDARD.—The governing evidentiary standard under this Act, which requires that material baseline conditions, historical context, and resource distribution channels be fully accounted for as primary causal variables when evaluating social and economic variances. Policy models that omit these variables produce inaccurate assessments and are insufficient bases for federal enforcement or resource allocation decisions.
 
 (8) SYSTEMIC RESILIENCE.—The mandatory, independent operational capacity of the United States corporate, technological, material, food supply, and civil infrastructures to withstand acute geopolitical, environmental, or macroeconomic shocks and maintain continuous domestic liquidity and supply chain functionality without external intervention.
 
@@ -134,7 +404,7 @@ No Tranche 1 disbursement requires a SIRF revenue certification or phase gate co
 (e) ANTI-DEFICIT-FINANCING DECLARATION.—No disbursement under any Tranche of this section shall be financed by new federal borrowing. The mandatory structure of this section creates a hardcoded statutory firewall between citizen relief and deficit expansion. Any CBO score asserting deficit financing of Tranche disbursements shall be rebutted by reference to the revenue sufficiency certification requirements of this section and Schedule E.
 
 (f) MACRO-SHOCK PROTECTION.—To prevent a sudden fiscal shock to the macroeconomic baseline during the multi-year ramp of corporate supply chain migration and enforcement revenue:
-(1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Endowment Node's verified quarterly inflow;
+(1) Tranche 2 and Tranche 3 deployments shall not exceed the SIRF Household Structural Relief Node's verified quarterly inflow;
 (2) The FMIA shall publish a quarterly Tranche Capacity Report confirming available Household Structural Relief Node deployment capacity;
 (3) If revenue collections underperform CBO projections by more than fifteen percent (15%) over any rolling ninety (90) day period, the V_abs Quarterly Absorption Throttle established in Section 004 shall activate, scaling down corporate procurement premiums and upper-tier infrastructure grants before any reduction in household Tranche disbursements.
 
@@ -150,8 +420,55 @@ SEC. 006. PRIVATE SECTOR CO-INVESTMENT PRIORITY AND MARKET PRIMACY DECLARATION.
 
 (c) PRIVATE CAPITAL MOBILIZATION REPORT.—The FMIA shall publish annually a Private Capital Mobilization Report quantifying the total private investment attracted as a result of NSRA incentive structures, demonstrating the leverage ratio of public-to-private capital deployment. The target leverage ratio is three dollars ($3.00) of private investment per one dollar ($1.00) of SIRF capital deployed in infrastructure categories.
 
+SEC. 007. EFFECTIVE DATE.
+
+(a) GENERAL EFFECTIVE DATE.—Except as otherwise provided in this Act, this Act shall take effect on the date of enactment.
+
+(b) IMPLEMENTATION PRIORITY SEQUENCE.—The following provisions shall be implemented in the stated priority sequence, to ensure fiscal soundness, operational readiness, and maximum household benefit delivery:
+
+TIER 1 — IMMEDIATE (MONTHS 1-6):
+(1) FMIA establishment as Bureau of Sovereign Data Integrity within DOC (Sec. 101);
+(2) SIRF Lockbox establishment and diversified revenue stream activation (Sec. 201);
+(3) Health Sovereignty Fund establishment; existing Medicaid, CHIP, and ACA enrollees flagged for BMP transition (Sec. 2103(d), Sec. 2108(a));
+(4) Zero-interest conversion on federal student loans (Sec. 1501);
+(5) Insulin and Essential Medicine price caps (Sec. 1303);
+(6) G7 pharmaceutical pricing parity monitoring activation (Sec. 1301);
+(7) Institutional housing portfolio FDVM monitoring activation (Sec. 1401);
+(8) BMP Essential Medicines Formulary publication by HHS (Sec. 2102(b)(3));
+(9) HHS BMP carrier quality scoring methodology published; carrier comparison dashboard launched (Sec. 2106(a)).
+
+TIER 2 — SHORT-TERM (MONTHS 7-24):
+(1) BMP Open Enrollment Period #1 — all current Medicaid, CHIP, and ACA enrollees transition to BMP through chosen private carrier (Sec. 2108(a));
+(2) HHS risk-adjusted BMP Premium Rate published and first carrier payments disbursed (Sec. 2103(b));
+(3) Household Structural Relief Node pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
+(4) Sovereign Child Prosperity Trust account establishment for all eligible births (Sec. 503);
+(5) Automatic BMP enrollment for all newborns (Sec. 2104(b)(3));
+(6) Vanguard Capitalization Protocol operationalization (Sec. 204);
+(7) Agricultural monopoly concentration monitoring (Sec. 701);
+(8) NRC SMR expedited licensing track (Sec. 902(d));
+(9) FDVM quantum security Phase I (Sec. 1602(a)(1));
+(10) Rural Health Sovereignty Fund deployment to communities failing BMP network adequacy (Sec. 2107(b)).
+
+TIER 3 — MEDIUM-TERM (MONTHS 25-48):
+(1) BMP Open Enrollment Period #2 — universal enrollment extended to all previously uninsured United States residents (Sec. 2108(c)(1));
+(2) Household Structural Relief Node full deployment upon CBO revenue sufficiency certification (Sec. 3401);
+(3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Sec. 2103(e));
+(4) Domestic content floor phase-in escalation (Sec. 402(b));
+(5) SMR compliance safe harbor windows (Sec. 902(a));
+(6) Broadband sovereignty fund deployment (Sec. 802(b));
+(7) Manufacturing Renaissance Zone designation (Sec. 1202(a));
+(8) FDVM quantum security Phases II and III (Sec. 1602(a)(2)-(3));
+(9) BMP carrier quality performance adjustment band first applied to premium rates (Sec. 2103(b)(5)).
+
+TIER 4 — LONG-TERM (MONTHS 49 AND BEYOND):
+(1) Full domestic pharmaceutical API production targets (Sec. 1302);
+(2) National Rail Sovereignty corridor construction (Sec. 803);
+(3) Full SMR penalty matrix activation for non-compliant data centers (Sec. 903(a)(3));
+(4) Complete SIRF node deployment to all authorized allocations (Sec. 201(e));
+(5) BMP risk corridor protection sunset review — GAO assessment of whether 5-year risk corridors should be extended or terminated based on carrier market stability data (Sec. 2103(c)).
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE I — SYSTEMIC RESILIENCE AND UNIFIED SOVEREIGNTY ARCHITECTURE
+TITLE I — FEDERAL MARKET INTEGRITY ADMINISTRATION AND ECONOMIC DATA VERIFICATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — PHASED INDEPENDENCE STRUCTURE.
@@ -170,7 +487,7 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (2) TRANSITION AUTHORITY.—If the GAO Independence Readiness Assessment is affirmative, the BSDI shall transition to full independent agency status as the Federal Market Integrity Administration on the first day of the forty-ninth (49th) month, inheriting all data agreements, personnel, infrastructure, and legal authorities established during Phase 1. If the GAO assessment recommends an extended bureau period, the Secretary of Commerce shall extend the bureau phase by not more than twenty-four (24) additional months, with a mandatory second GAO assessment at month 60.
 
-(c) CHIEF STRUCTURAL REALIST — ARTICLE II REMOVAL COMPLIANCE (PATCH R-11).—The FMIA shall be directed by a single Administrator for Economic Data Integrity, appointed by the President by and with the advice and consent of the Senate. To conform to the separation-of-powers holdings of Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020), and Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010), the Administrator shall be removable by the President at will, without cause. No statutory for-cause removal restriction shall attach to the Administrator. The seven (7) year term is advisory as to continuity of policy and shall not be construed to limit the President's removal power. During Phase 1, the Administrator for Economic Data Integrity shall serve as Deputy Secretary of Commerce for Sovereign Data Integrity, with all authority of a bureau director within the DOC administrative structure.
+(c) ADMINISTRATOR — ARTICLE II REMOVAL COMPLIANCE.—The FMIA shall be directed by a single Administrator for Economic Data Integrity, appointed by the President by and with the advice and consent of the Senate. To conform to the separation-of-powers holdings of Seila Law LLC v. Consumer Financial Protection Bureau, 591 U.S. 197 (2020), and Free Enterprise Fund v. Public Company Accounting Oversight Board, 561 U.S. 477 (2010), and Trump v. Slaughter, No. 25-332 (U.S. June 29, 2026), the Administrator shall be removable by the President at will, without cause. No statutory for-cause removal restriction shall attach to the Administrator. The seven (7) year term is advisory as to continuity of policy and shall not be construed to limit the President's removal power. During Phase 1, the Administrator for Economic Data Integrity shall serve as Deputy Secretary of Commerce for Sovereign Data Integrity, with all authority of a bureau director within the DOC administrative structure.
 
 (c-1) ALJ APPOINTMENT AND REMOVAL — LUCIA COMPLIANCE.—All Administrative Law Judges and administrative adjudicators acting under this Act are inferior officers within the meaning of Lucia v. SEC, 585 U.S. 237 (2018), appointed directly by the Administrator. Such adjudicators shall not be insulated by more than a single layer of for-cause removal, and their removal protections shall be construed and applied only to the extent permitted by controlling Article II precedent. The validity of any enforcement action shall not depend on the constitutionality of an adjudicator's removal protection, and the severability provisions of Section 205 shall preserve all completed actions in the event any removal restriction is held invalid.
 
@@ -178,7 +495,7 @@ SEC. 101. ESTABLISHMENT OF THE FEDERAL DATA VERACITY MATRIX ADMINISTRATION — P
 
 (1) IN GENERAL.—The FMIA shall construct, maintain, and operate a centralized, continuous data-ingest platform, to be known as the Federal Data Veracity Matrix (FDVM).
 
-(2) DATA SOURCES (PATCH R-01).—The FDVM shall possess authorized read-access, pursuant to the inter-agency data-sharing protocols established under paragraph (3) and in compliance with the Electronic Communications Privacy Act (18 U.S.C. § 2510 et seq.), to real-time electronic data pipelines, including:
+(2) DATA SOURCES.—The FDVM shall possess authorized read-access, pursuant to the inter-agency data-sharing protocols established under paragraph (3) and in compliance with the Electronic Communications Privacy Act (18 U.S.C. § 2510 et seq.), to real-time electronic data pipelines, including:
 (A) The United States Treasury clearance and settlement feeds;
 (B) Customs and Border Protection import-export manifests;
 (C) Commodity Futures Trading Commission transactional ledgers;
@@ -220,7 +537,7 @@ SEC. 102. PROHIBITION ON UNCOMPENSATED COMMERCIAL DATA USE.
 (4) Apply to internal research, development, or testing environments where no adverse determination affecting an individual has been made.
 The prohibition in subsection (a) is limited to algorithmic deployments that produce an adverse determination — denial, restriction, or downgrading of a benefit, service, or opportunity — against a specific individual or identifiable community, based on predictive modeling that fails the structural causation variable standard. General market research, aggregate economic analysis, and policy modeling are expressly exempt.
 
-(b) EVIDENCE AND RELIABILITY STANDARDS (PATCH R-09).—Any dataset, research output, or underwriting model found by the FDVM to practice uncompensated commercial data use shall be presumptively unreliable and inadmissible as a sole basis for any adverse determination in federal rulemaking, administrative adjudication, commercial credit underwriting, or public benefit determination. An affected entity may rebut this presumption upon demonstrating by clear and convincing evidence to the adjudicating authority that the specific application of the dataset in the matter before it did not exhibit the uncompensated commercial data use pattern identified in the FDVM finding. This subsection does not restrict the authority of any federal court to make independent evidentiary rulings pursuant to the Federal Rules of Evidence.
+(b) EVIDENCE AND RELIABILITY STANDARDS.—Any dataset, research output, or underwriting model found by the FDVM to practice uncompensated commercial data use shall be presumptively unreliable and inadmissible as a sole basis for any adverse determination in federal rulemaking, administrative adjudication, commercial credit underwriting, or public benefit determination. An affected entity may rebut this presumption upon demonstrating by clear and convincing evidence to the adjudicating authority that the specific application of the dataset in the matter before it did not exhibit the uncompensated commercial data use pattern identified in the FDVM finding. This subsection does not restrict the authority of any federal court to make independent evidentiary rulings pursuant to the Federal Rules of Evidence.
 
 (c) FIRST AMENDMENT SAFE HARBOR.—Nothing in this section shall be construed to restrict or regulate:
 (1) The publication, dissemination, or distribution of academic research, journalism, or political speech;
@@ -258,7 +575,7 @@ SEC. 104. WHISTLEBLOWER AND PROTECTED DISCLOSURE FRAMEWORK.
 
 (c) CONFIDENTIAL REPORTING CHANNEL.—The FMIA shall operate a dedicated, encrypted, anonymous digital reporting portal through which any person may submit evidence of potential structural violations. Submissions through this portal shall receive expedited review within thirty (30) calendar days.
 
-SEC. 105. ANTI-HARMONIZATION DECLARATION — PATCH R-05.
+SEC. 105. ANTI-HARMONIZATION DECLARATION.
 
 (a) SUPERSESSION DECLARATION.—The provisions of this Act are not subject to judicial application of the implied harmonization doctrine articulated in Morton v. Mancari, 417 U.S. 535 (1974). Where any provision of this Act conflicts with any provision of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (Pub. L. 104-193), the Deficit Reduction Act of 2005 (Pub. L. 109-171), or the Food, Conservation, and Energy Act of 2008 (Pub. L. 110-246), the provisions of this Act shall govern without harmonization or judicial reconciliation.
 
@@ -314,7 +631,7 @@ SEC. 107. AGENCY STRUCTURAL INDEPENDENCE AND ENFORCEMENT BUDGET FIREWALL.
 
 (e) CITIZEN SUIT RIGHTS — NSRA MANDATE ENFORCEMENT.—Any person may bring a civil action in the United States District Court for the district in which the violation occurred against any federal agency that has failed to perform a non-discretionary act or duty required by this Act within the timeframe specified. The court shall have jurisdiction to compel agency action unlawfully withheld and to award reasonable attorney fees and costs to prevailing plaintiffs. This subsection supplements, and does not limit, the remedies available under 5 U.S.C. § 706 (APA arbitrary and capricious review).
 
-TITLE II — THE SOVEREIGN ECONOMIC RESET AND CLOSED-LOOP CAPITALIZATION ENGINE
+TITLE II — SOVEREIGN INFRASTRUCTURE REINVESTMENT FUND
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 201. THE SOVEREIGN INFRASTRUCTURE REINVESTMENT FUND — SIRF LOCKBOX.
@@ -464,12 +781,12 @@ SEC. 205. SEVERABILITY AND MANDATORY FALLBACK GENERAL APPROPRIATIONS.
 (3) SCOPE LIMITATION.—The fallback appropriation shall fund only Tier 1 mandatory structural obligations as defined in Section 3402(e)(1) (Basic Minimum Plan, TANF enhancement, Sovereign Child Prosperity Trust, Shelter Sovereignty Fund, Household Structural Relief Node mechanisms). It shall not fund Tier 3 or Tier 4 infrastructure and international programs. This limitation reflects the Appropriations Clause requirement that appropriations be for a defined and bounded purpose.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE III — THE ARTIFICIAL INTELLIGENCE SOVEREIGNTY AND PERSONAL DATA RIGHTS ACT
+TITLE III — THE ARTIFICIAL INTELLIGENCE SOVEREIGNTY AND PERSONAL DATA RIGHTS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
-(a) IN GENERAL (PATCH R-05).—The collective linguistic, intellectual, creative, and cultural outputs generated by citizens and community cohorts within the United States are hereby codified as a protected civil infrastructure asset designated as the Sovereign Data Commons. The rights established herein are sui generis collective data rights, distinct from and not preempted by the Copyright Act (17 U.S.C. § 101 et seq.), the Lanham Act, the Defend Trade Secrets Act, or any other federal intellectual property statute. The Sovereign Data Commons right protects community-generated data patterns and statistical aggregates as a collective civil infrastructure asset, not individual works of authorship; nothing herein alters, limits, or supersedes any individual copyright, trademark, or trade-secret right held by any person.
+(a) IN GENERAL.—The collective linguistic, intellectual, creative, and cultural outputs generated by citizens and community cohorts within the United States are hereby codified as a protected civil infrastructure asset designated as the Sovereign Data Commons. The rights established herein are sui generis collective data rights, distinct from and not preempted by the Copyright Act (17 U.S.C. § 101 et seq.), the Lanham Act, the Defend Trade Secrets Act, or any other federal intellectual property statute. The Sovereign Data Commons right protects community-generated data patterns and statistical aggregates as a collective civil infrastructure asset, not individual works of authorship; nothing herein alters, limits, or supersedes any individual copyright, trademark, or trade-secret right held by any person.
 
 (b) IMMUNITY FROM UNCOMPENSATED ENCLOSURE.—The Sovereign Data Commons shall be immune to uncompensated extraction, commercial enclosure, or computational training ingestion by any Covered Entity.
 
@@ -497,7 +814,7 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 (d) SOVEREIGN ENERGY COST OFFSET.—
 
-(1) REPEAL OF CITIZEN DIVIDEND.—The direct per-capita digital commons cash royalty previously contemplated for this subsection is superseded and replaced by the Sovereign Energy Cost Offset established herein, consistent with the retirement of universal cash distributions in Section 3401 and the principle that NSRA deployments shall prioritize structural cost reduction over direct transfers.
+(1) STRUCTURAL COST OFFSET IN LIEU OF CASH ROYALTY.—Value attributable to the Sovereign Data Commons shall be deployed through the Sovereign Energy Cost Offset established herein rather than as a direct per-capita cash royalty, consistent with Section 3401 and the principle that NSRA deployments shall prioritize structural cost reduction over direct transfers.
 
 (2) ENERGY SOVEREIGNTY NODE ROUTING.—Not less than fifty percent (50%) of annual tariff revenue collected under subsection (c) and deposited to the Personal Data Rights Node of the SIRF shall be transferred quarterly to the Energy Sovereignty Node established in Section 201(e)(5).
 
@@ -515,9 +832,9 @@ SEC. 301. CODIFICATION OF THE COGNITIVE COMMONS.
 
 SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
-(a) ALGORITHMIC DRIFT MONITORING (PATCH R-02).—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States. Such audits shall be conducted exclusively through standardized API interfaces provided by Covered Entities pursuant to FMIA rulemaking, and shall not require real-time access to live production algorithmic systems. Access to live production systems shall be permissible only upon issuance of a FMIA administrative subpoena with thirty (30) days advance written notice to the Covered Entity, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit. Nothing herein shall be construed to require any Covered Entity to disclose proprietary source code, model weights, or training data beyond the output-layer behavioral metrics necessary to calculate the drift coefficient established under subsection (b).
+(a) ALGORITHMIC DRIFT MONITORING.—The FDVM shall continuously execute automated audits of all consumer-facing algorithmic recommendation engines, predictive profiling systems, and commercial information routing channels deployed within the United States. Such audits shall be conducted exclusively through standardized API interfaces provided by Covered Entities pursuant to FMIA rulemaking, and shall not require real-time access to live production algorithmic systems. Access to live production systems shall be permissible only upon issuance of a FMIA administrative subpoena with thirty (30) days advance written notice to the Covered Entity, subject to challenge in the United States Court of Appeals for the District of Columbia Circuit. Nothing herein shall be construed to require any Covered Entity to disclose proprietary source code, model weights, or training data beyond the output-layer behavioral metrics necessary to calculate the drift coefficient established under subsection (b).
 
-(b) COGNITIVE DRIFT VARIANCE THRESHOLD (PATCH R-03/R-04).—
+(b) COGNITIVE DRIFT VARIANCE THRESHOLD.—
 
 (1) COGNITIVE DRIFT MEASUREMENT METHODOLOGY.—Within one hundred eighty (180) days of enactment, the FMIA shall promulgate rules establishing a Cognitive Drift Measurement Methodology (CDMM) grounded in peer-reviewed social science and computational literature. The CDMM shall specify: (A) the measurement instrument and standardized data collection protocol; (B) the consumer financial behavior baseline against which drift is measured and the methodology for establishing that baseline; (C) the statistical method for calculating the drift coefficient, including minimum sample size and required confidence interval; (D) the minimum evidentiary threshold for a Verified Cognitive Drift Finding. No enforcement action under this section may occur until the CDMM is finalized and published in the Federal Register.
 
@@ -527,7 +844,7 @@ SEC. 302. REGULATION OF PREDICTIVE BEHAVIORAL PROFILING AND ALGORITHMIC DRIFT.
 
 (1) PROHIBITION ON THROTTLING.—It shall be unlawful for any Covered Entity maintaining dominant digital marketplace operations or cloud infrastructure pipelines to throttle, censor, filter, or structurally restrict access to foundational Public-Interest Compute Pools or sovereign community data hubs.
 
-(2) GRADUATED PENALTY AND JUDICIAL GATEWAY (PATCH R-08).—Any Covered Entity verified by the FDVM to be operating in violation of subsection (c)(1) shall be subject to the following graduated civil penalty structure:
+(2) GRADUATED PENALTY AND JUDICIAL GATEWAY.—Any Covered Entity verified by the FDVM to be operating in violation of subsection (c)(1) shall be subject to the following graduated civil penalty structure:
 
 (A) DAYS 1 THROUGH 30.—Five hundred thousand dollars ($500,000) per day per affected market for each calendar day of verified non-compliance;
 
@@ -564,12 +881,12 @@ SEC. 304. FOREIGN AI SYSTEM REGISTRATION AND SOVEREIGNTY AUDIT.
 (c) CORRECTIVE ACTION AND PHASE-OUT.—Any system found in a sovereignty audit to present an unmitigable national security risk shall be subject to a mandatory phase-out order with a twelve (12) month transition period, during which the Covered Entity shall transition to a domestically developed alternative, with SIRF transitional assistance available upon application.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE IV — REALIST PARITY ENFORCEMENT AND PRIVATE BOUNTY ENGINES
+TITLE IV — DOMESTIC SOURCING, WAGE ENFORCEMENT, AND CITIZEN ENFORCEMENT ACTIONS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 401. DECENTRALIZED CITIZEN ENFORCEMENT ENGINE.
 
-(a) STATUTORY STANDING BY LAW — ARTICLE III FORUM (PATCH R-10).—To ensure independent enforcement capacity that is insulated from bureaucratic capture, corporate lobbying, or administrative paralysis, any citizen, corporate employee, labor organization, or qualifying community cohort who has suffered concrete economic harm traceable to a verified structural variance identified in a FDVM Verified Structural Variance Report (PATCH R-15) shall have standing to initiate a civil enforcement action in federal district court. The FDVM Verified Structural Variance Report documenting the underlying variance and the plaintiff's nexus to the affected market or cohort shall constitute the evidentiary predicate for Article III standing purposes. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), any such action seeking civil monetary penalties, punitive surcharges, strict-liability clawbacks, revenue seizures, or asset forfeitures — remedies legal rather than equitable in nature — shall be filed in a United States District Court, in which the right to trial by jury under the Seventh Amendment is preserved for the defendant. Actions seeking solely equitable or declaratory relief, or recovery of a sum certain owed to the United States not in the nature of a penalty, may be filed in the United States Court of Federal Claims.
+(a) STATUTORY STANDING BY LAW — ARTICLE III FORUM.—To ensure independent enforcement capacity that is insulated from bureaucratic capture, corporate lobbying, or administrative paralysis, any citizen, corporate employee, labor organization, or qualifying community cohort who has suffered concrete economic harm traceable to a verified structural variance identified in a FDVM Verified Structural Variance Report shall have standing to initiate a civil enforcement action in federal district court. The FDVM Verified Structural Variance Report documenting the underlying variance and the plaintiff's nexus to the affected market or cohort shall constitute the evidentiary predicate for Article III standing purposes. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), any such action seeking civil monetary penalties, punitive surcharges, strict-liability clawbacks, revenue seizures, or asset forfeitures — remedies legal rather than equitable in nature — shall be filed in a United States District Court, in which the right to trial by jury under the Seventh Amendment is preserved for the defendant. Actions seeking solely equitable or declaratory relief, or recovery of a sum certain owed to the United States not in the nature of a penalty, may be filed in the United States Court of Federal Claims.
 
 (b) THE MANDATORY 15 PERCENT CITIZEN BOUNTY.—
 
@@ -627,7 +944,7 @@ SEC. 403. ANTI-OFFSHORE WAGE ARBITRAGE PERFORMANCE INDEX.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT ACT.
+SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT.
 
 (a) FINDINGS.—Congress finds that: (1) wage theft — the failure of employers to pay workers wages lawfully owed — costs American workers more than fifty billion dollars ($50,000,000,000) annually, exceeding the combined value of all robberies, burglaries, larcenies, and motor vehicle thefts in the United States; (2) the Occupational Safety and Health Administration is chronically underfunded relative to its mandate, with fewer than two thousand (2,000) inspectors responsible for monitoring eight million workplaces, resulting in an average inspection interval of once every 165 years per establishment; (3) existing civil penalties for OSHA violations are structurally inadequate as deterrents — the average penalty for a serious violation has historically been below fifteen thousand dollars ($15,000), less than the cost of compliance for many employers; and (4) worker safety violations that cause competitive cost advantages to non-compliant employers constitute an unfair trade practice that suppresses wages and conditions across entire industries.
 
@@ -649,7 +966,7 @@ SEC. 404. OSHA SOVEREIGN WORKER SAFETY AND WAGE THEFT ENFORCEMENT ACT.
 
 (e) EXISTING AGENCY INTEGRATION.—All enforcement under this section shall operate through the existing Department of Labor enforcement infrastructure — the Wage and Hour Division, OSHA, and the Office of the Solicitor of Labor — supplemented by SIRF enforcement floor funding. No new agency or enforcement body is created by this section.
 
-TITLE V — THE SOVEREIGN CHILD PROSPERITY AND POVERTY ELIMINATION ACT
+TITLE V — CHILD PROSPERITY AND POVERTY REDUCTION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION OF STATE BLOCK GRANT ARCHITECTURE.
@@ -658,13 +975,13 @@ SEC. 501. TARGETED REFORM OF PUNITIVE CONDITIONALITY FRAMEWORKS — PRESERVATION
 
 (b) TARGETED REFORMS TO THE PERSONAL RESPONSIBILITY AND WORK OPPORTUNITY RECONCILIATION ACT OF 1996.—The Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (Public Law 104-193) is amended as follows:
 
-(1) Section 407 (Mandatory work requirements) is amended to replace punitive benefit termination for failure to meet work participation rates with a positive incentive structure: states that achieve work participation rates above the federal baseline shall receive a ten percent (10%) bonus on their TANF block grant allocation from the SIRF Household Endowment Node.
+(1) Section 407 (Mandatory work requirements) is amended to replace punitive benefit termination for failure to meet work participation rates with a positive incentive structure: states that achieve work participation rates above the federal baseline shall receive a ten percent (10%) bonus on their TANF block grant allocation from the SIRF Household Structural Relief Node.
 
 (2) Section 408(a)(7) (Five-year lifetime benefit limit) is repealed and replaced with the following: No household with a dependent child under the age of six (6) shall face termination of Temporary Assistance for Needy Families benefits solely on the basis of a time limit. For households with no dependent child under age six, states may maintain time limits not shorter than sixty (60) months within any ten-year period.
 
 (3) Section 408(a)(1) through (a)(6) (behavioral conditionality and means-testing surveillance requirements) are amended to remove criminal record bars, drug testing mandates, and electronic benefit transaction surveillance requirements. States may not condition TANF receipt on these factors.
 
-(c) TANF BLOCK GRANT ENHANCEMENT.—The base TANF block grant allocation to each state is increased by twenty-five percent (25%), funded from the SIRF Household Endowment Node, conditioned on each state maintaining family benefit levels at not less than fifty percent (50%) of the state's median household income adjusted for family size.
+(c) TANF BLOCK GRANT ENHANCEMENT.—The base TANF block grant allocation to each state is increased by twenty-five percent (25%), funded from the SIRF Household Structural Relief Node, conditioned on each state maintaining family benefit levels at not less than fifty percent (50%) of the state's median household income adjusted for family size.
 
 (d) REPEAL OF COMPLEMENTARY PUNITIVE MEANS-TESTS.—Sections 7101 through 7103 of the Deficit Reduction Act of 2005 (Public Law 109-171) and Section 4115 of the Food, Conservation, and Energy Act of 2008 (Public Law 110-246) are hereby expressly repealed solely as to their drug testing, criminal history bar, and surveillance monitoring provisions. The underlying program structure and benefit eligibility framework of those Acts is preserved and enhanced.
 
@@ -682,7 +999,7 @@ SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
 
 (a) ESTABLISHMENT.—There is established the Sovereign Child Prosperity Trust (SCPT), administered by the Department of the Treasury in coordination with the Social Security Administration.
 
-(b) INITIAL CAPITALIZATION.—At birth, every child born to a United States resident shall automatically receive a Sovereign Child Prosperity Account funded with an initial deposit of five thousand dollars ($5,000) from the SIRF Household Endowment Node.
+(b) INITIAL CAPITALIZATION.—At birth, every child born to a United States resident shall automatically receive a Sovereign Child Prosperity Account funded with an initial deposit of five thousand dollars ($5,000) from the SIRF Household Structural Relief Node.
 
 (c) INCOME-SCALED SUPPLEMENTAL DEPOSITS.—Annual supplemental deposits of not less than one thousand dollars ($1,000) shall be made into each SCPT account until the child reaches age eighteen (18), with deposits scaled up to two thousand five hundred dollars ($2,500) annually for accounts belonging to children in households below one hundred fifty percent (150%) of the Sovereign Productivity Index median.
 
@@ -698,7 +1015,7 @@ SEC. 503. THE SOVEREIGN CHILD PROSPERITY TRUST.
 
 SEC. 504. FORMAL DECLARATION — WAR ON POVERTY.
 
-(a) DECLARATION.—The Congress of the United States hereby formally declares that the elimination of structural poverty is a national imperative of equivalent urgency to national defense. The mechanisms of poverty in the United States are not the product of individual failure but of identifiable, measurable structural conditions — including healthcare cost exposure, educational debt burden, housing cost instability, wage suppression, food system dysfunction, and environmental disease burden — that this Act directly addresses.
+(a) DECLARATION.—The Congress of the United States hereby formally declares that the elimination of structural poverty is a national imperative of equivalent urgency to national defense. The persistence of poverty in the United States is driven in substantial part by identifiable, measurable structural conditions — including healthcare cost exposure, educational debt burden, housing cost instability, wage suppression, food system dysfunction, and environmental disease burden — that this Act directly addresses.
 
 (b) STATUTORY POVERTY REDUCTION TARGET.—It is the policy of the United States that the Supplemental Poverty Measure (SPM) rate, as published annually by the U.S. Census Bureau, shall be reduced to not greater than five percent (5%) within ten (10) years of enactment of this Act. The FMIA shall publish annual progress reports tracking SPM trajectory against this target.
 
@@ -718,17 +1035,15 @@ SEC. 506. TRANSITIONAL HOUSEHOLD STABILITY GUARANTEE — NUTRITIONAL, SHELTER, A
 
 (a) FINDINGS — PROTECTION OF THE ACT'S OWN ECONOMIC ASSUMPTIONS.—Congress finds that: (1) the poverty-reduction, household-wealth, and deficit-reduction benchmarks of this Act in Title XIX and Schedule D are predicated on a stable baseline of household food, shelter, and energy security during the multi-year period in which the Sovereign Infrastructure Reinvestment Fund (SIRF) enforcement-revenue streams come online; (2) an erosion of working-poor household stability during that ramp period — from any source — would corrupt the baseline against which this Act's performance is measured and undermine the bipartisan economic modeling required under Section 1903; and (3) a narrowly tailored, time-limited stability floor that holds essential-assistance levels constant during the ramp is therefore necessary to preserve the integrity of the Act's projected return on investment, not to expand any pre-existing program.
 
-(b) NUTRITIONAL SECURITY FLOOR.—If, in any fiscal year during the SIRF Ramp Period defined in subsection (e), federal nutritional assistance funding available to households at or below one hundred thirty percent (130%) of the federal poverty guideline falls below the level required to maintain the enrollment and per-household benefit value in effect on the date of enactment of this Act, the SIRF Household Endowment Node shall automatically backfill the difference, up to the statutory floor, so that no qualifying household at or below 130% of the federal poverty guideline loses food assistance while this Act's poverty-reduction mechanisms are coming online. This backfill is a bridge guarantee tied to the benchmarks of this Act and shall sunset under subsection (e).
+(b) NUTRITIONAL SECURITY FLOOR.—If, in any fiscal year during the SIRF Ramp Period defined in subsection (e), federal nutritional assistance funding available to households at or below one hundred thirty percent (130%) of the federal poverty guideline falls below the level required to maintain the enrollment and per-household benefit value in effect on the date of enactment of this Act, the SIRF Household Structural Relief Node shall automatically backfill the difference, up to the statutory floor, so that no qualifying household at or below 130% of the federal poverty guideline loses food assistance while this Act's poverty-reduction mechanisms are coming online. This backfill is a bridge guarantee tied to the benchmarks of this Act and shall sunset under subsection (e).
 
-(c) SHELTER AND UTILITY STABILITY FLOORS.—On the same conditional and time-limited basis established in subsection (b), the SIRF Household Endowment Node shall backfill any shortfall below the date-of-enactment baseline in: (1) federal rental and homelessness-prevention assistance for households at or below 130% of the federal poverty guideline; and (2) federal low-income home energy and weatherization assistance for such households, coordinated with the Rural Energy Access Fund under Section 904(b). The combined backfill under subsections (b) and (c) shall not exceed the amount necessary to restore each assistance category to its date-of-enactment baseline.
+(c) SHELTER AND UTILITY STABILITY FLOORS.—On the same conditional and time-limited basis established in subsection (b), the SIRF Household Structural Relief Node shall backfill any shortfall below the date-of-enactment baseline in: (1) federal rental and homelessness-prevention assistance for households at or below 130% of the federal poverty guideline; and (2) federal low-income home energy and weatherization assistance for such households, coordinated with the Rural Energy Access Fund under Section 904(b). The combined backfill under subsections (b) and (c) shall not exceed the amount necessary to restore each assistance category to its date-of-enactment baseline.
 
 (d) MECHANICAL, NON-DISCRETIONARY OPERATION.—The backfill under this section is a mandatory, formula-driven disbursement requiring no agency discretion. The FMIA shall publish a quarterly Household Stability Floor Report confirming, for each assistance category, whether a shortfall below baseline has occurred and the backfill amount disbursed. The guarantee operates only as a floor; it confers no entitlement above the date-of-enactment baseline and creates no new benefit category.
 
 (e) SIRF RAMP PERIOD AND SUNSET.—For purposes of this section, the "SIRF Ramp Period" begins on the date of enactment and ends on the earlier of: (1) the first fiscal year in which the Congressional Budget Office certifies, under Section 005(a), that SIRF revenue is sufficient to fund all Tranche 1 mechanisms without recourse to the floor; or (2) the close of the sixth (6th) full fiscal year after enactment. Upon expiration of the SIRF Ramp Period, the guarantee in this section shall sunset automatically, except that any shortfall identified before sunset shall be backfilled to completion.
 
 (f) NO PREEMPTION OF EXISTING PROGRAMS.—Nothing in this section repeals, replaces, or amends the Supplemental Nutrition Assistance Program, the Low Income Home Energy Assistance Program, or any federal housing assistance program. This section operates solely as a transitional SIRF-funded floor protecting the economic baseline of this Act and is fully severable under Section 205.
-
-SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
 
 
 TITLE VI — SOVEREIGN CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY
@@ -742,7 +1057,7 @@ SEC. 601. PROHIBITION ON PREDATORY PRIVATE EQUITY BUYOUTS AND ASSET PLEDGING.
 
 (c) LEGACY ACQUISITION COMPLIANCE PERIOD.—Covered Entities that completed leveraged acquisitions prior to the effective date of this Act and whose existing structures conflict with subsection (a) shall have a twenty-four (24) month compliance window to refinance or restructure their acquisition debt to remove pension assets from collateral pools. The SIRF capital protection node shall make available transitional refinancing credit facilities at federal funds rate plus one percent (1%) for qualifying domestic entities during this transition period.
 
-SEC. 602. THE ERIDANUS AMENDMENT TO ERISA — PATCH R-09.
+SEC. 602. THE ERIDANUS AMENDMENT TO ERISA.
 
 (a) AMENDMENT TO SECTION 514.—Section 514 of the Employee Retirement Income Security Act of 1974 (29 U.S.C. § 1144) is amended by inserting at the end the following new subsection:
 
@@ -769,7 +1084,7 @@ SEC. 604. RETIREMENT SECURITY FOR GIG AND CONTINGENT WORKERS.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE VII — AGRICULTURAL SOVEREIGNTY AND CALORIC INFRASTRUCTURE
+TITLE VII — AGRICULTURE AND FOOD SUPPLY SECURITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 701. MECHANICAL DIVESTMENT OF FOOD DISTRIBUTION MONOPOLIES.
@@ -862,7 +1177,7 @@ SEC. 706. REGIONAL FOOD SYSTEM INFRASTRUCTURE.
 (d) BENCHMARKS.—The FMIA shall report biennially on regional food infrastructure capacity established, producers connected, and the reduction in average farm-to-consumer transport distance achieved.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE VIII — SOVEREIGN MOBILITY AND KINETIC INFRASTRUCTURE
+TITLE VIII — MOBILITY NETWORKS AND APP-BASED DISPATCH PLATFORMS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 801. GIG ECONOMY PLATFORM DISPLACEMENT AND UTILITY STATUS.
@@ -932,7 +1247,7 @@ SEC. 903. GRADUATED PENALTY MATRIX AND JUDICIAL ENFORCEMENT.
 
 (a) GRADUATED FINANCIAL CLAWBACK.—If a Covered Entity fails to achieve compliance within the 36-month transitional window (or within any approved Regulatory Delay Extension under section 902(c)) due to corporate negligence, supply chain failure, or non-compliance with the safe harbor metrics of section 902(b) and (d), the following enforcement timeline shall engage:
 
-(1) MONTHS 37 THROUGH 42 (NON-COMPLIANCE PHASE I).—An automated structural-variance fee equal to four and one-half percent (4.5%) of the data foundry's gross quarterly corporate revenue shall be seized directly from source electronic clearances at the end of each fiscal quarter. This penalty also applies during any approved Regulatory Delay Extension per section 902(c)(1).
+(1) MONTHS 37 THROUGH 42 (NON-COMPLIANCE PHASE I).—A structural-variance fee equal to four and one-half percent (4.5%) of the data foundry's gross quarterly corporate revenue shall be assessed at the end of each fiscal quarter and collected in accordance with section 1606. This penalty also applies during any approved Regulatory Delay Extension per section 902(c)(1).
 
 (2) MONTHS 43 THROUGH 48 (NON-COMPLIANCE PHASE II).—The structural-variance fee shall automatically escalate to eight and one-half percent (8.5%) of gross quarterly corporate revenue, and the data foundry's permissible power draw from the public civil grid shall be reduced by exactly twenty-five percent (25%) pursuant to subsection (b).
 
@@ -973,7 +1288,7 @@ SEC. 987. VETERANS ENERGY SOVEREIGNTY BENEFIT.
 (d) FUNDING — FIRST-PRIORITY OBLIGATION.—The Veterans Energy Sovereignty Benefit established under this section shall be funded from the SIRF Energy Sovereignty Subledger as a first-priority obligation senior to the four deployment buckets established under Section 2410(c), as referenced in Schedule G.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE X — SOVEREIGN BIOSPHERIC COMMONS AND FUNDAMENTAL PUBLIC UTILITIES
+TITLE X — CLEAN WATER, CONSERVATION, AND ESSENTIAL PUBLIC UTILITIES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 1001. OUTLAWING OF PHYSICAL RESOURCE COMMODIFICATION.
@@ -1187,104 +1502,11 @@ SEC. 1304. NATIONAL CURATIVE DRUG REGISTRY AND RESEARCH INTEGRITY PROTECTION.
 
 (d) PUBLIC TRANSPARENCY.—The Registry shall be published and updated annually at no cost to the public.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XV — COGNITIVE EMANCIPATION AND KNOWLEDGE SOVEREIGNTY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
-
-(a) INTEREST ACCRUAL ELIMINATION.—All interest accrual on outstanding federal student lending instruments is permanently reduced to zero percent (0%) effective on the first day of the month following enactment. No retroactive interest charges, capitalized interest, or deferred interest accrued prior to enactment shall be assessed on federal loan instruments held by borrowers with annual incomes below one hundred fifty percent (150%) of the SPI median.
-
-(b) ENDOWMENT CLAWBACK VECTOR.—The Department of Education shall execute an automated clawback assessment against the unrestricted financial endowments of post-secondary educational institutions that demonstrate a persistent structural variance between tuition cost growth and the median regional wage velocity of their graduates. The clawback assessment shall equal fifteen percent (15%) of the excess tuition growth rate above regional wage velocity, applied to unrestricted endowment assets.
-
-(c) INCOME-BASED FORGIVENESS PATHWAY.—Any federal student loan borrower whose annual income for five (5) or more consecutive years has been below one hundred twenty-five percent (125%) of the federal poverty guideline shall receive automatic discharge of the remaining principal balance, administered by the Department of Education within one hundred eighty (180) days of eligibility verification, capitalized from the SIRF Knowledge Sovereignty Node.
-
-SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
-
-(a) SPENDING CLAUSE GROUNDING.—Pursuant to the Spending Clause of Article I, Section 8, Clause 1 and Clause 18 (Necessary and Proper Clause), the retroactive discharge of predatory interest accrued on privately held federal loan instruments (FFELP) shall be structured as a voluntary participation transaction. Private loan servicers shall be compensated at par value from the Knowledge Sovereignty Endowment within the SIRF in exchange for total debt cancellation, completely avoiding Contracts Clause exposure.
-
-(b) SOUTH DAKOTA V. DOLE COMPLIANCE.—The participation requirement established under subsection (a) satisfies the four-part test of South Dakota v. Dole, 483 U.S. 203 (1987): (1) the expenditure serves the general welfare; (2) conditions are unambiguous; (3) conditions relate to the federal interest in particular national projects; and (4) conditions do not induce unconstitutionally coercive compliance.
-
-SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE SOVEREIGNTY ENDOWMENT.
-
-(a) PUBLIC TUITION FREEZE.—Any public university or college receiving federal funding under Title IV of the Higher Education Act (20 U.S.C. §§ 1070 et seq.) shall freeze in-state undergraduate tuition at the current level for not less than five (5) years from enactment as a condition of continued federal funding.
-
-(b) SOVEREIGN KNOWLEDGE CAPITALIZATION FUND.—The SIRF Knowledge Sovereignty Node shall deploy not less than three hundred million dollars ($300,000,000) annually as formula-based grants to public universities, distributed in proportion to in-state enrollment and conditioned on maintenance of the tuition freeze and demonstrated wage outcomes for graduates.
-
-(c) VOCATIONAL AND APPRENTICESHIP PARITY.—The Knowledge Sovereignty framework shall treat post-secondary vocational certification, registered apprenticeship programs, and community college technical degrees as equivalent pathways to higher education for purposes of all federal student benefit and grant programs under this Act. No student benefit under this Act shall be conditioned on enrollment in a four-year degree program.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XVI & XVII [INTEGRATED] — QUANTUM-SECURED SOVEREIGN LIQUIDITY, CENTRAL BANK ANTI-FRAGILITY, AND THE ERADICATION OF FIAT INFLATION VARIANCES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
-
-(a) AUTOMATED TRANSACTION MONITORING.—To prevent catastrophic market disruption, speculative short-selling runs, or offshore capital flight by institutional actors seeking to evade the strict liability provisions of this Act during an active FDVM structural variance audit, there is hereby established the Asymmetric Capital Flight Lock.
-
-(b) TRIGGER MECHANICS.—The FDVM shall monitor real-time treasury clearance feeds and institutional ledger outflows. A potential Flight Lock event shall be detected instantaneously if any of the following technical thresholds are crossed:
-
-(1) A Covered Entity or financial institution under active structural variance audit attempts an un-hedged transfer of liquid capital, debt instruments, or intellectual property reserves to an offshore subsidiary, shell entity, or foreign sovereign jurisdiction exceeding five percent (5%) of its total consolidated liquid assets within a rolling fourteen (14) calendar day window.
-
-(2) Net capital outflows from domestic financial market makers into any designated foreign tax-deferred vehicle or offshore corporate shield demonstrate a velocity increase exceeding three standard deviations from the prior 90-day rolling baseline.
-
-(c) PRE-DEPRIVATION JUDICIAL OFFICER AUTHORIZATION — PATCH R-07.—Upon detection of a triggering event under subsection (b), no automatic asset freeze shall take effect without prior authorization. Instead, the FMIA shall within four (4) hours transmit an Emergency Authorization Request to the FMIA's Office of Administrative Review, which shall maintain a twenty-four-hour-a-day, seven-day-a-week duty Administrative Law Judge roster for this purpose. The duty ALJ shall review the Emergency Authorization Request on an ex parte basis and issue a written order within four (4) hours of receipt either:
-
-(1) AUTHORIZING THE FLIGHT LOCK.—If the duty ALJ finds probable cause to believe a triggering event has occurred and that immediate asset protection is necessary to prevent irreparable harm to SIRF assets or domestic economic stability; or
-
-(2) DENYING THE FLIGHT LOCK REQUEST.—If the duty ALJ finds the triggering event has not been established by the FMIA's monitoring data to the probable cause standard, or that the transaction at issue falls within a recognized exemption.
-
-(d) LEGAL EFFECT OF AUTHORIZED LOCK.—Upon ALJ authorization, the affected domestic clearing networks, Federal Reserve discount windows, and electronic payment gateways shall freeze all international settlement operations tied to the offending entity for a fixed period of forty-five (45) calendar days. Frozen assets shall serve as temporary liquidity reserves for the SIRF pending final resolution. No administrative waivers or executive order interventions may release an authorized lock; release requires ALJ order on adversarial hearing or judicial review.
-
-(e) ADVERSARIAL HEARING — SEVENTY-TWO HOURS.—Within seventy-two (72) hours of Lock authorization, the FMIA shall provide the affected entity a full adversarial hearing before the FMIA Administrative Law Judge, at which the entity may contest the factual basis for the Lock, present exculpatory evidence, and seek immediate release of specifically identified assets that are not subject to the triggering transaction.
-
-(f) JUDICIAL REVIEW — EXPEDITED TRACK.—Any party adversely affected by an authorized Capital Flight Lock may seek emergency review in the United States Court of Appeals for the Federal Circuit on an expedited seventy-two (72) hour briefing schedule. The Court of Appeals shall apply a clear error standard to factual ALJ findings and de novo review to legal conclusions. A stay of the Lock pending appeal shall be available upon the standard four-part equity test.
-
-(g) NATURE OF ALJ AUTHORITY — EQUITABLE PRESERVATION ONLY (PATCH R-10).—The duty ALJ's authority under this section is strictly limited to authorizing a temporary, status-quo-preserving asset freeze of the nature of a preliminary injunction or attachment, on a probable-cause showing, to prevent irreparable dissipation of assets pending adjudication. The ALJ shall have no authority under this section to assess, impose, or finally adjudicate any civil monetary penalty, surcharge, forfeiture, or clawback. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), all such penal remedies arising from a triggering transaction shall be pursued by the United States exclusively in a United States District Court with the Seventh Amendment right to trial by jury preserved.
-
-SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM (PATCH R-10).
-
-(a) JARKESY COMPLIANCE — GOVERNING RULE.—Notwithstanding any other provision of this Act, no civil monetary penalty, punitive surcharge, strict-liability clawback, revenue seizure, or asset forfeiture shall be finally assessed against any person or Covered Entity except by a United States District Court, an Article III tribunal, in a proceeding in which the defendant's Seventh Amendment right to trial by jury is preserved. This rule conforms the enforcement architecture of this Act to Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), Tull v. United States, 481 U.S. 412 (1987), and Granfinanciera, S.A. v. Nordberg, 492 U.S. 33 (1989).
-
-(b) PERMISSIBLE ADMINISTRATIVE FUNCTIONS.—Administrative adjudicators under this Act retain authority only over: (1) temporary, equitable, status-quo-preserving orders (including the asset-freeze authorization under Section 1601) on a probable-cause showing; (2) determinations of eligibility for, or entitlement to, a public benefit, which remain matters of public right; and (3) internal agency appeals that do not finally assess a penal monetary remedy. Any final penal assessment requires Article III adjudication under subsection (a).
-
-(c) REFERRAL MECHANISM.—Upon a Verified Structural Variance Report that would support a penal remedy, the primary enforcement agency or the citizen relator under Section 401 shall file a civil action in the appropriate United States District Court. The administrative record shall be admissible but shall not be preclusive of the defendant's jury-trial rights on contested issues of fact.
-
-(d) SEVERABILITY HARMONIZATION.—If any provision of this Act is read to authorize final administrative assessment of a penal monetary remedy, that provision shall be construed, to the maximum extent possible, to require Article III adjudication consistent with subsection (a); and if it cannot be so construed, it shall be severed pursuant to Section 205 without affecting the remainder of this Act or any enforcement action lawfully commenced in an Article III court.
-
-SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
-
-(a) PHASED RE-ARCHITECTURE.—To ensure absolute protection against systemic financial cyber-warfare, the migration of the Federal Reserve clearance systems, the SIRF deposit networks, and the FDVM ledger pipelines exclusively to a decentralized, quantum-secured cryptographic infrastructure is hardcoded into three rigid, chronological operational phases:
-
-(1) PHASE I (MONTHS 1 THROUGH 18 — INGESTION AND SYMMETRIC HARDENING).—The FDVM data ingest pipelines and SIRF deposit clearance networks shall be wrapped in hybrid post-quantum cryptographic layers (including CRYSTALS-Kyber and CRYSTALS-Dilithium protocols) to secure immediate transmission integrity.
-
-(2) PHASE II (MONTHS 19 THROUGH 36 — CENTRAL BANK CLEARANCE DECOUPLING).—The internal core ledger systems of the Federal Reserve Board of Governors and the primary electronic treasury networks shall be migrated to a distributed, quantum-resistant consensus architecture operating on independent, state-owned hardware nodes.
-
-(3) PHASE III (MONTHS 37 THROUGH 48 — FULL QUANTUM SYNCHRONIZATION).—Universal synchronization across all commercial bank settlement gateways and corporate clearing arrays shall be fully completed.
-
-(4) FULL-SCOPE COMPLIANCE STANDARD.—Compliance with subsections (a)(1)-(3) shall require PQC deployment across all of the following, without exception: (A) data at rest — all database storage, backup systems, archival and cold storage containing financial or customer data; (B) internal network communications, including intranet and inter-branch systems; (C) third-party and vendor systems processing covered data on behalf of the institution; and (D) client-side endpoints and institution-controlled customer portals. Surface-level compliance securing only primary transit pipelines while leaving data at rest or legacy internal systems unprotected shall not constitute compliance for purposes of this section.
-
-(5) LEGACY SYSTEM MIGRATION PLAN.—Any Covered Entity that cannot achieve full-scope compliance within the Phase III deadline for legacy systems shall file with the FMIA a Legacy System Migration Plan within one hundred eighty (180) days of enactment specifying: (A) an inventory of non-PQC-capable legacy systems; (B) a phased migration timeline not exceeding three (3) years; (C) interim compensating controls; and (D) annual third-party cryptographic audit certifications verifying migration progress. Entities operating under an approved Migration Plan are exempt from the Phase III penalty for covered legacy systems only, provided they remain current on the approved timeline.
-
-(b) STRICT LIABILITY PENALTIES FOR TRANSITIONAL DELAY.—Any Tier-1 commercial banking institution or asset management firm that fails to achieve compliance with the technical migration milestones specified in subsection (a) at the end of any phase shall face an immediate freeze of its federal discount window access and a mandatory two hundred percent (200%) civil penalty surcharge on all transaction fees processed during the period of non-compliance, paid directly to the SIRF.
-
-(c) NIST COORDINATION.—The quantum migration standards employed under subsection (a) shall be coordinated with and certified by the National Institute of Standards and Technology (NIST), consistent with NIST's post-quantum cryptography standards published under FIPS 203, 204, and 205. The NIST Director shall certify compliance of each phase within sixty (60) days of phase completion.
-
-SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
-
-(a) SPI-INDEXED WAGE FLOOR.—The federal minimum wage shall be automatically adjusted on the first day of each calendar year to not less than seventeen percent (17%) of the annual Sovereign Productivity Index per-capita output value, ensuring perpetual alignment between the minimum wage and actual domestic productive capacity, without requiring recurring legislative action.
-
-(b) ANTI-SHRINKFLATION ENFORCEMENT.—It shall be an unlawful trade practice for any consumer goods manufacturer with annual domestic revenues exceeding one hundred million dollars ($100,000,000) to reduce the net weight, volume, or quantity of a consumer product by more than five percent (5%) within any rolling twelve (12) month period without a corresponding price reduction of not less than the same percentage or clear consumer-facing disclosure of the reduction.
-
-(c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FMIA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XIV — SHELTER SOVEREIGNTY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1401. SHELTER SOVEREIGNTY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
 
 (a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause.
 
@@ -1330,6 +1552,72 @@ TITLE XIV — SHELTER SOVEREIGNTY
 
 (i) CONSTITUTIONAL GROUNDING.—The concentration cap and divestiture requirements of this section are enacted pursuant to the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause conditions attached to the Shelter Sovereignty Fund disbursements, and Congress's plenary authority to regulate financial markets and interstate capital flows. The V_abs Quarterly Absorption Throttle, the 180-day minimum notice requirement of Title XVIII, and the just compensation provisions of subsection (e) are specifically designed to satisfy the three-factor balancing test of Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978).
 
+SEC. 1402. COMMUNITY LAND TRUST CAPITALIZATION AND FIRST-TIME HOMEBUYER ASSISTANCE.
+
+(a) COMMUNITY LAND TRUST GRANTS.—The SIRF Household Structural Relief Node shall deploy not less than one billion dollars ($1,000,000,000) annually to capitalize community land trusts and nonprofit affordable housing developers, with priority for trusts operating in MSAs where institutional portfolio concentration has exceeded the fifty-unit cap.
+
+(b) FIRST-TIME HOMEBUYER ASSISTANCE.—Any United States resident who has not owned a primary residence in the preceding five (5) years and whose household income does not exceed two hundred percent (200%) of the area median income shall be eligible for:
+(1) A direct down payment assistance grant of twenty thousand dollars ($20,000) from the SIRF Household Structural Relief Node; and
+(2) Access to a thirty-year fixed-rate mortgage at a fixed interest rate equal to the 10-year Treasury yield plus one percent (1%), administered by the Federal Housing Administration.
+
+(c) STRUCTURAL RENT BASELINE ENFORCEMENT.—In any MSA where the FDVM verifies that institutional portfolio concentration exceeds the cap and rents exceed the Structural Rent Baseline by more than fifteen percent (15%), the FMIA shall, after notice under section 1802, impose a Rent Extraction Levy equal to twenty percent (20%) of the excess rent collected above the Structural Rent Baseline, routed to the SIRF to fund direct rental assistance to affected tenants.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XV — STUDENT DEBT RELIEF AND PUBLIC HIGHER EDUCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
+
+(a) INTEREST ACCRUAL ELIMINATION.—All interest accrual on outstanding federal student lending instruments is permanently reduced to zero percent (0%) effective on the first day of the month following enactment. No retroactive interest charges, capitalized interest, or deferred interest accrued prior to enactment shall be assessed on federal loan instruments held by borrowers with annual incomes below one hundred fifty percent (150%) of the SPI median.
+
+(b) ENDOWMENT CLAWBACK VECTOR.—The Department of Education shall execute an automated clawback assessment against the unrestricted financial endowments of post-secondary educational institutions that demonstrate a persistent structural variance between tuition cost growth and the median regional wage velocity of their graduates. The clawback assessment shall equal fifteen percent (15%) of the excess tuition growth rate above regional wage velocity, applied to unrestricted endowment assets.
+
+(c) INCOME-BASED FORGIVENESS PATHWAY.—Any federal student loan borrower whose annual income for five (5) or more consecutive years has been below one hundred twenty-five percent (125%) of the federal poverty guideline shall receive automatic discharge of the remaining principal balance, administered by the Department of Education within one hundred eighty (180) days of eligibility verification, capitalized from the SIRF Knowledge Sovereignty Node.
+
+SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
+
+(a) SPENDING CLAUSE GROUNDING.—Pursuant to the Spending Clause of Article I, Section 8, Clause 1 and Clause 18 (Necessary and Proper Clause), the retroactive discharge of predatory interest accrued on privately held federal loan instruments (FFELP) shall be structured as a voluntary participation transaction. Private loan servicers shall be compensated at par value from the Knowledge Sovereignty Endowment within the SIRF in exchange for total debt cancellation, completely avoiding Contracts Clause exposure.
+
+(b) SOUTH DAKOTA V. DOLE COMPLIANCE.—The participation requirement established under subsection (a) satisfies the four-part test of South Dakota v. Dole, 483 U.S. 203 (1987): (1) the expenditure serves the general welfare; (2) conditions are unambiguous; (3) conditions relate to the federal interest in particular national projects; and (4) conditions do not induce unconstitutionally coercive compliance.
+
+SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE SOVEREIGNTY ENDOWMENT.
+
+(a) PUBLIC TUITION FREEZE.—Any public university or college receiving federal funding under Title IV of the Higher Education Act (20 U.S.C. §§ 1070 et seq.) shall freeze in-state undergraduate tuition at the current level for not less than five (5) years from enactment as a condition of continued federal funding.
+
+(b) SOVEREIGN KNOWLEDGE CAPITALIZATION FUND.—The SIRF Knowledge Sovereignty Node shall deploy not less than three hundred million dollars ($300,000,000) annually as formula-based grants to public universities, distributed in proportion to in-state enrollment and conditioned on maintenance of the tuition freeze and demonstrated wage outcomes for graduates.
+
+(c) VOCATIONAL AND APPRENTICESHIP PARITY.—The Knowledge Sovereignty framework shall treat post-secondary vocational certification, registered apprenticeship programs, and community college technical degrees as equivalent pathways to higher education for purposes of all federal student benefit and grant programs under this Act. No student benefit under this Act shall be conditioned on enrollment in a four-year degree program.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, AND INFLATION PROTECTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
+
+(a) AUTOMATED TRANSACTION MONITORING.—To prevent catastrophic market disruption, speculative short-selling runs, or offshore capital flight by institutional actors seeking to evade the strict liability provisions of this Act during an active FDVM structural variance audit, there is hereby established the Asymmetric Capital Flight Lock.
+
+(b) TRIGGER MECHANICS.—The FDVM shall monitor real-time treasury clearance feeds and institutional ledger outflows. A potential Flight Lock event shall be detected instantaneously if any of the following technical thresholds are crossed:
+
+(1) A Covered Entity or financial institution under active structural variance audit attempts an un-hedged transfer of liquid capital, debt instruments, or intellectual property reserves to an offshore subsidiary, shell entity, or foreign sovereign jurisdiction exceeding five percent (5%) of its total consolidated liquid assets within a rolling fourteen (14) calendar day window.
+
+(2) Net capital outflows from domestic financial market makers into any designated foreign tax-deferred vehicle or offshore corporate shield demonstrate a velocity increase exceeding three standard deviations from the prior 90-day rolling baseline.
+
+(c) PRE-DEPRIVATION JUDICIAL OFFICER AUTHORIZATION.—Upon detection of a triggering event under subsection (b), no automatic asset freeze shall take effect without prior authorization. Instead, the FMIA shall within four (4) hours transmit an Emergency Authorization Request to the FMIA's Office of Administrative Review, which shall maintain a twenty-four-hour-a-day, seven-day-a-week duty Administrative Law Judge roster for this purpose. The duty ALJ shall review the Emergency Authorization Request on an ex parte basis and issue a written order within four (4) hours of receipt either:
+
+(1) AUTHORIZING THE FLIGHT LOCK.—If the duty ALJ finds probable cause to believe a triggering event has occurred and that immediate asset protection is necessary to prevent irreparable harm to SIRF assets or domestic economic stability; or
+
+(2) DENYING THE FLIGHT LOCK REQUEST.—If the duty ALJ finds the triggering event has not been established by the FMIA's monitoring data to the probable cause standard, or that the transaction at issue falls within a recognized exemption.
+
+(d) LEGAL EFFECT OF AUTHORIZED LOCK.—Upon ALJ authorization, the affected domestic clearing networks, Federal Reserve discount windows, and electronic payment gateways shall freeze all international settlement operations tied to the offending entity for a fixed period of forty-five (45) calendar days. Frozen assets shall serve as temporary liquidity reserves for the SIRF pending final resolution. No administrative waivers or executive order interventions may release an authorized lock; release requires ALJ order on adversarial hearing or judicial review.
+
+(e) ADVERSARIAL HEARING — SEVENTY-TWO HOURS.—Within seventy-two (72) hours of Lock authorization, the FMIA shall provide the affected entity a full adversarial hearing before the FMIA Administrative Law Judge, at which the entity may contest the factual basis for the Lock, present exculpatory evidence, and seek immediate release of specifically identified assets that are not subject to the triggering transaction.
+
+(f) JUDICIAL REVIEW — EXPEDITED TRACK.—Any party adversely affected by an authorized Capital Flight Lock may seek emergency review in the United States Court of Appeals for the Federal Circuit on an expedited seventy-two (72) hour briefing schedule. The Court of Appeals shall apply a clear error standard to factual ALJ findings and de novo review to legal conclusions. A stay of the Lock pending appeal shall be available upon the standard four-part equity test.
+
+(g) NATURE OF ALJ AUTHORITY — EQUITABLE PRESERVATION ONLY.—The duty ALJ's authority under this section is strictly limited to authorizing a temporary, status-quo-preserving asset freeze of the nature of a preliminary injunction or attachment, on a probable-cause showing, to prevent irreparable dissipation of assets pending adjudication. The ALJ shall have no authority under this section to assess, impose, or finally adjudicate any civil monetary penalty, surcharge, forfeiture, or clawback. Consistent with Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), all such penal remedies arising from a triggering transaction shall be pursued by the United States exclusively in a United States District Court with the Seventh Amendment right to trial by jury preserved.
+
 SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
 
 (a) PHASED RE-ARCHITECTURE.—To ensure absolute protection against systemic financial cyber-warfare, the migration of the Federal Reserve clearance systems, the SIRF deposit networks, and the FDVM ledger pipelines exclusively to a decentralized, quantum-secured cryptographic infrastructure is hardcoded into three rigid, chronological operational phases:
@@ -1339,6 +1627,10 @@ SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
 (2) PHASE II (MONTHS 19 THROUGH 36 — CENTRAL BANK CLEARANCE DECOUPLING).—The internal core ledger systems of the Federal Reserve Board of Governors and the primary electronic treasury networks shall be migrated to a distributed, quantum-resistant consensus architecture operating on independent, state-owned hardware nodes.
 
 (3) PHASE III (MONTHS 37 THROUGH 48 — FULL QUANTUM SYNCHRONIZATION).—Universal synchronization across all commercial bank settlement gateways and corporate clearing arrays shall be fully completed.
+
+(4) FULL-SCOPE COMPLIANCE STANDARD.—Compliance with subsections (a)(1)-(3) shall require PQC deployment across all of the following, without exception: (A) data at rest — all database storage, backup systems, archival and cold storage containing financial or customer data; (B) internal network communications, including intranet and inter-branch systems; (C) third-party and vendor systems processing covered data on behalf of the institution; and (D) client-side endpoints and institution-controlled customer portals. Surface-level compliance securing only primary transit pipelines while leaving data at rest or legacy internal systems unprotected shall not constitute compliance for purposes of this section.
+
+(5) LEGACY SYSTEM MIGRATION PLAN.—Any Covered Entity that cannot achieve full-scope compliance within the Phase III deadline for legacy systems shall file with the FMIA a Legacy System Migration Plan within one hundred eighty (180) days of enactment specifying: (A) an inventory of non-PQC-capable legacy systems; (B) a phased migration timeline not exceeding three (3) years; (C) interim compensating controls; and (D) annual third-party cryptographic audit certifications verifying migration progress. Entities operating under an approved Migration Plan are exempt from the Phase III penalty for covered legacy systems only, provided they remain current on the approved timeline.
 
 (b) STRICT LIABILITY PENALTIES FOR TRANSITIONAL DELAY.—Any Tier-1 commercial banking institution or asset management firm that fails to achieve compliance with the technical migration milestones specified in subsection (a) at the end of any phase shall face an immediate freeze of its federal discount window access and a mandatory two hundred percent (200%) civil penalty surcharge on all transaction fees processed during the period of non-compliance, paid directly to the SIRF.
 
@@ -1352,6 +1644,21 @@ SEC. 1603. INFLATION SOVEREIGNTY AND COST-OF-LIVING PROTECTION.
 
 (c) PRICE TRANSPARENCY MANDATE.—All retail price increases exceeding ten percent (10%) on staple consumer goods within any ninety (90) day period shall require a publicly filed cost justification statement submitted to the FMIA within thirty (30) days of the price increase, detailing input cost changes, supply chain disruption factors, and gross margin data.
 
+SEC. 1606. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
+
+(a) JARKESY COMPLIANCE — GOVERNING RULE.—Notwithstanding any other provision of this Act, no civil monetary penalty, punitive surcharge, strict-liability clawback, revenue seizure, or asset forfeiture shall be finally assessed against any person or Covered Entity except by a United States District Court, an Article III tribunal, in a proceeding in which the defendant's Seventh Amendment right to trial by jury is preserved. This rule conforms the enforcement architecture of this Act to Securities and Exchange Commission v. Jarkesy, 603 U.S. ___ (2024), Tull v. United States, 481 U.S. 412 (1987), and Granfinanciera, S.A. v. Nordberg, 492 U.S. 33 (1989).
+
+(b) PERMISSIBLE ADMINISTRATIVE FUNCTIONS.—Administrative adjudicators under this Act retain authority only over: (1) temporary, equitable, status-quo-preserving orders (including the asset-freeze authorization under Section 1601) on a probable-cause showing; (2) determinations of eligibility for, or entitlement to, a public benefit, which remain matters of public right; and (3) internal agency appeals that do not finally assess a penal monetary remedy. Any final penal assessment requires Article III adjudication under subsection (a).
+
+(c) REFERRAL MECHANISM.—Upon a Verified Structural Variance Report that would support a penal remedy, the primary enforcement agency or the citizen relator under Section 401 shall file a civil action in the appropriate United States District Court. The administrative record shall be admissible but shall not be preclusive of the defendant's jury-trial rights on contested issues of fact.
+
+(d) SEVERABILITY HARMONIZATION.—If any provision of this Act is read to authorize final administrative assessment of a penal monetary remedy, that provision shall be construed, to the maximum extent possible, to require Article III adjudication consistent with subsection (a); and if it cannot be so construed, it shall be severed pursuant to Section 205 without affecting the remainder of this Act or any enforcement action lawfully commenced in an Article III court.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XVII — [RESERVED]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XVIII — PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -1378,7 +1685,7 @@ SEC. 1801. STANDING — CONCRETE INJURY SPECIFICATION BY TITLE.
 
 SEC. 1802. DUE PROCESS — MANDATORY PRE-DEPRIVATION NOTICE SCHEDULE.
 
-(a) MINIMUM NOTICE WINDOWS — PATCH R-07.—The following minimum pre-deprivation notice periods are hereby established by statute and may not be reduced by agency rulemaking, pursuant to Mathews v. Eldridge, 424 U.S. 319 (1976):
+(a) MINIMUM NOTICE WINDOWS.—The following minimum pre-deprivation notice periods are hereby established by statute and may not be reduced by agency rulemaking, pursuant to Mathews v. Eldridge, 424 U.S. 319 (1976):
 
 (1) FINANCIAL CLAWBACK ACTIONS.—Minimum notice of forty-five (45) calendar days from written notice of proposed clawback, including a statement of the specific structural variance finding and calculated clawback amount.
 
@@ -1523,9 +1830,9 @@ SEC. 1901. AMERICAN HOUSEHOLD SOVEREIGNTY DIVIDEND — PROJECTED BENEFITS.
 
 (7) PENSION SECURITY.—The actuarial backstop trigger of Title VI is projected to prevent or remediate pension fund deficits affecting not fewer than twelve million American workers in defined-benefit plans currently operating below the ninety percent solvency floor.
 
-(8) UNIVERSAL HEALTH COVERAGE SAVINGS (TITLE XXI).—The Basic Minimum Plan established under Title XXI eliminates all premiums, deductibles, copayments, and cost-sharing for covered health services for every enrolled United States resident. For the approximately twenty-eight million currently uninsured Americans, the BMP eliminates the average annual uninsured out-of-pocket healthcare exposure of not less than two thousand four hundred dollars ($2,400) per household and eliminates the average individual market annual premium of seven thousand eight hundred dollars ($7,800) for households currently purchasing coverage independently without employer assistance. For all households, the elimination of cost-sharing for primary care, mental health, and chronic disease management services is projected to reduce average annual household healthcare out-of-pocket expenditure by not less than one thousand eight hundred dollars ($1,800) per household within five (5) years of universal BMP deployment.
+(8) UNIVERSAL HEALTH COVERAGE SAVINGS (TITLE XXI).—The Basic Minimum Plan established under Title XXI eliminates all premiums, deductibles, copayments, and cost-sharing for covered health services for every enrolled United States resident. For the approximately thirty million currently uninsured Americans, the BMP eliminates the average annual uninsured out-of-pocket healthcare exposure of not less than two thousand four hundred dollars ($2,400) per household and eliminates the average individual market annual premium of seven thousand eight hundred dollars ($7,800) for households currently purchasing coverage independently without employer assistance. For all households, the elimination of cost-sharing for primary care, mental health, and chronic disease management services is projected to reduce average annual household healthcare out-of-pocket expenditure by not less than one thousand eight hundred dollars ($1,800) per household within five (5) years of universal BMP deployment.
 
-(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, Household Structural Relief Node, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The $5,580 floor for a median two-adult household includes the Basic Minimum Plan out-of-pocket elimination ($1,800), energy sovereignty dividend ($380), broadband savings ($240), and three thousand one hundred sixty dollars ($3,160) in direct cost reductions and structural relief available upon Gate 1 certification; households will realize not less than two thousand four hundred twenty dollars ($2,420) annually in direct cost reductions from BMP, energy, and broadband provisions alone. The prior aggregate benefit floor of three thousand seven hundred eighty dollars ($3,780) is hereby superseded by this updated projection incorporating Title XXI healthcare savings.
+(b) AGGREGATE HOUSEHOLD BENEFIT FLOOR.—Based on the projections in subsection (a), the aggregate annual economic benefit to the median American household from full NSRA implementation — including the Basic Minimum Plan, Household Structural Relief Node, pharmaceutical parity, housing cost reduction, energy savings, broadband savings, and student debt relief — is projected to reach not less than five thousand five hundred eighty dollars ($5,580) per year in direct cost reductions and income supplements for a median two-adult household, rising to not less than nine thousand dollars ($9,000) per year for a two-adult household with two children, with additional indirect benefits from domestic job creation, infrastructure improvement, and environmental remediation. The $5,580 floor for a median two-adult household includes the Basic Minimum Plan out-of-pocket elimination ($1,800), energy sovereignty dividend ($380), broadband savings ($240), and three thousand one hundred sixty dollars ($3,160) in direct cost reductions and structural relief available upon Gate 1 certification; households will realize not less than two thousand four hundred twenty dollars ($2,420) annually in direct cost reductions from BMP, energy, and broadband provisions alone.
 
 (c) FISCAL SUSTAINABILITY PROJECTION.—The Congressional Budget Office shall compute and publish, within one hundred eighty (180) days of enactment, a comprehensive ten-year fiscal impact model for this Act, including:
 (1) Projected SIRF revenue from all penalty, clawback, assessment, and premium sources;
@@ -1623,6 +1930,24 @@ SEC. 2005. CONSCIENCE AND RELIGIOUS FREEDOM PROTECTION CLAUSE.
 (a) PROTECTION FROM COMPELLED PARTICIPATION.—Nothing in this Act shall be construed to require any individual, religious organization, faith-based nonprofit, or religiously-affiliated educational institution to participate in, endorse, or facilitate any program, transaction, or service that violates its sincerely held religious beliefs or constitutionally protected conscience rights, except where participation is strictly limited to the administrative receipt of funds disbursed pursuant to this Act for purposes consistent with the organization's mission.
 
 (b) RFRA PRESERVATION.—All provisions of this Act shall be applied in a manner consistent with the Religious Freedom Restoration Act (42 U.S.C. § 2000bb et seq.). No FMIA enforcement action shall be brought against any entity whose non-compliance with an NSRA provision is required by a sincerely held religious belief or practice, without a prior determination by the Department of Justice that the enforcement action uses the least restrictive means to advance a compelling governmental interest.
+
+SEC. 2006. MANDATORY PILOT CERTIFICATION GATE — NO NATIONAL DEPLOYMENT WITHOUT EVIDENCE.
+
+(a) PILOT REQUIREMENT.—No program established under Titles V, VII, VIII, IX, X, XI, XII, XIII, XIV, or XV of this Act that requires national deployment affecting more than ten million (10,000,000) Americans or more than five billion dollars ($5,000,000,000) in annual SIRF disbursements shall proceed to national deployment until it has successfully completed a Pilot Certification Gate as established in this section.
+
+(b) PILOT PROGRAM STANDARDS.—A qualifying pilot program shall:
+
+(1) Operate in not fewer than three (3) geographically and economically diverse states or Metropolitan Statistical Areas for not less than twelve (12) continuous months;
+
+(2) Be evaluated by the Government Accountability Office against the performance benchmarks established in Schedule D for the applicable Title;
+
+(3) Achieve not less than seventy-five percent (75%) of the applicable Schedule D twelve-month benchmark during the pilot period; and
+
+(4) Produce no material constitutional violation findings from the relevant federal courts during the pilot period.
+
+(c) FAILED PILOT REMEDIATION.—If a pilot program fails to achieve the threshold in subsection (b)(3), the program shall be redesigned and re-piloted for an additional twelve (12) months before national deployment. Congress shall receive a remediation plan within sixty (60) days of pilot failure certification.
+
+(d) EXPEDITED PILOTS FOR EMERGENCY PROGRAMS.—The insulin price cap (Sec. 1303), zero-interest student loan conversion (Sec. 1501), and pharmaceutical G7 parity monitoring (Sec. 1301) are exempt from the Pilot Certification Gate as these operate through existing regulatory and payment infrastructure and do not require new program construction.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE A — THE FEDERAL DATA VERACITY MATRIX ALGORITHMIC SPECIFICATION
@@ -1730,81 +2055,16 @@ SCHEDULE D — PERFORMANCE BENCHMARKS FOR BIENNIAL SOVEREIGN RESILIENCE IMPACT R
    (b) Not fewer than 500,000 income-based forgiveness discharges within 3 years;
    (c) Public university in-state tuition frozen for not less than 90% of eligible institutions within 1 year.
 
-9. OVERALL HOUSEHOLD BENEFIT BENCHMARK.—The aggregate average annual household economic benefit from combined NSRA programs shall reach not less than $2,000 per eligible household within 5 years, rising to not less than $5,580 per year for a median two-adult household (and not less than $9,000 for a two-adult household with two children) within 10 years of full deployment, as measured by the FMIA's annual household impact survey in coordination with the Census Bureau. The prior floor of $3,780 is superseded by the updated projection in Section 1901(b) incorporating Title XXI healthcare savings.
+9. OVERALL HOUSEHOLD BENEFIT BENCHMARK.—The aggregate average annual household economic benefit from combined NSRA programs shall reach not less than $2,000 per eligible household within 5 years, rising to not less than $5,580 per year for a median two-adult household (and not less than $9,000 for a two-adult household with two children) within 10 years of full deployment, as measured by the FMIA's annual household impact survey in coordination with the Census Bureau.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EFFECTIVE DATE; IMPLEMENTATION PRIORITY SEQUENCE; PILOT CERTIFICATION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 9001. EFFECTIVE DATE.
-
-(a) GENERAL EFFECTIVE DATE.—Except as otherwise provided in this Act, this Act shall take effect on the date of enactment.
-
-(b) IMPLEMENTATION PRIORITY SEQUENCE.—The following provisions shall be implemented in the stated priority sequence, to ensure fiscal soundness, operational readiness, and maximum household benefit delivery:
-
-TIER 1 — IMMEDIATE (MONTHS 1-6):
-(1) FMIA establishment as Bureau of Sovereign Data Integrity within DOC (Sec. 101);
-(2) SIRF Lockbox establishment and diversified revenue stream activation (Sec. 201);
-(3) Health Sovereignty Fund establishment; existing Medicaid, CHIP, and ACA enrollees flagged for BMP transition (Sec. 2103(d), Sec. 2108(a));
-(4) Zero-interest conversion on federal student loans (Sec. 1501);
-(5) Insulin and Essential Medicine price caps (Sec. 1303);
-(6) G7 pharmaceutical pricing parity monitoring activation (Sec. 1301);
-(7) Institutional housing portfolio FDVM monitoring activation (Sec. 1401);
-(8) BMP Essential Medicines Formulary publication by HHS (Sec. 2102(b)(3));
-(9) HHS BMP carrier quality scoring methodology published; carrier comparison dashboard launched (Sec. 2106(a)).
-
-TIER 2 — SHORT-TERM (MONTHS 7-24):
-(1) BMP Open Enrollment Period #1 — all current Medicaid, CHIP, and ACA enrollees transition to BMP through chosen private carrier (Sec. 2108(a));
-(2) HHS risk-adjusted BMP Premium Rate published and first carrier payments disbursed (Sec. 2103(b));
-(3) Household Structural Relief Node pilot in 25 lowest-velocity MSAs (Sec. 502(f)(1));
-(4) Sovereign Child Prosperity Trust account establishment for all eligible births (Sec. 503);
-(5) Automatic BMP enrollment for all newborns (Sec. 2104(b)(3));
-(6) Vanguard Capitalization Protocol operationalization (Sec. 204);
-(7) Agricultural monopoly concentration monitoring (Sec. 701);
-(8) NRC SMR expedited licensing track (Sec. 902(d));
-(9) FDVM quantum security Phase I (Sec. 1602(a)(1));
-(10) Rural Health Sovereignty Fund deployment to communities failing BMP network adequacy (Sec. 2107(b)).
-
-TIER 3 — MEDIUM-TERM (MONTHS 25-48):
-(1) BMP Open Enrollment Period #2 — universal enrollment extended to all previously uninsured United States residents (Sec. 2108(c)(1));
-(2) Household Structural Relief Node full deployment upon CBO revenue sufficiency certification (Sec. 3401);
-(3) HSF revenue sufficiency certification by CBO; BMP universal deployment if certified (Sec. 2103(e));
-(4) Domestic content floor phase-in escalation (Sec. 402(b));
-(5) SMR compliance safe harbor windows (Sec. 902(a));
-(6) Broadband sovereignty fund deployment (Sec. 802(b));
-(7) Manufacturing Renaissance Zone designation (Sec. 1202(a));
-(8) FDVM quantum security Phases II and III (Sec. 1602(a)(2)-(3));
-(9) BMP carrier quality performance adjustment band first applied to premium rates (Sec. 2103(b)(5)).
-
-TIER 4 — LONG-TERM (MONTHS 49 AND BEYOND):
-(1) Full domestic pharmaceutical API production targets (Sec. 1302);
-(2) National Rail Sovereignty corridor construction (Sec. 803);
-(3) Full SMR penalty matrix activation for non-compliant data centers (Sec. 903(a)(3));
-(4) Complete SIRF node deployment to all authorized allocations (Sec. 201(e));
-(5) BMP risk corridor protection sunset review — GAO assessment of whether 5-year risk corridors should be extended or terminated based on carrier market stability data (Sec. 2103(c)).
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 9002. MANDATORY PILOT CERTIFICATION GATE — NO NATIONAL DEPLOYMENT WITHOUT EVIDENCE.
-
-(a) PILOT REQUIREMENT.—No program established under Titles V, VII, VIII, IX, X, XI, XII, XIII, XIV, or XV of this Act that requires national deployment affecting more than ten million (10,000,000) Americans or more than five billion dollars ($5,000,000,000) in annual SIRF disbursements shall proceed to national deployment until it has successfully completed a Pilot Certification Gate as established in this section.
-
-(b) PILOT PROGRAM STANDARDS.—A qualifying pilot program shall:
-
-(1) Operate in not fewer than three (3) geographically and economically diverse states or Metropolitan Statistical Areas for not less than twelve (12) continuous months;
-
-(2) Be evaluated by the Government Accountability Office against the performance benchmarks established in Schedule D for the applicable Title;
-
-(3) Achieve not less than seventy-five percent (75%) of the applicable Schedule D twelve-month benchmark during the pilot period; and
-
-(4) Produce no material constitutional violation findings from the relevant federal courts during the pilot period.
-
-(c) FAILED PILOT REMEDIATION.—If a pilot program fails to achieve the threshold in subsection (b)(3), the program shall be redesigned and re-piloted for an additional twelve (12) months before national deployment. Congress shall receive a remediation plan within sixty (60) days of pilot failure certification.
-
-(d) EXPEDITED PILOTS FOR EMERGENCY PROGRAMS.—The insulin price cap (Sec. 1303), zero-interest student loan conversion (Sec. 1501), and pharmaceutical G7 parity monitoring (Sec. 1301) are exempt from the Pilot Certification Gate as these operate through existing regulatory and payment infrastructure and do not require new program construction.
-
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXI — THE SOVEREIGN HEALTH FOUNDATION ACT: UNIVERSAL BASIC MINIMUM COVERAGE THROUGH COMPETITIVE PRIVATE DELIVERY
+TITLE XXI — UNIVERSAL BASIC MINIMUM COVERAGE THROUGH COMPETITIVE PRIVATE DELIVERY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 2101. CONGRESSIONAL FINDINGS AND DECLARATION OF HEALTH SOVEREIGNTY.
@@ -1925,7 +2185,7 @@ SEC. 2107. INSURANCE MARKET CONCENTRATION AND ACCESS STANDARDS.
 
 (a) CONCENTRATION CAP.—No single BMP carrier shall control more than twenty-five percent (25%) of BMP enrollment in any MSA or state. The FDVM shall monitor carrier market share quarterly. Excess concentration triggers referral to DOJ Antitrust Division for enrollment divestment within one hundred eighty (180) days.
 
-(b) RURAL HEALTH SOVEREIGNTY FUND.—The SIRF Household Endowment Node shall deploy not less than five hundred million dollars ($500,000,000) annually to capitalize rural health clinics, community health centers, and mobile health units in communities failing to meet minimum network adequacy standards.
+(b) RURAL HEALTH SOVEREIGNTY FUND.—The SIRF Household Structural Relief Node shall deploy not less than five hundred million dollars ($500,000,000) annually to capitalize rural health clinics, community health centers, and mobile health units in communities failing to meet minimum network adequacy standards.
 
 (c) TELEHEALTH FLOOR.—All BMP carriers shall cover telehealth delivery of primary care, mental health, and chronic disease management at the same rate as in-person visits, with no additional prior authorization or geographic restriction.
 
@@ -2010,7 +2270,7 @@ SEC. 2111. CARRIER COMPETITION INTEGRITY FRAMEWORK.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXII — SOVEREIGN CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY ACT
+TITLE XXII — SOVEREIGN CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 2201. FINDINGS AND DECLARATION OF CRITICAL SYSTEMS SOVEREIGNTY.
@@ -2088,7 +2348,7 @@ SEC. 2206. VITAL SYSTEMS TRANSITION RESERVE.
 (d) SCHEDULE D BENCHMARKS — TITLE XXII.—The FMIA shall report biennially on: (1) number of Critical Life-Safety Systems divested from private equity ownership; (2) number of rural hospitals stabilized through VSTR; (3) no patient access disruption attributable to ownership transition.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXIII — SOVEREIGN TRADE AND ALLIED DIPLOMATIC ARCHITECTURE ACT
+TITLE XXIII — SOVEREIGN TRADE AND ALLIED DIPLOMATIC ARCHITECTURE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 2301. FINDINGS AND DECLARATION OF TRADE SOVEREIGNTY.
@@ -2184,7 +2444,7 @@ SEC. 2305. ALLIED PHARMACEUTICAL PRICING COMPACT.
 (e) SCHEDULE D BENCHMARKS — TITLE XXIII.—The FMIA shall report biennially on: (1) number of allied nations participating in the Allied Pharmaceutical Pricing Compact; (2) number of manufacturing jobs in import-affected industries supported by WEA revenue retraining programs; (3) verified annual SDEC efficiency savings.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXIV — SOVEREIGN TAX CODE REFORM AND FISCAL INTEGRITY ACT
+TITLE XXIV — SOVEREIGN TAX CODE REFORM AND FISCAL INTEGRITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 2401. FINDINGS AND DECLARATION OF FISCAL SOVEREIGNTY.
@@ -2247,7 +2507,7 @@ SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
 
 (d) COLLECTION MECHANISM.—The FTA shall be collected at the point of settlement through the Depository Trust and Clearing Corporation (DTCC) settlement infrastructure on behalf of the Internal Revenue Service, utilizing existing DTCC data systems with no new collection infrastructure required.
 
-(e) REVENUE ALLOCATION.—All FTA revenue shall be deposited into the SIRF and allocated equally between the Household Endowment Node and the Industrial Infrastructure Node.
+(e) REVENUE ALLOCATION.—All FTA revenue shall be deposited into the SIRF and allocated equally between the Household Structural Relief Node and the Industrial Infrastructure Node.
 
 (f) PROJECTED REVENUE.—Annual FTA revenue is projected at not less than seven billion dollars ($7,000,000,000) based on current institutional trading volume data, requiring no behavioral change from institutional investors to achieve this yield.
 
@@ -2277,7 +2537,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FMIA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
-SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY ACT.
+SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
 
 (a) FINDING.—Congress finds that the Social Security payroll tax applies to one hundred percent (100%) of wage income for ninety-four percent (94%) of American workers, while six percent (6%) of earners — those earning above the annually-indexed taxable wage base — effectively pay a declining percentage of total income in Social Security contributions as their income rises. This structural regressive feature violates the principle that the national retirement security compact should be funded equitably across all income levels.
 
@@ -2293,7 +2553,7 @@ SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY ACT.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2409. CORPORATE INCOME TAX RESTORATION ACT.
+SEC. 2409. CORPORATE INCOME TAX RESTORATION.
 
 (a) FINDING.—Congress finds that the Tax Cuts and Jobs Act of 2017 reduced the corporate income tax rate from 35% to 21%, producing a corporate tax revenue decline of approximately ninety billion dollars ($90,000,000,000) per year against pre-TCJA projections, without producing the investment surge or wage growth projected by its proponents. A twenty-eight percent (28%) corporate rate — matching the rate proposed by the bipartisan Simpson-Bowles fiscal commission and consistent with OECD Pillar Two minimum tax implementation — is fiscally responsible and internationally competitive.
 
@@ -2307,7 +2567,7 @@ SEC. 2409. CORPORATE INCOME TAX RESTORATION ACT.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND ACT.
+SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND.
 
 (a) FINDING.—Congress finds that a revenue-neutral carbon fee-and-dividend is the most economically efficient mechanism for reducing carbon emissions, generating durable federal revenue, protecting American household purchasing power, and maintaining the international competitiveness of American industry. A Border Carbon Adjustment ensures that domestic producers are not disadvantaged relative to foreign competitors operating without equivalent carbon costs.
 
@@ -2339,7 +2599,7 @@ SEC. 2410. AMERICAN CARBON DIVIDEND AND CLEAN FUTURE FUND ACT.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION ACT.
+SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
 
 (a) FINDING.—Congress finds that the United States has not fully implemented the OECD/G20 Inclusive Framework's Pillar Two global minimum corporate tax of fifteen percent (15%), agreed to by 140 nations. By failing to fully implement Pillar Two, the United States forfeits not less than fifty billion dollars ($50,000,000,000) annually in revenue from multinational corporations that shift profits to low-tax jurisdictions, while simultaneously creating a competitive disadvantage for domestic companies that cannot access offshore tax arbitrage.
 
@@ -2357,7 +2617,7 @@ SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION ACT.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY ACT.
+SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY.
 
 (a) FINDING.—Congress finds that the current step-up in basis at death — under which heirs inherit assets at current fair market value, permanently eliminating capital gains tax on a decedent's lifetime appreciation — constitutes the single largest structural preference for inherited wealth in the Internal Revenue Code, costing the Treasury not less than fifty billion dollars ($50,000,000,000) annually while providing no incentive for productive economic activity and creating a systematic advantage for dynastic wealth over earned income.
 
@@ -2374,7 +2634,7 @@ SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY ACT.
 
 (d) LIQUIDITY PROTECTION — INSTALLMENT ELECTION.—Heirs subject to carryover basis who inherit illiquid assets — including real property, closely held business interests, and agricultural land — may elect a ten (10) year installment payment schedule for any capital gains tax ultimately due upon disposition, with interest at the applicable federal rate under Section 1274 of the IRC.
 
-(e) REVENUE ALLOCATION.—Revenue from carryover basis recognition shall be allocated: fifty percent (50%) to the SIRF Household Endowment Node for Household Structural Relief and BMP capitalization; fifty percent (50%) to the national debt reduction account.
+(e) REVENUE ALLOCATION.—Revenue from carryover basis recognition shall be allocated: fifty percent (50%) to the SIRF Household Structural Relief Node for Household Structural Relief and BMP capitalization; fifty percent (50%) to the national debt reduction account.
 
 (f) PROJECTED REVENUE.—Carryover basis implementation for estates above five million dollars ($5,000,000) — with the family farm, small business, and residence exclusions — is projected by the Congressional Budget Office at not less than fifty billion dollars ($50,000,000,000) annually.
 
@@ -2399,13 +2659,13 @@ SEC. 2413. FINANCIAL TRANSACTION TAX — WALL STREET SOVEREIGNTY CONTRIBUTION.
 
 (d) COLLECTION.—The FTT shall be collected by brokers, dealers, and exchanges at the point of transaction and remitted to the Internal Revenue Service monthly through existing reporting infrastructure.
 
-(e) REVENUE ALLOCATION.—All FTT revenue shall be allocated: fifty percent (50%) to the national debt reduction account; twenty-five percent (25%) to the SIRF Household Endowment Node; twenty-five percent (25%) to the SIRF Industrial Infrastructure Node.
+(e) REVENUE ALLOCATION.—All FTT revenue shall be allocated: fifty percent (50%) to the national debt reduction account; twenty-five percent (25%) to the SIRF Household Structural Relief Node; twenty-five percent (25%) to the SIRF Industrial Infrastructure Node.
 
 (f) PROJECTED REVENUE.—The FTT is projected at not less than seventy-five billion dollars ($75,000,000,000) per year based on current US equity, bond, and derivative market volumes.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2414. SOVEREIGN FEDERAL LAND ROYALTY REFORM ACT.
+SEC. 2414. SOVEREIGN FEDERAL LAND ROYALTY REFORM.
 
 (a) FINDING.—Congress finds that federal mineral royalty rates — set at twelve and one-half percent (12.5%) for onshore oil and gas under statutes dating to 1920 — have not been updated to reflect fair market value, costing the Treasury an estimated ten to twenty billion dollars ($10,000,000,000–$20,000,000,000) annually compared to royalty rates prevailing in private land transactions and comparable jurisdictions. American taxpayers who own these federal lands are entitled to fair compensation for their depletion.
 
@@ -2435,7 +2695,7 @@ SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT.
 
 (c) LEGAL STRUCTURE.—The FEPSA is structured as an excise tax on excess financial sector returns, consistent with the authority of Congress to impose excise taxes on specific industries under Article I, Section 8, and precedented by the Crude Oil Windfall Profit Tax Act of 1980 (Public Law 96-223) and Section 4960 of the IRC (excise tax on excess executive compensation). The FEPSA does not constitute a penalty within the meaning of Title XVIII of this Act and requires no ALJ warrant for collection.
 
-(d) REVENUE ALLOCATION.—All FEPSA revenue shall be deposited into the SIRF Household Endowment Node, dedicated to direct household economic relief through the Household Structural Relief Node and Basic Minimum Plan, closing the loop between excess financial sector extraction and the household economic harm it produces.
+(d) REVENUE ALLOCATION.—All FEPSA revenue shall be deposited into the SIRF Household Structural Relief Node, dedicated to direct household economic relief through the Household Structural Relief Node and Basic Minimum Plan, closing the loop between excess financial sector extraction and the household economic harm it produces.
 
 (e) PROJECTED REVENUE.—Based on current financial sector reported ROE data, the FEPSA is projected at not less than twenty billion dollars ($20,000,000,000) annually, with revenue declining naturally over time as competitive pressures and NSRA structural reforms reduce market concentration — which is the intended outcome.
 
@@ -2493,7 +2753,7 @@ SEC. 2419. TRADE ENFORCEMENT REVENUE ROUTING -- FISCAL CONSOLIDATION.
 
 (e) COMMITTEE JURISDICTION DECLARATION.--The revenue routing provisions of this section are within the jurisdiction of the Senate Committee on Finance and the House Committee on Ways and Means. The operational trade enforcement provisions of Titles XXIII and XXX remain within the jurisdiction of the Senate Committee on Finance (tariff authority), the Senate Committee on Foreign Relations (diplomatic architecture), and the Senate Committee on Commerce, Science, and Transportation (supply chain operations). This section resolves any jurisdictional ambiguity by consolidating fiscal routing under Title XXIV.
 
-TITLE XXV — VETERANS HEALTH SOVEREIGNTY AND PACT ACT COMPLETION ACT
+TITLE XXV — VETERANS HEALTH SOVEREIGNTY AND PACT ACT COMPLETION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 2501. FINDINGS AND DECLARATION OF VETERANS HEALTH SOVEREIGNTY.
@@ -2678,7 +2938,6 @@ SEC. 2603. CAREGIVER SOCIAL SECURITY EARNINGS CREDIT.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-END OF TITLE XXVI — NATIONAL SOCIAL SECURITY SOVEREIGNTY COMMISSION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
@@ -2752,7 +3011,7 @@ SEC. F-001. COMPULSORY LICENSING FRAMEWORK.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE XXVII — PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION ACT
+TITLE XXVII — PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2908,13 +3167,11 @@ The FMIA and PFPM shall report jointly to Congress biennially on: (1) number of 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Passed by the Senate and House of Representatives of the United States of America in Congress assembled.
 
-END OF THE NATIONAL SOVEREIGNTY AND RESILIENCE ACT OF 2028
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE XXVIII — WORKER ORGANIZING RIGHTS AND ANTI-UNION-BUSTING ENFORCEMENT ACT
+TITLE XXVIII — WORKER ORGANIZING RIGHTS AND ANTI-UNION-BUSTING ENFORCEMENT
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2956,11 +3213,11 @@ SEC. 2803. AUTOMATIC CARD-CHECK RECOGNITION.
 
 SEC. 2804. BUDGET NEUTRALITY CERTIFICATION.
 
-This Title generates net positive revenue through civil penalty collections estimated at not less than $2,000,000,000 annually based on documented NLRB unfair labor practice caseload, reduced enforcement litigation costs through streamlined mandatory injunctive relief, and reduced public assistance expenditures attributable to higher unionized-worker compensation. All penalty revenue is routed to the SIRF Household Endowment Node.
+This Title generates net positive revenue through civil penalty collections estimated at not less than $2,000,000,000 annually based on documented NLRB unfair labor practice caseload, reduced enforcement litigation costs through streamlined mandatory injunctive relief, and reduced public assistance expenditures attributable to higher unionized-worker compensation. All penalty revenue is routed to the SIRF Household Structural Relief Node.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE XXIX — CONGRESSIONAL FINANCIAL INTEGRITY AND STOCK TRADING PROHIBITION ACT
+TITLE XXIX — CONGRESSIONAL FINANCIAL INTEGRITY AND STOCK TRADING PROHIBITION
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3030,7 +3287,7 @@ This Title is budget-neutral. Disgorgement and penalty collections shall be depo
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE XXX — NAFTA/USMCA SOVEREIGNTY GAP CLOSURE AND TRADE ENFORCEMENT ACT
+TITLE XXX — NAFTA/USMCA SOVEREIGNTY GAP CLOSURE AND TRADE ENFORCEMENT
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3122,7 +3379,7 @@ SEC. 3006. PHARMACEUTICAL SOVEREIGNTY ASSERTION.
 
 (b) COMPULSORY LICENSING PRESERVATION.—Nothing in USMCA shall be construed to limit the authority of the United States government to issue compulsory licenses for pharmaceutical products under 28 U.S.C. § 1498 or under the procedures established in Schedule F of this Act. The USTR shall notify Canada and Mexico of this sovereign assertion within 30 days of enactment and shall propose a USMCA amendment to bring Article 20.F.13 into conformity with the G7 pricing benchmark standard.
 
-(c) RENEGOTIATION MANDATE.—The USTR shall include modification of USMCA pharmaceutical data exclusivity provisions as a mandatory United States objective in the USMCA Joint Review process scheduled for 2026, with the goal of reducing biologic data protection to the 8-year international standard endorsed by the World Health Organization.
+(c) RENEGOTIATION MANDATE.—The USTR shall include modification of USMCA pharmaceutical data exclusivity provisions as a mandatory United States objective in the annual USMCA joint review process under Article 34.7 of the Agreement, which began on July 1, 2026,, with the goal of reducing biologic data protection to the 8-year international standard endorsed by the World Health Organization.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3178,7 +3435,7 @@ The FMIA and USTR shall report jointly to Congress biennially on: (1) status of 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-TITLE XXXI — AMERICAN MUTUAL BENEFIT GLOBAL HEALTH SOVEREIGNTY ACT
+TITLE XXXI — AMERICAN MUTUAL BENEFIT GLOBAL HEALTH SOVEREIGNTY
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3277,12 +3534,11 @@ This Title is funded from the SIRF Biosecurity Node and is net-positive on a 10-
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Passed by the Senate and House of Representatives of the United States of America in Congress assembled.
 
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
+TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3201. FINDINGS AND PURPOSE.
@@ -3439,12 +3695,11 @@ SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
 The FMIA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) DDSI development milestone completion rate; (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF TITLE XXXII — DOLLAR SOVEREIGNTY AND RESERVE CURRENCY DEFENSE ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY ACT
+TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3301. FINDINGS — TITLE XXXIII.
@@ -3503,7 +3758,7 @@ SEC. 3303. GOVERNANCE.
 
 (b) CHIEF EXECUTIVE OFFICER.—The Board shall appoint a Chief Executive Officer of the SCA, who shall serve at the pleasure of the Board and shall be the chief operating officer of the corporation. The CEO shall be compensated at a rate not to exceed Executive Schedule Level II, adjusted for private-sector comparability by the Board consistent with Government Corporation Control Act authorities.
 
-(c) REMOVAL COMPLIANCE.—Independent directors shall be removable by the President for cause, consistent with Humphrey's Executor v. United States, 295 U.S. 602 (1935), as limited by Seila Law LLC v. CFPB, 591 U.S. 197 (2020). No statutory removal protection shall limit the President's authority over the Chairperson or the ex officio members serving in their principal agency capacity.
+(c) REMOVAL COMPLIANCE.—Independent directors shall be removable by the President at will, consistent with Trump v. Slaughter, No. 25-332 (U.S. June 29, 2026), and Seila Law LLC v. CFPB, 591 U.S. 197 (2020). No statutory removal protection shall limit the President's authority over the Chairperson or the ex officio members serving in their principal agency capacity.
 
 (d) QUORUM AND VOTING.—Five members constitute a quorum. Decisions require a majority of members present. The Chairperson shall cast the deciding vote in the event of a tie.
 
@@ -3601,12 +3856,11 @@ The SCA and FMIA shall jointly report annually on:
 (6) semiconductor co-investment leverage ratio: private capital mobilized per SCA dollar deployed.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF TITLE XXXIII — SOVEREIGN COMPUTE AUTHORITY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY ACT
+TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3401. RETIREMENT OF THE AMERICAN PROSPERITY DIVIDEND.
@@ -3758,9 +4012,8 @@ SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
 (e) CO-INVESTMENT REQUIREMENT.—SMIN deployments exceeding one hundred million dollars ($100,000,000) shall require matching private or state co-investment at a minimum ratio of one private dollar for every two SMIN dollars, consistent with the co-investment framework of Section 006.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF TITLE XXXIV — STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOVEREIGNTY ACT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY ACT
+TITLE XXXV — SOVEREIGN INTEGRITY AND EXECUTIVE ACCOUNTABILITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3501. FINDINGS AND PURPOSE.
@@ -3799,7 +4052,7 @@ SEC. 3504. SOVEREIGN ACCOUNTABILITY -- SCHEDULE D BENCHMARKS.
 The FMIA shall report biennially to Congress on: (1) number of Covered Officials achieving full divestiture compliance within the required window; (2) number and disposition of identified undisclosed financial interests referred to the Department of Justice Public Integrity Section; (3) number of Emoluments Clause private-right-of-action suits filed and their outcomes; (4) number of Foreign Government-Linked Enterprise interests divested under Section 3503(b); and (5) post-service cooling-off period compliance rates among departing Covered Officials.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XXXVI — FOREIGN INFLUENCE TRANSPARENCY AND ADVERSARY CAPITAL DEFENSE ACT
+TITLE XXXVI — FOREIGN INFLUENCE TRANSPARENCY AND ADVERSARY CAPITAL DEFENSE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 3601. FINDINGS AND PURPOSE.
@@ -3926,7 +4179,7 @@ STREAM 5 — FINANCIAL TRANSACTION ASSESSMENT (FTA)
   Annual Estimate: $7 billion
   Rate/Base: 0.02% on institutional securities trades >$1M by entities with AUM >$500M; retail investors, retirement accounts, and Treasury securities expressly exempt
   Methodology: SEC market structure data (2023) documents US institutional equity market volume at approximately $60–70 trillion annually. The FTA's 0.02% rate applied to an estimated $35 trillion in qualifying institutional volume (roughly 50% of institutional trading above the thresholds) yields $7B. This is deliberately calibrated below the FTT (Stream 8 below) to avoid double-counting. The $7B estimate requires no behavioral change from institutional investors — the rate is below the bid-ask spread cost for most institutional transactions and is therefore non-distortionary at projected volumes.
-  Note: Revenue allocated equally between SIRF Household Endowment Node and Industrial Infrastructure Node.
+  Note: Revenue allocated equally between SIRF Household Structural Relief Node and Industrial Infrastructure Node.
 
 STREAM 6 — LBO INTEREST DEDUCTIBILITY CAP
   Statutory Basis: Section 2403
@@ -3947,21 +4200,21 @@ STREAM 8 — FINANCIAL TRANSACTION TAX (FTT) — WALL STREET SOVEREIGNTY CONTRIB
   Annual Estimate: $75 billion
   Rate/Base: 0.1% on equities; 0.1% on bond transactions above $10,000; 0.01% on derivatives notional value; retail investors and retirement accounts fully exempt
   Methodology: The Tax Policy Center ("Financial Transaction Taxes in Theory and Practice," 2016) scored a 0.1% equity FTT at $50–75B/yr on current market volumes. The UK stamp duty (0.5%) has generated £3–4B annually on a market 1/8 the size of the US. Scaling: US equity market capitalization (~$45T) vs UK (~$3.5T) = ~13x; UK collects ~$5B equivalent at 0.5% = $65B equivalent at 0.1% after scaling. Adding bond and derivatives components brings the total to $75B. The IMF ("Financial Sector Taxation," 2010) reviewed FTT literature and found revenue estimates of $35–100B/yr for US-calibrated rates consistent with the NSRA's 0.1% equity rate. The NSRA uses the midpoint of credible estimates as the statutory floor.
-  Note: 50% to national debt reduction; 25% to SIRF Household Endowment Node; 25% to SIRF Industrial Infrastructure Node.
+  Note: 50% to national debt reduction; 25% to SIRF Household Structural Relief Node; 25% to SIRF Industrial Infrastructure Node.
 
 STREAM 9 — CARBON FEE AND BORDER CARBON ADJUSTMENT
   Statutory Basis: Section 2410
   Annual Estimate: $120 billion gross / $40 billion net SIRF contribution
   Rate/Base: $40/metric ton CO2-equivalent at point of first sale; $10/ton annual escalation; Border Carbon Adjustment on imports from non-pricing nations
   Methodology: The Energy Information Administration (EIA, "Carbon Dioxide Emissions Coefficients," 2023) estimates US annual fossil fuel combustion at approximately 4.5–5 billion metric tons CO2-equivalent. At $40/ton: 5B × $40 = $200B gross upper bound; applying the transitional domestic industry rebate (75% in Year 1) to the energy-intensive trade-exposed sector (estimated 20% of total combustion): 80% × $200B = $160B; net of administration costs (1%) and domestic industry rebates: ~$120B net SIRF Energy Sovereignty Subledger deposit in Year 1 per NSRA Section 2410(g). The Citizens' Climate Lobby and Columbia SIPA Carbon Pricing Leadership report (2022) model a $40 starting fee at $100–140B/yr gross, consistent with this projection. Border Carbon Adjustment (BCA) proceeds are deposited as a senior, separate stream into the SIRF Energy Sovereignty Subledger per Section 2410(e) and 2410(g). All Carbon Dividend Fee net revenue now routes directly to the SIRF Energy Sovereignty Subledger per Section 2410(c) for deployment through four priority buckets: (1) Grid Modernization Capital Grants (40%), (2) Rural Electric Cooperative Capitalization (25%), (3) Municipal Public Power Authority Grants (20%), (4) Household Energy Affordability Credits (15%). Veterans Energy Sovereignty Benefits (VESB) per Section 987(d) are a first-priority subledger obligation senior to the four buckets.
-  Note: 100% of Carbon Dividend Fee net revenue routes to the SIRF Energy Sovereignty Subledger. The per-household cash dividend mechanism previously described in this stream has been superseded by Section 2410(c) as amended. SIRF Energy Sovereignty Subledger deployments are infrastructure investments and energy affordability programs, not cash transfers.
+  Note: 100% of Carbon Dividend Fee net revenue routes to the SIRF Energy Sovereignty Subledger. SIRF Energy Sovereignty Subledger deployments are infrastructure investments and energy affordability programs, not cash transfers.
 
 STREAM 10 — FINANCIAL SECTOR EXCESS PROFITS SOVEREIGNTY ASSESSMENT (FEPSA)
   Statutory Basis: Section 2415
   Annual Estimate: $20 billion
   Rate/Base: Tiered excess profits levy on financial institutions with ROE above 12%: 15% on ROE 12–15%; 25% on ROE 15–20%; 50% on ROE above 20%
   Methodology: FDIC Call Report data (2023) shows aggregate US commercial banking ROE at 11.6%, with the top 20 institutions averaging 14–18% ROE. Investment banking and asset management ROE exceeds 20% at the largest institutions (Goldman Sachs 2023 ROE: 7.7% — a low year; 2021: 23%; 2022: 12.8%). JP Morgan Chase 2023 ROE: 17%. Applying the FEPSA tiers to the top 50 financial institutions by assets, using 2021–2023 average ROE data and disclosed net income, yields an estimated $18–22B in annual assessment. The NSRA uses $20B as the midpoint floor.
-  Note: All revenue routes to the SIRF Household Endowment Node.
+  Note: All revenue routes to the SIRF Household Structural Relief Node.
 
 STREAM 11 — FEDERAL LAND ROYALTY REFORM (NIMA SUPPLEMENT)
   Statutory Basis: Section 2414
@@ -3975,7 +4228,7 @@ STREAM 12 — STEPPED-UP BASIS REFORM (CARRYOVER BASIS AT DEATH)
   Annual Estimate: $50 billion
   Rate/Base: Carryover basis for inherited assets above $5M fair market value; family farm, small business, and primary residence excluded; 10-year installment election for illiquid assets
   Methodology: CBO ("Eliminate the Stepped-Up Basis for Capital Gains at Death," 2018) scored full elimination at $644B over 10 years (~$64B/yr). The NSRA's $5M exemption and exclusions for farms, small businesses, and residences reduce the base substantially. Adjusting the CBO baseline by approximately 22% for the exemptions and exclusions yields ~$50B/yr. The Tax Policy Center (2021) scored the Biden Administration's similar proposal (with a $1M per-person exemption, stricter than the NSRA) at $322B over 10 years (~$32B/yr). The NSRA's $5M exemption is more generous; $50B/yr reflects the midpoint between the CBO full-elimination score and the TPC restricted-exemption score, adjusted upward for the NSRA's higher threshold.
-  Note: 50% to SIRF Household Endowment Node; 50% to national debt reduction account.
+  Note: 50% to SIRF Household Structural Relief Node; 50% to national debt reduction account.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4086,5 +4339,5 @@ SUPPLEMENTAL STREAM D — DEFENSE PROCUREMENT SOVEREIGNTY PREMIUM
 (d) The Congressional Budget Office is directed to score each revenue stream in this Schedule independently and to publish its findings, including any divergence from the statutory floor estimates stated herein, so that Congress and the public may evaluate the revenue architecture of this Act against an independent baseline. Where the Congressional Budget Office's independent score of any stream falls below the statutory floor stated in this Schedule, the FMIA shall, within ninety (90) days, transmit to Congress a reconciliation memorandum identifying the source of the divergence and any corrective calibration, without any reduction in the household benefit obligations established elsewhere in this Act.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-END OF NSRA COMPLETE TEXT
+END OF DISCUSSION DRAFT
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
