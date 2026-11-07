@@ -1,7 +1,8 @@
 id,measure,section,full_effect_billion_usd,start_year,years_to_full_effect,methodology_version,last_updated
-FSP-1,"Social Security solvency: slower benefit growth for top earners, stronger minimum benefit",Sec. 3410(b),120,5,30,v2026.3,2026-11-07
-FSP-2,Medicare drug negotiation expansion and post-acute payment reform,Sec. 3410(c),40,2,5,v2026.3,2026-11-07
+FSP-1,"Social Security solvency: slower benefit growth for top earners, stronger minimum benefit",Sec. 3410(b),45,8,40,v2026.3,2026-11-07
+FSP-2,Medicare drug negotiation expansion and post-acute payment reform,Sec. 3410(c),25,2,5,v2026.3,2026-11-07
 FSP-3,Appropriations caps: defense and non-defense grow at inflation minus 1%,Sec. 3410(d),160,1,10,v2026.3,2026-11-07
-FSP-4,Value of deductions and exclusions limited to 28% above $400K,Sec. 3410(e),35,1,1,v2026.3,2026-11-07
+FSP-4,Value of deductions and exclusions limited to 28% above $400K,Sec. 3410(e),22,1,1,v2026.3,2026-11-07
 FSP-5,Carbon fee rises $5/ton a year to $75 (net of household credits),Sec. 3410(f),40,2,7,v2026.3,2026-11-07
-FSP-6,Payment integrity: improper-payment reduction beyond Medicare,Sec. 3410(g),15,2,3,v2026.3,2026-11-07
+FSP-6,Payment integrity: improper-payment reduction beyond Medicare,Sec. 3410(g),8,2,3,v2026.3,2026-11-07
+FSP-7,Crop insurance: premium subsidy and insurer reimbursement reform,Sec. 3410(h),5,2,1,v2026.3,2026-11-07
