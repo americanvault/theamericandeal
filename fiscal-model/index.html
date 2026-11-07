@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>The 7-Subledger Fiscal Model — NSRA | TheAmericanDeal.org</title>
-<meta name="description" content="An interactive fiscal model of the National Sovereignty and Resilience Act. Adjust enforcement realization and toggle revenue streams to see modeled Year-1 revenue and deficit reduction. For reviewers and economists." />
+<meta name="description" content="An interactive fiscal model of the National Sovereignty and Resilience Act. Adjust enforcement realization and toggle revenue streams to see modeled annual revenue and deficit reduction. For reviewers and economists." />
 <meta name="keywords" content="NSRA fiscal model, 7-subledger math engine, deficit reduction calculator, revenue stream model, NSRA scoring" />
 <link rel="canonical" href="https://theamericandeal.org/fiscal-model/" />
 <meta name="robots" content="index, follow" />
@@ -137,7 +137,7 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 <div class="wrap">
 <div class="eyebrow" id="fmEye">The 7-Subledger Math Engine™ · For Reviewers</div>
 <h1 id="fmH1">The 7-Subledger Fiscal Model</h1>
-<p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled Year-1 revenue and deficit reduction update live.</p>
+<p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled annual revenue and deficit reduction update live.</p>
 <p class="sub" id="fmSub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/calculator/">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
 
 <div class="grid">
@@ -150,8 +150,8 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
     </div>
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
-      <input type="number" id="prog" value="196" min="0" step="1" />
-      <div style="font-size:11px;color:var(--muted);margin-top:4px">BMP, student-loan zero-interest, and household relief outlays.</div>
+      <input type="number" id="prog" value="421.1" min="0" step="1" />
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3).</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
     <div class="streams" id="streams"></div>
@@ -164,15 +164,15 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 
   <div class="panel">
     <h2>Modeled Result</h2>
-    <div class="out"><div class="big g" id="oRev">$0B</div><div class="lbl">Modeled Year-1 revenue</div></div>
+    <div class="out"><div class="big g" id="oRev">$0B</div><div class="lbl">Modeled annual revenue (full ramp)</div></div>
     <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction</div></div>
     <div class="rowout"><span>Gross revenue (active streams)</span><span id="rGross">$0B</span></div>
     <div class="rowout"><span>&times; realization rate</span><span id="rReal">100%</span></div>
-    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$196B</span></div>
+    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$421B</span></div>
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate:</b> ~$749B Year-1 revenue · ~$554B deficit reduction · primary balance by Year&nbsp;4 and a balanced budget by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model lands within rounding of those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.2):</b> ~$657B in annual revenue at full ramp · ~$171B in annual deficit reduction · ~$2.5T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -185,23 +185,27 @@ footer{border-top:1px solid var(--border);padding:24px;text-align:center;font-si
 
 <script>
 var STREAMS=[
- {n:"SS payroll cap elimination (Sec. 2408)",v:150},
- {n:"Corporate rate restoration 21%→28% (2409)",v:110},
- {n:"IRS enforcement fund (net)",v:90},
- {n:"Carbon dividend fee (2410)",v:85},
- {n:"OECD Pillar Two implementation (2411)",v:75},
- {n:"Financial transaction tax 0.1% (2413)",v:75},
- {n:"Step-up basis reform >$5M (2412)",v:50},
- {n:"NIMA 0.18% domestic gross >$100M",v:39.6},
- {n:"Federal land + mineral royalty reform (2414/15)",v:30},
- {n:"Financial-sector excess-profits assessment",v:20},
- {n:"FDVM Medicare fraud detection",v:20},
- {n:"LBO interest cap (30% EBITDA)",v:18},
- {n:"Carried interest → ordinary income",v:14},
- {n:"FTA 0.02% institutional trades >$1M",v:7},
- {n:"SNAP retailer fraud recovery",v:1},
- {n:"Student-loan zero-interest (cost)",v:-25,cost:true},
- {n:"SPI wage-floor tax credit (cost)",v:-10,cost:true}
+ {n: "Social Security wage-cap elimination (Sec. 2408)", v: 150},
+ {n: "Corporate rate 21% to 28% (Sec. 2409)", v: 110},
+ {n: "IRS enforcement, net of investment returns (Sec. 2406)", v: 35},
+ {n: "Carbon fee, $40/ton indexed (net budgetary receipts) (Sec. 2410)", v: 85},
+ {n: "Global minimum tax (Pillar Two / UTPR) (Sec. 2411)", v: 50},
+ {n: "Financial transaction tax 0.1% (Sec. 2413)", v: 75},
+ {n: "Carryover basis above $5M (Sec. 2412)", v: 15},
+ {n: "NIMA 0.18% on domestic gross > $100M (Sec. 2404)", v: 30},
+ {n: "Federal royalty modernization (Sec. 2414)", v: 12},
+ {n: "Financial-sector excess-profits assessment (Sec. 2415)", v: 10},
+ {n: "Medicare/Medicaid fraud recovery (FDVM) (Title I)", v: 8},
+ {n: "Acquisition-debt interest cap at 20% of EBITDA (Sec. 2403)", v: 5},
+ {n: "Carried interest as ordinary income (Sec. 2402)", v: 1.4},
+ {n: "FTA 0.02% on institutional trades > $1M (Sec. 2405)", v: 3},
+ {n: "SNAP retailer fraud recovery (Title I)", v: 1},
+ {n: "Top rate 39.6% above $400K single / $450K joint (Sec. 2420(a))", v: 22},
+ {n: "NIIT on active pass-through income above $400K (Sec. 2420(b))", v: 27},
+ {n: "Capital gains as ordinary income above $1M (Sec. 2420(c))", v: 3},
+ {n: "Stock-buyback excise 1% to 4% (Sec. 2420(d))", v: 15},
+ {n: "Student-loan zero-interest conversion (net of interest not collected under IDR) (cost)", v: -55, cost: true},
+ {n: "SPI wage-floor credit (cost)", v: -10, cost: true}
 ];
 function fmt(x){var s=(x<0?"-":"")+"$"+Math.abs(x).toFixed(0)+"B";return s;}
 function render(){
@@ -214,7 +218,7 @@ function render(){
  });
 }
 function setAll(v){STREAMS.forEach(function(s,i){s.on=v;var el=document.getElementById('s'+i);if(el)el.checked=v;});calc();}
-function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=196;render();calc();}
+function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=421.1;render();calc();}
 function calc(){
  var real=+document.getElementById('real').value;
  var prog=+document.getElementById('prog').value||0;
@@ -225,14 +229,14 @@ function calc(){
  var def=rev-prog;
  document.getElementById('oRev').textContent=fmt(rev);
  var od=document.getElementById('oDef');od.textContent=fmt(def);
- od.className='big '+(def>=400?'g':def>=0?'a':'r');
+ od.className='big '+(def>=150?'g':def>=0?'a':'r');
  document.getElementById('rGross').textContent=fmt(gross);
  document.getElementById('rReal').textContent=real+'%';
  document.getElementById('rProg').textContent=fmt(prog);
  document.getElementById('rCount').textContent=count;
- var pct=Math.round(def/554*100);
+ var pct=Math.round(def/171*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $554B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $171B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
