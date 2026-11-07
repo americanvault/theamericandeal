@@ -44,10 +44,10 @@ nsra_source_register.csv
 
 CANONICAL TAXONOMY
 ------------------
-Full-ramp revenue ~$630B/yr (Scenario B floor ~$523B) - costs, outlays and infrastructure ~$446B
-= ~$184B annual deficit reduction. Ten years: ~$2.3T before interest savings, ~$2.7T including
-interest savings (range $1.6T-$3.4T).
-  With the Sec. 3410 Fiscal Sustainability Plan (~$305B/yr at full effect, Y1 dollars): ~$4.3T over ten years
-  before interest savings, ~$5.0T including them (range ~$3.9T-$5.7T). See nsra_fiscal_sustainability_plan.csv.
+Full-ramp revenue ~$635B/yr (Scenario B floor ~$524B) - costs, outlays and infrastructure ~$446B
+= ~$189B annual deficit reduction. Ten years: ~$2.3T before interest savings, ~$2.7T including
+interest savings (range $1.7T-$3.4T).
+  With the Sec. 3410 Fiscal Sustainability Plan (~$305B/yr at full effect, Y1 dollars): ~$4.4T over ten years
+  before interest savings, ~$5.0T including them (range ~$4.0T-$5.7T). See nsra_fiscal_sustainability_plan.csv.
 Statutory deficit limits (Sec. 3406(f)): 4.5% of GDP by
 Year 4, 3% by Year 10, and a required vote on a Balanced Budget Act by Year 8.
