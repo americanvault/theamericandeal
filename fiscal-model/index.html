@@ -21,7 +21,7 @@
 <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="The 7-Subledger Fiscal Model — NSRA" />
-<meta name="twitter:description" content="Interactive fiscal model — adjust realization, toggle streams, see the result." />
+<meta name="twitter:description" content="Interactive fiscal model: adjust realization, toggle streams, see the result." />
 <meta name="twitter:image" content="https://theamericandeal.org/og-image.png" />
 <meta name="twitter:site" content="@NSRA2028" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -141,7 +141,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <div class="eyebrow" id="fmEye">The 7-Subledger Math Engine™ · For Reviewers</div>
 <h1 id="fmH1">The 7-Subledger Fiscal Model</h1>
 <p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled annual revenue and deficit reduction update live.</p>
-<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool — distinct from the household <a href="/#household">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
+<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool, separate from the household <a href="/#household">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
 
 <div class="grid">
   <div class="panel">
@@ -175,13 +175,13 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.2):</b> ~$635B in annual revenue at full ramp · ~$189B in annual deficit reduction · ~$5.0T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.4):</b> ~$635B in annual revenue at full ramp · ~$189B in annual deficit reduction · ~$5.0T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
 
 <div class="note">
-<b>What this is.</b> A transparent, adjustable model — not an official score. Stream values are NSRA Year-1 estimates built on published CBO, JCT, OMB, GAO, Treasury, OECD, and peer-reviewed (PNAS 2024) baselines, documented in <a href="/NSRA_Figure_Sourcing_Verification.pdf">Figure-by-Figure Sourcing</a> and Schedule G. They are internally modeled and sensitivity-tested — <b>not yet officially scored by CBO or JCT</b>, which is pending and welcomed. This tool lets you apply your own realization and scope assumptions; it does not change the underlying published estimates.
+<b>What this is.</b> A transparent, adjustable model, not an official score. Stream values are NSRA Year-1 estimates built on published CBO, JCT, OMB, GAO, Treasury, OECD, and peer-reviewed (PNAS 2024) baselines, documented in <a href="/NSRA_Figure_Sourcing_Verification.pdf">Figure-by-Figure Sourcing</a> and Schedule G. They are internally modeled and sensitivity-tested, <b>not yet officially scored by CBO or JCT</b>, which is pending and welcomed. This tool lets you apply your own realization and scope assumptions; it does not change the underlying published estimates.
 </div>
 </div>
 <footer class="site"><div class="in">
@@ -245,7 +245,7 @@ function calc(){
  document.getElementById('rCount').textContent=count;
  var pct=Math.round(def/211*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $189B deficit-reduction estimate — and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $189B deficit-reduction estimate, and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
