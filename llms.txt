@@ -1,30 +1,30 @@
-# TheAmericanDeal.org: The National Sovereignty and Resilience Act (NSRA)
+# The American Deal: National Sovereignty and Resilience Act (NSRA)
 
-> The NSRA is a citizen-drafted federal DISCUSSION DRAFT. It has NOT been introduced in, considered by, or passed by either chamber of Congress. It is a 40-title, 261-section bill on household costs: $0-deductible baseline health coverage, G7-median drug pricing, a $35 insulin cap, a 50-home-per-metro institutional homebuyer cap, zero-interest federal student loans, a full congressional stock trading ban, self-funded paid family leave, federal R&D restored to 1% of GDP, and permits on a fixed clock. It is open to adoption by any sponsor. Fiscal figures are internal models on the CBO February 2026 baseline, not official CBO/JCT scores. Drafted by Santonio D. Sanders. Not affiliated with any party, PAC, or elected official.
+> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.0 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
 
 ## Key pages
+- [Homepage: the whole plan, state map, household calculator, every title and every dollar](https://theamericandeal.org/)
+- [Full searchable bill text](https://theamericandeal.org/bill-text/)
+- [Updates](https://theamericandeal.org/updates/)
 - [2026 midterm results and what the new Congress can pass](https://theamericandeal.org/2026-midterms/)
-- [2028 agenda for candidates and the 121st Congress](https://theamericandeal.org/2028/)
-- [Balanced budget path written into law (Sec. 3406(f))](https://theamericandeal.org/balanced-budget/)
+- [2028 agenda](https://theamericandeal.org/2028/)
+- [Balanced budget path (Sec. 3406(f), 3410)](https://theamericandeal.org/balanced-budget/)
 - [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
-- [Stop government waste: payment integrity, impoundment, Inspectors General (Title XXXV)](https://theamericandeal.org/government-waste/)
-- [Build faster: permitting on a clock, hydropower, infrastructure costs (Title XVII)](https://theamericandeal.org/build-faster/)
-- [Science and talent: R&D to 1% of GDP, NSF/NIH floors, STEM green cards (Title XXXVII)](https://theamericandeal.org/science/)
-- [Self-funded paid leave, child care, apprenticeships (Title XXXVIII)](https://theamericandeal.org/paid-leave/)
-- [Digital government modernization (Title XXXIX)](https://theamericandeal.org/digital-government/)
-- [Universal $0-deductible healthcare (Title XXI)](https://theamericandeal.org/healthcare/)
-- [G7 drug price parity (Title XIII)](https://theamericandeal.org/drug-prices/)
-- [Institutional homebuyer cap (Title XIV)](https://theamericandeal.org/housing/)
-- [Zero-interest student loans (Title XV)](https://theamericandeal.org/student-debt/)
-- [Full bill text and policy vault](https://theamericandeal.org/bill-text/)
-- [Explore: interactive impact map, household calculator, full bill browser](https://theamericandeal.org/)
+- [Stop government waste (Titles XXXV, XXXIX)](https://theamericandeal.org/government-waste/)
+- [Health coverage (Title XXI)](https://theamericandeal.org/healthcare/)
+- [Drug prices (Title XIII)](https://theamericandeal.org/drug-prices/)
+- [Housing (Title XIV)](https://theamericandeal.org/housing/)
+- [Student debt (Title XV)](https://theamericandeal.org/student-debt/)
+- [Paid leave (Title XXXVIII)](https://theamericandeal.org/paid-leave/)
+- [Science (Title XXXVII)](https://theamericandeal.org/science/)
+- [Build faster (Title XVII)](https://theamericandeal.org/build-faster/)
+- [Fiscal model](https://theamericandeal.org/fiscal-model/)
 - [Policymaker portal](https://theamericandeal.org/adopt/)
-- [Press](https://theamericandeal.org/press/)
+- [Fiscal reviewer portal](https://theamericandeal.org/adopt/fiscal/)
+- [Press room](https://theamericandeal.org/press/)
+- [Bill PDF](https://theamericandeal.org/NSRA_COMPLETE_TEXT.pdf)
+- [Bill plain text](https://theamericandeal.org/NSRA_COMPLETE_TEXT.txt)
+- [Open-source scoring scripts](https://theamericandeal.org/data/open-scoring/nsra_taxcalc_scoring.py)
 
-## Documents
-- [Complete discussion-draft text (PDF)](https://theamericandeal.org/NSRA_COMPLETE_TEXT.pdf)
-- [Complete text (plain text)](https://theamericandeal.org/NSRA_COMPLETE_TEXT.txt)
-- [Section-by-section (PDF)](https://theamericandeal.org/NSRA_Section_by_Section.pdf)
-- [Open technical questions (PDF)](https://theamericandeal.org/NSRA_Open_Technical_Questions.pdf)
-
-Contact: contact@theamericandeal.org
+## Full context for AI tools
+- [llms-full.txt](https://theamericandeal.org/llms-full.txt): key figures, every title, and answers to common questions
