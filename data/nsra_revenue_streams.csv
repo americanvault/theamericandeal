@@ -15,6 +15,6 @@ REV-13,Carried interest as ordinary income,Sec. 2402,High,1.4,1.3,JCT: ~$14B / 1
 REV-14,FTA 0.02% on institutional trades > $1M,Sec. 2405,Preliminary,3,1.5,stacked on FTT; haircut,v2026.3,2026-11-07
 REV-15,SNAP retailer fraud recovery,Title I,High,1,0.9,USDA-OIG,v2026.3,2026-11-07
 REV-16,Top rate 39.6% above $400K single / $450K joint,Sec. 2420(a),Moderate,40,32.0,"Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response",v2026.3,2026-11-07
-REV-17,NIIT on active pass-through income above $400K,Sec. 2420(b),Moderate,27,21.6,Treasury Green Book,v2026.3,2026-11-07
-REV-18,Capital gains as ordinary income above $1M,Sec. 2420(c),Preliminary,3,1.5,JCT realization elasticities; no deemed realization at death,v2026.3,2026-11-07
+REV-17,NIIT on active pass-through income above $400K,Sec. 2420(b),Moderate,23,18.4,"IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response",v2026.3,2026-11-07
+REV-18,Capital gains and dividends as ordinary income above $1M,Sec. 2420(c),Preliminary,12,6.0,"IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death)",v2026.3,2026-11-07
 REV-19,Stock-buyback excise 1% to 4%,Sec. 2420(d),High,15,14.2,Treasury Green Book,v2026.3,2026-11-07
