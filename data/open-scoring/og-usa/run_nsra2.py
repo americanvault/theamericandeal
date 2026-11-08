@@ -34,15 +34,15 @@ DEF = json.load(open(os.path.join(os.path.dirname(ogusa.__file__), 'ogusa_defaul
 TFT = os.environ.get('TFT', 'HSV')   # tax-function form: HSV (OG-USA default) or DEP
 SFX = '' if TFT == 'HSV' else '_' + TFT
 BASEDIR = {'c': 'baseline', 't10': 'baseline', 't30': 'baseline',
-           'f027': 'base_f027', 'f060': 'base_f060', 'pub': 'base_pub', 'c2': 'baseline', 'dn': 'baseline'}
+           'f027': 'base_f027', 'f060': 'base_f060', 'pub': 'base_pub', 'c2': 'baseline', 'dn': 'baseline', 'mc': 'baseline', 'mt': 'baseline', 'mp': 'baseline', 'mq': 'baseline', 'mr': 'baseline', 'full': 'base_pub2', 'fullp': 'base_pub2'}
 if SFX:
     BASEDIR = {k: 'base' + SFX + ('' if v == 'baseline' else v[4:]) for k, v in BASEDIR.items()}
-CAL = {'c': {}, 't10': {}, 't30': {}, 'f027': {'frisch': 0.27}, 'f060': {'frisch': 0.60}, 'pub': {}, 'c2': {}, 'dn': {}}
+CAL = {'c': {}, 't10': {}, 't30': {}, 'f027': {'frisch': 0.27}, 'f060': {'frisch': 0.60}, 'pub': {}, 'c2': {}, 'dn': {}, 'mc': {}, 'mt': {}, 'mp': {}, 'mq': {}, 'mr': {}, 'full': {}, 'fullp': {}}
 # start alternative-calibration steady states from the central baseline solution
 _ss = os.path.join(OUT, 'baseline', 'SS', 'SS_vars.pkl')
 if os.path.exists(_ss):
     _s = pickle.load(open(_ss, 'rb'))
-    for _v in ('f027', 'f060', 'pub'):
+    for _v in ('f027', 'f060', 'pub', 'full', 'fullp'):
         CAL[_v].update({'initial_guess_r_SS': float(_s['r']), 'initial_guess_TR_SS': float(_s['TR']),
                         'initial_guess_factor_SS': float(_s['factor'])})
 
@@ -75,8 +75,15 @@ def make_p(baseline, outdir, basedir, tf, cal):
     return p
 
 
-def pub_baseline(p):
+def pub_baseline(p, v='pub'):
     T = p.T + p.S
+    if v in ('full', 'fullp'):
+        # verified values: nondefense public gross investment 2024 = federal $223B (BEA A798RC) + state and local
+        # $598B (NIPA Table 5.9.5) = $821B, 2.8% of 2024 GDP ($29.18T); output elasticity of public capital 0.083
+        # (Bom and Ligthart 2014, central government, short run); state and local net stock alone $16.6T (57% of GDP)
+        aG = np.array(p.alpha_G, dtype=float).reshape(-1)[:T]
+        return {'alpha_I': [0.028] * T, 'gamma_g': [0.083], 'initial_Kg_ratio': 0.6,
+                'alpha_G': (aG - 0.028).tolist()}
     aG = np.array(p.alpha_G, dtype=float).reshape(-1)[:T]
     return {'alpha_I': [0.02] * T, 'gamma_g': [0.05], 'initial_Kg_ratio': 0.6,
             'alpha_G': (aG - 0.02).tolist()}
@@ -132,11 +139,16 @@ def reform_update(p, v):
     # + FDDEI share of base broadening 28.7 = $110.1B -> +5.3 points on the 25% statutory rate.
     cit = 0.25 + (110.1 / GDP28) / 0.000605 / 100
     upd['cit_rate'] = [[cit]] * T
-    inc = v in ('c2', 'dn')
+    inc = v in ('c2', 'dn', 'mc', 'mt', 'mp', 'mq', 'mr', 'full', 'fullp')
+    pkg = v in ('mp', 'mq', 'mr', 'fullp')
+    base_rate = 0.21 if pkg else 0.25
+    full = v in ('full', 'fullp')
+    # full accounting: consumer-finance savings ($13B) and private drug savings ($25B) are paid by lenders and drug makers
+    extra = (7.9 + 42) if full else 0   # middle-class package keeps the 21% corporate rate
     if inc:
         # c2: IRS enforcement (mostly business and high-income underreporting) and federal royalties (resource rents)
         # are placed on capital, not on consumption
-        citp = 0.25 + ((110.1 + 12 + 35 * np.array(RAMP[:T])) / GDP28) / 0.000605 / 100
+        citp = base_rate + ((110.1 + 12 + extra + 35 * np.array(RAMP[:T])) / GDP28) / 0.000605 / 100
         upd['cit_rate'] = [[x] for x in citp.tolist()]
         cit = float(citp[3])
     # timing share of base broadening (LIFO, advertising, fossil cost recovery) $18.3B -> lower tax depreciation
@@ -149,23 +161,49 @@ def reform_update(p, v):
     yrs = np.arange(T)
     cons = (85 + 30 + 12 + 22 + 35 * np.array(RAMP[:T]) + 40 * phase(2, 7, T)) / cbase
     if inc:  # c2: only the carbon fee and NIMA, taxes that pass into prices, stay in the consumption proxy
-        cons = (85 + 30 + 40 * phase(2, 7, T)) / cbase
+        cons = (85 + (0 if v in ('mq', 'mr', 'fullp') else 30) + 40 * phase(2, 7, T)) / cbase   # mq also drops NIMA
     tc = np.array(p.tau_c, dtype=float).reshape(-1)[:T]
     upd['tau_c'] = [[x] for x in (tc + cons).tolist()]
     # ---- wealth-tax proxy: FTT 75 + carryover basis 15 + FTA 3 = $93B
     upd['h_wealth'] = [10.0]; upd['m_wealth'] = [0.1]
-    upd['p_wealth'] = [0.00056 * (93 + (22 if inc else 0)) / 90] * T   # c2 adds the 28% limit (top incomes)
+    upd['p_wealth'] = [0.00056 * (93 - (75 if v == 'mr' else 0) + (22 if inc else 0)) / 90] * T   # mr drops the FTT   # c2 adds the 28% limit (top incomes)
     upd['wealth_tax_filer'] = [[1.0] * p.J] * T   # OG-USA default exempts all groups; the FTT and carryover basis apply to all
     # ---- transfers: amount path and time-varying distribution (eta)
     aT = np.array(p.alpha_T, dtype=float).reshape(-1)[:T]
     eta_b = np.array(p.eta, dtype=float)[:T]
     num = aT[:, None, None] * eta_b
     add = np.zeros(T)
+    gcut = np.zeros(T)
     for name, amt, tag, ages, jw in TRANSFERS:
+        if full and name.startswith(('Medicare payment integrity', 'FSP-2')):
+            # full accounting: lower prices paid to insurers, hospitals and drug makers for the same care,
+            # so beneficiaries keep their benefits and the government simply buys for less
+            gcut += -amt / GDP28 * timing(tag, T); continue
         a = amt / GDP28 * timing(tag, T)
         add += a
         sh = target_shares(p, ages, jw, T, num / num.sum(axis=(1, 2), keepdims=True) if amt < 0 else None)
         num += a[:, None, None] * sh
+    if full:
+        # overdraft cap: $5B a year (CFPB final rule, Dec 2024); 36% cap: $2.9B of payday and car-title fees a year in
+        # states without caps (Center for Responsible Lending, 2023)
+        a = 7.9 / GDP28 * np.ones(T); add += a
+        num += a[:, None, None] * target_shares(p, (21, 100), [3, 2, 1, 0.3, 0, 0, 0, 0, 0, 0], T)
+        # lower drug prices outside Medicare: $293B over 2023-2029 (employers $195B, workers $98B) for H.R. 3's all-payer
+        # international reference pricing (Milliman for West Health, 2021), about $42B a year. NSRA's G7-median ceiling
+        # is stricter than H.R. 3's, so this is a floor.
+        a = 42 / GDP28 * np.array(OUTRAMP[:T]); add += a
+        num += a[:, None, None] * target_shares(p, (21, 100), [1] * 10, T)
+    if v in ('mp', 'mq', 'mr', 'fullp'):
+        # energy-bill credits extended: full to 300% of poverty, phasing out by 400% (+$20B)
+        a = 20 / GDP28 * np.ones(T); add += a
+        num += a[:, None, None] * target_shares(p, (21, 100), [0.3, 1.5, 1.5, 0.8, 0.2, 0, 0, 0, 0, 0], T)
+    if v in ('mt', 'mp', 'mq', 'mr', 'fullp'):
+        # Sec. 2421 middle-class tax cut, $128B a year (Tax-Calculator: $142.5B static, less $11.8B recapture above
+        # $400K/$450K, less 2% response), entered as income support distributed by the average cut at each income level.
+        # Conservative: no work-incentive effect from the lower marginal rates.
+        a = 128 / GDP28 * np.ones(T)
+        add += a
+        num += a[:, None, None] * target_shares(p, (21, 100), [0.05, 0.28, 0.87, 1.77, 2.4, 3.0, 0, 0, 0, 0], T)
     if v == 'dn':
         # counterfactual: return the run-c2 net fiscal saving (revenue - transfers - purchases, % of GDP)
         # to every adult as an equal per-person payment, so the debt path stays near baseline
@@ -191,6 +229,12 @@ def reform_update(p, v):
         upd['alpha_G'] = (aG + other - caps).tolist()
         aI = np.array(p.alpha_I, dtype=float).reshape(-1)[:T]
         upd['alpha_I'] = (aI + infra).tolist()
+    elif full:
+        # infrastructure and research are public investment (CBO treats federal investment as productive)
+        sci = 30 * np.array(OUTRAMP[:T]) / GDP28
+        upd['alpha_G'] = (aG + other - sci - caps - gcut).tolist()
+        aI = np.array(p.alpha_I, dtype=float).reshape(-1)[:T]
+        upd['alpha_I'] = (aI + infra + sci).tolist()
     else:
         upd['alpha_G'] = (aG + infra + other - caps).tolist()
     if v == 't10':
@@ -203,18 +247,18 @@ def reform_update(p, v):
 def main(stage):
     kind, v = stage.split('_', 1)
     tf_b = pickle.load(open(os.path.join(OUT, 'tf_base%s.pkl' % SFX), 'rb'))
-    tf_r = pickle.load(open(os.path.join(OUT, 'tf_ref%s.pkl' % SFX), 'rb'))
+    tf_r = pickle.load(open(os.path.join(OUT, 'tf_ref%s%s.pkl' % (SFX, '_mc' if v == 'mc' else '')), 'rb'))
     if kind == 'base':
         bd = BASEDIR[v]
         p = make_p(True, os.path.join(OUT, bd), bd, tf_b, CAL[v])
-        if v == 'pub':
-            p.update_specifications(pub_baseline(p))
+        if v in ('pub', 'full', 'fullp'):
+            p.update_specifications(pub_baseline(p, v))
         log('baseline', v); runner(p, time_path=True, client=None); log('baseline done', v)
     else:
         bd = BASEDIR[v]
         p = make_p(False, os.path.join(OUT, 'E' + SFX + '_' + v), bd, tf_r, CAL[v])
-        if v == 'pub':
-            p.update_specifications(pub_baseline(p))
+        if v in ('pub', 'full', 'fullp'):
+            p.update_specifications(pub_baseline(p, v))
         aT0 = float(np.array(p.alpha_T).reshape(-1)[0]); tc0 = float(np.array(p.tau_c).reshape(-1)[0])
         upd = reform_update(p, v)
         dtau = upd.pop('_dtau'); eta_r = upd.pop('_eta')
