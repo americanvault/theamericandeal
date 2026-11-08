@@ -141,7 +141,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <div class="eyebrow" id="fmEye">The 7-Subledger Math Engine™ · For Reviewers</div>
 <h1 id="fmH1">The 7-Subledger Fiscal Model</h1>
 <p class="lede" id="fmLede">Stress-test the fiscal architecture yourself. Adjust how much of each enforcement stream is realized, toggle individual titles on or off, and watch modeled annual revenue and deficit reduction update live.</p>
-<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool, separate from the household <a href="/#household">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, but remains net-positive in parts.</p>
+<p class="sub" id="fmSub">This is the reviewer&rsquo;s tool, separate from the household <a href="/#household">National Return Engine™</a>, which estimates what a family receives. Here you interrogate whether the math holds. Toggling titles off also shows the design principle in action: the Act is strongest whole, and you can see which parts pay for themselves.</p>
 
 <div class="grid">
   <div class="panel">
@@ -154,7 +154,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
       <input type="number" id="prog" value="381.1" min="0" step="1" />
-      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The two tax-side costs, $65B, are listed with the streams below, so the total cost in Section 3406 is $446B.</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The two tax-side costs, $65B, are listed with the streams below, so the total cost in Section 3406 is $592B.</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
     <div class="streams" id="streams"></div>
@@ -168,14 +168,14 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
   <div class="panel">
     <h2>Modeled Result</h2>
     <div class="out"><div class="big g" id="oRev">$0B</div><div class="lbl">Modeled annual revenue (full ramp)</div></div>
-    <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction</div></div>
+    <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction, with the Sec. 3410 plan at full effect</div></div>
     <div class="rowout"><span>Gross revenue (active streams)</span><span id="rGross">$0B</span></div>
     <div class="rowout"><span>&times; realization rate</span><span id="rReal">100%</span></div>
     <div class="rowout"><span>&minus; program spending</span><span id="rProg">$381B</span></div>
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.5):</b> ~$627B in annual revenue at full ramp · ~$181B in annual deficit reduction · ~$5.5T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.6):</b> ~$542B in annual revenue at full ramp · ~$374B a year from the Fiscal Sustainability Plan at full effect · a net cost of ~$49B a year before the plan, including the $128B middle-class tax cut · ~$2.3T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -233,10 +233,10 @@ function calc(){
  var real=+document.getElementById('real').value;
  var prog=+document.getElementById('prog').value||0;
  document.getElementById('realv').textContent=real+'%';
- var gross=0,count=0;
- STREAMS.forEach(function(s,i){var el=document.getElementById('s'+i);s.on=el?el.checked:s.on;if(s.on){gross+=s.v;if(s.v>0)count++;}});
+ var gross=0,count=0,plan=0;
+ STREAMS.forEach(function(s,i){var el=document.getElementById('s'+i);s.on=el?el.checked:s.on;if(s.on){if(s.plan){plan+=s.v;}else{gross+=s.v;if(s.v>0)count++;}}});
  var rev=gross*(real/100);
- var def=rev-prog;
+ var def=rev-prog+plan;
  document.getElementById('oRev').textContent=fmt(rev);
  var od=document.getElementById('oDef');od.textContent=fmt(def);
  od.className='big '+(def>=150?'g':def>=0?'a':'r');
@@ -244,9 +244,9 @@ function calc(){
  document.getElementById('rReal').textContent=real+'%';
  document.getElementById('rProg').textContent=fmt(prog);
  document.getElementById('rCount').textContent=count;
- var pct=Math.round(def/211*100);
+ var pct=Math.round(def/324*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published $181B deficit-reduction estimate, and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published full-effect estimate ($324B a year with the Sec. 3410 plan), and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
@@ -261,7 +261,7 @@ calc();
  var TM=String.fromCharCode(8482), MID=String.fromCharCode(183), ENG="The 7-Subledger Math Engine"+TM+" "+MID+" ";
  var F={
   press:{eye:ENG+'For Press & Media',h1:'The 7-Subledger Fiscal Model',lede:'Every dollar of NSRA revenue comes from a specific, named stream tied to a published federal baseline. Toggle any stream and watch the total move \u2014 no spin, just arithmetic you can check.',sub:'This is the same model reviewers use. Adjust how much of each stream is collected, switch streams on or off, and see the number recompute live. Every figure traces to the Figure-by-Figure Sourcing sheet and Schedule G.'},
-  policy:{eye:ENG+'For Policymakers & Staff',h1:'The 7-Subledger Fiscal Model',lede:'Before you co-sponsor a title, see exactly what it contributes and whether the package still holds without it. Toggle any stream to model a narrower bill; lower realization to test conservative collection.',sub:'Every stream ties to a published CBO, JCT, Treasury, OECD, or GAO baseline. Toggling titles off shows the design principle in action: strongest whole, but still net-positive in parts.'}
+  policy:{eye:ENG+'For Policymakers & Staff',h1:'The 7-Subledger Fiscal Model',lede:'Before you co-sponsor a title, see exactly what it contributes and whether the package still holds without it. Toggle any stream to model a narrower bill; lower realization to test conservative collection.',sub:'Every stream ties to a published CBO, JCT, Treasury, OECD, or GAO baseline. Toggling titles off shows the design principle in action: strongest whole.'}
  };
  var f=F[a]; if(!f) return;
  var set=function(id,v){var el=document.getElementById(id); if(el) el.textContent=v;};
