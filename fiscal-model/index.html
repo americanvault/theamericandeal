@@ -153,8 +153,8 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     </div>
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
-      <input type="number" id="prog" value="381.1" min="0" step="1" />
-      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The two tax-side costs, $65B, are listed with the streams below, so the total cost in Section 3406 is $592B.</div>
+      <input type="number" id="prog" value="398.6" min="0" step="1" />
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The tax-side costs, including the middle-class tax cut, $193B, are listed with the streams below, so the total cost in Section 3406 is $592B.</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
     <div class="streams" id="streams"></div>
@@ -171,7 +171,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction, with the Sec. 3410 plan at full effect</div></div>
     <div class="rowout"><span>Gross revenue (active streams)</span><span id="rGross">$0B</span></div>
     <div class="rowout"><span>&times; realization rate</span><span id="rReal">100%</span></div>
-    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$381B</span></div>
+    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$399B</span></div>
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
@@ -195,13 +195,11 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
 <script>
 var STREAMS=[
  {n: "Social Security payroll tax on wages above $400,000 (Sec. 2408)", v: 105},
- {n: "Corporate rate 21% to 25% (Sec. 2409(b))", v: 55},
  {n: "IRS enforcement, net of investment returns (Sec. 2406)", v: 35},
  {n: "Carbon fee, $40/ton indexed (net budgetary receipts) (Sec. 2410)", v: 85},
  {n: "Global minimum tax (Pillar Two / UTPR) (Sec. 2411)", v: 50},
  {n: "Financial transaction tax 0.1% (Sec. 2413)", v: 75},
  {n: "Carryover basis above $5M (Sec. 2412)", v: 15},
- {n: "NIMA 0.18% on domestic gross > $100M (Sec. 2404)", v: 30},
  {n: "Federal royalty modernization (Sec. 2414)", v: 12},
  {n: "Financial-sector excess-profits assessment (Sec. 2415)", v: 10},
  {n: "Medicare/Medicaid fraud recovery (FDVM) (Title I)", v: 8},
@@ -215,7 +213,9 @@ var STREAMS=[
  {n: "Stock-buyback excise 1% to 4% (Sec. 2420(d))", v: 15},
  {n: "Corporate base broadening: FDDEI deduction, LIFO, fossil-fuel preferences, advertising (Sec. 2409(c-f))", v: 47},
  {n: "Student-loan zero-interest conversion (net of interest not collected under IDR) (cost)", v: -55, cost: true},
- {n: "SPI wage-floor credit (cost)", v: -10, cost: true}
+ {n: "SPI wage-floor credit (cost)", v: -10, cost: true},
+ {n: "Middle-class tax relief: 12% and 22% brackets to 10% and 20%, recaptured above $400K / $450K joint (cost)", v: -128, cost: true},
+ {n: "Fiscal Sustainability Plan, Sec. 3410 (full effect)", v: 373.6, plan: true}
 ];
 function fmt(x){var s=(x<0?"-":"")+"$"+Math.abs(x).toFixed(0)+"B";return s;}
 function render(){
@@ -228,7 +228,7 @@ function render(){
  });
 }
 function setAll(v){STREAMS.forEach(function(s,i){s.on=v;var el=document.getElementById('s'+i);if(el)el.checked=v;});calc();}
-function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=381.1;render();calc();}
+function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=398.6;render();calc();}
 function calc(){
  var real=+document.getElementById('real').value;
  var prog=+document.getElementById('prog').value||0;
