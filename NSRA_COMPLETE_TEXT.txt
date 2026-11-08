@@ -125,11 +125,20 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 1501. RETIREMENT OF PREDATORY STUDENT DEBT.
     SEC. 1502. VOLUNTARY PARTICIPATION AND COMPENSATED DISCHARGE.
     SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE ACCESS ENDOWMENT.
-  TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, AND INFLATION PROTECTION
+  TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, INFLATION PROTECTION, AND FINANCIAL STABILITY
     SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
     SEC. 1602. THE RE-ARCHITECTED TRANSITIONAL QUANTUM MIGRATION PIPELINE.
     SEC. 1603. INFLATION RELIEF AND COST-OF-LIVING PROTECTION.
     SEC. 1604. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE III FORUM.
+    SEC. 1605. FINANCIAL STABILITY: FINDINGS AND PURPOSE.
+    SEC. 1606. MORTGAGE UNDERWRITING FLOOR.
+    SEC. 1607. RISK RETENTION.
+    SEC. 1608. LEVERAGE AND CAPITAL FLOORS FOR THE LARGEST BANKS.
+    SEC. 1609. PRIVATE CREDIT AND NONBANK LENDING TRANSPARENCY.
+    SEC. 1610. HOUSING FINANCE GUARDRAILS.
+    SEC. 1611. CREDIT RATING CONFLICTS IN STRUCTURED FINANCE.
+    SEC. 1612. FAIR CREDIT FOR WORKING FAMILIES.
+    SEC. 1613. CONSUMER FINANCIAL PROTECTION FUNDING AND BUDGETARY EFFECT.
   TITLE XVII — NATIONAL BUILD-OUT, HYDROPOWER, AND INFRASTRUCTURE DELIVERY
     SEC. 1701. FINDINGS AND PURPOSE.
     SEC. 1702. DEFINITIONS.
@@ -192,12 +201,12 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 2401. FINDINGS AND DECLARATION OF FISCAL SECURITY.
     SEC. 2402. CARRIED INTEREST — ORDINARY INCOME TREATMENT.
     SEC. 2403. LBO INTEREST DEDUCTIBILITY CAP.
-    SEC. 2404. NATIONAL INFRASTRUCTURE MAINTENANCE ASSESSMENT.
+    SEC. 2404. RESERVED.
     SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
     SEC. 2406. IRS ENFORCEMENT SAVINGS FUND.
     SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
     SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
-    SEC. 2409. CORPORATE INCOME TAX RESTORATION AND BASE BROADENING.
+    SEC. 2409. CORPORATE INCOME TAX BASE BROADENING.
     SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
     SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
     SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY.
@@ -209,6 +218,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 2418. PRIVATE EQUITY DIVESTITURE -- ORDINARY INCOME TREATMENT FOR CRITICAL SYSTEMS DISPOSITIONS.
     SEC. 2419. TRADE ENFORCEMENT REVENUE ROUTING -- FISCAL CONSOLIDATION.
     SEC. 2420. HIGH-INCOME TAX FAIRNESS.
+    SEC. 2421. MIDDLE-CLASS TAX RELIEF.
   TITLE XXV — VETERANS HEALTH SECURITY AND PACT ACT COMPLETION
     SEC. 2501. FINDINGS AND DECLARATION OF VETERANS HEALTH SECURITY.
     SEC. 2502. VETERANS HEALTH COVERAGE — THREE-TIER ARCHITECTURE.
@@ -1673,7 +1683,7 @@ SEC. 1503. PUBLIC UNIVERSITY KNOWLEDGE ACCESS ENDOWMENT.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, AND INFLATION PROTECTION
+TITLE XVI — CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, INFLATION PROTECTION, AND FINANCIAL STABILITY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 SEC. 1601. THE ASYMMETRIC CAPITAL FLIGHT LOCK — DUE PROCESS COMPLIANT ARCHITECTURE.
@@ -1735,6 +1745,89 @@ SEC. 1604. CONSTITUTIONAL ENFORCEMENT ARCHITECTURE — JURY TRIAL AND ARTICLE II
 (c) REFERRAL MECHANISM.—Upon a Verified Structural Variance Report that would support a penal remedy, the primary enforcement agency or the citizen relator under Section 401 shall file a civil action in the appropriate United States District Court. The administrative record shall be admissible but shall not be preclusive of the defendant's jury-trial rights on contested issues of fact.
 
 (d) SEVERABILITY HARMONIZATION.—If any provision of this Act is read to authorize final administrative assessment of a penal monetary remedy, that provision shall be construed, to the maximum extent possible, to require Article III adjudication consistent with subsection (a); and if it cannot be so construed, it shall be severed pursuant to Section 205 without affecting the remainder of this Act or any enforcement action lawfully commenced in an Article III court.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1605. FINANCIAL STABILITY: FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds that the financial crisis of 2007 through 2009 was caused in large part by (1) mortgages made without regard to the borrower's ability to repay, including loans with no verified income, teaser rates and negative amortization; (2) securitizers who sold the risk of those loans to others while keeping none of it; (3) credit ratings paid for by the issuers of the securities being rated; (4) thin capital at the largest financial institutions; (5) the implicit, unpriced federal guarantee of Fannie Mae and Freddie Mac; and (6) lending that moved outside the supervised banking system. Credit outside the banking system has since grown to an estimated $1,500,000,000,000 to $2,000,000,000,000, and banks' direct and indirect exposure to it is estimated at $220,000,000,000 to $500,000,000,000 by the Financial Stability Board.
+
+(b) PURPOSE.—The purpose of sections 1606 through 1613 is to write the core protections against a repeat of that crisis into statute, so that they cannot be removed by rule alone, while keeping credit available to families, small businesses and community lenders. These sections operate through existing agencies and create no new agency.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1606. MORTGAGE UNDERWRITING FLOOR.
+
+(a) IN GENERAL.—Section 129C of the Truth in Lending Act (15 U.S.C. 1639c) is amended by adding at the end the following: "(k) STATUTORY UNDERWRITING FLOOR.—No creditor may make a residential mortgage loan, and no regulation, exemption or qualified-mortgage definition may permit a residential mortgage loan, that (1) permits negative amortization; (2) permits payments of interest only for any period, except a construction or bridge loan with a term of 12 months or less; (3) is made without verification of income or assets through third-party records; or (4) in the case of an adjustable-rate loan, is underwritten at a payment lower than the payment at the maximum interest rate that can apply during the first five years of the loan."
+
+(b) BALLOON PAYMENTS.—No residential mortgage loan may provide for a balloon payment, except a loan made and held in portfolio by a creditor with total assets of less than $10,000,000,000 that operates predominantly in rural or underserved areas, as defined under section 129C(b)(2)(E) of such Act.
+
+(c) COMMUNITY LENDERS.—Nothing in this section limits the portfolio-loan treatment available under section 129C(b)(2)(F) of such Act to insured depository institutions and credit unions with total assets of less than $10,000,000,000, other than paragraphs (1) through (3) of subsection (a).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1607. RISK RETENTION.
+
+(a) FLOOR.—Section 15G of the Securities Exchange Act of 1934 (15 U.S.C. 78o-11) is amended so that (1) the credit risk retained by a securitizer may not be less than 5 percent of the credit risk of the assets, and (2) the exemption for qualified residential mortgages may not be broader than the qualified-mortgage standards of section 129C of the Truth in Lending Act as amended by section 1606.
+
+(b) COLLATERALIZED LOAN OBLIGATIONS.—The manager or sponsor of a collateralized loan obligation shall be treated as a securitizer for purposes of such section 15G, whether or not the manager holds the underlying loans.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1608. LEVERAGE AND CAPITAL FLOORS FOR THE LARGEST BANKS.
+
+(a) LEVERAGE FLOOR.—The Board of Governors of the Federal Reserve System, the Comptroller of the Currency and the Federal Deposit Insurance Corporation may not set the enhanced supplementary leverage ratio standards for global systemically important bank holding companies and their insured depository institution subsidiaries, under section 165 of the Dodd-Frank Wall Street Reform and Consumer Protection Act (12 U.S.C. 5365), below the levels in effect on January 1, 2025: a tier 1 leverage ratio of 5 percent at the holding company and 6 percent at each insured depository institution subsidiary.
+
+(b) MARKET-STRESS EXCLUSION.—During a period of severe stress in the market for United States Treasury securities, as determined by the Board, the agencies may exclude Treasury securities and deposits at Federal Reserve Banks from the leverage-ratio denominator for not more than 12 months. Any extension requires a written determination submitted to the Committee on Financial Services of the House of Representatives and the Committee on Banking, Housing, and Urban Affairs of the Senate.
+
+(c) STRESS TESTS.—The annual supervisory stress tests under section 165(i) of such Act shall include a severely adverse scenario for losses on exposures to nonbank lenders described in section 1609, and the results for each company shall be published.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1609. PRIVATE CREDIT AND NONBANK LENDING TRANSPARENCY.
+
+(a) BANK REPORTING.—Each bank holding company and insured depository institution with total assets of $100,000,000,000 or more shall report quarterly to its primary federal regulator, in a form the regulator shall publish in aggregate, its drawn and undrawn credit exposure to private credit funds, business development companies, and other nonbank lenders, including subscription lines, net-asset-value loans and synthetic risk transfers.
+
+(b) FUND REPORTING.—The Securities and Exchange Commission shall require, under section 204(b) of the Investment Advisers Act of 1940 (15 U.S.C. 80b-4(b)), each adviser to a private fund that makes loans and has $1,000,000,000 or more in assets under management to report quarterly the fund's leverage, sources of borrowing, valuation methods, and the share of assets valued by the adviser rather than by an independent party.
+
+(c) RETAIL FUNDS.—A fund offered to retail investors that invests primarily in private loans and offers periodic redemptions shall disclose, in plain language at the point of sale, the share of assets that can be sold within 30 days and the conditions under which redemptions may be limited.
+
+(d) MONITORING.—The Financial Stability Oversight Council shall report annually to Congress on credit extended outside the banking system, its connections to banks and insurers, and any action needed, under section 112 of the Dodd-Frank Wall Street Reform and Consumer Protection Act (12 U.S.C. 5322).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1610. HOUSING FINANCE GUARDRAILS.
+
+(a) CONDITIONS FOR RELEASE.—Neither the Federal National Mortgage Association nor the Federal Home Loan Mortgage Corporation may be released from conservatorship under section 1367 of the Federal Housing Enterprises Financial Safety and Soundness Act of 1992 (12 U.S.C. 4617) unless—
+(1) the enterprise meets, without transition relief, the capital requirements of the Enterprise Regulatory Capital Framework as in effect on January 1, 2025;
+(2) any federal support of the enterprise's securities is explicit, limited to catastrophic loss, and paid for by a guarantee fee deposited in a dedicated insurance fund held by the Treasury, so that no implicit guarantee remains;
+(3) the affordable housing goals and duty-to-serve obligations of sections 1331 through 1336 of such Act continue to apply; and
+(4) Congress has enacted a joint resolution approving the release plan, which shall be considered under the expedited procedures of section 3406(f)(4)(B) of this Act, applied with the necessary changes.
+(b) TAXPAYER RECOVERY.—Any sale of the Government's interest shall first repay the liquidation preference of the Treasury's senior preferred stock, and proceeds shall be applied to deficit reduction under section 3406(f).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1611. CREDIT RATING CONFLICTS IN STRUCTURED FINANCE.
+
+(a) ASSIGNMENT.—Not later than 2 years after the date of enactment of this Act, the Securities and Exchange Commission shall, under section 15E of the Securities Exchange Act of 1934 (15 U.S.C. 78o-7), establish a system under which the initial credit rating of each asset-backed security is assigned to a qualified nationally recognized statistical rating organization by a board of the Commission rather than chosen by the issuer, as studied under section 939F of the Dodd-Frank Wall Street Reform and Consumer Protection Act.
+(b) PERFORMANCE.—The board shall consider each rating organization's accuracy over time in making assignments, and shall publish annually the default and downgrade record of each organization's structured-finance ratings.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1612. FAIR CREDIT FOR WORKING FAMILIES.
+
+(a) BUILDING CREDIT FROM ON-TIME PAYMENTS.—The Fair Credit Reporting Act (15 U.S.C. 1681 et seq.) is amended to require each nationwide consumer reporting agency to include, at the consumer's request and at no charge, the consumer's record of on-time rent, utility and telecommunications payments, and to prohibit the reporting of late payments from those sources unless the consumer has opted in.
+(b) BUY-NOW-PAY-LATER LOANS.—A loan payable in four or fewer installments is credit under the Truth in Lending Act. Lenders shall assess the borrower's ability to repay, provide the dispute rights that apply to credit cards, and furnish payment histories to consumer reporting agencies.
+(c) FREE SCORES AND FAST CORRECTIONS.—Each nationwide consumer reporting agency shall provide each consumer, on request and at no charge, a monthly credit score and report. A consumer reporting agency that receives a dispute supported by documentation shall have it reviewed by a person and resolved within 30 days, and an item not verified within that period shall be deleted.
+(d) RELATIONSHIP TO SECTION 2416.—This section supplements the medical-debt, interest-rate and overdraft protections of section 2416.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 1613. CONSUMER FINANCIAL PROTECTION FUNDING AND BUDGETARY EFFECT.
+
+(a) FUNDING CLARIFICATION.—Section 1017(a) of the Consumer Financial Protection Act of 2010 (12 U.S.C. 5497(a)) is amended to provide that the transfers it requires shall be measured against the total operating expenses of the Federal Reserve System as reported for fiscal year 2009 and adjusted as provided in that section, and are payable whether or not the Federal Reserve System has combined earnings in the year of the transfer.
+(b) BUDGETARY EFFECT.—Sections 1605 through 1613 regulate private conduct and are carried out by existing agencies within existing assessments and appropriations, other than the transfers described in subsection (a). They are not counted as revenue or savings in Schedule G.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2126,7 +2219,7 @@ SEC. 1901. AMERICAN HOUSEHOLD BENEFITS — PROJECTIONS AND REPORTING.
 
 (2) HOUSING SUPPLY AND OWNERSHIP.—The institutional portfolio concentration caps and housing supply provisions of Title XIV are intended to return single-family homes to owner-occupant buyers and to expand housing supply; the FMIA shall measure and report their effect on rents and purchase prices annually.
 
-(3) ENERGY COST PROTECTION.—Household energy credits under Section 2410(c)(1), applied to utility bills and not paid in cash, are projected at approximately twenty-five billion dollars ($25,000,000,000) a year, or roughly four hundred fifty dollars ($450) per eligible household, and are designed to offset the energy-price effect of the carbon fee for households at or below two hundred percent (200%) of the federal poverty guideline, phasing down to zero at three hundred percent (300%).
+(3) ENERGY COST PROTECTION.—Household energy credits under Section 2410(c)(1), applied to utility bills and not paid in cash, are projected at approximately forty-two billion five hundred million dollars ($42,500,000,000) a year and are designed to offset the energy-price effect of the carbon fee for households at or below three hundred percent (300%) of the federal poverty guideline, phasing down to zero at four hundred percent (400%).
 
 (4) STUDENT DEBT RELIEF.—The zero-interest conversion of Section 1501 is projected to reduce interest costs by approximately two thousand dollars ($2,000) in the first year for a borrower with the average outstanding federal balance, declining as principal is repaid.
 
@@ -2819,19 +2912,9 @@ SEC. 2403. LBO INTEREST DEDUCTIBILITY CAP.
 
 (e) STATUTORY COHERENCE NOTE.—The interest deductibility cap in this Section directly reduces the financial incentive for the leveraged acquisitions of Critical Life-Safety Systems prohibited under Title XXII, creating fiscal-structural alignment between the tax and ownership reform frameworks of this Act.
 
-SEC. 2404. NATIONAL INFRASTRUCTURE MAINTENANCE ASSESSMENT.
+SEC. 2404. RESERVED.
 
-(a) ASSESSMENT ESTABLISHED.—There is established a National Infrastructure Maintenance Assessment (NIMA), structured as a user fee under the authority of IRC § 4 and analogous to the Universal Service Fund (47 U.S.C. § 254), the Airport and Airway Trust Fund (26 U.S.C. § 9502), and the Highway Trust Fund (26 U.S.C. § 9503), assessed on the domestic gross revenue of Covered Entities as defined in Section 003 of this Act with domestic gross revenue exceeding one hundred million dollars ($100,000,000) in the immediately preceding fiscal year.
-
-(b) RATE.—The NIMA rate shall be eighteen hundredths of one percent (0.18%) of domestic gross revenue above the one hundred million dollar ($100,000,000) threshold.
-
-(c) LEGAL STRUCTURE.—The NIMA is structured as a user fee, not a tax, reflecting the direct benefit Covered Entities receive from federal infrastructure — including interstate highways, the air traffic control system, the national electrical grid, broadband infrastructure, the legal system, and the national defense establishment — that enables their domestic commercial operations. The NIMA statutory findings and fee structure are designed to satisfy the user fee requirements established in National Cable & Telecommunications Ass'n v. FCC, 567 F.3d 659 (D.C. Cir. 2009) and Texas Office of Public Utility Counsel v. FCC, 183 F.3d 393 (5th Cir. 1999).
-
-(d) COLLECTION MECHANISM.—The NIMA shall be collected quarterly by the Internal Revenue Service through a designated line on the corporate tax return. Small businesses with domestic gross revenue below one hundred million dollars ($100,000,000) are expressly exempt.
-
-(e) REVENUE ALLOCATION.—All NIMA revenue shall be deposited into the SIRF Industrial Infrastructure Node and deployed exclusively for domestic infrastructure maintenance, repair, and modernization projects consistent with the infrastructure security mandate of this Act.
-
-(f) PROJECTED REVENUE.—Annual NIMA revenue is projected at approximately thirty billion dollars ($30,000,000,000), based on aggregate domestic gross receipts of Covered Entities above the threshold as reported by the Bureau of Economic Analysis, reduced for pass-through and cascading effects. This estimate is the Scenario A figure of Schedule G, section 2.
+This section is reserved.
 
 SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
 
@@ -2871,7 +2954,7 @@ SEC. 2407. SPI WAGE FLOOR TAX CREDIT — PHASE 2 ACTIVATION.
 
 (c) PHASE 2 ACTIVATION.—The SPI-WFTC shall not activate until Phase 2 of the Household Structural Relief Node deployment, as certified by the CBO under Section 005 of this Act and the Phase Gate conditions in Schedule E. The cost of the SPI-WFTC is projected at eight to twelve billion dollars ($8,000,000,000–$12,000,000,000) per year, generating positive net fiscal return by Year 4 through reduced public assistance expenditure as household incomes rise above program thresholds.
 
-(d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FMIA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) NIMA and FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
+(d) SCHEDULE D BENCHMARKS — TITLE XXIV.—The FMIA shall report biennially on: (1) annual tax gap reduction attributable to IESF; (2) FTA revenue collected versus projection; (3) number of Covered Entities qualifying for SPI-WFTC and associated wage increases.
 
 SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
 
@@ -2891,11 +2974,11 @@ SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2409. CORPORATE INCOME TAX RESTORATION AND BASE BROADENING.
+SEC. 2409. CORPORATE INCOME TAX BASE BROADENING.
 
-(a) FINDING.—Congress finds that the Tax Cuts and Jobs Act of 2017 reduced the corporate income tax rate from thirty-five percent (35%) to twenty-one percent (21%). A rate of twenty-five percent (25%), within the range of twenty-three to twenty-nine percent recommended by the National Commission on Fiscal Responsibility and Reform in 2010, combined with the repeal of narrow preferences, raises revenue at a lower cost to investment and wages than a higher rate alone.
+(a) FINDING.—Congress finds that narrow preferences in the corporate income tax base, including the deduction for foreign-derived income, last-in, first-out inventory accounting, expensing and percentage depletion for fossil fuels, and immediate deduction of advertising, reduce revenue while favoring some industries over others, and that repealing them raises revenue at a lower cost to investment and wages than a higher rate.
 
-(b) RATE.—Section 11(b) of the Internal Revenue Code of 1986 is amended to set the corporate income tax rate at twenty-five percent (25%) for taxable years beginning after December 31, 2027.
+(b) RATE RETAINED.—Nothing in this Act changes the rate of tax imposed by section 11(b) of the Internal Revenue Code of 1986, which remains twenty-one percent (21%).
 
 (c) FOREIGN-DERIVED DEDUCTION ELIGIBLE INCOME.—Section 250(a)(1)(A) of such Code is amended by striking the deduction for foreign-derived deduction eligible income, effective for taxable years beginning after December 31, 2027.
 
@@ -2913,9 +2996,9 @@ SEC. 2409. CORPORATE INCOME TAX RESTORATION AND BASE BROADENING.
 
 (g) SMALL BUSINESS PROTECTION.—Nothing in this section affects the tax treatment of S corporations, partnerships, sole proprietorships, or other pass-through entities under Subchapter S or K of the Internal Revenue Code. Subsections (b), (c), and (f) apply exclusively to C corporations subject to section 11 of such Code, and subsections (d) and (f) do not apply to a taxpayer that meets the gross receipts test of section 448(c) of such Code.
 
-(h) REVENUE ALLOCATION.—Fifty percent (50%) of incremental corporate income tax revenue attributable to the rate increase above twenty-one percent (21%) shall be deposited into the SIRF Industrial Infrastructure Node to fund domestic manufacturing renaissance programs. Fifty percent (50%) shall be directed to the national debt reduction account.
+(h) REVENUE ALLOCATION.—Revenue under this section shall be applied to deficit reduction under Section 3406(f).
 
-(i) PROJECTED REVENUE.—The rate increase under subsection (b) is projected at approximately fifty-five billion dollars ($55,000,000,000) a year in first-year dollars, based on the published estimate of the Congressional Budget Office of approximately one hundred thirty-six billion dollars ($136,000,000,000) over ten years for each percentage point. Subsections (c) through (f) are projected at approximately forty-seven billion dollars ($47,000,000,000) a year, based on published estimates of the Penn Wharton Budget Model, the Congressional Budget Office, and the Department of the Treasury. Both are itemized in Schedule G. Official scores of the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
+(i) PROJECTED REVENUE.—Subsections (c) through (f) are projected at approximately forty-seven billion dollars ($47,000,000,000) a year in first-year dollars, based on published estimates of the Penn Wharton Budget Model, the Congressional Budget Office, and the Department of the Treasury, as itemized in Schedule G. Official scores of the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2931,19 +3014,19 @@ SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
 
 (c) USE OF NET RECEIPTS.—Net Carbon Fee receipts, after collection and administration costs not to exceed one percent (1%), shall be deposited in the general fund of the Treasury and applied as follows:
 
-(1) HOUSEHOLD ENERGY CREDITS (30%).—An amount equal to thirty percent (30%) of net receipts is appropriated for utility bill credits to households at or below two hundred percent (200%) of the federal poverty guideline, and to households with income above that level in an amount reduced in proportion to the excess, reaching zero at three hundred percent (300%) of the federal poverty guideline, administered through state public utility commissions with automated enrollment. Credits shall be applied directly to the household's residential energy account and shall not be paid in cash. Credits are not taxable income and are not countable as income for purposes of any federal benefit program. The Veterans Energy Security Benefit under Section 906(d) shall be paid first from this allocation.
+(1) HOUSEHOLD ENERGY CREDITS (50%).—An amount equal to fifty percent (50%) of net receipts is appropriated for utility bill credits to households at or below three hundred percent (300%) of the federal poverty guideline, and to households with income above that level in an amount reduced in proportion to the excess, reaching zero at four hundred percent (400%) of the federal poverty guideline, administered through state public utility commissions with automated enrollment. Credits shall be applied directly to the household's residential energy account and shall not be paid in cash. Credits are not taxable income and are not countable as income for purposes of any federal benefit program. The Veterans Energy Security Benefit under Section 906(d) shall be paid first from this allocation.
 
 (2) GRID MODERNIZATION.—An amount equal to the annual allocation for Section 905 under Section 3406(c)(1) is appropriated from net receipts for that purpose, in place of SIRF funding for that allocation, including capital grants to rural electric cooperatives and public power authorities.
 
 (3) DEFICIT REDUCTION.—All remaining net receipts, and all Border Carbon Adjustment proceeds under subsection (e), shall remain in the general fund and be applied to deficit reduction under Section 3406(f).
 
-(d) DISTRIBUTIONAL PROTECTION AND IMPACT REPORTING.—The household energy credits in subsection (c)(1) are sized to offset the energy-price effect of the fee for households at or below two hundred percent (200%) of the federal poverty guideline, phasing down to zero at three hundred percent (300%). The FMIA shall publish an annual Energy Security Impact Report documenting: (1) average residential electricity cost changes by income quintile and geographic category (rural, suburban, urban) in participating utility service territories; (2) total net receipts and amounts applied under each paragraph of subsection (c); (3) number of households receiving Household Energy Affordability Credits and Veterans Energy Security Benefits; and (4) progress toward the Household Energy Cost Reduction Program (HECRP) benchmark of a fifteen percent (15%) reduction in average residential electricity costs. If the bottom forty percent (40%) of households by income are not experiencing net energy cost protection from the credits under subsection (c)(1) within three (3) years of initial deployment, the FMIA shall submit a corrective reallocation plan to Congress within sixty (60) days.
+(d) DISTRIBUTIONAL PROTECTION AND IMPACT REPORTING.—The household energy credits in subsection (c)(1) are sized to offset the energy-price effect of the fee for households at or below three hundred percent (300%) of the federal poverty guideline, phasing down to zero at four hundred percent (400%). The FMIA shall publish an annual Energy Security Impact Report documenting: (1) average residential electricity cost changes by income quintile and geographic category (rural, suburban, urban) in participating utility service territories; (2) total net receipts and amounts applied under each paragraph of subsection (c); (3) number of households receiving Household Energy Affordability Credits and Veterans Energy Security Benefits; and (4) progress toward the Household Energy Cost Reduction Program (HECRP) benchmark of a fifteen percent (15%) reduction in average residential electricity costs. If the bottom forty percent (40%) of households by income are not experiencing net energy cost protection from the credits under subsection (c)(1) within three (3) years of initial deployment, the FMIA shall submit a corrective reallocation plan to Congress within sixty (60) days.
 
 (e) BORDER CARBON ADJUSTMENT.—To prevent carbon leakage, the USTR shall implement a Border Carbon Adjustment on imports of carbon-intensive goods from nations without equivalent carbon pricing, calculated as the carbon fee that would have applied had the goods been produced domestically. The Border Carbon Adjustment shall be structured to be WTO-consistent under Article XX(b) and administered by Customs and Border Protection.
 
 (f) DOMESTIC INDUSTRY TRANSITION SUPPORT.—Energy-intensive, trade-exposed domestic industries shall receive transitional Carbon Fee rebates at seventy-five percent (75%) of their assessed fee in Years 1 through 3, declining by fifteen percent (15%) per year thereafter as the Border Carbon Adjustment provides equivalent competitive protection. By Year 8, the Border Carbon Adjustment fully replaces the transitional rebate.
 
-(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately eighty-five billion dollars ($85,000,000,000) a year, as stated in Schedule G, section 2, of which approximately twenty-five billion dollars ($25,000,000,000) funds the household energy credits of subsection (c)(1) and the balance is applied to deficit reduction under subsection (c)(3).
+(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately eighty-five billion dollars ($85,000,000,000) a year, as stated in Schedule G, section 2, of which approximately forty-two billion five hundred million dollars ($42,500,000,000) funds the household energy credits of subsection (c)(1) and the balance is applied to deficit reduction under subsection (c)(3).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3117,6 +3200,20 @@ SEC. 2420. HIGH-INCOME TAX FAIRNESS.
 
 (f) REVENUE.—Revenue under this section, projected at approximately ninety billion dollars ($90,000,000,000) a year, shall be applied to deficit reduction under Section 3406(f).
 
+
+SEC. 2421. MIDDLE-CLASS TAX RELIEF.
+
+(a) PURPOSE.—The purpose of this section is to deliver tax relief to working and middle-income families through the existing rate schedule, without new programs or new administrative costs, and to recapture that relief from taxpayers with income above $400,000.
+
+(b) RATE REDUCTION.—Section 1(j) of the Internal Revenue Code of 1986 is amended so that, for taxable years beginning after December 31, 2027, the rate of twelve percent (12%) in each rate table is ten percent (10%) and the rate of twenty-two percent (22%) in each rate table is twenty percent (20%). All bracket thresholds are unchanged.
+
+(c) RECAPTURE ABOVE $400,000.—For a taxpayer whose adjusted gross income exceeds $450,000 in the case of a joint return or surviving spouse, $225,000 in the case of a married individual filing a separate return, or $400,000 in any other case (the "threshold"), the tax imposed by chapter 1 of such Code is increased by the amount by which the taxpayer's tax is reduced by reason of subsection (b), multiplied by a fraction (not greater than one) whose numerator is the excess of adjusted gross income over the threshold and whose denominator is $50,000. Each dollar amount in this subsection shall be adjusted for inflation in the same manner as the amounts in section 1(j) of such Code.
+
+(d) PROTECTION.—Subsection (c) does not increase the tax of any taxpayer whose adjusted gross income does not exceed the threshold.
+
+(e) PROJECTED COST.—The net reduction in revenue under this section is projected at approximately one hundred twenty-eight billion dollars ($128,000,000,000) a year in first-year dollars: a reduction of approximately one hundred forty-two billion five hundred million dollars ($142,500,000,000) before recapture, less approximately eleven billion eight hundred million dollars ($11,800,000,000) recaptured under subsection (c), less a behavioral response of two percent (2%), scored with the open-source Tax-Calculator model of the Policy Simulation Library (version 6.9, public CPS file, 2028) against the other provisions of this Act. The cost is itemized in Schedule G, section 3, and is offset by the other provisions of this Act and by Section 3410.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 TITLE XXV — VETERANS HEALTH SECURITY AND PACT ACT COMPLETION
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -4235,13 +4332,12 @@ SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
 (a) DECLARATION OF CLOSED-LOOP DESIGN.—The National Infrastructure and Resilience Fund is designed as a closed-loop, self-capitalizing public fund. Its fiscal sustainability depends on scored, statutory revenue streams — not behavioral enforcement outcomes.
 
 (b) SIRF STATUTORY BASE REVENUE STREAMS.—The following revenue streams are designated Statutory Base Revenue of the SIRF, meaning they are mandatory, self-executing, annually recurring, and not dependent on penalty or enforcement outcomes:
-(1) National Infrastructure Monetization Authority (NIMA) revenues under Section 2404: approximately thirty billion dollars ($30,000,000,000) per year;
-(2) Financial Transaction Assessment (FTA) revenues under Section 2405: approximately three billion dollars ($3,000,000,000) per year;
-(3) Leveraged buyout interest deductibility cap under Section 2403: approximately five billion dollars ($5,000,000,000) per year;
-(4) Carried interest recapture under Section 2402: approximately one billion four hundred million dollars ($1,400,000,000) per year;
-(5) IRS Enforcement Savings Fund (IESF) net return under Section 2406: approximately thirty-five billion dollars ($35,000,000,000) per year, net of the enforcement investment; and
-(6) Carbon fee and border adjustment under Section 2410: approximately eighty-five billion dollars ($85,000,000,000) per year in net budgetary receipts.
-Total Statutory Base Revenue: approximately one hundred fifty-nine billion dollars ($159,000,000,000) per year at full operational ramp, in first-year dollars. Each amount is the Scenario A figure for the same stream in Schedule G, section 2. These streams are part of, and not in addition to, the revenue stated in Section 3406(a); no amount is counted twice.
+(1) Financial Transaction Assessment (FTA) revenues under Section 2405: approximately three billion dollars ($3,000,000,000) per year;
+(2) Leveraged buyout interest deductibility cap under Section 2403: approximately five billion dollars ($5,000,000,000) per year;
+(3) Carried interest recapture under Section 2402: approximately one billion four hundred million dollars ($1,400,000,000) per year;
+(4) IRS Enforcement Savings Fund (IESF) net return under Section 2406: approximately thirty-five billion dollars ($35,000,000,000) per year, net of the enforcement investment; and
+(5) Carbon fee and border adjustment under Section 2410: approximately eighty-five billion dollars ($85,000,000,000) per year in net budgetary receipts.
+Total Statutory Base Revenue: approximately one hundred twenty-nine billion dollars ($129,000,000,000) per year at full operational ramp, in first-year dollars. Each amount is the Scenario A figure for the same stream in Schedule G, section 2. These streams are part of, and not in addition to, the revenue stated in Section 3406(a); no amount is counted twice.
 
 (c) SIRF SUPPLEMENTAL REVENUE STREAMS.—The following revenue streams are designated Supplemental Revenue, meaning they enhance SIRF capitalization but are not assumed in base fiscal projections:
 (1) Structural variance penalties and clawbacks under Titles I, IX, XI, XIII, XIV, and XXII;
@@ -4293,7 +4389,7 @@ RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebala
 
 SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 
-(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately six hundred twenty-seven billion dollars ($627,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.5). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately five hundred forty billion dollars ($540,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately five hundred ten billion dollars ($510,000,000,000), which, against the same costs, would leave approximately sixty-three billion dollars ($63,000,000,000) a year in deficit reduction.
+(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately five hundred forty-two billion dollars ($542,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.6). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately four hundred sixty-six billion dollars ($466,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately four hundred forty-two billion dollars ($442,000,000,000), which, against the same costs, would leave a net annual cost of approximately one hundred forty-nine billion dollars ($149,000,000,000) before Section 3410.
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
 (1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
@@ -4306,10 +4402,11 @@ SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 (8) Veterans Health Security Fund: eight billion dollars ($8,000,000,000);
 (9) Social Security anti-erosion protections: thirty billion dollars ($30,000,000,000);
 (10) Rural Health Security Fund, including Demand-Adjusted Rural Health Physical Infrastructure under Section 2109: three billion dollars ($3,000,000,000);
-(11) Household energy credits under Section 2410(c)(1): twenty-five billion dollars ($25,000,000,000);
+(11) Household energy credits under Section 2410(c)(1): forty-two billion five hundred million dollars ($42,500,000,000);
 (12) Modernization titles, capped under Schedule G, Section 6: fifty-one billion dollars ($51,000,000,000); less
-(13) Medicare payment integrity savings under Section 2112: forty billion dollars ($40,000,000,000).
-Net program costs: approximately three hundred fifty-one billion one hundred million dollars ($351,100,000,000).
+(13) Medicare payment integrity savings under Section 2112: forty billion dollars ($40,000,000,000); plus
+(14) Middle-class tax relief under Section 2421, net of recapture: one hundred twenty-eight billion dollars ($128,000,000,000).
+Net program costs: approximately four hundred ninety-six billion six hundred million dollars ($496,600,000,000).
 
 (c) MANDATORY GROWTH REINVESTMENT — $95B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
 (1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
@@ -4319,14 +4416,14 @@ Net program costs: approximately three hundred fifty-one billion one hundred mil
 (5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year.
 Note: Paragraphs (1) through (5) total ninety-five billion dollars ($95,000,000,000) per year. Demand-Adjusted Rural Health Physical Infrastructure under Section 2109 is funded at three billion dollars ($3,000,000,000) per year under subsection (b)(10), is not part of the total in this subsection, and is counted once. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
-(d) NET ANNUAL DEFICIT REDUCTION.—Six hundred twenty-seven billion dollars ($627,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred eighty-one billion dollars ($181,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion two hundred billion dollars ($2,200,000,000,000), or approximately two trillion six hundred billion dollars ($2,600,000,000,000) including reduced interest costs, within a range of one trillion six hundred billion dollars to three trillion three hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL EFFECT.—Five hundred forty-two billion dollars ($542,000,000,000) in revenue, less four hundred ninety-six billion six hundred million dollars ($496,600,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals a net annual cost of approximately forty-nine billion dollars ($49,000,000,000) at full program operation, in first-year dollars, which the Fiscal Sustainability Plan of Section 3410, approximately three hundred seventy-four billion dollars ($374,000,000,000) a year at full effect, more than offsets. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, the provisions of this section are projected to increase the deficit by approximately five hundred billion dollars ($500,000,000,000), or approximately five hundred billion dollars ($500,000,000,000) including interest costs. Together with Section 3410, cumulative deficit reduction is projected at approximately two trillion dollars ($2,000,000,000,000), or approximately two trillion three hundred billion dollars ($2,300,000,000,000) including reduced interest costs, within a range of one trillion four hundred billion dollars to two trillion nine hundred billion dollars under the scenarios in Schedule G.
 
-(e) DESIGNATION.—The net annual deficit reduction stated in subsection (d) is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
+(e) DESIGNATION.—The net annual deficit reduction of this Act, including Section 3410, is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
 (f) BALANCED BUDGET PATH.—
 (1) FINDINGS.—Congress finds that—
 (A) the Congressional Budget Office, in The Budget and Economic Outlook: 2026 to 2036 (February 2026), projects a federal deficit of $1,900,000,000,000 in fiscal year 2026 rising to $3,100,000,000,000 in fiscal year 2036, a primary deficit of 2.6 percent of gross domestic product in fiscal year 2026, and net interest outlays rising from 3.3 percent to 4.6 percent of gross domestic product over that period;
-(B) the net annual deficit reduction stated in subsection (d), standing alone, reduces the projected deficit by roughly one-tenth and does not by itself balance the budget; and
+(B) the provisions of this Act, including Section 3410, reduce the projected deficit by roughly one-seventh by the tenth year and do not by themselves balance the budget; and
 (C) a balanced budget therefore requires binding statutory targets and an enforcement mechanism that operates automatically if the targets are not met.
 (2) STATUTORY FISCAL TARGETS.—The following targets are established, each measured as a percentage of gross domestic product using actual budget results for the fiscal year concerned:
 (A) DEFICIT LIMIT, FOURTH YEAR.—For the fourth full fiscal year beginning after the date of enactment of this Act and each fiscal year thereafter until subparagraph (B) applies, the federal deficit shall not exceed four and one-half percent (4.5%) of gross domestic product.
@@ -4414,13 +4511,13 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (e) LIMIT ON THE VALUE OF TAX PREFERENCES.—Section 68 of the Internal Revenue Code of 1986 is amended so that, for taxable years beginning after December 31, 2027, for a taxpayer whose adjusted gross income exceeds $400,000, the tax benefit of itemized deductions and of exclusions for employer-provided health coverage, retirement contributions, and tax-exempt interest is limited to twenty-eight percent (28%) of the amount deducted or excluded.
 
-(f) CARBON FEE SCHEDULE.—Section 2410(b) is amended so that the rate increases by five dollars ($5) per metric ton each year, beginning in the second year, until it reaches seventy-five dollars ($75), and is indexed to the Consumer Price Index thereafter. The household energy credits of Section 2410(c)(1) remain at thirty percent (30%) of net receipts at every rate.
+(f) CARBON FEE SCHEDULE.—Section 2410(b) is amended so that the rate increases by five dollars ($5) per metric ton each year, beginning in the second year, until it reaches seventy-five dollars ($75), and is indexed to the Consumer Price Index thereafter. The household energy credits of Section 2410(c)(1) remain at fifty percent (50%) of net receipts at every rate.
 
 (g) PAYMENT INTEGRITY.—Each agency with a program reporting improper payments above one billion dollars ($1,000,000,000) under section 3352 of title 31, United States Code, shall reduce its improper payment rate by not less than one-third within three (3) fiscal years, using the verification systems of Sections 3509 and 3904. Recoveries and avoided payments are applied to deficit reduction.
 
 (h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected.
 
-(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred eighty-five billion dollars ($385,000,000,000) a year at full effect, stated in first-year dollars. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred eighty-nine billion dollars ($489,000,000,000) while subsection (b) is still phasing in. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion nine hundred billion dollars ($4,900,000,000,000), or approximately five trillion five hundred billion dollars ($5,500,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to below five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred seventy-four billion dollars ($374,000,000,000) a year at full effect, stated in first-year dollars. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred seventy-three billion dollars ($473,000,000,000) while subsection (b) is still phasing in. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately two trillion dollars ($2,000,000,000,000), or approximately two trillion three hundred billion dollars ($2,300,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to between five and one-half and six percent of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4925,7 +5022,7 @@ SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 
 1. PURPOSE.
 
-Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.5, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
+Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.6, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4934,13 +5031,11 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Stream                                                   Section        Conf.        Scenario A   Scenario B
   --------------------------------------------------------------------------------------------------------
   Social Security payroll tax on wages above $400,000      Sec. 2408      High         $  105.0B   $   99.8B
-  Corporate rate 21% to 25%                                Sec. 2409(b)   High         $   55.0B   $   52.2B
   IRS enforcement, net of investment returns               Sec. 2406      Moderate     $   35.0B   $   28.0B
   Carbon fee, $40/ton indexed (net budgetary receipts)     Sec. 2410      Moderate     $   85.0B   $   68.0B
   Global minimum tax (Pillar Two / UTPR)                   Sec. 2411      Moderate     $   50.0B   $   40.0B
   Financial transaction tax 0.1%                           Sec. 2413      Moderate     $   75.0B   $   60.0B
   Carryover basis above $5M                                Sec. 2412      Moderate     $   15.0B   $   12.0B
-  NIMA 0.18% on domestic gross > $100M                     Sec. 2404      Preliminary  $   30.0B   $   15.0B
   Federal royalty modernization                            Sec. 2414      Moderate     $   12.0B   $    9.6B
   Financial-sector excess-profits assessment               Sec. 2415      Preliminary  $   10.0B   $    5.0B
   Medicare/Medicaid fraud recovery (FDVM)                  Title I        Preliminary  $    8.0B   $    4.0B
@@ -4954,11 +5049,11 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Stock-buyback excise 1% to 4%                            Sec. 2420(d)   High         $   15.0B   $   14.2B
   Corporate base broadening: FDDEI deduction, LIFO, fossil Sec. 2409(c-f) Moderate     $   47.0B   $   37.6B
   --------------------------------------------------------------------------------------------------------
-  TOTAL REVENUE                                                                        $  627.4B   $  509.5B
+  TOTAL REVENUE                                                                        $  542.4B   $  442.3B
 
-  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2404, 2405, 2406 and 2410, approximately $159B) are part of the $627.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule.
+  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2405, 2406 and 2410, approximately $129B) are part of the $542.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule. Section 2404 is reserved; the infrastructure maintenance assessment of earlier versions was withdrawn in methodology version 2026.6, together with the corporate rate increase of Section 2409(b).
 
-  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-02, CBO budget option: about $136B per percentage point over 2025-2034; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
+  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4966,6 +5061,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
   Student-loan zero-interest conversion (net of interest not collected under IDR)  Sec. 1501          $  55.0B
   SPI wage-floor credit                                                            Sec. 2407          $  10.0B
+  Middle-class tax relief: 12% and 22% brackets to 10% and 20%, recaptured above $400K / $450K joint Sec. 2421          $ 128.0B
   Basic Minimum Plan, net new federal cost (after enrollee premiums above 250% of poverty) Title XXI          $ 180.0B
   TANF enhancement                                                                 Sec. 3406(b)(3)    $   5.0B
   Housing security fund and down-payment help                                      Title XIV          $   1.5B
@@ -4974,12 +5070,12 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Veterans Health Security Fund                                                    Title XXV          $   8.0B
   Social Security anti-erosion protections                                         Sec. 3406(b)(9)    $  30.0B
   Rural health infrastructure                                                      Sec. 2109          $   3.0B
-  Household energy bill credits (30% of carbon fee)                                Sec. 2410(c)       $  25.0B
+  Household energy bill credits (50% of carbon fee; full to 300% of poverty, zero at 400%) Sec. 2410(c)       $  42.5B
   Infrastructure (grid, water, food systems, rewilding, chips)                     Sec. 3406(c)       $  95.0B
   Science, child care, digital government (capped)                                 Schedule G sec. 6  $  51.0B
   Medicare payment integrity savings (MA coding, site-neutral)                     Sec. 2112          $ -40.0B
   ------------------------------------------------------------------------------------------------------------
-  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 446.1B
+  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 591.6B
 
   Basic Minimum Plan basis: approximately 25,500,000 newly covered enrollees (85 percent take-up of approximately 30,000,000 uninsured) at approximately $7,000 per enrollee at 100 percent of Medicare rates; plus approximately $40B for the move of transitioned Medicaid and CHIP enrollees to Medicare-level payment and approximately $41.5B for the move of Exchange enrollees to the BMP; less approximately $40B in enrollee premium contributions above 250 percent of the poverty line (Section 2110(a)); less approximately $15B in reduced federal uncompensated-care spending and approximately $25B in Title XIII pharmaceutical savings. State maintenance-of-effort contributions under Section 2103(d)(1) replace the former State share for transitioned populations.
 
@@ -4987,29 +5083,29 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
 4. RECONCILIATION AND TEN-YEAR PROJECTION.
 
-  Full-ramp annual deficit reduction (Scenario A): $627.4B revenue - $446.1B costs and outlays = $181.3B.
+  Full-ramp net annual effect of Section 3406 (Scenario A): $542.4B revenue - $591.6B costs and outlays = -$49.2B (negative is a net cost, offset by Section 3410 in section 4A).
   Revenue ramps with enforcement capacity (86, 94, 98, then 100 percent realization in Years 1-4) and grows 4 percent a year; programs phase in behind the certification gates of Schedule E (55, 75, 90, then 100 percent) and grow 4.5 percent a year; reduced debt lowers interest costs at 3.5 percent.
 
   Fiscal year   Revenue   Costs+outlays   Deficit reduction   Interest savings   Total     Cumulative
-  Year 1  (FY2028)  $  540B    $  275B          $  265B             $   0B           $  265B   $   265B
-  Year 2  (FY2029)  $  613B    $  366B          $  247B             $   9B           $  256B   $   521B
-  Year 3  (FY2030)  $  665B    $  445B          $  220B             $  18B           $  238B   $   760B
-  Year 4  (FY2031)  $  706B    $  508B          $  198B             $  27B           $  224B   $   984B
-  Year 5  (FY2032)  $  734B    $  531B          $  203B             $  34B           $  238B   $  1222B
-  Year 6  (FY2033)  $  763B    $  554B          $  209B             $  43B           $  252B   $  1474B
-  Year 7  (FY2034)  $  794B    $  579B          $  215B             $  52B           $  267B   $  1741B
-  Year 8  (FY2035)  $  826B    $  604B          $  221B             $  61B           $  282B   $  2023B
-  Year 9  (FY2036)  $  859B    $  631B          $  228B             $  71B           $  299B   $  2322B
-  Year 10 (FY2037)  $  893B    $  659B          $  234B             $  81B           $  315B   $  2637B
+  Year 1  (FY2028)  $  466B    $  412B          $   54B             $   0B           $   54B   $    54B
+  Year 2  (FY2029)  $  530B    $  513B          $   17B             $   2B           $   19B   $    73B
+  Year 3  (FY2030)  $  575B    $  601B          $  -26B             $   3B           $  -23B   $    50B
+  Year 4  (FY2031)  $  610B    $  672B          $  -62B             $   2B           $  -60B   $   -10B
+  Year 5  (FY2032)  $  635B    $  701B          $  -67B             $  -0B           $  -67B   $   -77B
+  Year 6  (FY2033)  $  660B    $  732B          $  -72B             $  -3B           $  -74B   $  -151B
+  Year 7  (FY2034)  $  686B    $  763B          $  -77B             $  -5B           $  -82B   $  -233B
+  Year 8  (FY2035)  $  714B    $  796B          $  -83B             $  -8B           $  -91B   $  -324B
+  Year 9  (FY2036)  $  742B    $  831B          $  -89B             $ -11B           $ -100B   $  -424B
+  Year 10 (FY2037)  $  772B    $  867B          $  -95B             $ -15B           $ -110B   $  -534B
 
-  Ten-year cumulative deficit reduction, Scenario A: $2.2T before interest savings; $2.6T including interest savings.
-  Range (revenue factor 0.88 to 1.08): $1.6T to $3.3T including interest savings.
+  Ten-year cumulative effect of Section 3406 alone, Scenario A (positive is deficit reduction): -$0.5T before interest; -$0.5T including interest.
+  Range (revenue factor 0.88 to 1.08): -$1.4T to $0.1T including interest.
 
   OBLIGATION COVERAGE (SCENARIO B):
-  Scenario B revenue:                                       $509.5B
+  Scenario B revenue:                                       $442.3B
   Tier 1 SIRF capitalization and Tier 2 program floor:      $174.0B
-  Coverage ratio:                                           2.93x
-  High-confidence streams only (Scenario B):                $168.4B, or 0.97x
+  Coverage ratio:                                           2.54x
+  High-confidence streams only (Scenario B):                $116.2B, or 0.67x
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -5020,56 +5116,57 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Medicare drug negotiation expansion and post-acute payment reform                    Sec. 3410(c)     $    25B      Yr 2    5
   Appropriations caps: defense and non-defense grow at inflation minus 1.5%            Sec. 3410(d)     $   240B      Yr 1    10
   Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    22B      Yr 1    1
-  Carbon fee rises $5/ton a year to $75 (net of household credits)                     Sec. 3410(f)     $    40B      Yr 2    7
+  Carbon fee rises $5/ton a year to $75 (net of household credits at 50%)              Sec. 3410(f)     $    29B      Yr 2    7
   Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $     8B      Yr 2    3
   Crop insurance: premium subsidy and insurer reimbursement reform                     Sec. 3410(h)     $     5B      Yr 2    1
-  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   385B
+  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   374B
 
   Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
-  Year 1  (FY2028)  $  265B          $   46B          $   0B            $  311B   $   311B
-  Year 2  (FY2029)  $  247B          $   92B          $  11B            $  350B   $   661B
-  Year 3  (FY2030)  $  220B          $  136B          $  23B            $  379B   $  1040B
-  Year 4  (FY2031)  $  198B          $  184B          $  36B            $  418B   $  1458B
-  Year 5  (FY2032)  $  203B          $  231B          $  51B            $  486B   $  1944B
-  Year 6  (FY2033)  $  209B          $  283B          $  68B            $  560B   $  2504B
-  Year 7  (FY2034)  $  215B          $  332B          $  88B            $  635B   $  3139B
-  Year 8  (FY2035)  $  221B          $  386B          $ 110B            $  717B   $  3856B
-  Year 9  (FY2036)  $  228B          $  436B          $ 135B            $  798B   $  4654B
-  Year 10 (FY2037)  $  234B          $  489B          $ 163B            $  886B   $  5540B
+  Year 1  (FY2028)  $   54B          $   46B          $   0B            $  100B   $   100B
+  Year 2  (FY2029)  $   17B          $   90B          $   4B            $  111B   $   211B
+  Year 3  (FY2030)  $  -26B          $  133B          $   7B            $  114B   $   325B
+  Year 4  (FY2031)  $  -62B          $  178B          $  11B            $  128B   $   453B
+  Year 5  (FY2032)  $  -67B          $  224B          $  16B            $  173B   $   626B
+  Year 6  (FY2033)  $  -72B          $  273B          $  22B            $  223B   $   849B
+  Year 7  (FY2034)  $  -77B          $  320B          $  30B            $  272B   $  1122B
+  Year 8  (FY2035)  $  -83B          $  371B          $  39B            $  327B   $  1449B
+  Year 9  (FY2036)  $  -89B          $  420B          $  51B            $  382B   $  1831B
+  Year 10 (FY2037)  $  -95B          $  473B          $  64B            $  442B   $  2273B
 
-  Ten-year combined deficit reduction: $4.9T before interest savings; $5.5T including interest savings (range $4.5T to $6.2T).
-  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($627.4B, $446.1B, $181.3B, $385B) are first-year dollars. The Year 10 plan figure ($489B) is the $385B schedule, less the share of Sec. 3410(b) still phasing in, grown 4 percent a year for nine years.
+  Ten-year combined deficit reduction: $2.0T before interest savings; $2.3T including interest savings (range $1.4T to $2.9T).
+  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($542.4B, $591.6B, a net cost of $49.2B, $374B) are first-year dollars. The Year 10 plan figure ($473B) is the $374B schedule, less the share of Sec. 3410(b) still phasing in, grown 4 percent a year for nine years.
 
   MODELED DEFICIT COMPARED WITH STATUTORY LIMITS (percent of GDP; CBO February 2026 baseline less the total above):
-  Year 4  (FY2031): modeled about 4.9 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
-  Year 10 (FY2037): modeled about 4.7 percent; limit 3.0 percent (Sec. 3406(f)(2)(B)).
-  The modeled path does not by itself meet either limit. The remaining amount, about 0.4 percent of GDP in Year 4 and 1.7 percent in Year 10, is to be provided by a Fiscal Target Act or by the automatic adjustments of Sec. 3406(f)(4), which are limited to 0.5 percent of GDP in new adjustments a year.
+  Year 4  (FY2031): modeled about 5.6 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
+  Year 10 (FY2037): modeled about 5.7 percent; limit 3.0 percent (Sec. 3406(f)(2)(B)).
+  The modeled path does not by itself meet either limit. The remaining amount, about 1.1 percent of GDP in Year 4 and 2.7 percent in Year 10, is to be provided by a Fiscal Target Act or by the automatic adjustments of Sec. 3406(f)(4), which are limited to 0.5 percent of GDP in new adjustments a year.
   Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office's published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
 
-  OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
+  OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 2421, 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
 
-  RELATIONSHIP TO SECTION 3406(f): The deficit reduction of Section 3406 lowers the CBO baseline deficit by roughly one-tenth, and Section 3410 roughly doubles that by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
+  RELATIONSHIP TO SECTION 3406(f): Section 3406, which includes the middle-class tax relief of Section 2421, is a net cost after its early years; Section 3410 more than offsets it, and together they lower the CBO baseline deficit by roughly one-seventh by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
 
 4B. ACT DEPENDENCIES.
 
-  The 40 titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp).
+  The 40 titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp). Act I costs include the middle-class tax relief of Sec. 2421 ($128.0B) and the household energy credits of Sec. 2410(c)(1) ($42.5B).
 
   Act                                         Titles                                   Revenue   Costs    Net
-  Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $618.4B   $ 85.0B  +$533.4B
+  Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $533.4B   $230.5B  +$302.9B
   Act II  Health Security                     XIII, XXI, XXV                           $  0.0B   $151.0B  -$151.0B
   Act III Economic Security                   II, V, XIV, XV, XXII, XXXVII, XXXVIII    $  0.0B   $110.1B  -$110.1B
   Act IV  Supply Chain Security               VII, VIII, IX, XII, XVII, XXIII          $  0.0B   $ 60.0B  -$ 60.0B
   Act V   Accountability and Data Rights      all other titles                         $  9.0B   $ 40.0B  -$ 31.0B
-  Total                                                                                $627.4B   $446.1B  +$181.3B
+  Total                                                                                $542.4B   $591.6B  -$ 49.2B
 
-  Act I also contains the Fiscal Sustainability Plan (Sec. 3410) and the deficit limits (Sec. 3406(f)).
+  Act I also contains the Fiscal Sustainability Plan (Sec. 3410, $374B a year at full effect) and the deficit limits (Sec. 3406(f)). The five acts together cost $49.2B a year more than they raise before Sec. 3410; with Sec. 3410 they reduce the deficit.
 
   STATUS OF EACH ACT IF INTRODUCED SEPARATELY:
   Act I: independently viable. It reduces the deficit on its own.
   Act II: viable with companion revenue of not less than $151B, for example Secs. 2411, 2412, 2413 and 2420(b) ($163B).
-  Act III: viable with companion revenue of not less than $110B, for example Secs. 2409 and 2420(d) ($117B).
-  Act IV: viable with companion revenue of not less than $60B, for example Sec. 2410 net of its household credits ($60B).
+  Act III: viable with companion revenue of not less than $110B, for example Secs. 2406, 2409, 2414, 2415 and 2420(d) ($119B).
+  Act IV: viable with companion revenue of not less than $60B, for example Sec. 2410 net of its household credits and Secs. 2403, 2405 and 2420(c) ($62.5B).
   Act V: viable with companion revenue of not less than $31B, for example Sec. 2420(a) ($40B).
+  If every other act takes its companion revenue from Act I, the revenue remaining in Act I does not cover Sec. 2421 and the household energy credits, and Sec. 3410 must be enacted with them.
   Revenue under Sec. 2408 is credited to the Social Security Trust Funds and is not available as companion revenue for any act.
 
   SHARED DEPENDENCIES: The SIRF is established in Title II (Act III) and its allocation rules in Title XXXIV (Act I). An act that moves without Title II shall be funded by direct appropriation of its companion revenue. The FMIA (Title I, Act V) administers the fraud-recovery streams of Title I; Act I's tax enforcement under Sec. 2406 does not depend on it. Acts introduced separately lose the coordination savings of the full Act, and each shall be scored on its own terms.
@@ -5105,10 +5202,10 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   MAXIMUM NEW SIRF TIER 3 DRAW:                     $51.0B
 
   COVERAGE UNDER THE CONSERVATIVE FLOOR (SCENARIO B):
-  Scenario B revenue (Section 4):                           $509.5B
+  Scenario B revenue (Section 4):                           $442.3B
   Tier 1+2 obligations plus maximum modernization draw:     $225.0B
-  Coverage ratio:                                           2.26x
-  High-confidence streams only: $168.4B / $225.0B = 0.75x
+  Coverage ratio:                                           1.97x
+  High-confidence streams only: $116.2B / $225.0B = 0.52x
 
   Each modernization title is capped, may draw only on Tier 3 capacity, and requires OMB
   certification that it does not increase the deficit under Scenario B. If Scenario B
