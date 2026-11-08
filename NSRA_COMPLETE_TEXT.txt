@@ -1395,7 +1395,7 @@ SEC. 1004. NATIONAL WATER SECURITY AND REDISTRIBUTION INFRASTRUCTURE.
 
 SEC. 1005. URBAN AND RURAL WILDLIFE CORRIDOR AND REWILDING INFRASTRUCTURE.
 
-(a) PURPOSE.—There is established an Urban and Rural Wildlife Corridor and Rewilding Infrastructure program, funded at twenty-two billion dollars ($22,000,000,000) per year from the SIRF pursuant to Section 3406(c)(2).
+(a) PURPOSE.—There is established an Urban and Rural Wildlife Corridor and Rewilding Infrastructure program, funded at twenty billion dollars ($20,000,000,000) per year from the SIRF pursuant to Section 3406(c)(2).
 
 (b) AUTHORIZED INVESTMENTS.—Program funds shall support: (1) wildlife crossing structures and habitat connectivity corridors; (2) restoration of degraded public lands and watersheds; (3) urban green infrastructure and reforestation; and (4) native species and pollinator habitat recovery.
 
@@ -2803,7 +2803,7 @@ SEC. 2402. CARRIED INTEREST — ORDINARY INCOME TREATMENT.
 
 (c) EFFECTIVE DATE.—The amendments in this Section shall apply to taxable years beginning after the date of enactment.
 
-(d) PROJECTED REVENUE.—The Congressional Budget Office shall score the revenue impact of this Section within sixty (60) days of enactment. Based on existing JCT and CBO analysis, annual revenue is projected at not less than fourteen billion dollars ($14,000,000,000) per year.
+(d) PROJECTED REVENUE.—The Congressional Budget Office shall score the revenue impact of this Section within sixty (60) days of enactment. Based on published Joint Committee on Taxation estimates of approximately fourteen billion dollars ($14,000,000,000) over ten years for comparable proposals, annual revenue is projected at approximately one billion four hundred million dollars ($1,400,000,000). This estimate is the Scenario A figure of Schedule G, section 2.
 
 (e) REVENUE ALLOCATION.—Fifty percent (50%) of net revenue attributable to the amendments in this Section shall be deposited into the SIRF Main Street Capitalization Node to fund small business and cooperative development as a direct reinvestment of capital formerly subsidized through the tax code differential.
 
@@ -2815,7 +2815,7 @@ SEC. 2403. LBO INTEREST DEDUCTIBILITY CAP.
 
 (c) EFFECTIVE DATE.—The amendments in this Section shall apply to interest expense on acquisition indebtedness incurred after the date of enactment. Existing acquisition debt shall be subject to a phase-in period during which the cap applies at forty percent (40%) of EBITDA for years one through three following enactment, and thirty percent (30%) thereafter.
 
-(d) PROJECTED REVENUE.—Annual revenue from this Section is projected at not less than eighteen billion dollars ($18,000,000,000) per year upon full phase-in, consistent with existing JCT analysis of equivalent proposals.
+(d) PROJECTED REVENUE.—Annual revenue from this Section is projected at approximately five billion dollars ($5,000,000,000) upon full phase-in, based on Joint Committee on Taxation estimates of limitations under section 163(j) of the Internal Revenue Code of 1986. This estimate is the Scenario A figure of Schedule G, section 2.
 
 (e) STATUTORY COHERENCE NOTE.—The interest deductibility cap in this Section directly reduces the financial incentive for the leveraged acquisitions of Critical Life-Safety Systems prohibited under Title XXII, creating fiscal-structural alignment between the tax and ownership reform frameworks of this Act.
 
@@ -2831,7 +2831,7 @@ SEC. 2404. NATIONAL INFRASTRUCTURE MAINTENANCE ASSESSMENT.
 
 (e) REVENUE ALLOCATION.—All NIMA revenue shall be deposited into the SIRF Industrial Infrastructure Node and deployed exclusively for domestic infrastructure maintenance, repair, and modernization projects consistent with the infrastructure security mandate of this Act.
 
-(f) PROJECTED REVENUE.—Annual NIMA revenue is projected at not less than thirty-nine billion six hundred million dollars ($39,600,000,000) based on current aggregate domestic gross revenue of Covered Entities above the threshold.
+(f) PROJECTED REVENUE.—Annual NIMA revenue is projected at approximately thirty billion dollars ($30,000,000,000), based on aggregate domestic gross receipts of Covered Entities above the threshold as reported by the Bureau of Economic Analysis, reduced for pass-through and cascading effects. This estimate is the Scenario A figure of Schedule G, section 2.
 
 SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
 
@@ -2845,7 +2845,7 @@ SEC. 2405. FINANCIAL TRANSACTION ASSESSMENT.
 
 (e) REVENUE ALLOCATION.—All FTA revenue shall be deposited into the SIRF and allocated equally between the Household Structural Relief Node and the Industrial Infrastructure Node.
 
-(f) PROJECTED REVENUE.—Annual FTA revenue is projected at not less than seven billion dollars ($7,000,000,000) based on current institutional trading volume data, requiring no behavioral change from institutional investors to achieve this yield.
+(f) PROJECTED REVENUE.—Annual FTA revenue is projected at approximately three billion dollars ($3,000,000,000), based on current institutional trading volume reduced for the volume response to the tax under Section 2413, on which this assessment is stacked. This estimate is the Scenario A figure of Schedule G, section 2.
 
 SEC. 2406. IRS ENFORCEMENT SAVINGS FUND.
 
@@ -2943,7 +2943,7 @@ SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
 
 (f) DOMESTIC INDUSTRY TRANSITION SUPPORT.—Energy-intensive, trade-exposed domestic industries shall receive transitional Carbon Fee rebates at seventy-five percent (75%) of their assessed fee in Years 1 through 3, declining by fifteen percent (15%) per year thereafter as the Border Carbon Adjustment provides equivalent competitive protection. By Year 8, the Border Carbon Adjustment fully replaces the transitional rebate.
 
-(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately ninety billion dollars ($90,000,000,000) a year, of which approximately thirty-five billion dollars ($35,000,000,000) is applied to deficit reduction under subsection (c)(3).
+(g) PROJECTED REVENUE.—At forty dollars ($40) per metric ton, gross receipts are projected at approximately one hundred fifteen billion dollars ($115,000,000,000) a year. After the reduction in income and payroll tax receipts that accompanies any excise tax and the transitional rebates under subsection (f), net budgetary receipts are projected at approximately eighty-five billion dollars ($85,000,000,000) a year, as stated in Schedule G, section 2, of which approximately twenty-five billion dollars ($25,000,000,000) funds the household energy credits of subsection (c)(1) and the balance is applied to deficit reduction under subsection (c)(3).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2961,7 +2961,7 @@ SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
 
 (c) REVENUE ALLOCATION.—All Pillar Two top-up tax revenue shall be deposited into the SIRF Industrial Infrastructure Node, dedicated to capitalization of domestic manufacturing facilities and supply chain resilience investments.
 
-(d) PROJECTED REVENUE.—Full Pillar Two implementation is projected at not less than seventy-five billion dollars ($75,000,000,000) in annual US revenue by the Congressional Budget Office and independent economists, rising as other nations implement equivalent rules that close remaining arbitrage opportunities.
+(d) PROJECTED REVENUE.—Full Pillar Two implementation is projected at approximately fifty billion dollars ($50,000,000,000) in annual United States revenue, based on Joint Committee on Taxation and OECD estimates, and may rise as other nations implement equivalent rules. This estimate is the Scenario A figure of Schedule G, section 2.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -2984,7 +2984,7 @@ SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY.
 
 (e) REVENUE ALLOCATION.—Revenue from carryover basis recognition shall be allocated: fifty percent (50%) to the SIRF Household Structural Relief Node for Household Structural Relief and BMP capitalization; fifty percent (50%) to the national debt reduction account.
 
-(f) PROJECTED REVENUE.—Carryover basis implementation for estates above five million dollars ($5,000,000) — with the family farm, small business, and residence exclusions — is projected by the Congressional Budget Office at not less than fifty billion dollars ($50,000,000,000) annually.
+(f) PROJECTED REVENUE.—Carryover basis implementation for estates above five million dollars ($5,000,000) — with the family farm, small business, and residence exclusions — is projected at approximately fifteen billion dollars ($15,000,000,000) annually, based on Joint Committee on Taxation estimates of comparable carryover-basis proposals. This estimate is the Scenario A figure of Schedule G, section 2.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3009,7 +3009,7 @@ SEC. 2413. FINANCIAL TRANSACTION TAX — WALL STREET FAIR SHARE CONTRIBUTION.
 
 (e) REVENUE ALLOCATION.—All FTT revenue shall be allocated: fifty percent (50%) to the national debt reduction account; twenty-five percent (25%) to the SIRF Household Structural Relief Node; twenty-five percent (25%) to the SIRF Industrial Infrastructure Node.
 
-(f) PROJECTED REVENUE.—The FTT is projected at not less than seventy-five billion dollars ($75,000,000,000) per year based on current US equity, bond, and derivative market volumes.
+(f) PROJECTED REVENUE.—The FTT is projected at approximately seventy-five billion dollars ($75,000,000,000) per year, based on the Congressional Budget Office estimate of approximately seven hundred fifty-two billion dollars ($752,000,000,000) over ten years for a comparable tax, including reduced trading volume. This estimate is the Scenario A figure of Schedule G, section 2.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3027,7 +3027,7 @@ SEC. 2414. FEDERAL LAND ROYALTY REFORM.
 
 (f) REVENUE ALLOCATION.—All incremental royalty revenue above pre-enactment baseline collections shall be deposited into the SIRF Industrial Infrastructure Node, dedicated to domestic critical mineral supply chain development and the Strategic Critical Supply Reserve established in Title XII.
 
-(g) PROJECTED REVENUE.—The royalty rate adjustments in this Section are projected to generate not less than fifteen billion dollars ($15,000,000,000) in additional annual revenue above current baseline, rising as critical mineral extraction expands under NSRA domestic sourcing mandates.
+(g) PROJECTED REVENUE.—The royalty rate adjustments in this Section are projected to generate approximately twelve billion dollars ($12,000,000,000) in additional annual revenue above current baseline, within the range stated in subsection (a). This estimate is the Scenario A figure of Schedule G, section 2.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3045,7 +3045,7 @@ SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS STABILIZATION ASSESSMENT.
 
 (d) REVENUE ALLOCATION.—All FEPSA revenue shall be deposited into the SIRF Household Structural Relief Node, dedicated to direct household economic relief through the Household Structural Relief Node and Basic Minimum Plan, closing the loop between excess financial sector extraction and the household economic harm it produces.
 
-(e) PROJECTED REVENUE.—Based on current financial sector reported ROE data, the FEPSA is projected at not less than twenty billion dollars ($20,000,000,000) annually, with revenue declining naturally over time as competitive pressures and NSRA structural reforms reduce market concentration — which is the intended outcome.
+(e) PROJECTED REVENUE.—Based on current financial sector reported ROE data, the FEPSA is projected at approximately ten billion dollars ($10,000,000,000) annually, as stated in Schedule G, section 2, with revenue declining over time as competitive pressures and NSRA structural reforms reduce market concentration — which is the intended outcome.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4235,13 +4235,13 @@ SEC. 3402. SIRF STATUTORY BASE REVENUE ARCHITECTURE.
 (a) DECLARATION OF CLOSED-LOOP DESIGN.—The National Infrastructure and Resilience Fund is designed as a closed-loop, self-capitalizing public fund. Its fiscal sustainability depends on scored, statutory revenue streams — not behavioral enforcement outcomes.
 
 (b) SIRF STATUTORY BASE REVENUE STREAMS.—The following revenue streams are designated Statutory Base Revenue of the SIRF, meaning they are mandatory, self-executing, annually recurring, and not dependent on penalty or enforcement outcomes:
-(1) National Infrastructure Monetization Authority (NIMA) revenues: estimated thirty-nine billion six hundred million dollars ($39,600,000,000) per year;
-(2) Financial Transaction Assessment (FTA) revenues: estimated seven billion dollars ($7,000,000,000) per year;
-(3) Leveraged Buyout Structural Assessment (LBO): estimated eighteen billion dollars ($18,000,000,000) per year;
-(4) Carried Interest Recapture: estimated fourteen billion dollars ($14,000,000,000) per year;
-(5) IRS Enforcement Savings Fund (IESF) net return: estimated sixty to ninety billion dollars ($60,000,000,000 to $90,000,000,000) per year net of enforcement cost, based on Congressional Research Service modeling of enforcement investment returns; and
-(6) Carbon Fee and Border Adjustment: estimated forty billion dollars ($40,000,000,000) per year.
-Total Statutory Base Revenue: one hundred seventy-eight billion dollars ($178,000,000,000) to two hundred forty billion dollars ($240,000,000,000) per year.
+(1) National Infrastructure Monetization Authority (NIMA) revenues under Section 2404: approximately thirty billion dollars ($30,000,000,000) per year;
+(2) Financial Transaction Assessment (FTA) revenues under Section 2405: approximately three billion dollars ($3,000,000,000) per year;
+(3) Leveraged buyout interest deductibility cap under Section 2403: approximately five billion dollars ($5,000,000,000) per year;
+(4) Carried interest recapture under Section 2402: approximately one billion four hundred million dollars ($1,400,000,000) per year;
+(5) IRS Enforcement Savings Fund (IESF) net return under Section 2406: approximately thirty-five billion dollars ($35,000,000,000) per year, net of the enforcement investment; and
+(6) Carbon fee and border adjustment under Section 2410: approximately eighty-five billion dollars ($85,000,000,000) per year in net budgetary receipts.
+Total Statutory Base Revenue: approximately one hundred fifty-nine billion dollars ($159,000,000,000) per year at full operational ramp, in first-year dollars. Each amount is the Scenario A figure for the same stream in Schedule G, section 2. These streams are part of, and not in addition to, the revenue stated in Section 3406(a); no amount is counted twice.
 
 (c) SIRF SUPPLEMENTAL REVENUE STREAMS.—The following revenue streams are designated Supplemental Revenue, meaning they enhance SIRF capitalization but are not assumed in base fiscal projections:
 (1) Structural variance penalties and clawbacks under Titles I, IX, XI, XIII, XIV, and XXII;
@@ -4249,7 +4249,7 @@ Total Statutory Base Revenue: one hundred seventy-eight billion dollars ($178,00
 (3) Health Profiteering Surplus Assessment (HPSA) revenues; and
 (4) Any other penalty, forfeiture, or enforcement recovery designated by the FMIA.
 
-(d) STATUTORY BASE REVENUE SUFFICIENCY DECLARATION.—The Statutory Base Revenue streams of subsection (b) are independently sufficient to fund all SIRF node deployment commitments established in this Act at their minimum annual levels without reliance on Supplemental Revenue. Supplemental Revenue shall be treated as surplus capitalization that accelerates deployment or increases node allocations above minimum statutory floors.
+(d) REVENUE SUFFICIENCY.—The revenue provisions itemized in Schedule G, section 2, of which the Statutory Base Revenue streams of subsection (b) are a part, are projected to fund all SIRF commitments established in this Act at their minimum annual levels without reliance on Supplemental Revenue. Supplemental Revenue shall be treated as surplus capitalization that accelerates deployment or increases node allocations above minimum statutory floors.
 
 (e) SIRF FOUR-TIER PRIORITY WATERFALL.—SIRF funds shall be deployed in the following strict priority order:
 (1) TIER 1 — MANDATORY STRUCTURAL OBLIGATIONS.—Basic Minimum Plan federal per-capita payments; TANF structural floor enhancement; Secure Child Prosperity Trust birth deposits; Shelter Security Fund; Household Structural Relief Node mechanisms. Tier 1 obligations are non-discretionary and shall be funded first in each fiscal quarter before any Tier 2 disbursement.
@@ -4305,20 +4305,19 @@ SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 (7) IESF mandatory IRS investment: fifteen billion dollars ($15,000,000,000);
 (8) Veterans Health Security Fund: eight billion dollars ($8,000,000,000);
 (9) Social Security anti-erosion protections: thirty billion dollars ($30,000,000,000);
-(10) Rural Health Security Fund: three billion dollars ($3,000,000,000);
+(10) Rural Health Security Fund, including Demand-Adjusted Rural Health Physical Infrastructure under Section 2109: three billion dollars ($3,000,000,000);
 (11) Household energy credits under Section 2410(c)(1): twenty-five billion dollars ($25,000,000,000);
 (12) Modernization titles, capped under Schedule G, Section 6: fifty-one billion dollars ($51,000,000,000); less
 (13) Medicare payment integrity savings under Section 2112: forty billion dollars ($40,000,000,000).
 Net program costs: approximately three hundred fifty-one billion one hundred million dollars ($351,100,000,000).
 
-(c) MANDATORY GROWTH REINVESTMENT — $100B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
+(c) MANDATORY GROWTH REINVESTMENT — $95B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling ninety-five billion dollars ($95,000,000,000) per year, allocated as follows:
 (1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
-(2) Urban and Rural Wildlife Corridor and Rewilding Infrastructure (Section 1005, Title X): twenty-two billion dollars ($22,000,000,000) per year;
+(2) Urban and Rural Wildlife Corridor and Rewilding Infrastructure (Section 1005, Title X): twenty billion dollars ($20,000,000,000) per year;
 (3) National Food System Detoxification and Soil Security — comprising Regional Food System Infrastructure (Section 706, Title VII) and Agricultural Pesticide Transition Support (Section 705(d), Title VII): twenty billion dollars ($20,000,000,000) per year;
 (4) Semiconductor and Critical Materials Security (Section 1204, Title XII): fifteen billion dollars ($15,000,000,000) per year;
-(5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year;
-(6) Demand-Adjusted Rural Health Physical Infrastructure (Section 2109, Title XXI): three billion dollars ($3,000,000,000) per year for years one through five, scaling per FMIA assessment.
-Note: The foregoing totals ninety-five to one hundred billion dollars ($95,000,000,000 to $100,000,000,000) per year. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
+(5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year.
+Note: Paragraphs (1) through (5) total ninety-five billion dollars ($95,000,000,000) per year. Demand-Adjusted Rural Health Physical Infrastructure under Section 2109 is funded at three billion dollars ($3,000,000,000) per year under subsection (b)(10), is not part of the total in this subsection, and is counted once. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
 (d) NET ANNUAL DEFICIT REDUCTION.—Six hundred twenty-seven billion dollars ($627,000,000,000) in revenue, less three hundred fifty-one billion one hundred million dollars ($351,100,000,000) in net program costs and ninety-five billion dollars ($95,000,000,000) in infrastructure investment under subsection (c), equals approximately one hundred eighty-one billion dollars ($181,000,000,000) in annual deficit reduction at full program operation, in first-year dollars. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, cumulative deficit reduction is projected at approximately two trillion two hundred billion dollars ($2,200,000,000,000), or approximately two trillion six hundred billion dollars ($2,600,000,000,000) including reduced interest costs, within a range of one trillion six hundred billion dollars to three trillion three hundred billion dollars under the scenarios in Schedule G.
 
@@ -4421,7 +4420,7 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected.
 
-(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred eighty-five billion dollars ($385,000,000,000) a year at full effect, stated in first-year dollars. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion nine hundred billion dollars ($4,900,000,000,000), or approximately five trillion five hundred billion dollars ($5,500,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to below five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred eighty-five billion dollars ($385,000,000,000) a year at full effect, stated in first-year dollars. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred eighty-nine billion dollars ($489,000,000,000) while subsection (b) is still phasing in. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately four trillion nine hundred billion dollars ($4,900,000,000,000), or approximately five trillion five hundred billion dollars ($5,500,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to below five percent (5%) of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4957,6 +4956,8 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   --------------------------------------------------------------------------------------------------------
   TOTAL REVENUE                                                                        $  627.4B   $  509.5B
 
+  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2404, 2405, 2406 and 2410, approximately $159B) are part of the $627.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule.
+
   Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-02, CBO budget option: about $136B per percentage point over 2025-2034; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-08, BEA receipts; cascade haircut; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -5007,7 +5008,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   OBLIGATION COVERAGE (SCENARIO B):
   Scenario B revenue:                                       $509.5B
   Tier 1 SIRF capitalization and Tier 2 program floor:      $174.0B
-  Coverage ratio:                                           2.26x
+  Coverage ratio:                                           2.93x
   High-confidence streams only (Scenario B):                $168.4B, or 0.97x
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -5037,11 +5038,41 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Year 10 (FY2037)  $  234B          $  489B          $ 163B            $  886B   $  5540B
 
   Ten-year combined deficit reduction: $4.9T before interest savings; $5.5T including interest savings (range $4.5T to $6.2T).
+  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($627.4B, $446.1B, $181.3B, $385B) are first-year dollars. The Year 10 plan figure ($489B) is the $385B schedule, less the share of Sec. 3410(b) still phasing in, grown 4 percent a year for nine years.
+
+  MODELED DEFICIT COMPARED WITH STATUTORY LIMITS (percent of GDP; CBO February 2026 baseline less the total above):
+  Year 4  (FY2031): modeled about 4.9 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
+  Year 10 (FY2037): modeled about 4.7 percent; limit 3.0 percent (Sec. 3406(f)(2)(B)).
+  The modeled path does not by itself meet either limit. The remaining amount, about 0.4 percent of GDP in Year 4 and 1.7 percent in Year 10, is to be provided by a Fiscal Target Act or by the automatic adjustments of Sec. 3406(f)(4), which are limited to 0.5 percent of GDP in new adjustments a year.
   Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office's published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
 
   OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
 
   RELATIONSHIP TO SECTION 3406(f): The deficit reduction of Section 3406 lowers the CBO baseline deficit by roughly one-tenth, and Section 3410 roughly doubles that by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
+
+4B. ACT DEPENDENCIES.
+
+  The 40 titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp).
+
+  Act                                         Titles                                   Revenue   Costs    Net
+  Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $618.4B   $ 85.0B  +$533.4B
+  Act II  Health Security                     XIII, XXI, XXV                           $  0.0B   $151.0B  -$151.0B
+  Act III Economic Security                   II, V, XIV, XV, XXII, XXXVII, XXXVIII    $  0.0B   $110.1B  -$110.1B
+  Act IV  Supply Chain Security               VII, VIII, IX, XII, XVII, XXIII          $  0.0B   $ 60.0B  -$ 60.0B
+  Act V   Accountability and Data Rights      all other titles                         $  9.0B   $ 40.0B  -$ 31.0B
+  Total                                                                                $627.4B   $446.1B  +$181.3B
+
+  Act I also contains the Fiscal Sustainability Plan (Sec. 3410) and the deficit limits (Sec. 3406(f)).
+
+  STATUS OF EACH ACT IF INTRODUCED SEPARATELY:
+  Act I: independently viable. It reduces the deficit on its own.
+  Act II: viable with companion revenue of not less than $151B, for example Secs. 2411, 2412, 2413 and 2420(b) ($163B).
+  Act III: viable with companion revenue of not less than $110B, for example Secs. 2409 and 2420(d) ($117B).
+  Act IV: viable with companion revenue of not less than $60B, for example Sec. 2410 net of its household credits ($60B).
+  Act V: viable with companion revenue of not less than $31B, for example Sec. 2420(a) ($40B).
+  Revenue under Sec. 2408 is credited to the Social Security Trust Funds and is not available as companion revenue for any act.
+
+  SHARED DEPENDENCIES: The SIRF is established in Title II (Act III) and its allocation rules in Title XXXIV (Act I). An act that moves without Title II shall be funded by direct appropriation of its companion revenue. The FMIA (Title I, Act V) administers the fraud-recovery streams of Title I; Act I's tax enforcement under Sec. 2406 does not depend on it. Acts introduced separately lose the coordination savings of the full Act, and each shall be scored on its own terms.
 
 ━━
 
@@ -5077,7 +5108,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Scenario B revenue (Section 4):                           $509.5B
   Tier 1+2 obligations plus maximum modernization draw:     $225.0B
   Coverage ratio:                                           2.26x
-  High-confidence streams only: $177.4B / $225.0B = 0.79x
+  High-confidence streams only: $168.4B / $225.0B = 0.75x
 
   Each modernization title is capped, may draw only on Tier 3 capacity, and requires OMB
   certification that it does not increase the deficit under Scenario B. If Scenario B
