@@ -9,6 +9,7 @@
 - [2026 midterm results and what the new Congress can pass](https://theamericandeal.org/2026-midterms/)
 - [2028 agenda](https://theamericandeal.org/2028/)
 - [Balanced budget path (Sec. 3406(f), 3410)](https://theamericandeal.org/balanced-budget/)
+- [Hard questions, answered straight](https://theamericandeal.org/hard-questions/)
 - [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
 - [Stop government waste (Titles XXXV, XXXIX)](https://theamericandeal.org/government-waste/)
 - [Health coverage (Title XXI)](https://theamericandeal.org/healthcare/)
@@ -29,7 +30,7 @@
 ## Full context for AI tools
 - [llms-full.txt](https://theamericandeal.org/llms-full.txt): key figures, every title, and answers to common questions
 
-## Key figures (methodology v2026.5, 2026-11-07)
+## Key figures (methodology v2026.5, 2026-11-08)
 - Revenue at full ramp: about $627B a year from 20 streams (conservative floor $510B)
 - Program costs, outlays and infrastructure: about $446B a year
 - Core annual deficit reduction: about $181B
@@ -46,6 +47,7 @@
 ### Act 1: The American Fiscal Integrity Act
 - Title XXIV: Tax Code Reform And Fiscal Integrity (https://theamericandeal.org/bill-text/#title-XXIV)
 - Title 0: Statutory Foundations And Core Definitions (https://theamericandeal.org/bill-text/#title-0)
+- Title XXXIV: Structural Architecture Refinement And Sirf Solvency (https://theamericandeal.org/bill-text/#title-XXXIV)
 
 ### Act 2: The American Health Security Act
 - Title XXI: Universal Basic Minimum Coverage Through Competitive Private Delivery (https://theamericandeal.org/bill-text/#title-XXI)
@@ -88,7 +90,6 @@
 - Title XXIX: Congressional Financial Integrity And Stock Trading Prohibition (https://theamericandeal.org/bill-text/#title-XXIX)
 - Title XXX: Nafta/Usmca Gap Closure And Trade Enforcement (https://theamericandeal.org/bill-text/#title-XXX)
 - Title XXXI: American Mutual Benefit Global Health Security (https://theamericandeal.org/bill-text/#title-XXXI)
-- Title XXXIV: Structural Architecture Refinement And Sirf Solvency (https://theamericandeal.org/bill-text/#title-XXXIV)
 - Title XXXV: Public Integrity And Executive Accountability (https://theamericandeal.org/bill-text/#title-XXXV)
 - Title XXXVI: Foreign Influence Transparency And Adversary Capital Defense (https://theamericandeal.org/bill-text/#title-XXXVI)
 - Title XXXIX: Digital Government Modernization (https://theamericandeal.org/bill-text/#title-XXXIX)
@@ -120,7 +121,7 @@ About $627 billion a year in revenue at full ramp from 20 sources, led by Social
 It caps insulin at $35 a month, ties U.S. drug prices to the median price in other G7 countries, and expands Medicare drug price negotiation to 50 drugs a year.
 
 ### What health coverage does the NSRA provide?
-The Basic Minimum Plan gives the roughly 30 million uninsured Americans coverage with no deductible. It has no premium up to 250% of the poverty line, and premiums are capped at 8.5% of income above that. It is run through the existing ACA marketplaces and pays providers at Medicare rates.
+The Basic Minimum Plan is open to the roughly 30 million uninsured Americans, and about 25.5 million are expected to enroll. It has no deductible. It has no premium up to 250% of the poverty line, and premiums are capped at 8.5% of income above that. It is run through the existing ACA marketplaces and pays providers at Medicare rates.
 
 ### What does the NSRA do about housing costs?
 It caps corporate ownership of single-family homes at 50 per metro area, phases out excess holdings gradually so local markets are not flooded, and rewards towns that allow more homes to be built.
@@ -129,4 +130,4 @@ It caps corporate ownership of single-family homes at 50 per metro area, phases 
 Santonio D. Sanders, a U.S. Navy veteran, former VA ambulatory care director and former U.S. State Department official. The project is independent and is not affiliated with any party, PAC or elected official.
 
 ## Citation
-Santonio D. Sanders, National Sovereignty and Resilience Act (the American Deal), https://theamericandeal.org/bill-text/, version of 2026-11-07.
+Santonio D. Sanders, National Sovereignty and Resilience Act (the American Deal), https://theamericandeal.org/bill-text/, version of 2026-11-08.
