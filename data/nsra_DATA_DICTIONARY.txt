@@ -1,5 +1,5 @@
 NSRA MACHINE-READABLE DATASETS - DATA DICTIONARY
-Methodology version: v2026.5    Last updated: 2026-11-07
+Methodology version: v2026.6    Last updated: 2026-11-08
 Publisher: TheAmericanDeal.org (National Sovereignty and Resilience Act)
 Status: Internally modeled on published government baselines. Official CBO/JCT scoring pending and welcomed.
 Contact: contact@theamericandeal.org
@@ -44,10 +44,10 @@ nsra_source_register.csv
 
 CANONICAL TAXONOMY
 ------------------
-Full-ramp revenue ~$627B/yr (Scenario B floor ~$510B) - costs, outlays and infrastructure ~$446B
-= ~$181B annual deficit reduction. Ten years: ~$2.2T before interest savings, ~$2.6T including
-interest savings (range $1.6T-$3.3T).
-  With the Sec. 3410 Fiscal Sustainability Plan (~$385B/yr at full effect, Y1 dollars): ~$4.9T over ten years
-  before interest savings, ~$5.5T including them (range ~$4.5T-$6.2T). See nsra_fiscal_sustainability_plan.csv.
+Full-ramp revenue ~$542B/yr (Scenario B floor ~$442B) - costs, outlays and infrastructure ~$592B,
+including the $128B middle-class tax cut of Sec. 2421, = a net cost of ~$49B a year before Sec. 3410.
+Ten years, core alone: ~$0.5T added to deficits.
+  With the Sec. 3410 Fiscal Sustainability Plan (~$374B/yr at full effect, Y1 dollars): ~$2.0T over ten years
+  before interest savings, ~$2.3T including them (range ~$1.4T-$2.9T). See nsra_fiscal_sustainability_plan.csv.
 Statutory deficit limits (Sec. 3406(f)): 4.5% of GDP by
 Year 4, 3% by Year 10, and a required vote on a Balanced Budget Act by Year 8.
