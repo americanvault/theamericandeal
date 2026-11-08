@@ -1,6 +1,6 @@
 # The American Deal: National Sovereignty and Resilience Act (NSRA)
 
-> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.5 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
+> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 270 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $5.5 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
 
 ## Key pages
 - [Homepage: the whole plan, state map, household calculator, every title and every dollar](https://theamericandeal.org/)
@@ -10,6 +10,7 @@
 - [2028 agenda](https://theamericandeal.org/2028/)
 - [Balanced budget path (Sec. 3406(f), 3410)](https://theamericandeal.org/balanced-budget/)
 - [Hard questions, answered straight](https://theamericandeal.org/hard-questions/)
+- [What the NSRA means for employers and investors](https://theamericandeal.org/employers/)
 - [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
 - [Stop government waste (Titles XXXV, XXXIX)](https://theamericandeal.org/government-waste/)
 - [Health coverage (Title XXI)](https://theamericandeal.org/healthcare/)
@@ -78,7 +79,7 @@
 - Title X: Clean Water, Conservation, And Essential Public Utilities (https://theamericandeal.org/bill-text/#title-X)
 - Title XI: The Automated Environmental Remediation Network (A.B.R.N.) (https://theamericandeal.org/bill-text/#title-XI)
 - Title VI: National Capital Protection And Pension Anti-Fragility (https://theamericandeal.org/bill-text/#title-VI)
-- Title XVI: Capital Flight Protection, Post-Quantum Financial Security, And Inflation Protection (https://theamericandeal.org/bill-text/#title-XVI)
+- Title XVI: Capital Flight Protection, Post-Quantum Financial Security, Inflation Protection, And Financial Stability (https://theamericandeal.org/bill-text/#title-XVI)
 - Title XIX: Return On Investment, Performance Benchmarks, And American Household Benefit Accounting (https://theamericandeal.org/bill-text/#title-XIX)
 - Title XX: Bipartisan Implementation Safeguards And Market Competition Preservation (https://theamericandeal.org/bill-text/#title-XX)
 - Title XVIII: Procedural Due Process And Special Standing Controls (https://theamericandeal.org/bill-text/#title-XVIII)
@@ -97,7 +98,7 @@
 ## Common questions
 
 ### What is the American Deal (NSRA)?
-The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 261 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $5.5 trillion over ten years.
+The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 270 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $5.5 trillion over ten years.
 
 ### Has the NSRA been introduced in Congress?
 Not yet. The full text is published so any member of Congress or candidate can introduce all of it or any part of it. Six planks, including the congressional stock trading ban and the government-waste provisions, are written to move on their own in 2027.
