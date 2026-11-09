@@ -1,6 +1,6 @@
 # The American Deal: National Sovereignty and Resilience Act (NSRA)
 
-> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 271 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $2.9 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
+> The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 41 titles and 279 sections by Santonio D. Sanders, an independent citizen author. It is model legislation published for any sponsor and has not yet been introduced. It cuts the deficit by about $2.9 trillion over ten years including lower interest costs, with no income-tax increase on households under $400,000. Fiscal figures are the project's own estimates, built on published CBO, JCT, SSA and Treasury estimates and checked with open-source models; they are not official CBO or JCT scores.
 
 ## Key pages
 - [Homepage: the whole plan, state map, household calculator, every title and every dollar](https://theamericandeal.org/)
@@ -11,6 +11,7 @@
 - [Balanced budget path (Sec. 3406(f), 3410)](https://theamericandeal.org/balanced-budget/)
 - [Hard questions, answered straight](https://theamericandeal.org/hard-questions/)
 - [What the NSRA means for employers and investors](https://theamericandeal.org/employers/)
+- [Elections any citizen can check (Title XL)](https://theamericandeal.org/secure-elections/)
 - [Congressional stock trading ban (Title XXIX)](https://theamericandeal.org/stock-trading-ban/)
 - [Stop government waste (Titles XXXV, XXXIX)](https://theamericandeal.org/government-waste/)
 - [Health coverage (Title XXI)](https://theamericandeal.org/healthcare/)
@@ -31,19 +32,19 @@
 ## Full context for AI tools
 - [llms-full.txt](https://theamericandeal.org/llms-full.txt): key figures, every title, and answers to common questions
 
-## Key figures (methodology v2026.7, 2026-11-08)
+## Key figures (methodology v2026.7, 2026-11-09)
 - Revenue at full ramp: about $542B a year from 18 streams (conservative floor $442B)
 - Program costs, outlays and infrastructure: about $542B a year
 - Core annual deficit reduction: about $1B
-- Fiscal Sustainability Plan (Sec. 3410): about $374B a year at full effect
-- Ten-year deficit reduction: $2.6T before interest, $2.9T including lower interest costs (range $2.1T to $3.5T)
+- Fiscal Sustainability Plan (Sec. 3410): about $369B a year at full effect
+- Ten-year deficit reduction: $2.6T before interest, $2.9T including lower interest costs (range $2.0T to $3.5T)
 - Deficit limits in law: 4.5% of GDP by Year 4, 3% by Year 10; vote by Year 8 on a plan to balance by Year 15
 - Coverage: about 30 million uninsured people covered; no premium up to 250% of poverty; premiums capped at 8.5% of income
 - Drug prices: $35 insulin, G7 median price ceiling, 50 drugs negotiated a year
 - Housing: corporate single-family ownership capped at 50 homes per metro area
 - Stock trading: members of Congress, spouses, senior officials and federal judges divest within 180 days
 
-## Structure: five acts, 40 titles
+## Structure: five acts, 41 titles
 
 ### Act 1: The American Fiscal Integrity Act
 - Title XXIV: Tax Code Reform And Fiscal Integrity (https://theamericandeal.org/bill-text/#title-XXIV)
@@ -94,14 +95,18 @@
 - Title XXXV: Public Integrity And Executive Accountability (https://theamericandeal.org/bill-text/#title-XXXV)
 - Title XXXVI: Foreign Influence Transparency And Adversary Capital Defense (https://theamericandeal.org/bill-text/#title-XXXVI)
 - Title XXXIX: Digital Government Modernization (https://theamericandeal.org/bill-text/#title-XXXIX)
+- Title XL: Personal Safety, Civil Liberties, And Election Integrity (https://theamericandeal.org/bill-text/#title-XL)
 
 ## Common questions
 
 ### What is the American Deal (NSRA)?
-The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 40 titles and 271 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, and writes deficit limits into law, while cutting the deficit by about $2.9 trillion over ten years.
+The National Sovereignty and Resilience Act (NSRA), called the American Deal, is a complete federal bill of 41 titles and 279 sections written by Santonio D. Sanders, an independent citizen author. It lowers household costs (health coverage, prescription drugs, housing, student loans), bans congressional stock trading, builds a voting system that lets every citizen check their ballot was counted, and writes deficit limits into law, while cutting the deficit by about $2.9 trillion over ten years.
 
 ### Has the NSRA been introduced in Congress?
 Not yet. The full text is published so any member of Congress or candidate can introduce all of it or any part of it. Six planks, including the congressional stock trading ban and the government-waste provisions, are written to move on their own in 2027.
+
+### How does the NSRA make elections more secure and transparent?
+Title XL builds the National Verifiable Voting System, a publicly owned, open-source system for every race on the ballot, from Congress to school board. You vote on paper; each ballot is encrypted and posted to a public ledger as it is counted; you confirm with a code from your phone that your ballot was counted; anyone can verify the totals with free software; and paper ballots are audited before results are certified. No one can see how you voted. Voting from a phone comes only after pilots, federal security certification and a vote of Congress.
 
 ### Does the NSRA ban stock trading by members of Congress?
 Yes. Title XXIX requires members of Congress, their spouses, senior executive officials and federal judges to divest individual stocks within 180 days, with penalties larger than any trade could earn.
@@ -113,10 +118,10 @@ No. Income taxes go down for most of them: the 12%% and 22%% brackets drop to 10
 Nothing changes for anyone eligible before 2032, the retirement age does not change, and Medicare benefits, premiums and cost-sharing are not cut. To keep Social Security solvent, benefits grow more slowly for future retirees with the highest lifetime earnings, and the minimum benefit rises to 125% of the poverty line for 30-year workers. Social Security, Medicare, Medicaid, veterans' benefits and SNAP are exempt from automatic budget cuts.
 
 ### How does the NSRA balance the budget?
-It cuts the deficit by about $2.9 trillion over ten years including lower interest costs (range $2.1 to $3.5 trillion), caps the deficit at 4.5% of GDP by Year 4 and 3% by Year 10, and requires Congress to vote by Year 8 on a plan to balance the budget by Year 15. If Congress misses a limit, an automatic trigger closes the gap, half from high-income tax breaks and half from non-exempt spending.
+It cuts the deficit by about $2.9 trillion over ten years including lower interest costs (range $2.0 to $3.5 trillion), caps the deficit at 4.5% of GDP by Year 4 and 3% by Year 10, and requires Congress to vote by Year 8 on a plan to balance the budget by Year 15. If Congress misses a limit, an automatic trigger closes the gap, half from high-income tax breaks and half from non-exempt spending.
 
 ### How is the NSRA paid for?
-About $542 billion a year in revenue at full ramp from 18 sources, led by Social Security tax on wages above $400,000, corporate base broadening at the current 21% rate, a global minimum tax, IRS enforcement, a 0.1% financial transaction tax and a 39.6% top rate above $400,000. Program costs, infrastructure and a $128 billion middle-class tax cut come to about $542 billion, so the programs pay for themselves, and the Fiscal Sustainability Plan adds about $374 billion a year at full effect. Ten-year deficit reduction is about $2.9 trillion. Estimates are checked with open-source models and published CBO, JCT and SSA estimates; official scoring is pending.
+About $542 billion a year in revenue at full ramp from 18 sources, led by Social Security tax on wages above $400,000, corporate base broadening at the current 21% rate, a global minimum tax, IRS enforcement, a 0.1% financial transaction tax and a 39.6% top rate above $400,000. Program costs, infrastructure and a $128 billion middle-class tax cut come to about $542 billion, so the programs pay for themselves, and the Fiscal Sustainability Plan adds about $369 billion a year at full effect. Ten-year deficit reduction is about $2.9 trillion. Estimates are checked with open-source models and published CBO, JCT and SSA estimates; official scoring is pending.
 
 ### What does the NSRA do about prescription drug prices?
 It caps insulin at $35 a month, ties U.S. drug prices to the median price in other G7 countries, and expands Medicare drug price negotiation to 50 drugs a year.
@@ -131,4 +136,4 @@ It caps corporate ownership of single-family homes at 50 per metro area, phases 
 Santonio D. Sanders, a U.S. Navy submarine veteran, former VA ambulatory care operations director, and former State Department senior IT auditor (through SAIC, CSRA and GDIT). The project is independent and is not affiliated with any party, PAC or elected official.
 
 ## Citation
-Santonio D. Sanders, National Sovereignty and Resilience Act (the American Deal), https://theamericandeal.org/bill-text/, version of 2026-11-08.
+Santonio D. Sanders, National Sovereignty and Resilience Act (the American Deal), https://theamericandeal.org/bill-text/, version of 2026-11-09.
