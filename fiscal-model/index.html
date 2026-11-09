@@ -175,7 +175,7 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.7):</b> ~$542B in annual revenue at full ramp · ~$374B a year from the Fiscal Sustainability Plan at full effect · programs and the $128B middle-class tax cut paid for by the bill's revenue before the plan · ~$2.9T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.8):</b> ~$542B in annual revenue at full ramp · ~$369B a year from the Fiscal Sustainability Plan at full effect · programs and the $128B middle-class tax cut paid for by the bill's revenue before the plan · ~$2.9T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -214,7 +214,7 @@ var STREAMS=[
  {n: "Corporate base broadening: FDDEI deduction, LIFO, fossil-fuel preferences, advertising (Sec. 2409(c-f))", v: 47},
  {n: "Student-loan zero-interest conversion (net of interest not collected under IDR) (cost)", v: -55, cost: true},
  {n: "Middle-class tax relief: 12% and 22% brackets to 10% and 20%, recaptured above $400K / $450K joint (cost)", v: -128, cost: true},
- {n: "Fiscal Sustainability Plan, Sec. 3410 (full effect)", v: 373.6, plan: true}
+ {n: "Fiscal Sustainability Plan, Sec. 3410 (full effect)", v: 368.6, plan: true}
 ];
 function fmt(x){var s=(x<0?"-":"")+"$"+Math.abs(x).toFixed(0)+"B";return s;}
 function render(){
@@ -243,9 +243,9 @@ function calc(){
  document.getElementById('rReal').textContent=real+'%';
  document.getElementById('rProg').textContent=fmt(prog);
  document.getElementById('rCount').textContent=count;
- var pct=Math.round(def/374*100);
+ var pct=Math.round(def/369*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published full-effect estimate ($374B a year with the Sec. 3410 plan), and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published full-effect estimate ($369B a year with the Sec. 3410 plan), and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
