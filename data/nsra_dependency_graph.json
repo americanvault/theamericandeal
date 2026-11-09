@@ -1,0 +1,1452 @@
+{
+ "titles": {
+  "0": {
+   "name": "STATUTORY FOUNDATIONS AND CORE DEFINITIONS",
+   "sections": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008"
+   ],
+   "out": {
+    "XXXIX": 1,
+    "XXI": 34,
+    "XXXIV": 12,
+    "II": 41,
+    "XIII": 6,
+    "IV": 2,
+    "V": 3,
+    "XXIV": 1,
+    "XV": 2,
+    "I": 21,
+    "XIV": 1,
+    "VII": 1,
+    "IX": 3,
+    "XVI": 2,
+    "XX": 1,
+    "VIII": 2,
+    "XII": 1,
+    "XIX": 1,
+    "XVIII": 1
+   },
+   "in": {
+    "IV": 13,
+    "V": 2,
+    "VI": 5,
+    "XXIV": 12,
+    "XXXIII": 3,
+    "XXXIV": 4,
+    "I": 6,
+    "II": 1,
+    "III": 14,
+    "VII": 2,
+    "VIII": 1,
+    "IX": 13,
+    "X": 4,
+    "XI": 1,
+    "XII": 1,
+    "XIII": 2,
+    "XVI": 3,
+    "XVIII": 8,
+    "XX": 1,
+    "XXXV": 1
+   },
+   "inst": {
+    "II": 34,
+    "I": 19,
+    "XXI": 20,
+    "XIX": 1,
+    "XVIII": 1,
+    "XXXIV": 5
+   }
+  },
+  "I": {
+   "name": "FEDERAL MARKET INTEGRITY ADMINISTRATION AND ECONOMIC DATA VERIFICATION",
+   "sections": [
+    "101",
+    "102",
+    "103",
+    "104",
+    "105",
+    "106",
+    "107"
+   ],
+   "out": {
+    "II": 5,
+    "XVI": 1,
+    "V": 2,
+    "XVII": 2,
+    "XXXV": 3,
+    "X": 2,
+    "XXVIII": 2,
+    "XXIV": 1,
+    "VII": 2,
+    "XIII": 4,
+    "IX": 3,
+    "XI": 1,
+    "0": 6
+   },
+   "in": {
+    "0": 21,
+    "XVIII": 27,
+    "XXIV": 7,
+    "XXXIV": 10,
+    "II": 13,
+    "III": 14,
+    "IV": 13,
+    "V": 2,
+    "VI": 5,
+    "VII": 7,
+    "VIII": 3,
+    "IX": 8,
+    "X": 3,
+    "XI": 1,
+    "XII": 4,
+    "XIII": 1,
+    "XIV": 9,
+    "XVI": 12,
+    "XVII": 4,
+    "XIX": 5,
+    "XX": 5,
+    "XXI": 9,
+    "XXII": 4,
+    "XXIII": 7,
+    "XXV": 8,
+    "XXVII": 2,
+    "XXX": 1,
+    "XXXI": 6,
+    "XXXII": 4,
+    "XXXIII": 14,
+    "XXXV": 3,
+    "XXXVI": 2
+   },
+   "inst": {
+    "II": 4,
+    "0": 6
+   }
+  },
+  "II": {
+   "name": "STRATEGIC INFRASTRUCTURE REINVESTMENT FUND",
+   "sections": [
+    "201",
+    "202",
+    "203",
+    "204",
+    "205"
+   ],
+   "out": {
+    "IV": 1,
+    "XXXIV": 4,
+    "XVI": 1,
+    "I": 13,
+    "0": 1,
+    "XXI": 1
+   },
+   "in": {
+    "0": 41,
+    "I": 5,
+    "III": 11,
+    "V": 14,
+    "X": 7,
+    "XII": 9,
+    "XIV": 6,
+    "XVI": 7,
+    "XVII": 13,
+    "XVIII": 23,
+    "XXI": 6,
+    "XXIV": 20,
+    "XXV": 6,
+    "XXX": 8,
+    "XXXII": 11,
+    "XXXIV": 29,
+    "XXXV": 2,
+    "IV": 2,
+    "VI": 5,
+    "VII": 10,
+    "VIII": 5,
+    "IX": 7,
+    "XI": 5,
+    "XIII": 8,
+    "XV": 4,
+    "XIX": 8,
+    "XX": 7,
+    "XXII": 5,
+    "XXIII": 2,
+    "XXVI": 4,
+    "XXVII": 2,
+    "XXVIII": 1,
+    "XXIX": 1,
+    "XXXI": 5,
+    "XXXIII": 17,
+    "XXXVII": 3,
+    "XXXVIII": 2,
+    "XXXIX": 1
+   },
+   "inst": {
+    "I": 13,
+    "0": 1,
+    "XXXIV": 2,
+    "XXI": 1
+   }
+  },
+  "III": {
+   "name": "THE ARTIFICIAL INTELLIGENCE SECURITY AND PERSONAL DATA RIGHTS",
+   "sections": [
+    "301",
+    "302",
+    "303",
+    "304"
+   ],
+   "out": {
+    "XXXIV": 1,
+    "II": 11,
+    "IX": 1,
+    "XVIII": 1,
+    "I": 14,
+    "0": 14
+   },
+   "in": {
+    "IV": 1,
+    "XII": 1,
+    "XXXIII": 2,
+    "XXXIX": 1
+   },
+   "inst": {
+    "II": 10,
+    "I": 14,
+    "0": 14
+   }
+  },
+  "IV": {
+   "name": "DOMESTIC SOURCING, WAGE ENFORCEMENT, AND CITIZEN ENFORCEMENT ACTIONS",
+   "sections": [
+    "401",
+    "402",
+    "403",
+    "404"
+   ],
+   "out": {
+    "III": 1,
+    "XX": 1,
+    "0": 13,
+    "I": 13,
+    "II": 2
+   },
+   "in": {
+    "0": 2,
+    "II": 1,
+    "XV": 1,
+    "XVI": 1,
+    "XVII": 1,
+    "XXI": 1,
+    "XXIV": 1,
+    "XXVII": 1,
+    "XXX": 1
+   },
+   "inst": {
+    "I": 13,
+    "0": 12,
+    "II": 2
+   }
+  },
+  "V": {
+   "name": "CHILD PROSPERITY AND POVERTY REDUCTION",
+   "sections": [
+    "501",
+    "502",
+    "503",
+    "504",
+    "505"
+   ],
+   "out": {
+    "XIX": 3,
+    "IX": 1,
+    "0": 2,
+    "II": 14,
+    "XXXIV": 6,
+    "I": 2
+   },
+   "in": {
+    "0": 3,
+    "I": 2,
+    "XVIII": 2,
+    "XIX": 1,
+    "XX": 1,
+    "XXXIV": 6
+   },
+   "inst": {
+    "II": 13,
+    "XXXIV": 6,
+    "0": 1,
+    "I": 2,
+    "XIX": 1
+   }
+  },
+  "VI": {
+   "name": "NATIONAL CAPITAL PROTECTION AND PENSION ANTI-FRAGILITY",
+   "sections": [
+    "601",
+    "602",
+    "603",
+    "604"
+   ],
+   "out": {
+    "0": 5,
+    "XVI": 1,
+    "II": 5,
+    "I": 5
+   },
+   "in": {
+    "XIX": 1,
+    "XXX": 1
+   },
+   "inst": {
+    "II": 5,
+    "0": 4,
+    "I": 5
+   }
+  },
+  "VII": {
+   "name": "AGRICULTURE AND FOOD SUPPLY SECURITY",
+   "sections": [
+    "701",
+    "702",
+    "703",
+    "704",
+    "705",
+    "706"
+   ],
+   "out": {
+    "XXXIV": 2,
+    "XVIII": 1,
+    "II": 10,
+    "I": 7,
+    "0": 2
+   },
+   "in": {
+    "0": 1,
+    "I": 2,
+    "X": 2,
+    "XI": 2,
+    "XVIII": 1,
+    "XXI": 10,
+    "XXXIV": 6
+   },
+   "inst": {
+    "II": 10,
+    "I": 7,
+    "0": 2
+   }
+  },
+  "VIII": {
+   "name": "MOBILITY NETWORKS AND APP-BASED DISPATCH PLATFORMS",
+   "sections": [
+    "801",
+    "802",
+    "803"
+   ],
+   "out": {
+    "XVI": 2,
+    "XVII": 2,
+    "II": 5,
+    "I": 3,
+    "0": 1
+   },
+   "in": {
+    "0": 2,
+    "XVII": 4,
+    "XIX": 1,
+    "XXX": 2,
+    "XXXIV": 1
+   },
+   "inst": {
+    "II": 5,
+    "I": 3,
+    "0": 1
+   }
+  },
+  "IX": {
+   "name": "NATIONAL ENERGY AND ADVANCED FISSION INFRASTRUCTURE",
+   "sections": [
+    "901",
+    "902",
+    "903",
+    "904",
+    "905",
+    "906"
+   ],
+   "out": {
+    "XVI": 5,
+    "XXXIV": 1,
+    "XVII": 2,
+    "XVIII": 2,
+    "XXIV": 1,
+    "II": 7,
+    "0": 13,
+    "I": 8
+   },
+   "in": {
+    "0": 3,
+    "I": 3,
+    "III": 1,
+    "V": 1,
+    "XVII": 4,
+    "XXI": 2,
+    "XXIV": 2,
+    "XXXIV": 2,
+    "XXXVIII": 2
+   },
+   "inst": {
+    "II": 7,
+    "0": 13,
+    "I": 8
+   }
+  },
+  "X": {
+   "name": "CLEAN WATER, CONSERVATION, AND ESSENTIAL PUBLIC UTILITIES",
+   "sections": [
+    "1001",
+    "1002",
+    "1003",
+    "1004",
+    "1005",
+    "1006",
+    "1007"
+   ],
+   "out": {
+    "XXXIV": 2,
+    "XI": 1,
+    "II": 7,
+    "XXIII": 1,
+    "XVIII": 1,
+    "XIX": 1,
+    "VII": 2,
+    "I": 3,
+    "0": 4
+   },
+   "in": {
+    "I": 2,
+    "XI": 1,
+    "XIII": 1,
+    "XVII": 4,
+    "XXI": 8,
+    "XXXIV": 4
+   },
+   "inst": {
+    "II": 6,
+    "I": 3,
+    "0": 4
+   }
+  },
+  "XI": {
+   "name": "THE AUTOMATED ENVIRONMENTAL REMEDIATION NETWORK (A.B.R.N.)",
+   "sections": [
+    "1101",
+    "1102",
+    "1103",
+    "1104"
+   ],
+   "out": {
+    "VII": 2,
+    "X": 1,
+    "II": 5,
+    "I": 1,
+    "0": 1
+   },
+   "in": {
+    "I": 1,
+    "X": 1,
+    "XXI": 3
+   },
+   "inst": {
+    "II": 5,
+    "I": 1,
+    "0": 1
+   }
+  },
+  "XII": {
+   "name": "NATIONAL MANUFACTURING AND GLOBAL ARBITRAGE ELIMINATION",
+   "sections": [
+    "1201",
+    "1202",
+    "1203",
+    "1204"
+   ],
+   "out": {
+    "XXXIV": 1,
+    "II": 9,
+    "III": 1,
+    "0": 1,
+    "I": 4
+   },
+   "in": {
+    "0": 1,
+    "XXIV": 1,
+    "XXXIV": 3,
+    "XXXVII": 1
+   },
+   "inst": {
+    "II": 8,
+    "0": 1,
+    "I": 4
+   }
+  },
+  "XIII": {
+   "name": "NATIONAL BIOSECURITY AND PHARMACEUTICAL PARITY",
+   "sections": [
+    "1301",
+    "1302",
+    "1303",
+    "1304"
+   ],
+   "out": {
+    "XXI": 6,
+    "XVI": 1,
+    "X": 1,
+    "XVIII": 1,
+    "II": 8,
+    "I": 1,
+    "0": 2
+   },
+   "in": {
+    "0": 6,
+    "I": 4,
+    "XVIII": 1,
+    "XIX": 1,
+    "XX": 2,
+    "XXI": 3,
+    "XXIII": 1,
+    "XXX": 4
+   },
+   "inst": {
+    "II": 8,
+    "I": 1,
+    "XXI": 4,
+    "0": 2
+   }
+  },
+  "XIV": {
+   "name": "SHELTER SECURITY",
+   "sections": [
+    "1401",
+    "1402",
+    "1403"
+   ],
+   "out": {
+    "XVIII": 3,
+    "II": 6,
+    "I": 9,
+    "XXXIV": 3,
+    "XIX": 1
+   },
+   "in": {
+    "0": 1,
+    "XVIII": 2,
+    "XIX": 1,
+    "XXIV": 4,
+    "XXXIV": 1,
+    "XXXVI": 1
+   },
+   "inst": {
+    "II": 5,
+    "I": 9,
+    "XXXIV": 3,
+    "XIX": 1
+   }
+  },
+  "XV": {
+   "name": "STUDENT DEBT RELIEF AND PUBLIC HIGHER EDUCATION",
+   "sections": [
+    "1501",
+    "1502",
+    "1503"
+   ],
+   "out": {
+    "XVI": 1,
+    "IV": 1,
+    "II": 4
+   },
+   "in": {
+    "0": 2,
+    "XIX": 1,
+    "XX": 1,
+    "XXXI": 1,
+    "XXXVIII": 1
+   },
+   "inst": {
+    "II": 4
+   }
+  },
+  "XVI": {
+   "name": "CAPITAL FLIGHT PROTECTION, POST-QUANTUM FINANCIAL SECURITY, INFLATION PROTECTION, AND FINANCIAL STABILITY",
+   "sections": [
+    "1601",
+    "1602",
+    "1603",
+    "1604",
+    "1605",
+    "1606",
+    "1607",
+    "1608",
+    "1609",
+    "1610",
+    "1611",
+    "1612",
+    "1613"
+   ],
+   "out": {
+    "IV": 1,
+    "II": 7,
+    "XXXIV": 3,
+    "XXIV": 1,
+    "I": 12,
+    "0": 3
+   },
+   "in": {
+    "0": 2,
+    "I": 1,
+    "II": 1,
+    "VI": 1,
+    "VIII": 2,
+    "IX": 5,
+    "XIII": 1,
+    "XV": 1,
+    "XXI": 1,
+    "XXXII": 1,
+    "XXXIII": 1,
+    "XXXIX": 1
+   },
+   "inst": {
+    "II": 6,
+    "I": 12,
+    "0": 3,
+    "XXXIV": 1
+   }
+  },
+  "XVII": {
+   "name": "NATIONAL BUILD-OUT, HYDROPOWER, AND INFRASTRUCTURE DELIVERY",
+   "sections": [
+    "1701",
+    "1702",
+    "1703",
+    "1704",
+    "1705",
+    "1706",
+    "1707",
+    "1708",
+    "1709",
+    "1710"
+   ],
+   "out": {
+    "VIII": 4,
+    "IX": 4,
+    "X": 4,
+    "XXXIV": 3,
+    "II": 13,
+    "XVIII": 1,
+    "IV": 1,
+    "I": 4,
+    "XIX": 1
+   },
+   "in": {
+    "I": 2,
+    "VIII": 2,
+    "IX": 2
+   },
+   "inst": {
+    "II": 11,
+    "I": 4,
+    "XIX": 1
+   }
+  },
+  "XVIII": {
+   "name": "PROCEDURAL DUE PROCESS AND SPECIAL STANDING CONTROLS",
+   "sections": [
+    "1801",
+    "1802",
+    "1803",
+    "1804",
+    "1805",
+    "1806",
+    "1807",
+    "1808",
+    "1809"
+   ],
+   "out": {
+    "V": 2,
+    "XIV": 2,
+    "II": 23,
+    "I": 27,
+    "VII": 1,
+    "XIII": 1,
+    "0": 8,
+    "XIX": 1
+   },
+   "in": {
+    "III": 1,
+    "VII": 1,
+    "IX": 2,
+    "X": 1,
+    "XIII": 1,
+    "XIV": 3,
+    "XVII": 1,
+    "XXIV": 1,
+    "XXXVI": 7,
+    "XXXVIII": 1,
+    "XXXIX": 1,
+    "0": 1
+   },
+   "inst": {
+    "II": 22,
+    "I": 25,
+    "0": 8,
+    "XIX": 1
+   }
+  },
+  "XIX": {
+   "name": "RETURN ON INVESTMENT, PERFORMANCE BENCHMARKS, AND AMERICAN HOUSEHOLD BENEFIT ACCOUNTING",
+   "sections": [
+    "1901",
+    "1902",
+    "1903"
+   ],
+   "out": {
+    "XXIV": 1,
+    "XV": 1,
+    "V": 1,
+    "XXI": 2,
+    "XIII": 1,
+    "XIV": 1,
+    "VIII": 1,
+    "VI": 1,
+    "II": 8,
+    "I": 5
+   },
+   "in": {
+    "V": 3,
+    "X": 1,
+    "XXI": 3,
+    "XXXIV": 2,
+    "0": 1,
+    "XIV": 1,
+    "XVII": 1,
+    "XVIII": 1,
+    "XX": 2
+   },
+   "inst": {
+    "II": 8,
+    "I": 5,
+    "XXI": 1
+   }
+  },
+  "XX": {
+   "name": "BIPARTISAN IMPLEMENTATION SAFEGUARDS AND MARKET COMPETITION PRESERVATION",
+   "sections": [
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006"
+   ],
+   "out": {
+    "XXIV": 1,
+    "XIII": 2,
+    "XV": 1,
+    "V": 1,
+    "II": 7,
+    "I": 5,
+    "0": 1,
+    "XIX": 2
+   },
+   "in": {
+    "0": 1,
+    "IV": 1
+   },
+   "inst": {
+    "II": 7,
+    "I": 5,
+    "0": 1,
+    "XIX": 2
+   }
+  },
+  "XXI": {
+   "name": "UNIVERSAL BASIC MINIMUM COVERAGE THROUGH COMPETITIVE PRIVATE DELIVERY",
+   "sections": [
+    "2101",
+    "2102",
+    "2103",
+    "2104",
+    "2105",
+    "2106",
+    "2107",
+    "2108",
+    "2109",
+    "2110",
+    "2111",
+    "2112"
+   ],
+   "out": {
+    "XIII": 3,
+    "XIX": 3,
+    "II": 6,
+    "XVI": 1,
+    "IV": 1,
+    "VII": 10,
+    "X": 8,
+    "XI": 3,
+    "IX": 2,
+    "XXXIV": 2,
+    "I": 9
+   },
+   "in": {
+    "0": 34,
+    "XIII": 6,
+    "XIX": 2,
+    "XXV": 15,
+    "XXXIV": 19,
+    "II": 1,
+    "XXIV": 4,
+    "XXXIX": 2
+   },
+   "inst": {
+    "II": 5,
+    "I": 9,
+    "XXXIV": 1,
+    "XIX": 2,
+    "XIII": 1
+   }
+  },
+  "XXII": {
+   "name": "NATIONAL CRITICAL SYSTEMS PROTECTION AND PRIVATE EQUITY ACCOUNTABILITY",
+   "sections": [
+    "2201",
+    "2202",
+    "2203",
+    "2204",
+    "2205",
+    "2206"
+   ],
+   "out": {
+    "II": 5,
+    "I": 4
+   },
+   "in": {
+    "XXIV": 3
+   },
+   "inst": {
+    "II": 5,
+    "I": 4
+   }
+  },
+  "XXIII": {
+   "name": "NATIONAL TRADE AND ALLIED DIPLOMATIC ARCHITECTURE",
+   "sections": [
+    "2301",
+    "2302",
+    "2303",
+    "2304",
+    "2305"
+   ],
+   "out": {
+    "XXIV": 2,
+    "XXV": 1,
+    "XIII": 1,
+    "XXXIV": 1,
+    "I": 7,
+    "II": 2
+   },
+   "in": {
+    "X": 1,
+    "XXIV": 5,
+    "XXXIV": 1
+   },
+   "inst": {
+    "XXXIV": 1,
+    "I": 7,
+    "II": 2
+   }
+  },
+  "XXIV": {
+   "name": "TAX CODE REFORM AND FISCAL INTEGRITY",
+   "sections": [
+    "2401",
+    "2402",
+    "2403",
+    "2404",
+    "2405",
+    "2406",
+    "2407",
+    "2408",
+    "2409",
+    "2410",
+    "2411",
+    "2412",
+    "2413",
+    "2414",
+    "2415",
+    "2416",
+    "2417",
+    "2418",
+    "2419",
+    "2420",
+    "2421"
+   ],
+   "out": {
+    "0": 12,
+    "XXII": 3,
+    "XXXIV": 24,
+    "IX": 2,
+    "XII": 1,
+    "XVIII": 1,
+    "I": 7,
+    "XXV": 1,
+    "XIV": 4,
+    "XXIII": 5,
+    "II": 20,
+    "XXX": 4,
+    "IV": 1,
+    "XXI": 4
+   },
+   "in": {
+    "0": 1,
+    "I": 1,
+    "IX": 1,
+    "XVI": 1,
+    "XIX": 1,
+    "XX": 1,
+    "XXIII": 2,
+    "XXX": 4,
+    "XXXIV": 10
+   },
+   "inst": {
+    "II": 19,
+    "XXXIV": 18,
+    "I": 6,
+    "0": 6,
+    "XXI": 4
+   }
+  },
+  "XXV": {
+   "name": "VETERANS HEALTH SECURITY AND PACT ACT COMPLETION",
+   "sections": [
+    "2501",
+    "2502",
+    "2503",
+    "2504"
+   ],
+   "out": {
+    "XXI": 15,
+    "II": 6,
+    "I": 8
+   },
+   "in": {
+    "XXIII": 1,
+    "XXIV": 1
+   },
+   "inst": {
+    "I": 8,
+    "XXI": 11,
+    "II": 5
+   }
+  },
+  "XXVI": {
+   "name": "NATIONAL SOCIAL SECURITY SOLVENCY COMMISSION",
+   "sections": [
+    "2601",
+    "2602",
+    "2603"
+   ],
+   "out": {
+    "II": 4
+   },
+   "in": {},
+   "inst": {
+    "II": 4
+   }
+  },
+  "XXVII": {
+   "name": "PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION",
+   "sections": [
+    "2701",
+    "2702",
+    "2703",
+    "2704",
+    "2705",
+    "2706",
+    "2707",
+    "2708",
+    "2709"
+   ],
+   "out": {
+    "IV": 1,
+    "I": 2,
+    "II": 2
+   },
+   "in": {},
+   "inst": {
+    "I": 2,
+    "II": 2
+   }
+  },
+  "XXVIII": {
+   "name": "WORKER ORGANIZING RIGHTS AND ANTI-UNION-BUSTING ENFORCEMENT",
+   "sections": [
+    "2801",
+    "2802",
+    "2803",
+    "2804"
+   ],
+   "out": {
+    "II": 1,
+    "XXXIV": 1
+   },
+   "in": {
+    "I": 2
+   },
+   "inst": {
+    "II": 1,
+    "XXXIV": 1
+   }
+  },
+  "XXIX": {
+   "name": "CONGRESSIONAL FINANCIAL INTEGRITY AND STOCK TRADING PROHIBITION",
+   "sections": [
+    "2901",
+    "2902",
+    "2903",
+    "2904"
+   ],
+   "out": {
+    "II": 1
+   },
+   "in": {},
+   "inst": {
+    "II": 1
+   }
+  },
+  "XXX": {
+   "name": "NAFTA/USMCA GAP CLOSURE AND TRADE ENFORCEMENT",
+   "sections": [
+    "3001",
+    "3002",
+    "3003",
+    "3004",
+    "3005",
+    "3006",
+    "3007",
+    "3008",
+    "3009",
+    "3010"
+   ],
+   "out": {
+    "VIII": 2,
+    "VI": 1,
+    "XXIV": 4,
+    "IV": 1,
+    "XXXIV": 3,
+    "II": 8,
+    "XIII": 4,
+    "I": 1
+   },
+   "in": {
+    "XXIV": 4
+   },
+   "inst": {
+    "XIII": 3,
+    "II": 7,
+    "XXXIV": 1,
+    "I": 1
+   }
+  },
+  "XXXI": {
+   "name": "AMERICAN MUTUAL BENEFIT GLOBAL HEALTH SECURITY",
+   "sections": [
+    "3101",
+    "3102",
+    "3103",
+    "3104",
+    "3105",
+    "3106"
+   ],
+   "out": {
+    "XV": 1,
+    "I": 6,
+    "II": 5
+   },
+   "in": {
+    "XXXIV": 1
+   },
+   "inst": {
+    "I": 6,
+    "II": 5
+   }
+  },
+  "XXXII": {
+   "name": "DOLLAR SECURITY AND RESERVE CURRENCY DEFENSE",
+   "sections": [
+    "3201",
+    "3202",
+    "3203",
+    "3204",
+    "3205",
+    "3206",
+    "3207",
+    "3208",
+    "3209",
+    "3210"
+   ],
+   "out": {
+    "XXXIV": 4,
+    "XVI": 1,
+    "II": 11,
+    "I": 4
+   },
+   "in": {
+    "XXXIII": 1,
+    "XXXIV": 8
+   },
+   "inst": {
+    "II": 10,
+    "I": 4,
+    "XXXIV": 1
+   }
+  },
+  "XXXIII": {
+   "name": "STRATEGIC COMPUTE AUTHORITY",
+   "sections": [
+    "3301",
+    "3302",
+    "3303",
+    "3304",
+    "3305",
+    "3306",
+    "3307",
+    "3308"
+   ],
+   "out": {
+    "XXXIV": 5,
+    "XXXII": 1,
+    "0": 3,
+    "XVI": 1,
+    "III": 2,
+    "II": 17,
+    "I": 14
+   },
+   "in": {
+    "XXXIV": 1,
+    "XXXVI": 1
+   },
+   "inst": {
+    "II": 17,
+    "I": 14,
+    "0": 2
+   }
+  },
+  "XXXIV": {
+   "name": "STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOLVENCY",
+   "sections": [
+    "3401",
+    "3402",
+    "3403",
+    "3404",
+    "3405",
+    "3406",
+    "3407",
+    "3408",
+    "3409",
+    "3410",
+    "3411",
+    "3412"
+   ],
+   "out": {
+    "V": 6,
+    "XIV": 1,
+    "XXIV": 10,
+    "I": 10,
+    "VII": 6,
+    "XXXI": 1,
+    "XIX": 2,
+    "II": 29,
+    "XXI": 19,
+    "IX": 2,
+    "X": 4,
+    "XII": 3,
+    "XXXII": 8,
+    "XXXIII": 1,
+    "VIII": 1,
+    "0": 4,
+    "XXXV": 1,
+    "XXIII": 1
+   },
+   "in": {
+    "0": 12,
+    "II": 4,
+    "III": 1,
+    "VII": 2,
+    "IX": 1,
+    "X": 2,
+    "XII": 1,
+    "XVI": 3,
+    "XVII": 3,
+    "XXI": 2,
+    "XXIV": 24,
+    "XXX": 3,
+    "XXXII": 4,
+    "XXXIII": 5,
+    "XXXIX": 3,
+    "V": 6,
+    "XIV": 3,
+    "XXIII": 1,
+    "XXVIII": 1,
+    "XXXVII": 1,
+    "XXXVIII": 1
+   },
+   "inst": {
+    "II": 26,
+    "I": 9,
+    "XXI": 10,
+    "0": 3,
+    "XIX": 1,
+    "XXXII": 2
+   }
+  },
+  "XXXV": {
+   "name": "PUBLIC INTEGRITY AND EXECUTIVE ACCOUNTABILITY",
+   "sections": [
+    "3501",
+    "3502",
+    "3503",
+    "3504",
+    "3505",
+    "3506",
+    "3507",
+    "3508",
+    "3509",
+    "3510"
+   ],
+   "out": {
+    "II": 2,
+    "0": 1,
+    "I": 3
+   },
+   "in": {
+    "I": 3,
+    "XXXIV": 1,
+    "XXXIX": 2
+   },
+   "inst": {
+    "0": 1,
+    "I": 3,
+    "II": 1
+   }
+  },
+  "XXXVI": {
+   "name": "FOREIGN INFLUENCE TRANSPARENCY AND ADVERSARY CAPITAL DEFENSE",
+   "sections": [
+    "3601",
+    "3602",
+    "3603",
+    "3604",
+    "3605",
+    "3606",
+    "3607",
+    "3608"
+   ],
+   "out": {
+    "XVIII": 7,
+    "XXXIII": 1,
+    "XIV": 1,
+    "I": 2
+   },
+   "in": {
+    "XXXVII": 3
+   },
+   "inst": {
+    "I": 2
+   }
+  },
+  "XXXVII": {
+   "name": "SCIENCE, RESEARCH, AND TALENT RENEWAL",
+   "sections": [
+    "3701",
+    "3702",
+    "3703",
+    "3704",
+    "3705",
+    "3706",
+    "3707",
+    "3708"
+   ],
+   "out": {
+    "XII": 1,
+    "XXXVI": 3,
+    "II": 3,
+    "XXXIV": 1
+   },
+   "in": {},
+   "inst": {
+    "II": 3,
+    "XXXIV": 1
+   }
+  },
+  "XXXVIII": {
+   "name": "FAMILY AND WORKFORCE SECURITY",
+   "sections": [
+    "3801",
+    "3802",
+    "3803",
+    "3804",
+    "3805",
+    "3806"
+   ],
+   "out": {
+    "XVIII": 1,
+    "IX": 2,
+    "XV": 1,
+    "II": 2,
+    "XXXIV": 1
+   },
+   "in": {},
+   "inst": {
+    "II": 2,
+    "XXXIV": 1
+   }
+  },
+  "XXXIX": {
+   "name": "DIGITAL GOVERNMENT MODERNIZATION",
+   "sections": [
+    "3901",
+    "3902",
+    "3903",
+    "3904",
+    "3905",
+    "3906",
+    "3907"
+   ],
+   "out": {
+    "XVI": 1,
+    "III": 1,
+    "XXXV": 2,
+    "XXXIV": 3,
+    "XVIII": 1,
+    "II": 1,
+    "XXI": 2
+   },
+   "in": {
+    "0": 1
+   },
+   "inst": {
+    "II": 1,
+    "XXXIV": 1,
+    "XXI": 2
+   }
+  }
+ },
+ "most_referenced_sections": [
+  [
+   "3406",
+   15
+  ],
+  [
+   "201",
+   10
+  ],
+  [
+   "905",
+   9
+  ],
+  [
+   "1604",
+   8
+  ],
+  [
+   "2410",
+   7
+  ],
+  [
+   "205",
+   6
+  ],
+  [
+   "502",
+   6
+  ],
+  [
+   "401",
+   6
+  ],
+  [
+   "005",
+   6
+  ],
+  [
+   "803",
+   5
+  ],
+  [
+   "3408",
+   5
+  ],
+  [
+   "1004",
+   5
+  ],
+  [
+   "204",
+   4
+  ],
+  [
+   "2103",
+   3
+  ],
+  [
+   "3401",
+   3
+  ],
+  [
+   "1303",
+   3
+  ],
+  [
+   "1501",
+   3
+  ],
+  [
+   "1007",
+   3
+  ],
+  [
+   "1903",
+   3
+  ],
+  [
+   "1809",
+   3
+  ],
+  [
+   "705",
+   3
+  ],
+  [
+   "2419",
+   3
+  ],
+  [
+   "3412",
+   3
+  ],
+  [
+   "3509",
+   3
+  ],
+  [
+   "1808",
+   3
+  ]
+ ]
+}
