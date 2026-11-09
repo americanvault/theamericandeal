@@ -23,6 +23,7 @@ L = []
 w = L.append
 w('# NSRA: OG-USA dynamic analysis (round 2, November 2026)\n')
 w('We ran OG-USA, the open-source overlapping-generations model of the U.S. economy maintained by the Policy Simulation Library, on the NSRA as written (methodology v2026.6, which adds the middle-class tax relief of Sec. 2421, keeps the 21% corporate rate, withdraws the infrastructure fee and extends household energy credits to 400% of poverty). **We ran it ourselves. It is not an independent score and not a CBO or JCT estimate.** Every input, script and result is in this folder so anyone can reproduce or challenge it. Corrections are welcome.\n')
+w('> This run was made before methodology v2026.7, which moved the rewilding and regional food-system programs to annual appropriations and withdrew the Phase 2 wage-floor credit, about $50 billion a year less mandatory spending. With that change, debt would fall slightly faster than shown here.\n')
 w('## Headline (central run)\n')
 w('| | Year 1 | Year 5 | Year 10 | Year 20 |')
 w('|---|---|---|---|---|')
