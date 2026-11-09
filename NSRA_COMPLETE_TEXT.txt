@@ -28,7 +28,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
 
 (b) FINDINGS OF BROAD NATIONAL CONSENSUS.—Congress finds that the provisions of this Act reflect policy areas of documented bipartisan concern, including: domestic manufacturing competitiveness, pharmaceutical pricing fairness, housing affordability, retirement security, food supply-chain resilience, infrastructure investment, and protection of taxpayer-funded research from foreign extraction.
 
-(c) SCOPE OF ACT.—This Act comprises forty (40) operative titles, numbered Title 0 through Title XXXIX, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
+(c) SCOPE OF ACT.—This Act comprises forty-one (41) operative titles, numbered Title 0 through Title XL, together with the supporting Schedules A through G, and contains the complete statutory text, definitions, mechanisms, and enforcement architecture of the National Sovereignty and Resilience Act. The subject matter of this Act falls within the jurisdiction of twenty-seven (27) standing committees of jurisdiction across both chambers of Congress — fourteen (14) committees of the House of Representatives and thirteen (13) committees of the Senate — and the sponsors anticipate multiple, sequential, or joint referral consistent with House Rule X and Senate Rule XXV.
 
 (d) TABLE OF CONTENTS.—The table of contents for this Act is as follows:
 
@@ -343,6 +343,15 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3905. FUNDING AND BUDGET NEUTRALITY.
     SEC. 3906. SCHEDULE D BENCHMARKS — TITLE XXXIX.
     SEC. 3907. ONE BENEFITS APPLICATION AND SHARED SERVICES.
+  TITLE XL — PERSONAL SAFETY, CIVIL LIBERTIES, AND ELECTION INTEGRITY
+    SEC. 4001. FINDINGS AND PURPOSE.
+    SEC. 4002. PROTECTION FROM FRAUD, SCAMS, IDENTITY THEFT, AND FINANCIAL EXPLOITATION.
+    SEC. 4003. COMMUNITY SAFETY AND VIOLENT CRIME REDUCTION.
+    SEC. 4004. SEPARATION OF CHURCH AND STATE.
+    SEC. 4005. BODILY AUTONOMY AND REPRODUCTIVE FREEDOM.
+    SEC. 4006. NATIONAL VERIFIABLE VOTING SYSTEM — ELECTIONS ANY CITIZEN CAN CHECK.
+    SEC. 4007. FUNDING AND BUDGET NEUTRALITY.
+    SEC. 4008. SCHEDULE D BENCHMARKS — TITLE XL.
 
 SEC. 002. CONGRESSIONAL FINDINGS AND DECLARATION OF BASELINE CONDITIONS EVIDENCE STANDARD.
 
@@ -364,7 +373,7 @@ SEC. 003. CONSOLIDATED MASTER DEFINITIONS.
 
 As used in this Act:
 
-(1) ASYMMETRIC CAPITAL FLIGHT.—Any transaction, multi-jurisdictional transfer, currency swap, or corporate restructuring executed by a Covered Entity that results in a net reduction of domestic liquid capital assets or productive capacity exceeding five percent (5%) within a rolling fourteen (14) day window, where such action is executed during an active Federal Data Veracity Matrix (FDVM) structural variance investigation.
+(1) ASYMMETRIC CAPITAL FLIGHT.—Any transaction, multi-jurisdictional transfer, currency swap, or corporate restructuring executed by a Covered Entity that results in a net reduction of domestic liquid capital assets or productive capacity exceeding five percent (5%) within a rolling fourteen (14) day window, where such action is executed during an active Federal Data Veracity Matrix (FDVM) structural variance investigation. Arm's-length investment in productive operating facilities outside the United States that serve markets outside the United States, disclosed under Section 403(b), is not Asymmetric Capital Flight.
 
 (2) PERSONAL DATA RIGHTS.—The absolute, unalienable, and legally protected right of human individuals and community cohorts to maintain autonomous mental, analytical, and informational autonomy over their own circumstances, completely insulated from uncompensated algorithmic data harvesting, predictive behavioral profiling, or narrative-driven platform reframing.
 
@@ -1178,6 +1187,8 @@ SEC. 702. DOMESTIC FOOD SECURITY NETWORK.
 
 (d) FOREIGN AGRICULTURAL LAND OWNERSHIP RESTRICTION.—No person or entity that is a citizen or agent of a foreign country of concern, as designated under 50 U.S.C. § 4872, shall acquire title to agricultural land within the United States. Existing foreign ownership of agricultural land in excess of three hundred twenty (320) acres held by entities associated with foreign countries of concern shall be subject to mandatory divestment within twenty-four (24) months of enactment, with just compensation as specified in subsection (c).
 
+(e) PRIVATE AND COOPERATIVE OPERATION.—The regional food distribution hubs and reserve depots of the NFSN shall be operated through competitive contracts, leases, or reserve-storage agreements with private businesses, cooperatives, and nonprofit organizations wherever qualified operators are available on reasonable terms. The NFSN shall not build or operate a government facility in a region where qualified private or cooperative capacity can meet the need.
+
 SEC. 703. FOOD PRICE STABILITY AND ANTI-SPECULATION PROTECTION.
 
 (a) GROCERY PRICE TRANSPARENCY MANDATE.—All retail food retailers with annual domestic revenues exceeding five hundred million dollars ($500,000,000) shall submit quarterly price-cost margin reports to the FMIA, disaggregated by product category. Reports shall be published publicly within thirty (30) days of receipt.
@@ -1217,9 +1228,12 @@ SEC. 705. PESTICIDE AND AGRICULTURAL CHEMICAL PHASE-OUT.
 
 (b) PROHIBITED SUBSTANCES SCHEDULE — SCIENCE PREDICATE AND RULEMAKING GATE.—The Department of Agriculture, in coordination with the Environmental Protection Agency, shall, through notice-and-comment rulemaking under 5 U.S.C. § 553, publish within one hundred eighty (180) days of enactment a Prohibited Agricultural Chemical Schedule. A chemical may be listed only upon a documented, peer-reviewed finding of persistence, bioaccumulation, or human or ecological toxicity, and the Schedule shall prioritize substances that have been formally prohibited or restricted by two (2) or more G7 nations based on such documented risk. Each listing shall be supported by a published administrative record and is subject to judicial review under 5 U.S.C. § 706. No listing shall take effect until the rulemaking is final.
 
-(c) PHASE-OUT TIMELINE AND ALTERNATIVE-AVAILABILITY SAFEGUARD.—Listed substances shall be subject to a graduated phase-out: a fifty percent (50%) reduction in permitted application volume within three (3) years of listing, and full prohibition within six (6) years. Where the Secretary, after notice and comment, certifies in writing that no commercially viable domestic alternative exists for a particular use, the phase-out for that use shall be stayed and extended in two-year increments until a viable alternative is certified available, so that no producer is left without a lawful means of production. This subsection is designed to satisfy the rational-basis and regulatory-takings standards applicable to economic regulation.
+(c) PHASE-OUT TIMELINE AND ALTERNATIVE-AVAILABILITY SAFEGUARD.—Listed substances shall be subject to a graduated phase-out: a fifty percent (50%) reduction in permitted application volume within three (3) years of listing, and full prohibition within six (6) years. Where the Secretary, after notice and comment, certifies in writing that no commercially viable domestic alternative exists for a particular use, the phase-out for that use shall be stayed and extended in two-year increments until a viable alternative is certified available, so that no producer is left without a lawful means of production. No reduction or prohibition date under this subsection shall take effect for any fiscal year unless the Secretary has certified, not later than ninety (90) days before that date, that amounts available under subsection (d) for that fiscal year are sufficient to meet the protection for producers stated in subsection (d); absent that certification, each such date is extended by one year. This subsection is designed to satisfy the rational-basis and regulatory-takings standards applicable to economic regulation.
 
-(d) AGRICULTURAL PESTICIDE TRANSITION SUPPORT.—There is established within the SIRF Agricultural Security Node an Agricultural Pesticide Transition Support program, to be carried out to the extent provided in advance in appropriations Acts, to provide transition grants, integrated pest management technical assistance, and crop-loss insurance to domestic producers converting away from prohibited substances. No producer with gross annual revenue below two million dollars ($2,000,000) shall bear net out-of-pocket conversion costs.
+(d) AGRICULTURAL PESTICIDE TRANSITION SUPPORT — GUARANTEED FUNDING.—
+(1) ESTABLISHMENT.—There is established within the SIRF Agricultural Security Node an Agricultural Pesticide Transition Support program to provide transition grants, integrated pest management technical assistance, and crop-loss insurance to domestic producers converting away from prohibited substances. No producer with gross annual revenue below two million dollars ($2,000,000) shall bear net out-of-pocket conversion costs.
+(2) FUNDING.—Out of any money in the Treasury not otherwise appropriated, there is appropriated to the program, for each fiscal year beginning with the first reinsurance year to which Section 3410(h) applies, an amount equal to the reduction in federal crop insurance outlays resulting from Section 3410(h), as determined by the Secretary and the Director of the Office of Management and Budget, not to exceed five billion dollars ($5,000,000,000) in that first year and indexed thereafter to the Consumer Price Index, to remain available until expended. Penalties under subsection (e) are credited to the program in addition to that amount.
+(3) BUDGETARY EFFECT.—The amounts appropriated under paragraph (2) are offset by the savings of Section 3410(h) and do not increase the deficit. Those savings are applied to this program and are not counted in the deficit reduction stated in Section 3410(i).
 
 (e) ENFORCEMENT.—Application of a prohibited substance after its full-prohibition date, where a commercially viable alternative has been certified available under subsection (c), is a strict liability violation subject to penalties of not less than ten thousand dollars ($10,000) per violation, assessed only after the pre-deprivation notice and review protections of Title XVIII, and routed to the SIRF Agricultural Security Node and credited to the Transition Support program.
 
@@ -1227,11 +1241,17 @@ SEC. 706. REGIONAL FOOD SYSTEM INFRASTRUCTURE.
 
 (a) PURPOSE.—To reduce dependence on concentrated long-haul food distribution and strengthen domestic supply-chain anti-fragility, there is established a Regional Food System Infrastructure program within the SIRF Agricultural Security Node.
 
-(b) AUTHORIZED INVESTMENTS.—To the extent provided in advance in appropriations Acts, the program shall fund: (1) regional cold-storage, processing, and aggregation facilities; (2) local and regional food hubs connecting producers under Section 701 to municipal and institutional buyers; (3) farm-to-institution procurement infrastructure for schools, hospitals, and public facilities; and (4) cooperative-owned distribution networks prioritizing the worker cooperatives and CDFIs certified under Section 702.
+(b) AUTHORIZED INVESTMENTS.—From the amounts made available under Section 3406(c)(3), the program shall fund, through competitive grants, loans, and loan guarantees open to any qualified business, cooperative, nonprofit organization, or state, local, or tribal government: (1) regional cold-storage, processing, and aggregation facilities; (2) local and regional food hubs connecting producers under Section 701 to municipal and institutional buyers; (3) farm-to-institution procurement infrastructure for schools, hospitals, and public facilities; and (4) cooperative-owned and independently owned distribution networks, including those of the worker cooperatives and CDFIs certified under Section 702.
 
 (c) GEOGRAPHIC EQUITY.—Not less than forty percent (40%) of program funds in any fiscal year shall be deployed in rural counties and food-insecure census tracts as designated by the Department of Agriculture.
 
 (d) BENCHMARKS.—The FMIA shall report biennially on regional food infrastructure capacity established, producers connected, and the reduction in average farm-to-consumer transport distance achieved.
+
+(e) OWNERSHIP AND OPERATION.—Recipients keep ownership and operating control of the facilities they build or expand with program funds. The program shall not require equity, voting, or governance rights in a recipient as a condition of assistance, and may accept a revenue-share or repayment arrangement only where the recipient elects it in place of a grant.
+
+(f) NO GOVERNMENT COMPETITION.—Program funds shall not be used to build or operate a federally owned processing, storage, or distribution facility in a region where qualified private, cooperative, or nonprofit operators can meet the need on reasonable terms.
+
+(g) OPERATIONS OUTSIDE THE UNITED STATES.—Program funds are spent only within the United States. A recipient's operations outside the United States that serve markets outside the United States do not reduce its eligibility. The United States International Development Finance Corporation may support regional food processing and supply systems abroad under its existing authorities.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE VIII — MOBILITY NETWORKS AND APP-BASED DISPATCH PLATFORMS
@@ -1483,7 +1503,7 @@ TITLE XII — NATIONAL MANUFACTURING AND GLOBAL ARBITRAGE ELIMINATION
 
 SEC. 1201. OFFSHORE WAGE ARBITRAGE AND DOMESTIC CONTENT STANDARDS.
 
-(a) DOMESTIC PRODUCTION CONTENT FLOOR.—To protect the domestic industrial base from predatory global wage arbitrage and secure structural supply lines, no federal procurement subsidy, tax credit, or federal industrial grant shall be issued to any corporate entity unless its manufacturing and material processing pipelines maintain a verified domestic material content floor of sixty-five percent (65%) by contract value.
+(a) DOMESTIC PRODUCTION CONTENT FLOOR.—To protect the domestic industrial base from predatory global wage arbitrage and secure structural supply lines, no federal procurement subsidy, tax credit, or federal industrial grant shall be issued to any corporate entity unless its manufacturing and material processing pipelines maintain a verified domestic material content floor of sixty-five percent (65%) by contract value. The floor is measured for the facility or project supported by the subsidy, credit, or grant. Operations of the entity outside the United States that produce for markets outside the United States are not counted.
 
 (b) THE PORT-OF-ENTRY ARBITRAGE EQUALIZATION ASSESSMENT.—
 
@@ -1517,7 +1537,7 @@ SEC. 1203. CRITICAL SUPPLY CHAIN SECURITY RESERVE.
 
 SEC. 1204. SEMICONDUCTOR AND CRITICAL MATERIALS SECURITY.
 
-(a) PURPOSE.—To eliminate strategic dependence on foreign-controlled semiconductor and critical-materials supply chains, there is established a Semiconductor and Critical Materials Security program, funded at fifteen billion dollars ($15,000,000,000) per year from the SIRF pursuant to Section 3406(c)(4).
+(a) PURPOSE.—To eliminate strategic dependence on foreign-controlled semiconductor and critical-materials supply chains, there is established a Semiconductor and Critical Materials Security program, funded at ten billion dollars ($10,000,000,000) per year from the SIRF pursuant to Section 3406(c)(4).
 
 (b) AUTHORIZED INVESTMENTS.—Program funds shall support: (1) domestic advanced-semiconductor fabrication consistent with the domestic fabrication floor of Title III; (2) domestic processing and refining of critical minerals and rare earth elements; (3) strategic stockpiles of critical materials; and (4) recycling and circular-supply-chain infrastructure for critical materials.
 
@@ -4382,7 +4402,7 @@ RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebala
 
 SEC. 3406. UPDATED FISCAL SUMMARY AND BALANCED BUDGET PATH.
 
-(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately five hundred forty-two billion dollars ($542,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.7). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately four hundred sixty-six billion dollars ($466,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately four hundred forty-two billion dollars ($442,000,000,000), which, against the same costs, would leave a net annual cost of approximately ninety-nine billion dollars ($99,000,000,000) before Section 3410.
+(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately five hundred forty-two billion dollars ($542,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.8). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately four hundred sixty-six billion dollars ($466,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately four hundred forty-two billion dollars ($442,000,000,000), which, against the same costs, would leave a net annual cost of approximately ninety-nine billion dollars ($99,000,000,000) before Section 3410.
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
 (1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
@@ -4404,12 +4424,12 @@ Net program costs: approximately four hundred eighty-six billion six hundred mil
 (c) MANDATORY GROWTH REINVESTMENT — $55B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling fifty-five billion dollars ($55,000,000,000) per year, allocated as follows:
 (1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
 (2) Reserved. The Urban and Rural Wildlife Corridor and Rewilding Infrastructure program (Section 1005, Title X) is funded through annual appropriations;
-(3) Reserved. Regional Food System Infrastructure (Section 706, Title VII) and Agricultural Pesticide Transition Support (Section 705(d), Title VII) are funded through annual appropriations;
-(4) Semiconductor and Critical Materials Security (Section 1204, Title XII): fifteen billion dollars ($15,000,000,000) per year;
+(3) Regional Food System Infrastructure (Section 706, Title VII): five billion dollars ($5,000,000,000) per year. Agricultural Pesticide Transition Support (Section 705(d), Title VII) is funded under Section 705(d)(2) from the savings of Section 3410(h);
+(4) Semiconductor and Critical Materials Security (Section 1204, Title XII): ten billion dollars ($10,000,000,000) per year;
 (5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year.
-Note: Paragraphs (1), (4) and (5) total fifty-five billion dollars ($55,000,000,000) per year. Demand-Adjusted Rural Health Physical Infrastructure under Section 2109 is funded at three billion dollars ($3,000,000,000) per year under subsection (b)(10), is not part of the total in this subsection, and is counted once. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
+Note: Paragraphs (1), (3), (4) and (5) total fifty-five billion dollars ($55,000,000,000) per year. Demand-Adjusted Rural Health Physical Infrastructure under Section 2109 is funded at three billion dollars ($3,000,000,000) per year under subsection (b)(10), is not part of the total in this subsection, and is counted once. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
-(d) NET ANNUAL EFFECT.—Five hundred forty-two billion dollars ($542,000,000,000) in revenue, less four hundred eighty-six billion six hundred million dollars ($486,600,000,000) in net program costs and fifty-five billion dollars ($55,000,000,000) in infrastructure investment under subsection (c), leaves approximately eight hundred million dollars ($800,000,000) a year at full program operation, in first-year dollars, so that the programs of this Act and the middle-class tax relief of Section 2421 are paid for by its revenue. The Fiscal Sustainability Plan of Section 3410 adds approximately three hundred seventy-four billion dollars ($374,000,000,000) a year at full effect. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, the provisions of this section are projected to reduce the deficit by approximately one hundred billion dollars ($100,000,000,000), or approximately one hundred billion dollars ($100,000,000,000) including reduced interest costs. Together with Section 3410, cumulative deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately two trillion nine hundred billion dollars ($2,900,000,000,000) including reduced interest costs, within a range of two trillion one hundred billion dollars to three trillion five hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL EFFECT.—Five hundred forty-two billion dollars ($542,000,000,000) in revenue, less four hundred eighty-six billion six hundred million dollars ($486,600,000,000) in net program costs and fifty-five billion dollars ($55,000,000,000) in infrastructure investment under subsection (c), leaves approximately eight hundred million dollars ($800,000,000) a year at full program operation, in first-year dollars, so that the programs of this Act and the middle-class tax relief of Section 2421 are paid for by its revenue. The Fiscal Sustainability Plan of Section 3410 adds approximately three hundred sixty-nine billion dollars ($369,000,000,000) a year at full effect. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, the provisions of this section are projected to reduce the deficit by approximately one hundred billion dollars ($100,000,000,000), or approximately one hundred billion dollars ($100,000,000,000) including reduced interest costs. Together with Section 3410, cumulative deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately two trillion nine hundred billion dollars ($2,900,000,000,000) including reduced interest costs, within a range of two trillion dollars to three trillion five hundred billion dollars under the scenarios in Schedule G.
 
 (e) DESIGNATION.—The net annual deficit reduction of this Act, including Section 3410, is designated a Fiscal Credibility Reserve under Section 3204(c) of Title XXXII and shall be applied to mandatory debt service and net deficit reduction in the priority order established therein.
 
@@ -4508,9 +4528,9 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (g) PAYMENT INTEGRITY.—Each agency with a program reporting improper payments above one billion dollars ($1,000,000,000) under section 3352 of title 31, United States Code, shall reduce its improper payment rate by not less than one-third within three (3) fiscal years, using the verification systems of Sections 3509 and 3904. Recoveries and avoided payments are applied to deficit reduction.
 
-(h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected.
+(h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected. The savings under this subsection fund agricultural pesticide transition support under Section 705(d).
 
-(i) PROJECTED EFFECT.—The measures in subsections (b) through (h) are projected to reduce the deficit by approximately three hundred seventy-four billion dollars ($374,000,000,000) a year at full effect, stated in first-year dollars. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred seventy-three billion dollars ($473,000,000,000) while subsection (b) is still phasing in. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately two trillion nine hundred billion dollars ($2,900,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to between five and one-half and six percent of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (g) are projected to reduce the deficit by approximately three hundred sixty-nine billion dollars ($369,000,000,000) a year at full effect; the savings of subsection (h) fund Section 705(d), stated in first-year dollars. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred sixty-five billion dollars ($465,000,000,000) while subsection (b) is still phasing in. The Social Security changes of subsection (b) phase in over a generation: they have little effect within the ten-year budget window and improve the long-range actuarial balance of the Social Security Trust Funds by approximately four-tenths of one percent (0.4%) of taxable payroll, as estimated from published provisions of the Office of the Chief Actuary. Together with Section 3406, ten-year deficit reduction is projected at approximately two trillion six hundred billion dollars ($2,600,000,000,000), or approximately two trillion nine hundred billion dollars ($2,900,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to between five and one-half and six percent of gross domestic product; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -5009,13 +5029,183 @@ SEC. 3907. ONE BENEFITS APPLICATION AND SHARED SERVICES.
 (i) FUNDING AND SAVINGS.—Costs under this section shall be met within the amounts authorized by section 3905. Savings under this section are recognized only as provided in Section 3412 and shall be reported under section 3906.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TITLE XL — PERSONAL SAFETY, CIVIL LIBERTIES, AND ELECTION INTEGRITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SEC. 4001. FINDINGS AND PURPOSE.
+
+(a) FINDINGS.—Congress finds the following:
+(1) Consumers reported losing more than twelve billion five hundred million dollars ($12,500,000,000) to fraud in 2024, an increase of twenty-five percent (25%) over 2023, and the Federal Trade Commission received more than one million one hundred thousand (1,100,000) reports of identity theft in 2024 (Federal Trade Commission, Consumer Sentinel Network Data Book 2024).
+(2) The Internet Crime Complaint Center of the Federal Bureau of Investigation recorded sixteen billion six hundred million dollars ($16,600,000,000) in reported losses in 2024, and Americans aged sixty (60) and older filed 147,127 complaints reporting four billion eight hundred eighty million dollars ($4,880,000,000) in losses (Federal Bureau of Investigation, 2024 Internet Crime Report).
+(3) The National Academies of Sciences, Engineering, and Medicine found that elections should be conducted with human-readable paper ballots, that risk-limiting audits should be conducted before certification, and that the internet should not be used for the return of marked ballots (Securing the Vote: Protecting American Democracy, 2018). The Cybersecurity and Infrastructure Security Agency, the Election Assistance Commission, the Federal Bureau of Investigation, and the National Institute of Standards and Technology have assessed electronic ballot return as high-risk (Risk Management for Electronic Ballot Delivery, Marking, and Return, 2020, reissued 2024). End-to-end verifiable voting, in which each voter can confirm their ballot was recorded and anyone can confirm the count, has been used in public elections in Fulton, Wisconsin in 2020 and Franklin County, Idaho in 2022.
+(4) The First Amendment forbids any law respecting an establishment of religion and protects its free exercise, and Article VI forbids any religious test for public office. Both protections are strongest when government neither favors nor disfavors any faith.
+
+(b) PURPOSE.—The purpose of this Title is to keep the people of the United States safe from fraud, theft, exploitation, and violence, whether by a person or a business; to keep government neutral among faiths; to protect each person's authority over their own body and medical decisions; and to give the country a public, secure digital voting system that any citizen can verify.
+
+SEC. 4002. PROTECTION FROM FRAUD, SCAMS, IDENTITY THEFT, AND FINANCIAL EXPLOITATION.
+
+(a) NATIONAL SCAM PREVENTION AND RECOVERY TASK FORCE.—The Federal Trade Commission and the Attorney General shall jointly lead a National Scam Prevention and Recovery Task Force, with the Federal Communications Commission, the Consumer Financial Protection Bureau, the Department of the Treasury, the United States Postal Inspection Service, and the Federal Market Integrity Administration established under Title I. The Task Force shall share complaint data in real time across member agencies, coordinate action against organized and transnational scam operations, and publish an annual public report of losses, recoveries, and enforcement results.
+
+(b) REIMBURSEMENT OF IMPERSONATION SCAM PAYMENTS.—
+(1) IN GENERAL.—A financial institution or payment provider that sends a payment from a consumer's account, and the institution that receives it, shall reimburse the consumer for a payment the consumer was induced to authorize by a person impersonating a government agency, a financial institution, a utility, a business, or a family member, up to eighty-five thousand dollars ($85,000) per claim, adjusted annually for inflation.
+(2) SHARED COST.—The sending and receiving institutions shall each bear one-half of each reimbursement.
+(3) TIMING AND EXCEPTIONS.—Reimbursement is due within ten (10) business days of a claim filed within thirteen (13) months of the payment. No reimbursement is due where the institution shows by clear and convincing evidence that the consumer participated in the fraud or acted with gross negligence after a specific, individualized warning.
+(4) RULEMAKING.—The Consumer Financial Protection Bureau shall issue rules carrying out this subsection within eighteen (18) months of enactment.
+
+(c) IMPERSONATION OF GOVERNMENT.—Impersonating a federal, state, local, or tribal government agency or official to obtain money, property, or personal information is subject to a civil penalty of not less than fifty thousand dollars ($50,000) per violation, in addition to any criminal penalty under existing law.
+
+(d) IDENTITY THEFT RECOVERY.—An identity theft report filed through the federal identity theft reporting system maintained by the Federal Trade Commission shall be accepted by every creditor, consumer reporting agency, and federal agency as sufficient to block fraudulent accounts and information from a victim's file, without a requirement for a police report.
+
+(e) ELDER AND DEPENDENT-ADULT FINANCIAL EXPLOITATION.—Financial exploitation of a person aged sixty (60) or older, or of a dependent adult, is subject to civil penalties of up to three (3) times the amount taken. A financial institution may place a hold of up to fifteen (15) business days on a disbursement it reasonably believes involves such exploitation, with notice to the account holder and any trusted contact on file.
+
+(f) BUSINESS EXPLOITATION.—This section is in addition to the protections against unfair, deceptive, and exploitative business practices in Titles I, IV, XVI, and XXII of this Act, and nothing in this section limits them.
+
+SEC. 4003. COMMUNITY SAFETY AND VIOLENT CRIME REDUCTION.
+
+(a) PROGRAM.—The Attorney General shall make competitive grants to states, units of local government, and tribal governments, to the extent provided in advance in appropriations Acts, for:
+(1) improving the rate at which homicides, shootings, and other violent crimes are solved, including detective staffing, forensic laboratory capacity, and reduction of evidence backlogs;
+(2) community violence intervention programs with published evidence of effectiveness;
+(3) services for victims and witnesses of violent crime; and
+(4) recruitment, training, and retention of law enforcement officers, including training in de-escalation and crisis response.
+
+(b) EVIDENCE STANDARD.—Not less than seventy-five percent (75%) of grant funds shall support practices rated effective or promising by the National Institute of Justice, and each grantee shall report outcomes annually.
+
+(c) PROTECTION OF RIGHTS.—Grant funds may not be used for any practice that a court has found to violate the constitutional rights of any person.
+
+SEC. 4004. SEPARATION OF CHURCH AND STATE.
+
+(a) GOVERNMENT NEUTRALITY.—No program, benefit, contract, or grant under this Act shall prefer one religion over another, or religion over nonreligion, or nonreligion over religion.
+
+(b) NO RELIGIOUS TEST.—No religious test or religious affiliation shall be a condition of eligibility for any benefit, office, position, contract, or grant under this Act.
+
+(c) USE OF FUNDS.—Funds provided under this Act may not be used for explicitly religious activities, including worship, religious instruction, or proselytization. A religious organization may receive funds under this Act on the same basis as any other organization, keep its religious character, name, and governance, and hold explicitly religious activities, if those activities are paid for with other funds and are separate in time or place from the funded program and voluntary for participants.
+
+(d) PROTECTION OF BENEFICIARIES.—No provider of services under this Act shall discriminate against a beneficiary or applicant on the basis of religion, a religious belief, or a refusal to hold a religious belief or attend a religious practice. A beneficiary who objects to the religious character of a provider is entitled to referral to an alternative provider of equal value and accessibility.
+
+(e) RELATIONSHIP TO SECTION 2005.—This section and Section 2005 shall be read together. Section 2005 protects individuals and religious organizations from compelled participation; this section keeps the government itself neutral.
+
+SEC. 4005. BODILY AUTONOMY AND REPRODUCTIVE FREEDOM.
+
+(a) RIGHT TO CONTRACEPTION.—Every person has a right to obtain contraceptives and contraceptive information, and every health care provider has a corresponding right to provide them, including every contraceptive drug or device approved, cleared, or authorized by the Food and Drug Administration.
+
+(b) RIGHT TO ASSISTED REPRODUCTION.—Every person has a right to access assisted reproductive technology, including in vitro fertilization, and every health care provider has a corresponding right to provide it, consistent with the standards of care that apply to comparable medical services.
+
+(c) ABORTION SERVICES.—
+(1) BEFORE VIABILITY.—A health care provider has a right to provide abortion services, and a patient has a corresponding right to receive them, before fetal viability.
+(2) AFTER VIABILITY.—A health care provider has a right to provide abortion services, and a patient has a corresponding right to receive them, after fetal viability when, in the good-faith medical judgment of the treating health care provider, continuing the pregnancy would pose a risk to the patient's life or health.
+(3) DEFINITION.—In this section, "viability" means the point in a pregnancy at which, in the good-faith medical judgment of the treating health care provider based on the particular facts of the case, there is a reasonable likelihood of sustained fetal survival outside the uterus with or without artificial support.
+(4) LIMITATIONS.—No government shall impose on the services protected by this section a requirement or limitation that is more burdensome than those it imposes on medically comparable services, or that does not significantly advance the safety of the services or the health of patients.
+
+(d) RIGHT TO TRAVEL.—No government shall prevent, restrict, or penalize a person for traveling to another state to obtain, or for helping another person obtain, services that are lawful in the state where they are provided.
+
+(e) INFORMED CONSENT.—Every competent adult has a right to informed consent and to refuse medical treatment for themselves, except as provided by a court order or by federal or state public health law in effect on the date of enactment of this Act.
+
+(f) RULES OF CONSTRUCTION.—
+(1) Nothing in this section requires an individual health care provider to participate in a service to which the provider objects on grounds of religion or conscience, consistent with Section 2005(a) and with 42 U.S.C. § 300a-7. A facility shall in all cases provide stabilizing treatment required by 42 U.S.C. § 1395dd.
+(2) Nothing in this section provides federal funding for abortion services or alters any limitation on such funding in an appropriations Act.
+
+(g) ENFORCEMENT.—The Attorney General, or any person or provider harmed by a violation of this section, may bring a civil action for declaratory and injunctive relief in a district court of the United States.
+
+SEC. 4006. NATIONAL VERIFIABLE VOTING SYSTEM — ELECTIONS ANY CITIZEN CAN CHECK.
+
+(a) FINDINGS.—Congress finds that:
+(1) More than 158,000,000 ballots were cast in the 2024 general election: 37.4 percent in person on Election Day, 35.2 percent in person before Election Day, and 30.3 percent by mail (Election Assistance Commission, 2024 Election Administration and Voting Survey).
+(2) In a survey taken from December 2025 through January 2026, only 60 percent of Americans were very or somewhat confident that votes in the 2026 midterm elections would be counted accurately nationwide, and trust had declined among Democrats, Republicans, and independents alike (University of California San Diego, Yankelovich Center).
+(3) The Voluntary Voting System Guidelines 2.0, adopted by the Election Assistance Commission on February 10, 2021, require that an undetected software error cannot cause an undetectable change in an election outcome, and permit either voter-verifiable paper records or an approved cryptographic end-to-end verifiable protocol to meet that requirement. As of 2024, only paper-based systems were available on the market.
+(4) Elections are run by states and localities, and a single ballot usually carries federal, state, and local contests together. A system that makes every contest on that ballot verifiable serves voters at every level of government.
+
+(b) AUTHORITY AND SCOPE.—
+(1) CONGRESSIONAL ELECTIONS.—Under Article I, Section 4 of the Constitution, the requirements of this section apply to every general, primary, special, and runoff election for Senator or Representative.
+(2) ALL OTHER CONTESTS.—For presidential electors and for state, local, tribal, and territorial offices and ballot measures, a state may use the system established by this section, and grants under subsection (n) are available to each state that uses it, or a system certified to the same standard, for every contest on the ballot.
+(3) STATE AUTHORITY PRESERVED.—Nothing in this section changes who is eligible to vote, voter registration requirements, or the authority of states and localities to administer their elections. The federal role under this section is limited to standards, software, testing, security support, and funding.
+
+(c) NATIONAL VERIFIABLE VOTING SYSTEM.—
+(1) The Election Assistance Commission, with the National Institute of Standards and Technology and the Cybersecurity and Infrastructure Security Agency, shall develop, certify, and maintain a National Verifiable Voting System (NVVS), using a cryptographic protocol approved through the Commission's end-to-end protocol evaluation process.
+(2) The NVVS software, protocol, and specifications shall be owned by the United States, published as open source, and provided to every state and election jurisdiction free of license fees.
+(3) Any manufacturer may build equipment that runs the NVVS or implements the same published protocol, and any system certified to the standards of this section may be used in its place, so that no jurisdiction depends on a single vendor.
+
+(d) END-TO-END VERIFIABILITY.—The NVVS and any system used in its place shall allow:
+(1) each voter to confirm that their ballot was recorded as cast and included in the count; and
+(2) any person to confirm, using published data and free verification software, that every recorded ballot was counted and every total is correct.
+
+(e) EVERY CONTEST, EVERY VOTER.—The NVVS shall support every contest and ballot format that states and localities use, including:
+(1) federal, state, county, municipal, school district, special district, and tribal contests on the same ballot;
+(2) ballot measures, multi-seat contests, ranked-choice contests where state or local law provides for them, and write-in votes;
+(3) every ballot style and precinct split in a jurisdiction;
+(4) the language assistance required by section 203 of the Voting Rights Act of 1965 (52 U.S.C. § 10503); and
+(5) private and independent voting by voters with disabilities, as required by section 301(a)(3) of the Help America Vote Act of 2002 (52 U.S.C. § 21081(a)(3)).
+
+(f) HOW BALLOTS ARE CAST AND PROTECTED.—
+(1) IN PERSON.—The voter marks a paper ballot by hand or on an accessible ballot-marking device. The ballot is scanned at the polling place, where the scanner encrypts the voter's selections, and the voter receives a confirmation code. The paper ballot is kept as the official record.
+(2) BY MAIL.—Each mail ballot is scanned and encrypted when it is accepted, and its confirmation code is made available to the voter through the state's ballot tracking system. Mail ballots receive the same public ledger entry, verification, and audit as ballots cast in person.
+(3) PROVISIONAL AND OVERSEAS BALLOTS.—Provisional ballots are entered on the ledger when they are accepted. Ballots under the Uniformed and Overseas Citizens Absentee Voting Act are handled as mail ballots.
+(4) NO INTERNET DURING VOTING.—No device that records, scans, or encrypts votes shall be connected to the internet or to any network connected to the internet while voting or tabulation is under way.
+
+(g) PUBLIC ELECTION LEDGER — REAL-TIME TRANSPARENCY.—
+(1) Each election jurisdiction shall post every accepted encrypted ballot, with its confirmation code, to a public, append-only election ledger that anyone can view from any device, updated as ballots are accepted and counted.
+(2) Any voter can enter their confirmation code on a personal device and see that their ballot is on the ledger and was counted, or the reason it was not accepted.
+(3) Totals for every contest shall be computed from the encrypted ballots without decrypting any individual ballot, and published by precinct and counting batch not less than once every hour on election night and every business day during the canvass. Each published total shall carry a mathematical proof that any person can check with the free verification software.
+(4) Each jurisdiction shall also publish the number of ballots received, accepted, rejected, and remaining to be counted, and a live video feed of each central counting and adjudication area while ballots are processed.
+(5) Copies of each ledger shall be held by the state, the Commission, and at least two independent public archives, so that no single party can alter or remove an entry without detection.
+
+(h) SHARED DECRYPTION KEYS.—For each election, the key that decrypts totals shall be divided among not fewer than five (5) trustees, including at least one designated by each of the two largest political parties in the state and at least one independent trustee, so that no single official, party, vendor, or outside attacker can decrypt totals alone. A quorum of trustees, set in advance, is required to publish results, so that one absent trustee cannot block them. Individual ballots shall never be decrypted.
+
+(i) SECRET BALLOT.—No system, code, ledger entry, or publication under this section shall reveal how any identifiable voter voted, and no voter shall receive anything that could prove to another person how they voted. Confirmation codes show only that a ballot was counted.
+
+(j) PAPER AND AUDITS.—Before certification, each state shall conduct a risk-limiting audit of each contest for federal office, and of each other contest for which the state receives a grant under subsection (n), by human inspection of the paper ballots, and shall confirm that the paper ballots match the ledger totals. Where they cannot be confirmed, a full hand count of the paper ballots shall decide the result.
+
+(k) SECURITY.—
+(1) Before first use and before each general election for federal office, the NVVS shall pass certification by the Commission, an independent penetration test by testers not employed by any manufacturer of the system, and a public bug bounty open to independent researchers, with findings and fixes published after they are remediated.
+(2) No change to NVVS software shall be deployed within ninety (90) days before a general election for federal office, except a security fix certified by the Commission and published.
+(3) The Cybersecurity and Infrastructure Security Agency shall provide free incident response and monitoring to any jurisdiction using the NVVS, at the jurisdiction's request.
+(4) Equipment shall meet the supply-chain risk management requirements of the Voluntary Voting System Guidelines.
+
+(l) GOVERNANCE.—The NVVS shall be managed by a program office within the Election Assistance Commission and advised by a Technical Board of state and local election officials, with equal numbers from each of the two largest political parties, and independent election-security researchers. Every change to the system, every test result, and every Technical Board recommendation shall be published.
+
+(m) REMOTE VOTING FROM PERSONAL DEVICES.—
+(1) Marked ballots shall not be returned over the internet until the requirements of this subsection are met.
+(2) The Commission, with NIST and CISA, shall conduct pilots of end-to-end verifiable remote voting from personal devices, limited first to military and overseas voters and to voters with disabilities who cannot mark a paper ballot independently.
+(3) Remote ballot return may be used beyond those pilots only after NIST and CISA jointly certify to Congress that it meets the standards of subsections (d), (h), and (i), that independent testing under subsection (k) found no unremediated vulnerability that could change votes at scale, and that voter coercion and vote buying are prevented. That certification takes effect only if Congress approves it by joint resolution.
+
+(n) VERIFIABLE VOTING GRANTS.—To the extent provided in advance in appropriations Acts, the Commission shall make grants to states, allocated under the formula of section 101 of the Help America Vote Act of 2002, for:
+(1) equipment that runs the NVVS or a system certified to the same standard, up to the full cost and not more than ten thousand dollars ($10,000) per polling place or vote center;
+(2) scanners for mail ballots, ledger hosting, and ballot tracking systems;
+(3) risk-limiting audits, poll-worker training, and voter education; and
+(4) the costs to localities of using the system for state and local contests.
+A state receives the full grant only if it uses the system for every contest on the ballot, including state and local contests.
+
+(o) VOTER REGISTRATION INTEGRITY.—Each state shall assess the integrity of its voter registration database at least annually and before each federal general election, and shall notify a registrant before removing that registrant from the rolls.
+
+(p) SCHEDULE.—
+(1) Subsections (f)(4), (i), and (o) take effect for the first regularly scheduled general election for federal office held more than two (2) years after enactment.
+(2) The Commission shall certify the first version of the NVVS within three (3) years of enactment, and shall operate it in not fewer than five (5) volunteer states, in all contests on the ballot, at the next general election for federal office after certification.
+(3) All other requirements of this section take effect for elections for Senator and Representative at the first regularly scheduled general election for federal office held more than six (6) years after enactment.
+(4) Pilots under subsection (m)(2) shall begin within three (3) years of enactment.
+
+SEC. 4007. FUNDING AND BUDGET NEUTRALITY.
+
+(a) APPROPRIATIONS.—Grants and programs under this Title are carried out to the extent provided in advance in appropriations Acts, including the Verifiable Voting Grants of Section 4006(n).
+
+(b) PENALTIES.—Civil penalties collected under Section 4002 shall be deposited into the Crime Victims Fund established under 34 U.S.C. § 20101.
+
+(c) BUDGET EFFECT.—This Title creates no new direct spending. No amount under this Title is counted in the projections of Section 3406 or Schedule G.
+
+SEC. 4008. SCHEDULE D BENCHMARKS — TITLE XL.
+
+The Federal Trade Commission, the Attorney General, and the Election Assistance Commission shall report annually to Congress, and publish, the following:
+(1) reported fraud and identity theft losses, reimbursements paid under Section 4002(b), and amounts recovered for victims;
+(2) solve rates for homicides and nonfatal shootings in jurisdictions receiving grants under Section 4003;
+(3) actions brought under Sections 4004 and 4005; and
+(4) the states and localities using the National Verifiable Voting System and for which contests, the share of contests audited under Section 4006(j) and audit outcomes, results of security testing under Section 4006(k), the status of remote-voting pilots under Section 4006(m), and the timeliness of results published under Section 4006(g).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 (Enacted as a statutory annex for purposes of Sections 3402, 3406, and 1903)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 1. PURPOSE.
 
-Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.7, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
+Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.8, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -5044,7 +5234,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   --------------------------------------------------------------------------------------------------------
   TOTAL REVENUE                                                                        $  542.4B   $  442.3B
 
-  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2405, 2406 and 2410, approximately $129B) are part of the $542.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule. Section 2404 is reserved; the infrastructure maintenance assessment of earlier versions was withdrawn in methodology version 2026.6, together with the corporate rate increase of Section 2409(b). In methodology version 2026.7 the rewilding and food-system programs moved to annual appropriations and the Phase 2 wage-floor credit was withdrawn.
+  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2405, 2406 and 2410, approximately $129B) are part of the $542.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule. Section 2404 is reserved; the infrastructure maintenance assessment of earlier versions was withdrawn in methodology version 2026.6, together with the corporate rate increase of Section 2409(b). In methodology version 2026.7 the rewilding and food-system programs moved to annual appropriations and the Phase 2 wage-floor credit was withdrawn. In methodology version 2026.8 the crop-insurance savings of Section 3410(h), about $5B a year, fund farmer pesticide-transition support under Section 705(d); the two are shown net at zero and are not counted in the plan below. Five billion dollars a year of the Section 3406(c) allocation moved from Section 1204 to Section 706; the $55B total is unchanged.
 
   Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
 
@@ -5063,7 +5253,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Social Security anti-erosion protections                                         Sec. 3406(b)(9)    $  30.0B
   Rural health infrastructure                                                      Sec. 2109          $   3.0B
   Household energy bill credits (50% of carbon fee; full to 300% of poverty, zero at 400%) Sec. 2410(c)       $  42.5B
-  Infrastructure (grid, water, chips)                                              Sec. 3406(c)       $  55.0B
+  Infrastructure (grid, water, chips, regional food)                               Sec. 3406(c)       $  55.0B
   Science, child care, digital government (capped)                                 Schedule G sec. 6  $  51.0B
   Medicare payment integrity savings (MA coding, site-neutral)                     Sec. 2112          $ -40.0B
   ------------------------------------------------------------------------------------------------------------
@@ -5110,23 +5300,22 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    22B      Yr 1    1
   Carbon fee rises $5/ton a year to $75 (net of household credits at 50%)              Sec. 3410(f)     $    29B      Yr 2    7
   Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $     8B      Yr 2    3
-  Crop insurance: premium subsidy and insurer reimbursement reform                     Sec. 3410(h)     $     5B      Yr 2    1
-  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   374B
+  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   369B
 
   Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
   Year 1  (FY2028)  $   86B          $   46B          $   0B            $  132B   $   132B
-  Year 2  (FY2029)  $   59B          $   90B          $   5B            $  154B   $   286B
-  Year 3  (FY2030)  $   25B          $  133B          $  10B            $  167B   $   453B
-  Year 4  (FY2031)  $   -5B          $  178B          $  16B            $  189B   $   642B
-  Year 5  (FY2032)  $   -7B          $  224B          $  22B            $  239B   $   881B
-  Year 6  (FY2033)  $  -10B          $  273B          $  31B            $  294B   $  1175B
-  Year 7  (FY2034)  $  -12B          $  320B          $  41B            $  348B   $  1524B
-  Year 8  (FY2035)  $  -15B          $  371B          $  53B            $  409B   $  1933B
-  Year 9  (FY2036)  $  -18B          $  420B          $  68B            $  469B   $  2402B
-  Year 10 (FY2037)  $  -21B          $  473B          $  84B            $  535B   $  2937B
+  Year 2  (FY2029)  $   59B          $   85B          $   5B            $  149B   $   281B
+  Year 3  (FY2030)  $   25B          $  127B          $  10B            $  161B   $   442B
+  Year 4  (FY2031)  $   -5B          $  172B          $  15B            $  183B   $   625B
+  Year 5  (FY2032)  $   -7B          $  218B          $  22B            $  233B   $   858B
+  Year 6  (FY2033)  $  -10B          $  267B          $  30B            $  287B   $  1145B
+  Year 7  (FY2034)  $  -12B          $  313B          $  40B            $  341B   $  1486B
+  Year 8  (FY2035)  $  -15B          $  364B          $  52B            $  401B   $  1887B
+  Year 9  (FY2036)  $  -18B          $  413B          $  66B            $  461B   $  2348B
+  Year 10 (FY2037)  $  -21B          $  465B          $  82B            $  526B   $  2875B
 
-  Ten-year combined deficit reduction: $2.6T before interest savings; $2.9T including interest savings (range $2.1T to $3.5T).
-  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($542.4B, $541.6B, a net of $0.8B, $374B) are first-year dollars. The Year 10 plan figure ($473B) is the $374B schedule, less the share of Sec. 3410(b) still phasing in, grown 4 percent a year for nine years.
+  Ten-year combined deficit reduction: $2.6T before interest savings; $2.9T including interest savings (range $2.0T to $3.5T).
+  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($542.4B, $541.6B, a net of $0.8B, $369B) are first-year dollars. The Year 10 plan figure ($465B) is the $369B schedule, less the share of Sec. 3410(b) still phasing in, grown 4 percent a year for nine years.
 
   MODELED DEFICIT COMPARED WITH STATUTORY LIMITS (percent of GDP; CBO February 2026 baseline less the total above):
   Year 4  (FY2031): modeled about 5.5 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
@@ -5140,7 +5329,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
 4B. ACT DEPENDENCIES.
 
-  The 40 titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp). Act I costs include the middle-class tax relief of Sec. 2421 ($128.0B) and the household energy credits of Sec. 2410(c)(1) ($42.5B).
+  The 41 titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp). Act I costs include the middle-class tax relief of Sec. 2421 ($128.0B) and the household energy credits of Sec. 2410(c)(1) ($42.5B).
 
   Act                                         Titles                                   Revenue   Costs    Net
   Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $533.4B   $220.5B  +$312.9B
@@ -5150,7 +5339,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Act V   Accountability and Data Rights      all other titles                         $  9.0B   $ 20.0B  -$ 11.0B
   Total                                                                                $542.4B   $541.6B  +$  0.8B
 
-  Act I also contains the Fiscal Sustainability Plan (Sec. 3410, $374B a year at full effect) and the deficit limits (Sec. 3406(f)). The five acts together roughly break even before Sec. 3410; with Sec. 3410 they reduce the deficit.
+  Act I also contains the Fiscal Sustainability Plan (Sec. 3410, $369B a year at full effect) and the deficit limits (Sec. 3406(f)). The five acts together roughly break even before Sec. 3410; with Sec. 3410 they reduce the deficit.
 
   STATUS OF EACH ACT IF INTRODUCED SEPARATELY:
   Act I: independently viable. It reduces the deficit on its own.
