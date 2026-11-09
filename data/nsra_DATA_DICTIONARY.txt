@@ -31,7 +31,7 @@ nsra_state_impact.csv
   Sources: Census ACS, KFF, USDA FNS, VA, BLS, BEA (2024 vintage).
 
 nsra_title_to_bill.csv
-  Maps each of the 40 titles (0-XXXIX) to its coordinated bill (1-5). Titles XVI & XVII are integrated.
+  Maps each of the 41 titles (0-XL) to its coordinated bill (1-5). Titles XVI & XVII are integrated.
   Source: the public five-coordinated-bill packaging on TheAmericanDeal.org Policy Vault.
 
 nsra_title_to_committee.csv
@@ -47,7 +47,7 @@ CANONICAL TAXONOMY
 Full-ramp revenue ~$542B/yr (Scenario B floor ~$442B) - costs, outlays and infrastructure ~$542B,
 including the $128B middle-class tax cut of Sec. 2421, = about +$1B a year before Sec. 3410 (programs paid for).
 Ten years, core alone: ~$0.1T of deficit reduction.
-  With the Sec. 3410 Fiscal Sustainability Plan (~$374B/yr at full effect, Y1 dollars): ~$2.6T over ten years
-  before interest savings, ~$2.9T including them (range ~$2.1T-$3.5T). See nsra_fiscal_sustainability_plan.csv.
+  With the Sec. 3410 Fiscal Sustainability Plan (~$369B/yr at full effect, Y1 dollars): ~$2.6T over ten years
+  before interest savings, ~$2.9T including them (range ~$2.0T-$3.5T). See nsra_fiscal_sustainability_plan.csv.
 Statutory deficit limits (Sec. 3406(f)): 4.5% of GDP by
 Year 4, 3% by Year 10, and a required vote on a Balanced Budget Act by Year 8.
