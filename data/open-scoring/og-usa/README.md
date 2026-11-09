@@ -17,7 +17,20 @@ We ran OG-USA, the open-source overlapping-generations model of the U.S. economy
 The bill raises about 2.3% of GDP in revenue and returns about 1.8% as transfers, including the middle-class tax relief; the rest reduces the deficit. Households in roughly the bottom 70% of lifetime income consume more from Year 1. The economy is smaller at first and debt falls more slowly than in the v2026.5 bill, because less of the revenue goes to deficit reduction (see Sensitivity).
 
 
-## Update: current bill (v2026.10, run "fullB", November 9, 2026)
+## Update: current bill (v2026.11, run "fullC", November 9, 2026)
+
+Same model and accounting as "fullB", with Titles III, XXVII, XXXI, XXXII, XXXIII and XXXVII and Sec. 3408 back in the bill: science funding ($30B a year) and the Strategic Compute Node ($7.7B) enter as public investment; the global health fund ($8B), the Press Freedom Monitor and the one-time dollar-security funds ($2.5B in Year 1) enter as government purchases with no domestic productivity effect.
+
+| | Year 1 | Year 5 | Year 10 | Year 20 |
+|---|---|---|---|---|
+| GDP, % change | -1.92 | -1.89 | -1.70 | -1.36 |
+| Private investment, % change | -4.78 | -3.40 | -3.16 | -2.30 |
+| Hours worked, % change | -1.65 | -1.49 | -1.28 | -1.08 |
+| Federal debt, points of GDP | +2.0 | -0.5 | -3.3 | -10.6 |
+
+Consumption in Year 10 by lifetime-income group: bottom 25% +1.93%, 25-50 +1.20%, 50-70 +0.32%, 70-90 -0.07% to -0.25%, 90-99 -1.09%, top 1% -2.30% to -11.12%. Compared with "fullB", the added public investment raises long-run output slightly, while the added spending slows the fall in debt. Files: results2_DEP_fullC.json, run_nsra5.py.
+
+## Update: previous bill (v2026.10, run "fullB", November 9, 2026)
 
 Same model and accounting as "fullA", with the two-term changes: the middle-class tax cut narrowed to the 12% bracket only ($85.3B a year, Sec. 2421); Medicare buy-in for ages 50 to 64 (Sec. 2113, $18.4B a year in premium help from Year 2); the hospital price limit in commercial insurance (Sec. 3410(b), about $99B a year in lower private premiums and cost sharing, phased in from Year 2 over four years, from CRFB's estimate of $987B over ten years); and the Social Security formula change withdrawn. Titles moved to companion Acts are not modeled.
 
