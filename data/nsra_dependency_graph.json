@@ -14,10 +14,10 @@
    ],
    "out": {
     "XL": 1,
-    "III": 1,
     "IV": 3,
     "XXI": 34,
     "XXXIV": 20,
+    "III": 1,
     "II": 35,
     "XIII": 6,
     "XXIV": 3,
@@ -39,9 +39,11 @@
     "V": 2,
     "VI": 5,
     "XXIV": 7,
+    "XXXIII": 3,
     "XXXIV": 3,
     "I": 6,
     "II": 1,
+    "III": 14,
     "VII": 2,
     "VIII": 1,
     "IX": 13,
@@ -93,9 +95,10 @@
     "0": 21,
     "XVIII": 27,
     "XXIV": 7,
-    "XXXIV": 7,
+    "XXXIV": 10,
     "XL": 2,
     "II": 13,
+    "III": 14,
     "IV": 13,
     "V": 2,
     "VI": 5,
@@ -115,7 +118,11 @@
     "XXII": 4,
     "XXIII": 7,
     "XXV": 8,
+    "XXVII": 2,
     "XXX": 1,
+    "XXXI": 6,
+    "XXXII": 4,
+    "XXXIII": 14,
     "XXXV": 3,
     "XXXVI": 2
    },
@@ -144,6 +151,7 @@
    "in": {
     "0": 35,
     "I": 5,
+    "III": 11,
     "V": 14,
     "X": 6,
     "XII": 9,
@@ -155,7 +163,8 @@
     "XXIV": 16,
     "XXV": 6,
     "XXX": 8,
-    "XXXIV": 21,
+    "XXXII": 10,
+    "XXXIV": 30,
     "XXXV": 2,
     "IV": 2,
     "VI": 5,
@@ -170,8 +179,12 @@
     "XXII": 5,
     "XXIII": 2,
     "XXVI": 4,
+    "XXVII": 2,
     "XXVIII": 1,
     "XXIX": 1,
+    "XXXI": 5,
+    "XXXIII": 17,
+    "XXXVII": 3,
     "XXXVIII": 2,
     "XXXIX": 1
    },
@@ -183,13 +196,33 @@
    }
   },
   "III": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
-   "in": {
-    "0": 1
+   "name": "THE ARTIFICIAL INTELLIGENCE SECURITY AND PERSONAL DATA RIGHTS",
+   "sections": [
+    "301",
+    "302",
+    "303",
+    "304"
+   ],
+   "out": {
+    "XXXIV": 2,
+    "II": 11,
+    "IX": 1,
+    "XVIII": 1,
+    "I": 14,
+    "0": 14
    },
-   "inst": {}
+   "in": {
+    "0": 1,
+    "IV": 1,
+    "XII": 1,
+    "XXXIII": 2,
+    "XXXIX": 1
+   },
+   "inst": {
+    "II": 10,
+    "I": 14,
+    "0": 14
+   }
   },
   "IV": {
    "name": "DOMESTIC SOURCING, WAGE ENFORCEMENT, AND CITIZEN ENFORCEMENT ACTIONS",
@@ -200,6 +233,7 @@
     "404"
    ],
    "out": {
+    "III": 1,
     "XX": 1,
     "0": 13,
     "I": 13,
@@ -213,6 +247,7 @@
     "XVII": 1,
     "XXI": 1,
     "XXIV": 1,
+    "XXVII": 1,
     "XXX": 1
    },
    "inst": {
@@ -360,6 +395,7 @@
    "in": {
     "0": 3,
     "I": 3,
+    "III": 1,
     "V": 1,
     "XVII": 4,
     "XXI": 2,
@@ -446,13 +482,15 @@
    "out": {
     "XXXIV": 1,
     "II": 9,
+    "III": 1,
     "0": 1,
     "I": 4
    },
    "in": {
     "0": 1,
     "XXIV": 1,
-    "XXXIV": 3
+    "XXXIV": 3,
+    "XXXVII": 1
    },
    "inst": {
     "II": 8,
@@ -539,6 +577,7 @@
     "0": 2,
     "XIX": 1,
     "XX": 1,
+    "XXXI": 1,
     "XXXVIII": 1
    },
    "inst": {
@@ -580,6 +619,8 @@
     "XIII": 1,
     "XV": 1,
     "XXI": 1,
+    "XXXII": 1,
+    "XXXIII": 1,
     "XXXIX": 1
    },
    "inst": {
@@ -649,6 +690,7 @@
     "XIX": 1
    },
    "in": {
+    "III": 1,
     "VII": 1,
     "IX": 2,
     "X": 1,
@@ -933,13 +975,30 @@
    }
   },
   "XXVII": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
-   "in": {
-    "XXXIV": 1
+   "name": "PRESS FREEDOM AND EDITORIAL INDEPENDENCE PROTECTION",
+   "sections": [
+    "2701",
+    "2702",
+    "2703",
+    "2704",
+    "2705",
+    "2706",
+    "2707",
+    "2708",
+    "2709"
+   ],
+   "out": {
+    "IV": 1,
+    "I": 2,
+    "II": 2
    },
-   "inst": {}
+   "in": {
+    "XXXIV": 2
+   },
+   "inst": {
+    "I": 2,
+    "II": 2
+   }
   },
   "XXVIII": {
    "name": "WORKER ORGANIZING RIGHTS AND ANTI-UNION-BUSTING ENFORCEMENT",
@@ -1012,27 +1071,87 @@
    }
   },
   "XXXI": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
-   "in": {},
-   "inst": {}
-  },
-  "XXXII": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
+   "name": "AMERICAN MUTUAL BENEFIT GLOBAL HEALTH SECURITY",
+   "sections": [
+    "3101",
+    "3102",
+    "3103",
+    "3104",
+    "3105",
+    "3106"
+   ],
+   "out": {
+    "XV": 1,
+    "I": 6,
+    "II": 5
+   },
    "in": {
     "XXXIV": 2
    },
-   "inst": {}
+   "inst": {
+    "I": 6,
+    "II": 5
+   }
+  },
+  "XXXII": {
+   "name": "DOLLAR SECURITY AND RESERVE CURRENCY DEFENSE",
+   "sections": [
+    "3201",
+    "3202",
+    "3203",
+    "3204",
+    "3205",
+    "3206",
+    "3207",
+    "3208",
+    "3209",
+    "3210"
+   ],
+   "out": {
+    "XXXIV": 4,
+    "XVI": 1,
+    "II": 10,
+    "I": 4
+   },
+   "in": {
+    "XXXIII": 1,
+    "XXXIV": 7
+   },
+   "inst": {
+    "II": 9,
+    "I": 4
+   }
   },
   "XXXIII": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
-   "in": {},
-   "inst": {}
+   "name": "STRATEGIC COMPUTE AUTHORITY",
+   "sections": [
+    "3301",
+    "3302",
+    "3303",
+    "3304",
+    "3305",
+    "3306",
+    "3307",
+    "3308"
+   ],
+   "out": {
+    "XXXIV": 5,
+    "XXXII": 1,
+    "0": 3,
+    "XVI": 1,
+    "III": 2,
+    "II": 17,
+    "I": 14
+   },
+   "in": {
+    "XXXIV": 1,
+    "XXXVI": 1
+   },
+   "inst": {
+    "II": 17,
+    "I": 14,
+    "0": 2
+   }
   },
   "XXXIV": {
    "name": "STRUCTURAL ARCHITECTURE REFINEMENT AND SIRF SOLVENCY",
@@ -1055,23 +1174,27 @@
     "XIV": 1,
     "XXIV": 11,
     "XXI": 21,
-    "I": 7,
+    "XXXI": 2,
+    "I": 10,
     "VII": 9,
     "XIX": 2,
-    "II": 21,
+    "II": 30,
+    "XXVII": 2,
+    "XXXII": 7,
     "IX": 2,
     "X": 4,
     "XII": 3,
+    "XXXVII": 1,
+    "XXXIII": 1,
     "VIII": 1,
     "0": 3,
     "XXXV": 1,
-    "XXVII": 1,
-    "XXIII": 1,
-    "XXXII": 2
+    "XXIII": 1
    },
    "in": {
     "0": 20,
     "II": 4,
+    "III": 2,
     "V": 6,
     "VII": 5,
     "IX": 1,
@@ -1082,16 +1205,19 @@
     "XXI": 3,
     "XXIV": 23,
     "XXX": 3,
+    "XXXII": 4,
+    "XXXIII": 5,
     "XXXIX": 3,
     "XL": 2,
     "XIV": 3,
     "XXIII": 1,
     "XXVIII": 1,
+    "XXXVII": 1,
     "XXXVIII": 1
    },
    "inst": {
-    "II": 19,
-    "I": 6,
+    "II": 27,
+    "I": 9,
     "XXI": 10,
     "0": 2,
     "XIX": 1,
@@ -1142,20 +1268,42 @@
    ],
    "out": {
     "XVIII": 7,
+    "XXXIII": 1,
     "XIV": 1,
     "I": 2
    },
-   "in": {},
+   "in": {
+    "XXXVII": 3
+   },
    "inst": {
     "I": 2
    }
   },
   "XXXVII": {
-   "name": "RESERVED",
-   "sections": [],
-   "out": {},
-   "in": {},
-   "inst": {}
+   "name": "SCIENCE, RESEARCH, AND TALENT RENEWAL",
+   "sections": [
+    "3701",
+    "3702",
+    "3703",
+    "3704",
+    "3705",
+    "3706",
+    "3707",
+    "3708"
+   ],
+   "out": {
+    "XII": 1,
+    "XXXVI": 3,
+    "II": 3,
+    "XXXIV": 1
+   },
+   "in": {
+    "XXXIV": 1
+   },
+   "inst": {
+    "II": 3,
+    "XXXIV": 1
+   }
   },
   "XXXVIII": {
    "name": "FAMILY AND WORKFORCE SECURITY",
@@ -1193,6 +1341,7 @@
    ],
    "out": {
     "XVI": 1,
+    "III": 1,
     "XXXV": 2,
     "XXXIV": 3,
     "XVIII": 1,
@@ -1234,18 +1383,18 @@
  "most_referenced_sections": [
   [
    "3406",
-   16
+   18
   ],
   [
    "201",
+   10
+  ],
+  [
+   "905",
    9
   ],
   [
    "1604",
-   8
-  ],
-  [
-   "905",
    8
   ],
   [
@@ -1257,6 +1406,10 @@
    6
   ],
   [
+   "401",
+   6
+  ],
+  [
    "502",
    5
   ],
@@ -1265,7 +1418,7 @@
    5
   ],
   [
-   "401",
+   "3408",
    5
   ],
   [
@@ -1285,6 +1438,10 @@
    4
   ],
   [
+   "204",
+   4
+  ],
+  [
    "705",
    4
   ],
@@ -1293,15 +1450,15 @@
    3
   ],
   [
+   "3401",
+   3
+  ],
+  [
    "1303",
    3
   ],
   [
    "1501",
-   3
-  ],
-  [
-   "204",
    3
   ],
   [
@@ -1322,14 +1479,6 @@
   ],
   [
    "3412",
-   3
-  ],
-  [
-   "3509",
-   3
-  ],
-  [
-   "1808",
    3
   ]
  ]
