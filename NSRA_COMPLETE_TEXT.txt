@@ -209,7 +209,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 2408. SOCIAL SECURITY PAYROLL CONTRIBUTION EQUITY.
     SEC. 2409. CORPORATE INCOME TAX BASE BROADENING.
     SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
-    SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
+    SEC. 2411. MINIMUM TAX ON FOREIGN EARNINGS — NO TAX BREAKS FOR OUTSOURCING.
     SEC. 2412. STEPPED-UP BASIS REFORM AND INHERITED WEALTH EQUITY.
     SEC. 2413. FINANCIAL TRANSACTION TAX — WALL STREET FAIR SHARE CONTRIBUTION.
     SEC. 2414. FEDERAL LAND ROYALTY REFORM.
@@ -274,7 +274,7 @@ SEC. 001. SHORT TITLE; TABLE OF CONTENTS.
     SEC. 3204. THE TREASURY BOND CREDIBILITY ENGINE.
     SEC. 3205. PETRODOLLAR MODERNIZATION.
     SEC. 3206. SWIFT FINANCIAL DEFENSE.
-    SEC. 3207. DIGITAL DOLLAR SECURITY.
+    SEC. 3207. DOLLAR SETTLEMENT MODERNIZATION — NO CENTRAL BANK DIGITAL CURRENCY.
     SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
     SEC. 3209. BUDGET IMPACT AND REVENUE CERTIFICATION.
     SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
@@ -1601,7 +1601,7 @@ TITLE XIV — SHELTER SECURITY
 
 SEC. 1401. SHELTER SECURITY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AND DIVESTITURE.
 
-(a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause. On January 20, 2026, the President directed Federal agencies to curb purchases of single-family homes by large institutional investors and called on Congress to codify that policy; this section provides that statutory codification, together with the divestiture, just-compensation, and enforcement framework that executive action alone cannot supply.
+(a) FINDINGS.—Congress finds that the concentration of single-family residential housing in institutional portfolios — primarily private equity, real estate investment trusts, and algorithmically-managed acquisition vehicles — constitutes a structural distortion of residential housing markets that (1) displaces first-time homebuyers, (2) inflates rental prices above the Structural Rent Baseline in overconcentrated Metropolitan Statistical Areas, and (3) represents an exercise of market power over a basic human necessity requiring regulation pursuant to the Commerce Clause and the Spending Clause. Executive Order 14376 of January 20, 2026, and the 21st Century ROAD to Housing Act (Public Law 119–101), enacted July 11, 2026, bar large institutional investors — those with investment control of three hundred fifty (350) or more single-family homes — from buying additional existing single-family homes, but leave existing portfolios, and their concentration in particular metropolitan areas, in place. This section builds on that Act by limiting that concentration, with the divestiture, just-compensation, and enforcement framework that the acquisition limit alone does not supply.
 
 (b) PORTFOLIO CONCENTRATION CAP.—No institutional investor, as defined in subsection (h)(1), may own, directly or through affiliated entities or investment vehicles, more than fifty (50) single-family residential units within any single Metropolitan Statistical Area (MSA), as defined by the Office of Management and Budget. Compliance with this cap shall be achieved within thirty-six (36) months of enactment of this Act.
 
@@ -1637,13 +1637,15 @@ SEC. 1401. SHELTER SECURITY — INSTITUTIONAL HOUSING PORTFOLIO CONCENTRATION AN
 
 (h) DEFINITIONS.—As used in this section:
 
-(1) INSTITUTIONAL INVESTOR.—Any entity, fund, trust, real estate investment trust, or affiliated group of entities that (A) owns single-family residential units primarily as financial assets rather than owner-occupied residences, and (B) manages a portfolio of twenty-five (25) or more single-family residential units in total nationally or ten (10) or more units within a single MSA. The term does not include individual owner-occupants, small landlords owning fewer than ten (10) units nationally, or public housing authorities.
+(1) INSTITUTIONAL INVESTOR.—A large institutional investor as defined in the 21st Century ROAD to Housing Act (Public Law 119–101), being an entity that, alone or together with affiliated entities, has direct or indirect investment control of three hundred fifty (350) or more single-family homes. The term does not include individual owner-occupants, landlords below that threshold, nonprofit organizations, or public housing authorities.
 
 (2) SINGLE-FAMILY RESIDENTIAL UNIT.—A residential property classified as a single-family home, townhome, or condominium unit, as defined in the applicable local zoning code, that is or was primarily used for residential occupancy.
 
 (3) STRUCTURAL RENT BASELINE.—The median gross rent within a given MSA, adjusted quarterly to the Structural Productivity Index, as defined in Section 203 of this Act.
 
-(i) CONSTITUTIONAL GROUNDING.—The concentration cap and divestiture requirements of this section are enacted pursuant to the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause conditions attached to the Shelter Security Fund disbursements, and Congress's plenary authority to regulate financial markets and interstate capital flows. The Quarterly Absorption Limit, the 180-day minimum notice requirement of Title XVIII, and the just compensation provisions of subsection (e) are specifically designed to satisfy the three-factor balancing test of Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978).
+(i) RELATIONSHIP TO THE ROAD TO HOUSING ACT.—Nothing in this section amends or limits the acquisition limits, exceptions, notices, or reporting requirements of the 21st Century ROAD to Housing Act. The concentration cap of subsection (b) applies in addition to that Act, and the registration and quarterly reporting of subsection (c) are in addition to the annual notice it requires.
+
+(j) CONSTITUTIONAL GROUNDING.—The concentration cap and divestiture requirements of this section are enacted pursuant to the Commerce Clause (Art. I, Sec. 8, Cl. 3), the Spending Clause conditions attached to the Shelter Security Fund disbursements, and Congress's plenary authority to regulate financial markets and interstate capital flows. The Quarterly Absorption Limit, the 180-day minimum notice requirement of Title XVIII, and the just compensation provisions of subsection (e) are specifically designed to satisfy the three-factor balancing test of Penn Central Transportation Co. v. City of New York, 438 U.S. 104 (1978).
 
 SEC. 1402. COMMUNITY LAND TRUST CAPITALIZATION AND FIRST-TIME HOMEBUYER ASSISTANCE.
 
@@ -3006,7 +3008,7 @@ SEC. 2409. CORPORATE INCOME TAX BASE BROADENING.
 
 (a) FINDING.—Congress finds that narrow preferences in the corporate income tax base, including the deduction for foreign-derived income, last-in, first-out inventory accounting, expensing and percentage depletion for fossil fuels, and immediate deduction of advertising, reduce revenue while favoring some industries over others, and that repealing them raises revenue at a lower cost to investment and wages than a higher rate.
 
-(b) RATE RETAINED.—Nothing in this Act changes the rate of tax imposed by section 11(b) of the Internal Revenue Code of 1986, which remains twenty-one percent (21%).
+(b) RATE.—The rate of tax imposed by section 11(b) of the Internal Revenue Code of 1986 is as provided in Section 3410(k).
 
 (c) FOREIGN-DERIVED DEDUCTION ELIGIBLE INCOME.—Section 250(a)(1)(A) of such Code is amended by striking the deduction for foreign-derived deduction eligible income, effective for taxable years beginning after December 31, 2027.
 
@@ -3058,21 +3060,20 @@ SEC. 2410. AMERICAN CARBON FEE AND HOUSEHOLD ENERGY PROTECTION.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SEC. 2411. OECD PILLAR TWO GLOBAL MINIMUM TAX IMPLEMENTATION.
+SEC. 2411. MINIMUM TAX ON FOREIGN EARNINGS — NO TAX BREAKS FOR OUTSOURCING.
 
-(a) FINDING.—Congress finds that the United States has not fully implemented the OECD/G20 Inclusive Framework's Pillar Two global minimum corporate tax of fifteen percent (15%), agreed to by 140 nations. By failing to fully implement Pillar Two, the United States forfeits not less than fifty billion dollars ($50,000,000,000) annually in revenue from multinational corporations that shift profits to low-tax jurisdictions, while simultaneously creating a competitive disadvantage for domestic companies that cannot access offshore tax arbitrage.
+(a) FINDINGS.—Congress finds that (1) under section 951A of the Internal Revenue Code of 1986, as amended by Public Law 119–21, the foreign earnings of United States corporations are taxed at a lower rate than income earned in the United States, and earnings in higher-tax and lower-tax countries are blended, which rewards booking profits in low-tax jurisdictions rather than investing at home; (2) on January 5, 2026, the OECD/G20 Inclusive Framework adopted a side-by-side arrangement under which groups whose parent is in the United States are exempt from the income inclusion rule and the undertaxed profits rule of the Pillar Two global minimum tax, while remaining subject to the domestic minimum taxes of other countries; and (3) the United States can therefore protect its own tax base through its own law, without adopting the Pillar Two rules and without ceding any taxing right to another country.
 
-(b) GLOBAL MINIMUM TAX IMPLEMENTATION.—Subpart F of the Internal Revenue Code is amended to implement the OECD Pillar Two Global Anti-Base Erosion (GloBE) rules in full, including:
+(b) FOREIGN EARNINGS TAXED AT THE DOMESTIC RATE.—For taxable years beginning after December 31, 2027, sections 250 and 951A of the Internal Revenue Code of 1986 are amended so that—
+(1) the deduction allowed under section 250(a)(1)(B) for net CFC tested income is repealed, so that such income is taxed at the rate in effect under section 11(b);
+(2) net CFC tested income, and the credit for foreign income taxes paid on it, are determined separately for each foreign country, so that taxes paid in a high-tax country cannot shelter income booked in a low-tax country; and
+(3) the credit for foreign income taxes paid on such income is allowed in full, so that income already taxed abroad at or above the United States rate owes no further United States tax.
 
-(1) INCOME INCLUSION RULE (IIR).—The United States shall impose a top-up tax on the domestic parent entity of any multinational enterprise with global revenues exceeding seven hundred fifty million euros (€750M) to the extent that any constituent entity in a low-tax jurisdiction pays an effective tax rate below fifteen percent (15%);
+(c) NO PILLAR TWO CHARGING RULES.—Nothing in this section enacts an income inclusion rule or an undertaxed profits rule under the OECD model rules. The Secretary of the Treasury shall maintain the standing of the United States system as a qualified regime under the side-by-side arrangement described in subsection (a)(2), and shall report to Congress within one hundred eighty (180) days of enactment on any change needed to keep it.
 
-(2) UNDERTAXED PROFITS RULE (UTPR).—To the extent another jurisdiction's IIR does not capture undertaxed profits attributable to US-parented entities, the UTPR shall apply as a backstop, imposing a denial of deductions equal to the top-up tax amount;
+(d) REVENUE ALLOCATION.—Revenue under this section shall be deposited into the SIRF Industrial Infrastructure Node, dedicated to capitalization of domestic manufacturing facilities and supply chain resilience investments.
 
-(3) QUALIFIED DOMESTIC MINIMUM TOP-UP TAX (QDMTT).—The United States shall enact a QDMTT ensuring that US-based constituent entities of multinationals are subject to a minimum effective rate of fifteen percent (15%) on domestic income, securing US priority collection rights under the Pillar Two framework.
-
-(c) REVENUE ALLOCATION.—All Pillar Two top-up tax revenue shall be deposited into the SIRF Industrial Infrastructure Node, dedicated to capitalization of domestic manufacturing facilities and supply chain resilience investments.
-
-(d) PROJECTED REVENUE.—Full Pillar Two implementation is projected at approximately fifty billion dollars ($50,000,000,000) in annual United States revenue, based on Joint Committee on Taxation and OECD estimates, and may rise as other nations implement equivalent rules. This estimate is the Scenario A figure of Schedule G, section 2.
+(e) PROJECTED REVENUE.—This section is projected at approximately thirty-four billion dollars ($34,000,000,000) a year, the annual average of the estimate of the Congressional Budget Office that taxing all foreign income of United States corporations at the full statutory rate would raise three hundred forty billion dollars ($340,000,000,000) over fiscal years 2025 through 2034 (Options for Reducing the Deficit: 2025 to 2034, December 2024). No credit is taken for the higher yield at the rate of Section 3410(k) or for the country-by-country computation. That estimate predates Public Law 119–21, which changed the taxation of foreign income, and the Joint Committee on Taxation shall re-estimate this section. This estimate is the Scenario A figure of Schedule G, section 2.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -3162,7 +3163,7 @@ SEC. 2415. FINANCIAL SECTOR EXCESS PROFITS STABILIZATION ASSESSMENT.
 
 SEC. 2416. CFPB CONSUMER FINANCIAL PROTECTION — MEDICAL DEBT, PREDATORY LENDING, AND HOUSEHOLD FINANCIAL INTEGRITY STANDARDS.
 
-(a) FINDINGS.—Congress finds that: (1) medical debt is the leading cause of personal bankruptcy in the United States, affecting more than one hundred million (100,000,000) Americans, and functions as a structural tax on health-seeking behavior that is incompatible with the universal coverage mandate of the Basic Minimum Plan; (2) predatory lending instruments — including payday loans with effective annual interest rates exceeding three hundred percent (300%), rent-to-own arrangements that charge three to five times the retail value of consumer goods, and certain credit card penalty rate structures — extract an estimated ninety billion dollars ($90,000,000,000) annually from working households, disproportionately in communities below 150% of the Federal Poverty Level; (3) overdraft fees charged by financial institutions cost American households eleven billion dollars ($11,000,000,000) annually and disproportionately affect the lowest-balance accounts; and (4) the Consumer Financial Protection Bureau has the statutory authority to address these harms under the Consumer Financial Protection Act (12 U.S.C. § 5481 et seq.) but has lacked both the enforcement resources and the specific statutory mandates necessary to act systematically.
+(a) FINDINGS.—Congress finds that: (1) about one hundred million (100,000,000) people in the United States carry debt from health care bills (Kaiser Family Foundation, 2022), and medical debt functions as a structural tax on health-seeking behavior that is incompatible with the universal coverage mandate of the Basic Minimum Plan; (2) predatory lending instruments — including payday loans with effective annual interest rates exceeding three hundred percent (300%) and rent-to-own arrangements that charge several times the retail value of consumer goods — fall hardest on communities below 150% of the Federal Poverty Level, and credit card issuers charged consumers more than one hundred five billion dollars ($105,000,000,000) in interest and more than twenty-five billion dollars ($25,000,000,000) in fees in 2022 (Consumer Financial Protection Bureau), while federal credit unions have long operated under a statutory interest-rate ceiling of fifteen percent (15%), currently set at eighteen percent (18%) by the National Credit Union Administration under 12 U.S.C. 1757(5)(A)(vi); (3) banks with more than one billion dollars in assets reported five billion eight hundred million dollars ($5,800,000,000) in overdraft and insufficient-funds fees in 2023 (Consumer Financial Protection Bureau), and these fees fall most heavily on the lowest-balance accounts; and (4) the Consumer Financial Protection Bureau has the statutory authority to address these harms under the Consumer Financial Protection Act (12 U.S.C. § 5481 et seq.) but has lacked both the enforcement resources and the specific statutory mandates necessary to act systematically.
 
 (b) MEDICAL DEBT NATIONAL STANDARDS.—
 (1) CREDIT REPORTING PROHIBITION.—No medical debt shall be reported to or included in any consumer credit report, credit score, or creditworthiness determination. Any credit reporting agency that includes medical debt in a consumer credit file after the effective date of this section shall be subject to a civil penalty of not less than one thousand dollars ($1,000) per consumer file per day of violation, enforceable by the CFPB.
@@ -3171,7 +3172,8 @@ SEC. 2416. CFPB CONSUMER FINANCIAL PROTECTION — MEDICAL DEBT, PREDATORY LENDIN
 
 (c) PREDATORY LENDING INTEREST RATE CAP.—
 (1) RATE CAP.—No consumer loan, payday loan, installment loan, rent-to-own arrangement, or credit product offered to a natural person shall carry an annual percentage rate exceeding thirty-six percent (36%), inclusive of all fees, charges, and ancillary costs. This cap applies to all lenders operating within the United States, including state-chartered lenders and online lenders whose customers are located in the United States, without regard to the lender's state of incorporation or choice-of-law provisions.
-(2) ENFORCEMENT.—The CFPB shall enforce this cap as an unfair, deceptive, and abusive act or practice under 12 U.S.C. § 5531. Any loan agreement in violation of this cap shall be void as to the interest component in excess of thirty-six percent (36%), and the principal shall remain due at the capped rate.
+(2) CREDIT CARD RATE CAP.—No credit card account under an open-end consumer credit plan, as those terms are used in section 127 of the Truth in Lending Act (15 U.S.C. 1637), shall carry an annual percentage rate exceeding eighteen percent (18%), including any penalty rate. The cap applies to balances incurred on or after the date that is one hundred eighty (180) days after enactment, and no rate on an existing balance may be raised to comply with it. To prevent evasion, any annual, account-maintenance, or similar periodic fee first imposed or increased after enactment on an account subject to this paragraph shall be treated as a finance charge in computing the annual percentage rate, unless the Bureau finds by rule that the fee is reasonable and proportional to a service actually provided. The Bureau, after consultation with the National Credit Union Administration, may by rule raise the cap to not more than twenty-one percent (21%) for periods of not more than eighteen (18) months when money market interest rates have risen and the cap threatens the safety and soundness of issuers, on the model of 12 U.S.C. 1757(5)(A)(vi).
+(3) ENFORCEMENT.—The CFPB shall enforce the caps of paragraphs (1) and (2) as an unfair, deceptive, and abusive act or practice under 12 U.S.C. § 5531. Any credit agreement in violation of either cap shall be void as to the interest component in excess of the applicable cap, and the principal shall remain due at the capped rate.
 
 (d) OVERDRAFT FEE REFORM.—
 (1) No financial institution may charge an overdraft fee exceeding five dollars ($5.00) per transaction, or charge more than three (3) overdraft fees per calendar month per account, regardless of account type.
@@ -3933,7 +3935,7 @@ SEC. 3101. FINDINGS AND PURPOSE.
 
 SEC. 3102. AMERICAN MUTUAL BENEFIT GLOBAL HEALTH FUND.
 
-(a) ESTABLISHMENT.—There is established the American Mutual Benefit Global Health Fund (MGHS Fund) within the SIRF Biosecurity Node, funded at not less than $8,000,000,000 annually, indexed to the Structural Productivity Index.
+(a) ESTABLISHMENT.—There is established the American Mutual Benefit Global Health Fund (MGHS Fund), to be funded through annual appropriations of not less than $8,000,000,000 a year, indexed to the Structural Productivity Index, within the appropriations limits of Section 3410(d) as provided in Section 3410(p).
 
 (b) MANDATORY FUNDING FLOORS BY CATEGORY.—
 
@@ -4021,11 +4023,11 @@ SEC. 3201. FINDINGS AND PURPOSE.
 
 (5) The proliferation of SWIFT-alternative interbank settlement systems, including the Chinese Cross-Border Interbank Payment System (CIPS) and the multi-central-bank mBridge platform, creates parallel financial infrastructure specifically designed to route international trade outside the jurisdiction of U.S. law, U.S. sanctions enforcement, and dollar-denominated clearing.
 
-(6) The absence of a coherent domestic Digital dollar settlement architecture creates a structural vacuum that, if unaddressed, will cede the digital currency reserve instrument space to foreign central bank digital currencies (CBDCs), particularly the digital yuan, thereby undermining dollar dominance in the emerging digital payment layer of the global economy.
+(6) Foreign central bank digital currencies, particularly the digital yuan, and the settlement networks built around them compete to carry cross-border trade outside the dollar; the strongest answer is fast, private, dollar-backed settlement through existing United States payment systems, not a government-issued digital currency.
 
 (7) The fiscal credibility of the United States Treasury bond market — the foundational instrument of dollar reserve status — is directly dependent on the United States' capacity to demonstrate structural deficit reduction and long-term fiscal solvency, which the revenue and expenditure architecture of this Act directly supports.
 
-(b) PURPOSE.—The purpose of this Title is to establish a comprehensive, legally enforceable architecture for the active defense of the dollar's reserve currency status, through five coordinated mechanisms: the Allied Settlement Compact; the Treasury Bond Credibility Engine; Petrodollar Modernization; SWIFT Financial Defense; and Digital Dollar Security.
+(b) PURPOSE.—The purpose of this Title is to establish a comprehensive, legally enforceable architecture for the active defense of the dollar's reserve currency status, through five coordinated mechanisms: the Allied Settlement Compact; the Treasury Bond Credibility Engine; Petrodollar Modernization; SWIFT Financial Defense; and Dollar Settlement Modernization.
 
 SEC. 3202. DEFINITIONS — TITLE XXXII.
 
@@ -4037,7 +4039,7 @@ As used in this Title:
 
 (3) SWIFT-ALTERNATIVE NETWORK.—Any interbank financial messaging, clearing, or settlement system operating outside the Society for Worldwide Interbank Financial Telecommunication (SWIFT) network and designed to facilitate cross-border financial transactions without passing through USD-denominated clearing channels subject to U.S. jurisdiction.
 
-(4) DIGITAL DOLLAR SETTLEMENT INSTRUMENT (DDSI).—The United States central bank digital currency authorized under Section 3206, designed to function as the primary digital reserve instrument of the global monetary system while preserving the primacy of the commercial banking system and individual financial privacy.
+(4) DOLLAR-BACKED PRIVATE SETTLEMENT INSTRUMENT.—A tokenized deposit issued by an insured depository institution, or a payment stablecoin issued under the GENIUS Act (Public Law 119–27), that settles in United States dollars under the standards of Section 3207(b). The term does not include any central bank digital currency.
 
 (5) PETRODOLLAR COMPACT NATION.—Any nation that, pursuant to a formal bilateral or multilateral agreement with the United States, has historically committed to denominating hydrocarbon export revenues in United States dollars and depositing surplus revenues in USD-denominated instruments.
 
@@ -4095,47 +4097,29 @@ SEC. 3206. SWIFT FINANCIAL DEFENSE.
 
 (e) ALLIED SWIFT DEFENSE COALITION.—The Secretary of State shall pursue the establishment of an Allied SWIFT Defense Coalition among G7 and NATO member states, committing participating nations to: (1) coordinated enforcement against SWIFT-alternative routing by Reserve Currency Threat Actors; (2) shared intelligence on emerging alternative settlement infrastructure; (3) joint investment in SWIFT modernization; and (4) coordinated sanctions responses to any nation that materially coerces allied financial institutions into SWIFT-alternative participation.
 
-SEC. 3207. DIGITAL DOLLAR SECURITY.
+SEC. 3207. DOLLAR SETTLEMENT MODERNIZATION — NO CENTRAL BANK DIGITAL CURRENCY.
 
-(a) DIGITAL DOLLAR SETTLEMENT INSTRUMENT AUTHORIZATION.—The Federal Reserve Board of Governors, in coordination with the Secretary of the Treasury, is authorized and directed to develop and deploy a Digital Dollar Settlement Instrument (DDSI) — a U.S. central bank digital currency — designed to: (1) preserve and extend the dollar's reserve currency status in the digital payment layer of the global economy; (2) operate as a complement to, not a replacement of, the commercial banking system; (3) maintain individual financial privacy consistent with the Fourth Amendment and applicable federal privacy law; and (4) be denominated in United States dollars and fully backed by the full faith and credit of the United States.
+(a) NO CENTRAL BANK DIGITAL CURRENCY.—Nothing in this Act authorizes the Board of Governors of the Federal Reserve System, any Federal reserve bank, or any other federal agency to issue, create, test, or promote a central bank digital currency, whether retail or wholesale, or any digital asset substantially similar to one. This section is consistent with, and does not amend, the prohibition on a central bank digital currency in the 21st Century ROAD to Housing Act (Public Law 119–101). No central bank digital currency may be issued except under a later Act of Congress that expressly authorizes it.
 
-(b) DESIGN REQUIREMENTS.—The DDSI shall be designed with the following mandatory architectural constraints:
+(b) DOLLAR-BACKED PRIVATE SETTLEMENT.—Within one (1) year of enactment, the Secretary of the Treasury, in consultation with the Board of Governors of the Federal Reserve System, the Comptroller of the Currency, and the Federal Deposit Insurance Corporation, shall publish open interoperability standards under which:
+(1) tokenized deposits issued by insured depository institutions, and payment stablecoins issued under the GENIUS Act (Public Law 119–27), settle in United States dollars through existing Federal Reserve services, including Fedwire and the FedNow Service;
+(2) private digital payment systems operating in the United States maintain dollar-denominated settlement capability and full one-to-one redemption at par; and
+(3) the standards impose no new federal collection of individual transaction data beyond what existing law requires.
 
-(1) COMMERCIAL BANK PRESERVATION.—The DDSI shall not accept retail deposits directly from individuals or businesses. All DDSI distribution shall occur through licensed commercial banks and credit unions, preserving the intermediary role of the commercial banking system.
+(c) ALLIED PAYMENT CORRIDORS.—The Secretary of the Treasury and the Secretary of State shall negotiate, with Allied Settlement Compact signatory nations, interoperability arrangements between United States payment systems and allied fast-payment and settlement systems, so that cross-border trade in the categories of Section 3203(a)(1) can settle in dollars quickly and at low cost without routing through any SWIFT-alternative network of a Reserve Currency Threat Actor.
 
-(2) PRIVACY ARCHITECTURE.—Individual DDSI transactions below fifty thousand dollars ($50,000) shall not be subject to individual-level government surveillance. Aggregate transaction monitoring for systemic risk and anti-money laundering purposes is permitted, but shall not constitute a record of individual transactional behavior subject to disclosure to any federal agency without a valid warrant.
+(d) NO PROGRAMMABLE RESTRICTIONS.—No federal standard, rule, or arrangement under this section may impose programmable restrictions on the goods, services, or recipients for which dollars or dollar-backed instruments may be used by individual holders, except as required by federal law applicable to all payment instruments.
 
-(3) OFFLINE CAPABILITY.—The DDSI shall be capable of offline peer-to-peer transaction settlement to ensure functionality in infrastructure-degraded or rural environments, consistent with the rural access objectives of this Act.
+(e) NATIONAL DOLLAR SETTLEMENT NETWORK.—The National Dollar Settlement Network (NDSN) is established as a coordination program, administered by the Secretary of the Treasury with the FMIA, that:
+(1) maintains the standards of subsection (b) and the corridors of subsection (c);
+(2) provides real-time payment and settlement services for federal, state, and municipal government transactions using existing Federal Reserve services; and
+(3) creates no currency, token, or digital asset of its own.
+Any computing infrastructure the NDSN requires is provided within the Strategic Compute Node allocation of Section 3408.
 
-(4) INTEROPERABILITY.—The DDSI shall be designed for interoperability with the payment systems of ASC signatory nations, creating a USD-denominated digital settlement layer that allied nations can adopt as a preferred digital reserve instrument in lieu of SWIFT-alternative systems.
+(f) STRATEGIC RESERVE.—The SIRF may hold, as a Strategic Reserve, monetary gold held in domestic Federal Reserve vaults and foreign-currency reserves in G7 currencies. Nothing in this section authorizes investment in digital assets.
 
-(c) INTERNATIONAL RESERVE DDSI.—In parallel with the domestic DDSI, the Federal Reserve, in coordination with the Secretary of State, shall develop an International Reserve DDSI variant — a wholesale CBDC instrument available to allied central banks and sovereign wealth funds — enabling direct USD-denominated digital reserve holding without dependency on existing correspondent banking infrastructure. The International Reserve DDSI shall not be available to any Reserve Currency Threat Actor or entity under active OFAC sanction.
+(g) REVIEW AFTER 2030.—Not later than one (1) year after December 31, 2030, the Secretary of the Treasury and the Board of Governors of the Federal Reserve System shall report to the Senate Committee on Banking, Housing, and Urban Affairs and the House Committee on Financial Services on the dollar's share of digital and cross-border payments, the adoption of the standards of subsection (b), and whether any further authority is needed. The report makes no recommendation binding on Congress.
 
-(d) PROHIBITION ON PROGRAMMABLE RESTRICTIONS.—The DDSI shall not be designed with programmable restrictions on the categories of goods, services, or recipients for which it may be used by individual holders, except as required by existing federal law applicable to all payment instruments. Congress explicitly finds that programmable spending restrictions on a sovereign currency instrument are incompatible with the constitutional rights of U.S. persons and inconsistent with the dollar's role as a free-market reserve currency.
-
-(e) TIMELINE.—The Federal Reserve Board of Governors shall publish a DDSI Development Roadmap within one hundred eighty (180) days of enactment, with a target operational date for the domestic DDSI of no later than four (4) years after enactment and the International Reserve DDSI no later than six (6) years after enactment.
-
-(f) CONGRESSIONAL OVERSIGHT.—The Federal Reserve shall submit quarterly progress reports to the Senate Committee on Banking, Housing, and Urban Affairs and the House Committee on Financial Services on DDSI development progress, security architecture, and international adoption metrics.
-
-
-(c) DIGITAL MONETARY SOVEREIGNTY FUNCTION.—
-
-(1) STRATEGIC DIGITAL RESERVE AUTHORITY.—The SIRF is authorized to maintain a Strategic Digital Reserve consisting of:
-(A) monetary gold held in domestic Federal Reserve vaults;
-(B) foreign-currency reserves in G7 currencies;
-(C) a limited allocation of dollar-denominated digital settlement assets not to exceed five percent (5%) of total SIRF reserve assets, for the purpose of monitoring and hedging systemic digital-finance transitions.
-
-(2) NATIONAL DOLLAR SETTLEMENT NETWORK.—There is hereby established the National Dollar Settlement Network (NDSN), administered by the FMIA in coordination with the Federal Reserve. The NDSN shall:
-(A) develop and deploy dollar-backed digital payment settlement rails for domestic and international commerce;
-(B) establish public interoperability standards ensuring that private digital payment systems operating in the United States maintain dollar-denominated settlement capability;
-(C) provide real-time gross settlement infrastructure for federal, state, and municipal government transactions;
-(D) partner with allied nations to extend dollar-denominated digital settlement to international trade corridors.
-
-(3) PURPOSE — RESERVE CURRENCY DEFENSE.—The NDSN is established for the specific purpose of preserving United States monetary sovereignty and reserve-currency competitiveness in a digital finance environment. The goal is not speculative digital asset investment; it is ensuring that the next generation of payment, settlement, and financial infrastructure remains dollar-centered. The strategic priority sequence is: (A) dollar settlement infrastructure; (B) strategic compute infrastructure supporting dollar finance; (C) strategic digital custody and clearing; (D) limited digital reserve allocation.
-
-(4) FUNDING.—The NDSN shall be capitalized from the Strategic Compute Node established in Section 3408, reflecting the co-location of compute and digital settlement infrastructure.
-
-(5) PROHIBITION ON SPECULATION.—Nothing in this section authorizes speculative investment in digital assets for financial return. The Strategic Digital Reserve and NDSN operate exclusively for monetary sovereignty purposes. Any SIRF capital allocated to digital assets under paragraph (1)(C) shall be held in custody and not deployed in yield-seeking strategies.
 SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
 
 (a) ANNUAL THREAT ASSESSMENT.—The Secretary of the Treasury, in coordination with the Director of National Intelligence and the Secretary of State, shall publish an unclassified Annual Dollar Security Threat Assessment identifying: (1) nations, institutions, and networks that have taken material actions to undermine dollar reserve currency status in the preceding twelve (12) months; (2) the estimated quantified impact on dollar demand of each identified action; (3) recommended policy responses within the authorities of this Title; and (4) any legislative changes recommended to strengthen reserve currency defense architecture.
@@ -4144,7 +4128,7 @@ SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
 
 (1) TIER 1 — DIPLOMATIC ENGAGEMENT.—The Secretary of State shall initiate formal bilateral consultations within sixty (60) days of designation, presenting the factual basis for the designation and offering ASC participation as an alternative pathway.
 
-(2) TIER 2 — ECONOMIC MEASURES.—If Tier 1 engagement fails to produce measurable compliance within one hundred eighty (180) days, the Secretary of the Treasury may impose: (A) enhanced due diligence requirements on all USD transactions involving entities from the designated nation; (B) exclusion from the Foreign Reserve Demand Program under Section 3204(d); and (C) suspension of DDSI International Reserve access.
+(2) TIER 2 — ECONOMIC MEASURES.—If Tier 1 engagement fails to produce measurable compliance within one hundred eighty (180) days, the Secretary of the Treasury may impose: (A) enhanced due diligence requirements on all USD transactions involving entities from the designated nation; (B) exclusion from the Foreign Reserve Demand Program under Section 3204(d); and (C) suspension from the allied payment corridors of Section 3207(c).
 
 (3) TIER 3 — COORDINATED SANCTIONS.—If Tier 2 measures fail to produce measurable compliance within three hundred sixty-five (365) days, the President, in consultation with G7 allies, may impose coordinated financial sanctions under the International Emergency Economic Powers Act (IEEPA), targeted at the specific institutions and actors responsible for USD displacement activities.
 
@@ -4152,13 +4136,13 @@ SEC. 3208. RESERVE CURRENCY THREAT ACTOR RESPONSE PROTOCOL.
 
 SEC. 3209. BUDGET IMPACT AND REVENUE CERTIFICATION.
 
-(a) SELF-FUNDING MECHANISM.—This Title is designed to be budget-neutral in direct appropriations. The ASC Incentive Fund and Petrodollar Modernization Fund shall be capitalized exclusively from SIRF revenues generated under Title II of this Act. All DDSI development costs shall be borne by the Federal Reserve from existing operational revenues.
+(a) SELF-FUNDING MECHANISM.—This Title is designed to be budget-neutral in direct appropriations. The ASC Incentive Fund and Petrodollar Modernization Fund shall be capitalized exclusively from SIRF revenues generated under Title II of this Act. Section 3207 creates no currency; the standards and corridor work it requires are carried out within existing appropriations of the Department of the Treasury.
 
 (b) ECONOMIC RETURN CERTIFICATION.—Within one (1) year of enactment, the Congressional Budget Office shall publish a Dollar Reserve Currency Economic Impact Assessment estimating: (1) the annual economic benefit to the United States of maintaining reserve currency status, including reduced Treasury borrowing costs, seigniorage revenue, and financial services sector premium; (2) the estimated cost to the U.S. economy of a twenty-five percent (25%) reduction in dollar reserve share over ten years; and (3) the projected economic return on the investments authorized by this Title.
 
 SEC. 3210. SCHEDULE D BENCHMARKS — TITLE XXXII.
 
-The FMIA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) DDSI development milestone completion rate; (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
+The FMIA shall report biennially on: (1) number of nations that have executed ASC agreements and estimated annual dollar trade volume generated; (2) Treasury Credibility Index score and trend; (3) number of SWIFT-alternative routing violations detected and penalized; (4) adoption of the dollar settlement standards of Section 3207(b) and the number of allied payment corridors in operation under Section 3207(c); (5) U.S. dollar share of global foreign exchange reserves as reported by the IMF COFER database, with trend analysis; (6) net change in international demand for USD-denominated Treasury instruments.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 TITLE XXXIII — STRATEGIC COMPUTE AUTHORITY
@@ -4190,7 +4174,7 @@ SEC. 3302. ESTABLISHMENT OF THE STRATEGIC COMPUTE AUTHORITY.
 (1) hold title to and operate the public-interest compute infrastructure funded by the Strategic Compute Node established in Section 3408;
 (2) issue revenue bonds secured by SCN infrastructure lease revenue, thereby leveraging SIRF capital into a larger productive asset base without additional SIRF outlay;
 (3) provide below-cost compute access to domestic academic institutions, small businesses, and Main Street Entities, cross-subsidized by commercial-rate access for private sector users;
-(4) serve as the physical infrastructure host for the Digital Dollar Settlement Network established under Section 3207;
+(4) provide any computing infrastructure the National Dollar Settlement Network of Section 3207(e) requires;
 (5) achieve operational self-sufficiency within seven (7) years of initial deployment, consistent with Section 3408(d), thereby reducing and ultimately eliminating reliance on the standing SIRF allocation;
 (6) operate as a domestic strategic compute asset system whose long-run strategic objective is the accumulation of federally owned productive infrastructure — not the permanent collection of tariff revenue or SIRF transfers — converting a public expenditure into a public capital asset that generates lease and service revenue in perpetuity;
 
@@ -4249,7 +4233,7 @@ SEC. 3304. FINANCIAL ARCHITECTURE.
 SEC. 3305. AUTHORIZED INFRASTRUCTURE INVESTMENTS.
 
 (a) ASSET CLASSES.—The SCA is authorized to invest in, construct, acquire, own, and operate:
-(1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned data center facilities providing compute access to domestic users, co-located where operationally feasible with the Digital Dollar Settlement Network;
+(1) NATIONAL AI CLOUD INFRASTRUCTURE.—Federally owned data center facilities providing compute access to domestic users, co-located where operationally feasible with National Dollar Settlement Network services;
 (2) MUNICIPAL COMPUTING ARRAYS.—Distributed compute infrastructure deployed in partnership with state and local governments, prioritizing economically distressed and rural communities;
 (3) QUANTUM-SECURED DATA CENTERS.—Facilities providing quantum-hardened storage and processing for FMIA operations, SIRF ledger infrastructure, and national security applications under interagency agreement with the National Security Agency and the Department of Defense;
 (4) PUBLIC INFERENCE INFRASTRUCTURE.—Open-access AI inference services enabling domestic startups and researchers to access frontier AI capabilities without dependency on foreign-controlled infrastructure;
@@ -4313,7 +4297,7 @@ The SCA and FMIA shall jointly report annually on:
 (1) aggregate SCA infrastructure capacity deployed, measured in petaflops of compute and petabytes of storage;
 (2) percentage of national AI inference workload served by SCA versus foreign-controlled infrastructure;
 (3) cost-per-petaflop of SCA infrastructure versus commercial market rates, demonstrating public-benefit leverage;
-(4) Digital Dollar Settlement Network uptime and transaction throughput supported by SCA physical layer;
+(4) uptime and throughput of National Dollar Settlement Network services supported by SCA infrastructure;
 (5) progress toward the seven (7) year self-sufficiency target: ratio of commercial lease revenue to total SCA operating costs;
 (6) semiconductor co-investment leverage ratio: private capital mobilized per SCA dollar deployed.
 
@@ -4352,7 +4336,7 @@ Total Statutory Base Revenue: approximately one hundred twenty-nine billion doll
 (e) SIRF FOUR-TIER PRIORITY WATERFALL.—SIRF funds shall be deployed in the following strict priority order:
 (1) TIER 1 — MANDATORY STRUCTURAL OBLIGATIONS.—Basic Minimum Plan federal per-capita payments; Medicare buy-in premium help under Section 2113(d); TANF structural floor enhancement; Secure Child Prosperity Trust birth deposits; Shelter Security Fund; Household Structural Relief Node mechanisms. Tier 1 obligations are non-discretionary and shall be funded first in each fiscal quarter before any Tier 2 disbursement.
 (2) TIER 2 — DEBT RELIEF.—Zero-interest student loan conversion interest subsidy; Social Security anti-erosion protections; Veterans Health Security Fund. Tier 2 obligations shall be funded in full each quarter before any Tier 3 disbursement.
-(3) TIER 3 — DOMESTIC INFRASTRUCTURE AND SECURITY INVESTMENT.—The funding floor of the American Mutual Benefit Global Health Fund under Section 3102(a), and all SIRF node infrastructure deployments including energy security, environmental remediation, agricultural security, semiconductor security, water security, wildlife corridor and rewilding, grid modernization, and rural health. Tier 3 is funded from remaining SIRF revenues after Tier 1 and Tier 2 obligations are met.
+(3) TIER 3 — DOMESTIC INFRASTRUCTURE AND SECURITY INVESTMENT.—All SIRF node infrastructure deployments including energy security, environmental remediation, agricultural security, semiconductor security, water security, wildlife corridor and rewilding, grid modernization, and rural health. Tier 3 is funded from remaining SIRF revenues after Tier 1 and Tier 2 obligations are met.
 (4) TIER 4 — INTERNATIONAL FUNDS.—Any international diplomatic infrastructure fund authorized by law. Tier 4 disbursements are made exclusively from Supplemental Revenue surplus and shall not be funded from Statutory Base Revenue in any quarter where Tier 1 through Tier 3 commitments have not been fully met.
 
 SEC. 3403. HOUSEHOLD STRUCTURAL RELIEF NODE — DESIGNATED MECHANISMS.
@@ -4390,7 +4374,7 @@ RATIONALE FOR REVISIONS FROM PRIOR TABLE.—The twelve-node allocation is rebala
 
 SEC. 3406. UPDATED FISCAL SUMMARY AND TWO-TERM DEFICIT LIMITS.
 
-(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately five hundred forty-two billion dollars ($542,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.11). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately four hundred sixty-six billion dollars ($466,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately four hundred forty-two billion dollars ($442,000,000,000), which, against the same costs, would leave a net annual cost of approximately ninety-one billion dollars ($91,000,000,000) before Section 3410.
+(a) REVENUE.—Scored annual revenue from the revenue provisions of this Act is projected at approximately five hundred forty-two billion dollars ($542,000,000,000) at full operational ramp, stated in first-year dollars and itemized in Schedule G (Methodology version 2026.11). First-year revenue, reflecting the ramp-up of enforcement, is projected at approximately four hundred sixty-six billion dollars ($466,000,000,000). Under the conservative scoring scenario in Schedule G, full-ramp revenue is approximately four hundred thirty billion dollars ($430,000,000,000), which, against the same costs, would leave a net annual cost of approximately sixty-five billion five hundred million dollars ($65,500,000,000) before Section 3410.
 
 (b) PROGRAM COSTS AND STRUCTURAL EXPENDITURES.—Annual costs at full program operation, in first-year dollars:
 (1) Basic Minimum Plan, net new federal cost after State maintenance-of-effort contributions under Section 2103(d)(1), pharmaceutical savings under Section 2103(d)(2), and reduced uncompensated care, including the move of Exchange enrollees to the BMP, and net of enrollee premium contributions under Section 2110(a): approximately one hundred eighty billion dollars ($180,000,000,000);
@@ -4404,15 +4388,14 @@ SEC. 3406. UPDATED FISCAL SUMMARY AND TWO-TERM DEFICIT LIMITS.
 (9) Social Security anti-erosion protections: thirty billion dollars ($30,000,000,000);
 (10) Rural Health Security Fund, including Demand-Adjusted Rural Health Physical Infrastructure under Section 2109: three billion dollars ($3,000,000,000);
 (11) Household energy credits under Section 2410(c)(1): forty-two billion five hundred million dollars ($42,500,000,000);
-(12) Modernization titles, including the science title (Title XXXVII), capped under Schedule G, Section 6: fifty-one billion dollars ($51,000,000,000); less
+(12) Modernization titles, capped under Schedule G, Section 6: twenty-one billion dollars ($21,000,000,000), the science title (Title XXXVII) being funded within the appropriations limits of Section 3410(d); less
 (13) Medicare payment integrity savings under Section 2112: forty billion dollars ($40,000,000,000); plus
 (14) Middle-class tax relief under Section 2421, net of recapture: eighty-five billion three hundred million dollars ($85,300,000,000); plus
 (15) Medicare buy-in for ages 50 to 64 under Section 2113: eighteen billion four hundred million dollars ($18,400,000,000); plus
 (16) Strategic Compute Node under Section 3408, six percent (6%) of SIRF Statutory Base Revenue: seven billion seven hundred million dollars ($7,700,000,000); plus
-(17) American Mutual Benefit Global Health Fund under Section 3102, at its funding floor: eight billion dollars ($8,000,000,000); plus
-(18) Federal Press Freedom Monitor under Section 2707: twenty-five million dollars ($25,000,000).
-In the first fiscal year only, the Allied Settlement Compact Incentive Fund (Section 3203(d), $2,000,000,000) and the Petrodollar Modernization Fund (Section 3205(d), $500,000,000) add two billion five hundred million dollars ($2,500,000,000).
-Net program costs: approximately four hundred seventy-eight billion dollars ($478,000,000,000).
+(17) Federal Press Freedom Monitor under Section 2707: twenty-five million dollars ($25,000,000).
+In the first fiscal year only, the Allied Settlement Compact Incentive Fund (Section 3203(d), $2,000,000,000) and the Petrodollar Modernization Fund (Section 3205(d), $500,000,000) add two billion five hundred million dollars ($2,500,000,000). The American Mutual Benefit Global Health Fund under Section 3102 is funded within the appropriations limits of Section 3410(d).
+Net program costs: approximately four hundred forty billion dollars ($440,000,000,000).
 
 (c) MANDATORY GROWTH REINVESTMENT — $55B/YR NATIONAL INFRASTRUCTURE ALLOCATION.—SIRF infrastructure node deployments totaling fifty-five billion dollars ($55,000,000,000) per year, allocated as follows:
 (1) Intelligent National Grid Modernization (Section 905, Title IX): twenty-five billion dollars ($25,000,000,000) per year;
@@ -4422,28 +4405,29 @@ Net program costs: approximately four hundred seventy-eight billion dollars ($47
 (5) National Water Security and Redistribution Infrastructure (Section 1004, Title X): fifteen billion dollars ($15,000,000,000) per year.
 Note: Paragraphs (1), (3), (4) and (5) total fifty-five billion dollars ($55,000,000,000) per year. Demand-Adjusted Rural Health Physical Infrastructure under Section 2109 is funded at three billion dollars ($3,000,000,000) per year under subsection (b)(10), is not part of the total in this subsection, and is counted once. The upstream prevention reforms of Titles VII, X, and XI are projected to reduce long-term BMP and federal health program expenditures by not less than eighty billion dollars ($80,000,000,000) annually within fifteen years, as documented in Section 2109(a)(2), materially improving the long-term fiscal position of the Act beyond the Year 1 architecture reflected in this section. These prevention savings are not counted in any projection of this Act until scored and realized under Section 3412.
 
-(d) NET ANNUAL EFFECT.—Five hundred forty-two billion dollars ($542,000,000,000) in revenue, less four hundred seventy-eight billion dollars ($478,000,000,000) in net program costs and fifty-five billion dollars ($55,000,000,000) in infrastructure investment under subsection (c), leaves a surplus of approximately nine billion four hundred million dollars ($9,400,000,000) a year at full program operation, in first-year dollars, so that the programs of this Act and the middle-class tax relief of Section 2421 are paid for by its revenue and reduce the deficit. The Fiscal Sustainability Plan of Section 3410 adds approximately three hundred forty-five billion dollars ($345,000,000,000) a year at full effect. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, the provisions of this section are projected to reduce the deficit by approximately two hundred billion dollars ($200,000,000,000), or approximately three hundred billion dollars ($300,000,000,000) including reduced interest costs. Together with Section 3410, cumulative deficit reduction is projected at approximately two trillion nine hundred billion dollars ($2,900,000,000,000), or approximately three trillion two hundred billion dollars ($3,200,000,000,000) including reduced interest costs, within a range of two trillion three hundred billion dollars to three trillion eight hundred billion dollars under the scenarios in Schedule G.
+(d) NET ANNUAL EFFECT.—Five hundred twenty-six billion dollars ($526,000,000,000) in revenue, less four hundred forty billion dollars ($440,000,000,000) in net program costs and fifty-five billion dollars ($55,000,000,000) in infrastructure investment under subsection (c), leaves a surplus of approximately thirty-one billion four hundred million dollars ($31,400,000,000) a year at full program operation, in first-year dollars, so that the programs of this Act and the middle-class tax relief of Section 2421 are paid for by its revenue and reduce the deficit. The Fiscal Sustainability Plan of Section 3410 adds approximately five hundred seventy-five billion dollars ($575,000,000,000) a year at full effect. Over the first ten fiscal years, with programs phasing in behind the certification gates of Schedule E, the provisions of this section are projected to reduce the deficit by approximately four hundred billion dollars ($400,000,000,000), or approximately six hundred billion dollars ($600,000,000,000) including reduced interest costs. Together with Section 3410, cumulative deficit reduction is projected at approximately five trillion seven hundred billion dollars ($5,700,000,000,000), or approximately six trillion five hundred billion dollars ($6,500,000,000,000) including reduced interest costs, within a range of five trillion six hundred billion dollars to seven trillion dollars under the scenarios in Schedule G.
 
 (e) DESIGNATION.—The net annual deficit reduction of this Act, including Section 3410, is designated a Fiscal Credibility Reserve and shall be applied to net deficit reduction, except as Congress provides otherwise by law in a fiscal year in which the applicable target under subsection (f)(2) is projected to be met.
 
 (f) DEFICIT LIMITS FOR TWO PRESIDENTIAL TERMS.—
 (1) FINDINGS.—Congress finds that—
 (A) the Congressional Budget Office, in The Budget and Economic Outlook: 2026 to 2036 (February 2026), projects a federal deficit of $1,900,000,000,000 in fiscal year 2026 rising to $3,100,000,000,000 in fiscal year 2036, a primary deficit of 2.6 percent of gross domestic product in fiscal year 2026, and net interest outlays rising from 3.3 percent to 4.6 percent of gross domestic product over that period;
-(B) the provisions of this Act, including Section 3410, reduce the projected deficit by roughly one-sixth by the tenth year and do not by themselves balance the budget; and
+(B) the provisions of this Act, including Section 3410, reduce the projected deficit by roughly one-third by the tenth year and bring the government close to borrowing for nothing but interest on past debt by the eighth year, but do not by themselves balance the budget; and
 (C) a balanced budget therefore requires binding statutory targets and an enforcement mechanism that operates automatically if the targets are not met.
 (2) STATUTORY FISCAL TARGETS.—The following targets are established, each measured as a percentage of gross domestic product using actual budget results for the fiscal year concerned:
 (A) DEFICIT LIMIT, FOURTH YEAR.—For the fourth full fiscal year beginning after the date of enactment of this Act and each fiscal year thereafter until subparagraph (B) applies, the federal deficit shall not exceed four and one-half percent (4.5%) of gross domestic product.
 (B) DEFICIT LIMIT, EIGHTH YEAR.—For the eighth full fiscal year beginning after the date of enactment of this Act, the last year of two full presidential terms, and each fiscal year thereafter, the federal deficit shall not exceed three percent (3%) of gross domestic product.
 (C) DEBT TARGET.—The limit in subparagraph (B) is set at the level at which federal debt held by the public stops rising as a share of gross domestic product under the economic assumptions of the Congressional Budget Office. The reports under paragraph (7) shall state whether that ratio is falling.
 (D) GLIDE PATH.—For each fiscal year before a limit in subparagraph (A) or (B) first applies, the applicable target shall be the deficit, as a percentage of gross domestic product, on a straight-line path between the actual deficit for the fiscal year in which this Act is enacted and that limit, as published by the Director of the Office of Management and Budget not later than ninety (90) days after the date of enactment of this Act.
+(E) PRIMARY BALANCE.—For the eighth full fiscal year beginning after the date of enactment of this Act and each fiscal year thereafter, federal revenues shall not be less than federal outlays other than net interest. This target is met whenever the limit in subparagraph (B) is met, and the reports under paragraph (7) shall state the primary balance for each year.
 (3) USE OF THE NSRA SURPLUS.—In any fiscal year in which the Director of the Office of Management and Budget projects that the applicable target under paragraph (2) will not be met, the whole of the Fiscal Credibility Reserve shall be applied to net deficit reduction.
 (4) ENFORCEMENT.—
 (A) SHORTFALL DETERMINATION.—Not later than August 10 of each year, the Director of the Congressional Budget Office shall issue an advisory report to Congress and the Director of the Office of Management and Budget estimating whether the federal deficit projected under then-current law for the upcoming fiscal year exceeds the applicable target under paragraph (2). Not later than August 20, the Director of the Office of Management and Budget, giving due regard to that report, shall determine and report to Congress whether the projected deficit exceeds the applicable target and, if so, the amount of the excess (the "shortfall"). The determination of the Director of the Office of Management and Budget controls for purposes of this subsection.
 (B) FISCAL TARGET ACT.—A bill introduced in either House that is designated as a Fiscal Target Act, and that the Director of the Congressional Budget Office estimates would reduce the projected deficit for the upcoming fiscal year by not less than the shortfall, shall be considered under the following procedures: (i) if not reported by the committee of referral within ten (10) days of session, the committee is discharged; (ii) a motion to proceed is privileged and not debatable; (iii) debate on the bill is limited to twenty (20) hours, equally divided; (iv) only amendments that the Director of the Congressional Budget Office estimates would not reduce the bill's deficit reduction below the shortfall are in order; and (v) the vote on final passage shall occur not later than thirty (30) days of session after introduction.
 (C) AUTOMATIC ADJUSTMENT.—If a shortfall is reported and no Fiscal Target Act is enacted by October 1 of that year, then for the fiscal year beginning on that date—
-(i) one-half of the shortfall shall be closed, for taxable years beginning in the calendar year in which that fiscal year ends, by a uniform percentage limitation, computed by the Secretary of the Treasury as the ratio of that one-half to the total value of the tax benefits described in this clause as estimated by the Joint Committee on Taxation, on the value of itemized deductions, exclusions from gross income, and preferential rates allowed to taxpayers whose adjusted gross income exceeds $450,000 in the case of a joint return or $400,000 in any other case; and
-(ii) one-half of the shortfall shall be closed by a uniform percentage reduction of non-exempt budgetary resources, carried out by the Director of the Office of Management and Budget as a sequestration under the procedures of sections 251A, 255, and 256 of the Balanced Budget and Emergency Deficit Control Act of 1985 (2 U.S.C. 901a, 905, 906), applied in equal dollar amounts to defense and nondefense accounts.
-(iii) If the limitation under clause (i) would exceed one hundred percent (100%) of the tax benefits described in that clause, the remaining amount shall be added to the reduction under clause (ii).
+(i) the shortfall shall be closed first, for taxable years beginning in the calendar year in which that fiscal year ends, by a uniform percentage limitation, computed by the Secretary of the Treasury as the ratio of the shortfall to the total value of the tax benefits described in this clause as estimated by the Joint Committee on Taxation, on the value of itemized deductions, exclusions from gross income, and preferential rates allowed to taxpayers whose adjusted gross income exceeds $450,000 in the case of a joint return or $400,000 in any other case; and
+(ii) only the amount, if any, that cannot be closed under clause (i) shall be closed by a uniform percentage reduction of non-exempt budgetary resources, carried out by the Director of the Office of Management and Budget as a sequestration under the procedures of sections 251A, 255, and 256 of the Balanced Budget and Emergency Deficit Control Act of 1985 (2 U.S.C. 901a, 905, 906), applied in equal dollar amounts to defense and nondefense accounts.
+(iii) The amount that cannot be closed under clause (i) is the amount by which the shortfall exceeds one hundred percent (100%) of the tax benefits described in that clause. In this way households with adjusted gross income at or below the thresholds of clause (i), and the programs protected by paragraph (5), bear none of an automatic adjustment, and spending is reduced only after the tax benefits of the highest-income taxpayers are exhausted.
 (D) LIMIT.—The new adjustments made under subparagraph (C) for any fiscal year shall not exceed one-half of one percent (0.5%) of projected gross domestic product for that fiscal year, in addition to adjustments continuing in effect from prior fiscal years. Adjustments remain in effect until modified by law.
 (5) PROTECTED PROGRAMS AND HOUSEHOLDS.—No reduction under paragraph (4)(C)(ii) shall apply to Social Security benefits, Medicare benefits, Medicaid, benefits under the Basic Minimum Plan established under Title XXI, veterans' compensation, pension, and health care, the Supplemental Nutrition Assistance Program, deposits under Section 502, refundable tax credits for low- and moderate-income workers and families, pay of members of the Armed Forces, or net interest; and no limitation under paragraph (4)(C)(i) shall apply to any taxpayer whose adjusted gross income does not exceed the applicable threshold stated therein.
 (6) ECONOMIC EMERGENCY SUSPENSION.—Paragraphs (2) through (4) shall be suspended for any fiscal year that begins during, or within two quarters after, a period in which (A) real gross domestic product, as reported by the Bureau of Economic Analysis, declined in each of two consecutive quarters, or (B) a declaration of war is in effect. Upon the end of a suspension, the Director of the Congressional Budget Office shall publish a revised glide path under paragraph (2)(D), and no target year shall be extended by more than the length of the suspension.
@@ -4474,7 +4458,7 @@ SEC. 3408. STRATEGIC COMPUTE NODE — NATIONAL AI INFRASTRUCTURE AND PUBLIC COMP
 
 (e) MINIMUM PRODUCTIVE ASSET REQUIREMENT.—Not less than twenty-five percent (25%) of all SCN deployments in any fiscal year shall be invested in revenue-producing infrastructure assets, consistent with the public wealth fund discipline of Section 204(e).
 
-(f) RELATIONSHIP TO DIGITAL MONETARY SOVEREIGNTY.—SCN infrastructure shall serve as the physical compute layer for the Digital Dollar Settlement Network and cryptographic verification systems established under Section 3207(c). SCN and DDSI functions shall be co-located where operationally feasible to maximize infrastructure efficiency.
+(f) RELATIONSHIP TO DOLLAR SETTLEMENT.—SCN infrastructure may provide computing capacity for the National Dollar Settlement Network of Section 3207(e). Nothing in this section authorizes any digital currency or digital asset.
 
 
 SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
@@ -4503,7 +4487,7 @@ SEC. 3409. STRATEGIC MOBILITY INFRASTRUCTURE NODE.
 
 SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
-(a) PURPOSE.—This section adds to the deficit reduction of Section 3406 a package of measures, each drawn from proposals that have previously drawn support from both parties, so as to slow the growth of the debt relative to the economy and meet the deficit limits of Section 3406(f) with as little reliance on automatic enforcement as possible.
+(a) PURPOSE.—This section adds to the deficit reduction of Section 3406 a package of measures, each drawn from proposals scored by the Congressional Budget Office or the Joint Committee on Taxation, so that by the eighth fiscal year the government no longer borrows to pay for anything other than interest on past debt, and so as to slow the growth of the debt relative to the economy and meet the deficit limits of Section 3406(f) with as little reliance on automatic enforcement as possible.
 
 (b) HOSPITAL PRICE LIMIT IN COMMERCIAL INSURANCE.—Title XXVII of the Public Health Service Act is amended so that, for plan years beginning on or after January 1, 2029, a group health plan or health insurance issuer offering group or individual coverage shall not pay a hospital, and a hospital shall not accept, more than two hundred percent (200%) of the amount payable under title XVIII of the Social Security Act for the same item or service, whether in or out of network. The limit is three hundred percent (300%) for critical access hospitals, sole community hospitals, and rural hospitals with fewer than fifty (50) beds. A hospital may not bill a patient for any amount above the limit. Nothing in this subsection limits what a plan may pay a physician or other practitioner, or changes Medicare, Medicaid, or Basic Minimum Plan payment rates.
 
@@ -4522,7 +4506,21 @@ SEC. 3410. FISCAL SUSTAINABILITY PLAN.
 
 (h) CROP INSURANCE.—Section 508(e) of the Federal Crop Insurance Act (7 U.S.C. 1508(e)) is amended so that, beginning with the 2029 reinsurance year, the federal share of crop insurance premiums averages forty percent (40%), with the full current-law share retained for beginning, veteran, and socially disadvantaged farmers and for producers with adjusted gross income below two hundred fifty thousand dollars ($250,000); reimbursement of insurers' administrative and operating expenses is limited to nine and one-quarter percent (9.25%) of premiums; and the targeted rate of return to approved insurance providers is twelve percent (12%). Catastrophic coverage and disaster assistance are not affected. The savings under this subsection fund agricultural pesticide transition support under Section 705(d).
 
-(i) PROJECTED EFFECT.—The measures in subsections (b) through (g) are projected to reduce the deficit by approximately three hundred forty-five billion dollars ($345,000,000,000) a year at full effect, stated in first-year dollars; the savings of subsection (h) fund Section 705(d). The hospital price limit of subsection (b) is projected from the estimate of the Committee for a Responsible Federal Budget that limiting commercial hospital prices to 200 percent of Medicare would reduce federal deficits by $216,000,000,000 over ten years, chiefly through higher taxable wages and lower premium tax credits, and would lower premiums for families and employers. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately four hundred ninety-one billion dollars ($491,000,000,000). Together with Section 3406, ten-year deficit reduction is projected at approximately two trillion nine hundred billion dollars ($2,900,000,000,000), or approximately three trillion two hundred billion dollars ($3,200,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to approximately five percent of gross domestic product in the eighth year; the remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+(i) PROJECTED EFFECT.—The measures in subsections (b) through (g) and (j) through (o) are projected to reduce the deficit by approximately five hundred seventy-five billion dollars ($575,000,000,000) a year at full effect, stated in first-year dollars; the savings of subsection (h) fund Section 705(d). The hospital price limit of subsection (b) is projected from the estimate of the Committee for a Responsible Federal Budget that limiting commercial hospital prices to 200 percent of Medicare would reduce federal deficits by $216,000,000,000 over ten years. The millionaire surtax of subsection (j) is scored with the open-source Tax-Calculator model of the Policy Simulation Library (version 6.9, public CPS file) on top of the other tax provisions of this Act, less a behavioral response of thirty percent (30%). The corporate rate of subsection (k) and the measures of subsections (l) through (o) are projected from the Congressional Budget Office's Options for Reducing the Deficit: 2025 to 2034. In the ten-year tables of Schedule G, section 4A, amounts are stated in nominal dollars of each fiscal year, growing four percent (4%) a year; on that basis the plan reduces the Year 10 deficit by approximately eight hundred eighteen billion dollars ($818,000,000,000). Together with Section 3406, ten-year deficit reduction is projected at approximately five trillion seven hundred billion dollars ($5,700,000,000,000), or approximately six trillion five hundred billion dollars ($6,500,000,000,000) including reduced interest costs, as itemized in Schedule G. Under these projections the deficit falls from approximately six percent (6%) to approximately four percent of gross domestic product in the eighth year, and in that year revenue covers all spending other than net interest within approximately forty-one billion dollars ($41,000,000,000) (a primary deficit of about 0.09 percent of gross domestic product). The remaining reduction needed to meet the limits of Section 3406(f)(2) is to be provided by a Fiscal Target Act or by Section 3406(f)(4).
+
+(j) MILLIONAIRE SURTAX.—Part I of subchapter A of chapter 1 of the Internal Revenue Code of 1986 is amended by adding at the end a section under which, for taxable years beginning after December 31, 2027, there is imposed on each individual, in addition to any other tax, a tax equal to five percent (5%) of so much of modified adjusted gross income as exceeds $1,000,000, plus three percent (3%) of so much as exceeds $5,000,000 ($500,000 and $2,500,000 for a married individual filing separately; $200,000 and $500,000 for an estate or trust). Modified adjusted gross income is adjusted gross income reduced by any deduction allowed for investment interest. The thresholds are indexed for inflation after 2028. No individual with modified adjusted gross income of $1,000,000 or less pays any tax under this subsection.
+
+(k) CORPORATE TAX RATE.—Section 11(b) of the Internal Revenue Code of 1986 is amended by striking "21 percent" and inserting "28 percent", effective for taxable years beginning after December 31, 2027.
+
+(l) 340B HOSPITAL DRUG PAYMENTS.—Section 1833(t)(14) of the Social Security Act (42 U.S.C. 1395l(t)(14)) is amended so that, beginning January 1, 2029, payment for a separately payable drug acquired under section 340B of the Public Health Service Act is the average sales price minus twenty-two and one-half percent (22.5%), and the amounts saved are not redistributed under the outpatient payment system. Critical access hospitals, sole community hospitals, and rural emergency hospitals are exempt.
+
+(m) GRADUATE MEDICAL EDUCATION.—Beginning in fiscal year 2029, Medicare and Medicaid payments for graduate medical education are consolidated into a single grant program administered by the Secretary of Health and Human Services, funded at the fiscal year 2028 amount and increased each year by the percentage increase in the Consumer Price Index for All Urban Consumers minus one percentage point, and allocated to teaching hospitals by the number of residents trained, with a set-aside for primary care, rural, and psychiatry residencies.
+
+(n) HOSPITAL BAD DEBT.—Beginning in fiscal year 2029, Medicare no longer reimburses hospitals and other providers for beneficiaries' unpaid deductibles and coinsurance (bad debt). Beneficiary cost-sharing is unchanged.
+
+(o) MEDICARE ADVANTAGE BENCHMARKS.—Section 1853(n) of the Social Security Act (42 U.S.C. 1395w–23(n)) is amended so that, beginning with 2029, each benchmark is reduced by ten percent (10%), phased in over two years. Nothing in this subsection changes any benefit under parts A, B, or D of title XVIII, beneficiary cost-sharing for those benefits, or the right of any beneficiary to enroll in original Medicare or in a Medicare Advantage plan.
+
+(p) SCIENCE AND GLOBAL HEALTH WITHIN THE CAPS.—Amounts for the science, research, and talent programs of Title XXXVII and for the American Mutual Benefit Global Health Fund under Section 3102 are provided through annual appropriations within the limits of subsection (d) and add nothing to those limits.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -4865,9 +4863,9 @@ SEC. 3706. RETAINING UNITED STATES-TRAINED SCIENTIFIC TALENT.
 
 SEC. 3707. FUNDING AND BUDGET NEUTRALITY.
 
-(a) SOURCE.—Increases in appropriations above fiscal year 2026 levels for the agencies listed in section 3703(a), and capitalization of the Research Stability Reserve, shall be derived from the Tier 3 capacity of the SIRF identified in Schedule G, section 4, and shall be certified by the Director of the Office of Management and Budget as not increasing the deficit, using the Scenario B conservative floor.
+(a) SOURCE.—Increases in appropriations above fiscal year 2026 levels for the agencies listed in section 3703(a), and capitalization of the Research Stability Reserve, shall be provided through annual appropriations within the limits of Section 3410(d), as provided in Section 3410(p).
 
-(b) CAP.—Amounts derived from the SIRF under this Title shall not exceed thirty billion dollars ($30,000,000,000) in any fiscal year.
+(b) CAP.—Increases under subsection (a) shall not exceed thirty billion dollars ($30,000,000,000) in any fiscal year.
 
 SEC. 3708. SCHEDULE D BENCHMARKS — TITLE XXXVII.
 
@@ -5188,7 +5186,7 @@ SCHEDULE G — REVENUE ASSUMPTIONS AND METHODOLOGY
 
 1. PURPOSE.
 
-Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.11, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
+Schedule G provides the line-by-line build-up of the revenue, program cost, and deficit-reduction figures stated in Section 3406 (Methodology version 2026.12, November 2026). Each revenue stream is estimated against published Congressional Budget Office, Joint Committee on Taxation, Treasury, and agency baselines for comparable policies. Scenario A is the central estimate. Scenario B is a conservative floor that discounts each stream by confidence class: High-confidence streams by five percent (5%), Moderate by twenty percent (20%), and Preliminary by fifty percent (50%). All figures are annual, in billions of first-year dollars, at full operational ramp unless otherwise stated. Official scores by the Congressional Budget Office and the Joint Committee on Taxation control upon publication.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -5199,7 +5197,7 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Social Security payroll tax on wages above $400,000      Sec. 2408      High         $  105.0B   $   99.8B
   IRS enforcement, net of investment returns               Sec. 2406      Moderate     $   35.0B   $   28.0B
   Carbon fee, $40/ton indexed (net budgetary receipts)     Sec. 2410      Moderate     $   85.0B   $   68.0B
-  Global minimum tax (Pillar Two / UTPR)                   Sec. 2411      Moderate     $   50.0B   $   40.0B
+  Minimum tax on foreign earnings at the domestic rate, co Sec. 2411      Moderate     $   34.0B   $   27.2B
   Financial transaction tax 0.1%                           Sec. 2413      Moderate     $   75.0B   $   60.0B
   Carryover basis above $5M                                Sec. 2412      Moderate     $   15.0B   $   12.0B
   Federal royalty modernization                            Sec. 2414      Moderate     $   12.0B   $    9.6B
@@ -5215,11 +5213,11 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Stock-buyback excise 1% to 4%                            Sec. 2420(d)   High         $   15.0B   $   14.2B
   Corporate base broadening: FDDEI deduction, LIFO, fossil Sec. 2409(c-f) Moderate     $   47.0B   $   37.6B
   --------------------------------------------------------------------------------------------------------
-  TOTAL REVENUE                                                                        $  542.4B   $  442.3B
+  TOTAL REVENUE                                                                        $  526.4B   $  429.5B
 
-  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2405, 2406 and 2410, approximately $129B) are part of the $542.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule. Section 2404 is reserved. In methodology version 2026.8 the crop-insurance savings of Section 3410(h), about $5B a year, fund farmer pesticide-transition support under Section 705(d); the two are shown net at zero and are not counted in the plan. In methodology version 2026.10 the middle-class tax relief of Section 2421 is limited to the 12 percent bracket, the Medicare buy-in for ages 50 to 64 (Section 2113) is added, and the Social Security benefit-formula change formerly in Section 3410(b) is replaced by a hospital price limit in commercial insurance. In methodology version 2026.11 Titles III, XXVII, XXXI, XXXII, XXXIII and XXXVII and Section 3408 are part of the Act, and their costs are counted in full: the science title within the modernization cap ($30B), the Strategic Compute Node ($7.7B, six percent of the $129B Statutory Base Revenue), the global health fund at its floor ($8B), the Press Freedom Monitor ($0.025B), and the one-time dollar-security funds ($2.5B in Year 1). The data-commons tariff of Section 301(c) ($0.02 per gigabyte) and the penalties of Sections 302 and 3206 are not counted as revenue. Costs borne by the Federal Reserve under Section 3207 reduce its remittances to the Treasury and are not estimated here. Semiconductor capitalization under Section 303(b) is drawn from the chips amount of Section 3406(c)(4).
+  Every section of this Act that states a projected revenue amount states the Scenario A figure above. The Statutory Base Revenue streams of Section 3402(b) (Secs. 2402, 2403, 2405, 2406 and 2410, approximately $129B) are part of the $526.4B total and are not added to it. Supplemental Revenue under Section 3402(c) is not included in any figure in this Schedule. Section 2404 is reserved. In methodology version 2026.8 the crop-insurance savings of Section 3410(h), about $5B a year, fund farmer pesticide-transition support under Section 705(d); the two are shown net at zero and are not counted in the plan. In methodology version 2026.10 the middle-class tax relief of Section 2421 is limited to the 12 percent bracket, the Medicare buy-in for ages 50 to 64 (Section 2113) is added, and the Social Security benefit-formula change formerly in Section 3410(b) is replaced by a hospital price limit in commercial insurance. In methodology version 2026.11 Titles III, XXVII, XXXI, XXXII, XXXIII and XXXVII and Section 3408 are part of the Act and their costs are counted in full: the Strategic Compute Node ($7.7B, six percent of the $129B Statutory Base Revenue), the Press Freedom Monitor ($0.025B), and the one-time dollar-security funds ($2.5B in Year 1). In methodology version 2026.12 the science title and the global health fund are funded within the appropriations limits of Section 3410(d) (Section 3410(p)), and Section 3410(j) through (o) add a millionaire surtax, a 28 percent corporate rate, and four Medicare payment measures. The data-commons fee of Section 301(c) ($0.02 per gigabyte) and the penalties of Sections 302 and 3206 are not counted as revenue. Section 3207 creates no digital currency; its standards and corridor work are carried out within existing Treasury appropriations. Semiconductor capitalization under Section 303(b) is drawn from the chips amount of Section 3406(c)(4). In methodology version 2026.12b Section 2411 is restated as a minimum tax on foreign earnings at the domestic rate, projected from the Congressional Budget Office ($34B a year), in place of full Pillar Two implementation ($50B a year), because the OECD side-by-side arrangement of January 5, 2026 exempts groups whose parent is in the United States from the Pillar Two income inclusion and undertaxed profits rules.
 
-  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, JCT / OECD; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
+  Basis for each stream: REV-01, Tax-Calculator 6.9 (PSL, CPS): $117B static in 2028, less income-tax offset; CBO $250K-donut option for scale; REV-03, CBO IRS-funding scores (~2.5-3x ROI); REV-04, CBO carbon-tax options; EIA; REV-05, CBO Options 2025-2034: tax all foreign income of U.S. corporations at the full statutory rate, $340B / 10 yrs; REV-06, CBO Options (2020): $752B/10 yrs; REV-07, JCT carryover-basis scores; REV-09, GAO / CBO; bill finding $10-20B; REV-10, FDIC / BEA; REV-11, HHS-OIG / GAO; REV-12, JCT 163(j) estimates; REV-13, JCT: ~$14B / 10 yrs; REV-14, stacked on FTT; haircut; REV-15, USDA-OIG; REV-16, Tax-Calculator 6.9 (PSL, CPS, 2025 law baseline): $57B static, less 30% behavioral response; REV-17, IRS SOI Table 1.4 (TY2023): ~$818B partnership and S-corp net income above the thresholds; active, non-SECA share ~64%; 3.8%; grown to 2028, less 10% response; REV-18, IRS SOI Table 1.4 (TY2023): $141B qualified dividends above $1M AGI taxed 19.6 pts higher, less 40% response; capital gains assumed to lose ~$5B (realizations deferred without tax at death); REV-19, Treasury Green Book; REV-20, PWBM: FDII repeal $363B/10 yrs; CBO options: LIFO $105B, advertising $85B; Treasury Green Book: fossil-fuel preferences $44B.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -5237,14 +5235,13 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Rural health infrastructure                                                      Sec. 2109          $   3.0B
   Household energy bill credits (50% of carbon fee; full to 300% of poverty, zero at 400%) Sec. 2410(c)       $  42.5B
   Infrastructure (grid, water, chips, regional food)                               Sec. 3406(c)       $  55.0B
-  Science, child care, digital government (capped)                                 Schedule G sec. 6  $  51.0B
+  Child care and digital government (capped); science is inside the caps (Sec. 3410(p)) Schedule G sec. 6  $  21.0B
   Medicare payment integrity savings (MA coding, site-neutral)                     Sec. 2112          $ -40.0B
   Medicare buy-in, ages 50-64, with premium tax credits                            Sec. 2113          $  18.4B
   Strategic Compute Node: 6% of SIRF Statutory Base Revenue ($129B)                Sec. 3408          $   7.7B
-  American Mutual Benefit Global Health Fund (floor)                               Sec. 3102          $   8.0B
   Federal Press Freedom Monitor                                                    Sec. 2707          $   0.0B
   ------------------------------------------------------------------------------------------------------------
-  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 533.0B
+  TOTAL PROGRAM COSTS, OUTLAYS, AND INFRASTRUCTURE                                                    $ 495.0B
 
   Basic Minimum Plan basis: approximately 25,500,000 newly covered enrollees (85 percent take-up of approximately 30,000,000 uninsured) at approximately $7,000 per enrollee at 100 percent of Medicare rates; plus approximately $40B for the move of transitioned Medicaid and CHIP enrollees to Medicare-level payment and approximately $41.5B for the move of Exchange enrollees to the BMP; less approximately $40B in enrollee premium contributions above 250 percent of the poverty line (Section 2110(a)); less approximately $15B in reduced federal uncompensated-care spending and approximately $25B in Title XIII pharmaceutical savings. State maintenance-of-effort contributions under Section 2103(d)(1) replace the former State share for transitioned populations.
 
@@ -5252,28 +5249,28 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
 4. RECONCILIATION AND TEN-YEAR PROJECTION.
 
-  Full-ramp net annual effect of Section 3406 (Scenario A): $542.4B revenue - $533.0B costs and outlays = $9.4B.
+  Full-ramp net annual effect of Section 3406 (Scenario A): $526.4B revenue - $495.0B costs and outlays = $31.4B.
   Revenue ramps with enforcement capacity (86, 94, 98, then 100 percent realization in Years 1-4) and grows 4 percent a year; programs phase in behind the certification gates of Schedule E (55, 75, 90, then 100 percent) and grow 4.5 percent a year; reduced debt lowers interest costs at 3.5 percent.
 
   Fiscal year   Revenue   Costs+outlays   Deficit reduction   Interest savings   Total     Cumulative
-  Year 1  (FY2028)  $  466B    $  359B          $  108B             $   0B           $  108B   $   108B
-  Year 2  (FY2029)  $  530B    $  454B          $   77B             $   4B           $   80B   $   188B
-  Year 3  (FY2030)  $  575B    $  538B          $   37B             $   7B           $   44B   $   232B
-  Year 4  (FY2031)  $  610B    $  606B          $    4B             $   8B           $   12B   $   244B
-  Year 5  (FY2032)  $  635B    $  632B          $    2B             $   9B           $   11B   $   255B
-  Year 6  (FY2033)  $  660B    $  660B          $   -0B             $   9B           $    9B   $   263B
-  Year 7  (FY2034)  $  686B    $  689B          $   -3B             $   9B           $    7B   $   270B
-  Year 8  (FY2035)  $  714B    $  719B          $   -5B             $   9B           $    4B   $   274B
-  Year 9  (FY2036)  $  742B    $  751B          $   -8B             $  10B           $    1B   $   275B
-  Year 10 (FY2037)  $  772B    $  783B          $  -11B             $  10B           $   -2B   $   274B
+  Year 1  (FY2028)  $  453B    $  338B          $  115B             $   0B           $  115B   $   115B
+  Year 2  (FY2029)  $  515B    $  424B          $   91B             $   4B           $   95B   $   210B
+  Year 3  (FY2030)  $  558B    $  500B          $   58B             $   7B           $   65B   $   274B
+  Year 4  (FY2031)  $  592B    $  563B          $   30B             $  10B           $   39B   $   314B
+  Year 5  (FY2032)  $  616B    $  587B          $   29B             $  11B           $   40B   $   353B
+  Year 6  (FY2033)  $  640B    $  613B          $   28B             $  12B           $   40B   $   393B
+  Year 7  (FY2034)  $  666B    $  639B          $   27B             $  14B           $   40B   $   434B
+  Year 8  (FY2035)  $  693B    $  667B          $   25B             $  15B           $   41B   $   474B
+  Year 9  (FY2036)  $  720B    $  696B          $   24B             $  17B           $   41B   $   515B
+  Year 10 (FY2037)  $  749B    $  727B          $   22B             $  18B           $   40B   $   555B
 
-  Ten-year cumulative effect of Section 3406 alone, Scenario A (positive is deficit reduction): $0.2T before interest; $0.3T including interest.
-  Range (revenue factor 0.88 to 1.08): -$0.6T to $0.9T including interest.
+  Ten-year cumulative effect of Section 3406 alone, Scenario A (positive is deficit reduction): $0.4T before interest; $0.6T including interest.
+  Range (revenue factor 0.88 to 1.08): -$0.3T to $1.1T including interest.
 
   OBLIGATION COVERAGE (SCENARIO B):
-  Scenario B revenue:                                       $442.3B
+  Scenario B revenue:                                       $429.5B
   Tier 1 SIRF capitalization and Tier 2 program floor:      $182.4B
-  Coverage ratio:                                           2.42x
+  Coverage ratio:                                           2.35x
   High-confidence streams only (Scenario B):                $116.2B, or 0.64x
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -5287,54 +5284,61 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Value of deductions and exclusions limited to 28% above $400K                        Sec. 3410(e)     $    22B      Yr 1    1
   Carbon fee rises $5/ton a year to $75 (net of household credits at 50%)              Sec. 3410(f)     $    29B      Yr 2    7
   Payment integrity: improper-payment reduction beyond Medicare                        Sec. 3410(g)     $     8B      Yr 2    3
-  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   345B
+  Millionaire surtax: 5% of income above $1M, plus 3% above $5M                        Sec. 3410(j)     $    51B      Yr 1    1
+  Corporate income tax rate 21% to 28%                                                 Sec. 3410(k)     $    80B      Yr 1    1
+  340B-acquired drugs paid at average sales price minus 22.5%                          Sec. 3410(l)     $    10B      Yr 2    2
+  Graduate medical education grant growing at CPI-U minus 1                            Sec. 3410(m)     $    16B      Yr 2    5
+  End Medicare payment for hospital bad debt                                           Sec. 3410(n)     $     6B      Yr 2    4
+  Medicare Advantage benchmarks reduced 10%                                            Sec. 3410(o)     $    67B      Yr 2    2
+  TOTAL AT FULL EFFECT (first-year dollars)                                                             $   575B
 
   Fiscal year       Sec. 3406 core   Sec. 3410 plan   Interest savings   Total      Cumulative
-  Year 1  (FY2028)  $  108B          $   46B          $   0B            $  154B   $   154B
-  Year 2  (FY2029)  $   77B          $   91B          $   5B            $  173B   $   326B
-  Year 3  (FY2030)  $   37B          $  139B          $  11B            $  187B   $   514B
-  Year 4  (FY2031)  $    4B          $  191B          $  18B            $  213B   $   726B
-  Year 5  (FY2032)  $    2B          $  243B          $  25B            $  271B   $   997B
-  Year 6  (FY2033)  $   -0B          $  293B          $  35B            $  328B   $  1325B
-  Year 7  (FY2034)  $   -3B          $  341B          $  46B            $  384B   $  1709B
-  Year 8  (FY2035)  $   -5B          $  391B          $  60B            $  446B   $  2155B
-  Year 9  (FY2036)  $   -8B          $  440B          $  75B            $  507B   $  2662B
-  Year 10 (FY2037)  $  -11B          $  491B          $  93B            $  573B   $  3235B
+  Year 1  (FY2028)  $  115B          $  178B          $   0B            $  292B   $   292B
+  Year 2  (FY2029)  $   91B          $  272B          $  10B            $  373B   $   666B
+  Year 3  (FY2030)  $   58B          $  374B          $  23B            $  455B   $  1120B
+  Year 4  (FY2031)  $   30B          $  440B          $  39B            $  509B   $  1630B
+  Year 5  (FY2032)  $   29B          $  508B          $  57B            $  594B   $  2224B
+  Year 6  (FY2033)  $   28B          $  573B          $  78B            $  678B   $  2902B
+  Year 7  (FY2034)  $   27B          $  631B          $ 102B            $  759B   $  3661B
+  Year 8  (FY2035)  $   25B          $  693B          $ 128B            $  847B   $  4508B
+  Year 9  (FY2036)  $   24B          $  754B          $ 158B            $  936B   $  5444B
+  Year 10 (FY2037)  $   22B          $  818B          $ 191B            $ 1031B   $  6476B
 
-  Ten-year combined deficit reduction: $2.9T before interest savings; $3.2T including interest savings (range $2.3T to $3.8T).
-  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($542.4B, $533.0B, a surplus of $9.4B, $345B) are first-year dollars. The Year 10 plan figure ($491B) is the $345B schedule grown 4 percent a year for nine years.
+  Ten-year combined deficit reduction: $5.7T before interest savings; $6.5T including interest savings (range $5.6T to $7.0T).
+  DOLLAR BASIS: Amounts in the ten-year tables are nominal dollars of each fiscal year. Full-effect and full-ramp figures elsewhere in this Schedule ($526.4B, $495.0B, a surplus of $31.4B, $575B) are first-year dollars. The Year 10 plan figure ($818B) is the nominal value of the $575B full-effect plan.
 
   MODELED DEFICIT COMPARED WITH STATUTORY LIMITS (percent of GDP; CBO February 2026 baseline less the total above):
-  Year 4  (FY2031, end of the first presidential term):  modeled about 5.4 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
-  Year 8  (FY2035, end of the second presidential term): modeled about 5.2 percent; limit 3.0 percent (Sec. 3406(f)(2)(B)).
-  Deficit reduction over the first eight years, including interest savings: about $2.2 trillion.
-  The modeled path does not by itself meet either limit. The remaining amount, about 0.9 percent of GDP in Year 4 and 2.2 percent in Year 8, is to be provided by a Fiscal Target Act or by the automatic adjustments of Sec. 3406(f)(4), which are limited to 0.5 percent of GDP in new adjustments a year and exempt the programs protected by Sec. 3406(f)(5).
+  Year 4  (FY2031, end of the first presidential term):  modeled about 4.6 percent; limit 4.5 percent (Sec. 3406(f)(2)(A)).
+  Year 8  (FY2035, end of the second presidential term): modeled about 4.3 percent; limit 3.0 percent (Sec. 3406(f)(2)(B)).
+  Deficit reduction over the first eight years, including interest savings: about $4.5 trillion.
+  PRIMARY BALANCE (Sec. 3406(f)(2)(E); CBO baseline primary deficit less the direct deficit reduction above, $B, positive is a primary deficit): Year 4 267; Year 7 257; Year 8 41; Year 9 193. CBO's baseline primary deficit is unusually low in FY2035 ($760B, against $915B in FY2034 and $971B in FY2036), so the modeled primary deficit returns to about $193B in Year 9; that amount is closed under Sec. 3406(f)(4) together with the limit of Sec. 3406(f)(2)(B).
+  The modeled path does not by itself meet either deficit limit. The remaining amount, about 0.1 percent of GDP in Year 4 and 1.3 percent in Year 8, is to be provided by a Fiscal Target Act or by the automatic adjustments of Sec. 3406(f)(4), which are limited to 0.5 percent of GDP in new adjustments a year.
   Growth effects of reshoring, permitting and infrastructure are not included. By the Congressional Budget Office's published rule of thumb, growth 0.1 percentage point a year faster than projected reduces ten-year deficits by roughly $300 billion.
 
   OPEN-STANDARDS SCORING: Individual income and payroll tax provisions (Secs. 2408, 2420(a), 2421, 3410(e)) were scored with the open-source Tax-Calculator model (Policy Simulation Library, version 6.9, public CPS file, current-law baseline including Public Law 119-21) and adjusted for behavioral response; Social Security provisions against published estimates of the SSA Office of the Chief Actuary (2025 Trustees Report); spending options against CBO, Options for Reducing the Deficit: 2025 to 2034. Scripts and inputs are published with the datasets.
 
-  RELATIONSHIP TO SECTION 3406(f): Section 3406, which includes the middle-class tax relief of Section 2421, roughly breaks even; Section 3410 provides most of the deficit reduction, and together they lower the CBO baseline deficit by roughly one-sixth by the tenth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
+  RELATIONSHIP TO SECTION 3406(f): Section 3406, which includes the middle-class tax relief of Section 2421, pays for itself; Section 3410 provides most of the deficit reduction, and together they lower the CBO baseline deficit by roughly one-third by the tenth year and bring borrowing for anything other than interest close to zero by the eighth year. The deficit limits of Section 3406(f) are reached through that reduction together with any Fiscal Target Act enacted by Congress or, failing enactment, the automatic adjustments of Section 3406(f)(4).
 
 4B. ACT DEPENDENCIES.
 
-  The 41 operative titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp). Act I costs include the middle-class tax relief of Sec. 2421 ($85.3B), the household energy credits of Sec. 2410(c)(1) ($42.5B) and the Strategic Compute Node of Sec. 3408 ($7.7B). Act III includes the science title ($30B). Act V includes the global health fund ($8B) and the Press Freedom Monitor.
+  The 41 operative titles are organized into five acts for introduction. Costs and revenue below are the Scenario A figures of sections 2 and 3, assigned to the act that contains the provision (billions, first-year dollars, full ramp). Act I costs include the middle-class tax relief of Sec. 2421 ($85.3B), the household energy credits of Sec. 2410(c)(1) ($42.5B) and the Strategic Compute Node of Sec. 3408 ($7.7B). The science title (Act III) and the global health fund (Act V) are funded within the appropriations limits of Sec. 3410(d).
 
   Act                                         Titles                                   Revenue   Costs    Net
-  Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $533.4B   $185.5B  +$347.9B
+  Act I   Fiscal Integrity                    0, XXIV, XXXIV                           $517.4B   $185.5B  +$331.9B
   Act II  Health Security                     XIII, XXI, XXV                           $  0.0B   $169.4B  -$169.4B
-  Act III Economic Security                   II, V, XIV, XV, XXII, XXXVII, XXXVIII    $  0.0B   $110.1B  -$110.1B
+  Act III Economic Security                   II, V, XIV, XV, XXII, XXXVII, XXXVIII    $  0.0B   $ 80.1B  -$ 80.1B
   Act IV  Supply Chain Security               VII, VIII, IX, XII, XVII, XXIII          $  0.0B   $ 40.0B  -$ 40.0B
-  Act V   Accountability and Data Rights      all other titles                         $  9.0B   $ 28.0B  -$ 19.0B
-  Total                                                                                $542.4B   $533.0B  +$  9.4B
+  Act V   Accountability and Data Rights      all other titles                         $  9.0B   $ 20.0B  -$ 11.0B
+  Total                                                                                $526.4B   $495.0B  +$ 31.4B
 
-  Act I also contains the Fiscal Sustainability Plan (Sec. 3410, $345B a year at full effect) and the deficit limits (Sec. 3406(f)). The five acts together reduce the deficit before Sec. 3410; with Sec. 3410 they reduce it further.
+  Act I also contains the Fiscal Sustainability Plan (Sec. 3410, $575B a year at full effect) and the deficit limits (Sec. 3406(f)). The five acts together reduce the deficit before Sec. 3410; with Sec. 3410 they reduce it further.
 
   STATUS OF EACH ACT IF INTRODUCED SEPARATELY:
   Act I: independently viable. It reduces the deficit on its own.
-  Act II: viable with companion revenue of not less than $170B, for example Secs. 2411, 2412, 2413, 2420(b) and 2420(c) ($175B).
-  Act III: viable with companion revenue of not less than $111B, for example Secs. 2402, 2403, 2406, 2409, 2414 and 2420(d) ($115.4B).
+  Act II: viable with companion revenue of not less than $170B, for example Secs. 2411, 2412, 2413 and 2420(b) through (d) ($174B).
+  Act III: viable with companion revenue of not less than $81B, for example Secs. 2406 and 2409 ($82B).
   Act IV: viable with companion revenue of not less than $40B, for example Sec. 2410 net of its household credits ($42.5B).
-  Act V: viable with companion revenue of not less than $20B, for example Secs. 2405, 2414 and 2415 ($25B).
+  Act V: viable with companion revenue of not less than $21B, for example Secs. 2405, 2414 and 2415 ($25B).
   Revenue under Sec. 2408 is credited to the Social Security Trust Funds and is not available as companion revenue for any act.
 
   SHARED DEPENDENCIES: The SIRF is established in Title II (Act III) and its allocation rules in Title XXXIV (Act I). An act that moves without Title II shall be funded by direct appropriation of its companion revenue. The FMIA (Title I, Act V) administers the fraud-recovery streams of Title I; Act I's tax enforcement under Sec. 2406 does not depend on it. Acts introduced separately lose the coordination savings of the full Act, and each shall be scored on its own terms.
@@ -5358,7 +5362,8 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
 
   Provision                                   Max annual draw    Source
   ---------------------------------------------------------------------------------
-  Title XXXVII  Science, Research, Talent     $30.0B            SIRF Tier 3 (cap, Sec. 3707)
+  Title XXXVII  Science, Research, Talent     $ 0.0B            Appropriations within the caps of
+                                                                Sec. 3410(d) (Sec. 3410(p))
   Title XXXVIII Child care + apprenticeship   $16.0B            SIRF Tier 3 (cap, Sec. 3805)
   Title XXXVIII Paid family & medical leave   $ 0.0B            Self-financed 0.8% payroll
                                                                 contribution; trust fund
@@ -5367,13 +5372,13 @@ Schedule G provides the line-by-line build-up of the revenue, program cost, and 
   Sec. 1403     Build More Homes Bonus        within existing   Shelter Security Fund
   Sec. 1710     Pre-disaster mitigation       within existing   Stafford Act set-aside
                                                     ----------
-  MAXIMUM NEW SIRF TIER 3 DRAW:                     $51.0B
+  MAXIMUM NEW SIRF TIER 3 DRAW:                     $21.0B
 
   COVERAGE UNDER THE CONSERVATIVE FLOOR (SCENARIO B):
-  Scenario B revenue (Section 4):                           $442.3B
-  Tier 1+2 obligations plus maximum modernization draw:     $233.4B
-  Coverage ratio:                                           1.90x
-  High-confidence streams only: $116.2B / $233.4B = 0.50x
+  Scenario B revenue (Section 4):                           $429.5B
+  Tier 1+2 obligations plus maximum modernization draw:     $203.4B
+  Coverage ratio:                                           2.11x
+  High-confidence streams only: $116.2B / $203.4B = 0.57x
 
   Each modernization title is capped, may draw only on Tier 3 capacity, and requires OMB
   certification that it does not increase the deficit under Scenario B. If Scenario B
