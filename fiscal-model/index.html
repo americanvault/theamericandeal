@@ -9,20 +9,21 @@
 <link rel="canonical" href="https://theamericandeal.org/fiscal-model/" />
 <meta name="robots" content="index, follow" />
 <meta name="author" content="Santonio D. Sanders" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+<link rel="manifest" href="/site.webmanifest?v=2" />
 <meta name="theme-color" content="#0b2545" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://theamericandeal.org/fiscal-model/" />
 <meta property="og:site_name" content="TheAmericanDeal.org" />
 <meta property="og:title" content="The 7-Subledger Fiscal Model — NSRA" />
 <meta property="og:description" content="Adjust the assumptions and see the modeled revenue and deficit reduction. For reviewers and economists." />
-<meta property="og:image" content="https://theamericandeal.org/og-image.png" />
+<meta property="og:image" content="https://theamericandeal.org/og-image.png?v=2" />
 <meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="The 7-Subledger Fiscal Model — NSRA" />
 <meta name="twitter:description" content="Interactive fiscal model: adjust realization, toggle streams, see the result." />
-<meta name="twitter:image" content="https://theamericandeal.org/og-image.png" />
+<meta name="twitter:image" content="https://theamericandeal.org/og-image.png?v=2" />
 <meta name="twitter:site" content="@NSRA2028" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,700;0,8..60,800;1,8..60,700&display=swap" />
@@ -153,8 +154,8 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     </div>
     <div class="ctl">
       <label>Program spending funded by revenue ($B/yr)</label>
-      <input type="number" id="prog" value="392.7" min="0" step="1" />
-      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The tax-side costs, including the middle-class tax cut, $140B, are listed with the streams below, so the total cost in Section 3406 is $533B.</div>
+      <input type="number" id="prog" value="354.7" min="0" step="1" />
+      <div style="font-size:11px;color:var(--muted);margin-top:4px">Health plan, infrastructure, household energy credits, child accounts and other programs, net of Medicare payment-integrity savings (Schedule G, section 3). The tax-side costs, including the middle-class tax cut, $140B, are listed with the streams below, so the total cost in Section 3406 is $495B.</div>
     </div>
     <h2 style="margin-top:22px">Revenue &amp; Cost Streams</h2>
     <div class="streams" id="streams"></div>
@@ -171,11 +172,11 @@ footer.legacy{border-top:1px solid var(--border);padding:24px;text-align:center;
     <div class="out"><div class="big b" id="oDef">$0B</div><div class="lbl">Modeled annual deficit reduction, with the Sec. 3410 plan at full effect</div></div>
     <div class="rowout"><span>Gross revenue (active streams)</span><span id="rGross">$0B</span></div>
     <div class="rowout"><span>&times; realization rate</span><span id="rReal">100%</span></div>
-    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$393B</span></div>
+    <div class="rowout"><span>&minus; program spending</span><span id="rProg">$355B</span></div>
     <div class="rowout"><span>Active streams</span><span id="rCount">0</span></div>
     <div class="vs" id="vs"></div>
     <div class="note" style="margin-top:18px">
-      <b>Published central estimate (version 2026.8):</b> ~$542B in annual revenue at full ramp · ~$345B a year from the Fiscal Sustainability Plan at full effect · programs and the $85B middle-class tax cut paid for by the bill's revenue before the plan · ~$3.2T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
+      <b>Published central estimate (version 2026.8):</b> ~$526B in annual revenue at full ramp · ~$575B a year from the Fiscal Sustainability Plan at full effect · programs and the $85B middle-class tax cut paid for by the bill's revenue before the plan · ~$6.5T over ten years including lower interest costs · deficit limits of 4.5% of GDP by Year&nbsp;4 and 3% by Year&nbsp;10 under Sec.&nbsp;3406(f). With all streams on at full realization, this model reproduces those figures. Move the sliders to see the sensitivity.
     </div>
   </div>
 </div>
@@ -197,7 +198,7 @@ var STREAMS=[
  {n: "Social Security payroll tax on wages above $400,000 (Sec. 2408)", v: 105},
  {n: "IRS enforcement, net of investment returns (Sec. 2406)", v: 35},
  {n: "Carbon fee, $40/ton indexed (net budgetary receipts) (Sec. 2410)", v: 85},
- {n: "Global minimum tax (Pillar Two / UTPR) (Sec. 2411)", v: 50},
+ {n: "Minimum tax on foreign earnings at the domestic rate, country by country (Sec. 2411)", v: 34},
  {n: "Financial transaction tax 0.1% (Sec. 2413)", v: 75},
  {n: "Carryover basis above $5M (Sec. 2412)", v: 15},
  {n: "Federal royalty modernization (Sec. 2414)", v: 12},
@@ -214,7 +215,7 @@ var STREAMS=[
  {n: "Corporate base broadening: FDDEI deduction, LIFO, fossil-fuel preferences, advertising (Sec. 2409(c-f))", v: 47},
  {n: "Student-loan zero-interest conversion (net of interest not collected under IDR) (cost)", v: -55, cost: true},
  {n: "Middle-class tax relief: 12% bracket to 10%, recaptured above $400K / $450K joint (cost)", v: -85.3, cost: true},
- {n: "Fiscal Sustainability Plan, Sec. 3410 (full effect)", v: 345.2, plan: true}
+ {n: "Fiscal Sustainability Plan, Sec. 3410 (full effect)", v: 575.0, plan: true}
 ];
 function fmt(x){var s=(x<0?"-":"")+"$"+Math.abs(x).toFixed(0)+"B";return s;}
 function render(){
@@ -227,7 +228,7 @@ function render(){
  });
 }
 function setAll(v){STREAMS.forEach(function(s,i){s.on=v;var el=document.getElementById('s'+i);if(el)el.checked=v;});calc();}
-function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=392.7;render();calc();}
+function resetAll(){STREAMS.forEach(function(s){s.on=true;});document.getElementById('real').value=100;document.getElementById('prog').value=354.7;render();calc();}
 function calc(){
  var real=+document.getElementById('real').value;
  var prog=+document.getElementById('prog').value||0;
@@ -245,7 +246,7 @@ function calc(){
  document.getElementById('rCount').textContent=count;
  var pct=Math.round(def/369*100);
  var vs=document.getElementById('vs');
- if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published full-effect estimate ($345B a year with the Sec. 3410 plan), and remains <b style="color:var(--green)">net-positive</b>.';}
+ if(def>0){vs.innerHTML='This scenario delivers <b style="color:var(--green)">'+pct+'%</b> of the published full-effect estimate ($575B a year with the Sec. 3410 plan), and remains <b style="color:var(--green)">net-positive</b>.';}
  else{vs.innerHTML='This scenario is <b style="color:var(--red)">net-negative</b>: revenue no longer covers program spending under these assumptions.';}
 }
 STREAMS.forEach(function(s){s.on=true;});
