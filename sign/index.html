@@ -12,11 +12,12 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
 
   <!-- Favicons -->
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" />
+<link rel="manifest" href="/site.webmanifest?v=2" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png?v=2" />
   <meta name="theme-color" content="#0b2545" />
 
   <!-- Open Graph -->
@@ -25,17 +26,17 @@
   <meta property="og:site_name"   content="TheAmericanDeal.org" />
   <meta property="og:title"       content="America Is Years Behind. Here Is the Bill That Fixes It. · NSRA" />
   <meta property="og:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal bill for the 120th Congress and 2028 candidates. $0-deductible coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, a path to federal R&amp;D at 1% of GDP, and permits on a fixed clock. Official scoring pending." />
-  <meta property="og:image"       content="https://theamericandeal.org/og-image.png" />
+  <meta property="og:image"       content="https://theamericandeal.org/og-image.png?v=2" />
   <meta property="og:image:width"  content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt"   content="NSRA · TheAmericanDeal, What America Owes You™" />
+  <meta property="og:image:alt"   content="The American Deal: The promise the country can actually keep. Lower costs, stock trading ban, balanced budget." />
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="NSRA · TheAmericanDeal · What America Owes You™" />
+  <meta name="twitter:title"       content="America Is Years Behind. Here Is the Bill That Fixes It. · NSRA" />
   <meta name="twitter:description" content="The National Sovereignty and Resilience Act (NSRA): a sponsor-ready federal bill for the 120th Congress and 2028 candidates. $0-deductible coverage, G7 drug pricing, a congressional stock trading ban, an institutional homebuyer cap, self-funded paid leave, a path to federal R&amp;D at 1% of GDP, and permits on a fixed clock. Official scoring pending." />
   <meta name="twitter:site"        content="@NSRA2028" />
-  <meta name="twitter:image"       content="https://theamericandeal.org/og-image.png" />
+  <meta name="twitter:image"       content="https://theamericandeal.org/og-image.png?v=2" />
 
   <!-- Structured Data: Legislation -->
 
@@ -665,9 +666,9 @@
   // ══════════════════════════════════════════════════════════════
   var NSRA_FIGURES = {
     // Revenue & fiscal (Schedule G)
-    annualRevenueB:    635,         // $B Year 1 total scored revenue
-    revenueStreams:    19,          // number of scored streams
-    deficitReductionB: 189,        // $B true annual deficit reduction
+    annualRevenueB:    526,         // $B Year 1 total scored revenue
+    revenueStreams:    18,          // number of scored streams
+    deficitReductionB: 31,        // $B true annual deficit reduction
     balanceYear:       4,          // Year balanced budget achieved (central est.)
     balanceRange:      'Yr 3–5', // display range string
 
@@ -683,7 +684,7 @@
 
     // Bill structure
     titles:   40,
-    sections: 260,
+    sections: 280,
   };
 
   // Render all hero stats from NSRA_FIGURES
@@ -972,7 +973,7 @@
       'I am calling to urge ' + repName + ' to support\n' +
       'the National Sovereignty and Resilience Act -- the NSRA.\n\n' +
       'This bill delivers $0-deductible health coverage with no premium for working families,\n' +
-      'G7 pharmaceutical price parity, a middle-class tax cut, and $3.2 trillion in\n' +
+      'G7 pharmaceutical price parity, a middle-class tax cut, and $6.5 trillion in\n' +
       'ten-year deficit reduction without cutting Social Security\n' +
       'or Medicare.\n\n' +
       'The full text is at TheAmericanDeal.org. I ask that the\n' +
@@ -991,7 +992,7 @@
   }
 
   function buildShareLinks(firstName) {
-    var shareText = encodeURIComponent('I just signed the NSRA -- The American Deal. Universal healthcare, G7 pharma prices, a middle-class tax cut, $3.2T in deficit cuts. What America Owes You -- TheAmericanDeal.org');
+    var shareText = encodeURIComponent('I just signed the NSRA -- The American Deal. Universal healthcare, G7 pharma prices, a middle-class tax cut, $6.5T in deficit cuts. What America Owes You -- TheAmericanDeal.org');
     var x  = document.getElementById('share-x');
     var th = document.getElementById('share-threads');
     var tr = document.getElementById('share-truth');
