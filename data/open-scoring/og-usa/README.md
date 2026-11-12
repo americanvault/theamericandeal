@@ -17,7 +17,20 @@ We ran OG-USA, the open-source overlapping-generations model of the U.S. economy
 The bill raises about 2.3% of GDP in revenue and returns about 1.8% as transfers, including the middle-class tax relief; the rest reduces the deficit. Households in roughly the bottom 70% of lifetime income consume more from Year 1. The economy is smaller at first and debt falls more slowly than in the v2026.5 bill, because less of the revenue goes to deficit reduction (see Sensitivity).
 
 
-## Update: current bill (v2026.11, run "fullC", November 9, 2026)
+## Update: current bill (v2026.12, run "fullD", November 9, 2026)
+
+Same model and accounting as "fullC", plus the primary-balance package of Sec. 3410(j)-(p): the millionaire surtax ($51.1B, entered on top incomes through the wealth-tax proxy used for the bill's other top-income measures), the 28% corporate rate ($80.5B, entered as revenue-equivalent on the corporate rate), the 340B, graduate medical education, bad-debt and Medicare Advantage benchmark measures ($98.2B at full effect, entered as lower prices paid for the same care), and science and the global health fund paid for inside the appropriations caps.
+
+| | Year 1 | Year 5 | Year 10 | Year 20 |
+|---|---|---|---|---|
+| GDP, % change | -2.22 | -2.10 | -1.80 | -1.21 |
+| Private investment, % change | -5.20 | -3.13 | -2.66 | -0.84 |
+| Hours worked, % change | -1.72 | -1.50 | -1.25 | -1.02 |
+| Federal debt, points of GDP | +2.3 | -2.5 | -8.7 | -22.5 |
+
+Consumption in Year 10 by lifetime-income group: bottom 25% +1.81%, 25-50 +1.07%, 50-70 +0.20%, 70-90 -0.21% to -0.38%, 90-99 -1.24%, top 1% -2.48% to -11.29%. Compared with "fullC", the higher corporate rate deepens the early drop in investment, and faster debt reduction brings most of it back by Year 20. Files: results2_DEP_fullD.json, run_nsra6.py.
+
+## Update: previous bill (v2026.11, run "fullC", November 9, 2026)
 
 Same model and accounting as "fullB", with Titles III, XXVII, XXXI, XXXII, XXXIII and XXXVII and Sec. 3408 back in the bill: science funding ($30B a year) and the Strategic Compute Node ($7.7B) enter as public investment; the global health fund ($8B), the Press Freedom Monitor and the one-time dollar-security funds ($2.5B in Year 1) enter as government purchases with no domestic productivity effect.
 
