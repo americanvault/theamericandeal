@@ -1,0 +1,337 @@
+{
+ "variant": "fullD",
+ "macro": [
+  {
+   "year": 1,
+   "Y": -2.22,
+   "C": 0.22,
+   "I": -5.2,
+   "K": -3.4,
+   "L": -1.72,
+   "w": -0.51,
+   "r_pts": -0.107,
+   "debt_gdp_pts": 2.3,
+   "revenue_gdp_pts": 2.62,
+   "transfers_gdp_pts": 1.19,
+   "G_gdp_pts": -0.11,
+   "fte_thousand": -2855
+  },
+  {
+   "year": 2,
+   "Y": -2.23,
+   "C": 0.09,
+   "I": -4.53,
+   "K": -3.52,
+   "L": -1.66,
+   "w": -0.57,
+   "r_pts": -0.094,
+   "debt_gdp_pts": 1.0,
+   "revenue_gdp_pts": 2.62,
+   "transfers_gdp_pts": 1.52,
+   "G_gdp_pts": -0.37,
+   "fte_thousand": -2756
+  },
+  {
+   "year": 3,
+   "Y": -2.21,
+   "C": -0.01,
+   "I": -3.97,
+   "K": -3.58,
+   "L": -1.61,
+   "w": -0.6,
+   "r_pts": -0.082,
+   "debt_gdp_pts": -0.2,
+   "revenue_gdp_pts": 2.62,
+   "transfers_gdp_pts": 1.75,
+   "G_gdp_pts": -0.61,
+   "fte_thousand": -2673
+  },
+  {
+   "year": 5,
+   "Y": -2.1,
+   "C": -0.18,
+   "I": -3.13,
+   "K": -3.59,
+   "L": -1.5,
+   "w": -0.61,
+   "r_pts": -0.063,
+   "debt_gdp_pts": -2.5,
+   "revenue_gdp_pts": 2.6,
+   "transfers_gdp_pts": 1.99,
+   "G_gdp_pts": -0.82,
+   "fte_thousand": -2490
+  },
+  {
+   "year": 10,
+   "Y": -1.8,
+   "C": -0.49,
+   "I": -2.66,
+   "K": -3.42,
+   "L": -1.25,
+   "w": -0.55,
+   "r_pts": -0.041,
+   "debt_gdp_pts": -8.7,
+   "revenue_gdp_pts": 2.6,
+   "transfers_gdp_pts": 1.99,
+   "G_gdp_pts": -1.2,
+   "fte_thousand": -2075
+  },
+  {
+   "year": 20,
+   "Y": -1.21,
+   "C": -0.61,
+   "I": -0.84,
+   "K": -2.64,
+   "L": -1.02,
+   "w": -0.19,
+   "r_pts": -0.063,
+   "debt_gdp_pts": -22.5,
+   "revenue_gdp_pts": 2.63,
+   "transfers_gdp_pts": 1.99,
+   "G_gdp_pts": -1.2,
+   "fte_thousand": -1693
+  },
+  {
+   "year": 30,
+   "Y": -1.63,
+   "C": -0.9,
+   "I": -5.56,
+   "K": -3.95,
+   "L": -1.05,
+   "w": -0.59,
+   "r_pts": 0.03,
+   "debt_gdp_pts": -8.8,
+   "revenue_gdp_pts": 2.59,
+   "transfers_gdp_pts": 1.99,
+   "G_gdp_pts": 1.1,
+   "fte_thousand": -1743
+  },
+  {
+   "year": 50,
+   "Y": -1.86,
+   "C": -1.51,
+   "I": -5.35,
+   "K": -5.05,
+   "L": -0.83,
+   "w": -1.03,
+   "r_pts": 0.126,
+   "debt_gdp_pts": -1.0,
+   "revenue_gdp_pts": 2.55,
+   "transfers_gdp_pts": 1.99,
+   "G_gdp_pts": 0.35,
+   "fte_thousand": -1378
+  }
+ ],
+ "avg_gdp_pct_y1_10": -2.05,
+ "cum_gdp_change_10yr_billion": -8358,
+ "max_resource_constraint_error": 0.0003166996121216972,
+ "by_income_group": {
+  "year_1": {
+   "0-25": {
+    "consumption_pct": 1.95,
+    "hours_pct": -3.06
+   },
+   "25-50": {
+    "consumption_pct": 1.21,
+    "hours_pct": -2.55
+   },
+   "50-70": {
+    "consumption_pct": 0.56,
+    "hours_pct": -2.1
+   },
+   "70-80": {
+    "consumption_pct": 0.35,
+    "hours_pct": -1.87
+   },
+   "80-90": {
+    "consumption_pct": 0.01,
+    "hours_pct": -1.64
+   },
+   "90-99": {
+    "consumption_pct": -0.17,
+    "hours_pct": -1.1
+   },
+   "99-99.5": {
+    "consumption_pct": -0.86,
+    "hours_pct": -0.15
+   },
+   "99.5-99.9": {
+    "consumption_pct": -1.71,
+    "hours_pct": 0.22
+   },
+   "99.9-99.99": {
+    "consumption_pct": -3.94,
+    "hours_pct": 0.18
+   },
+   "top 0.01": {
+    "consumption_pct": -7.27,
+    "hours_pct": -1.32
+   }
+  },
+  "year_10": {
+   "0-25": {
+    "consumption_pct": 1.81,
+    "hours_pct": -3.28
+   },
+   "25-50": {
+    "consumption_pct": 1.07,
+    "hours_pct": -2.8
+   },
+   "50-70": {
+    "consumption_pct": 0.2,
+    "hours_pct": -2.24
+   },
+   "70-80": {
+    "consumption_pct": -0.21,
+    "hours_pct": -1.88
+   },
+   "80-90": {
+    "consumption_pct": -0.38,
+    "hours_pct": -1.73
+   },
+   "90-99": {
+    "consumption_pct": -1.24,
+    "hours_pct": -0.64
+   },
+   "99-99.5": {
+    "consumption_pct": -2.48,
+    "hours_pct": 0.94
+   },
+   "99.5-99.9": {
+    "consumption_pct": -3.87,
+    "hours_pct": 2.21
+   },
+   "99.9-99.99": {
+    "consumption_pct": -6.89,
+    "hours_pct": 3.62
+   },
+   "top 0.01": {
+    "consumption_pct": -11.29,
+    "hours_pct": 3.01
+   }
+  },
+  "year_20": {
+   "0-25": {
+    "consumption_pct": 2.21,
+    "hours_pct": -3.43
+   },
+   "25-50": {
+    "consumption_pct": 1.36,
+    "hours_pct": -2.84
+   },
+   "50-70": {
+    "consumption_pct": 0.35,
+    "hours_pct": -2.2
+   },
+   "70-80": {
+    "consumption_pct": -0.17,
+    "hours_pct": -1.8
+   },
+   "80-90": {
+    "consumption_pct": -0.21,
+    "hours_pct": -1.72
+   },
+   "90-99": {
+    "consumption_pct": -1.58,
+    "hours_pct": -0.38
+   },
+   "99-99.5": {
+    "consumption_pct": -3.31,
+    "hours_pct": 1.6
+   },
+   "99.5-99.9": {
+    "consumption_pct": -5.26,
+    "hours_pct": 3.33
+   },
+   "99.9-99.99": {
+    "consumption_pct": -9.13,
+    "hours_pct": 5.35
+   },
+   "top 0.01": {
+    "consumption_pct": -14.48,
+    "hours_pct": 5.15
+   }
+  }
+ },
+ "by_age_consumption_pct": {
+  "year_1": {
+   "21-34": 0.92,
+   "35-49": -0.13,
+   "50-64": -0.12,
+   "65-100": 0.51
+  },
+  "year_10": {
+   "21-34": 1.06,
+   "35-49": -0.46,
+   "50-64": -1.12,
+   "65-100": -0.92
+  }
+ },
+ "generations_lifetime_consumption_pct": {
+  "age 65 in Year 1": {
+   "0-25": -0.19,
+   "25-50": -0.45,
+   "50-70": -0.65,
+   "70-80": -0.59,
+   "80-90": -0.52,
+   "90-99": -1.52,
+   "99-99.5": -2.13,
+   "99.5-99.9": -2.23,
+   "99.9-99.99": -2.72,
+   "top 0.01": -5.3,
+   "all": -1.08
+  },
+  "age 45 in Year 1": {
+   "0-25": 1.32,
+   "25-50": 0.46,
+   "50-70": -0.29,
+   "70-80": -0.99,
+   "80-90": -0.86,
+   "90-99": -2.33,
+   "99-99.5": -4.39,
+   "99.5-99.9": -6.82,
+   "99.9-99.99": -11.37,
+   "top 0.01": -16.41,
+   "all": -1.59
+  },
+  "age 25 in Year 1": {
+   "0-25": 2.2,
+   "25-50": 1.24,
+   "50-70": 0.35,
+   "70-80": -0.21,
+   "80-90": -0.3,
+   "90-99": -1.79,
+   "99-99.5": -4.13,
+   "99.5-99.9": -6.75,
+   "99.9-99.99": -11.59,
+   "top 0.01": -17.7,
+   "all": -0.83
+  },
+  "turns 21 in Year 10": {
+   "0-25": 2.19,
+   "25-50": 1.48,
+   "50-70": 0.43,
+   "70-80": -0.2,
+   "80-90": -0.26,
+   "90-99": -1.95,
+   "99-99.5": -4.49,
+   "99.5-99.9": -7.07,
+   "99.9-99.99": -11.82,
+   "top 0.01": -17.85,
+   "all": -0.83
+  },
+  "turns 21 in Year 20": {
+   "0-25": 2.13,
+   "25-50": 1.32,
+   "50-70": 0.3,
+   "70-80": -0.33,
+   "80-90": -0.38,
+   "90-99": -2.13,
+   "99-99.5": -4.8,
+   "99.5-99.9": -7.51,
+   "99.9-99.99": -12.41,
+   "top 0.01": -18.6,
+   "all": -1.0
+  }
+ }
+}
